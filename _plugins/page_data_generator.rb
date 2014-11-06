@@ -5,9 +5,8 @@ module Jekyll
     def generate(site)
       files = get_data_files
       files.each do |file|
-        puts file
         data = YAML.load_file(file)
-        add_counts data
+        add_links_counts data
         update_item_page_data site, file, data
         update_list_page_data site, file, data unless file == '_data/index.yml'
       end
@@ -23,18 +22,18 @@ module Jekyll
       files
     end
 
-    def add_counts(data)
-      add_count data, 'work'
-      add_count data, 'skills'
-      add_count data, 'contact'
-      add_count data, 'projects'
-      add_count data, 'languages'
-      add_count data, 'tools'
-      add_count data, 'os'
+    def add_links_counts(data)
+      add_links_count data, 'work'
+      add_links_count data, 'skills'
+      add_links_count data, 'contact'
+      add_links_count data, 'projects'
+      add_links_count data, 'languages'
+      add_links_count data, 'tools'
+      add_links_count data, 'os'
     end
 
-    def add_count(data, field)
-      data["#{field}_count"] = data[field].size unless data[field].nil?
+    def add_links_count(data, field)
+      data["#{field}_count"] = data['links'][field].size unless data['links'][field].nil?
     end
 
     def update_item_page_data(site, file, data)

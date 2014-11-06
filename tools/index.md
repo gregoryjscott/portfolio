@@ -23,8 +23,6 @@ I prefer the open source variety.
 
   <p>{{ tool.desc }}</p>
 
-  count: {{ tool.projects_count }}
-
   {% include links.md resource=tool %}
 {% endfor %}
 </section>
