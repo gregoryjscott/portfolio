@@ -1,10 +1,10 @@
-url: /languages/cs
 title: C#
+url: /languages/cs
 desc: The language used to target the .NET and Mono platforms.
 links:
   projects:
-    - url: /projects/qb
-      title: Quality Bank
+    - title: Quality Bank
+      url: /projects/qb
 
-    - url: /projects/simpler
-      title: Simpler
+    - title: Simpler
+      url: /projects/simpler

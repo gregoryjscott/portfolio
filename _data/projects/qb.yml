@@ -6,16 +6,16 @@ begin_year: 2010
 end_year: 2011
 links:
   languages:
-    - url: /languages/cs
-      title: C#
+    - title: C#
+      url: /languages/cs
 
-    - url: /languages/js
-      title: JavaScript
+    - title: JavaScript
+      url: /languages/js
 
   tools:
-    - url: /tools/backbone
-      title: Backbone.js
+    - title: Backbone.js
+      url: /tools/backbone
 
   os:
-    - url: /os/windows
-      title: Windows
+    - title: Windows
+      url: /os/windows
