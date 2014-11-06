@@ -1,0 +1,7 @@
+url: /languages/js
+title: JavaScript
+desc: The language of the browser (and much more).
+links:
+  projects:
+    - url: /projects/qb
+      title: Quality Bank

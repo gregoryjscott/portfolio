@@ -1,0 +1,10 @@
+title: Windows
+url: /os/windows
+desc: The worst operating system ever?
+links:
+  projects:
+    - title: Simpler
+      url: /projects/simpler
+
+    - title: Quality Bank
+      url: /projects/qb

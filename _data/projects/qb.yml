@@ -1,0 +1,21 @@
+title: Quality Bank
+url: /projects/qb
+desc: Summary sentence about Quality Bank.
+role: Technical Lead
+begin_year: 2010
+end_year: 2011
+links:
+  languages:
+    - url: /languages/cs
+      title: C#
+
+    - url: /languages/js
+      title: JavaScript
+
+  tools:
+    - url: /tools/backbone
+      title: Backbone.js
+
+  os:
+    - url: /os/windows
+      title: Windows

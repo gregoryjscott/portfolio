@@ -1,0 +1,14 @@
+title: Simpler
+url: /tools/simpler
+desc: A Simpler approach to C# class design.
+links:
+  projects:
+    - title: Quality Bank
+      url: /projects/qb
+
+    - title: Fake
+      url: /projects/qb
+
+  languages:
+    - title: C#
+      url: /languages/cs

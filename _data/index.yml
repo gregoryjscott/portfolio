@@ -1,0 +1,34 @@
+key: home
+url: /
+title: Hi, I'm Greg. I use software to make our world a better place.
+desc: The website of Gregory J. Scott.
+links:
+  work:
+    - title: Projects
+      url: /projects
+
+    - title: Resume
+      url: /resume
+
+    - title: GitHub
+      url: https://github.com/gregoryjscott
+
+  skills:
+    - title: Languages
+      url: /languages
+
+    - title: Tools
+      url: /tools
+
+    - title: Operating Systems
+      url: /os
+
+    - title: Databases
+      url: /db
+
+  contact:
+    - title: Email
+      url: mailto:me@gregoryjscott.com
+
+    - title: Twitter
+      url: https://twitter.com/gregoryjscott

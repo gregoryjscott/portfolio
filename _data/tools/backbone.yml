@@ -1,0 +1,11 @@
+title: Backbone.js
+url: /tools/backbone
+desc: Library for organizing JavaScript code.
+links:
+  projects:
+    - title: Quality Bank
+      url: /projects/qb
+
+  languages:
+    - title: JavaScript
+      url: /languages/js

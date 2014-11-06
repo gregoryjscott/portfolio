@@ -1,0 +1,20 @@
+title: Simpler
+url: /projects/simpler
+desc: Summary sentence about Simpler.
+role: Author
+begin_year: 2010
+end_year:
+links:
+  languages:
+    - title: C#
+      url: /languages/cs
+
+  os:
+    - title: Windows
+      url: /os/windows
+
+    - title: OSX
+      url: /os/osx
+
+    - title: Linux
+      url: /os/linux

@@ -1,0 +1,7 @@
+title: Linux
+url: /os/linux
+desc: The dominant operating system.
+links:
+  projects:
+    - title: Simpler
+      url: /projects/simpler

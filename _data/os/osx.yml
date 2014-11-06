@@ -1,0 +1,7 @@
+title: OSX
+url: /os/osx
+desc: The operating system for Apple computers.
+links:
+  projects:
+    - title: Simpler
+      url: /projects/simpler
