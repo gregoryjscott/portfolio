@@ -17,15 +17,15 @@ layout: default
 </header>
 
 <section markdown="1">
-{% include skills.md %}
+{% include resume/skills.md %}
 </section>
 
 <section markdown="1">
-{% include experience.md %}
+{% include resume/experience.md %}
 </section>
 
 <section markdown="1">
-{% include education.md %}
+{% include resume/education.md %}
 </section>
 
 [g]: http://gregoryjscott.com
