@@ -20,6 +20,8 @@ I like to learn new languages!
 {% for language in list reversed %}
   <h1><a href="{{ language.url }}">{{ language.title }}</a></h1>
 
+  {% if language.todo %} *NEEDS WORK* {% endif %}
+
   <p>{{ language.desc }}</p>
 
   {% include links.md resource=language %}

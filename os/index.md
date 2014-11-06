@@ -21,6 +21,8 @@ Linux is already the future.
 {% for os in list reversed %}
   <h1><a href="{{ os.url }}">{{ os.title }}</a></h1>
 
+  {% if os.todo %} *NEEDS WORK* {% endif %}
+
   <p>{{ os.desc }}</p>
 
   {% include links.md resource=os %}

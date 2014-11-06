@@ -21,6 +21,8 @@ I prefer the open source variety.
 {% for tool in list reversed %}
   <h1><a href="{{ tool.url }}">{{ tool.title }}</a></h1>
 
+  {% if tool.todo %} *NEEDS WORK* {% endif %}
+
   <p>{{ tool.desc }}</p>
 
   {% include links.md resource=tool %}

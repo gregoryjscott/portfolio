@@ -20,6 +20,8 @@ Postgres has won.
 {% for db in list reversed %}
   <h1><a href="{{ db.url }}">{{ db.title }}</a></h1>
 
+  {% if db.todo %} *NEEDS WORK* {% endif %}
+
   <p>{{ db.desc }}</p>
 
   {% include links.md resource=db%}
