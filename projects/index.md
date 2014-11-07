@@ -27,12 +27,15 @@ Alternatively, you can explore by skills such as [languages](/languages) and [to
 
   <p>
   <em>
-    {{ project.role }}, {{ project.begin_year }} -
-      {% if project.end_year %}
-        {{ project.end_year }}
-      {% else %}
-        present
-      {% endif %}
+    {{ project.role }},
+    {{ project.begin_year }}
+      {% unless project.begin_year == project.end_year %} -
+        {% if project.end_year %}
+          {{ project.end_year }}
+        {% else %}
+          present
+        {% endif %}
+      {% endunless %}
   </em>
   </p>
 
