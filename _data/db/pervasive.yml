@@ -4,5 +4,14 @@ url: /db/pervasive
 desc: TODO
 links:
   projects:
-    - title: TODO
-      url: /projects/todo
+    - title: Class Scheduler
+      url: /projects/class-scheduler
+
+    - title: Wen-GAGE Student Information
+      url: /projects/wengage-si
+
+    - title: Wen-GAGE Accounting
+      url: /projects/wengage-acct
+
+    - title: SIF Agent
+      url: /projects/sif-agent
