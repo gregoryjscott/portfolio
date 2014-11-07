@@ -4,5 +4,8 @@ url: /db/sqlite
 desc: TODO
 links:
   projects:
-    - title: TODO
-      url: /projects/todo
+    - title: Please
+      url: /projects/please
+
+    - title: ScrambleScore
+      url: /projects/scramble-score

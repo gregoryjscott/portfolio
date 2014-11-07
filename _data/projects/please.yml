@@ -11,8 +11,8 @@ links:
       url: /languages/todo
 
   db:
-    - title: TODO
-      url: /tools/todo
+    - title: SQLite
+      url: /db/sqlite
 
   os:
     - title: TODO
