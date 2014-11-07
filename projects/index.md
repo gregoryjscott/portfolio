@@ -19,7 +19,7 @@ Alternatively, you can explore by skills such as [languages](/languages) and [to
 </section>
 
 <section>
-{% assign list = page.projects | sort: 'begin_date' | sort: 'end_date', 'last' %}
+{% assign list = page.projects | sort: 'begin_year' | sort: 'end_year', 'last' %}
 {% for project in list reversed %}
   <h1><a href="{{ project.url }}">{{ project.title }}</a></h1>
 
@@ -27,9 +27,9 @@ Alternatively, you can explore by skills such as [languages](/languages) and [to
 
   <p>
   <em>
-    {{ project.role }}, {{ project.begin_date }} -
-      {% if project.end_date %}
-        {{ project.end_date }}
+    {{ project.role }}, {{ project.begin_year }} -
+      {% if project.end_year %}
+        {{ project.end_year }}
       {% else %}
         present
       {% endif %}

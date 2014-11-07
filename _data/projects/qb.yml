@@ -3,8 +3,8 @@ title: Quality Bank
 url: /projects/qb
 desc: Summary sentence about Quality Bank.
 role: Technical Lead
-begin_date: 2010
-end_date: 2012
+begin_year: 2010
+end_year: 2012
 links:
   languages:
     - title: C#
