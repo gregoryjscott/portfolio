@@ -4,5 +4,8 @@ url: /db/postgres
 desc: TODO
 links:
   projects:
-    - title: TODO
-      url: /projects/todo
+    - title: Denver Schedules API
+      url: /projects/denver-schedules-api
+
+    - title: ScrambleScore
+      url: /projects/scramble-score

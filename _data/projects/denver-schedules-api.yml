@@ -11,8 +11,8 @@ links:
       url: /languages/todo
 
   db:
-    - title: TODO
-      url: /tools/todo
+    - title: Postgres
+      url: /db/postgres
 
   os:
     - title: TODO
