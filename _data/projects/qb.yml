@@ -13,7 +13,7 @@ links:
     - title: JavaScript
       url: /languages/js
 
-  tools:
+  db:
     - title: Backbone.js
       url: /tools/backbone
 
