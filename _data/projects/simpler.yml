@@ -3,8 +3,8 @@ title: Simpler
 url: /projects/simpler
 desc: Summary sentence about Simpler.
 role: Author
-begin_year: 2010
-end_year:
+begin_date: 2010
+end_date:
 links:
   languages:
     - title: C#
