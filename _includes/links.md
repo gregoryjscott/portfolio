@@ -4,6 +4,6 @@
   {% include link-li.md label='contact' links=include.resource.links.contact %}
   {% include link-li.md label='projects' links=include.resource.links.projects show_count=true %}
   {% include link-li.md label='languages' links=include.resource.links.languages show_count=true %}
-  {% include link-li.md label='tools' links=include.resource.links.tools show_count=true %}
+  {% include link-li.md label='db' links=include.resource.links.db show_count=true %}
   {% include link-li.md label='os' links=include.resource.links.os show_count=true %}
 </ul>

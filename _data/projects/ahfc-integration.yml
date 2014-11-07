@@ -11,8 +11,8 @@ links:
       url: /languages/todo
 
   db:
-    - title: TODO
-      url: /tools/todo
+    - title: SQL Server
+      url: /db/sql-server
 
   os:
     - title: TODO

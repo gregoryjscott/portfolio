@@ -14,8 +14,8 @@ links:
       url: /languages/js
 
   db:
-    - title: Backbone.js
-      url: /tools/backbone
+    - title: SQL Server
+      url: /db/sql-server
 
   os:
     - title: Windows

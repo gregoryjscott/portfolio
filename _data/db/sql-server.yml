@@ -6,3 +6,21 @@ links:
   projects:
     - title: Quality Bank
       url: /projects/qb
+
+    - title: AEA Energy Map
+      url: /projects/aea-energy-map
+
+    - title: Alaska Gasline Development Corporation
+      url: /projects/agdc
+
+    - title: AHFC Integration
+      url: /projects/ahfc-integration
+
+    - title: Scrum Tools
+      url: /projects/scrum-tools
+
+    - title: Systems Portal
+      url: /projects/systems-portal
+
+    - title: TrainBuilder
+      url: /projects/train-builder
