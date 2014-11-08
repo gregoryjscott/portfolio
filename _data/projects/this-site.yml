@@ -7,8 +7,8 @@ begin_year: 2014
 end_year:
 links:
   languages:
-    - title: TODO
-      url: /languages/todo
+    - title: CSS
+      url: /languages/css
 
   db:
     - title: TODO

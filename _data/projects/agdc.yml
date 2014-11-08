@@ -7,8 +7,11 @@ begin_year: 2013
 end_year: 2014
 links:
   languages:
-  - title: C#
-    url: /languages/cs
+    - title: C#
+      url: /languages/cs
+
+    - title: CSS
+      url: /languages/css
 
   db:
     - title: SQL Server
