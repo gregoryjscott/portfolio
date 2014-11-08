@@ -20,9 +20,6 @@ links:
       url: /languages/rb
 
   db:
-    - title: SQLite
-      url: /db/sqlite
-
     - title: Postgres
       url: /db/postgres
 
