@@ -10,6 +10,9 @@ links:
     - title: C#
       url: /languages/cs
 
+    - title: SQL
+      url: /languages/sql
+
   db:
     - title: Pervasive
       url: /db/pervasive

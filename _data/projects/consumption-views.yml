@@ -7,11 +7,11 @@ begin_year: 2009
 end_year: 2009
 links:
   languages:
-    - title: TODO
-      url: /languages/todo
-
     - title: Transact-SQL
       url: /languages/tsql
+
+    - title: SQL
+      url: /languages/sql
 
   db:
     - title: Oracle

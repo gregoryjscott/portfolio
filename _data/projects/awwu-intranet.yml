@@ -21,6 +21,10 @@ links:
 
     - title: Transact-SQL
       url: /languages/tsql
+
+    - title: SQL
+      url: /languages/sql
+
   db:
     - title: Oracle
       url: /db/oracle

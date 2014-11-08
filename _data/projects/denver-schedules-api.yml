@@ -13,6 +13,9 @@ links:
     - title: Ruby
       url: /languages/rb
 
+    - title: SQL
+      url: /languages/sql
+
   db:
     - title: Postgres
       url: /db/postgres

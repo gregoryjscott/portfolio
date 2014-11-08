@@ -25,6 +25,9 @@ links:
     - title: Ruby
       url: /languages/rb
 
+    - title: SQL
+      url: /languages/sql
+
   db:
     - title: SQL Server
       url: /db/sql-server

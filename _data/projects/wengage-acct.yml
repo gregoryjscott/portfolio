@@ -10,6 +10,9 @@ links:
     - title: Delphi
       url: /languages/delphi
 
+    - title: SQL
+      url: /languages/sql
+
   db:
     - title: Btrieve
       url: /db/btrieve
