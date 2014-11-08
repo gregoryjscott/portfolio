@@ -4,5 +4,14 @@ url: /os/osx
 desc: The operating system for Apple computers.
 links:
   projects:
+    - title: Centroid
+      url: /projects/centroid
+
+    - title: Denver Schedules API
+      url: /projects/denver-schedules-api
+
+    - title: ScrambleScore
+      url: /projects/scramble-score
+
     - title: Simpler
       url: /projects/simpler

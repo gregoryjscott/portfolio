@@ -27,5 +27,11 @@ links:
       url: /db/postgres
 
   os:
+    - title: Windows
+      url: /os/windows
+
+    - title: OSX
+      url: /os/osx
+
     - title: Linux
       url: /os/linux
