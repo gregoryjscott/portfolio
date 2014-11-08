@@ -4,5 +4,14 @@ url: /os/linux
 desc: The dominant operating system.
 links:
   projects:
+    - title: Centroid
+      url: /projects/centroid
+
+    - title: Denver Schedules API
+      url: /projects/denver-schedules-api
+
+    - title: ScrambleScore
+      url: /projects/scramble-score
+
     - title: Simpler
       url: /projects/simpler

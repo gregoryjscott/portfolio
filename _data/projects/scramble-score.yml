@@ -27,5 +27,5 @@ links:
       url: /db/postgres
 
   os:
-    - title: TODO
-      url: /os/todo
+    - title: Linux
+      url: /os/linux

@@ -21,5 +21,11 @@ links:
       url: /db/todo
 
   os:
-    - title: TODO
-      url: /os/todo
+    - title: Windows
+      url: /os/windows
+
+    - title: OSX
+      url: /os/osx
+
+    - title: Linux
+      url: /os/linux
