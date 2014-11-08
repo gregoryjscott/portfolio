@@ -7,8 +7,8 @@ begin_year: 1999
 end_year: 1999
 links:
   languages:
-    - title: TODO
-      url: /languages/todo
+    - title: Delphi
+      url: /languages/delphi
 
   db:
     - title: Btrieve
