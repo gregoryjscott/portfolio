@@ -10,6 +10,9 @@ links:
     - title: CSS
       url: /languages/css
 
+    - title: HTML
+      url: /languages/html
+
   db:
     - title: SQLite
       url: /db/sqlite

@@ -16,6 +16,9 @@ links:
     - title: CSS
       url: /languages/css
 
+    - title: HTML
+      url: /languages/html
+
   db:
     - title: SQL Server
       url: /db/sql-server
