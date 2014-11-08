@@ -12,7 +12,7 @@ links:
 
   db:
     - title: TODO
-      url: /tools/todo
+      url: /db/todo
 
   os:
     - title: TODO

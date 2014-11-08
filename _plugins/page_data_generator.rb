@@ -28,7 +28,6 @@ module Jekyll
       add_links_count data, 'contact'
       add_links_count data, 'projects'
       add_links_count data, 'languages'
-      add_links_count data, 'tools'
       add_links_count data, 'os'
     end
 

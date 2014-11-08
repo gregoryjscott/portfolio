@@ -15,7 +15,7 @@ title: Projects
 <section markdown="1">
 My projects with most recent projects listed at the top. Select any project for more details.
 
-Alternatively, you can explore by skills such as [languages](/languages) and [tools](/tools) using the links underneath each project.
+Alternatively, you can explore by skill such as [language](/languages) using the links underneath each project.
 </section>
 
 <section>
