@@ -7,8 +7,8 @@ begin_year: 2012
 end_year: 2014
 links:
   languages:
-    - title: TODO
-      url: /languages/todo
+    - title: C#
+      url: /languages/cs
 
   db:
     - title: SQLite
