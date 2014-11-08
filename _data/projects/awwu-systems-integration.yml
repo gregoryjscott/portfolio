@@ -10,6 +10,9 @@ links:
     - title: C#
       url: /languages/cs
 
+    - title: Transact-SQL
+      url: /languages/tsql
+
   db:
     - title: Oracle
       url: /db/oracle

@@ -4,5 +4,20 @@ url: /languages/plsql
 desc: Oracle Corporation's procedural language extension for SQL and the Oracle relational database.
 links:
   projects:
-    - title: TODO
-      url: /projects/todo
+    - title: AWWU Employee Suggestion
+      url: /projects/awwu-employee-suggestion
+
+    - title: AWWU Intranet
+      url: /projects/awwu-intranet
+
+    - title: AWWU Systems Integration
+      url: /projects/awwu-systems-integration
+
+    - title: Consumption Views
+      url: /projects/consumption-views
+
+    - title: Database Synchronization (AWWU)
+      url: /projects/database-sync-awwu
+
+    - title: Service Order Mobile Dispatch
+      url: /projects/somd
