@@ -12,6 +12,10 @@ links:
 
     - title: Python
       url: /languages/py
+
+    - title: Ruby
+      url: /languages/rb
+
   db:
     - title: TODO
       url: /db/todo

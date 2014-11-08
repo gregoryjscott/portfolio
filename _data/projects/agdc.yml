@@ -22,6 +22,9 @@ links:
     - title: Python
       url: /languages/py
 
+    - title: Ruby
+      url: /languages/rb
+
   db:
     - title: SQL Server
       url: /db/sql-server

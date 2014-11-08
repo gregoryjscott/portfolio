@@ -16,6 +16,9 @@ links:
     - title: JavaScript
       url: /languages/js
 
+    - title: Ruby
+      url: /languages/rb
+
   db:
     - title: SQLite
       url: /db/sqlite

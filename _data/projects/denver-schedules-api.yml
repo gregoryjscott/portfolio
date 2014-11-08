@@ -10,6 +10,9 @@ links:
     - title: C#
       url: /languages/cs
 
+    - title: Ruby
+      url: /languages/rb
+
   db:
     - title: Postgres
       url: /db/postgres

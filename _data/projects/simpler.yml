@@ -10,6 +10,9 @@ links:
     - title: C#
       url: /languages/cs
 
+    - title: Ruby
+      url: /languages/rb
+
   os:
     - title: Windows
       url: /os/windows

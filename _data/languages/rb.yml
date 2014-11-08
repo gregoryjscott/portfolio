@@ -1,0 +1,26 @@
+todo: true
+title: Ruby
+url: /languages/rb
+desc: TODO
+links:
+  projects:
+    - title: Alaska Gasline Development Corporation
+      url: /projects/agdc
+
+    - title: Centroid
+      url: /projects/centroid
+
+    - title: Denver Schedules API
+      url: /projects/denver-schedules-api
+
+    - title: Please
+      url: /projects/please
+
+    - title: ScrambleScore
+      url: /projects/scramble-score
+
+    - title: Simpler
+      url: /projects/simpler
+
+    - title: This Site
+      url: /projects/this-site
