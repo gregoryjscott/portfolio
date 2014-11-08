@@ -4,5 +4,20 @@ url: /languages/tsql
 desc: Microsoft's and Sybase's proprietary extension to SQL.
 links:
   projects:
-    - title: TODO
-      url: /projects/todo
+    - title: AEA Energy Map
+      url: /projects/aea-energy-map
+
+    - title: Alaska Gasline Development Corporation
+      url: /projects/agdc
+
+    - title: AHFC Integration
+      url: /projects/ahfc-integration
+
+    - title: Quality Bank
+      url: /projects/qb
+
+    - title: Scrum Tools
+      url: /projects/scrum-tools
+
+    - title: Systems Portal
+      url: /projects/systems-portal

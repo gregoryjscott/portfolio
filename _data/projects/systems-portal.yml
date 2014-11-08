@@ -22,6 +22,9 @@ links:
     - title: SQL
       url: /languages/sql
 
+    - title: Transact-SQL
+      url: /languages/tsql
+
   db:
     - title: SQL Server
       url: /db/sql-server
