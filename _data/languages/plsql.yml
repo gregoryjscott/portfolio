@@ -1,0 +1,8 @@
+todo: true
+title: PL/SQL
+url: /languages/plsql
+desc: Oracle Corporation's procedural language extension for SQL and the Oracle relational database.
+links:
+  projects:
+    - title: TODO
+      url: /projects/todo

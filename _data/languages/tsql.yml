@@ -1,0 +1,8 @@
+todo: true
+title: Transact-SQL
+url: /languages/tsql
+desc: Microsoft's and Sybase's proprietary extension to SQL.
+links:
+  projects:
+    - title: TODO
+      url: /projects/todo
