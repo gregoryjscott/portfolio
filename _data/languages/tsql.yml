@@ -4,8 +4,8 @@ url: /languages/tsql
 desc: Microsoft's and Sybase's proprietary extension to SQL.
 links:
   projects:
-    - title: AEA Energy Map
-      url: /projects/aea-energy-map
+    - title: Energy Efficiency Map
+      url: /projects/energy-efficiency-map
 
     - title: Alaska Gasline Development Corporation
       url: /projects/agdc

@@ -4,8 +4,8 @@ url: /languages/sql
 desc: TODO
 links:
   projects:
-    - title: AEA Energy Map
-      url: /projects/aea-energy-map
+    - title: Energy Efficiency Map
+      url: /projects/energy-efficiency-map
 
     - title: Alaska Gasline Development Corporation
       url: /projects/agdc
@@ -13,8 +13,8 @@ links:
     - title: AHFC Integration
       url: /projects/ahfc-integration
 
-    - title: AWWU Employee Suggestion
-      url: /projects/awwu-employee-suggestion
+    - title: Employee Suggestions
+      url: /projects/employee-suggestions
 
     - title: AWWU Intranet
       url: /projects/awwu-intranet
