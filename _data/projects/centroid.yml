@@ -10,6 +10,8 @@ links:
     - title: C#
       url: /languages/cs
 
+    - title: Python
+      url: /languages/py
   db:
     - title: TODO
       url: /db/todo

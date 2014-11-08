@@ -4,5 +4,8 @@ url: /languages/py
 desc: TODO
 links:
   projects:
-    - title: TODO
-      url: /projects/todo
+    - title: Alaska Gasline Development Corporation
+      url: /projects/agdc
+
+    - title: Centroid
+      url: /projects/centroid

@@ -19,6 +19,9 @@ links:
     - title: JavaScript
       url: /languages/js
 
+    - title: Python
+      url: /languages/py
+
   db:
     - title: SQL Server
       url: /db/sql-server
