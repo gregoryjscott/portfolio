@@ -18,5 +18,5 @@ links:
       url: /db/sql-server
 
   os:
-    - title: TODO
-      url: /os/todo
+    - title: Windows
+      url: /os/windows

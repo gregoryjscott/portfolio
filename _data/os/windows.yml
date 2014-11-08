@@ -4,8 +4,89 @@ url: /os/windows
 desc: The worst operating system ever?
 links:
   projects:
-    - title: Simpler
-      url: /projects/simpler
+    - title: AEA Energy Map
+      url: /projects/aea-energy-map
+
+    - title: Alaska Gasline Development Corporation
+      url: /projects/agdc
+
+    - title: AHFC Integration
+      url: /projects/ahfc-integration
+
+    - title: AWWU Employee Suggestion
+      url: /projects/awwu-employee-suggestion
+
+    - title: AWWU Intranet
+      url: /projects/awwu-intranet
+
+    - title: AWWU Job Scheduler
+      url: /projects/awwu-job-scheduler
+
+    - title: AWWU Systems Integration
+      url: /projects/awwu-systems-integration
+
+    - title: Bit Proposal
+      url: /projects/bit-proposal
+
+    - title: Centroid
+      url: /projects/centroid
+
+    - title: CIS Data Capture
+      url: /projects/cis-data-capture
+
+    - title: Consumption Views
+      url: /projects/consumption-views
+
+    - title: Database Synchronization (AWWU)
+      url: /projects/database-sync-awwu
+
+    - title: Denver Schedules API
+      url: /projects/denver-schedules-api
+
+    - title: FLIR Monitoring System
+      url: /projects/flir-monitoring
+
+    - title: Lasar Range Finder
+      url: /projects/lasar-range-finder
+
+    - title: MvcIntegrationTestFramework
+      url: /projects/mvc-integration-test-framework
+
+    - title: Please
+      url: /projects/please
 
     - title: Quality Bank
       url: /projects/qb
+
+    - title: ReportEngine
+      url: /projects/report-engine
+
+    - title: SAR Reports
+      url: /projects/sar-reports
+
+    - title: ScrambleScore
+      url: /projects/scramble-score
+
+    - title: Scrum Tools
+      url: /projects/scrum-tools
+
+    - title: SIF Agent
+      url: /projects/sif-agent
+
+    - title: Simpler
+      url: /projects/simpler
+
+    - title: Service Order Mobile Dispatch
+      url: /projects/somd
+
+    - title: Systems Portal
+      url: /projects/systems-portal
+
+    - title: TrainBuilder
+      url: /projects/train-builder
+
+    - title: Wen-GAGE Student Information
+      url: /projects/wengage-si
+
+    - title: Wen-GAGE Accounting
+      url: /projects/wengage-acct
