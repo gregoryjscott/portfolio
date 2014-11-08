@@ -7,8 +7,8 @@ begin_year: 1998
 end_year: 1999
 links:
   languages:
-    - title: TODO
-      url: /languages/todo
+    - title: Ada 95
+      url: /languages/ada
 
   db:
     - title: TODO
