@@ -10,14 +10,14 @@ links:
     - title: C#
       url: /languages/cs
 
-    - title: JavaScript
-      url: /languages/js
-
     - title: CSS
       url: /languages/css
 
     - title: HTML
       url: /languages/html
+
+    - title: JavaScript
+      url: /languages/js
 
   db:
     - title: SQL Server

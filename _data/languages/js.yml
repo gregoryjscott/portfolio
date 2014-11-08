@@ -4,5 +4,26 @@ url: /languages/js
 desc: The language of the browser (and much more).
 links:
   projects:
+    - title: AEA Energy Map
+      url: /projects/aea-energy-map
+
+    - title: Alaska Gasline Development Corporation
+      url: /projects/agdc
+
+    - title: AWWU Intranet
+      url: /projects/awwu-intranet
+
     - title: Quality Bank
       url: /projects/qb
+
+    - title: ScrambleScore
+      url: /projects/scramble-score
+
+    - title: Scrum Tools
+      url: /projects/scrum-tools
+
+    - title: Service Order Mobile Dispatch
+      url: /projects/somd
+
+    - title: Systems Portal
+      url: /projects/systems-portal

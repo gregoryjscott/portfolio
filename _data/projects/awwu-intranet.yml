@@ -16,6 +16,9 @@ links:
     - title: HTML
       url: /languages/html
 
+    - title: JavaScript
+      url: /languages/js
+
   db:
     - title: Oracle
       url: /db/oracle
