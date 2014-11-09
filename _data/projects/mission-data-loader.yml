@@ -10,10 +10,6 @@ links:
     - title: Ada 95
       url: /languages/ada
 
-  db:
-    - title: TODO
-      url: /db/todo
-
   os:
     - title: Solaris
       url: /os/solaris

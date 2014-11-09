@@ -4,5 +4,8 @@ url: /db/access
 desc: TODO
 links:
   projects:
-    - title: TODO
-      url: /projects/todo
+    - title: FLIR Monitoring System
+      url: /projects/flir-monitoring
+
+    - title: Lasar Range Finder
+      url: /projects/lasar-range-finder

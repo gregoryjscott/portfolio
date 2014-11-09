@@ -16,10 +16,6 @@ links:
     - title: Ruby
       url: /languages/rb
 
-  db:
-    - title: TODO
-      url: /db/todo
-
   os:
     - title: Windows
       url: /os/windows
