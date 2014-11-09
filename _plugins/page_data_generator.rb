@@ -32,7 +32,9 @@ module Jekyll
     end
 
     def add_links_count(data, field)
-      data["#{field}_count"] = data['links'][field].size unless data['links'][field].nil?
+      unless data['links'].nil? or data['links'][field].nil?
+        data["#{field}_count"] = data['links'][field].size
+      end
     end
 
     def update_item_page_data(site, file, data)
