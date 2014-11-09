@@ -16,10 +16,9 @@ links:
     - title: Ruby
       url: /languages/rb
 
-  db:
-    - title: TODO
-      url: /db/todo
-
   os:
-    - title: TODO
-      url: /os/todo
+    - title: OSX
+      url: /os/osx
+
+    - title: Linux
+      url: /os/linux
