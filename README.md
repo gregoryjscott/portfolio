@@ -8,7 +8,7 @@ It is built with technologies like git, YAML, JSON, Markdown, and Jekyll.
 
 It's totally a work in progress. Most of the content is "TODO". I'm a developer and this is my project so I did the programming first.
 
-## data
+## Data
 
 Data is stored in the [`_data`](_data) folder following Jekyll's Data Files convention. I'm not actually using the built-in Data Files functionality of Jekyll (see the [plugins](#plugins) section to learn how the data is used), but maybe I will later and I needed some place to put it.
 
@@ -32,15 +32,15 @@ Contains one data file for each operating system. Each one has a corresponding c
 
 Contains one data file for each project. Each one has a corresponding content file in `projects/`.
 
-## examples
+## Examples
 
 Example data files are in the [`_eg`](_eg) directory. They can be used as a template for new data files.
 
-## views
+## Views
 
 The views produce the HTML pages that are published to the web. The views are made up of three concepts - content, layouts, and includes.
 
-### content
+### Content
 
 The content is stored in Markdown files with a `.md` extension. They can optionally have a corresponding data file. Content shouldn't define data - it's purpose is to display it, describe it, etc. The data is obviously important, but perhaps not as important as _good_ content.
 
@@ -76,23 +76,23 @@ The resume view is a special case that combines all the data and content into a 
 
 The home page.
 
-### layouts
+### Layouts
 
 Each content file results in a complete standalone HTML web page. One could create each page manually but the boilerplate HTML surrounding the specific content is often the same between sets of pages. Layouts allow for defining that boilerplate HTML and then just referencing it from the content files. This allows the content to be free of layout and writers can just focus on producing great content.
 
 Layouts are stored in the [`_layouts`](_layouts) directory.
 
-### includes
+### Includes
 
 Includes are related to layouts in that they are designed to capture repeated content, however includes are included in your content, where layouts wrap your content.
 
 Includes are stored in the [`_includes`](_includes) directory.
 
-## style
+## Style
 
 Style is defined as cascading stylesheets in the [`css`](css) folder. For now.
 
-## plugins
+## Plugins
 
 The [`_plugins`](_plugins) directory stores Jekyll plugins. There is one custom Jekyll plugin in play - `page_data_generator`. It currently traverses the data files, adds some counts used by the views for sorting, and injects the data into its corresponding page. For example, if the `_data/languages/js.yml` file contains a field called `desc`, then `languages/js.md` can access its value using `page.desc`.
 
