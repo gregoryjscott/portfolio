@@ -1,8 +1,8 @@
 # me
 
-**Me** is my attempt to put my data on the web.
+**Me** is my data on the web.
 
-The current vision is to use hypermedia to combine my resume, my skills matrix, and my own version of a [technology radar](http://www.thoughtworks.com/radar).
+The current vision is to use hypermedia to combine my resume, my skills matrix, and my own version of a [technology radar](http://www.thoughtworks.com/radar). However, I
 
 It's totally a work in progress. Most of the content is TODO. I'm a developer and this is my project so I did the programming first.
 
@@ -18,7 +18,7 @@ Jekyll lets you organize your site into concepts such as data, content, style, a
 
 Data is defined in YAML files with a `.yml` extension. Data files are designed to be consumed by machines (software), but YAML is simple enough to be read and edited by humans.
 
-Each data file must have a corresponding [content file](#content) that displays the data, along with  additional content intended for humans.
+Each data file must have a corresponding [content file](#content) that renders the data along with content intended for humans.
 
 Data files are stored in the [`_data`](_data) folder, following Jekyll's Data Files convention. The `_data` directory is essentially the database for the website.
 
@@ -26,19 +26,19 @@ Data files are stored in the [`_data`](_data) folder, following Jekyll's Data Fi
 
 ### [`_data/db/`](_data/db)
 
-Contains one data file for each database. Each one has a corresponding content file in `db/`.
+Contains one data file for each database. Each one has a corresponding content file in [`db/`](db).
 
 ### [`_data/languages/`](_data/languages)
 
-Contains one data file for each language. Each one has a corresponding content file in `languages/`.
+Contains one data file for each language. Each one has a corresponding content file in [`languages/`](languages).
 
 ### [`_data/os/`](_data/os)
 
-Contains one data file for each operating system. Each one has a corresponding content file in `os/`.
+Contains one data file for each operating system. Each one has a corresponding content file in [`os/`](os).
 
 ### [`_data/projects/`](_data/projects)
 
-Contains one data file for each project. Each one has a corresponding content file in `projects/`.
+Contains one data file for each project. Each one has a corresponding content file in [`projects/`](projects).
 
 ### Examples
 
@@ -46,7 +46,7 @@ Example data files are in the [`_eg`](_eg) directory. They can be used as a temp
 
 ## Content
 
-The content is stored in Markdown files with a `.md` extension. They can optionally have a corresponding data file. Content shouldn't define data - it's purpose is to display it, describe it, etc. The data is obviously important, but perhaps not as important as _good_ content.
+Content is defined in Markdown files with a `.md` extension. They can optionally have a corresponding data file. Content shouldn't define data - it's purpose is to display it, describe it, etc. The data is obviously important, but perhaps not as important as _good_ content.
 
 Content is written by humans for humans. This means that good writing is what makes good content. One reason for extracting the content into simple Markdown files is to make it easier for writers to contribute content. Writers don't need be concerned with layout and can focus on creating great content.
 
@@ -54,31 +54,39 @@ Content can also contain hyperlinks to related content, either within this web s
 
 Content is organized into directories at the root of the project. The Jekyll build process uses the directory and file names to produce the URLs of the website. For example, the file `languages/js.md` becomes the website page at `http://gregoryjscott/languages/js`.
 
-Finally, there is a [`index.md`](index.md) file at the root that is the home page of the web site. The home page is the front door to the content.
+Finally, there is a [`index.md`](index.md) file at the root that is the home page of the web site.
 
 ### [`db/`](db)
 
-Contains one content file for each database. Each one has a corresponding data file in `_data/db/`. There is also an `index.md` file that displays all databases.
+Contains one content file for each database. Each one has a corresponding data file in [`_data/db/`](_data/db).
+
+`db/` also contains an [`index.md`](db/index.md) file that displays all databases.
 
 ### [`languages/`](languages)
 
-Contains one content file for each language. Each one has a corresponding data file in `_data/languages/`. There is also an `index.md` file that displays all languages.
+Contains one content file for each language. Each one has a corresponding data file in [`_data/languages/`](_data/languages).
+
+`languages/` also contains an [`index.md`](languages/index.md) file that displays all languages.
 
 ### [`os/`](os)
 
-Contains one content file for each operating system. Each one has a corresponding data file in `_data/os/`. There is also an `index.md` file that displays all operating systems.
+Contains one content file for each operating system. Each one has a corresponding data file in [`_data/os/`](_data/os).
+
+`os/` also contains an [`index.md`](os/index.md) file that displays all operating systems.
 
 ### [`projects/`](projects)
 
-Contains one content file for each projects. Each one has a corresponding data file in `_data/projects/`. There is also an `index.md` file that displays all projects.
+Contains one content file for each projects. Each one has a corresponding data file in [`_data/projects/`](_data/projects).
+
+`projects/` also contains an [`index.md`](projects/index.md) file that displays all projects.
 
 ### [`resume/`](resume)
 
-The resume view is a special case that combines all the data and content into a resume format.
+The resume page is a special case that combines all the data and content into a resume format.
 
 ### [`index.md`](index.md)
 
-The home page.
+The home page is the front door to the content.
 
 ## Layouts
 
