@@ -90,6 +90,8 @@ Style is defined as cascading stylesheets in the [`css`](css) folder. For now.
 
 ## Plugins
 
-The [`_plugins`](_plugins) directory stores Jekyll plugins. There is one custom Jekyll plugin in play - `page_data_generator`. It currently traverses the data files, adds some counts used by the views for sorting, and injects the data into its corresponding page. For example, if the `_data/languages/js.yml` file contains a field called `desc`, then `languages/js.md` can access its value using `page.desc`.
+The [`_plugins`](_plugins) directory stores Jekyll plugins. There is one custom Jekyll plugin in play - [`PageDataGenerator`](_plugins/page_data_generator.rb).
+
+`PageDataGenerator` traverses the data files, adds fields used sorting, and then injects the data into its corresponding content page. For example, if the `_data/languages/js.yml` file contains a field called `desc`, then `languages/js.md` can access the value of `desc` using the `page.desc` property. Additionally, the `_data/languages/index.md` file will receive a `page.languages` property that contains the list of languages.
 
 I'm not proud of the code or the approach but I haven't come up with anything elegant yet.
