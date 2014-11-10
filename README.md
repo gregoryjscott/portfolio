@@ -32,15 +32,11 @@ Contains one data file for each operating system. Each one has a corresponding c
 
 Contains one data file for each project. Each one has a corresponding content file in `projects/`.
 
-## Examples
+### Examples
 
 Example data files are in the [`_eg`](_eg) directory. They can be used as a template for new data files.
 
-## Views
-
-The views produce the HTML pages that are published to the web. The views are made up of three concepts - content, layouts, and includes.
-
-### Content
+## Content
 
 The content is stored in Markdown files with a `.md` extension. They can optionally have a corresponding data file. Content shouldn't define data - it's purpose is to display it, describe it, etc. The data is obviously important, but perhaps not as important as _good_ content.
 
@@ -52,37 +48,37 @@ Content is organized into directories at the root of the project. The Jekyll bui
 
 Finally, there is a [`index.md`](index.md) file at the root that is the home page of the web site. The home page is the front door to the content.
 
-#### [`db/`](db)
+### [`db/`](db)
 
 Contains one content file for each database. Each one has a corresponding data file in `_data/db/`. There is also an `index.md` file that displays all databases.
 
-#### [`languages/`](languages)
+### [`languages/`](languages)
 
 Contains one content file for each language. Each one has a corresponding data file in `_data/languages/`. There is also an `index.md` file that displays all languages.
 
-#### [`os/`](os)
+### [`os/`](os)
 
 Contains one content file for each operating system. Each one has a corresponding data file in `_data/os/`. There is also an `index.md` file that displays all operating systems.
 
-#### [`projects/`](projects)
+### [`projects/`](projects)
 
 Contains one content file for each projects. Each one has a corresponding data file in `_data/projects/`. There is also an `index.md` file that displays all projects.
 
-#### [`resume/`](resume)
+### [`resume/`](resume)
 
 The resume view is a special case that combines all the data and content into a resume format.
 
-#### [`index.md`](index.md)
+### [`index.md`](index.md)
 
 The home page.
 
-### Layouts
+## Layouts
 
-Each content file results in a complete standalone HTML web page. One could create each page manually but the boilerplate HTML surrounding the specific content is often the same between sets of pages. Layouts allow for defining that boilerplate HTML and then just referencing it from the content files. This allows the content to be free of layout and writers can just focus on producing great content.
+Each content file results in a standalone HTML web page. One could create each standalone HTML page manually but the boilerplate HTML surrounding the content is often the same between sets of pages. Layouts allow for defining that boilerplate HTML and then just referencing it from the content files. This allows the content to be free of layout and writers can just focus on producing great content.
 
 Layouts are stored in the [`_layouts`](_layouts) directory.
 
-### Includes
+## Includes
 
 Includes are related to layouts in that they are designed to capture repeated content, however includes are included in your content, where layouts wrap your content.
 
