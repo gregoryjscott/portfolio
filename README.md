@@ -4,9 +4,15 @@ Me is my attempt to put my data on the web.
 
 The current vision is to use hypermedia to combine my resume, my skills matrix, and my own version of a [technology radar](http://www.thoughtworks.com/radar).
 
-It is built with technologies like git, YAML, JSON, Markdown, and Jekyll.
-
 It's totally a work in progress. Most of the content is "TODO". I'm a developer and this is my project so I did the programming first.
+
+## Approach
+
+Me uses [Jekyll](http://jekyllrb.com) - a static website generator. Jekyll lets you organize your site into concepts like data, content, layouts, includes, and style. Jekyll defines conventions that dictate how to name your directories and files. Jekyll's build process will combine everything and produce a website ready to be published.
+
+Me follows standard Jekyll conventions but takes a disciplined approach to how content is defined. Data is extracted from content and stored in [YAML data files](#data). [Content](#content) is written in Markdown, uses the data provided by the data files, and is kept free of layout.
+
+The files that render the content, such as [Layouts](#layout), [Includes](#include), and [Plugins](#plugins), are just regular Jekyll concepts.
 
 ## Data
 
