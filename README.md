@@ -1,26 +1,28 @@
 # me
 
-Me is my attempt to put my data on the web.
+**Me** is my attempt to put my data on the web.
 
 The current vision is to use hypermedia to combine my resume, my skills matrix, and my own version of a [technology radar](http://www.thoughtworks.com/radar).
 
-It's totally a work in progress. Most of the content is "TODO". I'm a developer and this is my project so I did the programming first.
+It's totally a work in progress. Most of the content is TODO. I'm a developer and this is my project so I did the programming first.
 
 ## Approach
 
-Me uses [Jekyll](http://jekyllrb.com) - a static website generator. Jekyll lets you organize your site into concepts like data, content, layouts, includes, and style. Jekyll defines conventions that dictate how to name your directories and files. Jekyll's build process will combine everything and produce a website ready to be published.
+**Me** uses [Jekyll](http://jekyllrb.com) - a static website generator.
 
-Me follows standard Jekyll conventions but takes a disciplined approach to how content is defined. Data is extracted from content and stored in [YAML data files](#data). [Content](#content) is written in Markdown, uses the data provided by the data files, and is kept free of layout.
+Jekyll lets you organize your site into concepts such as data, content, style, and layout. Jekyll defines conventions that dictate how to name the files and directories. Jekyll's build process will combine everything and produce a website ready to be published.
 
-The files that render the content, such as [Layouts](#layout), [Includes](#include), and [Plugins](#plugins), are just regular Jekyll concepts.
+**Me** follows standard Jekyll conventions but takes a disciplined approach to how content is defined. [Data](#data) is extracted from content and stored separately in YAML data files. [Content](#content) is written in Markdown, it uses the data provided by the data files, and is kept free of layout.
 
 ## Data
 
-Data is stored in the [`_data`](_data) folder following Jekyll's Data Files convention. I'm not actually using the built-in Data Files functionality of Jekyll (see the [plugins](#plugins) section to learn how the data is used), but maybe I will later and I needed some place to put it.
+Data is defined in YAML files with a `.yml` extension. Data files are designed to be consumed by machines (software), but YAML is simple enough to be read and edited by humans.
 
-The data is stored in YAML files with a `.yml` extension. They must have a corresponding content file (see [views](#views)) that defines how the data will be displayed. The purpose of the YAML file is to extract out the data into a separate file instead of embedding it in the view. The data files are intended for machines (software) to read and provides power for things like processing the data, transforming it to formats that tools can consume, etc.
+Each data file must have a corresponding [content file](#content) that displays the data, along with  additional content intended for humans.
 
-The `_data` directory is essentially the database for the website.
+Data files are stored in the [`_data`](_data) folder, following Jekyll's Data Files convention. The `_data` directory is essentially the database for the website.
+
+> Data is injected into the content files during the build process, therefore content files don't need to search for their data in the `site.data`  container. See the [plugins](#plugins) section to learn how the data is used.
 
 ### [`_data/db/`](_data/db)
 
@@ -80,13 +82,13 @@ The home page.
 
 ## Layouts
 
-Each content file results in a standalone HTML web page. One could create each standalone HTML page manually but the boilerplate HTML surrounding the content is often the same between sets of pages. Layouts allow for defining that boilerplate HTML and then just referencing it from the content files. This allows the content to be free of layout and writers can just focus on producing great content.
+Each content file results in a standalone HTML web page. One could create each standalone HTML page manually but the HTML markup surrounding the content is often the same between sets of pages. Layouts allow for defining that boilerplate HTML and then just referencing it from the content files. This allows the content to be free of layout and writers can just focus on producing great content.
 
 Layouts are stored in the [`_layouts`](_layouts) directory.
 
 ## Includes
 
-Includes are related to layouts in that they are designed to capture repeated content, however includes are included in your content, where layouts wrap your content.
+Includes are related to layouts in that they are designed to capture repeated markup, however includes are included in your content, where layouts wrap your content.
 
 Includes are stored in the [`_includes`](_includes) directory.
 
