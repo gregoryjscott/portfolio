@@ -12,7 +12,7 @@ It's totally a work in progress. Most of the content is TODO. I'm a developer an
 
 Jekyll makes it easy to organize your website files into concepts such as data, free-flow content, style, and layout. Jekyll defines conventions that dictate how to name the files and directories. Jekyll's build process transforms the files into a static website ready to be published to the web.
 
-**Me** follows standard Jekyll conventions but takes a more opinionated approach to how content is defined. [Data](#data) is extracted from content and stored separately in data files written in YAML. Data files have correspoding [pages files](#pages), written in Markdown, that render the data along with free-form content.
+**Me** follows standard Jekyll conventions but takes a more formal approach to how content is defined. [Data](#data) is extracted from content and stored separately in data files written in YAML. Data files have correspoding [pages files](#pages), written in Markdown, that render the data along with free-form content.
 
 ## Data
 
@@ -29,7 +29,7 @@ links:
       url: /projects/my-website
 ```
 
-Each data file must have a corresponding [page file](#pages) that will display the data. Data is injected into the pages during the build process, therefore pages don't need to search for their data in the `site.data` container. See the [plugins](#plugins) section to learn more.
+Each data file must have a corresponding [page file](#pages) that will display the data. The data is injected into the pages during the build process, therefore pages don't need to search the `site.data` container for their data. See the [plugins](#plugins) section to learn more.
 
 Data files are stored in the [`_data`](_data) directory. The `_data` directory acts as the database for the website.
 
@@ -115,8 +115,8 @@ Plugins are stored in the [`_plugins`](_plugins) directory. **Me** has one plugi
 
 ### [`PageDataGenerator`](_plugins/page_data_generator.rb)
 
-`PageDataGenerator` reads the data, adds some custom fields used sorting, and then injects the data into their corresponding pages.
+`PageDataGenerator` reads the data, adds some custom fields for sorting, and then injects the it into the corresponding pages.
 
-For example, if the `_data/languages/js.yml` data file contains a field called `desc`, then `languages/js.md` page file can access the value of `desc` using the `page.desc` property. Additionally, the `_data/languages/index.md` file will receive a `page.languages` property that contains the list of languages.
+For example, if the `_data/languages/js.yml` data file contains a field called `title`, then `languages/js.md` page file can access the value of `title` using the `page.title` property. The result is exactly the same as if the data had been specified as front matter directly in the pages. Additionally, the `_data/languages/index.md` file will receive a `page.languages` property that contains the list of languages.
 
-I'm not real happy with this but I've decided to keep hacking at it until I come up with a more elegant approach.
+I'm not real happy with it but it works.
