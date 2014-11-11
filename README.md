@@ -38,10 +38,6 @@ Contains one data file for each operating system. Each one has a corresponding p
 
 Contains one data file for each project. Each one has a corresponding page file in [`projects/`](projects).
 
-### Examples
-
-Example data files are in the [`_eg`](_eg) directory. They can be used as a template for new data files.
-
 ## Pages
 
 Pages are defined in Markdown files with a `.md` extension. Pages contain free-form content written by humans for humans.
