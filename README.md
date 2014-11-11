@@ -18,6 +18,17 @@ Jekyll makes it easy to organize your website files into concepts such as data, 
 
 Data is defined in YAML files with a `.yml` extension. Data files are designed to be consumed by machines (software), but YAML is simple enough to be read and edited by humans.
 
+```yaml
+# _data/languages/js.yml
+title: JavaScript
+url: /languages/js
+desc: JavaScript is a dynamic computer programming language.
+links:
+  projects:
+    - title: My Website
+      url: /projects/my-website
+```
+
 Each data file must have a corresponding [page file](#pages) that will display the data. Data is injected into the pages during the build process, therefore pages don't need to search for their data in the `site.data` container. See the [plugins](#plugins) section to learn more.
 
 Data files are stored in the [`_data`](_data) directory. The `_data` directory acts as the database for the website.
