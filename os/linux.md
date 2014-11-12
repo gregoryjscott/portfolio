@@ -1,5 +1,0 @@
----
-layout: os
----
-
-Rules.
