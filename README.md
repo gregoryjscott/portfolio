@@ -10,4 +10,4 @@ Currently, **me** takes my [content][content], my [roomy][roomy] design, and bui
 [content]: https://github.com/gregoryjscott/content
 [roomy]: https://github.com/gregoryjscott/roomy
 [gruntfile]: https://github.com/gregoryjscott/me/blob/master/Gruntfile.coffee
-[license]: https://github.com/gregoryjscott/defaults/blob/master/LICENSE
+[license]: https://github.com/gregoryjscott/me/blob/master/LICENSE
