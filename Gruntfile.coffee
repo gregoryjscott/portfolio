@@ -5,7 +5,7 @@ module.exports = (grunt) ->
         options:
           repository: 'git@github.com:gregoryjscott/content.git'
           branch: 'remove-resume'
-          directory: '_tmp/working'
+          directory: '_tmp/content'
 
       design:
         options:
@@ -16,14 +16,14 @@ module.exports = (grunt) ->
     jekyll:
       build:
         options:
-          src: '_tmp/working'
+          src: '_tmp/content'
           plugins: '_plugins'
           dest: '_site'
-          config: '_config.yml, _tmp/working/_config.yml'
+          config: '_config.yml, _tmp/content/_config.yml'
 
     clean:
       build:
-        src: ['_tmp/design', '_tmp/working']
+        src: ['_tmp/design', '_tmp/content']
         dot: true
 
     copy:
@@ -31,7 +31,7 @@ module.exports = (grunt) ->
         expand: true
         cwd: '_tmp/design'
         src: '**'
-        dest: '_tmp/working/'
+        dest: '_tmp/content/'
 
     connect:
       server:
