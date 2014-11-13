@@ -4,7 +4,7 @@ module.exports = (grunt) ->
       content:
         options:
           repository: 'git@github.com:gregoryjscott/content.git'
-          branch: 'remove-resume'
+          branch: 'master'
           directory: '_tmp/content'
 
       design:
