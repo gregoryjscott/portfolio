@@ -44,6 +44,16 @@ module.exports = function(grunt) {
         src: '**',
         dest: '_tmp/working/'
       }
+    },
+
+    connect: {
+      server: {
+        options: {
+          port: 4000,
+          base: '_site',
+          keepalive: true
+        }
+      }
     }
 
   });
@@ -52,6 +62,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-jekyll');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-connect');
 
   grunt.registerTask('build', [
     'clean:build',
