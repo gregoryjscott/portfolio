@@ -19,7 +19,7 @@ module.exports = (grunt) ->
           src: '_tmp/content'
           plugins: '_plugins'
           dest: '_site'
-          config: '_config.yml, _tmp/content/_config.yml'
+          config: '_config.yml,_tmp/content/_config.yml'
 
     clean:
       build:
