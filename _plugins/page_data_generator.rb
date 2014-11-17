@@ -42,6 +42,14 @@ module Jekyll
       path = file.gsub('_tmp/content/_data/', '').gsub('.yml', '.md')
       page = site.pages.detect { |page| page.path == path }
       page.data.merge! data
+
+      unless file == '_tmp/content/_data/index.yml'
+        resource = file.match(/_data\/(?<resource>.+)\//)[1]
+        page.data['parent_name'] = resource
+        page.data['parent_url'] = "/#{resource}"
+      end
+
+      page.data['resource_name'] = page.name.gsub('.md', '')
     end
 
     def update_list_page_data(site, file, data)
@@ -50,6 +58,11 @@ module Jekyll
       page = site.pages.detect { |page| page.path == path }
       page.data[resource] = [] if page.data[resource].nil?
       page.data[resource].push data
+
+      page.data['items'] = [] if page.data['items'].nil?
+      page.data['items'].push data
+
+      page.data['resource_name'] = resource
     end
   end
 end
