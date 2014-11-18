@@ -7,7 +7,7 @@ module Jekyll
       files.each do |file|
         data = YAML.load_file(file)
         add_links_counts data
-        update_item_page_data site, file, data
+        data = update_item_page_data site, file, data
         update_list_page_data site, file, data unless file == '_tmp/content/_data/index.yml'
       end
     end
@@ -50,6 +50,7 @@ module Jekyll
       end
 
       page.data['resource_name'] = page.name.gsub('.md', '')
+      page.data
     end
 
     def update_list_page_data(site, file, data)
