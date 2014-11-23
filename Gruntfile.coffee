@@ -33,6 +33,12 @@ module.exports = (grunt) ->
         src: '**'
         dest: '_tmp/content/'
 
+      prep:
+        expand: true
+        cwd: '_prep'
+        src: '**'
+        dest: '_tmp/content/_prep'
+
       cname:
         src: 'CNAME'
         dest: '_tmp/content/'
@@ -64,6 +70,7 @@ module.exports = (grunt) ->
     'gitclone:content'
     'gitclone:design'
     'copy:design'
+    'copy:prep'
     'copy:cname'
     'jekyll:build'
   ]
