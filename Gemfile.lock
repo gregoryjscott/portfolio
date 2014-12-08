@@ -30,9 +30,10 @@ GEM
       redcarpet (~> 3.1)
       safe_yaml (~> 1.0)
       toml (~> 0.1.0)
-    jekyll-api (0.0.1)
+    jekyll-api (0.0.2)
     jekyll-coffeescript (1.0.1)
       coffee-script (~> 2.2)
+    jekyll-embed (0.0.1)
     jekyll-gist (1.1.0)
     jekyll-load (0.0.1)
     jekyll-paginate (1.1.0)
@@ -72,5 +73,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 2.5)
   jekyll-api
+  jekyll-embed
   jekyll-load
   jekyll-prep
