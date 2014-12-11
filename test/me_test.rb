@@ -6,7 +6,7 @@ describe 'Jekyll::Site' do
 
   let(:config) do
     Jekyll.configuration({
-      'source' => 'test/fixtures',
+      'source' => '_tmp/content',
       'quiet' => true
     })
   end
@@ -17,6 +17,6 @@ describe 'Jekyll::Site' do
     site.process
   end
 
-  it 'does nothing' do
+  it 'builds a website' do
   end
 end
