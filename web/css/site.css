@@ -7,7 +7,7 @@ body {
   padding: 1em 1em 2em 1em;
   margin: 0 auto;
   max-width: 800px;
-  color: #404040;
+  color: #0A2252;
 }
 
 p {
@@ -57,11 +57,11 @@ header h1 {
 }
 
 a {
-  color: #404040;
+  color: #0A2252;
 }
 
 a:visited {
-  color: #404040;
+  color: #0A2252;
 }
 
 a.button {
