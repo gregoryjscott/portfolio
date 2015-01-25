@@ -8,6 +8,6 @@ C#, JavaScript, Ruby, Python, SQL, TSQL, PLSQL, Java, Delphi, Ada95, PHP, Visual
 
 SQL Server, Oracle, Postgres, MySQL, SQLite, Pervasive, Btrieve
 
-## [Operating Systems](/os)
+## Operating Systems
 
 Windows, OS X, Linux, MS-DOS, iOS, Android, Solaris, Novell, Unix
