@@ -3,14 +3,6 @@ layout: default
 title: Operating Systems
 ---
 
-<header>
-  <nav>
-    <a href="/">gregoryjscott</a> / os
-  </nav>
-
-  <h1>{{ page.title }}</h1>
-</header>
-
 <section markdown="1">
 My projects run on these operating systems.
 </section>

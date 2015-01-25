@@ -3,14 +3,6 @@ layout: default
 title: Projects
 ---
 
-<header>
-  <nav>
-    <a href="/">gregoryjscott</a> / projects
-  </nav>
-
-  <h1>{{ page.title }}</h1>
-</header>
-
 <section markdown="1">
 These are most of my current and past projects. Projects can also be explored by skill such as [language](/languages), [operating system](/os), or [database](/db).
 </section>

@@ -1,15 +1,7 @@
 ---
+title: Gregory J. Scott
 layout: default
 ---
-
-<header markdown="1">
-
-<nav markdown="1">
-- [gregoryjscott](/) / resume
-</nav>
-
-# Gregory J. Scott
-</header>
 
 <section markdown="1">
 * web: [http://gregoryjscott.com][g]

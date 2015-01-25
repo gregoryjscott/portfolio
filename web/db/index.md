@@ -3,14 +3,6 @@ layout: default
 title: Databases
 ---
 
-<header>
-  <nav>
-    <a href="/">gregoryjscott</a> / db
-  </nav>
-
-  <h1>{{ page.title }}</h1>
-</header>
-
 <section markdown="1">
 My projects use these databases.
 </section>
