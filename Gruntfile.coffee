@@ -7,7 +7,6 @@ module.exports = (grunt) ->
           dest: 'web/_site'
           config: 'web/_config.yml'
 
-
     'gh-pages':
       options:
         base: '_site',
