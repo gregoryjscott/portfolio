@@ -1,0 +1,20 @@
+title: SAR Reports
+desc: TODO
+role: Lead Developer
+begin_year: 2007
+end_year: 2007
+_links:
+  languages:
+    - title: C#
+      href: /languages/cs/
+
+    - title: SQL
+      href: /languages/sql/
+
+  db:
+    - title: Oracle
+      href: /db/oracle/
+
+  os:
+    - title: Windows
+      href: /os/windows/

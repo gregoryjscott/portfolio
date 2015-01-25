@@ -1,0 +1,13 @@
+title: MvcIntegrationTestFramework
+desc: Framework that can be used to perform integration tests on a ASP.NET MVC application.
+role: Author
+begin_year: 2010
+end_year: 2010
+_links:
+  languages:
+    - title: C#
+      href: /languages/cs/
+
+  os:
+    - title: Windows
+      href: /os/windows/

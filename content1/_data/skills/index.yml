@@ -1,0 +1,13 @@
+title: I use the best tools.
+_links:
+  languages:
+    title: Languages
+    href: /languages/
+
+  os:
+    title: Operating Systems
+    href: /os/
+
+  db:
+    title: Databases
+    href: /db/

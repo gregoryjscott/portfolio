@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<header>
+  <nav>
+    <a href="/">gregoryjscott</a> / <a href="/os">os</a> / {{ page.name | remove: '.md' }}
+  </nav>
+
+  <h1>{{ page.title }}</h1>
+</header>
+
+<p>{{ page.desc }}</p>
+
+{% if page._embedded.projects %}
+  <h1>Projects</h1>
+  <section>
+    {% for item in page._embedded.projects %}
+      <h2>{{ item.title }}</h2>
+
+      <p>
+        <em>
+          {{ item.role }},
+          {{ item.begin_year }}
+          {% unless item.begin_year == item.end_year %} -
+            {% if item.end_year %}
+              {{ item.end_year }}
+            {% else %}
+              present
+            {% endif %}
+          {% endunless %}
+        </em>
+      </p>
+
+      {% include links-ul.html data=item %}
+    {% endfor %}
+  </section>
+{% endif %}
+
+<hr>
+
+<h1>Find out more about me.</h1>
+
+<a class="button" href="/work/">Check out my work.</a>
+<a class="button" href="/skills/">Explore my skills.</a>
+<a class="button recommend" href="/services/">Learn what I can do for you.</a>

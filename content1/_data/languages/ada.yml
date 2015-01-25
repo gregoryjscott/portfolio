@@ -1,0 +1,12 @@
+title: Ada 95
+desc: Ada is a static typed programming language targeted at embedded and real-time systems.
+_links:
+  projects:
+    - title: SMF Controls and Displays
+      href: /projects/smf-controls-displays/
+
+    - title: Backup Controls and Displays
+      href: /projects/backup-controls-displays/
+
+    - title: Mission Data Loader
+      href: /projects/mission-data-loader/

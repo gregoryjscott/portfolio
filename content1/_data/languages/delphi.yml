@@ -1,0 +1,12 @@
+title: Delphi
+desc: Delphi is an integrated development environment (IDE) for console, desktop graphical, web, and mobile applications.
+_links:
+  projects:
+    - title: Wen-GAGE SI
+      href: /projects/wengage-si/
+
+    - title: Wen-GAGE Accounting
+      href: /projects/wengage-acct/
+
+    - title: Class Scheduler
+      href: /projects/class-scheduler/

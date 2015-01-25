@@ -1,0 +1,9 @@
+title: I solve technology problems.
+_links:
+  work:
+    title: Check out my work
+    href: /work/
+
+  skills:
+    title: Explore my skills
+    href: /skills/

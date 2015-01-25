@@ -1,0 +1,13 @@
+title: Bit Proposal
+desc: TODO
+role: Lead Developer
+begin_year: 2008
+end_year: 2008
+_links:
+  languages:
+    - title: C#
+      href: /languages/cs/
+
+  os:
+    - title: Windows
+      href: /os/windows/

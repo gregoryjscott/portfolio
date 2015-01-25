@@ -1,0 +1,15 @@
+title: Linux
+desc: Linux is a Unix-like open source operating system.
+_links:
+  projects:
+    - title: Centroid
+      href: /projects/centroid/
+
+    - title: Denver Schedules API
+      href: /projects/denver-schedules-api/
+
+    - title: ScrambleScore
+      href: /projects/scramble-score/
+
+    - title: Simpler
+      href: /projects/simpler/

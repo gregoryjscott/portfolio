@@ -1,0 +1,22 @@
+title: This Site
+desc: Jekyll project along with several custom Jekyll plugins used to produce the static HTML pages for this website.
+role: Author
+begin_year: 2014
+end_year:
+_links:
+  languages:
+    - title: CSS
+      href: /languages/css/
+
+    - title: HTML
+      href: /languages/html/
+
+    - title: Ruby
+      href: /languages/rb/
+
+  os:
+    - title: OS X
+      href: /os/osx/
+
+    - title: Linux
+      href: /os/linux/

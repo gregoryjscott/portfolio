@@ -1,0 +1,23 @@
+title: Please
+desc: Please is a set of commands useful for maintaining software projects. 
+role: Author
+begin_year: 2012
+end_year: 2014
+_links:
+  languages:
+    - title: C#
+      href: /languages/cs/
+
+    - title: Ruby
+      href: /languages/rb/
+
+    - title: SQL
+      href: /languages/sql/
+
+  db:
+    - title: SQLite
+      href: /db/sqlite/
+
+  os:
+    - title: Windows
+      href: /os/windows/
