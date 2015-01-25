@@ -4,6 +4,10 @@ layout: default
 
 <p><em>{{ page.subtitle }}</em></p>
 
+{% if page.desc %}
+<p>{{ page.desc }}</p>
+{% endif %}
+
 <section markdown="1">
 {% include links-stack.html data=page %}
 </section>

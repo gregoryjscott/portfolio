@@ -2,7 +2,9 @@
 layout: default
 ---
 
+{% if page.desc %}
 <p>{{ page.desc }}</p>
+{% endif %}
 
 {% if page._embedded.projects %}
   <h1>Projects</h1>
@@ -23,6 +25,10 @@ layout: default
           {% endunless %}
         </em>
       </p>
+
+      {% if item.desc %}
+      <p>{{ item.desc }}</p>
+      {% endif %}
 
       {% include links-ul.html data=item %}
     {% endfor %}

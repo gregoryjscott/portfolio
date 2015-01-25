@@ -9,7 +9,7 @@ These are most of my current and past projects. Projects can also be explored by
 
 <section>
 {% for item in page.items %}
-  <h1>{{ item.title }}</h1>
+  <h1><a href="{{ item.url }}">{{ item.title }}</a></h1>
 
   <p><em>{{ item.subtitle }}</em></p>
 
