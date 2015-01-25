@@ -56,26 +56,12 @@ header h1 {
   color: #C41E3A;
 }
 
-nav {
-  color: #b3b3b3;
-  font-weight: bold;
-}
-
 a {
   color: #404040;
 }
 
 a:visited {
   color: #404040;
-}
-
-nav a, p a, a.resource-links {
-  color: #b3b3b3;
-  font-weight: bold;
-}
-
-nav a:visited, p a:visited, a.resource-links:visited {
-  color: #b3b3b3;
 }
 
 a.button {
