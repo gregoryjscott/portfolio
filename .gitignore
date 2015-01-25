@@ -1,5 +1,4 @@
-_site
+web/_site
 node_modules
-_tmp
 .grunt
 .bundle
