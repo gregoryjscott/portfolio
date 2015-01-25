@@ -2,8 +2,10 @@
 layout: default
 ---
 
-<section>
-  <a class="button" href="/work/">Check out my work</a>
-  <a class="button" href="/skills/">Explore my skills</a>
-  <a class="button recommend" href="/services/">Learn what I can do for you</a>
+<article markdown="1">
+Please feel free to look over my [resume](/resume) or browse through my [projects](/projects). You can also explore projects by skill such as [language](/languages) or [database](/db).
+</article>
+
+<section markdown="1">
+{% include get-started.md %}
 </section>
