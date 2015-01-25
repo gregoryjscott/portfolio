@@ -13,3 +13,8 @@ Feel free to look over my [resume](/resume) or browse through my [projects](/pro
 <section markdown="1">
 {% include get-started.md %}
 </section>
+
+<script>
+element = document.getElementById("home-menu");
+element.className += " active";
+</script>

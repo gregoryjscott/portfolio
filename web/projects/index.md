@@ -26,3 +26,8 @@ These are most of my current and past projects. Projects can also be explored by
 <section markdown="1">
 {% include get-started.md %}
 </section>
+
+<script>
+element = document.getElementById("project-menu");
+element.className += " active";
+</script>

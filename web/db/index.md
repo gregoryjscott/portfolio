@@ -24,3 +24,8 @@ My projects use these databases.
 <section markdown="1">
 {% include get-started.md %}
 </section>
+
+<script>
+element = document.getElementById("db-menu");
+element.className += " active";
+</script>

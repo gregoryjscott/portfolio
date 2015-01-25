@@ -24,3 +24,8 @@ My projects run on these operating systems.
 <section markdown="1">
 {% include get-started.md %}
 </section>
+
+<script>
+element = document.getElementById("os-menu");
+element.className += " active";
+</script>

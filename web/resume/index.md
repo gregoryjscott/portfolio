@@ -24,3 +24,8 @@ layout: default
 [email]: mailto:me@gregoryjscott.com
 [twitter]: https://twitter.com/gregoryjscott
 [github]: https://github.com/gregoryjscott
+
+<script>
+element = document.getElementById("resume-menu");
+element.className += " active";
+</script>

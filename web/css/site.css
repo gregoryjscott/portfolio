@@ -4,7 +4,7 @@ body {
   font-weight: 300;
   line-height: 2;
   text-align: center;
-  padding: 1em 1em 2em 1em;
+  padding: 0 1em 2em 1em;
   margin: 0 auto;
   max-width: 800px;
   color: #0A2252;
@@ -66,6 +66,18 @@ a:visited {
 
 a.home {
   font-weight: bold;
+}
+
+li.active {
+  background-color: #C41E3A;
+}
+
+li.active a {
+  color: #fff;
+}
+
+header li {
+  padding: 1em 0 0.5em 0;
 }
 
 a.button {

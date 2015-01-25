@@ -24,3 +24,8 @@ My projects use these programming languages.
 <section markdown="1">
 {% include get-started.md %}
 </section>
+
+<script>
+  element = document.getElementById("language-menu");
+  element.className += " active";
+</script>
