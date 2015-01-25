@@ -13,6 +13,10 @@ These are most of my current and past projects. Projects can also be explored by
 
   <p><em>{{ item.subtitle }}</em></p>
 
+  {% if item.desc %}
+  <p>{{ item.desc }}</p>
+  {% endif %}
+
   {% include links-ul.html data=item %}
 {% endfor %}
 </section>
