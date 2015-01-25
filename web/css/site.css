@@ -64,6 +64,10 @@ a:visited {
   color: #0A2252;
 }
 
+a.home {
+  font-weight: bold;
+}
+
 a.button {
   border-style: solid;
   border-width: 2px;
