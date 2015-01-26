@@ -68,14 +68,6 @@ a.home {
   font-weight: bold;
 }
 
-li.active {
-  background-color: #C41E3A;
-}
-
-li.active a {
-  color: #fff;
-}
-
 header li {
   padding: 1em 0 0.5em 0;
 }
@@ -132,4 +124,14 @@ hr {
   border-top: 1px solid #ccc;
   margin: 6em 0 0 0;
   padding: 0;
+}
+
+.pure-menu li a:hover, .pure-menu li a:focus {
+  background-color: #fff;
+  color: #C41E3A;
+}
+
+li.active, li.active a, li.active a:hover {
+  background-color: #C41E3A;
+  color: #fff;
 }
