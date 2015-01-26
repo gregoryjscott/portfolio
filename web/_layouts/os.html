@@ -10,7 +10,7 @@ layout: default
   <h1>Projects</h1>
   <section>
     {% for item in page._embedded.projects %}
-      <h2>{{ item.title }}</h2>
+      <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
 
       <p>
         <em>
