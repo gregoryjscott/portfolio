@@ -27,7 +27,7 @@ Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska, Texas, Id
 * Led the development of some of RDI's most challenging projects
 * Developed business intelligence reporting applications to help clients track their terabytes of data and use it to make better business decisions
 * Ensured my team of analysts, designers, and programmers were free of stress and enjoying their jobs.
-* Mentored junior developers by hosting roundtable meetings, pair-programming, and being an active participant chatroom discussions
+* Mentored junior developers by hosting roundtable meetings, pair-programming, and being an active participant in chatroom discussions
 * Practiced agile and lean management and development techniques and actively promoted it to others within RDI
 * Started RDI's open source initiatives and remain the largest contributor
 * Impacted technology selection, project management, and people management across RDI
