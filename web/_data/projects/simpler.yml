@@ -4,6 +4,10 @@ role: Author
 begin_year: 2010
 end_year:
 _links:
+  code:
+    - title: github.com/gregoryjscott/Simpler
+      href: https://github.com/gregoryjscott/Simpler
+
   languages:
     - title: C#
       href: /languages/cs/

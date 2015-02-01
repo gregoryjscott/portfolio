@@ -4,6 +4,10 @@ role: Contributor
 begin_year: 2014
 end_year: 2014
 _links:
+  code:
+    - title: github.com/codeforamerica/denver-schedules-api
+      href: https://github.com/codeforamerica/denver-schedules-api
+
   languages:
     - title: C#
       href: /languages/cs/

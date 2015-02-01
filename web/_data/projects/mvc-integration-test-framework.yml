@@ -4,6 +4,10 @@ role: Author
 begin_year: 2010
 end_year: 2010
 _links:
+  code:
+    - title: github.com/gregoryjscott/MvcIntegrationTestFramework
+      href: https://github.com/gregoryjscott/MvcIntegrationTestFramework
+
   languages:
     - title: C#
       href: /languages/cs/

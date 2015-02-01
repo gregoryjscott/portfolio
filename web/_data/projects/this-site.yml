@@ -4,6 +4,10 @@ role: Author
 begin_year: 2014
 end_year:
 _links:
+  code:
+    - title: github.com/gregoryjscott/me
+      href: https://github.com/gregoryjscott/me
+
   languages:
     - title: CSS
       href: /languages/css/
