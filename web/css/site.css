@@ -126,6 +126,10 @@ hr {
   padding: 0;
 }
 
+.pure-menu a {
+  color: #0A2252;
+}
+
 .pure-menu li a:hover, .pure-menu li a:focus {
   background-color: #fff;
   color: #C41E3A;
