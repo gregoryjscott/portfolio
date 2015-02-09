@@ -3,26 +3,26 @@ markdown: kramdown
 permalink: pretty
 
 defaults:
-  - scope:
-      path: "db"
-      type: "pages"
-    values:
-      layout: "db"
+- scope:
+    path: "db"
+    type: "pages"
+  values:
+    layout: "db"
 
-  - scope:
-      path: "languages"
-      type: "pages"
-    values:
-      layout: "language"
+- scope:
+    path: "languages"
+    type: "pages"
+  values:
+    layout: "language"
 
-  - scope:
-      path: "os"
-      type: "pages"
-    values:
-      layout: "os"
+- scope:
+    path: "os"
+    type: "pages"
+  values:
+    layout: "os"
 
-  - scope:
-      path: "projects"
-      type: "pages"
-    values:
-      layout: "project"
+- scope:
+    path: "projects"
+    type: "pages"
+  values:
+    layout: "project"
