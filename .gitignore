@@ -1,5 +1,6 @@
-web/_site
+_site
 node_modules
 .grunt
 .bundle
 web/**/data.json
+.jekyll-metadata
