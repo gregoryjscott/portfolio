@@ -4,6 +4,10 @@ permalink: pretty
 
 defaults:
 - scope:
+    path: ""
+  values:
+      layout: default
+- scope:
     path: "db"
     type: "pages"
   values:

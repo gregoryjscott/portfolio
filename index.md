@@ -1,5 +1,4 @@
 ---
-layout: default
 ---
 
 <article markdown="1">
