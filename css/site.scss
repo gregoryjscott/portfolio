@@ -1,3 +1,11 @@
+---
+---
+
+$color-primary: #5989E3;
+$color-primary-contrast: #fff;
+$color-secondary: #666;
+$color-secondary-emphasis: #555;
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.4em;
@@ -7,7 +15,7 @@ body {
   padding: 0 1em 2em 1em;
   margin: 0 auto;
   max-width: 800px;
-  color: #0A2252;
+  color: $color-secondary;
 }
 
 p {
@@ -26,6 +34,7 @@ h1 {
   font-weight: 400;
   margin: 2.2em 0 1em 0;
   line-height: 1.5;
+  color: $color-secondary-emphasis;
 }
 
 .border {
@@ -34,7 +43,7 @@ h1 {
   right: 0;
   top: 0;
   height: .5em;
-  background-color: #C41E3A;
+  background-color: $color-primary;
 }
 
 h2 {
@@ -53,20 +62,25 @@ header h1 {
   font-size: 2.8em;
   font-weight: 700;
   margin: 1.8em 0 1.2em 0;
-  color: #C41E3A;
+  color: $color-primary;
 }
 
 a {
-  color: #0A2252;
+  color: $color-secondary;
 }
 
 a:visited {
-  color: #0A2252;
+  color: $color-secondary;
 }
 
 a.home {
   font-weight: bold;
 }
+
+h1 a {
+  color: $color-secondary-emphasis;
+}
+
 
 header li {
   padding: 1em 0 0.5em 0;
@@ -84,7 +98,7 @@ a.button {
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
-  background-color: white;
+  background-color: $color-primary-contrast;
   display: inline-block;
   margin: 1em;
 }
@@ -95,13 +109,13 @@ a.button:hover {
 }
 
 a.button.recommend {
-  border-color: #C41E3A;
-  color: #C41E3A;
+  border-color: $color-primary;
+  color: $color-primary;
 }
 
 a.button.recommend:hover {
   color: white;
-  background-color: #C41E3A;
+  background-color: $color-primary;
 }
 
 article {
@@ -127,15 +141,15 @@ hr {
 }
 
 .pure-menu a {
-  color: #0A2252;
+  color: $color-secondary;
 }
 
 .pure-menu li a:hover, .pure-menu li a:focus {
-  background-color: #fff;
-  color: #C41E3A;
+  background-color: $color-primary-contrast;
+  color: $color-primary;
 }
 
 li.active, li.active a, li.active a:hover {
-  background-color: #C41E3A;
-  color: #fff;
+  background-color: $color-primary;
+  color: $color-primary-contrast;
 }
