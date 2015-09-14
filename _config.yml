@@ -1,4 +1,4 @@
-exclude: ["LICENSE", "README.md"]
+exclude: ["LICENSE", "README.md", Gemfile, Gemfile.lock, Gruntfile.coffee, package.json, Rakefile, node_modules]
 markdown: kramdown
 permalink: pretty
 
