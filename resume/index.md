@@ -6,6 +6,8 @@ layout: default
 <section markdown="1">
 * web: [http://gregoryjscott.com][g]
 * email: [me@gregoryjscott.com][email]
+* github: [https://github.com/gregoryjscott][github]
+* twitter: [https://twitter.com/gregoryjscott][twitter]
 </section>
 
 <section markdown="1">
