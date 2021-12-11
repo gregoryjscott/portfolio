@@ -4,3 +4,4 @@ node_modules
 .bundle
 web/**/data.json
 .jekyll-metadata
+.jekyll-cache
