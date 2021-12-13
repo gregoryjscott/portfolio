@@ -1,0 +1,17 @@
+title: EpiCloud
+desc:
+role: Technical Lead
+begin_year: 2015
+end_year: 2021
+_links:
+  languages:
+    - title: Typescript
+      href: /languages/ts/
+
+  db:
+    - title: BigQuery
+      href: /db/bigquery/
+
+  os:
+    - title: Linux
+      href: /os/linux/
