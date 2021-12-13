@@ -9,10 +9,10 @@ defaults:
       layout: default
 
 - scope:
-    path: "db"
+    path: "projects"
     type: "pages"
   values:
-    layout: "db"
+    layout: "project"
 
 - scope:
     path: "languages"
@@ -21,7 +21,13 @@ defaults:
     layout: "language"
 
 - scope:
-    path: "projects"
+    path: "db"
     type: "pages"
   values:
-    layout: "project"
+    layout: "db"
+
+- scope:
+    path: "tools"
+    type: "pages"
+  values:
+    layout: "tool"

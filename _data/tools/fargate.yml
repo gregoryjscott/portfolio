@@ -1,0 +1,6 @@
+title: Fargate
+desc: AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on building applications without managing servers.
+_links:
+  projects:
+    - title: EpiCloud
+      href: /projects/epicloud/
