@@ -1,47 +1,11 @@
 module.exports = (grunt) ->
   grunt.initConfig
-    gitclone:
-      content:
-        options:
-          repository: 'git@github.com:gregoryjscott/content.git'
-          branch: 'master'
-          directory: '_tmp/content'
-
-      design:
-        options:
-          repository: 'git@github.com:gregoryjscott/roomy.git'
-          branch: 'master'
-          directory: '_tmp/design'
-
     jekyll:
       build:
         options:
-          src: '_tmp/content'
-          plugins: '_plugins'
+          src: '.'
           dest: '_site'
-          config: '_config.yml,_tmp/content/_config.yml'
-
-    clean:
-      build:
-        src: ['_tmp/design', '_tmp/content']
-        dot: true
-
-    copy:
-      design:
-        expand: true
-        cwd: '_tmp/design'
-        src: '**'
-        dest: '_tmp/content/'
-
-      prep:
-        expand: true
-        cwd: '_prep'
-        src: '**'
-        dest: '_tmp/content/_prep'
-
-      cname:
-        src: 'CNAME'
-        dest: '_tmp/content/'
+          config: '_config.yml'
 
     'gh-pages':
       options:
@@ -66,11 +30,5 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-gh-pages'
 
   grunt.registerTask 'build', [
-    'clean:build'
-    'gitclone:content'
-    'gitclone:design'
-    'copy:design'
-    'copy:prep'
-    'copy:cname'
     'jekyll:build'
   ]

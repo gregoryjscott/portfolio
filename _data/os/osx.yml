@@ -1,0 +1,15 @@
+title: OS X
+desc: OS X is a Unix-based graphical interface operating system by Apple.
+_links:
+  projects:
+    - title: Centroid
+      href: /projects/centroid/
+
+    - title: Denver Schedules API
+      href: /projects/denver-schedules-api/
+
+    - title: ScrambleScore
+      href: /projects/scramble-score/
+
+    - title: Simpler
+      href: /projects/simpler/

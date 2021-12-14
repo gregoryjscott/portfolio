@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<p><em>{{ page.subtitle }}</em></p>
+
+{% if page.desc %}
+<p>{{ page.desc }}</p>
+{% endif %}
+
+<section markdown="1">
+{% include links-stack.html data=page %}
+</section>
+
+<hr>
+
+<section markdown="1">
+  {% include get-started.md %}
+</section>
+
+<script>
+element = document.getElementById("project-menu");
+element.className += " active";
+</script>

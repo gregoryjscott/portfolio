@@ -1,0 +1,33 @@
+title: Denver Schedules API
+desc: JSON API that provides access to Denver activities that impact the residents of Denver.
+role: Contributor
+begin_year: 2014
+end_year: 2014
+_links:
+  code:
+    - title: github.com/codeforamerica/denver-schedules-api
+      href: https://github.com/codeforamerica/denver-schedules-api
+
+  languages:
+    - title: C#
+      href: /languages/cs/
+
+    - title: Ruby
+      href: /languages/rb/
+
+    - title: SQL
+      href: /languages/sql/
+
+  db:
+    - title: Postgres
+      href: /db/postgres/
+
+  os:
+    - title: Windows
+      href: /os/windows/
+
+    - title: OS X
+      href: /os/osx/
+
+    - title: Linux
+      href: /os/linux/

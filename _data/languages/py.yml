@@ -1,0 +1,9 @@
+title: Python
+desc: Python is a widely used general-purpose, high-level programming language.
+_links:
+  projects:
+    - title: Alaska Gasline Development Corporation
+      href: /projects/agdc/
+
+    - title: Centroid
+      href: /projects/centroid/

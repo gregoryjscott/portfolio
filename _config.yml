@@ -1,3 +1,32 @@
-exclude: ["LICENSE", "README.md"]
+exclude: ["LICENSE", "README.md", Gemfile, Gemfile.lock, Gruntfile.coffee, package.json, Rakefile, node_modules]
 markdown: kramdown
 permalink: pretty
+
+defaults:
+- scope:
+    path: ""
+  values:
+      layout: default
+- scope:
+    path: "db"
+    type: "pages"
+  values:
+    layout: "db"
+
+- scope:
+    path: "languages"
+    type: "pages"
+  values:
+    layout: "language"
+
+- scope:
+    path: "os"
+    type: "pages"
+  values:
+    layout: "os"
+
+- scope:
+    path: "projects"
+    type: "pages"
+  values:
+    layout: "project"

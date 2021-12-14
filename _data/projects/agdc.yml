@@ -1,0 +1,38 @@
+title: Alaska Gasline Development Corporation
+desc: Web application that provides AGDC with documentation, reporting, and querying tools for their vast GIS data and infrastructure.
+role: Technical Lead
+begin_year: 2013
+end_year: 2014
+_links:
+  languages:
+    - title: C#
+      href: /languages/cs/
+
+    - title: CSS
+      href: /languages/css/
+
+    - title: HTML
+      href: /languages/html/
+
+    - title: JavaScript
+      href: /languages/js/
+
+    - title: Python
+      href: /languages/py/
+
+    - title: Ruby
+      href: /languages/rb/
+
+    - title: SQL
+      href: /languages/sql/
+
+    - title: Transact-SQL
+      href: /languages/tsql/
+
+  db:
+    - title: SQL Server
+      href: /db/sql-server/
+
+  os:
+    - title: Windows
+      href: /os/windows/

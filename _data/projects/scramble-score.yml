@@ -1,0 +1,32 @@
+title: ScrambleScore
+desc: Mobile web application that allows golfers participating in scramble golf tournaments to record their scores and monitor the tournament leaderboard.
+role: Project Manager
+begin_year: 2012
+end_year: 2013
+_links:
+  languages:
+    - title: CSS
+      href: /languages/css/
+
+    - title: HTML
+      href: /languages/html/
+
+    - title: JavaScript
+      href: /languages/js/
+
+    - title: Ruby
+      href: /languages/rb/
+
+  db:
+    - title: Postgres
+      href: /db/postgres/
+
+  os:
+    - title: Windows
+      href: /os/windows/
+
+    - title: OS X
+      href: /os/osx/
+
+    - title: Linux
+      href: /os/linux/

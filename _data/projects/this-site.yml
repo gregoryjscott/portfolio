@@ -1,0 +1,26 @@
+title: This Site
+desc: My website/experiment that uses Jekyll to create static HTML pages using YAML, Markdown, and hypermedia.
+role: Author
+begin_year: 2014
+end_year:
+_links:
+  code:
+    - title: github.com/gregoryjscott/me
+      href: https://github.com/gregoryjscott/me
+
+  languages:
+    - title: CSS
+      href: /languages/css/
+
+    - title: HTML
+      href: /languages/html/
+
+    - title: Ruby
+      href: /languages/rb/
+
+  os:
+    - title: OS X
+      href: /os/osx/
+
+    - title: Linux
+      href: /os/linux/

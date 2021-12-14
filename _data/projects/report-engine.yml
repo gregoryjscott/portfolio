@@ -1,0 +1,13 @@
+title: Report Engine
+desc: C# library for producing HTML reports based on database queries.
+role: Lead Developer
+begin_year: 2005
+end_year: 2005
+_links:
+  languages:
+    - title: C#
+      href: /languages/cs/
+
+  os:
+    - title: Windows
+      href: /os/windows/

@@ -1,0 +1,32 @@
+title: Scrum Tools
+desc:
+role: Technical Lead
+begin_year: 2012
+end_year: 2013
+_links:
+  languages:
+    - title: C#
+      href: /languages/cs/
+
+    - title: CSS
+      href: /languages/css/
+
+    - title: HTML
+      href: /languages/html/
+
+    - title: JavaScript
+      href: /languages/js/
+
+    - title: SQL
+      href: /languages/sql/
+
+    - title: Transact-SQL
+      href: /languages/tsql/
+
+  db:
+    - title: SQL Server
+      href: /db/sql-server/
+
+  os:
+    - title: Windows
+      href: /os/windows/

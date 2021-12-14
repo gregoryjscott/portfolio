@@ -1,0 +1,30 @@
+title: HTML
+desc: HTML or HyperText Markup Language is the standard markup language used to create Web pages.
+_links:
+  projects:
+    - title: Energy Efficiency Map
+      href: /projects/energy-efficiency-map/
+
+    - title: Alaska Gasline Development Corporation
+      href: /projects/agdc/
+
+    - title: AWWU Intranet
+      href: /projects/awwu-intranet/
+
+    - title: Quality Bank
+      href: /projects/qb/
+
+    - title: ScrambleScore
+      href: /projects/scramble-score/
+
+    - title: Scrum Tools
+      href: /projects/scrum-tools/
+
+    - title: Service Order Mobile Dispatch
+      href: /projects/somd/
+
+    - title: Systems Portal
+      href: /projects/systems-portal/
+
+    - title: This Site
+      href: /projects/this-site/

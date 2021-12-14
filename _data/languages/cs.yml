@@ -1,0 +1,75 @@
+title: C#
+desc: C# is a static typed, multi-paradigm programming language from Microsoft.
+_links:
+  projects:
+    - title: Quality Bank
+      href: /projects/qb/
+
+    - title: Simpler
+      href: /projects/simpler/
+
+    - title: Energy Efficiency Map
+      href: /projects/energy-efficiency-map/
+
+    - title: AHFC Integration
+      href: /projects/ahfc-integration/
+
+    - title: Alaska Gasline Development Corporation
+      href: /projects/agdc/
+
+    - title: AWWU Intranet
+      href: /projects/awwu-intranet/
+
+    - title: AWWU Job Scheduler
+      href: /projects/awwu-job-scheduler/
+
+    - title: AWWU Systems Integration
+      href: /projects/awwu-systems-integration/
+
+    - title: Bit Proposal
+      href: /projects/bit-proposal/
+
+    - title: Centroid
+      href: /projects/centroid/
+
+    - title: CIS Data Capture
+      href: /projects/cis-data-capture/
+
+    - title: Database Synchronization (AWWU)
+      href: /projects/database-sync-awwu/
+
+    - title: Denver Schedules API
+      href: /projects/denver-schedules-api/
+
+    - title: FLIR Monitoring System
+      href: /projects/flir-monitoring/
+
+    - title: Lasar Range Finder
+      href: /projects/lasar-range-finder/
+
+    - title: MvcIntegrationTestFramework
+      href: /projects/mvc-integration-test-framework/
+
+    - title: Please
+      href: /projects/please/
+
+    - title: ReportEngine
+      href: /projects/report-engine/
+
+    - title: SAR Reports
+      href: /projects/sar-reports/
+
+    - title: Scrum Tools
+      href: /projects/scrum-tools/
+
+    - title: SIF Agent
+      href: /projects/sif-agent/
+
+    - title: Service Order Mobile Dispatch
+      href: /projects/somd/
+
+    - title: Systems Portal
+      href: /projects/systems-portal/
+
+    - title: TrainBuilder
+      href: /projects/train-builder/

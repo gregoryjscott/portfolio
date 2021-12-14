@@ -1,0 +1,20 @@
+title: CIS Data Capture
+desc: Console application that captures monthly snapshots of AWWU's customer information system (CIS) data and loads it into a data warehouse.
+role: Technical Lead
+begin_year: 2006
+end_year: 2006
+_links:
+  languages:
+    - title: C#
+      href: /languages/cs/
+
+    - title: SQL
+      href: /languages/sql/
+
+  db:
+    - title: Oracle
+      href: /db/oracle/
+
+  os:
+    - title: Windows
+      href: /os/windows/
