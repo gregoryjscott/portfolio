@@ -2,9 +2,11 @@
 ---
 
 <article markdown="1">
-**I've helped schools, governments, and businesses** build systems that solve problems and can adapt as business needs change and technology evolves.
+I've programmed servers, PC, Macs, smartphones, tablets, mainframes, hand-held range finders, GPS devices, lasers mounted to planes, calculators, and B-1 Bombers. __Programming is my passion.__
 
-Chances are good you're dealing with some kind of technology problem at your place of work. **I can help you.**
+My [projects](/projects) have used an impressive spectrum of [languages](/languages), tools, and [databases](/db). I love to learn new technologies.
+
+I'm currently searching for my next challenge. Please don't hesitate to <a href="mailto:me@gregoryjscott.com">contact me</a> if I might be of service to you.
 </article>
 
 <section markdown="1">
