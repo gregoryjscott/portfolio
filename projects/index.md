@@ -4,7 +4,7 @@ title: Projects
 ---
 
 <section markdown="1">
-These are most of my current and past projects. Projects can also be explored by skill such as [language](/languages) or [database](/db).
+Projects can also be explored by skill such as [language](/languages) or [database](/db).
 </section>
 
 <section>
