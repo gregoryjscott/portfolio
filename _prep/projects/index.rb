@@ -9,6 +9,8 @@ module Prep
       end
 
       def order_by_most_recent(items)
+        return if items.nil?
+
         items.sort! do |x, y|
           if x['begin_year'] < y['begin_year']
             -1
