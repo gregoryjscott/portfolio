@@ -10,15 +10,14 @@ module Prep
 
       def order_by_most_recent(items)
         items.sort! do |x, y|
-          x_end = x['end_year'].nil? ? 9999 : x['end_year']
-          y_end = y['end_year'].nil? ? 9999 : y['end_year']
-
-          if x_end < y_end
+          if x['begin_year'] < y['begin_year']
             -1
-          elsif x_end > y_end
+          elsif x['begin_year'] > y['begin_year']
             1
           else
-            x['begin_year'] <=> y['begin_year']
+            x_end = x['end_year'].nil? ? 9999 : x['end_year']
+            y_end = y['end_year'].nil? ? 9999 : y['end_year']
+            x_end <=> y_end
           end
         end
 
