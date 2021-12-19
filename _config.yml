@@ -21,12 +21,6 @@ defaults:
     layout: "language"
 
 - scope:
-    path: "os"
-    type: "pages"
-  values:
-    layout: "os"
-
-- scope:
     path: "projects"
     type: "pages"
   values:

@@ -7,7 +7,3 @@ _links:
   languages:
     - title: Ada 95
       href: /languages/ada/
-
-  os:
-    - title: Solaris
-      href: /os/solaris/

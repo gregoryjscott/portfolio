@@ -14,7 +14,3 @@ _links:
   db:
     - title: Pervasive
       href: /db/pervasive/
-
-  os:
-    - title: Windows
-      href: /os/windows/

@@ -11,7 +11,3 @@ _links:
   db:
     - title: BigQuery
       href: /db/bigquery/
-
-  os:
-    - title: Linux
-      href: /os/linux/
