@@ -17,10 +17,3 @@ _links:
 
     - title: Ruby
       href: /languages/rb/
-
-  os:
-    - title: OS X
-      href: /os/osx/
-
-    - title: Linux
-      href: /os/linux/

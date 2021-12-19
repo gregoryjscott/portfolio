@@ -7,7 +7,3 @@ _links:
   languages:
     - title: C#
       href: /languages/cs/
-
-  os:
-    - title: Windows
-      href: /os/windows/

@@ -11,7 +11,3 @@ _links:
   db:
     - title: Btrieve
       href: /db/btrieve/
-
-  os:
-    - title: Windows
-      href: /os/windows/
