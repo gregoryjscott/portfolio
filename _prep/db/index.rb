@@ -8,7 +8,6 @@ module Prep
         page.data['items'].each do |item|
           projects = item['_embedded']['projects'] unless item['_embedded'].nil?
           order_by_most_recent(projects) unless projects.nil?
-          # order_by_most_recent(item['_embedded']['projects'])
         end
       end
 
@@ -24,15 +23,14 @@ module Prep
         return if items.nil?
 
         items.sort! do |x, y|
-          x_end = x['end_year'].nil? ? 9999 : x['end_year']
-          y_end = y['end_year'].nil? ? 9999 : y['end_year']
-
-          if x_end < y_end
+          if x['begin_year'] < y['begin_year']
             -1
-          elsif x_end > y_end
+          elsif x['begin_year'] > y['begin_year']
             1
           else
-            x['begin_year'] <=> y['begin_year']
+            x_end = x['end_year'].nil? ? 9999 : x['end_year']
+            y_end = y['end_year'].nil? ? 9999 : y['end_year']
+            x_end <=> y_end
           end
         end
 
