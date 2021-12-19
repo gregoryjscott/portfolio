@@ -2,7 +2,7 @@ title: Simpler
 desc: Library that provides a simpler approach to C# class design.
 role: Author
 begin_year: 2010
-end_year:
+end_year: 2013
 _links:
   code:
     - title: github.com/gregoryjscott/Simpler
