@@ -7,11 +7,13 @@ _July 2014 - present_
 
 <article markdown="1">
 
-Freelance Consultant working from my home in Newkirk, Oklahoma
+Freelance Consultant working remote while exploring countries of Latin America
 
-* Working with clients to build technology systems that solve problems and can adapt as business needs change and technology evolves
-* Contributed to the Code for America's project that sends citizens of Denver reminder text messages of street sweeping dates so they avoid parking tickets
-* Building open source software for profit and fun
+* Working with clients to build technology systems that solve problems and adapt as business needs change and technology evolves
+* Built the cloud-based backend integration and automation services for one of the largest online charter schools in the United States
+* Designed and built the software infrastructure that powers the sites and applications for the City of Fort Worth, Texas
+* Contributed to the Code for America's project that sends citizens of Denver, Colorado reminder text messages of street-sweeping dates to avoid parking tickets
+* Building open-source software for profit and fun
 
 </article>
 
@@ -28,8 +30,8 @@ Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska, Texas, Id
 * Developed business intelligence reporting applications to help clients track their terabytes of data and use it to make better business decisions
 * Ensured my team of analysts, designers, and programmers were free of stress and enjoying their jobs.
 * Mentored junior developers by hosting roundtable meetings, pair-programming, and being an active participant in chatroom discussions
-* Practiced agile and lean management and development techniques and actively promoted it to others within RDI
-* Started RDI's open source initiatives and remain the largest contributor
+* Practiced agile and lean management and development techniques and led the effort of promoting them throughout RDI
+* Started RDI's open-source initiatives and remain the largest contributor
 * Impacted technology selection, project management, and people management across RDI
 
 </article>
@@ -40,7 +42,7 @@ _November 1999 - June 2005_
 
 <article markdown="1">
 
-Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in Shawnee, Oklahoma, that provides accounting and student information software solutions to school districts in Oklahoma
+Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in Shawnee, Oklahoma that provides accounting and student information software solutions to school districts in Oklahoma
 
 * Led the development team in replacing the legacy DOS-based software product stack with a suite of Windows desktop applications
 * Developed the Student Infrastructure Framework agent that gives the Oklahoma State Department of Education (OSDE) the ability to submit queries and receive real-time student data changes from MAS software systems
@@ -49,13 +51,13 @@ Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in Shawnee, O
 
 </article>
 
-## Embedded Software Engineer - Boeing, Defense and Space Group
+## Embedded Software Engineer - Boeing, Defense & Space Group
 
 _August 1998 - November 1999_
 
 <article markdown="1">
 
-Embedded Software Engineer for Boeing, Defense and Space Group, based in Oklahoma City, Oklahoma, that developed the B1-B Bomber Block E software upgrade
+Embedded Software Engineer for Boeing, Defense and Space Group, based in Oklahoma City, Oklahoma that developed the B1-B Bomber Block E software upgrade
 
 * Designed and developed the mission data loading interface used to distribute mission data throughout the multi-threaded avionic flight software
 * Developed the Device Backup displays used to emulate switch panels and keyboards in cases of hardware failure
