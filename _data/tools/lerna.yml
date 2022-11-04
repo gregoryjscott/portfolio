@@ -1,0 +1,6 @@
+title: Lerna
+desc: A tool for managing JavaScript projects with multiple packages.
+_links:
+  projects:
+    - title: EpiCloud
+      href: /projects/epicloud/

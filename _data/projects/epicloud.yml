@@ -11,3 +11,55 @@ _links:
   db:
     - title: BigQuery
       href: /db/bigquery/
+
+  tools:
+    - title: Google Classroom
+      href: /tools/classroom/
+
+    - title: DynamoDB
+      href: /tools/ddb/
+
+    - title: Docker
+      href: /tools/docker/
+
+    - title: Google Drive
+      href: /tools/drive/
+
+    - title: EC2
+      href: /tools/ec2/
+
+    - title: ECR
+      href: /tools/ecr/
+
+    - title: ECS
+      href: /tools/ecs/
+
+    - title: Fargate
+      href: /tools/fargate/
+
+    - title: Google Firebase
+      href: /tools/firebase/
+
+    - title: IAM
+      href: /tools/iam/
+
+    - title: Lerna
+      href: /tools/lerna/
+
+    - title: Node.js
+      href: /tools/node/
+
+    - title: Puppeteer
+      href: /tools/puppeteer/
+
+    - title: S3
+      href: /tools/s3/
+
+    - title: SQS
+      href: /tools/sqs/
+
+    - title: Pivotal Tracker
+      href: /tools/tracker/
+
+    - title: VPC
+      href: /tools/vpc/

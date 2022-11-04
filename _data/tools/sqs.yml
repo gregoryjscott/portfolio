@@ -1,0 +1,6 @@
+title: Amazon Simple Queue Service (SQS)
+desc: SQS is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.
+_links:
+  projects:
+    - title: EpiCloud
+      href: /projects/epicloud/

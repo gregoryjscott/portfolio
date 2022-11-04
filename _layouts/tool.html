@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+{% if page.desc %}
+<p>{{ page.desc }}</p>
+{% endif %}
+
+{% if page._embedded.projects %}
+  <h1>Projects</h1>
+  <section>
+    {% for item in page._embedded.projects %}
+    <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+
+      <p>
+        <em>
+          {{ item.role }},
+          {{ item.begin_year }}
+          {% unless item.begin_year == item.end_year %} -
+            {% if item.end_year %}
+              {{ item.end_year }}
+            {% else %}
+              present
+            {% endif %}
+          {% endunless %}
+        </em>
+      </p>
+
+      {% if item.desc %}
+      <p>{{ item.desc }}</p>
+      {% endif %}
+
+      {% include links-ul.html data=item %}
+    {% endfor %}
+  </section>
+{% endif %}
+
+<hr>
+
+<section markdown="1">
+  {% include get-started.md %}
+</section>
+
+<script>
+element = document.getElementById("tool-menu");
+element.className += " active";
+</script>
