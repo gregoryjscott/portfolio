@@ -4,6 +4,7 @@
     "url": "https://github.com/gregoryjscott/me.git"
   },
   "scripts": {
+    "bootstrap": "gem install bundler jekyll && bundle update",
     "build": "bundle exec jekyll build",
     "serve": "bundle exec jekyll serve",
     "open": "open http://127.0.0.1:4000",
