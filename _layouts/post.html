@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+{% assign ui_text = site.data.ui-text['ui_text'] %}
+
+{% if page.author == nil %}
+	{% assign author = site.author %}
+{% else %}
+	{% assign author = page.author %}
+{% endif %}
+
+{% assign blog_url = 'blog/' %}
+
+<!-- Spacer -->
+<div class="section spacer"></div>
+
+<!-- Title -->
+<div class="section title">
+	<div class="content">
+		<div class="h-subtitle typed-post-template">
+			<p>{{ page.title }}</p>
+		</div>
+		<span class="typed-post"></span>
+	</div>
+</div>
+
+<!-- Blog -->
+<div class="section blog">
+	<div class="content">
+		<div class="single-post-text">
+			{{ page.content }}
+		</div>
+		
+		<div class="post-text-bottom">
+			{% assign cat_size = page.category | size %}
+			{% if cat_size != 0 %}
+			<div class="cat-links">
+				<span>Posted in</span> 
+				{% for category in page.category %}
+				<a href="{{ '/categories' | relative_url }}/{{ category | downcase | url_escape | strip | replace: ' ', '-' }}">{{ category }}</a>{% if page.category.last != category and page.category.last != nil %},{% endif %}
+				{% endfor %}
+			</div>
+			{% endif %}
+
+			{% assign tags_size = page.tags | size %}
+			{% if tags_size != 0 %}
+			<div class="tags-links">
+				<span>{{ ui_text.tags }}:</span> 
+				{% for tag in page.tags %}
+				<a href="{{ '/tags' | relative_url }}/{{ tag | downcase | url_escape | strip | replace: ' ', '-' }}" rel="tag">{{- tag -}}</a>
+				{% endfor %}
+			</div>
+			{% endif %}
+		</div>
+
+		{% if page.previous.url or page.next.url %}
+		<nav class="navigation post-navigation">
+			<div class="nav-links">
+				{% if page.previous.url %}
+				<div class="nav-previous">
+					<a href="{{ page.previous.url | relative_url }}" title="{{ page.previous.title }}"><span class="post-nav-next post-nav-text">{{ ui_text.prev }}</span></a>
+				</div>
+				{% endif %}
+				{% if page.next.url %}
+				<div class="nav-next">
+					<a href="{{ page.next.url | relative_url }}" title="{{ page.next.title }}"><span class="post-nav-prev post-nav-text">{{ ui_text.next }}</span></a>
+				</div>
+				{% endif %}
+			</div>
+		</nav>
+		{% endif %}
+
+		<div class="clear"></div>
+	</div>
+</div>
