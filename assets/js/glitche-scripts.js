@@ -29,9 +29,9 @@ $(function () {
 					'Macs',
 					'smartphones',
 					'TVs',
-					'range finders',
+					'hand-held lasar range finders',
 					'GPS devices',
-					'lasers',
+					'lasers mounted to planes',
 					'calculators',
 					'B-1 Bombers'
 				],
