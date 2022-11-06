@@ -172,6 +172,10 @@ h1 {
 	font-size: $h1-size;
 }
 
+section h1 {
+	font-size: $h2-size;
+}
+
 h2 {
 	font-size: $h2-size;
 }
@@ -247,6 +251,10 @@ a.btn, .btn {
 		color: $bg;
 		background: $active-color;
 		border: 1px solid $active-color;
+	}
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
 	}
 }
 
