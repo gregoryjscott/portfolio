@@ -1,15 +1,19 @@
 ---
 ---
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {%- include head.html -%}
-<body>
-  <div class="border"></div>
-
-  {%- include header.html -%}
-
-  {{ content }}
-
+<body class="{% if page.layout == 'home' %} home{% endif %}{% if page.layout == 'post' %} blog{% endif %}">
+  <div class="container">
+    {%- include header.html -%}
+    <div class="wrapper">
+      {{ content }}
+    </div>
+    <div class="line top"></div>
+    <div class="line bottom"></div>
+    <div class="line left"></div>
+    <div class="line right"></div>
+  </div>
   {%- include scripts.html -%}
 </body>
 </html>
