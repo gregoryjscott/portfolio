@@ -5,24 +5,19 @@ title: Projects
 
 {% assign ui_text = site.data.ui-text['ui_text'] %}
 
-<!-- Spacer -->
 <div class="section spacer"></div>
 
-<!-- Title -->
 <div class="section title">
 	<div class="content">
 		<div class="h-subtitle typed-bread-template">
 			<p><a href="{{ site.url }}">{{ ui_text.home }}</a> / <a href="{{ page.url }}">{{ page.title }}</a></p>
 		</div>
-		<span class="typed-bread"></span>
+		<h1><span class="typed-bread"></span></h1>
+    <p>
+Projects can also be explored by skill such as [language](/languages) or [database](/db).
+    </p>
 	</div>
 </div>
-
-<div class="section"><div class="content">
-<section markdown="1">
-Projects can also be explored by skill such as [language](/languages) or [database](/db).
-</section>
-</div></div>
 
 <section>
 {% for item in page.items %}
