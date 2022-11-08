@@ -12,7 +12,8 @@ title: Databases
 		<div class="h-subtitle typed-bread-template">
 			<p><a href="{{ site.url }}">{{ ui_text.home }}</a> / <a href="{{ page.url }}">{{ page.title }}</a></p>
 		</div>
-		<h1><span class="typed-bread"></span></h1>
+		<span class="typed-bread"></span>
+    <h1>{{ page.title }}</h1>
     <p>
 My projects use these databases.
     </p>

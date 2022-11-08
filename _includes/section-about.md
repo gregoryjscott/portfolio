@@ -10,7 +10,7 @@
 		{{ endif }}
 
 		<div class="desc" markdown="1">
-			<p><strong>Hi, I'm Greg.</strong></p>
+			<p><h1>Hi, I'm Greg.</h1></p>
 			<p>
 			My [projects](/projects) have used an impressive spectrum of [languages](/languages), [tools](/tools), and [databases](/db). Feel free to browse my [resume](/resume).
 			</p>
