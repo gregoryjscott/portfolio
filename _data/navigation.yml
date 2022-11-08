@@ -7,6 +7,10 @@ main:
     url: "resume/"
     button: 0
 
+  - title: "CV"
+    url: "cv/"
+    button: 0
+
   - title: "Projects"
     url: "projects/"
     button: 0
