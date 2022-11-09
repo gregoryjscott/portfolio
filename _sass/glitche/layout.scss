@@ -188,6 +188,15 @@ header {
 	}
 }
 
+div.section div.section {
+	padding-left: 0;
+	padding-bottom: 60px;
+}
+
+div.section div.section:last-of-type {
+	padding-bottom: 0px;
+}
+
 div.section:last-of-type {
 	padding-bottom: 0px;
 }
