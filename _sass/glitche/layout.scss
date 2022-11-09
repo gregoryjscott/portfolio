@@ -188,6 +188,10 @@ header {
 	}
 }
 
+div.section:last-of-type {
+	padding-bottom: 0px;
+}
+
 .section .content .title .title_inner, 
 .box-items .box-item .category, 
 .comment-info span.comment-reply, 

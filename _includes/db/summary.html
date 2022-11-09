@@ -1,0 +1,19 @@
+{% assign db = include.db %}
+
+<div class="section">
+  <div class="content">
+
+<section>
+  <h1><a href="{{ db.url }}">{{ db.title }}</a></h1>
+
+  <p><em>{{ db.subtitle }}</em></p>
+
+  {% if db.desc %}
+  <p>{{ db.desc }}</p>
+  {% endif %}
+
+  {% include links-ul.html data=db %}
+</section>
+
+  </div>
+</div>

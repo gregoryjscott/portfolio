@@ -1,24 +1,58 @@
 ---
 layout: default
 ---
+{% assign ui_text = site.data.ui-text['ui_text'] %}
 
-<p><em>{{ page.subtitle }}</em></p>
+<div class="section spacer"></div>
 
-{% if page.desc %}
-<p>{{ page.desc }}</p>
+<div class="section bread">
+	<div class="content">
+		<div class="h-subtitle typed-bread-template">
+			<p><a href="{{ site.url }}">{{ ui_text.home }}</a> / <a href="{{ site.url }}/projects">Projects</a> / <a href="{{ page.url }}">{{ page.title }}</a></p>
+		</div>
+		<span class="typed-bread"></span>
+  </div>
+</div>
+
+<div class="section title">
+	<div class="content">
+		<h1>{{ page.title }}</h1>
+    <p><em>{{ page.subtitle }}</em></p>
+    {% if page.desc %}
+    <p>{{ page.desc }}</p>
+    {% endif %}
+	</div>
+</div>
+
+{% if page._embedded.languages %}
+<div class="section">
+	<div class="content">
+    <h2>Languages</h2>
+    {% for item in page._embedded.languages %}
+      {% include languages/summary.html language=item %}
+    {% endfor %}
+  </div>
+</div>
 {% endif %}
 
-<section markdown="1">
-{% include links-stack.html data=page %}
-</section>
+{% if page._embedded.db %}
+<div class="section">
+	<div class="content">
+    <h2>Databases</h2>
+    {% for item in page._embedded.db %}
+      {% include db/summary.html db=item %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
 
-<hr>
-
-<section markdown="1">
-  {% include get-started.md %}
-</section>
-
-<script>
-element = document.getElementById("project-menu");
-element.className += " active";
-</script>
+{% if page._embedded.tools %}
+<div class="section">
+	<div class="content">
+    <h2>Tools</h2>
+    {% for item in page._embedded.tools %}
+      {% include tools/summary.html tool=item %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
