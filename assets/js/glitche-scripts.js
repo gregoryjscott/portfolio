@@ -22,21 +22,21 @@ $(function () {
 		if (document.querySelector('.typed-subtitle')) {
 			new Typed('.typed-subtitle', {
 				strings: [
-					'clouds',
-					'servers',
-					'mainframes',
-					'PCs',
-					'Macs',
-					'smartphones',
-					'TVs',
-					'hand-held lasar range finders',
-					'GPS devices',
-					'lasers mounted to planes',
-					'calculators',
-					'B-1 Bombers'
+					'clouds.',
+					'servers.',
+					'mainframes.',
+					'PCs.',
+					'Macs.',
+					'smartphones.',
+					'TVs.',
+					'hand-held lasar range finders.',
+					'GPS devices.',
+					'lasers mounted to planes.',
+					'calculators.',
+					'B-1 Bombers.'
 				],
-				typeSpeed: 50,
-				backSpeed: 50,
+				typeSpeed: 10,
+				backSpeed: 10,
 				loop: true
 			});
 		}
