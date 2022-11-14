@@ -22,6 +22,7 @@
     13. Text Formating
     14. Blockquote
     15. Animations
+    16. Articles
 */
 
 /* 1. Basic */
@@ -172,10 +173,6 @@ h1 {
 	font-size: $h1-size;
 }
 
-section h1 {
-	font-size: $h4-size;
-}
-
 h2 {
 	font-size: $h2-size;
 }
@@ -193,6 +190,26 @@ h5 {
 }
 
 h6 {
+	font-size: $h6-size;
+}
+
+section h1 {
+	font-size: $h2-size;
+}
+
+section h2 {
+	font-size: $h3-size;
+}
+
+section h3 {
+	font-size: $h4-size;
+}
+
+section h4 {
+	font-size: $h5-size;
+}
+
+section h5 {
 	font-size: $h6-size;
 }
 
@@ -390,6 +407,11 @@ ol, ul {
 	padding-left: 0px; 
 }
 
+article ul {
+	list-style-type: disc;
+	margin: 1em;
+}
+
 ul ul, 
 ul ol,
 ol ol, 
@@ -398,7 +420,7 @@ ol ul {
 }
 
 li { 
-	margin-bottom: 0px;
+	margin-bottom: 15px;
 }
 
 /* Code */
@@ -998,4 +1020,9 @@ p {
 		-webkit-transition: all 0s ease 0s;
 		-o-transition: all 0s ease 0s;
 	}
+}
+
+/* 16. Articles */
+article {
+	padding-bottom: 60px;
 }
