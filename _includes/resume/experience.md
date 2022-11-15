@@ -1,8 +1,4 @@
-<div class="resume-items">
 # Experience
-
-<div class="resume-item active">
-  <div class="date">July 2014 - present</div>
 
 ## Freelance Consultant
 
@@ -20,10 +16,6 @@ Freelance Consultant working remote while exploring countries of Latin America
 * Building open-source software for profit and fun
 
 </article>
-</div>
-
-<div class="resume-item active">
-  <div class="date">July 2005 - July 2014</div>
 
 ## Technical Lead - Resource Data, Inc.
 
@@ -43,10 +35,6 @@ Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska, Texas, Id
 * Impacted technology selection, project management, and people management across RDI
 
 </article>
-</div>
-
-<div class="resume-item active">
-  <div class="date">November 1999 - June 2005</div>
 
 ## Lead Programmer - Municipal Accounting Systems, Inc.
 
@@ -62,10 +50,6 @@ Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in Shawnee, O
 * Helped MAS grow its market share to over 70% of Oklahoma and become OSDE's recommended student information system for Oklahoma school districts
 
 </article>
-</div>
-
-<div class="resume-item active">
-  <div class="date">August 1998 - November 1999</div>
 
 ## Embedded Software Engineer - Boeing, Defense & Space Group
 
@@ -80,5 +64,3 @@ Embedded Software Engineer for Boeing, Defense and Space Group, based in Oklahom
 * Developed the System Management Function displays used to monitor and administer the system
 
 </article>
-</div>
-</div>
