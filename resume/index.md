@@ -16,7 +16,13 @@ layout: default
 
 <div class="section"><div class="content">
 <section markdown="1">
+<div class="resume-items">
+<div class="resume-item active">
+  <div class="date">August 1998 - November 1999</div>
+
 {% include resume/skills.md %}
+<div>
+</div>
 </section>
 </div></div>
 
