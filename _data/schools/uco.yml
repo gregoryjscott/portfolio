@@ -1,0 +1,21 @@
+title: University of Central Oklahoma
+desc:
+role: Student
+begin_year: 1994
+end_year: 1998
+_links:
+  languages:
+    - title: FORTRAN
+      href: /languages/fortran/
+
+    - title: Pascal
+      href: /languages/pascal/
+
+    - title: C
+      href: /languages/c/
+
+    - title: C++
+      href: /languages/cpp/
+
+    - title: Visual Basic
+      href: /languages/vb/

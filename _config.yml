@@ -34,3 +34,9 @@ defaults:
     type: "pages"
   values:
     layout: "tool"
+
+- scope:
+    path: "schools"
+    type: "pages"
+  values:
+    layout: "school"

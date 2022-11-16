@@ -1,0 +1,19 @@
+{% assign school = include.school %}
+
+<div class="section">
+  <div class="content">
+
+<section>
+  <h1><a href="{{ school.url }}">{{ school.title }}</a></h1>
+
+  <p><em>{{ school.subtitle }}</em></p>
+
+  {% if school.desc %}
+  <p>{{ school.desc }}</p>
+  {% endif %}
+
+  {% include links-ul.html data=school %}
+</section>
+
+  </div>
+</div>

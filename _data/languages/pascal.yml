@@ -1,2 +1,6 @@
 title: Pascal
 desc:
+_links:
+  schools:
+    - title: University of Central Oklahoma
+      href: /schools/uco/

@@ -1,0 +1,36 @@
+---
+layout: default
+---
+{% assign ui_text = site.data.ui-text['ui_text'] %}
+
+<div class="section spacer"></div>
+
+<div class="section bread">
+	<div class="content">
+		<div class="h-subtitle typed-bread-template">
+			<p><a href="{{ site.url }}">{{ ui_text.home }}</a> / <a href="{{ site.url }}/schools">Schools</a> / <a href="{{ page.url }}">{{ page.title }}</a></p>
+		</div>
+		<span class="typed-bread"></span>
+  </div>
+</div>
+
+<div class="section title">
+	<div class="content">
+		<h1>{{ page.title }}</h1>
+    <p><em>{{ page.subtitle }}</em></p>
+    {% if page.desc %}
+    <p>{{ page.desc }}</p>
+    {% endif %}
+	</div>
+</div>
+
+{% if page._embedded.languages %}
+<div class="section">
+	<div class="content">
+    <h2>Languages</h2>
+    {% for item in page._embedded.languages %}
+      {% include languages/summary.html language=item %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

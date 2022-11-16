@@ -27,6 +27,10 @@ main:
     url: "tools/"
     button: 0
   
+  - title: "Schools"
+    url: "schools/"
+    button: 0
+  
   - title: "Blog"
     url: "blog/"
     button: 0

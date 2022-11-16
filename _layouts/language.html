@@ -34,3 +34,14 @@ layout: default
   </div>
 </div>
 {% endif %}
+
+{% if page._embedded.schools %}
+<div class="section">
+	<div class="content">
+    <h2>Schools</h2>
+    {% for item in page._embedded.schools %}
+    {% include schools/summary.html school=item %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
