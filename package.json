@@ -5,6 +5,7 @@
   },
   "scripts": {
     "bootstrap": "gem install bundler jekyll && bundle update && gem specific_install http://github.com/gregoryjscott/jekyll-load.git other-data",
+    "prep": "ts-node prep.ts",
     "build": "bundle exec jekyll build",
     "serve": "bundle exec jekyll serve",
     "open": "open http://127.0.0.1:4000",
