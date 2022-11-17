@@ -49,15 +49,6 @@ $(function () {
 				showCursor: false
 			});
 		}
-
-		if (document.querySelector('.typed-post')) {
-			new Typed('.typed-post', {
-				stringsElement: '.typed-post-template',
-				typeSpeed: 50,
-				loop: false,
-				showCursor: false
-			});
-		}
 	});
 	
 	/*Menu mobile*/

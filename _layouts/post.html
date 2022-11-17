@@ -15,19 +15,20 @@ layout: default
 <!-- Spacer -->
 <div class="section spacer"></div>
 
-<!-- Title -->
-<div class="section title">
+<div class="section bread">
 	<div class="content">
-		<div class="h-subtitle typed-post-template">
-			<p>{{ page.title }}</p>
+		<div class="h-subtitle typed-bread-template">
+			<p><a href="{{ site.url }}">{{ ui_text.home }}</a> / <a href="{{ site.url }}/blog">Blog</a> / <a href="{{ page.url }}">{{ page.title }}</a></p>
 		</div>
-		<span class="typed-post"></span>
+		<span class="typed-bread"></span>
 	</div>
 </div>
+
 
 <!-- Blog -->
 <div class="section blog">
 	<div class="content">
+		<h1>{{ page.title }}</h1>
 		<div class="single-post-text">
 			{{ page.content }}
 		</div>
