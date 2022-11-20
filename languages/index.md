@@ -9,10 +9,9 @@ title: Languages
 
 <div class="section bread">
 	<div class="content">
-		<div class="h-subtitle typed-bread-template">
+		<div class="h-subtitle">
 			<p><a href="{{ site.url }}">{{ ui_text.home }}</a> / <a href="{{ page.url }}">{{ page.title }}</a></p>
 		</div>
-		<span class="typed-bread"></span>
 	</div>
 </div>
 

@@ -40,15 +40,6 @@ $(function () {
 				loop: true
 			});
 		}
-
-		if (document.querySelector('.typed-bread')) {
-			new Typed('.typed-bread', {
-				stringsElement: '.typed-bread-template',
-				typeSpeed: 50,
-				loop: false,
-				showCursor: false
-			});
-		}
 	});
 	
 	/*Menu mobile*/
