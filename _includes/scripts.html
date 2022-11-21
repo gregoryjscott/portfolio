@@ -1,3 +1,5 @@
+{% assign settings = site.data.settings['settings'] %}
+
 <!-- Plugins -->
 <script src="{{ 'assets/js/jquery.min.js' | relative_url }}"></script>
 <script src="{{ 'assets/js/jquery.validate.js' | relative_url }}"></script>
@@ -10,3 +12,13 @@
 
 <!-- Main -->
 <script src="{{ 'assets/js/glitche-scripts.js' | relative_url }}"></script>
+
+{% if settings.header == 1 %}
+<script>
+/* Set full height in blocks */
+var height = $('header').outerHeight()
+var adjustment = height + 30 // due to CSS applied to header
+$('.section.spacer').css({'height': 0});
+$('.section.spacer').css({'padding': 0});
+</script>
+{% endif %}

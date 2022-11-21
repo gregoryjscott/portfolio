@@ -11,11 +11,6 @@ $(function () {
 	
 	window.onpageshow = function(event) {if (event.persisted) {window.location.reload() }};
 
-	/* Set full height in blocks */
-	var height = $('header').outerHeight()
-	var adjustment = height + 30 // due to CSS applied to header
-	$('.section.spacer').css({'height': adjustment});
-
 	$(window).on('load', function() {
 		$('body').addClass('loaded');
 

@@ -4,6 +4,7 @@
 
 <!-- Header -->
 <header>
+	{% if settings.header == 1 %}
 	<div class="head-top">
 		{% if settings.sidebar == 1 %}
 		<span class="sidebar_btn"><span></span></span>
@@ -22,4 +23,5 @@
 			</ul>
 		</div>
 	</div>
+	{% endif %}
 </header>
