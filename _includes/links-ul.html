@@ -11,10 +11,4 @@
     {% include link-li.html label='school' links=include.data._links.schools %}
   </ul>
 
-  <p></p>
-
-  {% if include.data._links.recommend %}
-    {% assign link = include.data._links.recommend %}
-    <a class="button recommend" href="{{ link.href }}">{{ link.title }}</a>
-  {% endif %}
 {% endif %}
