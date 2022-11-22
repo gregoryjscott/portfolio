@@ -31,6 +31,10 @@ main:
     url: "schools/"
     button: 0
   
+  - title: "Jobs"
+    url: "jobs/"
+    button: 0
+  
   - title: "Blog"
     url: "blog/"
     button: 0
