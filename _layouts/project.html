@@ -45,6 +45,17 @@ layout: default
 </div>
 {% endif %}
 
+{% if page._embedded.os %}
+<div class="section">
+	<div class="content">
+    <h2>Operating Systems</h2>
+    {% for item in page._embedded.os %}
+      {% include os/summary.html os=item %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
 {% if page._embedded.tools %}
 <div class="section">
 	<div class="content">

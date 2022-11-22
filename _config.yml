@@ -24,6 +24,12 @@ defaults:
     layout: "language"
 
 - scope:
+    path: "os"
+    type: "pages"
+  values:
+    layout: "os"
+
+- scope:
     path: "db"
     type: "pages"
   values:

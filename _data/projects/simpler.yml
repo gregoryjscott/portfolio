@@ -14,3 +14,13 @@ _links:
 
     - title: Ruby
       href: /languages/rb/
+
+  os:
+    - title: Windows
+      href: /os/windows/
+
+    - title: OS X
+      href: /os/osx/
+
+    - title: Linux
+      href: /os/linux/

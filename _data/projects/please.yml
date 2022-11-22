@@ -21,3 +21,7 @@ _links:
   db:
     - title: SQLite
       href: /db/sqlite/
+
+  os:
+    - title: Windows
+      href: /os/windows/

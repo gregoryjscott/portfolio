@@ -21,3 +21,13 @@ _links:
   db:
     - title: Postgres
       href: /db/postgres/
+
+  os:
+    - title: Windows
+      href: /os/windows/
+
+    - title: OS X
+      href: /os/osx/
+
+    - title: Linux
+      href: /os/linux/

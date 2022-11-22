@@ -11,3 +11,7 @@ _links:
   db:
     - title: Oracle
       href: /db/oracle/
+
+  os:
+    - title: Windows
+      href: /os/windows/

@@ -12,6 +12,10 @@ _links:
     - title: BigQuery
       href: /db/bigquery/
 
+  os:
+    - title: Linux
+      href: /os/linux/
+
   tools:
     - title: Google Classroom
       href: /tools/classroom/

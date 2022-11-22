@@ -26,3 +26,7 @@ _links:
   db:
     - title: SQL Server
       href: /db/sql-server/
+
+  os:
+    - title: Windows
+      href: /os/windows/

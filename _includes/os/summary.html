@@ -1,0 +1,19 @@
+{% assign os = include.os %}
+
+<div class="section">
+  <div class="content">
+
+<section>
+  <h1><a href="{{ os.url }}">{{ os.title }}</a></h1>
+
+  <p><em>{{ os.subtitle }}</em></p>
+
+  {% if os.desc %}
+  <p>{{ os.desc }}</p>
+  {% endif %}
+
+  {% include links-ul.html data=os %}
+</section>
+
+  </div>
+</div>

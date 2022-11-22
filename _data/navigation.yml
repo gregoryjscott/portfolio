@@ -23,6 +23,10 @@ main:
     url: "db/"
     button: 0
   
+  - title: "Operating Systems"
+    url: "os/"
+    button: 0
+  
   - title: "Tools"
     url: "tools/"
     button: 0
