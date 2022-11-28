@@ -17,7 +17,7 @@ layout: default
 <div class="section"><div class="content">
 <h1>Gregory J. Scott</h1>
 <section markdown="1">
-* web: [http://gregoryjscott.com][g]
+* web: [https://gregoryjscott.com][g]
 * email: [me@gregoryjscott.com][email]
 * github: [https://github.com/gregoryjscott][github]
 * twitter: [https://twitter.com/gregoryjscott][twitter]
@@ -42,7 +42,7 @@ layout: default
 </section>
 </div></div>
 
-[g]: http://gregoryjscott.com
+[g]: https://gregoryjscott.com
 [email]: mailto:me@gregoryjscott.com
 [twitter]: https://twitter.com/gregoryjscott
 [github]: https://github.com/gregoryjscott
