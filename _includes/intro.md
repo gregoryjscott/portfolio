@@ -6,6 +6,6 @@ I've programmed <span class="typed-subtitle"></span>
 
 Este sitio web está disponible en [español](/es).
 
-Thanks for visiting,
+Thanks for visiting.
 
 Greg
