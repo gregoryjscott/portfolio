@@ -1,15 +1,12 @@
-{% if include.data._links %}
+{% if include.data._embedded %}
   <ul>
-    {% include link-li.html label='work' links=include.data._links.work %}
-    {% include link-li.html label='skills' links=include.data._links.skills %}
-    {% include link-li.html label='contact' links=include.data._links.contact %}
-    {% include link-li.html label='code' links=include.data._links.code %}
-    {% include link-li.html label='projects' links=include.data._links.projects %}
-    {% include link-li.html label='languages' links=include.data._links.languages %}
-    {% include link-li.html label='db' links=include.data._links.db %}
-    {% include link-li.html label='tools' links=include.data._links.tools %}
-    {% include link-li.html label='school' links=include.data._links.schools %}
-    {% include link-li.html label='job' links=include.data._links.jobs %}
+    {% include link-li.html label='code' links=include.data._embedded.code %}
+    {% include link-li.html label='projects' links=include.data._embedded.projects %}
+    {% include link-li.html label='languages' links=include.data._embedded.languages %}
+    {% include link-li.html label='db' links=include.data._embedded.db %}
+    {% include link-li.html label='tools' links=include.data._embedded.tools %}
+    {% include link-li.html label='school' links=include.data._embedded.schools %}
+    {% include link-li.html label='job' links=include.data._embedded.jobs %}
   </ul>
 
 {% endif %}

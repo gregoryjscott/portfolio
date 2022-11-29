@@ -1,3 +1,7 @@
+// TODO
+// - [ ] Fix code links (links-commans.html it is expecting _embedded style)
+// - [ ] Fix school links (links-commans.html it is expecting _embedded style)
+
 import * as fs from 'fs'
 import * as YAML from 'yaml'
 import * as path from 'path'
@@ -18,18 +22,19 @@ const languages: Skill[] = buildSkill('languages')
 const os: Skill[] = buildSkill('os')
 const tools: Skill[] = buildSkill('tools')
 updateData()
-writeSkill('db', db)
-writeSkill('jobs', jobs)
-writeSkill('languages', languages)
-writeSkill('os', os)
-writeSkill('tools', tools)
 
 function updateData() {
   const projectFiles = fs.readdirSync('./_data/projects')
   for (const projectFile of projectFiles) {
     const projectURL = `/projects/${path.parse(projectFile).name}/`
-    const contents = fs.readFileSync(`./_data/projects/${projectFile}`, 'utf8')
+    const projectFilePath = `./_data/projects/${projectFile}`
+    const contents = fs.readFileSync(projectFilePath, 'utf8')
     const data = YAML.parse(contents)
+
+    if (!data._links) data._links = {}
+    data._links.self = {href: projectURL}
+    console.log(projectFilePath)
+    fs.writeFileSync(projectFilePath, YAML.stringify(data))
 
     updateLinkedSkill(db, projectURL, data._links.db)
     updateLinkedSkill(jobs, projectURL, data._links.jobs)
@@ -37,6 +42,11 @@ function updateData() {
     updateLinkedSkill(os, projectURL, data._links.os)
     updateLinkedSkill(tools, projectURL, data._links.tools)
   }
+  writeSkill('db', db)
+  writeSkill('jobs', jobs)
+  writeSkill('languages', languages)
+  writeSkill('os', os)
+  writeSkill('tools', tools)
 }
 
 function buildSkill(urlFragment: string): Skill[] {
@@ -62,7 +72,6 @@ function updateLinkedSkill(skills: Skill[], projectURL: string, links: any[]) {
 function writeSkill(urlFragment: string, skills: Skill[]) {
   for (const skill of skills) {
     const filePath = `_data/${urlFragment}/${path.parse(skill.url).name}.yml`
-    console.log(filePath)
     const contents = fs.readFileSync(filePath, 'utf8')
     const data = YAML.parse(contents)
     if (!data._links) data._links = {}
@@ -73,6 +82,7 @@ function writeSkill(urlFragment: string, skills: Skill[]) {
     } else if (data._links.projects) {
       delete data._links.projects
     }
+    console.log(filePath)
     fs.writeFileSync(filePath, YAML.stringify(data))
   }
 }
