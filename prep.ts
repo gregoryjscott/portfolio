@@ -1,7 +1,3 @@
-// TODO
-// - [ ] Generate the `_links` inside of ./_data/x/*.yml, where x = db, jobs, languages, os, tools using ./_data/projects and ./data/schools
-// - [ ] Generate `self` where x = db, jobs, languages, projects, schools, tools
-
 import * as fs from 'fs'
 import * as YAML from 'yaml'
 import * as path from 'path'
@@ -65,13 +61,18 @@ function updateLinkedSkill(skills: Skill[], projectURL: string, links: any[]) {
 
 function writeSkill(urlFragment: string, skills: Skill[]) {
   for (const skill of skills) {
-    if (skill.projects.length < 1) continue
     const filePath = `_data/${urlFragment}/${path.parse(skill.url).name}.yml`
     console.log(filePath)
     const contents = fs.readFileSync(filePath, 'utf8')
     const data = YAML.parse(contents)
     if (!data._links) data._links = {}
-    data._links.projects = skill.projects.map(p => { return {href: p.url}})
+    const self = `/${urlFragment}/${path.parse(filePath).name}/`
+    data._links.self = {href: self}
+    if (skill.projects.length > 0) {
+      data._links.projects = skill.projects.map(p => { return {href: p.url}})
+    } else if (data._links.projects) {
+      delete data._links.projects
+    }
     fs.writeFileSync(filePath, YAML.stringify(data))
   }
 }
