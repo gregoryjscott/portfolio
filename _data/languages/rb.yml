@@ -1,24 +1,14 @@
 title: Ruby
-desc: Ruby is a dynamic, reflective, object-oriented, general-purpose programming language.
+desc: Ruby is a dynamic, reflective, object-oriented, general-purpose
+  programming language.
 _links:
   projects:
-    - title: Alaska Gasline Development Corporation
-      href: /projects/agdc/
-
-    - title: Centroid
-      href: /projects/centroid/
-
-    - title: Denver Schedules API
-      href: /projects/denver-schedules-api/
-
-    - title: Please
-      href: /projects/please/
-
-    - title: ScrambleScore
-      href: /projects/scramble-score/
-
-    - title: Simpler
-      href: /projects/simpler/
-
-    - title: This Site
-      href: /projects/this-site/
+    - href: /projects/agdc/
+    - href: /projects/centroid/
+    - href: /projects/denver-schedules-api/
+    - href: /projects/please/
+    - href: /projects/scramble-score/
+    - href: /projects/simpler/
+    - href: /projects/this-site/
+  self:
+    href: /languages/rb/

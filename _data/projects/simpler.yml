@@ -7,20 +7,12 @@ _links:
   code:
     title: github.com/gregoryjscott/Simpler
     href: https://github.com/gregoryjscott/Simpler
-
   languages:
-    - title: C#
-      href: /languages/cs/
-
-    - title: Ruby
-      href: /languages/rb/
-
+    - href: /languages/cs/
+    - href: /languages/rb/
   os:
-    - title: Windows
-      href: /os/windows/
-
-    - title: OS X
-      href: /os/osx/
-
-    - title: Linux
-      href: /os/linux/
+    - href: /os/windows/
+    - href: /os/osx/
+    - href: /os/linux/
+  self:
+    href: /projects/simpler/

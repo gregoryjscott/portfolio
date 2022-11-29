@@ -1,6 +1,8 @@
 title: C
-desc:
+desc: null
 _links:
   schools:
     - title: University of Central Oklahoma
       href: /schools/uco/
+  self:
+    href: /languages/c/

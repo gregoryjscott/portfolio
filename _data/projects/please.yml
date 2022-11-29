@@ -7,21 +7,13 @@ _links:
   code:
     title: github.com/ResourceDataInc/please
     href: https://github.com/ResourceDataInc/please
-
   languages:
-    - title: C#
-      href: /languages/cs/
-
-    - title: Ruby
-      href: /languages/rb/
-
-    - title: SQL
-      href: /languages/sql/
-
+    - href: /languages/cs/
+    - href: /languages/rb/
+    - href: /languages/sql/
   db:
-    - title: SQLite
-      href: /db/sqlite/
-
+    - href: /db/sqlite/
   os:
-    - title: Windows
-      href: /os/windows/
+    - href: /os/windows/
+  self:
+    href: /projects/please/

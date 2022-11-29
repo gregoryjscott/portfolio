@@ -1,5 +1,6 @@
 title: MvcIntegrationTestFramework
-desc: Framework that can be used to perform integration tests on a ASP.NET MVC application.
+desc: Framework that can be used to perform integration tests on a ASP.NET MVC
+  application.
 role: Author
 begin_year: 2010
 end_year: 2010
@@ -7,11 +8,9 @@ _links:
   code:
     title: github.com/gregoryjscott/MvcIntegrationTestFramework
     href: https://github.com/gregoryjscott/MvcIntegrationTestFramework
-
   languages:
-    - title: C#
-      href: /languages/cs/
-
+    - href: /languages/cs/
   os:
-    - title: Windows
-      href: /os/windows/
+    - href: /os/windows/
+  self:
+    href: /projects/mvc-integration-test-framework/

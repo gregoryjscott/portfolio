@@ -1,30 +1,16 @@
 title: CSS
-desc: Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language.
+desc: Cascading Style Sheets (CSS) is a style sheet language used for describing
+  the look and formatting of a document written in a markup language.
 _links:
   projects:
-    - title: Energy Efficiency Map
-      href: /projects/energy-efficiency-map/
-
-    - title: Alaska Gasline Development Corporation
-      href: /projects/agdc/
-
-    - title: AWWU Intranet
-      href: /projects/awwu-intranet/
-
-    - title: Quality Bank
-      href: /projects/qb/
-
-    - title: ScrambleScore
-      href: /projects/scramble-score/
-
-    - title: Scrum Tools
-      href: /projects/scrum-tools/
-
-    - title: Service Order Mobile Dispatch
-      href: /projects/somd/
-
-    - title: Systems Portal
-      href: /projects/systems-portal/
-
-    - title: This Site
-      href: /projects/this-site/
+    - href: /projects/agdc/
+    - href: /projects/awwu-intranet/
+    - href: /projects/energy-efficiency-map/
+    - href: /projects/qb/
+    - href: /projects/scramble-score/
+    - href: /projects/scrum-tools/
+    - href: /projects/somd/
+    - href: /projects/systems-portal/
+    - href: /projects/this-site/
+  self:
+    href: /languages/css/

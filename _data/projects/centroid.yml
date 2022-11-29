@@ -1,5 +1,6 @@
 title: Centroid
-desc: Library for accessing environment based configuration from multiple different programming languages.
+desc: Library for accessing environment based configuration from multiple
+  different programming languages.
 role: Contributor
 begin_year: 2014
 end_year: 2014
@@ -7,23 +8,13 @@ _links:
   code:
     title: github.com/ResourceDataInc/Centroid
     href: https://github.com/ResourceDataInc/Centroid
-
   languages:
-    - title: C#
-      href: /languages/cs/
-
-    - title: Python
-      href: /languages/py/
-
-    - title: Ruby
-      href: /languages/rb/
-
+    - href: /languages/cs/
+    - href: /languages/py/
+    - href: /languages/rb/
   os:
-    - title: Windows
-      href: /os/windows/
-
-    - title: OS X
-      href: /os/osx/
-
-    - title: Linux
-      href: /os/linux/
+    - href: /os/windows/
+    - href: /os/osx/
+    - href: /os/linux/
+  self:
+    href: /projects/centroid/

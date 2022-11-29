@@ -1,13 +1,12 @@
 title: Bit Proposal
-desc:
+desc: null
 role: Lead Developer
 begin_year: 2008
 end_year: 2008
 _links:
   languages:
-    - title: C#
-      href: /languages/cs/
-
+    - href: /languages/cs/
   os:
-    - title: Windows
-      href: /os/windows/
+    - href: /os/windows/
+  self:
+    href: /projects/bit-proposal/

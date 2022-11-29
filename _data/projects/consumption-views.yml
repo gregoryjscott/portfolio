@@ -1,20 +1,16 @@
 title: Consumption Views
-desc: Set of database views that provides water consumption information that feed into reporting tools used by AWWU to make business decisions.
+desc: Set of database views that provides water consumption information that
+  feed into reporting tools used by AWWU to make business decisions.
 role: Lead Developer
 begin_year: 2009
 end_year: 2009
 _links:
   languages:
-    - title: Transact-SQL
-      href: /languages/tsql/
-
-    - title: SQL
-      href: /languages/sql/
-
+    - href: /languages/tsql/
+    - href: /languages/sql/
   db:
-    - title: Oracle
-      href: /db/oracle/
-
+    - href: /db/oracle/
   os:
-    - title: Windows
-      href: /os/windows/
+    - href: /os/windows/
+  self:
+    href: /projects/consumption-views/

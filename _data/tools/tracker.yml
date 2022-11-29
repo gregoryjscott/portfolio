@@ -2,5 +2,6 @@ title: Pivotal Tracker
 desc: Pivotal Tracker is the agile project management tool.
 _links:
   projects:
-    - title: EpiCloud
-      href: /projects/epicloud/
+    - href: /projects/epicloud/
+  self:
+    href: /tools/tracker/

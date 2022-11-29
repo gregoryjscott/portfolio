@@ -1,23 +1,16 @@
 title: AWWU Systems Integration
-desc:
+desc: null
 role: Technical Lead
 begin_year: 2005
 end_year: 2006
 _links:
   languages:
-    - title: C#
-      href: /languages/cs/
-
-    - title: Transact-SQL
-      href: /languages/tsql/
-
-    - title: SQL
-      href: /languages/sql/
-
+    - href: /languages/cs/
+    - href: /languages/tsql/
+    - href: /languages/sql/
   db:
-    - title: Oracle
-      href: /db/oracle/
-
+    - href: /db/oracle/
   os:
-    - title: Windows
-      href: /os/windows/
+    - href: /os/windows/
+  self:
+    href: /projects/awwu-systems-integration/

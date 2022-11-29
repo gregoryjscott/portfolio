@@ -1,6 +1,8 @@
 title: Amazon Elastic Compute Cloud (EC2)
-desc: EC2 is a cloud-computing platform that allows users to rent virtual computers on which to run their own computer applications.
+desc: EC2 is a cloud-computing platform that allows users to rent virtual
+  computers on which to run their own computer applications.
 _links:
   projects:
-    - title: EpiCloud
-      href: /projects/epicloud/
+    - href: /projects/epicloud/
+  self:
+    href: /tools/ec2/

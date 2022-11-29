@@ -5,9 +5,8 @@ begin_year: 2005
 end_year: 2005
 _links:
   languages:
-    - title: C#
-      href: /languages/cs/
-
+    - href: /languages/cs/
   os:
-    - title: Windows
-      href: /os/windows/
+    - href: /os/windows/
+  self:
+    href: /projects/report-engine/

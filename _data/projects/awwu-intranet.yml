@@ -1,32 +1,20 @@
 title: AWWU Intranet
-desc: Web application that contains AWWU's reporting and querying tools, systems status, and custom applications.
+desc: Web application that contains AWWU's reporting and querying tools, systems
+  status, and custom applications.
 role: Technical Lead
 begin_year: 2005
 end_year: 2008
 _links:
   languages:
-    - title: C#
-      href: /languages/cs/
-
-    - title: CSS
-      href: /languages/css/
-
-    - title: HTML
-      href: /languages/html/
-
-    - title: JavaScript
-      href: /languages/js/
-
-    - title: Transact-SQL
-      href: /languages/tsql/
-
-    - title: SQL
-      href: /languages/sql/
-
+    - href: /languages/cs/
+    - href: /languages/css/
+    - href: /languages/html/
+    - href: /languages/js/
+    - href: /languages/tsql/
+    - href: /languages/sql/
   db:
-    - title: Oracle
-      href: /db/oracle/
-
+    - href: /db/oracle/
   os:
-    - title: Windows
-      href: /os/windows/
+    - href: /os/windows/
+  self:
+    href: /projects/awwu-intranet/

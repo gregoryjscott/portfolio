@@ -1,20 +1,16 @@
 title: Employees Suggestion
-desc: Oracle Forms application that allows AWWU employees to submit suggestions for improving the AWWU workplace.
+desc: Oracle Forms application that allows AWWU employees to submit suggestions
+  for improving the AWWU workplace.
 role: Lead Developer
 begin_year: 2005
 end_year: 2005
 _links:
   languages:
-    - title: Transact-SQL
-      href: /languages/tsql/
-
-    - title: SQL
-      href: /languages/sql/
-
+    - href: /languages/tsql/
+    - href: /languages/sql/
   db:
-    - title: Oracle
-      href: /db/oracle/
-
+    - href: /db/oracle/
   os:
-    - title: Windows
-      href: /os/windows/
+    - href: /os/windows/
+  self:
+    href: /projects/employee-suggestions/

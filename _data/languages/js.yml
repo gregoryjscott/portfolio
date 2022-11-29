@@ -1,27 +1,15 @@
 title: JavaScript
-desc: JavaScript is a dynamic computer programming language that runs in browsers and on servers.
+desc: JavaScript is a dynamic computer programming language that runs in
+  browsers and on servers.
 _links:
   projects:
-    - title: Energy Efficiency Map
-      href: /projects/energy-efficiency-map/
-
-    - title: Alaska Gasline Development Corporation
-      href: /projects/agdc/
-
-    - title: AWWU Intranet
-      href: /projects/awwu-intranet/
-
-    - title: Quality Bank
-      href: /projects/qb/
-
-    - title: ScrambleScore
-      href: /projects/scramble-score/
-
-    - title: Scrum Tools
-      href: /projects/scrum-tools/
-
-    - title: Service Order Mobile Dispatch
-      href: /projects/somd/
-
-    - title: Systems Portal
-      href: /projects/systems-portal/
+    - href: /projects/agdc/
+    - href: /projects/awwu-intranet/
+    - href: /projects/energy-efficiency-map/
+    - href: /projects/qb/
+    - href: /projects/scramble-score/
+    - href: /projects/scrum-tools/
+    - href: /projects/somd/
+    - href: /projects/systems-portal/
+  self:
+    href: /languages/js/

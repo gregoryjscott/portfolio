@@ -1,6 +1,7 @@
 title: BigQuery
-desc:
+desc: null
 _links:
   projects:
-    - title: EpiCloud
-      href: /projects/epicloud/
+    - href: /projects/epicloud/
+  self:
+    href: /db/bigquery/

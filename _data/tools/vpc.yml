@@ -1,6 +1,9 @@
 title: Amazon Virtual Private Cloud (VPC)
-desc: VPC is a commercial cloud computing service that provides users a virtual private cloud, by "provision[ing] a logically isolated section of Amazon Web Services Cloud".
+desc: VPC is a commercial cloud computing service that provides users a virtual
+  private cloud, by "provision[ing] a logically isolated section of Amazon Web
+  Services Cloud".
 _links:
   projects:
-    - title: EpiCloud
-      href: /projects/epicloud/
+    - href: /projects/epicloud/
+  self:
+    href: /tools/vpc/

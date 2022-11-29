@@ -1,63 +1,27 @@
 title: SQL
-desc: Structured Query Language (SQL) is the standard language for communicating with relational database management systems.
+desc: Structured Query Language (SQL) is the standard language for communicating
+  with relational database management systems.
 _links:
   projects:
-    - title: Energy Efficiency Map
-      href: /projects/energy-efficiency-map/
-
-    - title: Alaska Gasline Development Corporation
-      href: /projects/agdc/
-
-    - title: AHFC Integration
-      href: /projects/ahfc-integration/
-
-    - title: Employee Suggestions
-      href: /projects/employee-suggestions/
-
-    - title: AWWU Intranet
-      href: /projects/awwu-intranet/
-
-    - title: AWWU Systems Integration
-      href: /projects/awwu-systems-integration/
-
-    - title: CIS Data Capture
-      href: /projects/cis-data-capture/
-
-    - title: Consumption Views
-      href: /projects/consumption-views/
-
-    - title: Database Synchronization (AWWU)
-      href: /projects/database-sync-awwu/
-
-    - title: Denver Schedules API
-      href: /projects/denver-schedules-api/
-
-    - title: Please
-      href: /projects/please/
-
-    - title: Quality Bank
-      href: /projects/qb/
-
-    - title: SAR Reports
-      href: /projects/sar-reports/
-
-    - title: Scrum Tools
-      href: /projects/scrum-tools/
-
-    - title: SIF Agent
-      href: /projects/sif-agent/
-
-    - title: Service Order Mobile Dispatch
-      href: /projects/somd/
-
-    - title: Systems Portal
-      href: /projects/systems-portal/
-
-    - title: TrainBuilder
-      href: /projects/train-builder/
-
-    - title: Wen-GAGE Student Information
-      href: /projects/wengage-si/
-
-    - title: Wen-GAGE Accounting
-      href: /projects/wengage-acct/
+    - href: /projects/agdc/
+    - href: /projects/ahfc-integration/
+    - href: /projects/awwu-intranet/
+    - href: /projects/awwu-systems-integration/
+    - href: /projects/cis-data-capture/
+    - href: /projects/consumption-views/
+    - href: /projects/database-sync-awwu/
+    - href: /projects/denver-schedules-api/
+    - href: /projects/employee-suggestions/
+    - href: /projects/energy-efficiency-map/
+    - href: /projects/please/
+    - href: /projects/qb/
+    - href: /projects/sar-reports/
+    - href: /projects/scrum-tools/
+    - href: /projects/sif-agent/
+    - href: /projects/somd/
+    - href: /projects/systems-portal/
+    - href: /projects/train-builder/
+    - href: /projects/wengage-acct/
+    - href: /projects/wengage-si/
+  self:
+    href: /languages/sql/

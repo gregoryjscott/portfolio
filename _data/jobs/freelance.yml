@@ -2,5 +2,8 @@ title: Freelance
 desc: Freelance Programmer
 role: Self
 begin_year: 2014
-end_year:
+end_year: null
 time_desc: July 2014 - present
+_links:
+  self:
+    href: /jobs/freelance/

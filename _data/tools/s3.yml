@@ -1,6 +1,8 @@
 title: Amazon Simple Storage Service (S3)
-desc: S3 is a service offered by Amazon Web Services that provides object storage through a web service interface.
+desc: S3 is a service offered by Amazon Web Services that provides object
+  storage through a web service interface.
 _links:
   projects:
-    - title: EpiCloud
-      href: /projects/epicloud/
+    - href: /projects/epicloud/
+  self:
+    href: /tools/s3/

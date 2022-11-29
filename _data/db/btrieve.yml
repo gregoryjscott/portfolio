@@ -2,11 +2,8 @@ title: Btrieve
 desc: Btrieve is a transactional database by Pervasive.
 _links:
   projects:
-    - title: Class Scheduler
-      href: /projects/class-scheduler/
-
-    - title: Wen-GAGE Student Information
-      href: /projects/wengage-si/
-
-    - title: Wen-GAGE Accounting
-      href: /projects/wengage-acct/
+    - href: /projects/class-scheduler/
+    - href: /projects/wengage-acct/
+    - href: /projects/wengage-si/
+  self:
+    href: /db/btrieve/

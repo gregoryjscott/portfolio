@@ -1,17 +1,15 @@
 title: AWWU Job Scheduler
-desc: Framework for creating background processing jobs that migrate, synchronize, and transform data throughout AWWU's integrated systems.
+desc: Framework for creating background processing jobs that migrate,
+  synchronize, and transform data throughout AWWU's integrated systems.
 role: Technical Lead
 begin_year: 2005
 end_year: 2006
 _links:
   languages:
-    - title: C#
-      href: /languages/cs/
-
+    - href: /languages/cs/
   db:
-    - title: Oracle
-      href: /db/oracle/
-
+    - href: /db/oracle/
   os:
-    - title: Windows
-      href: /os/windows/
+    - href: /os/windows/
+  self:
+    href: /projects/awwu-job-scheduler/

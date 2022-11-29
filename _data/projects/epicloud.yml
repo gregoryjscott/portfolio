@@ -1,69 +1,32 @@
 title: EpiCloud
-desc:
+desc: null
 role: Technical Lead
 begin_year: 2015
 end_year: 2021
 _links:
   languages:
-    - title: Typescript
-      href: /languages/ts/
-
+    - href: /languages/ts/
   db:
-    - title: BigQuery
-      href: /db/bigquery/
-
+    - href: /db/bigquery/
   os:
-    - title: Linux
-      href: /os/linux/
-
+    - href: /os/linux/
   tools:
-    - title: Google Classroom
-      href: /tools/classroom/
-
-    - title: DynamoDB
-      href: /tools/ddb/
-
-    - title: Docker
-      href: /tools/docker/
-
-    - title: Google Drive
-      href: /tools/drive/
-
-    - title: EC2
-      href: /tools/ec2/
-
-    - title: ECR
-      href: /tools/ecr/
-
-    - title: ECS
-      href: /tools/ecs/
-
-    - title: Fargate
-      href: /tools/fargate/
-
-    - title: Google Firebase
-      href: /tools/firebase/
-
-    - title: IAM
-      href: /tools/iam/
-
-    - title: Lerna
-      href: /tools/lerna/
-
-    - title: Node.js
-      href: /tools/node/
-
-    - title: Puppeteer
-      href: /tools/puppeteer/
-
-    - title: S3
-      href: /tools/s3/
-
-    - title: SQS
-      href: /tools/sqs/
-
-    - title: Pivotal Tracker
-      href: /tools/tracker/
-
-    - title: VPC
-      href: /tools/vpc/
+    - href: /tools/classroom/
+    - href: /tools/ddb/
+    - href: /tools/docker/
+    - href: /tools/drive/
+    - href: /tools/ec2/
+    - href: /tools/ecr/
+    - href: /tools/ecs/
+    - href: /tools/fargate/
+    - href: /tools/firebase/
+    - href: /tools/iam/
+    - href: /tools/lerna/
+    - href: /tools/node/
+    - href: /tools/puppeteer/
+    - href: /tools/s3/
+    - href: /tools/sqs/
+    - href: /tools/tracker/
+    - href: /tools/vpc/
+  self:
+    href: /projects/epicloud/
