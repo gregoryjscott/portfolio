@@ -16,11 +16,17 @@ interface Skill {
   projects?: Project[]
 }
 
-const languages: Skill[] = buildSkill('languages')
 const db: Skill[] = buildSkill('db')
+const jobs: Skill[] = buildSkill('jobs')
+const languages: Skill[] = buildSkill('languages')
+const os: Skill[] = buildSkill('os')
+const tools: Skill[] = buildSkill('tools')
 updateData()
 writeSkill('db', db)
+writeSkill('jobs', jobs)
 writeSkill('languages', languages)
+writeSkill('os', os)
+writeSkill('tools', tools)
 
 function updateData() {
   const projectFiles = fs.readdirSync('./_data/projects')
@@ -30,7 +36,10 @@ function updateData() {
     const data = YAML.parse(contents)
 
     updateLinkedSkill(db, projectURL, data._links.db)
+    updateLinkedSkill(jobs, projectURL, data._links.jobs)
     updateLinkedSkill(languages, projectURL, data._links.languages)
+    updateLinkedSkill(os, projectURL, data._links.os)
+    updateLinkedSkill(tools, projectURL, data._links.tools)
   }
 }
 
@@ -61,6 +70,7 @@ function writeSkill(urlFragment: string, skills: Skill[]) {
     console.log(filePath)
     const contents = fs.readFileSync(filePath, 'utf8')
     const data = YAML.parse(contents)
+    if (!data._links) data._links = {}
     data._links.projects = skill.projects.map(p => { return {href: p.url}})
     fs.writeFileSync(filePath, YAML.stringify(data))
   }
