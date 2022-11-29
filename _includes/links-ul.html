@@ -1,12 +1,16 @@
-{% if include.data._embedded %}
-  <ul>
-    {% include link-li.html label='code' links=include.data._embedded.code %}
+<ul>
+  {% if include.data._links.code %}
+    <li>
+      code: <a class="resource-links" href="{{ include.data._links.code.href }}">{{ include.data._links.code.title }}</a>
+    </li>
+  {% endif %}
+  {% if include.data._embedded %}
     {% include link-li.html label='projects' links=include.data._embedded.projects %}
     {% include link-li.html label='languages' links=include.data._embedded.languages %}
     {% include link-li.html label='db' links=include.data._embedded.db %}
     {% include link-li.html label='tools' links=include.data._embedded.tools %}
     {% include link-li.html label='school' links=include.data._embedded.schools %}
     {% include link-li.html label='job' links=include.data._embedded.jobs %}
-  </ul>
+  {% endif %}
+</ul>
 
-{% endif %}
