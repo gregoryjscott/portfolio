@@ -5,8 +5,8 @@ begin_year: 2010
 end_year: 2013
 _links:
   code:
-    - title: github.com/gregoryjscott/Simpler
-      href: https://github.com/gregoryjscott/Simpler
+    title: github.com/gregoryjscott/Simpler
+    href: https://github.com/gregoryjscott/Simpler
 
   languages:
     - title: C#

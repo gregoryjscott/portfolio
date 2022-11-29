@@ -5,8 +5,8 @@ begin_year: 2014
 end_year: 2014
 _links:
   code:
-    - title: github.com/ResourceDataInc/Centroid
-      href: https://github.com/ResourceDataInc/Centroid
+    title: github.com/ResourceDataInc/Centroid
+    href: https://github.com/ResourceDataInc/Centroid
 
   languages:
     - title: C#
