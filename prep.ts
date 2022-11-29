@@ -1,18 +1,19 @@
-// TODO
-// - [ ] Fix school links (links-commans.html it is expecting _embedded style)
-
 import * as fs from 'fs'
 import * as YAML from 'yaml'
 import * as path from 'path'
 
 interface Project {
   url: string
-  languages?: Skill[]
+}
+
+interface School {
+  url: string
 }
 
 interface Skill {
   url: string
   projects?: Project[]
+  schools?: School[]
 }
 
 const db: Skill[] = buildSkill('db')
@@ -39,12 +40,35 @@ function updateData() {
     data._links.tools = mapLinks(data._links.tools)
     fs.writeFileSync(projectFilePath, YAML.stringify(data))
 
-    updateLinkedSkill(db, projectURL, data._links.db)
-    updateLinkedSkill(jobs, projectURL, data._links.jobs)
-    updateLinkedSkill(languages, projectURL, data._links.languages)
-    updateLinkedSkill(os, projectURL, data._links.os)
-    updateLinkedSkill(tools, projectURL, data._links.tools)
+    updateProjectLinkedSkill(db, {url: projectURL}, data._links.db)
+    updateProjectLinkedSkill(jobs, {url: projectURL}, data._links.jobs)
+    updateProjectLinkedSkill(languages, {url: projectURL}, data._links.languages)
+    updateProjectLinkedSkill(os, {url: projectURL}, data._links.os)
+    updateProjectLinkedSkill(tools, {url: projectURL}, data._links.tools)
   }
+
+  const schoolFiles = fs.readdirSync('./_data/schools')
+  for (const schoolFile of schoolFiles) {
+    const schoolURL = `/schools/${path.parse(schoolFile).name}/`
+    const schoolFilePath = `./_data/schools/${schoolFile}`
+    const contents = fs.readFileSync(schoolFilePath, 'utf8')
+    const data = YAML.parse(contents)
+
+    if (!data._links) data._links = {}
+    data._links.self = {href: schoolURL}
+    data._links.db = mapLinks(data._links.db)
+    data._links.languages = mapLinks(data._links.languages)
+    data._links.os = mapLinks(data._links.os)
+    data._links.tools = mapLinks(data._links.tools)
+    fs.writeFileSync(schoolFilePath, YAML.stringify(data))
+
+    updateSchoolLinkedSkill(db, {url: schoolURL}, data._links.db)
+    updateSchoolLinkedSkill(jobs, {url: schoolURL}, data._links.jobs)
+    updateSchoolLinkedSkill(languages, {url: schoolURL}, data._links.languages)
+    updateSchoolLinkedSkill(os, {url: schoolURL}, data._links.os)
+    updateSchoolLinkedSkill(tools, {url: schoolURL}, data._links.tools)
+  }
+
   writeSkill('db', db)
   writeSkill('jobs', jobs)
   writeSkill('languages', languages)
@@ -57,7 +81,7 @@ function buildSkill(urlFragment: string): Skill[] {
   const urls = files.map(j => `/${urlFragment}/${path.parse(j).name}/`)
   const skills: Skill[] = []
   for (const url of urls) {
-    skills.push({url: url, projects: []})
+    skills.push({url: url, projects: [], schools: []})
   }
   return skills
 }
@@ -66,12 +90,22 @@ function mapLinks(skillLinks: any[]) {
   if (skillLinks) return skillLinks.map(s => { return {href: s.href}})
 }
 
-function updateLinkedSkill(skills: Skill[], projectURL: string, links: any[]) {
+function updateProjectLinkedSkill(skills: Skill[], project: Project, links: any[]) {
   if (links) {
     for (const link of links) {
       const skill = skills.find(s => s.url === link.href)
       if (!skill) throw `${link.href} is missing`
-      skill.projects.push({url: projectURL})
+      skill.projects.push(project)
+    }
+  }
+}
+
+function updateSchoolLinkedSkill(skills: Skill[], school: School, links: any[]) {
+  if (links) {
+    for (const link of links) {
+      const skill = skills.find(s => s.url === link.href)
+      if (!skill) throw `${link.href} is missing`
+      skill.schools.push(school)
     }
   }
 }
