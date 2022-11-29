@@ -33,7 +33,11 @@ function updateData() {
 
     if (!data._links) data._links = {}
     data._links.self = {href: projectURL}
-    console.log(projectFilePath)
+    updateLinks(data._links.db)
+    updateLinks(data._links.jobs)
+    updateLinks(data._links.languages)
+    updateLinks(data._links.os)
+    updateLinks(data._links.tools)
     fs.writeFileSync(projectFilePath, YAML.stringify(data))
 
     updateLinkedSkill(db, projectURL, data._links.db)
@@ -57,6 +61,10 @@ function buildSkill(urlFragment: string): Skill[] {
     skills.push({url: url, projects: []})
   }
   return skills
+}
+
+function updateLinks(skillLinks: any[]) {
+  if (skillLinks) skillLinks = skillLinks.map(s => { return {href: s.href}})
 }
 
 function updateLinkedSkill(skills: Skill[], projectURL: string, links: any[]) {
