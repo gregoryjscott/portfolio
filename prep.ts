@@ -1,5 +1,4 @@
 // TODO
-// - [ ] Fix code links (links-commans.html it is expecting _embedded style)
 // - [ ] Fix school links (links-commans.html it is expecting _embedded style)
 
 import * as fs from 'fs'
@@ -33,11 +32,11 @@ function updateData() {
 
     if (!data._links) data._links = {}
     data._links.self = {href: projectURL}
-    updateLinks(data._links.db)
-    updateLinks(data._links.jobs)
-    updateLinks(data._links.languages)
-    updateLinks(data._links.os)
-    updateLinks(data._links.tools)
+    data._links.db = mapLinks(data._links.db)
+    data._links.jobs = mapLinks(data._links.jobs)
+    data._links.languages = mapLinks(data._links.languages)
+    data._links.os = mapLinks(data._links.os)
+    data._links.tools = mapLinks(data._links.tools)
     fs.writeFileSync(projectFilePath, YAML.stringify(data))
 
     updateLinkedSkill(db, projectURL, data._links.db)
@@ -63,8 +62,8 @@ function buildSkill(urlFragment: string): Skill[] {
   return skills
 }
 
-function updateLinks(skillLinks: any[]) {
-  if (skillLinks) skillLinks = skillLinks.map(s => { return {href: s.href}})
+function mapLinks(skillLinks: any[]) {
+  if (skillLinks) return skillLinks.map(s => { return {href: s.href}})
 }
 
 function updateLinkedSkill(skills: Skill[], projectURL: string, links: any[]) {
