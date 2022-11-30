@@ -123,6 +123,11 @@ function writeSkill(urlFragment: string, skills: Skill[]) {
     } else if (data._links.projects) {
       delete data._links.projects
     }
+    if (skill.schools.length > 0) {
+      data._links.schools = skill.schools.map(p => { return {href: p.url}})
+    } else if (data._links.schools) {
+      delete data._links.schools
+    }
     console.log(filePath)
     fs.writeFileSync(filePath, YAML.stringify(data))
   }
