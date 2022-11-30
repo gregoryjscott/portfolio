@@ -5,6 +5,8 @@ role: Lead Developer
 begin_year: 1999
 end_year: 1999
 _links:
+  jobs:
+    - href: /jobs/mas/
   languages:
     - href: /languages/delphi/
   db:
