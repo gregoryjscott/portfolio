@@ -4,6 +4,8 @@ role: Technical Lead
 begin_year: 2015
 end_year: 2021
 _links:
+  jobs:
+    - href: /jobs/fe/
   languages:
     - href: /languages/ts/
   db:
