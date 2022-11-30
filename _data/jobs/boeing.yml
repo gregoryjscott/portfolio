@@ -9,3 +9,7 @@ time_desc: August 1998 - November 1999
 _links:
   self:
     href: /jobs/boeing/
+  projects:
+    - href: /projects/backup-controls-displays/
+    - href: /projects/mission-data-loader/
+    - href: /projects/smf-controls-displays/

@@ -9,3 +9,8 @@ time_desc: November 1999 - June 2005
 _links:
   self:
     href: /jobs/mas/
+  projects:
+    - href: /projects/class-scheduler/
+    - href: /projects/sif-agent/
+    - href: /projects/wengage-acct/
+    - href: /projects/wengage-si/

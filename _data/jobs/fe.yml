@@ -7,3 +7,5 @@ time_desc: March 2018 - present
 _links:
   self:
     href: /jobs/fe/
+  projects:
+    - href: /projects/epicloud/
