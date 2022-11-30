@@ -4,6 +4,8 @@ role: Technical Lead
 begin_year: 2013
 end_year: 2013
 _links:
+  jobs:
+    - href: /jobs/rdi/
   languages:
     - href: /languages/cs/
     - href: /languages/css/

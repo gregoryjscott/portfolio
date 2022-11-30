@@ -5,6 +5,8 @@ role: Lead Developer
 begin_year: 2009
 end_year: 2009
 _links:
+  jobs:
+    - href: /jobs/rdi/
   languages:
     - href: /languages/tsql/
     - href: /languages/sql/

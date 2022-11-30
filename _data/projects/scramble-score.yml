@@ -5,6 +5,8 @@ role: Project Manager
 begin_year: 2012
 end_year: 2013
 _links:
+  jobs:
+    - href: /jobs/rdi/
   languages:
     - href: /languages/css/
     - href: /languages/html/

@@ -4,6 +4,8 @@ role: Author
 begin_year: 2012
 end_year: 2014
 _links:
+  jobs:
+    - href: /jobs/rdi/
   code:
     title: github.com/ResourceDataInc/please
     href: https://github.com/ResourceDataInc/please

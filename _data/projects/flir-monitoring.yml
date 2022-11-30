@@ -6,6 +6,8 @@ role: Developer
 begin_year: 2007
 end_year: 2007
 _links:
+  jobs:
+    - href: /jobs/rdi/
   languages:
     - href: /languages/cs/
   db:
