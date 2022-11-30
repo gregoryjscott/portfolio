@@ -2,7 +2,6 @@ title: C
 desc: null
 _links:
   schools:
-    - title: University of Central Oklahoma
-      href: /schools/uco/
+    - href: /schools/uco/
   self:
     href: /languages/c/
