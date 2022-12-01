@@ -14,3 +14,12 @@ _links:
     - href: /projects/sif-agent/
     - href: /projects/wengage-acct/
     - href: /projects/wengage-si/
+  db:
+    - href: /db/btrieve/
+    - href: /db/pervasive/
+  languages:
+    - href: /languages/delphi/
+    - href: /languages/cs/
+    - href: /languages/sql/
+  os:
+    - href: /os/windows/

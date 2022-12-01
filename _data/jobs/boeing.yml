@@ -13,3 +13,7 @@ _links:
     - href: /projects/backup-controls-displays/
     - href: /projects/mission-data-loader/
     - href: /projects/smf-controls-displays/
+  languages:
+    - href: /languages/ada/
+  os:
+    - href: /os/solaris/

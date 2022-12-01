@@ -12,3 +12,15 @@ _links:
     - href: /projects/mvc-integration-test-framework/
     - href: /projects/simpler/
     - href: /projects/this-site/
+  db:
+    - href: /db/postgres/
+  languages:
+    - href: /languages/cs/
+    - href: /languages/rb/
+    - href: /languages/sql/
+    - href: /languages/css/
+    - href: /languages/html/
+  os:
+    - href: /os/windows/
+    - href: /os/osx/
+    - href: /os/linux/
