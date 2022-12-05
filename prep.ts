@@ -70,11 +70,11 @@ function updateData() {
     data._links.os = mapLinks(data._links.os)
     data._links.tools = mapLinks(data._links.tools)
 
-    if (data._links.jobs) project.jobs = data._links.jobs.map(l => { return {href: l.href}})
-    if (data._links.db) project.db = data._links.db.map(l => { return {href: l.href}})
-    if (data._links.languages) project.languages = data._links.languages.map(l => { return {href: l.href}})
-    if (data._links.os) project.os = data._links.os.map(l => { return {href: l.href}})
-    if (data._links.tools) project.tools = data._links.tools.map(l => { return {href: l.href}})
+    if (data._links.jobs) project.jobs = data._links.jobs
+    if (data._links.db) project.db = data._links.db
+    if (data._links.languages) project.languages = data._links.languages
+    if (data._links.os) project.os = data._links.os
+    if (data._links.tools) project.tools = data._links.tools
 
     fs.writeFileSync(filePath, YAML.stringify(data))
     console.log(`Wrote ${filePath}`)
