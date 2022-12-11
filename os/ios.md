@@ -1,4 +1,7 @@
 ---
+title: iOS
+desc: iOS is a mobile operating system by Apple.
+_links:
+  self:
+    href: /os/ios/
 ---
-
-TODO

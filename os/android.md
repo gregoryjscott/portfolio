@@ -1,4 +1,7 @@
 ---
+title: Android
+desc: Android is an open source mobile operating system by Google.
+_links:
+  self:
+    href: /os/android/
 ---
-
-TODO

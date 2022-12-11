@@ -1,4 +1,7 @@
 ---
+title: AIX
+desc: AIX is a Unix operating system by IBM.
+_links:
+  self:
+    href: /os/aix/
 ---
-
-TODO
