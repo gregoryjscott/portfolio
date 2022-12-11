@@ -1,4 +1,9 @@
 ---
+title: PL/SQL
+desc: >-
+  Oracle Corporation's procedural language extension for SQL and the Oracle
+  relational database.
+_links:
+  self:
+    href: /languages/plsql/
 ---
-
-TODO

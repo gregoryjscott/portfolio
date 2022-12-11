@@ -1,4 +1,27 @@
 ---
+title: C
+desc: null
+_links:
+  schools:
+    - href: /schools/uco/
+  self:
+    href: /languages/c/
+_embedded:
+  schools:
+    - title: University of Central Oklahoma
+      desc: >-
+        The University of Central Oklahoma (UCO) is a public university in
+        Edmond, Oklahoma founded in 1890.
+      role: Student
+      begin_year: 1994
+      end_year: 1998
+      _links:
+        languages:
+          - href: /languages/fortran/
+          - href: /languages/pascal/
+          - href: /languages/c/
+          - href: /languages/cpp/
+          - href: /languages/vb/
+        self:
+          href: /schools/uco/
 ---
-
-TODO
