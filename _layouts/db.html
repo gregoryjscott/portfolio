@@ -32,3 +32,14 @@ layout: default
   </div>
 </div>
 {% endif %}
+
+{% if page._embedded.jobs %}
+<div class="section">
+	<div class="content">
+    <h2>Jobs</h2>
+    {% for item in page._embedded.jobs %}
+      {% include jobs/summary.html job=item %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
