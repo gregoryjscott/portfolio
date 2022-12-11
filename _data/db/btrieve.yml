@@ -1,9 +1,0 @@
-title: Btrieve
-desc: Btrieve is a transactional database by Pervasive.
-_links:
-  projects:
-    - href: /projects/class-scheduler/
-    - href: /projects/wengage-acct/
-    - href: /projects/wengage-si/
-  self:
-    href: /db/btrieve/

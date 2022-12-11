@@ -1,9 +1,0 @@
-title: Solaris
-desc: Solaris is a Unix operating system by Sun Microsystems.
-_links:
-  projects:
-    - href: /projects/backup-controls-displays/
-    - href: /projects/mission-data-loader/
-    - href: /projects/smf-controls-displays/
-  self:
-    href: /os/solaris/

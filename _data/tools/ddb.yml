@@ -1,7 +1,0 @@
-title: DynamoDB
-desc: Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database.
-_links:
-  projects:
-    - href: /projects/epicloud/
-  self:
-    href: /tools/ddb/

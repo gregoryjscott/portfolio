@@ -1,8 +1,0 @@
-title: Amazon Elastic Container Service (ECS)
-desc: ECS is a highly scalable, fast container management service that makes it
-  easy to run, stop, and manage containers on a cluster.
-_links:
-  projects:
-    - href: /projects/epicloud/
-  self:
-    href: /tools/ecs/

@@ -1,7 +1,0 @@
-title: AWS Identity and Access Management (IAM)
-desc: IAM provides fine-grained access control across all of AWS.
-_links:
-  projects:
-    - href: /projects/epicloud/
-  self:
-    href: /tools/iam/

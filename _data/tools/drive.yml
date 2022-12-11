@@ -1,7 +1,0 @@
-title: Google Drive
-desc: Google Drive is a file storage and synchronization service developed by Google.
-_links:
-  projects:
-    - href: /projects/epicloud/
-  self:
-    href: /tools/drive/

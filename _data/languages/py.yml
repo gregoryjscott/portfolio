@@ -1,8 +1,0 @@
-title: Python
-desc: Python is a widely used general-purpose, high-level programming language.
-_links:
-  projects:
-    - href: /projects/agdc/
-    - href: /projects/centroid/
-  self:
-    href: /languages/py/

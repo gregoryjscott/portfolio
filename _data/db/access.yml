@@ -1,8 +1,0 @@
-title: Access
-desc: Access is a database management system by Microsoft.
-_links:
-  projects:
-    - href: /projects/flir-monitoring/
-    - href: /projects/lasar-range-finder/
-  self:
-    href: /db/access/
