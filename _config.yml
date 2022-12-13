@@ -52,3 +52,9 @@ defaults:
     type: "pages"
   values:
     layout: "job"
+
+- scope:
+    path: "maps"
+    type: "pages"
+  values:
+    layout: "map"

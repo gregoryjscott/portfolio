@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% assign ui_text = site.data.ui-text['ui_text'] %}
+
+<div class="section spacer"></div>
+
+<div class="section bread">
+	<div class="content">
+		<div class="h-subtitle">
+			<p><a href="{{ site.url }}">{{ ui_text.home }}</a> / <a href="{{ site.url }}/maps">Maps</a> / <a href="{{ page.url }}">{{ page.title }}</a></p>
+		</div>
+  </div>
+</div>
+
+<div class="section title">
+	<div class="content">
+		<h1>{{ page.title }}</h1>
+    <p><em>{{ page.subtitle }}</em></p>
+    {% if page.desc %}
+    <p>{{ page.desc }}</p>
+    {% endif %}
+	</div>
+</div>
+

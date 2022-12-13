@@ -1,0 +1,19 @@
+{% assign map = include.map %}
+
+<div class="section">
+  <div class="content">
+
+<section>
+  <h1><a href="{{ map._links.self.href }}">{{ map.title }}</a></h1>
+
+  <p><em>{{ map.subtitle }}</em></p>
+
+  {% if map.desc %}
+  <p>{{ map.desc }}</p>
+  {% endif %}
+
+  {% include links-ul.html data=map %}
+</section>
+
+  </div>
+</div>
