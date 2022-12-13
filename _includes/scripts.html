@@ -13,6 +13,8 @@
 <!-- Main -->
 <script src="{{ 'assets/js/glitche-scripts.js' | relative_url }}"></script>
 
+<script type="module" src="{{ 'assets/js/map.js' | relative_url }}"></script>
+
 {% if settings.header == 1 %}
 <script>
 /* Set full height in blocks */
@@ -22,3 +24,14 @@ $('.section.spacer').css({'height': adjustment});
 $('.section.spacer').css({'padding': 30});
 </script>
 {% endif %}
+
+<!-- 
+The `defer` attribute causes the callback to execute after the full HTML
+document has been parsed. For non-blocking uses, avoiding race conditions,
+and consistent behavior across browsers, consider loading using Promises
+with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+-->
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFGzv_yhYJY06zThlm7Mf6L0QZMhGThjQ&callback=initMap"
+defer
+></script>
