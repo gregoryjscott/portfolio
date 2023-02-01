@@ -1,0 +1,30 @@
+title: Visual Basic
+desc: Visual Basic is a high-level, object-oriented programming language
+  developed by Microsoft. It is used to create Windows applications, web
+  applications, and other software. Visual Basic is a powerful language that
+  allows developers to quickly create applications with a graphical user
+  interface (GUI). It is easy to learn and use, and provides a wide range of
+  features and capabilities. Visual Basic is also compatible with other
+  programming languages, such as C# and Java.
+_links:
+  self:
+    href: /languages/vb/
+  schools:
+    - href: /schools/uco/
+_embedded:
+  schools:
+    - title: University of Central Oklahoma
+      desc: The University of Central Oklahoma (UCO) is a public university in Edmond,
+        Oklahoma founded in 1890.
+      role: Student
+      begin_year: 1994
+      end_year: 1998
+      _links:
+        self:
+          href: /schools/uco/
+        languages:
+          - href: /languages/fortran/
+          - href: /languages/pascal/
+          - href: /languages/c/
+          - href: /languages/cpp/
+          - href: /languages/vb/

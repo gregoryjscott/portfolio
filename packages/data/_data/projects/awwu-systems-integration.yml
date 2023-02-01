@@ -1,0 +1,252 @@
+title: AWWU Systems Integration
+desc: null
+role: Technical Lead
+begin_year: 2005
+end_year: 2006
+_links:
+  self:
+    href: /projects/awwu-systems-integration/
+  jobs:
+    - href: /jobs/rdi/
+  languages:
+    - href: /languages/cs/
+    - href: /languages/tsql/
+    - href: /languages/sql/
+  db:
+    - href: /db/oracle/
+  os:
+    - href: /os/windows/
+_embedded:
+  jobs:
+    - title: Resource Data, Inc.
+      desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
+        Texas, Idaho, Minnesota, and Oregon, that provides custom database, web,
+        and GIS programming services
+      role: Technical Lead
+      begin_year: 2005
+      end_year: 2014
+      time_desc: July 2005 - July 2014
+      _links:
+        self:
+          href: /jobs/rdi/
+        projects:
+          - href: /projects/agdc/
+          - href: /projects/ahfc-integration/
+          - href: /projects/awwu-intranet/
+          - href: /projects/awwu-job-scheduler/
+          - href: /projects/awwu-systems-integration/
+          - href: /projects/bit-proposal/
+          - href: /projects/centroid/
+          - href: /projects/cis-data-capture/
+          - href: /projects/consumption-views/
+          - href: /projects/database-sync-awwu/
+          - href: /projects/employee-suggestions/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/flir-monitoring/
+          - href: /projects/lasar-range-finder/
+          - href: /projects/please/
+          - href: /projects/qb/
+          - href: /projects/report-engine/
+          - href: /projects/sar-reports/
+          - href: /projects/scramble-score/
+          - href: /projects/scrum-tools/
+          - href: /projects/somd/
+          - href: /projects/systems-portal/
+          - href: /projects/train-builder/
+        db:
+          - href: /db/sql-server/
+          - href: /db/oracle/
+          - href: /db/access/
+          - href: /db/sqlite/
+          - href: /db/postgres/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/py/
+          - href: /languages/rb/
+          - href: /languages/sql/
+          - href: /languages/tsql/
+        os:
+          - href: /os/linux/
+          - href: /os/osx/
+          - href: /os/windows/
+  languages:
+    - title: C#
+      desc: C# is a general-purpose, object-oriented programming language developed by
+        Microsoft. It is used to develop a variety of applications, including
+        web, mobile, desktop, and gaming applications. C# is based on the C and
+        C++ programming languages, and it is designed to be simple, powerful,
+        and type-safe. It supports both procedural and object-oriented
+        programming paradigms, and it is used to create applications for the
+        .NET framework. C# is a versatile language that can be used to create a
+        wide range of applications.
+      _links:
+        self:
+          href: /languages/cs/
+        projects:
+          - href: /projects/agdc/
+          - href: /projects/awwu-intranet/
+          - href: /projects/awwu-job-scheduler/
+          - href: /projects/awwu-systems-integration/
+          - href: /projects/bit-proposal/
+          - href: /projects/centroid/
+          - href: /projects/cis-data-capture/
+          - href: /projects/database-sync-awwu/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/flir-monitoring/
+          - href: /projects/lasar-range-finder/
+          - href: /projects/mvc-integration-test-framework/
+          - href: /projects/please/
+          - href: /projects/qb/
+          - href: /projects/report-engine/
+          - href: /projects/sar-reports/
+          - href: /projects/scrum-tools/
+          - href: /projects/sif-agent/
+          - href: /projects/simpler/
+          - href: /projects/somd/
+          - href: /projects/systems-portal/
+          - href: /projects/train-builder/
+        jobs:
+          - href: /jobs/freelance/
+          - href: /jobs/mas/
+          - href: /jobs/rdi/
+    - title: Transact-SQL
+      desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
+        with relational databases. It is a set-based, declarative programming
+        language used to query, modify, and manage data in Microsoft SQL Server.
+        T-SQL is used to create and modify database objects such as tables,
+        views, stored procedures, and triggers. It also provides control of
+        transactions and error handling. T-SQL is a powerful language that
+        allows developers to write complex queries and stored procedures to
+        access and manipulate data.
+      _links:
+        self:
+          href: /languages/tsql/
+        projects:
+          - href: /projects/agdc/
+          - href: /projects/ahfc-integration/
+          - href: /projects/awwu-intranet/
+          - href: /projects/awwu-systems-integration/
+          - href: /projects/consumption-views/
+          - href: /projects/database-sync-awwu/
+          - href: /projects/employee-suggestions/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/qb/
+          - href: /projects/scrum-tools/
+          - href: /projects/somd/
+          - href: /projects/systems-portal/
+        jobs:
+          - href: /jobs/rdi/
+    - title: SQL
+      desc: SQL (Structured Query Language) is a domain-specific language used in
+        programming and designed for managing data held in a relational database
+        management system (RDBMS). It is used to perform tasks such as
+        retrieving, updating, inserting, and deleting data from a database. SQL
+        is also used to create and modify database structures, such as tables,
+        views, and stored procedures. It is a powerful language that can be used
+        to query, analyze, and manipulate data.
+      _links:
+        self:
+          href: /languages/sql/
+        projects:
+          - href: /projects/agdc/
+          - href: /projects/ahfc-integration/
+          - href: /projects/awwu-intranet/
+          - href: /projects/awwu-systems-integration/
+          - href: /projects/cis-data-capture/
+          - href: /projects/consumption-views/
+          - href: /projects/database-sync-awwu/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/employee-suggestions/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/please/
+          - href: /projects/qb/
+          - href: /projects/sar-reports/
+          - href: /projects/scrum-tools/
+          - href: /projects/sif-agent/
+          - href: /projects/somd/
+          - href: /projects/systems-portal/
+          - href: /projects/train-builder/
+          - href: /projects/wengage-acct/
+          - href: /projects/wengage-si/
+        jobs:
+          - href: /jobs/freelance/
+          - href: /jobs/mas/
+          - href: /jobs/rdi/
+  db:
+    - title: Oracle
+      desc: Oracle Database is a relational database management system (RDBMS)
+        developed by Oracle Corporation. It is the world's most popular database
+        and is used by many of the world's largest organizations to store and
+        manage their data. Oracle Database is a powerful, reliable, and secure
+        platform for running applications and managing data. It provides a
+        comprehensive set of features and tools to help organizations store,
+        manage, and analyze their data. Oracle Database is available in a
+        variety of editions, including Enterprise Edition, Standard Edition, and
+        Express Edition.
+      _links:
+        self:
+          href: /db/oracle/
+        projects:
+          - href: /projects/awwu-intranet/
+          - href: /projects/awwu-job-scheduler/
+          - href: /projects/awwu-systems-integration/
+          - href: /projects/cis-data-capture/
+          - href: /projects/consumption-views/
+          - href: /projects/database-sync-awwu/
+          - href: /projects/employee-suggestions/
+          - href: /projects/sar-reports/
+          - href: /projects/somd/
+        jobs:
+          - href: /jobs/rdi/
+  os:
+    - title: Windows
+      desc: Windows is a series of operating systems developed by Microsoft. It is the
+        most popular operating system for personal computers, and is used in a
+        variety of devices, including desktop and laptop computers, tablets, and
+        smartphones. Windows provides a graphical user interface, allowing users
+        to interact with their computer using a mouse and keyboard. It also
+        includes a range of applications, such as web browsers, media players,
+        and office suites. Windows also includes a range of security features,
+        such as user accounts, firewalls, and antivirus software.
+      _links:
+        self:
+          href: /os/windows/
+        projects:
+          - href: /projects/agdc/
+          - href: /projects/ahfc-integration/
+          - href: /projects/awwu-intranet/
+          - href: /projects/awwu-job-scheduler/
+          - href: /projects/awwu-systems-integration/
+          - href: /projects/bit-proposal/
+          - href: /projects/centroid/
+          - href: /projects/cis-data-capture/
+          - href: /projects/class-scheduler/
+          - href: /projects/consumption-views/
+          - href: /projects/database-sync-awwu/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/employee-suggestions/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/flir-monitoring/
+          - href: /projects/lasar-range-finder/
+          - href: /projects/mvc-integration-test-framework/
+          - href: /projects/please/
+          - href: /projects/qb/
+          - href: /projects/report-engine/
+          - href: /projects/sar-reports/
+          - href: /projects/scramble-score/
+          - href: /projects/scrum-tools/
+          - href: /projects/sif-agent/
+          - href: /projects/simpler/
+          - href: /projects/somd/
+          - href: /projects/systems-portal/
+          - href: /projects/train-builder/
+          - href: /projects/wengage-acct/
+          - href: /projects/wengage-si/
+        jobs:
+          - href: /jobs/freelance/
+          - href: /jobs/mas/
+          - href: /jobs/rdi/
