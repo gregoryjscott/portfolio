@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-custom",
+  "name": "@gregoryjscott/eslint-config-custom",
   "version": "1.0.0",
   "description": "Custom eslint config used by monorepo",
   "main": "index.js",

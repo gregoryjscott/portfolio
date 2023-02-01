@@ -1,5 +1,5 @@
 {
-  "name": "www",
+  "name": "@gregoryjscott/www",
   "version": "1.0.0",
   "description": "Manages gregoryjscott.com",
   "scripts": {
