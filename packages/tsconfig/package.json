@@ -1,0 +1,5 @@
+{
+  "name": "@gregoryjscott/tsconfig",
+  "version": "1.0.0",
+  "description": "Custom TS config used by monorepo"
+}
