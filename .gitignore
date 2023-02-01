@@ -1,7 +1,1 @@
-_site
-node_modules
-.grunt
-.bundle
-web/**/data.json
-.jekyll-metadata
-.jekyll-cache
+node_modules/
