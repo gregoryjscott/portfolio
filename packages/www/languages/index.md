@@ -19,8 +19,6 @@ My projects use these programming languages.
 {% endfor %}
 </section>
 
-<hr>
-
 <section markdown="1">
 {% include get-started.md %}
 </section>
