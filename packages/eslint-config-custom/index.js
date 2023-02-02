@@ -6,6 +6,7 @@ module.exports = {
     "prettier",
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:markdown/recommended",
     "plugin:prettier/recommended",
   ],
   overrides: [],
@@ -30,4 +31,4 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": "off",
     "react/jsx-key": "off",
   },
-}
+};
