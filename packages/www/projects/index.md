@@ -21,8 +21,6 @@ Projects can also be explored by skill such as [language](/languages) or [databa
 {% endfor %}
 </section>
 
-<hr>
-
 <section markdown="1">
 {% include get-started.md %}
 </section>

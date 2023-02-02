@@ -19,8 +19,6 @@ My projects use these databases.
 {% endfor %}
 </section>
 
-<hr>
-
 <section markdown="1">
 {% include get-started.md %}
 </section>
