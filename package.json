@@ -10,10 +10,12 @@
     "lint-fix": "lerna run lint-fix",
     "types": "typesync --dry",
     "types-fix": "typesync",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
     "www": "lerna run www"
   },
   "devDependencies": {
     "lerna": "^6.4.1",
+    "prettier": "^2.8.3",
     "typesync": "^0.9.2"
   }
 }
