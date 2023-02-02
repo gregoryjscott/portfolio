@@ -31,4 +31,4 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": "off",
     "react/jsx-key": "off",
   },
-}
+};
