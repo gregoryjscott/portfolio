@@ -1,0 +1,13 @@
+{% assign language = include.language %}
+
+<section>
+  <h1><a href="{{ language._links.self.href }}">{{ language.title }}</a></h1>
+
+  <p><em>{{ language.subtitle }}</em></p>
+
+  {% if language.desc %}
+  <p>{{ language.desc }}</p>
+  {% endif %}
+
+  {% include links-ul.html data=language %}
+</section>

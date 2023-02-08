@@ -1,0 +1,13 @@
+{% assign school = include.school %}
+
+<section>
+  <h1><a href="{{ school._links.self.href }}">{{ school.title }}</a></h1>
+
+  <p><em>{{ school.subtitle }}</em></p>
+
+  {% if school.desc %}
+  <p>{{ school.desc }}</p>
+  {% endif %}
+
+  {% include links-ul.html data=school %}
+</section>

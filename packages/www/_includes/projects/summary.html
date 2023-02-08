@@ -1,0 +1,25 @@
+{% assign project = include.project %}
+
+<section>
+  <h1><a href="{{ project._links.self.href }}">{{ project.title }}</a></h1>
+
+  <p>
+    <em>
+      {{ project.role }},
+      {{ project.begin_year }}
+      {% unless project.begin_year == project.end_year %} -
+        {% if project.end_year %}
+          {{ project.end_year }}
+        {% else %}
+          present
+        {% endif %}
+      {% endunless %}
+    </em>
+  </p>
+
+  {% if project.desc %}
+  <p>{{ project.desc }}</p>
+  {% endif %}
+
+  {% include links-ul.html data=project %}
+</section>
