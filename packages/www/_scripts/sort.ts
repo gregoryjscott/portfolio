@@ -11,6 +11,7 @@ export async function itemsByRecent(data: {
 }
 
 // TODO - should use schools (better yet, classes) + projects
+// TODO - doesn't do tie breakers well, see OS
 export async function itemsByRecentWork(data: {
   _embedded: { index: { _embedded: { projects } }[] }
 }) {
