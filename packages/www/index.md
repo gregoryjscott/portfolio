@@ -1,6 +1,17 @@
 ---
+title: Home
+_links:
+  index:
+    - href: /db/
+    - href: /jobs/
+    - href: /languages/
+    - href: /os/
+    - href: /projects/
+    - href: /schools/
+    - href: /tools/
+  self:
+    href: /
 ---
-
 <article markdown="1">
 __Programming is my passion.__
 
@@ -10,12 +21,3 @@ My [projects](/projects) have used an impressive spectrum of [languages](/langua
 
 I'm currently searching for my next challenge. Please don't hesitate to <a href="mailto:me@gregoryjscott.com">contact me</a> if I might be of service to you.
 </article>
-
-<section markdown="1">
-{% include get-started.md %}
-</section>
-
-<script>
-element = document.getElementById("home-menu");
-element.className += " active";
-</script>

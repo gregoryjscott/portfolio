@@ -1,0 +1,62 @@
+{% if page._embedded.projects %}
+  <section>
+    <h2>Projects ({{ page._embedded.projects | size }})</h2>
+    {% for item in page._embedded.projects %}
+      {% include projects/summary.html project=item %}
+    {% endfor %}
+  </section>
+{% endif %}
+
+{% if page._embedded.languages %}
+  <section>
+    <h2>Languages ({{ page._embedded.languages | size }})</h2>
+    {% for item in page._embedded.languages %}
+      {% include languages/summary.html language=item %}
+    {% endfor %}
+  </section>
+{% endif %}
+
+{% if page._embedded.db %}
+  <section>
+    <h2>Databases ({{ page._embedded.db | size }})</h2>
+    {% for item in page._embedded.db %}
+      {% include db/summary.html db=item %}
+    {% endfor %}
+  </section>
+{% endif %}
+
+{% if page._embedded.os %}
+  <section>
+    <h2>Operating Systems ({{ page._embedded.os | size }})</h2>
+    {% for item in page._embedded.os %}
+      {% include os/summary.html os=item %}
+    {% endfor %}
+  </section>
+{% endif %}
+
+{% if page._embedded.tools %}
+  <section>
+    <h2>Tools ({{ page._embedded.tools | size }})</h2>
+    {% for item in page._embedded.tools %}
+      {% include tools/summary.html tool=item %}
+    {% endfor %}
+  </section>
+{% endif %}
+
+{% if page._embedded.jobs %}
+  <section>
+    <h2>Jobs ({{ page._embedded.jobs | size }})</h2>
+    {% for item in page._embedded.jobs %}
+      {% include jobs/summary.html job=item %}
+    {% endfor %}
+  </section>
+{% endif %}
+
+{% if page._embedded.schools %}
+  <section>
+    <h2>Schools ({{ page._embedded.schools | size }})</h2>
+    {% for item in page._embedded.schools %}
+      {% include schools/summary.html school=item %}
+    {% endfor %}
+  </section>
+{% endif %}

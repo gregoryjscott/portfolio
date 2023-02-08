@@ -1,19 +1,12 @@
 ---
 layout: default
-title: Databases
-desc: List of databases.
+title: Schools
+desc: List of schools.
 _links:
   self:
-    href: /db/
+    href: /schools/
   index:
-    - href: /db/access/
-    - href: /db/bigquery/
-    - href: /db/btrieve/
-    - href: /db/oracle/
-    - href: /db/pervasive/
-    - href: /db/postgres/
-    - href: /db/sql-server/
-    - href: /db/sqlite/
+    - href: /schools/uco/
 ---
 
 <section>
@@ -29,5 +22,5 @@ _links:
 </section>
 
 {% for item in page._embedded.index %}
-{% include db/summary.html db=item %}
+{% include schools/summary.html school=item %}
 {% endfor %}

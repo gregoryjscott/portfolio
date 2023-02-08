@@ -1,19 +1,16 @@
 ---
 layout: default
-title: Databases
-desc: List of databases.
+title: Jobs
+desc: List of jobs.
 _links:
   self:
-    href: /db/
+    href: /jobs/
   index:
-    - href: /db/access/
-    - href: /db/bigquery/
-    - href: /db/btrieve/
-    - href: /db/oracle/
-    - href: /db/pervasive/
-    - href: /db/postgres/
-    - href: /db/sql-server/
-    - href: /db/sqlite/
+    - href: /jobs/boeing/
+    - href: /jobs/fe/
+    - href: /jobs/freelance/
+    - href: /jobs/mas/
+    - href: /jobs/rdi/
 ---
 
 <section>
@@ -29,5 +26,5 @@ _links:
 </section>
 
 {% for item in page._embedded.index %}
-{% include db/summary.html db=item %}
+{% include jobs/summary.html job=item %}
 {% endfor %}

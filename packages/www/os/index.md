@@ -1,19 +1,20 @@
 ---
 layout: default
-title: Databases
-desc: List of databases.
+title: Operating Systems
+desc: List of operating systems.
 _links:
   self:
-    href: /db/
+    href: /os/
   index:
-    - href: /db/access/
-    - href: /db/bigquery/
-    - href: /db/btrieve/
-    - href: /db/oracle/
-    - href: /db/pervasive/
-    - href: /db/postgres/
-    - href: /db/sql-server/
-    - href: /db/sqlite/
+    - href: /os/aix/
+    - href: /os/android/
+    - href: /os/ios/
+    - href: /os/linux/
+    - href: /os/ms-dos/
+    - href: /os/netware/
+    - href: /os/osx/
+    - href: /os/solaris/
+    - href: /os/windows/
 ---
 
 <section>
@@ -29,5 +30,5 @@ _links:
 </section>
 
 {% for item in page._embedded.index %}
-{% include db/summary.html db=item %}
+{% include os/summary.html os=item %}
 {% endfor %}

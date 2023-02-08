@@ -1,29 +1,42 @@
 ---
 layout: default
 title: Tools
+desc: List of tools.
+_links:
+  self:
+    href: /tools/
+  index:
+    - href: /tools/classroom/
+    - href: /tools/ddb/
+    - href: /tools/docker/
+    - href: /tools/drive/
+    - href: /tools/ec2/
+    - href: /tools/ecr/
+    - href: /tools/ecs/
+    - href: /tools/fargate/
+    - href: /tools/firebase/
+    - href: /tools/iam/
+    - href: /tools/lerna/
+    - href: /tools/node/
+    - href: /tools/puppeteer/
+    - href: /tools/s3/
+    - href: /tools/sqs/
+    - href: /tools/tracker/
+    - href: /tools/vpc/
 ---
 
-<section markdown="1">
-My projects use these tools.
+<section>
+  <a href="{{ site.url }}">Home</a> / <a href="{{ page.url }}">{{ page.title }}</a>
 </section>
 
 <section>
-{% for item in page.items %}
-  <h1><a href="{{ item.url }}">{{ item.title }}</a></h1>
-
-  {% if item.desc %}
-  <p>{{ item.desc }}</p>
+  <p><h1>{{ page.title }}</h1></p>
+  <p><em>{{ page.subtitle }}</em></p>
+  {% if page.desc %}
+    <p>{{ page.desc }}</p>
   {% endif %}
+</section>
 
-  {% include links-ul.html data=item %}
+{% for item in page._embedded.index %}
+{% include tools/summary.html tool=item %}
 {% endfor %}
-</section>
-
-<section markdown="1">
-{% include get-started.md %}
-</section>
-
-<script>
-element = document.getElementById("tools-menu");
-element.className += " active";
-</script>
