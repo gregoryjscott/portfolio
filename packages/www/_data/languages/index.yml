@@ -1,5 +1,6 @@
 layout: default
 title: Languages
+desc: List of languages.
 _links:
   self:
     href: /languages/

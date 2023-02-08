@@ -1,5 +1,6 @@
 layout: default
 title: Tools
+desc: List of tools.
 _links:
   self:
     href: /tools/

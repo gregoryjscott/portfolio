@@ -1,5 +1,6 @@
 layout: default
 title: Jobs
+desc: List of jobs.
 _links:
   self:
     href: /jobs/

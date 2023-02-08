@@ -1,5 +1,6 @@
 layout: default
 title: Operating Systems
+desc: List of operating systems.
 _links:
   self:
     href: /os/
