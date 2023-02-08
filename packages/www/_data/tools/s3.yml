@@ -1,6 +1,88 @@
-title: SAmazon Simple Storage Service (S3)3
-desc: S3 is a service offered by Amazon Web Services that provides object storage through a web service interface.
+title: Amazon Simple Storage Service (S3)
+desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
+  Amazon Web Services (AWS). It provides object storage through a web service
+  interface and is designed to store and retrieve any amount of data from
+  anywhere on the web. It is highly scalable, secure, and durable, and provides
+  features such as data versioning, encryption, and access control. S3 is used
+  by many organizations for storing and backing up data, hosting websites, and
+  streaming media.
 _links:
+  self:
+    href: /tools/s3/
+  projects:
+    - href: /projects/epicloud/
+  jobs:
+    - href: /jobs/fe/
+_embedded:
   projects:
     - title: EpiCloud
-      href: /projects/epicloud/
+      desc: null
+      role: Technical Lead
+      begin_year: 2015
+      end_year: 2021
+      _links:
+        self:
+          href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+        languages:
+          - href: /languages/ts/
+        db:
+          - href: /db/bigquery/
+        os:
+          - href: /os/linux/
+        tools:
+          - href: /tools/classroom/
+          - href: /tools/ddb/
+          - href: /tools/docker/
+          - href: /tools/drive/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/firebase/
+          - href: /tools/iam/
+          - href: /tools/lerna/
+          - href: /tools/node/
+          - href: /tools/puppeteer/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/tracker/
+          - href: /tools/vpc/
+  jobs:
+    - title: Futuristic Education
+      desc: Founder of Futuristic Education, building automation technology for
+        schools
+      role: Founder/Programmer
+      begin_year: 2018
+      end_year: null
+      time_desc: March 2018 - present
+      _links:
+        self:
+          href: /jobs/fe/
+        projects:
+          - href: /projects/epicloud/
+        db:
+          - href: /db/bigquery/
+        languages:
+          - href: /languages/ts/
+        os:
+          - href: /os/linux/
+        tools:
+          - href: /tools/classroom/
+          - href: /tools/ddb/
+          - href: /tools/docker/
+          - href: /tools/drive/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/firebase/
+          - href: /tools/iam/
+          - href: /tools/lerna/
+          - href: /tools/node/
+          - href: /tools/puppeteer/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/tracker/
+          - href: /tools/vpc/

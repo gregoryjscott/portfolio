@@ -1,0 +1,13 @@
+{% assign job = include.job %}
+
+<section>
+  <h1><a href="{{ job._links.self.href }}">{{ job.title }}</a></h1>
+
+  <p><em>{{ job.subtitle }}</em></p>
+
+  {% if job.desc %}
+  <p>{{ job.desc }}</p>
+  {% endif %}
+
+  {% include links-ul.html data=job %}
+</section>

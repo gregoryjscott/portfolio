@@ -1,6 +1,88 @@
 title: Lerna
-desc: A tool for managing JavaScript projects with multiple packages.
+desc: Lerna is a tool that optimizes the workflow around managing multi-package
+  repositories with git and npm. It allows developers to easily create,
+  maintain, and version multiple packages from the same codebase. It also
+  provides a powerful set of features such as managing dependencies, running
+  scripts, and publishing packages. Lerna makes it easier to manage complex
+  projects with multiple packages, and helps developers keep their codebase
+  organized and up-to-date.
 _links:
+  self:
+    href: /tools/lerna/
+  projects:
+    - href: /projects/epicloud/
+  jobs:
+    - href: /jobs/fe/
+_embedded:
   projects:
     - title: EpiCloud
-      href: /projects/epicloud/
+      desc: null
+      role: Technical Lead
+      begin_year: 2015
+      end_year: 2021
+      _links:
+        self:
+          href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+        languages:
+          - href: /languages/ts/
+        db:
+          - href: /db/bigquery/
+        os:
+          - href: /os/linux/
+        tools:
+          - href: /tools/classroom/
+          - href: /tools/ddb/
+          - href: /tools/docker/
+          - href: /tools/drive/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/firebase/
+          - href: /tools/iam/
+          - href: /tools/lerna/
+          - href: /tools/node/
+          - href: /tools/puppeteer/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/tracker/
+          - href: /tools/vpc/
+  jobs:
+    - title: Futuristic Education
+      desc: Founder of Futuristic Education, building automation technology for
+        schools
+      role: Founder/Programmer
+      begin_year: 2018
+      end_year: null
+      time_desc: March 2018 - present
+      _links:
+        self:
+          href: /jobs/fe/
+        projects:
+          - href: /projects/epicloud/
+        db:
+          - href: /db/bigquery/
+        languages:
+          - href: /languages/ts/
+        os:
+          - href: /os/linux/
+        tools:
+          - href: /tools/classroom/
+          - href: /tools/ddb/
+          - href: /tools/docker/
+          - href: /tools/drive/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/firebase/
+          - href: /tools/iam/
+          - href: /tools/lerna/
+          - href: /tools/node/
+          - href: /tools/puppeteer/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/tracker/
+          - href: /tools/vpc/

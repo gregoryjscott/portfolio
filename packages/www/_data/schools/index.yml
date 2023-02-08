@@ -1,0 +1,98 @@
+layout: default
+title: Schools
+desc: List of schools.
+_links:
+  self:
+    href: /schools/
+  index:
+    - href: /schools/uco/
+_embedded:
+  index:
+    - title: University of Central Oklahoma
+      desc: The University of Central Oklahoma (UCO) is a public university in Edmond,
+        Oklahoma founded in 1890.
+      role: Student
+      begin_year: 1994
+      end_year: 1998
+      _links:
+        self:
+          href: /schools/uco/
+        languages:
+          - href: /languages/fortran/
+          - href: /languages/pascal/
+          - href: /languages/c/
+          - href: /languages/cpp/
+          - href: /languages/vb/
+      _embedded:
+        languages:
+          - title: FORTRAN
+            desc: FORTRAN (Formula Translator) is a general-purpose, procedural, imperative
+              programming language that is especially suited to numeric
+              computation and scientific computing. It is a compiled language,
+              meaning that it is processed by a compiler program before being
+              run on a computer. It is one of the oldest programming languages
+              and is still used today for a variety of applications. It is known
+              for its efficiency and accuracy in numerical calculations, and is
+              often used in scientific and engineering applications.
+            _links:
+              self:
+                href: /languages/fortran/
+              schools:
+                - href: /schools/uco/
+          - title: Pascal
+            desc: Pascal is a procedural programming language developed in the late 1960s by
+              Niklaus Wirth. It is a high-level language, meaning it is designed
+              to be easier to read and write than low-level languages like
+              assembly. Pascal is a strongly typed language, meaning that all
+              variables must be declared with a specific type before they can be
+              used. It is also a structured language, meaning that programs are
+              broken down into smaller, manageable parts. Pascal is widely used
+              in education and is the basis for many other languages, such as
+              Object Pascal and Delphi.
+            _links:
+              self:
+                href: /languages/pascal/
+              schools:
+                - href: /schools/uco/
+          - title: C
+            desc: C is a general-purpose, procedural programming language developed in the
+              early 1970s by Dennis Ritchie. It is a low-level language, meaning
+              it can be used to control hardware and memory, and is often used
+              for system programming. C is a compiled language, meaning that it
+              is converted into machine code before being executed. It is also a
+              structured language, meaning that it is organized into functions,
+              which can be called from other parts of the program. C is widely
+              used in many applications, including operating systems, embedded
+              systems, and scientific computing.
+            _links:
+              self:
+                href: /languages/c/
+              schools:
+                - href: /schools/uco/
+          - title: C++
+            desc: C++ is a general-purpose, object-oriented programming language developed
+              by Bjarne Stroustrup in 1985. It is an extension of the C language
+              and provides features such as classes, inheritance, polymorphism,
+              templates, and exception handling. C++ is used to develop a wide
+              range of applications, from system software to high-performance
+              server and client applications, and is one of the most popular
+              programming languages in the world.
+            _links:
+              self:
+                href: /languages/cpp/
+              schools:
+                - href: /schools/uco/
+          - title: Visual Basic
+            desc: Visual Basic is a high-level, object-oriented programming language
+              developed by Microsoft. It is used to create Windows applications,
+              web applications, and other software. Visual Basic is a powerful
+              language that allows developers to quickly create applications
+              with a graphical user interface (GUI). It is easy to learn and
+              use, and provides a wide range of features and capabilities.
+              Visual Basic is also compatible with other programming languages,
+              such as C# and Java.
+            _links:
+              self:
+                href: /languages/vb/
+              schools:
+                - href: /schools/uco/

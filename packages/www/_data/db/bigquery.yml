@@ -1,6 +1,89 @@
 title: BigQuery
-desc:
+desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
+  enables businesses to store, query, and analyze large datasets. It is a
+  petabyte-scale data warehouse that can process up to 20,000 queries per second
+  and is designed to scale with the growth of your business. BigQuery is
+  integrated with Google Cloud Platform services, allowing users to easily
+  access and analyze data from other Google services such as Google Ads, Google
+  Analytics, and Google Cloud Storage. BigQuery also supports a wide range of
+  data formats, including CSV, JSON, and Avro.
 _links:
+  self:
+    href: /db/bigquery/
+  projects:
+    - href: /projects/epicloud/
+  jobs:
+    - href: /jobs/fe/
+_embedded:
   projects:
     - title: EpiCloud
-      href: /projects/epicloud/
+      desc: null
+      role: Technical Lead
+      begin_year: 2015
+      end_year: 2021
+      _links:
+        self:
+          href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+        languages:
+          - href: /languages/ts/
+        db:
+          - href: /db/bigquery/
+        os:
+          - href: /os/linux/
+        tools:
+          - href: /tools/classroom/
+          - href: /tools/ddb/
+          - href: /tools/docker/
+          - href: /tools/drive/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/firebase/
+          - href: /tools/iam/
+          - href: /tools/lerna/
+          - href: /tools/node/
+          - href: /tools/puppeteer/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/tracker/
+          - href: /tools/vpc/
+  jobs:
+    - title: Futuristic Education
+      desc: Founder of Futuristic Education, building automation technology for
+        schools
+      role: Founder/Programmer
+      begin_year: 2018
+      end_year: null
+      time_desc: March 2018 - present
+      _links:
+        self:
+          href: /jobs/fe/
+        projects:
+          - href: /projects/epicloud/
+        db:
+          - href: /db/bigquery/
+        languages:
+          - href: /languages/ts/
+        os:
+          - href: /os/linux/
+        tools:
+          - href: /tools/classroom/
+          - href: /tools/ddb/
+          - href: /tools/docker/
+          - href: /tools/drive/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/firebase/
+          - href: /tools/iam/
+          - href: /tools/lerna/
+          - href: /tools/node/
+          - href: /tools/puppeteer/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/tracker/
+          - href: /tools/vpc/

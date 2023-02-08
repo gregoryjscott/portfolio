@@ -1,4 +1,29 @@
 ---
+title: Transact-SQL
+desc: >-
+  Transact-SQL (T-SQL) is a proprietary procedural language used to interact
+  with relational databases. It is a set-based, declarative programming language
+  used to query, modify, and manage data in Microsoft SQL Server. T-SQL is used
+  to create and modify database objects such as tables, views, stored
+  procedures, and triggers. It also provides control of transactions and error
+  handling. T-SQL is a powerful language that allows developers to write complex
+  queries and stored procedures to access and manipulate data.
+_links:
+  self:
+    href: /languages/tsql/
+  projects:
+    - href: /projects/agdc/
+    - href: /projects/ahfc-integration/
+    - href: /projects/awwu-intranet/
+    - href: /projects/awwu-systems-integration/
+    - href: /projects/consumption-views/
+    - href: /projects/database-sync-awwu/
+    - href: /projects/employee-suggestions/
+    - href: /projects/energy-efficiency-map/
+    - href: /projects/qb/
+    - href: /projects/scrum-tools/
+    - href: /projects/somd/
+    - href: /projects/systems-portal/
+  jobs:
+    - href: /jobs/rdi/
 ---
-
-TODO

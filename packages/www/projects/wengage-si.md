@@ -1,4 +1,22 @@
 ---
+title: Wen-GAGE Student Information
+desc: >-
+  Desktop application that is used by schools in Oklahoma to manage their
+  student information such as enrollment, attendance, and grades.
+role: Lead Developer
+begin_year: 1999
+end_year: 2004
+_links:
+  self:
+    href: /projects/wengage-si/
+  jobs:
+    - href: /jobs/mas/
+  languages:
+    - href: /languages/delphi/
+    - href: /languages/sql/
+  db:
+    - href: /db/btrieve/
+    - href: /db/pervasive/
+  os:
+    - href: /os/windows/
 ---
-
-TODO

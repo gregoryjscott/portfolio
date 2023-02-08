@@ -1,0 +1,13 @@
+{% assign tool = include.tool %}
+
+<section>
+  <h1><a href="{{ tool._links.self.href }}">{{ tool.title }}</a></h1>
+
+  <p><em>{{ tool.subtitle }}</em></p>
+
+  {% if tool.desc %}
+  <p>{{ tool.desc }}</p>
+  {% endif %}
+
+  {% include links-ul.html data=tool %}
+</section>

@@ -1,4 +1,4 @@
-exclude: [LICENSE, README.md, Gemfile, Gemfile.lock, Gruntfile.coffee, package.json, package-lock.json, Rakefile, node_modules]
+exclude: [LICENSE, README.md, Gemfile, Gemfile.lock, Gruntfile.coffee, package.json, package-lock.json, Rakefile, node_modules, tsconfig.json]
 markdown: kramdown
 permalink: pretty
 
@@ -9,10 +9,16 @@ defaults:
       layout: default
 
 - scope:
-    path: "projects"
+    path: "db"
     type: "pages"
   values:
-    layout: "project"
+    layout: "db"
+
+- scope:
+    path: "jobs"
+    type: "pages"
+  values:
+    layout: "job"
 
 - scope:
     path: "languages"
@@ -21,10 +27,22 @@ defaults:
     layout: "language"
 
 - scope:
-    path: "db"
+    path: "os"
     type: "pages"
   values:
-    layout: "db"
+    layout: "os"
+
+- scope:
+    path: "projects"
+    type: "pages"
+  values:
+    layout: "project"
+
+- scope:
+    path: "schools"
+    type: "pages"
+  values:
+    layout: "school"
 
 - scope:
     path: "tools"

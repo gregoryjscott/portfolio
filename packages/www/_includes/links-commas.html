@@ -3,7 +3,7 @@
     {% if include.disabled %}
       {{ link.title }}{% unless forloop.last %},{% endunless %}
     {% else %}
-      <a class="resource-links" href="{{ link.href }}">{{ link.title }}</a>{% unless forloop.last %},{% endunless %}
+      <a href="{{ link._links.self.href }}">{{ link.title }}</a>{% unless forloop.last %},{% endunless %}
     {% endif %}
   {% endfor %}
 {% endif %}

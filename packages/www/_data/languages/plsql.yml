@@ -1,21 +1,11 @@
 title: PL/SQL
-desc: Oracle Corporation's procedural language extension for SQL and the Oracle relational database.
+desc: PL/SQL (Procedural Language/Structured Query Language) is a procedural
+  language used in Oracle databases. It is a combination of SQL and procedural
+  programming language, allowing developers to write code to manipulate data in
+  an Oracle database. PL/SQL code can be used to create stored procedures,
+  functions, packages, and triggers, as well as to execute SQL statements.
+  PL/SQL is a powerful language that allows developers to create complex
+  applications and to interact with the Oracle database.
 _links:
-  projects:
-    - title: Employee Suggestions
-      href: /projects/employee-suggestions/
-
-    - title: AWWU Intranet
-      href: /projects/awwu-intranet/
-
-    - title: AWWU Systems Integration
-      href: /projects/awwu-systems-integration/
-
-    - title: Consumption Views
-      href: /projects/consumption-views/
-
-    - title: Database Synchronization (AWWU)
-      href: /projects/database-sync-awwu/
-
-    - title: Service Order Mobile Dispatch
-      href: /projects/somd/
+  self:
+    href: /languages/plsql/

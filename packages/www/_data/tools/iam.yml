@@ -1,6 +1,88 @@
 title: AWS Identity and Access Management (IAM)
-desc: IAM provides fine-grained access control across all of AWS.
+desc: AWS Identity and Access Management (IAM) is a web service that helps you
+  securely control access to AWS resources. With IAM, you can create and manage
+  AWS users and groups, and use permissions to allow and deny their access to
+  AWS resources. IAM also enables you to create and manage security credentials
+  such as access keys, passwords, and multi-factor authentication devices. You
+  can use IAM to manage access to AWS services such as Amazon EC2, Amazon S3,
+  and Amazon RDS.
 _links:
+  self:
+    href: /tools/iam/
+  projects:
+    - href: /projects/epicloud/
+  jobs:
+    - href: /jobs/fe/
+_embedded:
   projects:
     - title: EpiCloud
-      href: /projects/epicloud/
+      desc: null
+      role: Technical Lead
+      begin_year: 2015
+      end_year: 2021
+      _links:
+        self:
+          href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+        languages:
+          - href: /languages/ts/
+        db:
+          - href: /db/bigquery/
+        os:
+          - href: /os/linux/
+        tools:
+          - href: /tools/classroom/
+          - href: /tools/ddb/
+          - href: /tools/docker/
+          - href: /tools/drive/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/firebase/
+          - href: /tools/iam/
+          - href: /tools/lerna/
+          - href: /tools/node/
+          - href: /tools/puppeteer/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/tracker/
+          - href: /tools/vpc/
+  jobs:
+    - title: Futuristic Education
+      desc: Founder of Futuristic Education, building automation technology for
+        schools
+      role: Founder/Programmer
+      begin_year: 2018
+      end_year: null
+      time_desc: March 2018 - present
+      _links:
+        self:
+          href: /jobs/fe/
+        projects:
+          - href: /projects/epicloud/
+        db:
+          - href: /db/bigquery/
+        languages:
+          - href: /languages/ts/
+        os:
+          - href: /os/linux/
+        tools:
+          - href: /tools/classroom/
+          - href: /tools/ddb/
+          - href: /tools/docker/
+          - href: /tools/drive/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/firebase/
+          - href: /tools/iam/
+          - href: /tools/lerna/
+          - href: /tools/node/
+          - href: /tools/puppeteer/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/tracker/
+          - href: /tools/vpc/

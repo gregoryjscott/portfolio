@@ -1,2 +1,29 @@
 title: C++
-desc:
+desc: C++ is a general-purpose, object-oriented programming language developed
+  by Bjarne Stroustrup in 1985. It is an extension of the C language and
+  provides features such as classes, inheritance, polymorphism, templates, and
+  exception handling. C++ is used to develop a wide range of applications, from
+  system software to high-performance server and client applications, and is one
+  of the most popular programming languages in the world.
+_links:
+  self:
+    href: /languages/cpp/
+  schools:
+    - href: /schools/uco/
+_embedded:
+  schools:
+    - title: University of Central Oklahoma
+      desc: The University of Central Oklahoma (UCO) is a public university in Edmond,
+        Oklahoma founded in 1890.
+      role: Student
+      begin_year: 1994
+      end_year: 1998
+      _links:
+        self:
+          href: /schools/uco/
+        languages:
+          - href: /languages/fortran/
+          - href: /languages/pascal/
+          - href: /languages/c/
+          - href: /languages/cpp/
+          - href: /languages/vb/

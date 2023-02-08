@@ -1,31 +1,60 @@
 ---
 layout: default
 title: Projects
+desc: List of projects.
+_links:
+  self:
+    href: /projects/
+  index:
+    - href: /projects/agdc/
+    - href: /projects/ahfc-integration/
+    - href: /projects/awwu-intranet/
+    - href: /projects/awwu-job-scheduler/
+    - href: /projects/awwu-systems-integration/
+    - href: /projects/backup-controls-displays/
+    - href: /projects/bit-proposal/
+    - href: /projects/centroid/
+    - href: /projects/cis-data-capture/
+    - href: /projects/class-scheduler/
+    - href: /projects/consumption-views/
+    - href: /projects/database-sync-awwu/
+    - href: /projects/denver-schedules-api/
+    - href: /projects/employee-suggestions/
+    - href: /projects/energy-efficiency-map/
+    - href: /projects/epicloud/
+    - href: /projects/flir-monitoring/
+    - href: /projects/lasar-range-finder/
+    - href: /projects/mission-data-loader/
+    - href: /projects/mvc-integration-test-framework/
+    - href: /projects/please/
+    - href: /projects/qb/
+    - href: /projects/report-engine/
+    - href: /projects/sar-reports/
+    - href: /projects/scramble-score/
+    - href: /projects/scrum-tools/
+    - href: /projects/sif-agent/
+    - href: /projects/simpler/
+    - href: /projects/smf-controls-displays/
+    - href: /projects/somd/
+    - href: /projects/systems-portal/
+    - href: /projects/this-site/
+    - href: /projects/train-builder/
+    - href: /projects/wengage-acct/
+    - href: /projects/wengage-si/
 ---
 
-<section markdown="1">
-Projects can also be explored by skill such as [language](/languages) or [database](/db).
+<section>
+  <a href="{{ site.url }}">Home</a> / <a href="{{ page.url }}">{{ page.title }}</a>
 </section>
 
 <section>
-{% for item in page.items %}
-  <h1><a href="{{ item.url }}">{{ item.title }}</a></h1>
-
-  <p><em>{{ item.subtitle }}</em></p>
-
-  {% if item.desc %}
-  <p>{{ item.desc }}</p>
+  <p><h1>{{ page.title }}</h1></p>
+  <p><em>{{ page.subtitle }}</em></p>
+  {% if page.desc %}
+    <p>{{ page.desc }}</p>
   {% endif %}
+</section>
 
-  {% include links-ul.html data=item %}
+{% for item in page._embedded.index %}
+{% include projects/summary.html project=item %}
 {% endfor %}
-</section>
-
-<section markdown="1">
-{% include get-started.md %}
-</section>
-
-<script>
-element = document.getElementById("project-menu");
-element.className += " active";
-</script>
