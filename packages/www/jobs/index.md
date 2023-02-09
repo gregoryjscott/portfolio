@@ -13,17 +13,9 @@ _links:
     - href: /jobs/rdi/
 ---
 
-<section>
-  <a href="{{ site.url }}">Home</a> / <a href="{{ page.url }}">{{ page.title }}</a>
-</section>
+<a href="{{ site.url }}">Home</a> / <a href="{{ page.url }}">{{ page.title }}</a>
 
-<section>
-  <p><h1>{{ page.title }}</h1></p>
-  <p><em>{{ page.subtitle }}</em></p>
-  {% if page.desc %}
-    <p>{{ page.desc }}</p>
-  {% endif %}
-</section>
+{% include basic-info.html %}
 
 {% for item in page._embedded.index %}
 {% include jobs/summary.html job=item %}
