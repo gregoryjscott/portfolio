@@ -1,3 +1,32 @@
+html {
+  font-size: 13px;
+}
+
 body {
   font-family: "Roboto Mono", monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 2.5rem;
+  color: #141414;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+section h1 {
+  font-size: 1.75rem;
+}
+
+p {
+  line-height: 2rem;
+  margin: 2.5rem 0;
 }
