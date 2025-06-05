@@ -33,5 +33,5 @@ _links:
 {% include basic-info.html %}
 
 {% for item in page._embedded.index %}
-{% include tools/summary.html tool=item %}
+{% include tools/summary.html tool=item heading_level=2 %}
 {% endfor %}

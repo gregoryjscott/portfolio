@@ -25,5 +25,5 @@ _links:
 {% include basic-info.html %}
 
 {% for item in page._embedded.index %}
-{% include os/summary.html os=item %}
+{% include os/summary.html os=item heading_level=2 %}
 {% endfor %}

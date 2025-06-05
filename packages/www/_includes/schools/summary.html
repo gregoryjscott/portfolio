@@ -1,7 +1,10 @@
 {% assign school = include.school %}
+{% assign heading_level = include.heading_level %}
 
 <section>
-  <h1><a href="{{ school._links.self.href }}">{{ school.title }}</a></h1>
+  <h{{ heading_level }}>
+    <a href="{{ school._links.self.href }}">{{ school.title }}</a>
+  </h{{ heading_level }}>
 
   <p><em>{{ school.subtitle }}</em></p>
 

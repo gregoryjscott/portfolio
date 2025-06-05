@@ -1,7 +1,10 @@
 {% assign db = include.db %}
+{% assign heading_level = include.heading_level %}
 
 <section>
-  <h1><a href="{{ db._links.self.href }}">{{ db.title }}</a></h1>
+  <h{{ heading_level }}>
+    <a href="{{ db._links.self.href }}">{{ db.title }}</a>
+  </h{{ heading_level }}>
 
   <p><em>{{ db.subtitle }}</em></p>
 

@@ -1,7 +1,10 @@
 {% assign job = include.job %}
+{% assign heading_level = include.heading_level %}
 
 <section>
-  <h1><a href="{{ job._links.self.href }}">{{ job.title }}</a></h1>
+  <h{{ heading_level }}>
+    <a href="{{ job._links.self.href }}">{{ job.title }}</a>
+  </h{{ heading_level }}>
 
   <p><em>{{ job.subtitle }}</em></p>
 

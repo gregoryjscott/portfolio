@@ -51,5 +51,5 @@ _links:
 {% include basic-info.html %}
 
 {% for item in page._embedded.index %}
-{% include projects/summary.html project=item %}
+{% include projects/summary.html project=item heading_level=2 %}
 {% endfor %}

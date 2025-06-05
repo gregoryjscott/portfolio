@@ -35,5 +35,5 @@ _links:
 {% include basic-info.html %}
 
 {% for item in page._embedded.index %}
-{% include languages/summary.html language=item %}
+{% include languages/summary.html language=item heading_level=2 %}
 {% endfor %}
