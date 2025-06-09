@@ -11,10 +11,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/normalize.css"/>
 <link rel="stylesheet" href="/assets/css/styles.css"/>
+<link rel="stylesheet" href="/assets/css/menu.css"/>
 <head>
 <body>
+  <input type="checkbox" id="menu-toggle" class="menu-checkbox" hidden>
   <header>
-    <div>
+    <label for="menu-toggle" class="menu-btn" aria-label="Toggle menu"><span></span></label>
+    <div class="menu-overlay">
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/resume">Resume</a></li>
