@@ -7,13 +7,13 @@ body {
 }
 
 main {
-  margin: 2rem auto;
+  margin: 0 auto 2rem auto;
   max-width: 1060px;
-  padding: 2rem;
+  padding: 0 2rem;
 }
 
 nav {
-  margin: 1.5rem 0;
+  margin: 2rem 0;
 }
 
 section section {
@@ -50,6 +50,10 @@ h3 {
 p {
   line-height: 2rem;
   margin: 2rem 0;
+}
+
+a {
+  line-height: 2rem;
 }
 
 ul {
