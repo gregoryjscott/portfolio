@@ -58,11 +58,12 @@ a {
 
 ul {
   list-style: none;
-  padding-left: 0px;
+  padding-left: 2rem;
 }
 
 li {
-  margin-top: 1rem;
+  line-height: 2rem;
+  margin-top: 1.5rem;
 }
 
 a:link {
