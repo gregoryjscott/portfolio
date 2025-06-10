@@ -16,7 +16,7 @@ _links:
 <article markdown="1">
 __Programming is my passion.__
 
-I've programmed servers, PC, Macs, smartphones, tablets, mainframes, hand-held range finders, GPS devices, lasers mounted to planes, calculators, and B-1 Bombers.
+I've programmed servers, clouds, PCs, Macs, iPhones, Androids, iPads, Chromebooks, TVs, mainframes, hand-held range finders, GPS devices, lasers mounted to planes, calculators, and B-1 Bombers.
 
 My [projects](/projects) have used an impressive spectrum of [languages](/languages), [tools](/tools), and [databases](/db). Feel free to browse my [resume](/resume).
 
