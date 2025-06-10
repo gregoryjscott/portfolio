@@ -104,7 +104,7 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
-          - href: /languages/tsql/
+          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -139,7 +139,7 @@ _embedded:
           - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
-          - href: /languages/tsql/
+          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -228,7 +228,7 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
         languages:
-          - href: /languages/tsql/
+          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -246,7 +246,7 @@ _embedded:
           - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
-          - href: /languages/tsql/
+          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -288,7 +288,7 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
         languages:
-          - href: /languages/tsql/
+          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -544,7 +544,7 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
-          - href: /languages/tsql/
+          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -729,6 +729,7 @@ _embedded:
           - href: /languages/rb/
           - href: /languages/sql/
           - href: /languages/tsql/
+          - href: /languages/plsql/
         os:
           - href: /os/linux/
           - href: /os/osx/

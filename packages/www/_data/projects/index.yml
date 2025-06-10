@@ -946,6 +946,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -1196,6 +1197,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -1405,15 +1407,9 @@ _embedded:
               projects:
                 - href: /projects/agdc/
                 - href: /projects/ahfc-integration/
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/qb/
                 - href: /projects/scrum-tools/
-                - href: /projects/somd/
                 - href: /projects/systems-portal/
               jobs:
                 - href: /jobs/rdi/
@@ -1562,6 +1558,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -1806,6 +1803,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -1976,15 +1974,9 @@ _embedded:
               projects:
                 - href: /projects/agdc/
                 - href: /projects/ahfc-integration/
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/qb/
                 - href: /projects/scrum-tools/
-                - href: /projects/somd/
                 - href: /projects/systems-portal/
               jobs:
                 - href: /jobs/rdi/
@@ -2129,6 +2121,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -2186,15 +2179,9 @@ _embedded:
               projects:
                 - href: /projects/agdc/
                 - href: /projects/ahfc-integration/
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/qb/
                 - href: /projects/scrum-tools/
-                - href: /projects/somd/
                 - href: /projects/systems-portal/
               jobs:
                 - href: /jobs/rdi/
@@ -2343,6 +2330,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -2513,15 +2501,9 @@ _embedded:
               projects:
                 - href: /projects/agdc/
                 - href: /projects/ahfc-integration/
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/qb/
                 - href: /projects/scrum-tools/
-                - href: /projects/somd/
                 - href: /projects/systems-portal/
               jobs:
                 - href: /jobs/rdi/
@@ -2672,6 +2654,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -2959,6 +2942,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -3129,15 +3113,9 @@ _embedded:
               projects:
                 - href: /projects/agdc/
                 - href: /projects/ahfc-integration/
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/qb/
                 - href: /projects/scrum-tools/
-                - href: /projects/somd/
                 - href: /projects/systems-portal/
               jobs:
                 - href: /jobs/rdi/
@@ -3489,6 +3467,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -3659,15 +3638,9 @@ _embedded:
               projects:
                 - href: /projects/agdc/
                 - href: /projects/ahfc-integration/
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/qb/
                 - href: /projects/scrum-tools/
-                - href: /projects/somd/
                 - href: /projects/systems-portal/
               jobs:
                 - href: /jobs/rdi/
@@ -3896,7 +3869,7 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
-          - href: /languages/tsql/
+          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -3954,6 +3927,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -4072,31 +4046,25 @@ _embedded:
                 - href: /projects/systems-portal/
               jobs:
                 - href: /jobs/rdi/
-          - title: Transact-SQL
-            desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
-              with relational databases. It is a set-based, declarative
-              programming language used to query, modify, and manage data in
-              Microsoft SQL Server. T-SQL is used to create and modify database
-              objects such as tables, views, stored procedures, and triggers. It
-              also provides control of transactions and error handling. T-SQL is
-              a powerful language that allows developers to write complex
-              queries and stored procedures to access and manipulate data.
+          - title: PL/SQL
+            desc: PL/SQL (Procedural Language/Structured Query Language) is a procedural
+              language used in Oracle databases. It is a combination of SQL and
+              procedural programming language, allowing developers to write code
+              to manipulate data in an Oracle database. PL/SQL code can be used
+              to create stored procedures, functions, packages, and triggers, as
+              well as to execute SQL statements. PL/SQL is a powerful language
+              that allows developers to create complex applications and to
+              interact with the Oracle database.
             _links:
               self:
-                href: /languages/tsql/
+                href: /languages/plsql/
               projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
                 - href: /projects/awwu-intranet/
                 - href: /projects/awwu-systems-integration/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
                 - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/qb/
-                - href: /projects/scrum-tools/
                 - href: /projects/somd/
-                - href: /projects/systems-portal/
               jobs:
                 - href: /jobs/rdi/
           - title: SQL
@@ -4223,7 +4191,7 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
         languages:
-          - href: /languages/tsql/
+          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -4281,36 +4249,31 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
         languages:
-          - title: Transact-SQL
-            desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
-              with relational databases. It is a set-based, declarative
-              programming language used to query, modify, and manage data in
-              Microsoft SQL Server. T-SQL is used to create and modify database
-              objects such as tables, views, stored procedures, and triggers. It
-              also provides control of transactions and error handling. T-SQL is
-              a powerful language that allows developers to write complex
-              queries and stored procedures to access and manipulate data.
+          - title: PL/SQL
+            desc: PL/SQL (Procedural Language/Structured Query Language) is a procedural
+              language used in Oracle databases. It is a combination of SQL and
+              procedural programming language, allowing developers to write code
+              to manipulate data in an Oracle database. PL/SQL code can be used
+              to create stored procedures, functions, packages, and triggers, as
+              well as to execute SQL statements. PL/SQL is a powerful language
+              that allows developers to create complex applications and to
+              interact with the Oracle database.
             _links:
               self:
-                href: /languages/tsql/
+                href: /languages/plsql/
               projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
                 - href: /projects/awwu-intranet/
                 - href: /projects/awwu-systems-integration/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
                 - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/qb/
-                - href: /projects/scrum-tools/
                 - href: /projects/somd/
-                - href: /projects/systems-portal/
               jobs:
                 - href: /jobs/rdi/
           - title: SQL
@@ -4495,6 +4458,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -4617,7 +4581,7 @@ _embedded:
           - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
-          - href: /languages/tsql/
+          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -4675,6 +4639,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -4720,31 +4685,25 @@ _embedded:
                 - href: /jobs/freelance/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
-          - title: Transact-SQL
-            desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
-              with relational databases. It is a set-based, declarative
-              programming language used to query, modify, and manage data in
-              Microsoft SQL Server. T-SQL is used to create and modify database
-              objects such as tables, views, stored procedures, and triggers. It
-              also provides control of transactions and error handling. T-SQL is
-              a powerful language that allows developers to write complex
-              queries and stored procedures to access and manipulate data.
+          - title: PL/SQL
+            desc: PL/SQL (Procedural Language/Structured Query Language) is a procedural
+              language used in Oracle databases. It is a combination of SQL and
+              procedural programming language, allowing developers to write code
+              to manipulate data in an Oracle database. PL/SQL code can be used
+              to create stored procedures, functions, packages, and triggers, as
+              well as to execute SQL statements. PL/SQL is a powerful language
+              that allows developers to create complex applications and to
+              interact with the Oracle database.
             _links:
               self:
-                href: /languages/tsql/
+                href: /languages/plsql/
               projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
                 - href: /projects/awwu-intranet/
                 - href: /projects/awwu-systems-integration/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
                 - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/qb/
-                - href: /projects/scrum-tools/
                 - href: /projects/somd/
-                - href: /projects/systems-portal/
               jobs:
                 - href: /jobs/rdi/
           - title: SQL
@@ -4925,6 +4884,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -5035,7 +4995,7 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
-          - href: /languages/tsql/
+          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -5093,6 +5053,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -5211,31 +5172,25 @@ _embedded:
                 - href: /projects/systems-portal/
               jobs:
                 - href: /jobs/rdi/
-          - title: Transact-SQL
-            desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
-              with relational databases. It is a set-based, declarative
-              programming language used to query, modify, and manage data in
-              Microsoft SQL Server. T-SQL is used to create and modify database
-              objects such as tables, views, stored procedures, and triggers. It
-              also provides control of transactions and error handling. T-SQL is
-              a powerful language that allows developers to write complex
-              queries and stored procedures to access and manipulate data.
+          - title: PL/SQL
+            desc: PL/SQL (Procedural Language/Structured Query Language) is a procedural
+              language used in Oracle databases. It is a combination of SQL and
+              procedural programming language, allowing developers to write code
+              to manipulate data in an Oracle database. PL/SQL code can be used
+              to create stored procedures, functions, packages, and triggers, as
+              well as to execute SQL statements. PL/SQL is a powerful language
+              that allows developers to create complex applications and to
+              interact with the Oracle database.
             _links:
               self:
-                href: /languages/tsql/
+                href: /languages/plsql/
               projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
                 - href: /projects/awwu-intranet/
                 - href: /projects/awwu-systems-integration/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
                 - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/qb/
-                - href: /projects/scrum-tools/
                 - href: /projects/somd/
-                - href: /projects/systems-portal/
               jobs:
                 - href: /jobs/rdi/
           - title: SQL
@@ -5420,6 +5375,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -5643,6 +5599,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -5870,6 +5827,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -6050,6 +6008,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -6219,7 +6178,7 @@ _embedded:
           - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
-          - href: /languages/tsql/
+          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -6277,6 +6236,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -6322,31 +6282,25 @@ _embedded:
                 - href: /jobs/freelance/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
-          - title: Transact-SQL
-            desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
-              with relational databases. It is a set-based, declarative
-              programming language used to query, modify, and manage data in
-              Microsoft SQL Server. T-SQL is used to create and modify database
-              objects such as tables, views, stored procedures, and triggers. It
-              also provides control of transactions and error handling. T-SQL is
-              a powerful language that allows developers to write complex
-              queries and stored procedures to access and manipulate data.
+          - title: PL/SQL
+            desc: PL/SQL (Procedural Language/Structured Query Language) is a procedural
+              language used in Oracle databases. It is a combination of SQL and
+              procedural programming language, allowing developers to write code
+              to manipulate data in an Oracle database. PL/SQL code can be used
+              to create stored procedures, functions, packages, and triggers, as
+              well as to execute SQL statements. PL/SQL is a powerful language
+              that allows developers to create complex applications and to
+              interact with the Oracle database.
             _links:
               self:
-                href: /languages/tsql/
+                href: /languages/plsql/
               projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
                 - href: /projects/awwu-intranet/
                 - href: /projects/awwu-systems-integration/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
                 - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/qb/
-                - href: /projects/scrum-tools/
                 - href: /projects/somd/
-                - href: /projects/systems-portal/
               jobs:
                 - href: /jobs/rdi/
           - title: SQL
@@ -6530,6 +6484,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -6716,6 +6671,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -6822,7 +6778,7 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
         languages:
-          - href: /languages/tsql/
+          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -6880,36 +6836,31 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
         languages:
-          - title: Transact-SQL
-            desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
-              with relational databases. It is a set-based, declarative
-              programming language used to query, modify, and manage data in
-              Microsoft SQL Server. T-SQL is used to create and modify database
-              objects such as tables, views, stored procedures, and triggers. It
-              also provides control of transactions and error handling. T-SQL is
-              a powerful language that allows developers to write complex
-              queries and stored procedures to access and manipulate data.
+          - title: PL/SQL
+            desc: PL/SQL (Procedural Language/Structured Query Language) is a procedural
+              language used in Oracle databases. It is a combination of SQL and
+              procedural programming language, allowing developers to write code
+              to manipulate data in an Oracle database. PL/SQL code can be used
+              to create stored procedures, functions, packages, and triggers, as
+              well as to execute SQL statements. PL/SQL is a powerful language
+              that allows developers to create complex applications and to
+              interact with the Oracle database.
             _links:
               self:
-                href: /languages/tsql/
+                href: /languages/plsql/
               projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
                 - href: /projects/awwu-intranet/
                 - href: /projects/awwu-systems-integration/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
                 - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/qb/
-                - href: /projects/scrum-tools/
                 - href: /projects/somd/
-                - href: /projects/systems-portal/
               jobs:
                 - href: /jobs/rdi/
           - title: SQL
