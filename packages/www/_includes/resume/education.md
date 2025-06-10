@@ -1,5 +1,9 @@
-# Education
+## Education
 
-Bachelor of Science in Mathematics
+<section markdown="1">
 
-_University of Central Oklahoma, 1998_
+### Bachelor of Science in Mathematics
+
+[University of Central Oklahoma](/schools/uco), 1998
+
+</section>
