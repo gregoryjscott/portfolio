@@ -84,8 +84,8 @@ footer {
   text-align: center;
   padding: 2rem 0;
   margin-top: 2rem;
-  border-top: 1px solid var(--text-primary);
-  color: var(--text-primary);
+  background-color: var(--text-primary);
+  color: var(--background-primary);
 }
 
 footer p {
