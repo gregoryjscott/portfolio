@@ -92,6 +92,14 @@ footer p {
   margin: 1rem;
 }
 
+footer a:link {
+  color: var(--background-primary);
+}
+
+footer a:visited {
+  color: var(--background-primary);
+}
+
 a:link {
   color: var(--text-secondary);
 }
