@@ -24,8 +24,8 @@ _links:
     - href: /os/linux/
 _embedded:
   jobs:
-    - title: Freelance
-      desc: Freelance Programmer
+    - title: Freelance Programmer
+      desc: Freelance Programmer and Consultant
       role: Self
       begin_year: 2014
       end_year: null
