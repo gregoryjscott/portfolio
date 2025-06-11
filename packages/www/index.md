@@ -14,13 +14,13 @@ _links:
 ---
 
 <article markdown="1">
-Hi, I'm Greg.
-
-Check out my [resume](/resume)!
+Hello,
 
 I've programmed servers, clouds, PCs, Macs, iPhones, Androids, iPads, Chromebooks, TVs, mainframes, hand-held range finders, GPS devices, lasers mounted to planes, calculators, and B-1 Bombers.
 
-If you need help with your technology, [contact me](mailto:me@gregoryjscott.com).
+Check out my [resume](/resume).
+
+[Reach out](mailto:me@gregoryjscott.com) if you'd like to work together.
 
 Thanks for visiting.
 
