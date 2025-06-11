@@ -1,6 +1,5 @@
 import * as fs from "fs"
-import { Configuration, OpenAIApi } from "openai"
-import { encode } from "gpt-3-encoder"
+import OpenAI from "openai"
 import * as path from "path"
 import * as matter from "gray-matter"
 import * as prettier from "prettier"
@@ -29,46 +28,36 @@ const directories = ["db", "languages", "os", "tools"]
 const prompts = [
   {
     resourceName: "db",
-    summarize: title => `Provide a brief summary of the ${title} database.`,
+    summarize: title =>
+      `Provide a brief one-paragraph summary of the ${title} database.`,
   },
   {
     resourceName: "languages",
     summarize: title =>
-      `Provide a brief summary of the ${title} programming language.`,
+      `Provide a brief one-paragraph summary of the ${title} programming language.`,
   },
   {
     resourceName: "os",
     summarize: title =>
-      `Provide a brief summary of the ${title} operating system.`,
+      `Provide a brief one-paragraph summary of the ${title} operating system.`,
   },
   {
     resourceName: "tools",
-    summarize: title => `Provide a brief summary of the ${title} technology.`,
+    summarize: title =>
+      `Provide a brief one-paragraph summary of the ${title} technology.`,
   },
 ]
 
 const resources: Resource[] = prepareResources()
 const nonIndexResources = resources.filter(r => !r.isIndex)
-const configuration = new Configuration({ apiKey: process.env.OPENAI_API_KEY })
 
 async function complete(prompt: string): Promise<string> {
-  const openai = new OpenAIApi(configuration)
-  const completion = await openai.createCompletion({
-    model: "text-davinci-003",
-    prompt,
-    temperature: 0,
-    max_tokens: 4000,
+  const client = new OpenAI()
+  const response = await client.responses.create({
+    model: "o4-mini",
+    input: prompt,
   })
-  const completionText = completion.data.choices[0].text.trim()
-  console.log()
-  console.log(prompt)
-  console.log()
-  console.log(completionText)
-  console.log(`Prompt chars: `, prompt.length)
-  console.log(`Prompt tokens: `, encode(prompt).length)
-  console.log(`Completion chars: `, completionText.length)
-  console.log(`Completion tokens: `, encode(completionText).length)
-  return completion.data.choices[0].text
+  return response.output_text
 }
 
 function prepareResources(): Resource[] {
@@ -116,7 +105,6 @@ async function fillDesc() {
     const completion = await (await complete(summaryPrompt)).trim()
     resource.source.data.desc = completion
     writeMarkdown(resource.path, resource.source.content, resource.source.data)
-    await delay(5000)
   }
 }
 
@@ -158,12 +146,6 @@ process.on("unhandledRejection", err => {
   console.error("There was an uncaught error", err)
   process.exit(1)
 })
-
-async function delay(ms: number) {
-  console.log()
-  console.log(`Waiting ${ms}ms...`)
-  return new Promise(resolve => setTimeout(resolve, ms))
-}
 
 wipeDesc()
 fillDesc()
