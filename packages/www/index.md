@@ -14,12 +14,16 @@ _links:
 ---
 
 <article markdown="1">
-__Programming is my passion.__
+Hi, I'm Greg.
+
+Check out my [resume](/resume)!
 
 I've programmed servers, clouds, PCs, Macs, iPhones, Androids, iPads, Chromebooks, TVs, mainframes, hand-held range finders, GPS devices, lasers mounted to planes, calculators, and B-1 Bombers.
 
-My [projects](/projects) have used an impressive spectrum of [languages](/languages), [tools](/tools), and [databases](/db). Feel free to browse my [resume](/resume).
+If you need help with your technology, [contact me](mailto:me@gregoryjscott.com).
 
-I'm currently searching for my next challenge. Please don't hesitate to <a href="mailto:me@gregoryjscott.com">contact me</a> if I might be of service to you.
+Thanks for visiting.
+
+Greg
 
 </article>
