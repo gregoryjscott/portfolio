@@ -11,4 +11,13 @@ desc: >-
 _links:
   self:
     href: /languages/plsql/
+  projects:
+    - href: /projects/awwu-intranet/
+    - href: /projects/awwu-systems-integration/
+    - href: /projects/consumption-views/
+    - href: /projects/database-sync-awwu/
+    - href: /projects/employee-suggestions/
+    - href: /projects/somd/
+  jobs:
+    - href: /jobs/rdi/
 ---

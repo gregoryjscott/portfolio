@@ -224,6 +224,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -508,6 +509,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -674,7 +676,7 @@ _embedded:
               os:
                 - href: /os/windows/
           - title: AHFC Integration
-            desc: null
+            desc: Alaska Housing Finance Corporation Integration
             role: Technical Lead
             begin_year: 2013
             end_year: 2013
@@ -833,7 +835,7 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -851,7 +853,7 @@ _embedded:
               jobs:
                 - href: /jobs/rdi/
               languages:
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -888,7 +890,7 @@ _embedded:
                 - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -924,7 +926,7 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -1013,7 +1015,7 @@ _embedded:
                 - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -1063,7 +1065,7 @@ _embedded:
               jobs:
                 - href: /jobs/rdi/
               languages:
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -1245,6 +1247,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/

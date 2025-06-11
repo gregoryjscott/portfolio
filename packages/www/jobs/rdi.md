@@ -50,6 +50,7 @@ _links:
     - href: /languages/rb/
     - href: /languages/sql/
     - href: /languages/tsql/
+    - href: /languages/plsql/
   os:
     - href: /os/linux/
     - href: /os/osx/

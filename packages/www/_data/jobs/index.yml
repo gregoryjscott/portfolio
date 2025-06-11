@@ -836,6 +836,7 @@ _embedded:
           - href: /languages/rb/
           - href: /languages/sql/
           - href: /languages/tsql/
+          - href: /languages/plsql/
         os:
           - href: /os/linux/
           - href: /os/osx/
@@ -867,7 +868,7 @@ _embedded:
               os:
                 - href: /os/windows/
           - title: AHFC Integration
-            desc: null
+            desc: Alaska Housing Finance Corporation Integration
             role: Technical Lead
             begin_year: 2013
             end_year: 2013
@@ -899,7 +900,7 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -935,7 +936,7 @@ _embedded:
                 - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -1007,7 +1008,7 @@ _embedded:
               jobs:
                 - href: /jobs/rdi/
               languages:
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -1025,7 +1026,7 @@ _embedded:
                 - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -1043,7 +1044,7 @@ _embedded:
               jobs:
                 - href: /jobs/rdi/
               languages:
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -1243,7 +1244,7 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -1593,16 +1594,31 @@ _embedded:
               projects:
                 - href: /projects/agdc/
                 - href: /projects/ahfc-integration/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/qb/
+                - href: /projects/scrum-tools/
+                - href: /projects/systems-portal/
+              jobs:
+                - href: /jobs/rdi/
+          - title: PL/SQL
+            desc: PL/SQL (Procedural Language/Structured Query Language) is a procedural
+              language used in Oracle databases. It is a combination of SQL and
+              procedural programming language, allowing developers to write code
+              to manipulate data in an Oracle database. PL/SQL code can be used
+              to create stored procedures, functions, packages, and triggers, as
+              well as to execute SQL statements. PL/SQL is a powerful language
+              that allows developers to create complex applications and to
+              interact with the Oracle database.
+            _links:
+              self:
+                href: /languages/plsql/
+              projects:
                 - href: /projects/awwu-intranet/
                 - href: /projects/awwu-systems-integration/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
                 - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/qb/
-                - href: /projects/scrum-tools/
                 - href: /projects/somd/
-                - href: /projects/systems-portal/
               jobs:
                 - href: /jobs/rdi/
         os:

@@ -282,6 +282,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -484,7 +485,7 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -506,7 +507,7 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -589,6 +590,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -792,7 +794,7 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -814,7 +816,7 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -897,6 +899,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -1118,7 +1121,7 @@ _embedded:
               os:
                 - href: /os/windows/
           - title: AHFC Integration
-            desc: null
+            desc: Alaska Housing Finance Corporation Integration
             role: Technical Lead
             begin_year: 2013
             end_year: 2013
@@ -1216,7 +1219,7 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -1234,7 +1237,7 @@ _embedded:
               jobs:
                 - href: /jobs/rdi/
               languages:
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -1252,7 +1255,7 @@ _embedded:
                 - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -1274,7 +1277,7 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -1345,7 +1348,7 @@ _embedded:
                 - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -1363,7 +1366,7 @@ _embedded:
               jobs:
                 - href: /jobs/rdi/
               languages:
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -1528,6 +1531,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -1647,6 +1651,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -1925,7 +1930,7 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -1962,7 +1967,7 @@ _embedded:
                 - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -1998,7 +2003,7 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -2087,7 +2092,7 @@ _embedded:
                 - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -2246,6 +2251,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -2265,15 +2271,9 @@ _embedded:
         projects:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
-          - href: /projects/awwu-intranet/
-          - href: /projects/awwu-systems-integration/
-          - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
-          - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
           - href: /projects/qb/
           - href: /projects/scrum-tools/
-          - href: /projects/somd/
           - href: /projects/systems-portal/
         jobs:
           - href: /jobs/rdi/
@@ -2325,7 +2325,7 @@ _embedded:
               os:
                 - href: /os/windows/
           - title: AHFC Integration
-            desc: null
+            desc: Alaska Housing Finance Corporation Integration
             role: Technical Lead
             begin_year: 2013
             end_year: 2013
@@ -2406,123 +2406,6 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
-          - title: Service Order Mobile Dispatch
-            desc: Mobile web application that allows Anchorage Water & Wastewater Utility
-              service workers to query and record service information while in
-              the field.
-            role: Technical Lead
-            begin_year: 2009
-            end_year: 2009
-            _links:
-              self:
-                href: /projects/somd/
-              jobs:
-                - href: /jobs/rdi/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/tsql/
-                - href: /languages/sql/
-              db:
-                - href: /db/oracle/
-              os:
-                - href: /os/windows/
-          - title: Consumption Views
-            desc: Set of database views that provides water consumption information that
-              feed into reporting tools used by AWWU to make business decisions.
-            role: Lead Developer
-            begin_year: 2009
-            end_year: 2009
-            _links:
-              self:
-                href: /projects/consumption-views/
-              jobs:
-                - href: /jobs/rdi/
-              languages:
-                - href: /languages/tsql/
-                - href: /languages/sql/
-              db:
-                - href: /db/oracle/
-              os:
-                - href: /os/windows/
-          - title: Database Synchronization (AWWU)
-            desc: null
-            role: Lead Developer
-            begin_year: 2008
-            end_year: 2008
-            _links:
-              self:
-                href: /projects/database-sync-awwu/
-              jobs:
-                - href: /jobs/rdi/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/tsql/
-                - href: /languages/sql/
-              db:
-                - href: /db/oracle/
-              os:
-                - href: /os/windows/
-          - title: AWWU Intranet
-            desc: Web application that contains AWWU's reporting and querying tools, systems
-              status, and custom applications.
-            role: Technical Lead
-            begin_year: 2005
-            end_year: 2008
-            _links:
-              self:
-                href: /projects/awwu-intranet/
-              jobs:
-                - href: /jobs/rdi/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/tsql/
-                - href: /languages/sql/
-              db:
-                - href: /db/oracle/
-              os:
-                - href: /os/windows/
-          - title: AWWU Systems Integration
-            desc: null
-            role: Technical Lead
-            begin_year: 2005
-            end_year: 2006
-            _links:
-              self:
-                href: /projects/awwu-systems-integration/
-              jobs:
-                - href: /jobs/rdi/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/tsql/
-                - href: /languages/sql/
-              db:
-                - href: /db/oracle/
-              os:
-                - href: /os/windows/
-          - title: Employees Suggestion
-            desc: Oracle Forms application that allows AWWU employees to submit suggestions
-              for improving the AWWU workplace.
-            role: Lead Developer
-            begin_year: 2005
-            end_year: 2005
-            _links:
-              self:
-                href: /projects/employee-suggestions/
-              jobs:
-                - href: /jobs/rdi/
-              languages:
-                - href: /languages/tsql/
-                - href: /languages/sql/
-              db:
-                - href: /db/oracle/
-              os:
-                - href: /os/windows/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -2574,6 +2457,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -2751,7 +2635,7 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -2773,7 +2657,7 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/tsql/
+                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -2830,6 +2714,203 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/sql/
                 - href: /languages/tsql/
+                - href: /languages/plsql/
+              os:
+                - href: /os/linux/
+                - href: /os/osx/
+                - href: /os/windows/
+    - title: PL/SQL
+      desc: PL/SQL (Procedural Language/Structured Query Language) is a procedural
+        language used in Oracle databases. It is a combination of SQL and
+        procedural programming language, allowing developers to write code to
+        manipulate data in an Oracle database. PL/SQL code can be used to create
+        stored procedures, functions, packages, and triggers, as well as to
+        execute SQL statements. PL/SQL is a powerful language that allows
+        developers to create complex applications and to interact with the
+        Oracle database.
+      _links:
+        self:
+          href: /languages/plsql/
+        projects:
+          - href: /projects/awwu-intranet/
+          - href: /projects/awwu-systems-integration/
+          - href: /projects/consumption-views/
+          - href: /projects/database-sync-awwu/
+          - href: /projects/employee-suggestions/
+          - href: /projects/somd/
+        jobs:
+          - href: /jobs/rdi/
+      _embedded:
+        projects:
+          - title: Service Order Mobile Dispatch
+            desc: Mobile web application that allows Anchorage Water & Wastewater Utility
+              service workers to query and record service information while in
+              the field.
+            role: Technical Lead
+            begin_year: 2009
+            end_year: 2009
+            _links:
+              self:
+                href: /projects/somd/
+              jobs:
+                - href: /jobs/rdi/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/plsql/
+                - href: /languages/sql/
+              db:
+                - href: /db/oracle/
+              os:
+                - href: /os/windows/
+          - title: Consumption Views
+            desc: Set of database views that provides water consumption information that
+              feed into reporting tools used by AWWU to make business decisions.
+            role: Lead Developer
+            begin_year: 2009
+            end_year: 2009
+            _links:
+              self:
+                href: /projects/consumption-views/
+              jobs:
+                - href: /jobs/rdi/
+              languages:
+                - href: /languages/plsql/
+                - href: /languages/sql/
+              db:
+                - href: /db/oracle/
+              os:
+                - href: /os/windows/
+          - title: Database Synchronization (AWWU)
+            desc: null
+            role: Lead Developer
+            begin_year: 2008
+            end_year: 2008
+            _links:
+              self:
+                href: /projects/database-sync-awwu/
+              jobs:
+                - href: /jobs/rdi/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/plsql/
+                - href: /languages/sql/
+              db:
+                - href: /db/oracle/
+              os:
+                - href: /os/windows/
+          - title: AWWU Intranet
+            desc: Web application that contains AWWU's reporting and querying tools, systems
+              status, and custom applications.
+            role: Technical Lead
+            begin_year: 2005
+            end_year: 2008
+            _links:
+              self:
+                href: /projects/awwu-intranet/
+              jobs:
+                - href: /jobs/rdi/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/plsql/
+                - href: /languages/sql/
+              db:
+                - href: /db/oracle/
+              os:
+                - href: /os/windows/
+          - title: AWWU Systems Integration
+            desc: null
+            role: Technical Lead
+            begin_year: 2005
+            end_year: 2006
+            _links:
+              self:
+                href: /projects/awwu-systems-integration/
+              jobs:
+                - href: /jobs/rdi/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/plsql/
+                - href: /languages/sql/
+              db:
+                - href: /db/oracle/
+              os:
+                - href: /os/windows/
+          - title: Employees Suggestion
+            desc: Oracle Forms application that allows AWWU employees to submit suggestions
+              for improving the AWWU workplace.
+            role: Lead Developer
+            begin_year: 2005
+            end_year: 2005
+            _links:
+              self:
+                href: /projects/employee-suggestions/
+              jobs:
+                - href: /jobs/rdi/
+              languages:
+                - href: /languages/plsql/
+                - href: /languages/sql/
+              db:
+                - href: /db/oracle/
+              os:
+                - href: /os/windows/
+        jobs:
+          - title: Resource Data, Inc.
+            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
+              Texas, Idaho, Minnesota, and Oregon, that provides custom
+              database, web, and GIS programming services
+            role: Technical Lead
+            begin_year: 2005
+            end_year: 2014
+            time_desc: July 2005 - July 2014
+            _links:
+              self:
+                href: /jobs/rdi/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/bit-proposal/
+                - href: /projects/centroid/
+                - href: /projects/cis-data-capture/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/flir-monitoring/
+                - href: /projects/lasar-range-finder/
+                - href: /projects/please/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/train-builder/
+              db:
+                - href: /db/sql-server/
+                - href: /db/oracle/
+                - href: /db/access/
+                - href: /db/sqlite/
+                - href: /db/postgres/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/py/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/tsql/
+                - href: /languages/plsql/
               os:
                 - href: /os/linux/
                 - href: /os/osx/
@@ -3051,18 +3132,6 @@ _embedded:
                 - href: /languages/c/
                 - href: /languages/cpp/
                 - href: /languages/vb/
-    - title: PL/SQL
-      desc: PL/SQL (Procedural Language/Structured Query Language) is a procedural
-        language used in Oracle databases. It is a combination of SQL and
-        procedural programming language, allowing developers to write code to
-        manipulate data in an Oracle database. PL/SQL code can be used to create
-        stored procedures, functions, packages, and triggers, as well as to
-        execute SQL statements. PL/SQL is a powerful language that allows
-        developers to create complex applications and to interact with the
-        Oracle database.
-      _links:
-        self:
-          href: /languages/plsql/
     - title: PHP
       desc: PHP is a server-side scripting language used for web development. It is a
         powerful language that is used to create dynamic web pages and

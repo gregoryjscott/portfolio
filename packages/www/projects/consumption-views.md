@@ -12,7 +12,7 @@ _links:
   jobs:
     - href: /jobs/rdi/
   languages:
-    - href: /languages/tsql/
+    - href: /languages/plsql/
     - href: /languages/sql/
   db:
     - href: /db/oracle/

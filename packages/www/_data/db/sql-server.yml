@@ -46,7 +46,7 @@ _embedded:
         os:
           - href: /os/windows/
     - title: AHFC Integration
-      desc: null
+      desc: Alaska Housing Finance Corporation Integration
       role: Technical Lead
       begin_year: 2013
       end_year: 2013
@@ -217,6 +217,7 @@ _embedded:
           - href: /languages/rb/
           - href: /languages/sql/
           - href: /languages/tsql/
+          - href: /languages/plsql/
         os:
           - href: /os/linux/
           - href: /os/osx/

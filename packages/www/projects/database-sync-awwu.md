@@ -11,7 +11,7 @@ _links:
     - href: /jobs/rdi/
   languages:
     - href: /languages/cs/
-    - href: /languages/tsql/
+    - href: /languages/plsql/
     - href: /languages/sql/
   db:
     - href: /db/oracle/
