@@ -148,8 +148,8 @@ _embedded:
                 - href: /os/osx/
                 - href: /os/linux/
         jobs:
-          - title: Freelance
-            desc: Freelance Programmer
+          - title: Freelance Programmer
+            desc: Freelance Programmer and Consultant
             role: Self
             begin_year: 2014
             end_year: null
@@ -433,8 +433,8 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
-          - title: Freelance
-            desc: Freelance Programmer
+          - title: Freelance Programmer
+            desc: Freelance Programmer and Consultant
             role: Self
             begin_year: 2014
             end_year: null
@@ -1146,8 +1146,8 @@ _embedded:
               os:
                 - href: /os/windows/
         jobs:
-          - title: Freelance
-            desc: Freelance Programmer
+          - title: Freelance Programmer
+            desc: Freelance Programmer and Consultant
             role: Self
             begin_year: 2014
             end_year: null
