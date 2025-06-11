@@ -43,10 +43,13 @@ _links:
     - href: /projects/wengage-si/
 ---
 
-<a href="{{ site.url }}">Home</a> / <a href="{{ page.url }}">{{ page.title }}</a>
+<nav>
+  <a href="{{ site.url }}">Home</a> /
+  <a href="{{ page.url }}">{{ page.title }}</a>
+</nav>
 
 {% include basic-info.html %}
 
 {% for item in page._embedded.index %}
-{% include projects/summary.html project=item %}
+{% include projects/summary.html project=item heading_level=2 %}
 {% endfor %}

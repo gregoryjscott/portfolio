@@ -25,10 +25,13 @@ _links:
     - href: /tools/vpc/
 ---
 
-<a href="{{ site.url }}">Home</a> / <a href="{{ page.url }}">{{ page.title }}</a>
+<nav>
+  <a href="{{ site.url }}">Home</a> /
+  <a href="{{ page.url }}">{{ page.title }}</a>
+</nav>
 
 {% include basic-info.html %}
 
 {% for item in page._embedded.index %}
-{% include tools/summary.html tool=item %}
+{% include tools/summary.html tool=item heading_level=2 %}
 {% endfor %}

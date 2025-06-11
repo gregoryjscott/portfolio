@@ -1,7 +1,10 @@
 {% assign language = include.language %}
+{% assign heading_level = include.heading_level %}
 
 <section>
-  <h1><a href="{{ language._links.self.href }}">{{ language.title }}</a></h1>
+  <h{{ heading_level }}>
+    <a href="{{ language._links.self.href }}">{{ language.title }}</a>
+  </h{{ heading_level }}>
 
   <p><em>{{ language.subtitle }}</em></p>
 

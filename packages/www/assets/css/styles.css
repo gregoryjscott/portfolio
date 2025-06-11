@@ -1,0 +1,74 @@
+html {
+  font-size: 13px;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+main {
+  margin: 0 auto 2rem auto;
+  max-width: 1060px;
+  padding: 0 2rem;
+}
+
+nav {
+  margin: 2rem 0;
+}
+
+section section {
+  margin-left: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 2.5rem;
+  color: #4A4A4A;
+}
+
+h1 {
+  font-size: 2.25rem;
+  margin-top: 9rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin-top: 8rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-top: 7rem;
+}
+
+p {
+  line-height: 2rem;
+  margin: 2rem 0;
+}
+
+a {
+  line-height: 2rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 2rem;
+}
+
+li {
+  line-height: 2rem;
+  margin-top: 1.5rem;
+}
+
+a:link {
+  color: #4A4A4A;
+}
+a:visited {
+  color: #4A4A4A;
+}

@@ -9,10 +9,13 @@ _links:
     - href: /schools/uco/
 ---
 
-<a href="{{ site.url }}">Home</a> / <a href="{{ page.url }}">{{ page.title }}</a>
+<nav>
+  <a href="{{ site.url }}">Home</a> /
+  <a href="{{ page.url }}">{{ page.title }}</a>
+</nav>
 
 {% include basic-info.html %}
 
 {% for item in page._embedded.index %}
-{% include schools/summary.html school=item %}
+{% include schools/summary.html school=item heading_level=2 %}
 {% endfor %}

@@ -1,7 +1,10 @@
 {% assign tool = include.tool %}
+{% assign heading_level = include.heading_level %}
 
 <section>
-  <h1><a href="{{ tool._links.self.href }}">{{ tool.title }}</a></h1>
+  <h{{ heading_level }}>
+    <a href="{{ tool._links.self.href }}">{{ tool.title }}</a>
+  </h{{ heading_level }}>
 
   <p><em>{{ tool.subtitle }}</em></p>
 

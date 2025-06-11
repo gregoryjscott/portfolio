@@ -17,10 +17,13 @@ _links:
     - href: /os/windows/
 ---
 
-<a href="{{ site.url }}">Home</a> / <a href="{{ page.url }}">{{ page.title }}</a>
+<nav>
+  <a href="{{ site.url }}">Home</a> /
+  <a href="{{ page.url }}">{{ page.title }}</a>
+</nav>
 
 {% include basic-info.html %}
 
 {% for item in page._embedded.index %}
-{% include os/summary.html os=item %}
+{% include os/summary.html os=item heading_level=2 %}
 {% endfor %}

@@ -16,10 +16,13 @@ _links:
     - href: /db/sqlite/
 ---
 
-<a href="{{ site.url }}">Home</a> / <a href="{{ page.url }}">{{ page.title }}</a>
+<nav>
+  <a href="{{ site.url }}">Home</a> /
+  <a href="{{ page.url }}">{{ page.title }}</a>
+</nav>
 
 {% include basic-info.html %}
 
 {% for item in page._embedded.index %}
-{% include db/summary.html db=item %}
+{% include db/summary.html db=item heading_level=2 %}
 {% endfor %}
