@@ -18,7 +18,7 @@ Hello,
 
 I've programmed servers, clouds, PCs, Macs, iPhones, Androids, iPads, Chromebooks, TVs, mainframes, hand-held range finders, GPS devices, lasers mounted to planes, calculators, and B-1 Bombers.
 
-Check out my [resume](/resume).
+Check out my [resume](/resume/).
 
 [Reach out](mailto:me@gregoryjscott.com) if you'd like to work together.
 
