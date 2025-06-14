@@ -10,7 +10,7 @@ html {
 body {
   font-family: "Roboto Mono", monospace;
   color: var(--text-primary);
-  background-color: var(--background-color);
+  background-color: var(--background-primary);
 }
 
 main {
