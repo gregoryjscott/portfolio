@@ -7,7 +7,7 @@ header {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
-  background: #ffffff;
+  background: var(--background-primary);
 }
 
 body::before {
@@ -39,7 +39,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 2px;
-  background: #212838;
+  background: var(--text-primary);
   transition: all 0.3s ease 0s;
 }
 
@@ -54,7 +54,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 2px;
-  background: #212838;
+  background: var(--text-primary);
   margin-top: -1px;
   transition: all 0.3s ease 0s;
 }
@@ -101,7 +101,7 @@ header .menu-overlay ul li a:hover {
   left: 0;
   width: 100%;
   height: 100vh;
-  background: #ffffff;
+  background: var(--background-primary);
   z-index: 1000;
 }
 
@@ -116,7 +116,7 @@ header .menu-overlay ul li a:hover {
   left: 0;
   width: 100%;
   height: 80px; /* Match the body::before height */
-  background: #ffffff;
+  background: var(--background-primary);
   z-index: 1000;
 }
 
