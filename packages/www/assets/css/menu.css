@@ -39,7 +39,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 2px;
-  background: #323232;
+  background: #212838;
   transition: all 0.3s ease 0s;
 }
 
@@ -54,7 +54,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 2px;
-  background: #323232;
+  background: #212838;
   margin-top: -1px;
   transition: all 0.3s ease 0s;
 }
@@ -87,10 +87,12 @@ header .menu-overlay ul li a {
   text-decoration: none;
   transition: color 0.3s ease, text-decoration 0.3s ease;
   display: inline-block;
+  font-weight: normal;
 }
 
 header .menu-overlay ul li a:hover {
   text-decoration: underline;
+  font-weight: bold;
 }
 
 #menu-toggle:checked ~ header {
