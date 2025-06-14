@@ -1,9 +1,16 @@
+:root {
+  --text-primary: #212838;
+  --background-primary: #ffffff;
+}
+
 html {
   font-size: 13px;
 }
 
 body {
   font-family: "Roboto Mono", monospace;
+  color: var(--text-primary);
+  background-color: var(--background-color);
 }
 
 main {
@@ -29,7 +36,7 @@ h6 {
   font-weight: 500;
   margin: 0;
   margin-bottom: 2.5rem;
-  color: #4A4A4A;
+  color: var(--text-primary);
 }
 
 h1 {
@@ -54,6 +61,7 @@ p {
 
 a {
   line-height: 2rem;
+  color: var(--text-primary);
 }
 
 ul {
@@ -67,8 +75,8 @@ li {
 }
 
 a:link {
-  color: #4A4A4A;
+  color: var(--text-primary);
 }
 a:visited {
-  color: #4A4A4A;
+  color: var(--text-primary);
 }
