@@ -63,6 +63,7 @@ p {
 a {
   line-height: 2rem;
   color: var(--text-secondary);
+  font-weight: bold;
 }
 
 ul {
@@ -78,6 +79,7 @@ li {
 a:link {
   color: var(--text-secondary);
 }
+
 a:visited {
   color: var(--text-secondary);
 }
