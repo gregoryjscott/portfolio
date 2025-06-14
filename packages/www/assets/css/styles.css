@@ -1,5 +1,6 @@
 :root {
-  --text-primary: #212838;
+  --text-primary: #34475e;
+  --text-secondary: #212838;
   --background-primary: #ffffff;
 }
 
@@ -36,7 +37,7 @@ h6 {
   font-weight: 500;
   margin: 0;
   margin-bottom: 2.5rem;
-  color: var(--text-primary);
+  color: var(--text-secondary);
 }
 
 h1 {
@@ -61,7 +62,7 @@ p {
 
 a {
   line-height: 2rem;
-  color: var(--text-primary);
+  color: var(--text-secondary);
 }
 
 ul {
@@ -75,8 +76,8 @@ li {
 }
 
 a:link {
-  color: var(--text-primary);
+  color: var(--text-secondary);
 }
 a:visited {
-  color: var(--text-primary);
+  color: var(--text-secondary);
 }
