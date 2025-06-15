@@ -13,7 +13,8 @@ _links:
     href: /
 ---
 
-<article markdown="1">
+<section markdown="1">
+
 Hello,
 
 Check out my [resume](/resume/).
@@ -26,4 +27,4 @@ Thanks for visiting.
 
 Greg
 
-</article>
+</section>
