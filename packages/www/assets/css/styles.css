@@ -84,8 +84,7 @@ footer {
   text-align: center;
   padding: 2rem 0;
   margin-top: 2rem;
-  background-color: var(--text-primary);
-  color: var(--background-primary);
+  color: var(--text-primary);
 }
 
 footer p {
@@ -93,11 +92,11 @@ footer p {
 }
 
 footer a:link {
-  color: var(--background-primary);
+  color: var(--text-secondary);
 }
 
 footer a:visited {
-  color: var(--background-primary);
+  color: var(--text-secondary);
 }
 
 a:link {
