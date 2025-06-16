@@ -1,14 +1,14 @@
 :root {
-  --color-base: #9A9A9A;
-  --color-accent: #F5F5F5;
-  --color-bg: #010A23;
+  --color-base:   #b3b3b3;
+  --color-accent: #f5f5f5;
+  --color-bg:     #010a23;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --color-base: #656565;
-    --color-accent: #010A23;
-    --color-bg: #FFFFFF;
+    --color-base:   #565656;
+    --color-accent: #010a23;
+    --color-bg:     #f5f5f5;
   }
 }
 
