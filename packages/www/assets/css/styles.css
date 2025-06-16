@@ -87,8 +87,8 @@ footer {
   color: var(--text-primary);
 }
 
-footer p {
-  margin: 1rem;
+footer nav {
+  margin: 0;
 }
 
 footer a:link {
