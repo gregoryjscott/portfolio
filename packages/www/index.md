@@ -13,13 +13,18 @@ _links:
     href: /
 ---
 
-<article markdown="1">
-__Programming is my passion.__
+<section markdown="1">
 
-I've programmed servers, PC, Macs, smartphones, tablets, mainframes, hand-held range finders, GPS devices, lasers mounted to planes, calculators, and B-1 Bombers.
+Hello,
 
-My [projects](/projects) have used an impressive spectrum of [languages](/languages), [tools](/tools), and [databases](/db). Feel free to browse my [resume](/resume).
+Check out my [resume](/resume/).
 
-I'm currently searching for my next challenge. Please don't hesitate to <a href="mailto:me@gregoryjscott.com">contact me</a> if I might be of service to you.
+I've programmed servers, clouds, PCs, Macs, iPhones, Androids, iPads, Chromebooks, TVs, mainframes, hand-held range finders, GPS devices, lasers mounted to planes, calculators, and B-1 Bombers.
 
-</article>
+[Reach out](mailto:me@gregoryjscott.com) if you'd like to work together.
+
+Thanks for visiting.
+
+Greg
+
+</section>
