@@ -64,12 +64,6 @@ p {
   margin: 2rem 0;
 }
 
-a {
-  line-height: 2rem;
-  color: var(--text-secondary);
-  font-weight: bold;
-}
-
 ul {
   list-style: none;
   padding-left: 2rem;
@@ -80,23 +74,10 @@ li {
   margin-top: 1.5rem;
 }
 
-footer {
-  text-align: center;
-  padding: 2rem 0;
-  margin-top: 2rem;
-  color: var(--text-primary);
-}
-
-footer nav {
-  margin: 0;
-}
-
-footer a:link {
+a {
+  line-height: 2rem;
   color: var(--text-secondary);
-}
-
-footer a:visited {
-  color: var(--text-secondary);
+  font-weight: bold;
 }
 
 a:link {
@@ -105,4 +86,8 @@ a:link {
 
 a:visited {
   color: var(--text-secondary);
+}
+
+footer {
+  text-align: center;
 }
