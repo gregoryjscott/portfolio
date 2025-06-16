@@ -94,6 +94,7 @@ header .menu-overlay ul li a {
 header .menu-overlay ul li a:hover {
   text-decoration: underline;
   font-weight: bold;
+  color: var(--text-secondary);
 }
 
 #menu-toggle:checked ~ header {
