@@ -1,11 +1,20 @@
 :root {
-  --text-primary: #d1d7e0;
-  --text-secondary: #ffffff;
+  --text-primary: #9A9A9A;
+  --text-secondary: #F5F5F5;
   --background-primary: #010A23;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text-primary: #656565;
+    --text-secondary: #010A23;
+    --background-primary: #FFFFFF;
+  }
 }
 
 html {
   font-size: 1rem;
+  color-scheme: light dark;
 }
 
 body {
