@@ -1,5 +1,72 @@
 import { reverse, sortBy } from "lodash"
 
+export function sortEmbedded(data: { _embedded: any }) {
+  console.log("Sorting...", data)
+  if (!data?._embedded) return data
+
+  if (data._embedded?.db) {
+    data = {
+      ...data,
+      _embedded: { ...data._embedded, db: byRecentProjects(data._embedded.db) },
+    }
+    // data = sortEmbedded(data._embedded.db)
+  }
+
+  if (data._embedded?.jobs) {
+    data = {
+      ...data,
+      _embedded: {
+        ...data._embedded,
+        jobs: byRecent(data._embedded.jobs),
+      },
+    }
+    // data = sortEmbedded(data._embedded.jobs)
+  }
+
+  if (data._embedded?.languages) {
+    data = {
+      ...data,
+      _embedded: {
+        ...data._embedded,
+        languages: byRecentProjects(data._embedded.languages),
+      },
+    }
+    // data = sortEmbedded(data._embedded.languages)
+  }
+
+  if (data._embedded?.os) {
+    data = {
+      ...data,
+      _embedded: { ...data._embedded, os: byRecentProjects(data._embedded.os) },
+    }
+    // data = sortEmbedded(data._embedded.os)
+  }
+
+  if (data._embedded?.projects) {
+    data = {
+      ...data,
+      _embedded: {
+        ...data._embedded,
+        projects: byRecent(data._embedded.projects),
+      },
+    }
+    // data = sortEmbedded(data._embedded.projects)
+  }
+
+  if (data._embedded?.tools) {
+    data = {
+      ...data,
+      _embedded: {
+        ...data._embedded,
+        tools: byMostProjects(data._embedded.tools),
+      },
+    }
+    // data = sortEmbedded(data._embedded.tools)
+  }
+
+  return data
+}
+
 // Used by jobs and projects
 function indexByRecent(data: {
   _embedded: { index: { begin_year; end_year }[] }
@@ -26,6 +93,15 @@ function indexByRecentWork(data: {
   return { ...data, ...{ _embedded: { index: sortedItems } } }
 }
 
+function byRecentProjects(items: { projects }[]) {
+  for (const item of items) {
+    if (noProjects2(item)) continue
+    item.projects = byRecent(item.projects)
+  }
+  const sortedItems = reverse(byFirstProject(items))
+  return sortedItems
+}
+
 function itemByRecentWork(item: { _embedded: { projects } }) {
   if (noProjects(item)) return item
   item._embedded.projects = byRecent(item._embedded.projects)
@@ -44,6 +120,18 @@ function indexByMostWork(data: {
     item._embedded.projects = byRecent(item._embedded.projects)
   }
   return { ...data, ...{ _embedded: { index: sortedItems } } }
+}
+
+function byMostProjects(items: { projects }[]) {
+  const sortedItems = reverse(
+    sortBy(items, item => (noProjects2(item) ? 0 : item.projects.length))
+  )
+  // TODO - recursive sort should take care of this
+  // for (const item of sortedItems) {
+  //   if (noProjects2(item)) continue
+  //   item.projects = byRecent(item.projects)
+  // }
+  return sortedItems
 }
 
 // TODO - should use schools (better yet, classes) + projects
@@ -71,6 +159,10 @@ function noProjects(resource: { _embedded: { projects } }) {
   return (
     !resource?._embedded?.projects || resource._embedded.projects.length < 1
   )
+}
+
+function noProjects2(data: { projects }) {
+  return !data?.projects || data.projects.length < 1
 }
 
 function buildSortTerm({ begin_year, end_year }) {

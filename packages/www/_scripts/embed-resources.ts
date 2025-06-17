@@ -9,6 +9,7 @@ import {
   Resource,
   writeMarkdown,
 } from "./util"
+import { sortEmbedded } from "./sort"
 
 const directories = [
   "db",
@@ -63,7 +64,9 @@ async function fixIndexLinks() {
     )
     const filePath = `${directory}/index.md`
     const { content, data } = matter.read(filePath)
-    data._links.index = directoryResources.map(r => r.source.data._links.self)
+    data._links[directory] = directoryResources.map(
+      r => r.source.data._links.self
+    )
     writeMarkdown({ directory, name: "index" }, content, data)
   }
 }
@@ -89,6 +92,13 @@ function embedLinkedResources(
       name: resource.path.name,
     }
     writeYAML(path, resource.target.data)
+  }
+}
+
+function sortEmbeddedResources(resources: Resource[]) {
+  for (const resource of resources) {
+    // console.log(`Sorting embedded resources for ${resource.path.name}`)
+    resource.target.data = sortEmbedded(resource.target.data)
   }
 }
 
@@ -196,5 +206,6 @@ fixNonIndexLinks()
 fixIndexLinks()
 embedLinkedResources(nonIndexResources, "source")
 embedLinkedResources(indexResources, "target")
-runIndexScripts()
-runItemScripts()
+sortEmbeddedResources(indexResources)
+// runIndexScripts()
+// runItemScripts()
