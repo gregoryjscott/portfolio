@@ -24,6 +24,12 @@ async function indexByRecentWork(data: {
   return { ...data, ...{ _embedded: { index: sortedItems } } }
 }
 
+export async function itemByRecentWork(item: { _embedded: { projects } }) {
+  if (noProjects(item)) return item
+  item._embedded.projects = byRecent(item._embedded.projects)
+  return item
+}
+
 // TODO - should use schools (better yet, classes) + projects
 async function indexByMostWork(data: {
   _embedded: { index: { _embedded: { projects } }[] }
@@ -72,4 +78,6 @@ export default {
   indexByRecent,
   indexByRecentWork,
   indexByMostWork,
+
+  itemByRecentWork,
 }

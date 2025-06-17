@@ -116,6 +116,39 @@ async function runIndexScripts() {
   }
 }
 
+async function runItemScripts() {
+  for (const directory of directories) {
+    const scriptPath = `${directory}/_item.ts`
+    if (!fs.existsSync(scriptPath)) continue
+
+    const files = fs.readdirSync(directory)
+    for (const file of files) {
+      if (file === "index.yml" || file.startsWith("_")) continue
+      const parsedPath = path.parse(file)
+
+      const filePath = `${dataDirectory}/${directory}/${parsedPath.name}.yml`
+      const yaml = fs.readFileSync(filePath, "utf8")
+      let data = YAML.parse(yaml)
+
+      // TODO - remove this write-to-json-file hack
+      const dataPath = `${dataDirectory}/${directory}/${parsedPath.name}.json`
+      fs.writeFileSync(dataPath, JSON.stringify(data, null, 2).trim())
+      const command = `ts-node _scripts/run.ts ${scriptPath} ${dataPath}`
+      console.log(`Running ${scriptPath} for ${parsedPath.name}`)
+      await spawnCommand(command)
+      const fileContents = fs.readFileSync(dataPath)
+      data = JSON.parse(fileContents.toString())
+      fs.unlinkSync(dataPath)
+
+      const yamlPath = {
+        directory: `${dataDirectory}/${directory}`,
+        name: parsedPath.name,
+      }
+      writeYAML(yamlPath, data)
+    }
+  }
+}
+
 function getRelations(resource): any[] {
   if (!resource.source.data._links) return []
   const linkRels: string[] = Object.keys(resource.source.data._links)
@@ -169,3 +202,4 @@ fixIndexLinks()
 embedLinkedResources(nonIndexResources, "source")
 embedLinkedResources(indexResources, "target")
 runIndexScripts()
+runItemScripts()
