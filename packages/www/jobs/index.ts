@@ -1,6 +1,6 @@
 import sort from "../_scripts/sort"
 
-module.exports = sort.itemsByRecent
+module.exports = sort.indexByRecent
 
 // TODO - the time_desc in the data can be replaced by the following
 // module.exports = async function(data) {

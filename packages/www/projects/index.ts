@@ -1,3 +1,3 @@
 import sort from "../_scripts/sort"
 
-module.exports = sort.itemsByRecent
+module.exports = sort.indexByRecent

@@ -1,6 +1,6 @@
 import { reverse, sortBy } from "lodash"
 
-export async function itemsByRecent(data: {
+async function indexByRecent(data: {
   _embedded: { index: { begin_year; end_year }[] }
 }) {
   if (!data?._embedded?.index) return data
@@ -12,7 +12,7 @@ export async function itemsByRecent(data: {
 
 // TODO - should use schools (better yet, classes) + projects
 // TODO - doesn't do tie breakers well, see OS
-export async function itemsByRecentWork(data: {
+async function indexByRecentWork(data: {
   _embedded: { index: { _embedded: { projects } }[] }
 }) {
   if (!data?._embedded?.index) return data
@@ -25,7 +25,7 @@ export async function itemsByRecentWork(data: {
 }
 
 // TODO - should use schools (better yet, classes) + projects
-export async function itemsByMostWork(data: {
+async function indexByMostWork(data: {
   _embedded: { index: { _embedded: { projects } }[] }
 }) {
   if (!data?._embedded?.index) return data
@@ -38,7 +38,7 @@ export async function itemsByMostWork(data: {
 }
 
 // TODO - should use schools (better yet, classes) + projects
-export function byMostWork(resources: { _embedded: { projects } }[]) {
+function byMostWork(resources: { _embedded: { projects } }[]) {
   return reverse(
     sortBy(resources, item =>
       noProjects(item) ? 0 : item._embedded.projects.length
@@ -46,11 +46,11 @@ export function byMostWork(resources: { _embedded: { projects } }[]) {
   )
 }
 
-export function byRecent(items: { begin_year; end_year }[]) {
+function byRecent(items: { begin_year; end_year }[]) {
   return reverse(sortBy(items, item => buildSortTerm(item)))
 }
 
-export function byFirstProject(items) {
+function byFirstProject(items) {
   return sortBy(items, item => {
     if (noProjects(item)) return "0000-0000"
     const first = item._embedded.projects[0]
@@ -58,21 +58,18 @@ export function byFirstProject(items) {
   })
 }
 
-export function noProjects(resource: { _embedded: { projects } }) {
+function noProjects(resource: { _embedded: { projects } }) {
   return (
     !resource?._embedded?.projects || resource._embedded.projects.length < 1
   )
 }
 
-export function buildSortTerm({ begin_year, end_year }) {
+function buildSortTerm({ begin_year, end_year }) {
   return `${end_year || "9999"}-${begin_year}`
 }
 
 export default {
-  itemsByRecent,
-  itemsByRecentWork,
-  itemsByMostWork,
-  byMostWork,
-  byRecent,
-  byFirstProject,
+  indexByRecent,
+  indexByRecentWork,
+  indexByMostWork,
 }
