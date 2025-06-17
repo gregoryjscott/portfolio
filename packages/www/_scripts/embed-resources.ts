@@ -191,11 +191,6 @@ function cleanJSON(json: any) {
   return JSON.parse(jsonText)
 }
 
-process.on("unhandledRejection", err => {
-  console.error("There was an uncaught error", err)
-  process.exit(1)
-})
-
 fixSelfLinks()
 fixNonIndexLinks()
 fixIndexLinks()
