@@ -99,6 +99,11 @@ function sortEmbeddedResources(resources: Resource[]) {
   for (const resource of resources) {
     // console.log(`Sorting embedded resources for ${resource.path.name}`)
     resource.target.data = sortEmbedded(resource.target.data)
+    const path = {
+      directory: `${dataDirectory}/${resource.path.directory}`,
+      name: resource.path.name,
+    }
+    writeYAML(path, resource.target.data)
   }
 }
 

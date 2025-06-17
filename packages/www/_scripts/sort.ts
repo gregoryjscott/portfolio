@@ -9,7 +9,13 @@ export function sortEmbedded(data: { _embedded: any }) {
       ...data,
       _embedded: { ...data._embedded, db: byRecentProjects(data._embedded.db) },
     }
-    // data = sortEmbedded(data._embedded.db)
+    data = {
+      ...data,
+      _embedded: {
+        ...data._embedded,
+        db: data._embedded.db.map(item => sortEmbedded(item)),
+      },
+    }
   }
 
   if (data._embedded?.jobs) {
@@ -20,7 +26,13 @@ export function sortEmbedded(data: { _embedded: any }) {
         jobs: byRecent(data._embedded.jobs),
       },
     }
-    // data = sortEmbedded(data._embedded.jobs)
+    data = {
+      ...data,
+      _embedded: {
+        ...data._embedded,
+        jobs: data._embedded.jobs.map(item => sortEmbedded(item)),
+      },
+    }
   }
 
   if (data._embedded?.languages) {
@@ -31,7 +43,13 @@ export function sortEmbedded(data: { _embedded: any }) {
         languages: byRecentProjects(data._embedded.languages),
       },
     }
-    // data = sortEmbedded(data._embedded.languages)
+    data = {
+      ...data,
+      _embedded: {
+        ...data._embedded,
+        languages: data._embedded.languages.map(item => sortEmbedded(item)),
+      },
+    }
   }
 
   if (data._embedded?.os) {
@@ -39,7 +57,13 @@ export function sortEmbedded(data: { _embedded: any }) {
       ...data,
       _embedded: { ...data._embedded, os: byRecentProjects(data._embedded.os) },
     }
-    // data = sortEmbedded(data._embedded.os)
+    data = {
+      ...data,
+      _embedded: {
+        ...data._embedded,
+        os: data._embedded.os.map(item => sortEmbedded(item)),
+      },
+    }
   }
 
   if (data._embedded?.projects) {
@@ -50,7 +74,13 @@ export function sortEmbedded(data: { _embedded: any }) {
         projects: byRecent(data._embedded.projects),
       },
     }
-    // data = sortEmbedded(data._embedded.projects)
+    data = {
+      ...data,
+      _embedded: {
+        ...data._embedded,
+        projects: data._embedded.projects.map(item => sortEmbedded(item)),
+      },
+    }
   }
 
   if (data._embedded?.tools) {
@@ -61,7 +91,13 @@ export function sortEmbedded(data: { _embedded: any }) {
         tools: byMostProjects(data._embedded.tools),
       },
     }
-    // data = sortEmbedded(data._embedded.tools)
+    data = {
+      ...data,
+      _embedded: {
+        ...data._embedded,
+        tools: data._embedded.tools.map(item => sortEmbedded(item)),
+      },
+    }
   }
 
   return data
