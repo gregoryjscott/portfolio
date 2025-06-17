@@ -1,7 +1,7 @@
 import { reverse, sortBy } from "lodash"
 
 // Used by jobs and projects
-async function indexByRecent(data: {
+function indexByRecent(data: {
   _embedded: { index: { begin_year; end_year }[] }
 }) {
   if (!data?._embedded?.index) return data
@@ -14,7 +14,7 @@ async function indexByRecent(data: {
 // Used by languages, db, and os
 // TODO - should use schools (better yet, classes) + projects
 // TODO - doesn't do tie breakers well, see OS
-async function indexByRecentWork(data: {
+function indexByRecentWork(data: {
   _embedded: { index: { _embedded: { projects } }[] }
 }) {
   if (!data?._embedded?.index) return data
@@ -26,7 +26,7 @@ async function indexByRecentWork(data: {
   return { ...data, ...{ _embedded: { index: sortedItems } } }
 }
 
-export async function itemByRecentWork(item: { _embedded: { projects } }) {
+function itemByRecentWork(item: { _embedded: { projects } }) {
   if (noProjects(item)) return item
   item._embedded.projects = byRecent(item._embedded.projects)
   return item
@@ -34,7 +34,7 @@ export async function itemByRecentWork(item: { _embedded: { projects } }) {
 
 // Used by tools
 // TODO - should use schools (better yet, classes) + projects
-async function indexByMostWork(data: {
+function indexByMostWork(data: {
   _embedded: { index: { _embedded: { projects } }[] }
 }) {
   if (!data?._embedded?.index) return data
