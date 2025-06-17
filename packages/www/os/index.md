@@ -5,7 +5,7 @@ desc: List of operating systems.
 _links:
   self:
     href: /os/
-  index:
+  os:
     - href: /os/aix/
     - href: /os/android/
     - href: /os/ios/
@@ -24,6 +24,6 @@ _links:
 
 {% include basic-info.html %}
 
-{% for item in page._embedded.index %}
+{% for item in page._embedded.os %}
 {% include os/summary.html os=item heading_level=2 %}
 {% endfor %}

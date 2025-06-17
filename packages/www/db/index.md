@@ -5,7 +5,7 @@ desc: List of databases.
 _links:
   self:
     href: /db/
-  index:
+  db:
     - href: /db/access/
     - href: /db/bigquery/
     - href: /db/btrieve/
@@ -23,6 +23,6 @@ _links:
 
 {% include basic-info.html %}
 
-{% for item in page._embedded.index %}
+{% for item in page._embedded.db %}
 {% include db/summary.html db=item heading_level=2 %}
 {% endfor %}

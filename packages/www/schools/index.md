@@ -5,7 +5,7 @@ desc: List of schools.
 _links:
   self:
     href: /schools/
-  index:
+  schools:
     - href: /schools/uco/
 ---
 
@@ -16,6 +16,6 @@ _links:
 
 {% include basic-info.html %}
 
-{% for item in page._embedded.index %}
+{% for item in page._embedded.schools %}
 {% include schools/summary.html school=item heading_level=2 %}
 {% endfor %}

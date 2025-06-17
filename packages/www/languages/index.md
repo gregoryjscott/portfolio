@@ -5,7 +5,7 @@ desc: List of languages.
 _links:
   self:
     href: /languages/
-  index:
+  languages:
     - href: /languages/ada/
     - href: /languages/c/
     - href: /languages/cpp/
@@ -34,6 +34,6 @@ _links:
 
 {% include basic-info.html %}
 
-{% for item in page._embedded.index %}
+{% for item in page._embedded.languages %}
 {% include languages/summary.html language=item heading_level=2 %}
 {% endfor %}

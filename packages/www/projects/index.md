@@ -5,7 +5,7 @@ desc: List of projects.
 _links:
   self:
     href: /projects/
-  index:
+  projects:
     - href: /projects/agdc/
     - href: /projects/ahfc-integration/
     - href: /projects/awwu-intranet/
@@ -50,6 +50,6 @@ _links:
 
 {% include basic-info.html %}
 
-{% for item in page._embedded.index %}
+{% for item in page._embedded.projects %}
 {% include projects/summary.html project=item heading_level=2 %}
 {% endfor %}

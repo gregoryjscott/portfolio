@@ -5,7 +5,7 @@ desc: List of tools.
 _links:
   self:
     href: /tools/
-  index:
+  tools:
     - href: /tools/classroom/
     - href: /tools/ddb/
     - href: /tools/docker/
@@ -32,6 +32,6 @@ _links:
 
 {% include basic-info.html %}
 
-{% for item in page._embedded.index %}
+{% for item in page._embedded.tools %}
 {% include tools/summary.html tool=item heading_level=2 %}
 {% endfor %}
