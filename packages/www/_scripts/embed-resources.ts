@@ -2,7 +2,6 @@ import * as fs from "fs"
 import * as YAML from "yaml"
 import * as path from "path"
 import * as matter from "gray-matter"
-import spawnCommand from "./spawn-command"
 import {
   dataDirectory,
   prepareResources,
@@ -97,70 +96,12 @@ function embedLinkedResources(
 
 function sortEmbeddedResources(resources: Resource[]) {
   for (const resource of resources) {
-    // console.log(`Sorting embedded resources for ${resource.path.name}`)
     resource.target.data = sortEmbedded(resource.target.data)
     const path = {
       directory: `${dataDirectory}/${resource.path.directory}`,
       name: resource.path.name,
     }
     writeYAML(path, resource.target.data)
-  }
-}
-
-async function runIndexScripts() {
-  for (const directory of directories) {
-    const filePath = `${dataDirectory}/${directory}/index.yml`
-    const yaml = fs.readFileSync(filePath, "utf8")
-    let data = YAML.parse(yaml)
-
-    // TODO - remove this write-to-json-file hack
-    const scriptPath = `${directory}/index.ts`
-    if (fs.existsSync(scriptPath)) {
-      const dataPath = `${dataDirectory}/${directory}/index.json`
-      fs.writeFileSync(dataPath, JSON.stringify(data, null, 2).trim())
-      const command = `ts-node _scripts/run.ts ${scriptPath} ${dataPath}`
-      console.log(`Running ${scriptPath}`)
-      await spawnCommand(command)
-      const fileContents = fs.readFileSync(dataPath)
-      data = JSON.parse(fileContents.toString())
-      fs.unlinkSync(dataPath)
-    }
-
-    const path = { directory: `${dataDirectory}/${directory}`, name: "index" }
-    writeYAML(path, data)
-  }
-}
-
-async function runItemScripts() {
-  for (const directory of directories) {
-    const scriptPath = `${directory}/_item.ts`
-    if (!fs.existsSync(scriptPath)) continue
-
-    const files = fs.readdirSync(directory)
-    for (const file of files) {
-      if (file === "index.yml" || file.startsWith("_")) continue
-      const parsedPath = path.parse(file)
-
-      const filePath = `${dataDirectory}/${directory}/${parsedPath.name}.yml`
-      const yaml = fs.readFileSync(filePath, "utf8")
-      let data = YAML.parse(yaml)
-
-      // TODO - remove this write-to-json-file hack
-      const dataPath = `${dataDirectory}/${directory}/${parsedPath.name}.json`
-      fs.writeFileSync(dataPath, JSON.stringify(data, null, 2).trim())
-      const command = `ts-node _scripts/run.ts ${scriptPath} ${dataPath}`
-      console.log(`Running ${scriptPath} for ${parsedPath.name}`)
-      await spawnCommand(command)
-      const fileContents = fs.readFileSync(dataPath)
-      data = JSON.parse(fileContents.toString())
-      fs.unlinkSync(dataPath)
-
-      const yamlPath = {
-        directory: `${dataDirectory}/${directory}`,
-        name: parsedPath.name,
-      }
-      writeYAML(yamlPath, data)
-    }
   }
 }
 
@@ -196,15 +137,15 @@ function writeYAML(
   fs.writeFileSync(fullPath, text)
 }
 
-process.on("unhandledRejection", err => {
-  console.error("There was an uncaught error", err)
-  process.exit(1)
-})
-
 function cleanJSON(json: any) {
   const jsonText = JSON.stringify(json)
   return JSON.parse(jsonText)
 }
+
+process.on("unhandledRejection", err => {
+  console.error("There was an uncaught error", err)
+  process.exit(1)
+})
 
 fixSelfLinks()
 fixNonIndexLinks()
@@ -212,5 +153,3 @@ fixIndexLinks()
 embedLinkedResources(nonIndexResources, "source")
 embedLinkedResources(indexResources, "target")
 sortEmbeddedResources(resources)
-// runIndexScripts()
-// runItemScripts()
