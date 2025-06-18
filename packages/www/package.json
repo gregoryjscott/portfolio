@@ -5,7 +5,7 @@
   "scripts": {
     "bootstrap": "gem install bundler jekyll && bundle update",
     "tsc": "tsc --noEmit",
-    "lint": "eslint .",
+    "lint": "npm run tsc && eslint .",
     "lint-fix": "eslint . --fix",
     "build": "bundle exec jekyll build --verbose",
     "prep": "npm run embed-resources && npm run generate-desc",

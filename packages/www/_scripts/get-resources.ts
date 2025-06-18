@@ -13,13 +13,13 @@ export const resourceDirectories = [
   "tools",
 ]
 const prompts = {
-  db: title => 
+  db: title =>
     `Provide a brief one-paragraph summary of the ${title} database.`,
   languages: title =>
     `Provide a brief one-paragraph summary of the ${title} programming language.`,
-  os: title => 
+  os: title =>
     `Provide a brief one-paragraph summary of the ${title} operating system.`,
-  tools: title => 
+  tools: title =>
     `Provide a brief one-paragraph summary of the ${title} technology.`,
 }
 

@@ -12,7 +12,11 @@ function fixSelfLinks() {
     const links = getLinks(resource, "self")
     if (links.length > 0) continue
     resource.source.data._links.self = { href: resource.href }
-    writeMarkdown(resource.source.path, resource.source.content, resource.source.data)
+    writeMarkdown(
+      resource.source.path,
+      resource.source.content,
+      resource.source.data
+    )
   }
 }
 
@@ -36,7 +40,11 @@ function fixNonIndexLinks() {
     }
   }
   for (const resource of nonIndexResources) {
-    writeMarkdown(resource.source.path, resource.source.content, resource.source.data)
+    writeMarkdown(
+      resource.source.path,
+      resource.source.content,
+      resource.source.data
+    )
   }
 }
 

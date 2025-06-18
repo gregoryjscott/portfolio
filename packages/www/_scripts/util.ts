@@ -1,5 +1,4 @@
 import * as fs from "fs"
-import * as path from "path"
 import * as YAML from "yaml"
 import * as matter from "gray-matter"
 import * as prettier from "prettier"
@@ -24,7 +23,6 @@ export function writeMarkdown(
   fs.writeFileSync(fullPath, prettyText)
 }
 
-
 export function writeYAML(
   path: {
     directory: string
@@ -37,7 +35,6 @@ export function writeYAML(
   const text = YAML.stringify(cleanJSON(json)).trim()
   fs.writeFileSync(fullPath, text)
 }
-
 
 function cleanJSON(json: any) {
   const jsonText = JSON.stringify(json)

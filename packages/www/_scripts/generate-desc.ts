@@ -10,10 +10,14 @@ async function generateDesc() {
     const hasDesc =
       resource.source.data.desc && resource.source.data.desc.length > 0
     if (hasDesc) continue
-    
+
     const promptOutput = (await runPrompt(resource.prompt)).trim()
     resource.source.data.desc = promptOutput
-    writeMarkdown(resource.source.path, resource.source.content, resource.source.data)
+    writeMarkdown(
+      resource.source.path,
+      resource.source.content,
+      resource.source.data
+    )
   }
 }
 
