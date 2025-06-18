@@ -8,7 +8,7 @@ import {
   Resource,
   writeMarkdown,
 } from "./util"
-import { sortEmbedded } from "./sort"
+import { sortEmbedded } from "./sort-embedded"
 
 const directories = [
   "db",
