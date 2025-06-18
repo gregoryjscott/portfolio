@@ -3,8 +3,8 @@ import { sortEmbedded } from "./sort-embedded"
 import {
   Resource,
   findResource,
-  getLinks,
-  getRelations,
+  findRelationLinks,
+  findRelations,
   getResources,
 } from "./get-resources"
 
@@ -18,9 +18,9 @@ function embedLinkedResources(
 ) {
   for (const resource of resourcesToUpdate) {
     resource.targetYaml.data = { ...resource.sourceMarkdown.data }
-    const relations = getRelations(resource)
+    const relations = findRelations(resource)
     for (const relation of relations) {
-      const links = getLinks(resource, relation)
+      const links = findRelationLinks(resource, relation)
       const linkedResources = links.map(link => {
         const linkedResource = findResource(link, resources)
         return { ...linkedResource[version].data }

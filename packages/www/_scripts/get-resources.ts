@@ -85,14 +85,14 @@ export function getResources(): Resource[] {
   return resources
 }
 
-export function getRelations(resource: Resource): string[] {
+export function findRelations(resource: Resource): string[] {
   if (!resource.sourceMarkdown.data._links) return []
   const linkRels: string[] = Object.keys(resource.sourceMarkdown.data._links)
   const allowedRelations = ["index", ...resourceDirectories]
   return linkRels.filter(lr => allowedRelations.includes(lr))
 }
 
-export function getLinks(
+export function findRelationLinks(
   resource: Resource,
   relation: string
 ): { href: string }[] {

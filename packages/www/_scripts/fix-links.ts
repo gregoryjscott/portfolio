@@ -3,8 +3,8 @@ import { writeMarkdown } from "./util"
 import {
   Resource,
   findResource,
-  getLinks,
-  getRelations,
+  findRelationLinks,
+  findRelations,
   getResources,
   resourceDirectories,
 } from "./get-resources"
@@ -14,7 +14,7 @@ const nonIndexResources = resources.filter(r => !r.isIndex)
 
 function fixSelfLinks() {
   for (const resource of resources) {
-    const links = getLinks(resource, "self")
+    const links = findRelationLinks(resource, "self")
     if (links.length > 0) continue
     resource.sourceMarkdown.data._links.self = { href: resource.href }
     writeMarkdown(
@@ -27,12 +27,15 @@ function fixSelfLinks() {
 
 function fixNonIndexLinks() {
   for (const resource of nonIndexResources) {
-    const relations = getRelations(resource)
+    const relations = findRelations(resource)
     for (const relation of relations) {
-      const links = getLinks(resource, relation)
+      const links = findRelationLinks(resource, relation)
       for (const link of links) {
         const linkedResource = findResource(link, resources)
-        const linkedResourceLinks = getLinks(linkedResource, resource.name)
+        const linkedResourceLinks = findRelationLinks(
+          linkedResource,
+          resource.name
+        )
         if (!linkedResourceLinks.find(lrl => lrl.href === resource.href)) {
           if (!linkedResource.sourceMarkdown.data._links[resource.name]) {
             linkedResource.sourceMarkdown.data._links[resource.name] = []
