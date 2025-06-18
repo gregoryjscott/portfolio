@@ -78,6 +78,135 @@ _embedded:
           - href: /os/osx/
           - href: /os/windows/
   languages:
+    - title: SQL
+      desc: SQL (Structured Query Language) is a domain-specific language used in
+        programming and designed for managing data held in a relational database
+        management system (RDBMS). It is used to perform tasks such as
+        retrieving, updating, inserting, and deleting data from a database. SQL
+        is also used to create and modify database structures, such as tables,
+        views, and stored procedures. It is a powerful language that can be used
+        to query, analyze, and manipulate data.
+      _links:
+        self:
+          href: /languages/sql/
+        projects:
+          - href: /projects/agdc/
+          - href: /projects/ahfc-integration/
+          - href: /projects/awwu-intranet/
+          - href: /projects/awwu-systems-integration/
+          - href: /projects/cis-data-capture/
+          - href: /projects/consumption-views/
+          - href: /projects/database-sync-awwu/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/employee-suggestions/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/please/
+          - href: /projects/qb/
+          - href: /projects/sar-reports/
+          - href: /projects/scrum-tools/
+          - href: /projects/sif-agent/
+          - href: /projects/somd/
+          - href: /projects/systems-portal/
+          - href: /projects/train-builder/
+          - href: /projects/wengage-acct/
+          - href: /projects/wengage-si/
+        jobs:
+          - href: /jobs/freelance/
+          - href: /jobs/mas/
+          - href: /jobs/rdi/
+    - title: PL/SQL
+      desc: PL/SQL (Procedural Language/Structured Query Language) is a procedural
+        language used in Oracle databases. It is a combination of SQL and
+        procedural programming language, allowing developers to write code to
+        manipulate data in an Oracle database. PL/SQL code can be used to create
+        stored procedures, functions, packages, and triggers, as well as to
+        execute SQL statements. PL/SQL is a powerful language that allows
+        developers to create complex applications and to interact with the
+        Oracle database.
+      _links:
+        self:
+          href: /languages/plsql/
+        projects:
+          - href: /projects/awwu-intranet/
+          - href: /projects/awwu-systems-integration/
+          - href: /projects/consumption-views/
+          - href: /projects/database-sync-awwu/
+          - href: /projects/employee-suggestions/
+          - href: /projects/somd/
+        jobs:
+          - href: /jobs/rdi/
+    - title: JavaScript
+      desc: JavaScript is a high-level, interpreted programming language that is used
+        to create interactive web pages and applications. It is a scripting
+        language that is used to add dynamic elements to web pages, such as
+        animations, interactive forms, and dynamic content. JavaScript is also
+        used to create mobile applications and desktop applications. It is an
+        object-oriented language that is used to create complex applications.
+      _links:
+        self:
+          href: /languages/js/
+        projects:
+          - href: /projects/agdc/
+          - href: /projects/awwu-intranet/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/qb/
+          - href: /projects/scramble-score/
+          - href: /projects/scrum-tools/
+          - href: /projects/somd/
+          - href: /projects/systems-portal/
+        jobs:
+          - href: /jobs/rdi/
+    - title: HTML
+      desc: HTML (HyperText Markup Language) is a markup language used to create
+        webpages and web applications. It is the standard markup language used
+        to create webpages and web applications. HTML is written in the form of
+        HTML elements consisting of tags enclosed in angle brackets. These tags
+        describe the content and structure of webpages and web applications.
+        HTML also provides a means to create interactive webpages and web
+        applications with the use of HTML forms, which can be used to collect
+        user input.
+      _links:
+        self:
+          href: /languages/html/
+        projects:
+          - href: /projects/agdc/
+          - href: /projects/awwu-intranet/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/qb/
+          - href: /projects/scramble-score/
+          - href: /projects/scrum-tools/
+          - href: /projects/somd/
+          - href: /projects/systems-portal/
+          - href: /projects/this-site/
+        jobs:
+          - href: /jobs/freelance/
+          - href: /jobs/rdi/
+    - title: CSS
+      desc: CSS (Cascading Style Sheets) is a style sheet language used for describing
+        the presentation of a document written in a markup language such as
+        HTML. CSS is designed to enable the separation of presentation and
+        content, including layout, colors, and fonts. This separation can
+        improve content accessibility, provide more flexibility and control in
+        the specification of presentation characteristics, enable multiple web
+        pages to share formatting by specifying the relevant CSS in a separate
+        .css file, and reduce complexity and repetition in the structural
+        content.
+      _links:
+        self:
+          href: /languages/css/
+        projects:
+          - href: /projects/agdc/
+          - href: /projects/awwu-intranet/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/qb/
+          - href: /projects/scramble-score/
+          - href: /projects/scrum-tools/
+          - href: /projects/somd/
+          - href: /projects/systems-portal/
+          - href: /projects/this-site/
+        jobs:
+          - href: /jobs/freelance/
+          - href: /jobs/rdi/
     - title: C#
       desc: C# is a general-purpose, object-oriented programming language developed by
         Microsoft. It is used to develop a variety of applications, including
@@ -114,135 +243,6 @@ _embedded:
           - href: /projects/somd/
           - href: /projects/systems-portal/
           - href: /projects/train-builder/
-        jobs:
-          - href: /jobs/freelance/
-          - href: /jobs/mas/
-          - href: /jobs/rdi/
-    - title: CSS
-      desc: CSS (Cascading Style Sheets) is a style sheet language used for describing
-        the presentation of a document written in a markup language such as
-        HTML. CSS is designed to enable the separation of presentation and
-        content, including layout, colors, and fonts. This separation can
-        improve content accessibility, provide more flexibility and control in
-        the specification of presentation characteristics, enable multiple web
-        pages to share formatting by specifying the relevant CSS in a separate
-        .css file, and reduce complexity and repetition in the structural
-        content.
-      _links:
-        self:
-          href: /languages/css/
-        projects:
-          - href: /projects/agdc/
-          - href: /projects/awwu-intranet/
-          - href: /projects/energy-efficiency-map/
-          - href: /projects/qb/
-          - href: /projects/scramble-score/
-          - href: /projects/scrum-tools/
-          - href: /projects/somd/
-          - href: /projects/systems-portal/
-          - href: /projects/this-site/
-        jobs:
-          - href: /jobs/freelance/
-          - href: /jobs/rdi/
-    - title: HTML
-      desc: HTML (HyperText Markup Language) is a markup language used to create
-        webpages and web applications. It is the standard markup language used
-        to create webpages and web applications. HTML is written in the form of
-        HTML elements consisting of tags enclosed in angle brackets. These tags
-        describe the content and structure of webpages and web applications.
-        HTML also provides a means to create interactive webpages and web
-        applications with the use of HTML forms, which can be used to collect
-        user input.
-      _links:
-        self:
-          href: /languages/html/
-        projects:
-          - href: /projects/agdc/
-          - href: /projects/awwu-intranet/
-          - href: /projects/energy-efficiency-map/
-          - href: /projects/qb/
-          - href: /projects/scramble-score/
-          - href: /projects/scrum-tools/
-          - href: /projects/somd/
-          - href: /projects/systems-portal/
-          - href: /projects/this-site/
-        jobs:
-          - href: /jobs/freelance/
-          - href: /jobs/rdi/
-    - title: JavaScript
-      desc: JavaScript is a high-level, interpreted programming language that is used
-        to create interactive web pages and applications. It is a scripting
-        language that is used to add dynamic elements to web pages, such as
-        animations, interactive forms, and dynamic content. JavaScript is also
-        used to create mobile applications and desktop applications. It is an
-        object-oriented language that is used to create complex applications.
-      _links:
-        self:
-          href: /languages/js/
-        projects:
-          - href: /projects/agdc/
-          - href: /projects/awwu-intranet/
-          - href: /projects/energy-efficiency-map/
-          - href: /projects/qb/
-          - href: /projects/scramble-score/
-          - href: /projects/scrum-tools/
-          - href: /projects/somd/
-          - href: /projects/systems-portal/
-        jobs:
-          - href: /jobs/rdi/
-    - title: PL/SQL
-      desc: PL/SQL (Procedural Language/Structured Query Language) is a procedural
-        language used in Oracle databases. It is a combination of SQL and
-        procedural programming language, allowing developers to write code to
-        manipulate data in an Oracle database. PL/SQL code can be used to create
-        stored procedures, functions, packages, and triggers, as well as to
-        execute SQL statements. PL/SQL is a powerful language that allows
-        developers to create complex applications and to interact with the
-        Oracle database.
-      _links:
-        self:
-          href: /languages/plsql/
-        projects:
-          - href: /projects/awwu-intranet/
-          - href: /projects/awwu-systems-integration/
-          - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
-          - href: /projects/employee-suggestions/
-          - href: /projects/somd/
-        jobs:
-          - href: /jobs/rdi/
-    - title: SQL
-      desc: SQL (Structured Query Language) is a domain-specific language used in
-        programming and designed for managing data held in a relational database
-        management system (RDBMS). It is used to perform tasks such as
-        retrieving, updating, inserting, and deleting data from a database. SQL
-        is also used to create and modify database structures, such as tables,
-        views, and stored procedures. It is a powerful language that can be used
-        to query, analyze, and manipulate data.
-      _links:
-        self:
-          href: /languages/sql/
-        projects:
-          - href: /projects/agdc/
-          - href: /projects/ahfc-integration/
-          - href: /projects/awwu-intranet/
-          - href: /projects/awwu-systems-integration/
-          - href: /projects/cis-data-capture/
-          - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
-          - href: /projects/denver-schedules-api/
-          - href: /projects/employee-suggestions/
-          - href: /projects/energy-efficiency-map/
-          - href: /projects/please/
-          - href: /projects/qb/
-          - href: /projects/sar-reports/
-          - href: /projects/scrum-tools/
-          - href: /projects/sif-agent/
-          - href: /projects/somd/
-          - href: /projects/systems-portal/
-          - href: /projects/train-builder/
-          - href: /projects/wengage-acct/
-          - href: /projects/wengage-si/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/mas/

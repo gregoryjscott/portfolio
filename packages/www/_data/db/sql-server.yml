@@ -62,15 +62,14 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
-    - title: Energy Efficiency Map
-      desc: Web application that allows the Alaska Energy Authority to monitor and
-        administer data from their statewide energy saving programs.
+    - title: Systems Portal
+      desc: Web application for tracking data used by systems administrators.
       role: Technical Lead
-      begin_year: 2012
+      begin_year: 2013
       end_year: 2013
       _links:
         self:
-          href: /projects/energy-efficiency-map/
+          href: /projects/systems-portal/
         jobs:
           - href: /jobs/rdi/
         languages:
@@ -84,15 +83,15 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
-    - title: Quality Bank
-      desc: Web application that manages the workflow, pricing data, sampling data,
-        volume data, and invoicing for the Trans-Alaska Pipeline System.
+    - title: Energy Efficiency Map
+      desc: Web application that allows the Alaska Energy Authority to monitor and
+        administer data from their statewide energy saving programs.
       role: Technical Lead
-      begin_year: 2010
-      end_year: 2012
+      begin_year: 2012
+      end_year: 2013
       _links:
         self:
-          href: /projects/qb/
+          href: /projects/energy-efficiency-map/
         jobs:
           - href: /jobs/rdi/
         languages:
@@ -127,14 +126,15 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
-    - title: Systems Portal
-      desc: Web application for tracking data used by systems administrators.
+    - title: Quality Bank
+      desc: Web application that manages the workflow, pricing data, sampling data,
+        volume data, and invoicing for the Trans-Alaska Pipeline System.
       role: Technical Lead
-      begin_year: 2013
-      end_year: 2013
+      begin_year: 2010
+      end_year: 2012
       _links:
         self:
-          href: /projects/systems-portal/
+          href: /projects/qb/
         jobs:
           - href: /jobs/rdi/
         languages:

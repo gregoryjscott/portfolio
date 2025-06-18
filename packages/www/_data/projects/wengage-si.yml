@@ -45,25 +45,6 @@ _embedded:
         os:
           - href: /os/windows/
   languages:
-    - title: Delphi
-      desc: Delphi is an object-oriented programming language developed by Embarcadero
-        Technologies. It is based on the Object Pascal language and is used to
-        create Windows, macOS, iOS, and Android applications. Delphi is a rapid
-        application development (RAD) tool that allows developers to quickly
-        create applications with a graphical user interface (GUI). It also
-        includes a visual component library (VCL) and an integrated development
-        environment (IDE). Delphi is used by developers to create applications
-        for a variety of industries, including finance, healthcare, and
-        manufacturing.
-      _links:
-        self:
-          href: /languages/delphi/
-        projects:
-          - href: /projects/class-scheduler/
-          - href: /projects/wengage-acct/
-          - href: /projects/wengage-si/
-        jobs:
-          - href: /jobs/mas/
     - title: SQL
       desc: SQL (Structured Query Language) is a domain-specific language used in
         programming and designed for managing data held in a relational database
@@ -100,26 +81,26 @@ _embedded:
           - href: /jobs/freelance/
           - href: /jobs/mas/
           - href: /jobs/rdi/
-  db:
-    - title: Btrieve
-      desc: Btrieve is a database management system (DBMS) developed by Pervasive
-        Software. It is a high-performance, reliable, and cost-effective
-        database solution for small to medium-sized businesses. Btrieve is a
-        relational database that supports multiple data types, including text,
-        numeric, and binary. It is designed to be easy to use and provides a
-        wide range of features, including data encryption, transaction logging,
-        and replication. Btrieve is also highly scalable, allowing it to be used
-        in a variety of applications, from single-user systems to large
-        enterprise networks.
+    - title: Delphi
+      desc: Delphi is an object-oriented programming language developed by Embarcadero
+        Technologies. It is based on the Object Pascal language and is used to
+        create Windows, macOS, iOS, and Android applications. Delphi is a rapid
+        application development (RAD) tool that allows developers to quickly
+        create applications with a graphical user interface (GUI). It also
+        includes a visual component library (VCL) and an integrated development
+        environment (IDE). Delphi is used by developers to create applications
+        for a variety of industries, including finance, healthcare, and
+        manufacturing.
       _links:
         self:
-          href: /db/btrieve/
+          href: /languages/delphi/
         projects:
           - href: /projects/class-scheduler/
           - href: /projects/wengage-acct/
           - href: /projects/wengage-si/
         jobs:
           - href: /jobs/mas/
+  db:
     - title: Pervasive
       desc: Pervasive is a relational database management system (RDBMS) that is
         designed to provide high performance, scalability, and reliability for
@@ -135,6 +116,25 @@ _embedded:
           href: /db/pervasive/
         projects:
           - href: /projects/sif-agent/
+          - href: /projects/wengage-acct/
+          - href: /projects/wengage-si/
+        jobs:
+          - href: /jobs/mas/
+    - title: Btrieve
+      desc: Btrieve is a database management system (DBMS) developed by Pervasive
+        Software. It is a high-performance, reliable, and cost-effective
+        database solution for small to medium-sized businesses. Btrieve is a
+        relational database that supports multiple data types, including text,
+        numeric, and binary. It is designed to be easy to use and provides a
+        wide range of features, including data encryption, transaction logging,
+        and replication. Btrieve is also highly scalable, allowing it to be used
+        in a variety of applications, from single-user systems to large
+        enterprise networks.
+      _links:
+        self:
+          href: /db/btrieve/
+        projects:
+          - href: /projects/class-scheduler/
           - href: /projects/wengage-acct/
           - href: /projects/wengage-si/
         jobs:
