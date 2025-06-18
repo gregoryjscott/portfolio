@@ -30,7 +30,6 @@ export function prepareResources(directories: string[]): Resource[] {
     const files = fs.readdirSync(directory)
     for (const file of files) {
       const parsedPath = path.parse(file)
-      if (file === "index.ts") continue
       const isIndex = parsedPath.name === "index"
       const sourceFilePath = `${directory}/${parsedPath.name}.md`
       const { content, data } = matter.read(sourceFilePath)
