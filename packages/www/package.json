@@ -4,6 +4,7 @@
   "description": "Manages gregoryjscott.com",
   "scripts": {
     "bootstrap": "gem install bundler jekyll && bundle update",
+    "tsc": "tsc --noEmit",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
     "build": "bundle exec jekyll build --verbose",
