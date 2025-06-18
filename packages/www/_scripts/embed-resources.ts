@@ -25,8 +25,9 @@ function embedLinkedResources(
         const linkedResource = findResource(link, resources)
         return { ...linkedResource[version].data }
       })
-      if (!resource.targetYaml.data._embedded)
+      if (!resource.targetYaml.data._embedded) {
         resource.targetYaml.data._embedded = {}
+      }
       resource.targetYaml.data._embedded[relation] = linkedResources
     }
     writeYAML(resource.targetYaml.path, resource.targetYaml.data)
