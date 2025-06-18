@@ -21,6 +21,61 @@ _links:
     - href: /jobs/rdi/
 _embedded:
   projects:
+    - title: This Site
+      desc: My website/experiment that uses Jekyll to create static HTML pages using
+        YAML, Markdown, and hypermedia.
+      role: Author
+      begin_year: 2014
+      end_year: null
+      _links:
+        self:
+          href: /projects/this-site/
+        code:
+          title: github.com/gregoryjscott/me
+          href: https://github.com/gregoryjscott/me
+        jobs:
+          - href: /jobs/freelance/
+        languages:
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/rb/
+        os:
+          - href: /os/osx/
+          - href: /os/linux/
+    - title: EpiCloud
+      desc: null
+      role: Technical Lead
+      begin_year: 2015
+      end_year: 2021
+      _links:
+        self:
+          href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+        languages:
+          - href: /languages/ts/
+        db:
+          - href: /db/bigquery/
+        os:
+          - href: /os/linux/
+        tools:
+          - href: /tools/classroom/
+          - href: /tools/ddb/
+          - href: /tools/docker/
+          - href: /tools/drive/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/firebase/
+          - href: /tools/iam/
+          - href: /tools/lerna/
+          - href: /tools/node/
+          - href: /tools/puppeteer/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/tracker/
+          - href: /tools/vpc/
     - title: Centroid
       desc: Library for accessing environment based configuration from multiple
         different programming languages.
@@ -67,40 +122,6 @@ _embedded:
           - href: /os/windows/
           - href: /os/osx/
           - href: /os/linux/
-    - title: EpiCloud
-      desc: null
-      role: Technical Lead
-      begin_year: 2015
-      end_year: 2021
-      _links:
-        self:
-          href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-        languages:
-          - href: /languages/ts/
-        db:
-          - href: /db/bigquery/
-        os:
-          - href: /os/linux/
-        tools:
-          - href: /tools/classroom/
-          - href: /tools/ddb/
-          - href: /tools/docker/
-          - href: /tools/drive/
-          - href: /tools/ec2/
-          - href: /tools/ecr/
-          - href: /tools/ecs/
-          - href: /tools/fargate/
-          - href: /tools/firebase/
-          - href: /tools/iam/
-          - href: /tools/lerna/
-          - href: /tools/node/
-          - href: /tools/puppeteer/
-          - href: /tools/s3/
-          - href: /tools/sqs/
-          - href: /tools/tracker/
-          - href: /tools/vpc/
     - title: ScrambleScore
       desc: Mobile web application that allows golfers participating in scramble golf
         tournaments to record their scores and monitor the tournament
@@ -142,27 +163,6 @@ _embedded:
           - href: /languages/rb/
         os:
           - href: /os/windows/
-          - href: /os/osx/
-          - href: /os/linux/
-    - title: This Site
-      desc: My website/experiment that uses Jekyll to create static HTML pages using
-        YAML, Markdown, and hypermedia.
-      role: Author
-      begin_year: 2014
-      end_year: null
-      _links:
-        self:
-          href: /projects/this-site/
-        code:
-          title: github.com/gregoryjscott/me
-          href: https://github.com/gregoryjscott/me
-        jobs:
-          - href: /jobs/freelance/
-        languages:
-          - href: /languages/css/
-          - href: /languages/html/
-          - href: /languages/rb/
-        os:
           - href: /os/osx/
           - href: /os/linux/
   jobs:

@@ -5,7 +5,7 @@ desc: List of jobs.
 _links:
   self:
     href: /jobs/
-  index:
+  jobs:
     - href: /jobs/boeing/
     - href: /jobs/fe/
     - href: /jobs/freelance/
@@ -20,6 +20,6 @@ _links:
 
 {% include basic-info.html %}
 
-{% for item in page._embedded.index %}
+{% for item in page._embedded.jobs %}
 {% include jobs/summary.html job=item heading_level=2 %}
 {% endfor %}

@@ -4,7 +4,7 @@ desc: List of databases.
 _links:
   self:
     href: /db/
-  index:
+  db:
     - href: /db/access/
     - href: /db/bigquery/
     - href: /db/btrieve/
@@ -14,7 +14,7 @@ _links:
     - href: /db/sql-server/
     - href: /db/sqlite/
 _embedded:
-  index:
+  db:
     - title: BigQuery
       desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
         enables businesses to store, query, and analyze large datasets. It is a
@@ -302,27 +302,6 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
-          - title: Systems Portal
-            desc: Web application for tracking data used by systems administrators.
-            role: Technical Lead
-            begin_year: 2013
-            end_year: 2013
-            _links:
-              self:
-                href: /projects/systems-portal/
-              jobs:
-                - href: /jobs/rdi/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/sql-server/
-              os:
-                - href: /os/windows/
           - title: AHFC Integration
             desc: Alaska Housing Finance Corporation Integration
             role: Technical Lead
@@ -340,14 +319,14 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
-          - title: Scrum Tools
-            desc: null
+          - title: Systems Portal
+            desc: Web application for tracking data used by systems administrators.
             role: Technical Lead
-            begin_year: 2012
+            begin_year: 2013
             end_year: 2013
             _links:
               self:
-                href: /projects/scrum-tools/
+                href: /projects/systems-portal/
               jobs:
                 - href: /jobs/rdi/
               languages:
@@ -370,6 +349,27 @@ _embedded:
             _links:
               self:
                 href: /projects/energy-efficiency-map/
+              jobs:
+                - href: /jobs/rdi/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/sql/
+                - href: /languages/tsql/
+              db:
+                - href: /db/sql-server/
+              os:
+                - href: /os/windows/
+          - title: Scrum Tools
+            desc: null
+            role: Technical Lead
+            begin_year: 2012
+            end_year: 2013
+            _links:
+              self:
+                href: /projects/scrum-tools/
               jobs:
                 - href: /jobs/rdi/
               languages:
@@ -601,6 +601,24 @@ _embedded:
           - href: /jobs/rdi/
       _embedded:
         projects:
+          - title: Consumption Views
+            desc: Set of database views that provides water consumption information that
+              feed into reporting tools used by AWWU to make business decisions.
+            role: Lead Developer
+            begin_year: 2009
+            end_year: 2009
+            _links:
+              self:
+                href: /projects/consumption-views/
+              jobs:
+                - href: /jobs/rdi/
+              languages:
+                - href: /languages/plsql/
+                - href: /languages/sql/
+              db:
+                - href: /db/oracle/
+              os:
+                - href: /os/windows/
           - title: Service Order Mobile Dispatch
             desc: Mobile web application that allows Anchorage Water & Wastewater Utility
               service workers to query and record service information while in
@@ -618,24 +636,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
-                - href: /languages/sql/
-              db:
-                - href: /db/oracle/
-              os:
-                - href: /os/windows/
-          - title: Consumption Views
-            desc: Set of database views that provides water consumption information that
-              feed into reporting tools used by AWWU to make business decisions.
-            role: Lead Developer
-            begin_year: 2009
-            end_year: 2009
-            _links:
-              self:
-                href: /projects/consumption-views/
-              jobs:
-                - href: /jobs/rdi/
-              languages:
                 - href: /languages/plsql/
                 - href: /languages/sql/
               db:
@@ -717,24 +717,6 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
-          - title: AWWU Systems Integration
-            desc: null
-            role: Technical Lead
-            begin_year: 2005
-            end_year: 2006
-            _links:
-              self:
-                href: /projects/awwu-systems-integration/
-              jobs:
-                - href: /jobs/rdi/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/plsql/
-                - href: /languages/sql/
-              db:
-                - href: /db/oracle/
-              os:
-                - href: /os/windows/
           - title: AWWU Job Scheduler
             desc: Framework for creating background processing jobs that migrate,
               synchronize, and transform data throughout AWWU's integrated
@@ -749,6 +731,24 @@ _embedded:
                 - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
+              db:
+                - href: /db/oracle/
+              os:
+                - href: /os/windows/
+          - title: AWWU Systems Integration
+            desc: null
+            role: Technical Lead
+            begin_year: 2005
+            end_year: 2006
+            _links:
+              self:
+                href: /projects/awwu-systems-integration/
+              jobs:
+                - href: /jobs/rdi/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/plsql/
+                - href: /languages/sql/
               db:
                 - href: /db/oracle/
               os:
@@ -977,15 +977,15 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
-          - title: Wen-GAGE Student Information
-            desc: Desktop application that is used by schools in Oklahoma to manage their
-              student information such as enrollment, attendance, and grades.
+          - title: Wen-GAGE Accounting
+            desc: Desktop application that is used by schools in Oklahoma to manage all
+              their school accounting responsibilites.
             role: Lead Developer
             begin_year: 1999
             end_year: 2004
             _links:
               self:
-                href: /projects/wengage-si/
+                href: /projects/wengage-acct/
               jobs:
                 - href: /jobs/mas/
               languages:
@@ -996,15 +996,15 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
-          - title: Wen-GAGE Accounting
-            desc: Desktop application that is used by schools in Oklahoma to manage all
-              their school accounting responsibilites.
+          - title: Wen-GAGE Student Information
+            desc: Desktop application that is used by schools in Oklahoma to manage their
+              student information such as enrollment, attendance, and grades.
             role: Lead Developer
             begin_year: 1999
             end_year: 2004
             _links:
               self:
-                href: /projects/wengage-acct/
+                href: /projects/wengage-si/
               jobs:
                 - href: /jobs/mas/
               languages:
@@ -1062,15 +1062,15 @@ _embedded:
           - href: /jobs/mas/
       _embedded:
         projects:
-          - title: Wen-GAGE Student Information
-            desc: Desktop application that is used by schools in Oklahoma to manage their
-              student information such as enrollment, attendance, and grades.
+          - title: Wen-GAGE Accounting
+            desc: Desktop application that is used by schools in Oklahoma to manage all
+              their school accounting responsibilites.
             role: Lead Developer
             begin_year: 1999
             end_year: 2004
             _links:
               self:
-                href: /projects/wengage-si/
+                href: /projects/wengage-acct/
               jobs:
                 - href: /jobs/mas/
               languages:
@@ -1081,15 +1081,15 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
-          - title: Wen-GAGE Accounting
-            desc: Desktop application that is used by schools in Oklahoma to manage all
-              their school accounting responsibilites.
+          - title: Wen-GAGE Student Information
+            desc: Desktop application that is used by schools in Oklahoma to manage their
+              student information such as enrollment, attendance, and grades.
             role: Lead Developer
             begin_year: 1999
             end_year: 2004
             _links:
               self:
-                href: /projects/wengage-acct/
+                href: /projects/wengage-si/
               jobs:
                 - href: /jobs/mas/
               languages:

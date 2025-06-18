@@ -47,6 +47,28 @@ _embedded:
           - href: /os/osx/
           - href: /os/linux/
   languages:
+    - title: Ruby
+      desc: Ruby is an open-source, object-oriented programming language created by
+        Yukihiro Matsumoto in 1995. It is designed to be simple and easy to use,
+        yet powerful and flexible. Ruby is often used for web development,
+        scripting, and general-purpose programming. It is known for its use of
+        blocks, which allow for the creation of concise and powerful code. Ruby
+        is also popular for its use of metaprogramming, which allows for the
+        dynamic creation of code at runtime.
+      _links:
+        self:
+          href: /languages/rb/
+        projects:
+          - href: /projects/agdc/
+          - href: /projects/centroid/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/please/
+          - href: /projects/scramble-score/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+        jobs:
+          - href: /jobs/freelance/
+          - href: /jobs/rdi/
     - title: C#
       desc: C# is a general-purpose, object-oriented programming language developed by
         Microsoft. It is used to develop a variety of applications, including
@@ -87,29 +109,47 @@ _embedded:
           - href: /jobs/freelance/
           - href: /jobs/mas/
           - href: /jobs/rdi/
-    - title: Ruby
-      desc: Ruby is an open-source, object-oriented programming language created by
-        Yukihiro Matsumoto in 1995. It is designed to be simple and easy to use,
-        yet powerful and flexible. Ruby is often used for web development,
-        scripting, and general-purpose programming. It is known for its use of
-        blocks, which allow for the creation of concise and powerful code. Ruby
-        is also popular for its use of metaprogramming, which allows for the
-        dynamic creation of code at runtime.
+  os:
+    - title: Linux
+      desc: Linux is an open-source operating system that is based on the Linux
+        kernel. It is a free and powerful operating system that is used in many
+        different types of computing devices, from smartphones to
+        supercomputers. It is highly customizable and can be used for a variety
+        of tasks, from web hosting to software development. It is also highly
+        secure and reliable, making it a popular choice for many users.
       _links:
         self:
-          href: /languages/rb/
+          href: /os/linux/
         projects:
-          - href: /projects/agdc/
           - href: /projects/centroid/
           - href: /projects/denver-schedules-api/
-          - href: /projects/please/
+          - href: /projects/epicloud/
+          - href: /projects/scramble-score/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/freelance/
+          - href: /jobs/rdi/
+    - title: OS X
+      desc: OS X is an operating system developed by Apple Inc. for its Macintosh line
+        of computers. It is based on the Unix operating system and provides a
+        graphical user interface, multitasking, and support for a variety of
+        hardware and software. It also includes a wide range of features such as
+        the Finder, Dock, Spotlight, Time Machine, and iCloud. OS X is designed
+        to be secure, reliable, and easy to use.
+      _links:
+        self:
+          href: /os/osx/
+        projects:
+          - href: /projects/centroid/
+          - href: /projects/denver-schedules-api/
           - href: /projects/scramble-score/
           - href: /projects/simpler/
           - href: /projects/this-site/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
-  os:
     - title: Windows
       desc: Windows is a series of operating systems developed by Microsoft. It is the
         most popular operating system for personal computers, and is used in a
@@ -156,44 +196,4 @@ _embedded:
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/mas/
-          - href: /jobs/rdi/
-    - title: OS X
-      desc: OS X is an operating system developed by Apple Inc. for its Macintosh line
-        of computers. It is based on the Unix operating system and provides a
-        graphical user interface, multitasking, and support for a variety of
-        hardware and software. It also includes a wide range of features such as
-        the Finder, Dock, Spotlight, Time Machine, and iCloud. OS X is designed
-        to be secure, reliable, and easy to use.
-      _links:
-        self:
-          href: /os/osx/
-        projects:
-          - href: /projects/centroid/
-          - href: /projects/denver-schedules-api/
-          - href: /projects/scramble-score/
-          - href: /projects/simpler/
-          - href: /projects/this-site/
-        jobs:
-          - href: /jobs/freelance/
-          - href: /jobs/rdi/
-    - title: Linux
-      desc: Linux is an open-source operating system that is based on the Linux
-        kernel. It is a free and powerful operating system that is used in many
-        different types of computing devices, from smartphones to
-        supercomputers. It is highly customizable and can be used for a variety
-        of tasks, from web hosting to software development. It is also highly
-        secure and reliable, making it a popular choice for many users.
-      _links:
-        self:
-          href: /os/linux/
-        projects:
-          - href: /projects/centroid/
-          - href: /projects/denver-schedules-api/
-          - href: /projects/epicloud/
-          - href: /projects/scramble-score/
-          - href: /projects/simpler/
-          - href: /projects/this-site/
-        jobs:
-          - href: /jobs/fe/
-          - href: /jobs/freelance/
           - href: /jobs/rdi/

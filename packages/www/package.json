@@ -5,9 +5,11 @@
   "scripts": {
     "bootstrap": "gem install bundler jekyll && bundle update",
     "tsc": "tsc --noEmit",
-    "lint": "eslint .",
+    "lint": "npm run tsc && eslint .",
     "lint-fix": "eslint . --fix",
     "build": "bundle exec jekyll build --verbose",
+    "prep": "npm run fix-links && npm run embed-resources && npm run generate-desc",
+    "fix-links": "ts-node _scripts/fix-links.ts",
     "embed-resources": "ts-node _scripts/embed-resources.ts",
     "generate-desc": "ts-node _scripts/generate-desc.ts",
     "wipe-desc": "ts-node _scripts/wipe-desc.ts",

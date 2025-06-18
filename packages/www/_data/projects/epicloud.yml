@@ -126,212 +126,33 @@ _embedded:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
   tools:
-    - title: Google Classroom
-      desc: Google Classroom is a free web-based platform that allows teachers to
-        create and manage virtual classrooms. It enables teachers to easily
-        create and organize assignments, provide feedback, and communicate with
-        students. It also allows students to submit assignments, view grades,
-        and collaborate with their peers. Google Classroom integrates with other
-        Google applications such as Google Drive, Google Docs, and Google
-        Calendar.
+    - title: Amazon Virtual Private Cloud (VPC)
+      desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
+        provides users with a virtual private cloud, allowing them to provision
+        a logically isolated section of the Amazon Web Services (AWS) cloud. It
+        provides users with complete control over their virtual networking
+        environment, including selection of their own IP address range, creation
+        of subnets, and configuration of route tables and network gateways. It
+        also provides users with the ability to securely connect their VPC to
+        their existing IT infrastructure using industry-standard encrypted IPsec
+        VPN connections.
       _links:
         self:
-          href: /tools/classroom/
+          href: /tools/vpc/
         projects:
           - href: /projects/epicloud/
         jobs:
           - href: /jobs/fe/
-    - title: DynamoDB
-      desc: Amazon DynamoDB is a fully managed NoSQL database service that provides
-        fast and predictable performance with seamless scalability. It is a
-        serverless database that can automatically scale up or down to meet the
-        needs of your application. DynamoDB offers a flexible data model,
-        reliable performance, and automatic scaling of throughput capacity. It
-        also provides encryption at rest, point-in-time recovery, and other
-        features to help protect your data.
+    - title: Pivotal Tracker
+      desc: Pivotal Tracker is an agile project management tool that helps teams
+        collaborate and manage their projects. It provides a visual timeline of
+        tasks, stories, and epics, and allows teams to prioritize and track
+        progress. It also offers features such as real-time collaboration,
+        automated workflow, and reporting. It is designed to help teams stay
+        organized and on track with their projects.
       _links:
         self:
-          href: /tools/ddb/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-    - title: Docker
-      desc: Docker is an open-source platform for developing, shipping, and running
-        applications. It uses container technology to package applications into
-        isolated, lightweight, and portable containers that can be quickly
-        deployed and moved between different computing environments. Docker also
-        provides a set of tools and services to help developers build, ship, and
-        run applications in a more efficient and secure way.
-      _links:
-        self:
-          href: /tools/docker/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-    - title: Google Drive
-      desc: Google Drive is a cloud storage service that allows users to store and
-        access their files from any device with an internet connection. It
-        provides users with 15GB of free storage, and additional storage can be
-        purchased. It also offers a suite of office applications, including
-        Google Docs, Sheets, and Slides, which allow users to create and
-        collaborate on documents, spreadsheets, and presentations. Google Drive
-        also offers a range of features, such as file sharing, version history,
-        and real-time collaboration.
-      _links:
-        self:
-          href: /tools/drive/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-    - title: Amazon Elastic Compute Cloud (EC2)
-      desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
-        resizable compute capacity in the cloud. It is designed to make
-        web-scale cloud computing easier for developers. EC2 allows users to
-        launch virtual servers, called “instances”, which can be configured to
-        their specific needs. EC2 also provides users with the ability to scale
-        their computing resources up or down as needed, allowing them to pay
-        only for the resources they use.
-      _links:
-        self:
-          href: /tools/ec2/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-    - title: Amazon Elastic Container Registry (ECR)
-      desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
-        container registry that makes it easy to store, manage, and deploy
-        Docker container images. It is secure, highly available, and scales
-        automatically to meet the needs of your applications. ECR integrates
-        with Amazon Elastic Container Service (ECS) and AWS Fargate, simplifying
-        your development to production workflow. It also provides features such
-        as image scanning, lifecycle policies, and IAM authentication.
-      _links:
-        self:
-          href: /tools/ecr/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-    - title: Amazon Elastic Container Service (ECS)
-      desc: Amazon Elastic Container Service (ECS) is a container orchestration
-        service from Amazon Web Services (AWS) that enables users to easily
-        deploy, manage, and scale containerized applications on AWS. It provides
-        a secure and scalable platform for running Docker containers, allowing
-        users to quickly and easily deploy and manage applications in the cloud.
-        ECS also provides features such as automated container scaling, service
-        discovery, and resource management.
-      _links:
-        self:
-          href: /tools/ecs/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-    - title: Fargate
-      desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
-        deploy and manage containers without having to manage the underlying
-        infrastructure. It provides a serverless compute engine for containers
-        that eliminates the need to provision, configure, and scale clusters of
-        virtual machines. Fargate also provides a secure and reliable platform
-        for running containers, allowing users to focus on building and running
-        their applications, rather than managing the underlying infrastructure.
-      _links:
-        self:
-          href: /tools/fargate/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-    - title: Google Firebase
-      desc: Google Firebase is a mobile and web application development platform that
-        provides developers with a variety of tools and services to help them
-        quickly and easily build high-quality apps. Firebase provides a
-        real-time database, authentication, storage, hosting, analytics, and
-        more. It also offers a range of SDKs for Android, iOS, and web
-        development, allowing developers to quickly and easily integrate
-        Firebase into their apps.
-      _links:
-        self:
-          href: /tools/firebase/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-    - title: AWS Identity and Access Management (IAM)
-      desc: AWS Identity and Access Management (IAM) is a web service that helps you
-        securely control access to AWS resources. With IAM, you can create and
-        manage AWS users and groups, and use permissions to allow and deny their
-        access to AWS resources. IAM also enables you to create and manage
-        security credentials such as access keys, passwords, and multi-factor
-        authentication devices. You can use IAM to manage access to AWS services
-        such as Amazon EC2, Amazon S3, and Amazon RDS.
-      _links:
-        self:
-          href: /tools/iam/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-    - title: Lerna
-      desc: Lerna is a tool that optimizes the workflow around managing multi-package
-        repositories with git and npm. It allows developers to easily create,
-        maintain, and version multiple packages from the same codebase. It also
-        provides a powerful set of features such as managing dependencies,
-        running scripts, and publishing packages. Lerna makes it easier to
-        manage complex projects with multiple packages, and helps developers
-        keep their codebase organized and up-to-date.
-      _links:
-        self:
-          href: /tools/lerna/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-    - title: Node
-      desc: Node.js is an open-source, cross-platform JavaScript runtime environment
-        that executes JavaScript code outside of a browser. It is used to create
-        server-side and networking applications. Node.js applications are
-        written in JavaScript and can be run within the Node.js runtime on OS X,
-        Microsoft Windows, and Linux. Node.js also provides a rich library of
-        various JavaScript modules which simplifies the development of web
-        applications using Node.js.
-      _links:
-        self:
-          href: /tools/node/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-    - title: Puppeteer
-      desc: Puppeteer is a Node library developed by Google that provides a high-level
-        API to control headless Chrome or Chromium over the DevTools Protocol.
-        It can be used to automate tasks that would normally be performed
-        manually in the browser, such as form submission, UI testing, keyboard
-        input, or capturing a timeline trace to diagnose performance issues.
-        Puppeteer can also be used to generate screenshots and PDFs of web
-        pages.
-      _links:
-        self:
-          href: /tools/puppeteer/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-    - title: Amazon Simple Storage Service (S3)
-      desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
-        Amazon Web Services (AWS). It provides object storage through a web
-        service interface and is designed to store and retrieve any amount of
-        data from anywhere on the web. It is highly scalable, secure, and
-        durable, and provides features such as data versioning, encryption, and
-        access control. S3 is used by many organizations for storing and backing
-        up data, hosting websites, and streaming media.
-      _links:
-        self:
-          href: /tools/s3/
+          href: /tools/tracker/
         projects:
           - href: /projects/epicloud/
         jobs:
@@ -353,33 +174,212 @@ _embedded:
           - href: /projects/epicloud/
         jobs:
           - href: /jobs/fe/
-    - title: Pivotal Tracker
-      desc: Pivotal Tracker is an agile project management tool that helps teams
-        collaborate and manage their projects. It provides a visual timeline of
-        tasks, stories, and epics, and allows teams to prioritize and track
-        progress. It also offers features such as real-time collaboration,
-        automated workflow, and reporting. It is designed to help teams stay
-        organized and on track with their projects.
+    - title: Amazon Simple Storage Service (S3)
+      desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
+        Amazon Web Services (AWS). It provides object storage through a web
+        service interface and is designed to store and retrieve any amount of
+        data from anywhere on the web. It is highly scalable, secure, and
+        durable, and provides features such as data versioning, encryption, and
+        access control. S3 is used by many organizations for storing and backing
+        up data, hosting websites, and streaming media.
       _links:
         self:
-          href: /tools/tracker/
+          href: /tools/s3/
         projects:
           - href: /projects/epicloud/
         jobs:
           - href: /jobs/fe/
-    - title: Amazon Virtual Private Cloud (VPC)
-      desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
-        provides users with a virtual private cloud, allowing them to provision
-        a logically isolated section of the Amazon Web Services (AWS) cloud. It
-        provides users with complete control over their virtual networking
-        environment, including selection of their own IP address range, creation
-        of subnets, and configuration of route tables and network gateways. It
-        also provides users with the ability to securely connect their VPC to
-        their existing IT infrastructure using industry-standard encrypted IPsec
-        VPN connections.
+    - title: Puppeteer
+      desc: Puppeteer is a Node library developed by Google that provides a high-level
+        API to control headless Chrome or Chromium over the DevTools Protocol.
+        It can be used to automate tasks that would normally be performed
+        manually in the browser, such as form submission, UI testing, keyboard
+        input, or capturing a timeline trace to diagnose performance issues.
+        Puppeteer can also be used to generate screenshots and PDFs of web
+        pages.
       _links:
         self:
-          href: /tools/vpc/
+          href: /tools/puppeteer/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: Node
+      desc: Node.js is an open-source, cross-platform JavaScript runtime environment
+        that executes JavaScript code outside of a browser. It is used to create
+        server-side and networking applications. Node.js applications are
+        written in JavaScript and can be run within the Node.js runtime on OS X,
+        Microsoft Windows, and Linux. Node.js also provides a rich library of
+        various JavaScript modules which simplifies the development of web
+        applications using Node.js.
+      _links:
+        self:
+          href: /tools/node/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: Lerna
+      desc: Lerna is a tool that optimizes the workflow around managing multi-package
+        repositories with git and npm. It allows developers to easily create,
+        maintain, and version multiple packages from the same codebase. It also
+        provides a powerful set of features such as managing dependencies,
+        running scripts, and publishing packages. Lerna makes it easier to
+        manage complex projects with multiple packages, and helps developers
+        keep their codebase organized and up-to-date.
+      _links:
+        self:
+          href: /tools/lerna/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: AWS Identity and Access Management (IAM)
+      desc: AWS Identity and Access Management (IAM) is a web service that helps you
+        securely control access to AWS resources. With IAM, you can create and
+        manage AWS users and groups, and use permissions to allow and deny their
+        access to AWS resources. IAM also enables you to create and manage
+        security credentials such as access keys, passwords, and multi-factor
+        authentication devices. You can use IAM to manage access to AWS services
+        such as Amazon EC2, Amazon S3, and Amazon RDS.
+      _links:
+        self:
+          href: /tools/iam/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: Google Firebase
+      desc: Google Firebase is a mobile and web application development platform that
+        provides developers with a variety of tools and services to help them
+        quickly and easily build high-quality apps. Firebase provides a
+        real-time database, authentication, storage, hosting, analytics, and
+        more. It also offers a range of SDKs for Android, iOS, and web
+        development, allowing developers to quickly and easily integrate
+        Firebase into their apps.
+      _links:
+        self:
+          href: /tools/firebase/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: Fargate
+      desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
+        deploy and manage containers without having to manage the underlying
+        infrastructure. It provides a serverless compute engine for containers
+        that eliminates the need to provision, configure, and scale clusters of
+        virtual machines. Fargate also provides a secure and reliable platform
+        for running containers, allowing users to focus on building and running
+        their applications, rather than managing the underlying infrastructure.
+      _links:
+        self:
+          href: /tools/fargate/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: Amazon Elastic Container Service (ECS)
+      desc: Amazon Elastic Container Service (ECS) is a container orchestration
+        service from Amazon Web Services (AWS) that enables users to easily
+        deploy, manage, and scale containerized applications on AWS. It provides
+        a secure and scalable platform for running Docker containers, allowing
+        users to quickly and easily deploy and manage applications in the cloud.
+        ECS also provides features such as automated container scaling, service
+        discovery, and resource management.
+      _links:
+        self:
+          href: /tools/ecs/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: Amazon Elastic Container Registry (ECR)
+      desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
+        container registry that makes it easy to store, manage, and deploy
+        Docker container images. It is secure, highly available, and scales
+        automatically to meet the needs of your applications. ECR integrates
+        with Amazon Elastic Container Service (ECS) and AWS Fargate, simplifying
+        your development to production workflow. It also provides features such
+        as image scanning, lifecycle policies, and IAM authentication.
+      _links:
+        self:
+          href: /tools/ecr/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: Amazon Elastic Compute Cloud (EC2)
+      desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
+        resizable compute capacity in the cloud. It is designed to make
+        web-scale cloud computing easier for developers. EC2 allows users to
+        launch virtual servers, called “instances”, which can be configured to
+        their specific needs. EC2 also provides users with the ability to scale
+        their computing resources up or down as needed, allowing them to pay
+        only for the resources they use.
+      _links:
+        self:
+          href: /tools/ec2/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: Google Drive
+      desc: Google Drive is a cloud storage service that allows users to store and
+        access their files from any device with an internet connection. It
+        provides users with 15GB of free storage, and additional storage can be
+        purchased. It also offers a suite of office applications, including
+        Google Docs, Sheets, and Slides, which allow users to create and
+        collaborate on documents, spreadsheets, and presentations. Google Drive
+        also offers a range of features, such as file sharing, version history,
+        and real-time collaboration.
+      _links:
+        self:
+          href: /tools/drive/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: Docker
+      desc: Docker is an open-source platform for developing, shipping, and running
+        applications. It uses container technology to package applications into
+        isolated, lightweight, and portable containers that can be quickly
+        deployed and moved between different computing environments. Docker also
+        provides a set of tools and services to help developers build, ship, and
+        run applications in a more efficient and secure way.
+      _links:
+        self:
+          href: /tools/docker/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: DynamoDB
+      desc: Amazon DynamoDB is a fully managed NoSQL database service that provides
+        fast and predictable performance with seamless scalability. It is a
+        serverless database that can automatically scale up or down to meet the
+        needs of your application. DynamoDB offers a flexible data model,
+        reliable performance, and automatic scaling of throughput capacity. It
+        also provides encryption at rest, point-in-time recovery, and other
+        features to help protect your data.
+      _links:
+        self:
+          href: /tools/ddb/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: Google Classroom
+      desc: Google Classroom is a free web-based platform that allows teachers to
+        create and manage virtual classrooms. It enables teachers to easily
+        create and organize assignments, provide feedback, and communicate with
+        students. It also allows students to submit assignments, view grades,
+        and collaborate with their peers. Google Classroom integrates with other
+        Google applications such as Google Drive, Google Docs, and Google
+        Calendar.
+      _links:
+        self:
+          href: /tools/classroom/
         projects:
           - href: /projects/epicloud/
         jobs:

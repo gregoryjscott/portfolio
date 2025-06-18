@@ -4,10 +4,10 @@ desc: List of schools.
 _links:
   self:
     href: /schools/
-  index:
+  schools:
     - href: /schools/uco/
 _embedded:
-  index:
+  schools:
     - title: University of Central Oklahoma
       desc: The University of Central Oklahoma (UCO) is a public university in Edmond,
         Oklahoma founded in 1890.

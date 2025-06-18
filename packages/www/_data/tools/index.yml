@@ -4,7 +4,7 @@ desc: List of tools.
 _links:
   self:
     href: /tools/
-  index:
+  tools:
     - href: /tools/classroom/
     - href: /tools/ddb/
     - href: /tools/docker/
@@ -23,7 +23,7 @@ _links:
     - href: /tools/tracker/
     - href: /tools/vpc/
 _embedded:
-  index:
+  tools:
     - title: Amazon Virtual Private Cloud (VPC)
       desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
         provides users with a virtual private cloud, allowing them to provision

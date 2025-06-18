@@ -25,6 +25,27 @@ _links:
     - href: /jobs/rdi/
 _embedded:
   projects:
+    - title: This Site
+      desc: My website/experiment that uses Jekyll to create static HTML pages using
+        YAML, Markdown, and hypermedia.
+      role: Author
+      begin_year: 2014
+      end_year: null
+      _links:
+        self:
+          href: /projects/this-site/
+        code:
+          title: github.com/gregoryjscott/me
+          href: https://github.com/gregoryjscott/me
+        jobs:
+          - href: /jobs/freelance/
+        languages:
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/rb/
+        os:
+          - href: /os/osx/
+          - href: /os/linux/
     - title: Alaska Gasline Development Corporation
       desc: Web application that provides AGDC with documentation, reporting, and
         querying tools for their vast GIS data and infrastructure.
@@ -49,15 +70,14 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
-    - title: AWWU Intranet
-      desc: Web application that contains AWWU's reporting and querying tools, systems
-        status, and custom applications.
+    - title: Systems Portal
+      desc: Web application for tracking data used by systems administrators.
       role: Technical Lead
-      begin_year: 2005
-      end_year: 2008
+      begin_year: 2013
+      end_year: 2013
       _links:
         self:
-          href: /projects/awwu-intranet/
+          href: /projects/systems-portal/
         jobs:
           - href: /jobs/rdi/
         languages:
@@ -65,12 +85,56 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
-          - href: /languages/plsql/
           - href: /languages/sql/
+          - href: /languages/tsql/
         db:
-          - href: /db/oracle/
+          - href: /db/sql-server/
         os:
           - href: /os/windows/
+    - title: Scrum Tools
+      desc: null
+      role: Technical Lead
+      begin_year: 2012
+      end_year: 2013
+      _links:
+        self:
+          href: /projects/scrum-tools/
+        jobs:
+          - href: /jobs/rdi/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/sql/
+          - href: /languages/tsql/
+        db:
+          - href: /db/sql-server/
+        os:
+          - href: /os/windows/
+    - title: ScrambleScore
+      desc: Mobile web application that allows golfers participating in scramble golf
+        tournaments to record their scores and monitor the tournament
+        leaderboard.
+      role: Project Manager
+      begin_year: 2012
+      end_year: 2013
+      _links:
+        self:
+          href: /projects/scramble-score/
+        jobs:
+          - href: /jobs/rdi/
+        languages:
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/rb/
+        db:
+          - href: /db/postgres/
+        os:
+          - href: /os/windows/
+          - href: /os/osx/
+          - href: /os/linux/
     - title: Energy Efficiency Map
       desc: Web application that allows the Alaska Energy Authority to monitor and
         administer data from their statewide energy saving programs.
@@ -115,50 +179,6 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
-    - title: ScrambleScore
-      desc: Mobile web application that allows golfers participating in scramble golf
-        tournaments to record their scores and monitor the tournament
-        leaderboard.
-      role: Project Manager
-      begin_year: 2012
-      end_year: 2013
-      _links:
-        self:
-          href: /projects/scramble-score/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/css/
-          - href: /languages/html/
-          - href: /languages/js/
-          - href: /languages/rb/
-        db:
-          - href: /db/postgres/
-        os:
-          - href: /os/windows/
-          - href: /os/osx/
-          - href: /os/linux/
-    - title: Scrum Tools
-      desc: null
-      role: Technical Lead
-      begin_year: 2012
-      end_year: 2013
-      _links:
-        self:
-          href: /projects/scrum-tools/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/css/
-          - href: /languages/html/
-          - href: /languages/js/
-          - href: /languages/sql/
-          - href: /languages/tsql/
-        db:
-          - href: /db/sql-server/
-        os:
-          - href: /os/windows/
     - title: Service Order Mobile Dispatch
       desc: Mobile web application that allows Anchorage Water & Wastewater Utility
         service workers to query and record service information while in the
@@ -182,14 +202,15 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
-    - title: Systems Portal
-      desc: Web application for tracking data used by systems administrators.
+    - title: AWWU Intranet
+      desc: Web application that contains AWWU's reporting and querying tools, systems
+        status, and custom applications.
       role: Technical Lead
-      begin_year: 2013
-      end_year: 2013
+      begin_year: 2005
+      end_year: 2008
       _links:
         self:
-          href: /projects/systems-portal/
+          href: /projects/awwu-intranet/
         jobs:
           - href: /jobs/rdi/
         languages:
@@ -197,33 +218,12 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
+          - href: /languages/plsql/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
-          - href: /db/sql-server/
+          - href: /db/oracle/
         os:
           - href: /os/windows/
-    - title: This Site
-      desc: My website/experiment that uses Jekyll to create static HTML pages using
-        YAML, Markdown, and hypermedia.
-      role: Author
-      begin_year: 2014
-      end_year: null
-      _links:
-        self:
-          href: /projects/this-site/
-        code:
-          title: github.com/gregoryjscott/me
-          href: https://github.com/gregoryjscott/me
-        jobs:
-          - href: /jobs/freelance/
-        languages:
-          - href: /languages/css/
-          - href: /languages/html/
-          - href: /languages/rb/
-        os:
-          - href: /os/osx/
-          - href: /os/linux/
   jobs:
     - title: Freelance Programmer
       desc: Freelance Programmer and Consultant

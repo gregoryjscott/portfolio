@@ -1,14 +1,17 @@
-import { prepareResources, Resource, writeMarkdown } from "./util"
+import { writeMarkdown } from "./util"
+import { getResources, Resource } from "./get-resources"
 
-const directories = ["db", "languages", "os", "tools"]
-const resources: Resource[] = prepareResources(directories)
-const nonIndexResources = resources.filter(r => !r.isIndex)
+const resources: Resource[] = getResources()
+const resourcesWithPrompts = resources.filter(r => r.prompt && !r.isIndex)
 
 async function wipeDesc() {
-  console.log(`Wiping desc...`)
-  for (const resource of nonIndexResources) {
-    resource.source.data.desc = null
-    writeMarkdown(resource.path, resource.source.content, resource.source.data)
+  for (const resource of resourcesWithPrompts) {
+    resource.sourceMarkdown.data.desc = null
+    writeMarkdown(
+      resource.sourceMarkdown.path,
+      resource.sourceMarkdown.content,
+      resource.sourceMarkdown.data
+    )
   }
   console.log()
 }

@@ -24,6 +24,65 @@ _links:
     - href: /jobs/rdi/
 _embedded:
   projects:
+    - title: Consumption Views
+      desc: Set of database views that provides water consumption information that
+        feed into reporting tools used by AWWU to make business decisions.
+      role: Lead Developer
+      begin_year: 2009
+      end_year: 2009
+      _links:
+        self:
+          href: /projects/consumption-views/
+        jobs:
+          - href: /jobs/rdi/
+        languages:
+          - href: /languages/plsql/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+    - title: Service Order Mobile Dispatch
+      desc: Mobile web application that allows Anchorage Water & Wastewater Utility
+        service workers to query and record service information while in the
+        field.
+      role: Technical Lead
+      begin_year: 2009
+      end_year: 2009
+      _links:
+        self:
+          href: /projects/somd/
+        jobs:
+          - href: /jobs/rdi/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/plsql/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+    - title: Database Synchronization (AWWU)
+      desc: null
+      role: Lead Developer
+      begin_year: 2008
+      end_year: 2008
+      _links:
+        self:
+          href: /projects/database-sync-awwu/
+        jobs:
+          - href: /jobs/rdi/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/plsql/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
     - title: AWWU Intranet
       desc: Web application that contains AWWU's reporting and querying tools, systems
         status, and custom applications.
@@ -41,6 +100,41 @@ _embedded:
           - href: /languages/html/
           - href: /languages/js/
           - href: /languages/plsql/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+    - title: SAR Reports
+      desc: null
+      role: Lead Developer
+      begin_year: 2007
+      end_year: 2007
+      _links:
+        self:
+          href: /projects/sar-reports/
+        jobs:
+          - href: /jobs/rdi/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+    - title: CIS Data Capture
+      desc: Console application that captures monthly snapshots of AWWU's customer
+        information system (CIS) data and loads it into a data warehouse.
+      role: Technical Lead
+      begin_year: 2006
+      end_year: 2006
+      _links:
+        self:
+          href: /projects/cis-data-capture/
+        jobs:
+          - href: /jobs/rdi/
+        languages:
+          - href: /languages/cs/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -81,60 +175,6 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
-    - title: CIS Data Capture
-      desc: Console application that captures monthly snapshots of AWWU's customer
-        information system (CIS) data and loads it into a data warehouse.
-      role: Technical Lead
-      begin_year: 2006
-      end_year: 2006
-      _links:
-        self:
-          href: /projects/cis-data-capture/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/sql/
-        db:
-          - href: /db/oracle/
-        os:
-          - href: /os/windows/
-    - title: Consumption Views
-      desc: Set of database views that provides water consumption information that
-        feed into reporting tools used by AWWU to make business decisions.
-      role: Lead Developer
-      begin_year: 2009
-      end_year: 2009
-      _links:
-        self:
-          href: /projects/consumption-views/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/plsql/
-          - href: /languages/sql/
-        db:
-          - href: /db/oracle/
-        os:
-          - href: /os/windows/
-    - title: Database Synchronization (AWWU)
-      desc: null
-      role: Lead Developer
-      begin_year: 2008
-      end_year: 2008
-      _links:
-        self:
-          href: /projects/database-sync-awwu/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/plsql/
-          - href: /languages/sql/
-        db:
-          - href: /db/oracle/
-        os:
-          - href: /os/windows/
     - title: Employees Suggestion
       desc: Oracle Forms application that allows AWWU employees to submit suggestions
         for improving the AWWU workplace.
@@ -147,46 +187,6 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
         languages:
-          - href: /languages/plsql/
-          - href: /languages/sql/
-        db:
-          - href: /db/oracle/
-        os:
-          - href: /os/windows/
-    - title: SAR Reports
-      desc: null
-      role: Lead Developer
-      begin_year: 2007
-      end_year: 2007
-      _links:
-        self:
-          href: /projects/sar-reports/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/sql/
-        db:
-          - href: /db/oracle/
-        os:
-          - href: /os/windows/
-    - title: Service Order Mobile Dispatch
-      desc: Mobile web application that allows Anchorage Water & Wastewater Utility
-        service workers to query and record service information while in the
-        field.
-      role: Technical Lead
-      begin_year: 2009
-      end_year: 2009
-      _links:
-        self:
-          href: /projects/somd/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/css/
-          - href: /languages/html/
-          - href: /languages/js/
           - href: /languages/plsql/
           - href: /languages/sql/
         db:
