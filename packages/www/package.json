@@ -8,6 +8,7 @@
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
     "build": "bundle exec jekyll build --verbose",
+    "prep": "npm run embed-resources && npm run generate-desc",
     "embed-resources": "ts-node _scripts/embed-resources.ts",
     "generate-desc": "ts-node _scripts/generate-desc.ts",
     "wipe-desc": "ts-node _scripts/wipe-desc.ts",

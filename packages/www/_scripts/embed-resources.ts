@@ -1,25 +1,9 @@
-import * as fs from "fs"
-import * as YAML from "yaml"
-import * as path from "path"
 import * as matter from "gray-matter"
-import {
-  dataDirectory,
-  prepareResources,
-  Resource,
-  writeMarkdown,
-} from "./util"
+import { writeMarkdown, writeYAML } from "./util"
 import { sortEmbedded } from "./sort-embedded"
+import { Resource, getResources, resourceDirectories } from "./get-resources"
 
-const directories = [
-  "db",
-  "jobs",
-  "languages",
-  "os",
-  "projects",
-  "schools",
-  "tools",
-]
-const resources: Resource[] = prepareResources(directories)
+const resources: Resource[] = getResources()
 const nonIndexResources = resources.filter(r => !r.isIndex)
 const indexResources = resources.filter(r => r.isIndex)
 
@@ -28,7 +12,7 @@ function fixSelfLinks() {
     const links = getLinks(resource, "self")
     if (links.length > 0) continue
     resource.source.data._links.self = { href: resource.href }
-    writeMarkdown(resource.path, resource.source.content, resource.source.data)
+    writeMarkdown(resource.source.path, resource.source.content, resource.source.data)
   }
 }
 
@@ -52,12 +36,12 @@ function fixNonIndexLinks() {
     }
   }
   for (const resource of nonIndexResources) {
-    writeMarkdown(resource.path, resource.source.content, resource.source.data)
+    writeMarkdown(resource.source.path, resource.source.content, resource.source.data)
   }
 }
 
-async function fixIndexLinks() {
-  for (const directory of directories) {
+function fixIndexLinks() {
+  for (const directory of resourceDirectories) {
     const directoryResources = nonIndexResources.filter(
       r => r.name === directory
     )
@@ -86,29 +70,21 @@ function embedLinkedResources(
       if (!resource.target.data._embedded) resource.target.data._embedded = {}
       resource.target.data._embedded[relation] = linkedResources
     }
-    const path = {
-      directory: `${dataDirectory}/${resource.path.directory}`,
-      name: resource.path.name,
-    }
-    writeYAML(path, resource.target.data)
+    writeYAML(resource.target.path, resource.target.data)
   }
 }
 
 function sortEmbeddedResources(resources: Resource[]) {
   for (const resource of resources) {
     resource.target.data = sortEmbedded(resource.target.data)
-    const path = {
-      directory: `${dataDirectory}/${resource.path.directory}`,
-      name: resource.path.name,
-    }
-    writeYAML(path, resource.target.data)
+    writeYAML(resource.target.path, resource.target.data)
   }
 }
 
 function getRelations(resource): any[] {
   if (!resource.source.data._links) return []
   const linkRels: string[] = Object.keys(resource.source.data._links)
-  const allowedRelations = ["index", ...directories]
+  const allowedRelations = ["index", ...resourceDirectories]
   return linkRels.filter(lr => allowedRelations.includes(lr))
 }
 
@@ -122,24 +98,6 @@ function getResource(link) {
   const linkedResource = resources.find(r => r.href == link.href)
   if (!linkedResource) throw `Didn't find resource ${link.href}`
   return linkedResource
-}
-
-function writeYAML(
-  path: {
-    directory: string
-    name: string
-  },
-  json: any
-) {
-  const fullPath = `${path.directory}/${path.name}.yml`
-  console.log(`Writing ${fullPath}`)
-  const text = YAML.stringify(cleanJSON(json)).trim()
-  fs.writeFileSync(fullPath, text)
-}
-
-function cleanJSON(json: any) {
-  const jsonText = JSON.stringify(json)
-  return JSON.parse(jsonText)
 }
 
 process.on("unhandledRejection", err => {

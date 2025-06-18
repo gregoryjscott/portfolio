@@ -1,63 +1,8 @@
 import * as fs from "fs"
 import * as path from "path"
+import * as YAML from "yaml"
 import * as matter from "gray-matter"
 import * as prettier from "prettier"
-
-export const dataDirectory = "_data"
-
-export interface Resource {
-  name: string
-  href: string
-  isIndex: boolean
-  path: {
-    directory: string
-    name: string
-  }
-  source: {
-    content: string
-    data: any
-  }
-  target: {
-    content: string
-    data: any
-  }
-}
-
-export function prepareResources(directories: string[]): Resource[] {
-  if (!fs.existsSync(dataDirectory)) fs.mkdirSync(dataDirectory)
-  const resources: Resource[] = []
-  for (const directory of directories) {
-    const files = fs.readdirSync(directory)
-    for (const file of files) {
-      const parsedPath = path.parse(file)
-      const isIndex = parsedPath.name === "index"
-      const sourceFilePath = `${directory}/${parsedPath.name}.md`
-      const { content, data } = matter.read(sourceFilePath)
-
-      resources.push({
-        name: directory,
-        href: isIndex ? `/${directory}/` : `/${directory}/${parsedPath.name}/`,
-        isIndex,
-        path: {
-          directory,
-          name: parsedPath.name,
-        },
-        source: {
-          content,
-          data,
-        },
-        target: {
-          content,
-          data: undefined,
-        },
-      })
-    }
-    if (!fs.existsSync(`${dataDirectory}/${directory}`)) {
-      fs.mkdirSync(`${dataDirectory}/${directory}`)
-    }
-  }
-  return resources
-}
 
 export function writeMarkdown(
   path: {
@@ -78,6 +23,21 @@ export function writeMarkdown(
   })
   fs.writeFileSync(fullPath, prettyText)
 }
+
+
+export function writeYAML(
+  path: {
+    directory: string
+    name: string
+  },
+  json: any
+) {
+  const fullPath = `${path.directory}/${path.name}.yml`
+  console.log(`Writing ${fullPath}`)
+  const text = YAML.stringify(cleanJSON(json)).trim()
+  fs.writeFileSync(fullPath, text)
+}
+
 
 function cleanJSON(json: any) {
   const jsonText = JSON.stringify(json)
