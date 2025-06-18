@@ -2,7 +2,7 @@ import * as fs from "fs"
 import * as path from "path"
 import * as matter from "gray-matter"
 
-const dataDirectory = "_data"
+const yamlDirectory = "_data"
 export const resourceDirectories = [
   "db",
   "jobs",
@@ -28,7 +28,7 @@ export interface Resource {
   href: string
   isIndex: boolean
   prompt: string | null
-  source: {
+  sourceMarkdown: {
     path: {
       directory: string
       name: string
@@ -36,7 +36,7 @@ export interface Resource {
     content: string
     data: any
   }
-  target: {
+  targetYaml: {
     path: {
       directory: string
       name: string
@@ -46,7 +46,7 @@ export interface Resource {
 }
 
 export function getResources(): Resource[] {
-  if (!fs.existsSync(dataDirectory)) fs.mkdirSync(dataDirectory)
+  if (!fs.existsSync(yamlDirectory)) fs.mkdirSync(yamlDirectory)
   const resources: Resource[] = []
   for (const directory of resourceDirectories) {
     const files = fs.readdirSync(directory)
@@ -61,7 +61,7 @@ export function getResources(): Resource[] {
         href: isIndex ? `/${directory}/` : `/${directory}/${parsedPath.name}/`,
         isIndex,
         prompt: prompts[directory] ? prompts[directory](data.title) : null,
-        source: {
+        sourceMarkdown: {
           path: {
             directory,
             name: parsedPath.name,
@@ -69,18 +69,47 @@ export function getResources(): Resource[] {
           content,
           data,
         },
-        target: {
+        targetYaml: {
           path: {
-            directory: `${dataDirectory}/${directory}`,
+            directory: `${yamlDirectory}/${directory}`,
             name: parsedPath.name,
           },
           data: undefined,
         },
       })
     }
-    if (!fs.existsSync(`${dataDirectory}/${directory}`)) {
-      fs.mkdirSync(`${dataDirectory}/${directory}`)
+    if (!fs.existsSync(`${yamlDirectory}/${directory}`)) {
+      fs.mkdirSync(`${yamlDirectory}/${directory}`)
     }
   }
   return resources
+}
+
+export function getRelations(resource: Resource): string[] {
+  if (!resource.sourceMarkdown.data._links) return []
+  const linkRels: string[] = Object.keys(resource.sourceMarkdown.data._links)
+  const allowedRelations = ["index", ...resourceDirectories]
+  return linkRels.filter(lr => allowedRelations.includes(lr))
+}
+
+export function getLinks(
+  resource: Resource,
+  relation: string
+): { href: string }[] {
+  if (
+    !resource.sourceMarkdown.data._links ||
+    !resource.sourceMarkdown.data._links[relation]
+  ) {
+    return []
+  }
+  return resource.sourceMarkdown.data._links[relation]
+}
+
+export function findResource(
+  link: { href: string },
+  resources: Resource[]
+): Resource {
+  const linkedResource = resources.find((r: Resource) => r.href == link.href)
+  if (!linkedResource) throw `Didn't find resource ${link.href}`
+  return linkedResource
 }

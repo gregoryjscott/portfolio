@@ -6,11 +6,11 @@ const resourcesWithPrompts = resources.filter(r => r.prompt && !r.isIndex)
 
 async function wipeDesc() {
   for (const resource of resourcesWithPrompts) {
-    resource.source.data.desc = null
+    resource.sourceMarkdown.data.desc = null
     writeMarkdown(
-      resource.source.path,
-      resource.source.content,
-      resource.source.data
+      resource.sourceMarkdown.path,
+      resource.sourceMarkdown.content,
+      resource.sourceMarkdown.data
     )
   }
   console.log()
