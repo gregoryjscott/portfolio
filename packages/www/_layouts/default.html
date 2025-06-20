@@ -1,43 +1,49 @@
 ---
 ---
-<!DOCTYPE html>
+
+<!doctype html>
 <html>
-<head>
-<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-<title>Gregory J. Scott</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/normalize.css"/>
-<link rel="stylesheet" href="/assets/css/styles.css"/>
-<link rel="stylesheet" href="/assets/css/menu.css"/>
-<head>
-<body>
-  <input type="checkbox" id="menu-toggle" class="menu-checkbox" hidden>
-  <header>
-    <label for="menu-toggle" class="menu-btn" aria-label="Toggle menu"><span></span></label>
-    <div class="menu-overlay">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/resume">Resume</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/languages">Languages</a></li>
-        <li><a href="/db">Databases</a></li>
-        <li><a href="/os">Operating Systems</a></li>
-        <li><a href="/tools">Tools</a></li>
-        <li><a href="/schools">Schools</a></li>
-        <li><a href="/jobs">Jobs</a></li>
-      </ul>
-    </div>
-  </header>
-  <main>{{ content }}</main>
-  <footer>
-    <nav>
-      <a href="mailto:me@gregoryjscott.com">Email</a> |
-      <a href="https://github.com/gregoryjscott">GitHub</a> | 
-      <a href="https://x.com/gregoryjscott">Twitter</a>
-    </nav>
-  </footer>
-</body>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Gregory J. Scott</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/normalize.css" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="/assets/css/menu.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="menu-toggle" class="menu-checkbox" hidden />
+    <header>
+      <label for="menu-toggle" class="menu-btn" aria-label="Toggle menu">
+        <span></span>
+      </label>
+      <div class="menu-overlay">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/resume">Resume</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/languages">Languages</a></li>
+          <li><a href="/db">Databases</a></li>
+          <li><a href="/os">Operating Systems</a></li>
+          <li><a href="/tools">Tools</a></li>
+          <li><a href="/schools">Schools</a></li>
+          <li><a href="/jobs">Jobs</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>{{ content }}</main>
+    <footer>
+      <nav>
+        <a href="mailto:me@gregoryjscott.com">Email</a> |
+        <a href="https://github.com/gregoryjscott">GitHub</a> |
+        <a href="https://x.com/gregoryjscott">Twitter</a>
+      </nav>
+    </footer>
+  </body>
 </html>
