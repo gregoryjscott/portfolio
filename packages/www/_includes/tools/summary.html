@@ -8,6 +8,8 @@
 
   <p><em>{{ tool.subtitle }}</em></p>
 
+  {% include year-range.html data=tool %}
+
   {% if tool.desc %}
   <p>{{ tool.desc }}</p>
   {% endif %}

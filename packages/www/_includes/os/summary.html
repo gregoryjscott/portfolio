@@ -8,6 +8,8 @@
 
   <p><em>{{ os.subtitle }}</em></p>
 
+  {% include year-range.html data=os %}
+
   {% if os.desc %}
   <p>{{ os.desc }}</p>
   {% endif %}
