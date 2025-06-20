@@ -4,15 +4,15 @@
   --color-grey-660: #565656;
   --color-blue-930: #010a23;
 
-  --color-bg:          var(--color-blue-930);
-  --color-text-base:   var(--color-grey-300);
-  --color-text-accent: var(--color-grey-040);
+  --color-bg:          var(--color-grey-040);
+  --color-text-base:   var(--color-grey-660);
+  --color-text-accent: var(--color-blue-930);
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
-    --color-bg:          var(--color-grey-040);
-    --color-text-base:   var(--color-grey-660);
-    --color-text-accent: var(--color-blue-930);
+    --color-bg:          var(--color-blue-930);
+    --color-text-base:   var(--color-grey-300);
+    --color-text-accent: var(--color-grey-040);
   }
 }
