@@ -1,9 +1,17 @@
 ---
-title: Gregory J. Scott
 layout: default
+title: Gregory J. Scott
 _links:
   self:
     href: /resume/
+  jobs:
+    - href: /jobs/boeing/
+    - href: /jobs/fe/
+    - href: /jobs/freelance/
+    - href: /jobs/mas/
+    - href: /jobs/rdi/
+  schools:
+    - href: /schools/uco/
 ---
 
 <nav>
@@ -12,18 +20,33 @@ _links:
 </nav>
 
 <section markdown="1">
+
 {% include resume/contact.md %}
+
 </section>
 
 <section markdown="1">
+
 {% include resume/skills.md %}
+
 </section>
 
 <section markdown="1">
-{% include resume/experience.md %}
+
+## Experience
+
+{% for item in page._embedded.jobs %}
+   {% include summary.html resource=item heading_level=3 %}
+{% endfor %}
+
 </section>
 
 <section markdown="1">
-{% include resume/education.md %}
-</section>
 
+## Education
+
+{% for item in page._embedded.schools %}
+   {% include summary.html resource=item heading_level=3 %}
+{% endfor %}
+
+</section>
