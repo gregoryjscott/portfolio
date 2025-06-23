@@ -4,14 +4,18 @@ title: Gregory J. Scott
 _links:
   self:
     href: /resume/
+  languages:
+    href: /languages/
+  db:
+    href: /db/
+  os:
+    href: /os/
+  tools:
+    href: /tools/
   jobs:
-    - href: /jobs/boeing/
-    - href: /jobs/fe/
-    - href: /jobs/freelance/
-    - href: /jobs/mas/
-    - href: /jobs/rdi/
+    href: /jobs/
   schools:
-    - href: /schools/uco/
+    href: /schools/
 ---
 
 <nav>
