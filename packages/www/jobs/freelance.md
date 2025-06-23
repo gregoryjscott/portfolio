@@ -28,3 +28,11 @@ _links:
     - href: /os/osx/
     - href: /os/linux/
 ---
+
+Partnering with clients to architect and implement scalable technology solutions that address complex business challenges
+
+Designed and built the software infrastructure that powers the sites and applications for the City of Fort Worth, Texas
+
+Contributed to the Code for America's project that sends citizens of Denver, Colorado reminder text messages of street-sweeping dates to avoid parking tickets
+
+Building open-source software for profit and fun

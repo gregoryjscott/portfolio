@@ -56,3 +56,19 @@ _links:
     - href: /os/osx/
     - href: /os/windows/
 ---
+
+Worked directly with clients during on all phases of the software development lifecycle
+
+Led the development of some of RDI's most challenging projects
+
+Developed business intelligence reporting applications to help clients track their terabytes of data and use it to make better business decisions
+
+Ensured my team of analysts, designers, and programmers were free of stress and enjoying their jobs
+
+Mentored junior developers by hosting roundtable meetings, pair-programming, and being an active participant in chatroom discussions
+
+Practiced agile and lean management and development techniques and led the effort of promoting them throughout RDI
+
+Started RDI's open-source initiatives and remain the largest contributor
+
+Impacted technology selection, project management, and people management across RDI
