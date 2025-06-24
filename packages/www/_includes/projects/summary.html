@@ -6,7 +6,7 @@
     <a href="{{ project._links.self.href }}">{{ project.title }}</a>
   </h{{ heading_level }}>
 
-  {% include role-year-range.html data=project %}
+  {% include year-range-role.html data=project %}
 
   {% if project.desc %}
   <p>{{ project.desc }}</p>
