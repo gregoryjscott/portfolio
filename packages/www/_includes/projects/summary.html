@@ -6,19 +6,7 @@
     <a href="{{ project._links.self.href }}">{{ project.title }}</a>
   </h{{ heading_level }}>
 
-  <p>
-    <em>
-      {{ project.role }},
-      {{ project.begin_year }}
-      {% unless project.begin_year == project.end_year %} -
-        {% if project.end_year %}
-          {{ project.end_year }}
-        {% else %}
-          present
-        {% endif %}
-      {% endunless %}
-    </em>
-  </p>
+  {% include year-range-role.html data=project %}
 
   {% if project.desc %}
   <p>{{ project.desc }}</p>
