@@ -1,0 +1,62 @@
+{% if include.resource._embedded.languages %}
+  <section>
+    <h2>Languages ({{ include.resource._embedded.languages | size }})</h2>
+    {% for item in include.resource._embedded.languages %}
+      {% include summary.html resource=item heading_level=3 %}
+    {% endfor %}
+  </section>
+{% endif %}
+
+{% if include.resource._embedded.projects %}
+  <section>
+    <h2>Projects ({{ include.resource._embedded.projects | size }})</h2>
+    {% for item in include.resource._embedded.projects %}
+      {% include summary.html resource=item heading_level=3 %}
+    {% endfor %}
+  </section>
+{% endif %}
+
+{% if include.resource._embedded.db %}
+  <section>
+    <h2>Databases ({{ include.resource._embedded.db | size }})</h2>
+    {% for item in include.resource._embedded.db %}
+      {% include summary.html resource=item heading_level=3 %}
+    {% endfor %}
+  </section>
+{% endif %}
+
+{% if include.resource._embedded.os %}
+  <section>
+    <h2>Operating Systems ({{ include.resource._embedded.os | size }})</h2>
+    {% for item in include.resource._embedded.os %}
+      {% include summary.html resource=item heading_level=3 %}
+    {% endfor %}
+  </section>
+{% endif %}
+
+{% if include.resource._embedded.tools %}
+  <section>
+    <h2>Tools ({{ include.resource._embedded.tools | size }})</h2>
+    {% for item in include.resource._embedded.tools %}
+      {% include summary.html resource=item heading_level=3 %}
+    {% endfor %}
+  </section>
+{% endif %}
+
+{% if include.resource._embedded.jobs %}
+  <section>
+    <h2>Jobs ({{ include.resource._embedded.jobs | size }})</h2>
+    {% for item in include.resource._embedded.jobs %}
+      {% include summary.html resource=item heading_level=3 %}
+    {% endfor %}
+  </section>
+{% endif %}
+
+{% if include.resource._embedded.schools %}
+  <section>
+    <h2>Schools ({{ include.resource._embedded.schools | size }})</h2>
+    {% for item in include.resource._embedded.schools %}
+      {% include summary.html resource=item heading_level=3 %}
+    {% endfor %}
+  </section>
+{% endif %}
