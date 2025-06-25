@@ -1,0 +1,16 @@
+<ul class="skills">
+  {% if include.resource._links.code %}
+    <li>
+      Code: <a href="{{ include.resource._links.code.href }}">{{ include.resource._links.code.title }}</a>
+    </li>
+  {% endif %}
+  {% if include.resource._embedded %}
+    {% include relation.html label='Projects' links=include.resource._embedded.projects %}
+    {% include relation.html label='Languages' links=include.resource._embedded.languages %}
+    {% include relation.html label='Databases' links=include.resource._embedded.db %}
+    {% include relation.html label='Operating Systems' links=include.resource._embedded.os %}
+    {% include relation.html label='Tools' links=include.resource._embedded.tools %}
+    {% include relation.html label='Schools' links=include.resource._embedded.schools %}
+    {% include relation.html label='Jobs' links=include.resource._embedded.jobs %}
+  {% endif %}
+</ul>
