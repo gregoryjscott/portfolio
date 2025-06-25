@@ -17,5 +17,5 @@ _links:
 {% include basic-info.html %}
 
 {% for item in page._embedded.schools %}
-{% include schools/summary.html school=item heading_level=2 %}
+  {% include summary.html resource=item heading_level=2 %}
 {% endfor %}

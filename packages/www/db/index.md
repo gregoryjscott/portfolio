@@ -24,5 +24,5 @@ _links:
 {% include basic-info.html %}
 
 {% for item in page._embedded.db %}
-{% include db/summary.html db=item heading_level=2 %}
+  {% include summary.html resource=item heading_level=2 %}
 {% endfor %}
