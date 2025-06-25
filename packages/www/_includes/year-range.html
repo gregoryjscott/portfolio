@@ -2,7 +2,7 @@
 {% assign max_year = 0 %}
 {% assign has_ongoing = false %}
 
-{% for project in include.data._embedded.projects %}
+{% for project in include.resource._embedded.projects %}
   {% if project.begin_year and project.begin_year < min_year %}
     {% assign min_year = project.begin_year %}
   {% endif %}
