@@ -207,8 +207,9 @@ _embedded:
                 - href: /os/linux/
         jobs:
           - title: Freelance Programmer
-            desc: Freelance Programmer and Consultant
-            role: Self
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
             begin_year: 2014
             end_year: null
             time_desc: July 2014 - present
@@ -515,8 +516,9 @@ _embedded:
                 - href: /os/windows/
         jobs:
           - title: Freelance Programmer
-            desc: Freelance Programmer and Consultant
-            role: Self
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
             begin_year: 2014
             end_year: null
             time_desc: July 2014 - present
@@ -824,8 +826,9 @@ _embedded:
                 - href: /os/windows/
         jobs:
           - title: Freelance Programmer
-            desc: Freelance Programmer and Consultant
-            role: Self
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
             begin_year: 2014
             end_year: null
             time_desc: July 2014 - present
@@ -957,9 +960,9 @@ _embedded:
                 - href: /tools/vpc/
         jobs:
           - title: Futuristic Education
-            desc: Founder of Futuristic Education, building automation technology for
-              schools
-            role: Founder/Programmer
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
             begin_year: 2018
             end_year: null
             time_desc: March 2018 - present
@@ -1431,8 +1434,9 @@ _embedded:
                 - href: /os/windows/
         jobs:
           - title: Freelance Programmer
-            desc: Freelance Programmer and Consultant
-            role: Self
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
             begin_year: 2014
             end_year: null
             time_desc: July 2014 - present
@@ -2151,8 +2155,9 @@ _embedded:
                 - href: /os/windows/
         jobs:
           - title: Freelance Programmer
-            desc: Freelance Programmer and Consultant
-            role: Self
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
             begin_year: 2014
             end_year: null
             time_desc: July 2014 - present
@@ -3118,8 +3123,16 @@ _embedded:
       _embedded:
         schools:
           - title: University of Central Oklahoma
-            desc: The University of Central Oklahoma (UCO) is a public university in Edmond,
-              Oklahoma founded in 1890.
+            subtitle: Bachelor of Science in Mathematics, 1998
+            desc: The University of Central Oklahoma (UCO), located in Edmond, Oklahoma, is
+              a public university known for its strong emphasis on
+              transformative learning and leadership development. As one of the
+              state's oldest institutions of higher education, UCO offers a
+              diverse range of undergraduate and graduate programs across fields
+              such as business, education, liberal arts, and the sciences. The
+              university fosters a student-centered environment focused on
+              academic excellence, community engagement, and real-world
+              experience.
             role: Student
             begin_year: 1994
             end_year: 1998
@@ -3159,8 +3172,16 @@ _embedded:
       _embedded:
         schools:
           - title: University of Central Oklahoma
-            desc: The University of Central Oklahoma (UCO) is a public university in Edmond,
-              Oklahoma founded in 1890.
+            subtitle: Bachelor of Science in Mathematics, 1998
+            desc: The University of Central Oklahoma (UCO), located in Edmond, Oklahoma, is
+              a public university known for its strong emphasis on
+              transformative learning and leadership development. As one of the
+              state's oldest institutions of higher education, UCO offers a
+              diverse range of undergraduate and graduate programs across fields
+              such as business, education, liberal arts, and the sciences. The
+              university fosters a student-centered environment focused on
+              academic excellence, community engagement, and real-world
+              experience.
             role: Student
             begin_year: 1994
             end_year: 1998
@@ -3203,8 +3224,16 @@ _embedded:
       _embedded:
         schools:
           - title: University of Central Oklahoma
-            desc: The University of Central Oklahoma (UCO) is a public university in Edmond,
-              Oklahoma founded in 1890.
+            subtitle: Bachelor of Science in Mathematics, 1998
+            desc: The University of Central Oklahoma (UCO), located in Edmond, Oklahoma, is
+              a public university known for its strong emphasis on
+              transformative learning and leadership development. As one of the
+              state's oldest institutions of higher education, UCO offers a
+              diverse range of undergraduate and graduate programs across fields
+              such as business, education, liberal arts, and the sciences. The
+              university fosters a student-centered environment focused on
+              academic excellence, community engagement, and real-world
+              experience.
             role: Student
             begin_year: 1994
             end_year: 1998
@@ -3233,8 +3262,16 @@ _embedded:
       _embedded:
         schools:
           - title: University of Central Oklahoma
-            desc: The University of Central Oklahoma (UCO) is a public university in Edmond,
-              Oklahoma founded in 1890.
+            subtitle: Bachelor of Science in Mathematics, 1998
+            desc: The University of Central Oklahoma (UCO), located in Edmond, Oklahoma, is
+              a public university known for its strong emphasis on
+              transformative learning and leadership development. As one of the
+              state's oldest institutions of higher education, UCO offers a
+              diverse range of undergraduate and graduate programs across fields
+              such as business, education, liberal arts, and the sciences. The
+              university fosters a student-centered environment focused on
+              academic excellence, community engagement, and real-world
+              experience.
             role: Student
             begin_year: 1994
             end_year: 1998
@@ -3264,8 +3301,16 @@ _embedded:
       _embedded:
         schools:
           - title: University of Central Oklahoma
-            desc: The University of Central Oklahoma (UCO) is a public university in Edmond,
-              Oklahoma founded in 1890.
+            subtitle: Bachelor of Science in Mathematics, 1998
+            desc: The University of Central Oklahoma (UCO), located in Edmond, Oklahoma, is
+              a public university known for its strong emphasis on
+              transformative learning and leadership development. As one of the
+              state's oldest institutions of higher education, UCO offers a
+              diverse range of undergraduate and graduate programs across fields
+              such as business, education, liberal arts, and the sciences. The
+              university fosters a student-centered environment focused on
+              academic excellence, community engagement, and real-world
+              experience.
             role: Student
             begin_year: 1994
             end_year: 1998
