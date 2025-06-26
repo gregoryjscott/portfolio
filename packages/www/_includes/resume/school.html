@@ -1,0 +1,10 @@
+{% assign school = include.school %}
+
+<section>
+  {% include header.html resource=school heading_level=3 %}
+
+  {{ school.content | markdownify }}
+
+  <p>Technologies:</p>
+  {% include relations-summary.html resource=school %}
+</section>
