@@ -66,8 +66,9 @@ _embedded:
       _embedded:
         jobs:
           - title: Freelance Programmer
-            desc: Freelance Programmer and Consultant
-            role: Self
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
             begin_year: 2014
             end_year: null
             time_desc: July 2014 - present
@@ -245,9 +246,9 @@ _embedded:
       _embedded:
         jobs:
           - title: Futuristic Education
-            desc: Founder of Futuristic Education, building automation technology for
-              schools
-            role: Founder/Programmer
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
             begin_year: 2018
             end_year: null
             time_desc: March 2018 - present
@@ -634,8 +635,9 @@ _embedded:
       _embedded:
         jobs:
           - title: Freelance Programmer
-            desc: Freelance Programmer and Consultant
-            role: Self
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
             begin_year: 2014
             end_year: null
             time_desc: July 2014 - present
@@ -3214,8 +3216,9 @@ _embedded:
       _embedded:
         jobs:
           - title: Freelance Programmer
-            desc: Freelance Programmer and Consultant
-            role: Self
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
             begin_year: 2014
             end_year: null
             time_desc: July 2014 - present
@@ -3737,8 +3740,9 @@ _embedded:
       _embedded:
         jobs:
           - title: Freelance Programmer
-            desc: Freelance Programmer and Consultant
-            role: Self
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
             begin_year: 2014
             end_year: null
             time_desc: July 2014 - present

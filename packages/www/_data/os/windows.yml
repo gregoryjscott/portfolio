@@ -629,8 +629,9 @@ _embedded:
           - href: /os/windows/
   jobs:
     - title: Freelance Programmer
-      desc: Freelance Programmer and Consultant
-      role: Self
+      desc: Freelance Programmer/Consultant, partnering with clients to architect and
+        implement technology solutions
+      role: Freelance Programmer
       begin_year: 2014
       end_year: null
       time_desc: July 2014 - present

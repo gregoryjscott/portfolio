@@ -1,6 +1,6 @@
 ---
 title: University of Central Oklahoma
-subtitle: Bachelor of Science in Mathematics, 1998
+subtitle: "Bachelor of Science in Mathematics, 1998"
 desc: >-
   The University of Central Oklahoma (UCO), located in Edmond, Oklahoma, is a
   public university known for its strong emphasis on transformative learning and
