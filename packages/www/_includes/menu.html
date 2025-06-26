@@ -1,0 +1,17 @@
+<input type="checkbox" id="menu-toggle" class="menu-checkbox" hidden />
+<header class="menu">
+  <label for="menu-toggle" class="menu-btn" aria-label="Toggle menu">
+    <span></span>
+  </label>
+  <div class="menu-overlay">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/resume/">Resume</a></li>
+      {% for resource in site.data.index.resources %}
+        {% assign resource_key = resource[0] %}
+        {% assign resource_data = resource[1] %}
+        <li><a href="/{{ resource_key }}/">{{ resource_data.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</header>

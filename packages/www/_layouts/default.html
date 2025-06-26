@@ -18,25 +18,7 @@
     <link rel="stylesheet" href="/assets/css/menu.css" />
   </head>
   <body>
-    <input type="checkbox" id="menu-toggle" class="menu-checkbox" hidden />
-    <header class="menu">
-      <label for="menu-toggle" class="menu-btn" aria-label="Toggle menu">
-        <span></span>
-      </label>
-      <div class="menu-overlay">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/resume">Resume</a></li>
-          <li><a href="/projects">Projects</a></li>
-          <li><a href="/languages">Languages</a></li>
-          <li><a href="/db">Databases</a></li>
-          <li><a href="/os">Operating Systems</a></li>
-          <li><a href="/tools">Tools</a></li>
-          <li><a href="/schools">Schools</a></li>
-          <li><a href="/jobs">Jobs</a></li>
-        </ul>
-      </div>
-    </header>
+    {% include menu.html %}
     <main>{{ content }}</main>
     <footer>
       <nav>
