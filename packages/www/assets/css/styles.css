@@ -25,6 +25,7 @@ main {
 }
 
 nav {
+  font-weight: bold;
   margin: 2rem 0;
 }
 

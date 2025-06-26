@@ -1,0 +1,12 @@
+{% for resource in site.data.index.resources %}
+  {% assign resource_key = resource[0] %}
+  {% assign resource_data = resource[1] %}
+  {% if include.resource._embedded[resource_key] %}
+    <section>
+      <h2>{{ resource_data.title }} ({{ include.resource._embedded[resource_key] | size }})</h2>
+      {% for item in include.resource._embedded[resource_key] %}
+        {% include summary.html resource=item heading_level=3 %}
+      {% endfor %}
+    </section>
+  {% endif %}
+{% endfor %}

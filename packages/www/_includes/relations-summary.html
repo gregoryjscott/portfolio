@@ -1,0 +1,18 @@
+<ul class="skills">
+  {% if include.resource._links.code %}
+    <li>
+      Code: <a href="{{ include.resource._links.code.href }}">{{ include.resource._links.code.title }}</a>
+    </li>
+  {% endif %}
+  {% if include.resource._embedded %}
+    {% for resource in site.data.index.resources %}
+      {% assign resource_key = resource[0] %}
+      {% assign resource_data = resource[1] %}
+      {% if include.resource._embedded[resource_key] %}
+        {% assign relation_label = resource_data.title %}
+        {% assign relation_links = include.resource._embedded[resource_key] %}
+        {% include relation.html label=relation_label links=relation_links %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+</ul>

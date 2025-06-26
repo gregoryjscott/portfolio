@@ -1,11 +1,9 @@
-{% assign project = include.data %}
-
 {% capture year_range -%}
-  {{ project.begin_year }}
-  {%- unless project.begin_year == project.end_year -%}
+  {{ include.resource.begin_year }}
+  {%- unless include.resource.begin_year == include.resource.end_year -%}
     &nbsp;–&nbsp;
-    {%- if project.end_year -%}
-      {{ project.end_year }}
+    {%- if include.resource.end_year -%}
+      {{ include.resource.end_year }}
     {%- else -%}
       present
     {%- endif -%}
@@ -13,5 +11,5 @@
 {%- endcapture %}
 
 <p>
-  <em>{{ year_range | strip }}, {{ project.role }}</em>
+  <em>{{ year_range | strip }}, {{ include.resource.role }}</em>
 </p>

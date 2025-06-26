@@ -1,0 +1,11 @@
+<section>
+  {% include header.html resource=include.resource heading_level=include.heading_level %}
+
+  {% if include.resource.desc %}
+    <p>{{ include.resource.desc }}</p>
+  {% endif %}
+
+  {% if include.resource._embedded %}
+    {% include relations-summary.html resource=include.resource %}
+  {% endif %}
+</section>

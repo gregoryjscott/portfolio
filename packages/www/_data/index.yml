@@ -1,2 +1,16 @@
-title: Hi, I'm Greg.
-desc: The website of Gregory J. Scott.
+# Note: the order of the resources below impacts how they are displayed by templates.
+resources:
+  projects:
+    title: Projects
+  languages:
+    title: Languages
+  db:
+    title: Databases
+  os:
+    title: Operating Systems
+  tools:
+    title: Tools
+  jobs:
+    title: Jobs
+  schools:
+    title: Schools

@@ -1,0 +1,19 @@
+<header>
+  <h{{ include.heading_level }}>
+    {% if include.heading_level > 1 %}
+      <a href="{{ include.resource._links.self.href }}">{{ include.resource.title }}</a>
+    {% else %}
+      {{ include.resource.title }}
+    {% endif %}
+  </h{{ include.heading_level }}>
+
+  {% if include.resource.role %}
+    {% include year-range-role.html resource=include.resource %}
+  {% else %}
+    {% include year-range.html resource=include.resource %}
+  {% endif %}
+
+  {% if include.resource.subtitle %}
+    <p>{{ include.resource.subtitle }}</p>
+  {% endif %}
+</header>

@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{% assign list_path_parts = page._links.self.href | split: '/' %}
+{% assign list_resource_key = list_path_parts[1] %}
+
+<nav>
+  <a href="{{ site.url }}">Home</a> /
+  {{ page.title }}
+</nav>
+
+<h1>{{ page.title }}</h1>
+
+{% if page.desc %}
+  <p>{{ page.desc }}</p>
+{% endif %}
+
+{% if page.content %}
+  {{ page.content | markdownify }}
+{% endif %}
+
+{% for item in page._embedded[list_resource_key] %}
+  {% include summary.html resource=item heading_level=2 %}
+{% endfor %}

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: list
 title: Languages
 desc: List of languages.
 _links:
@@ -26,14 +26,3 @@ _links:
     - href: /languages/tsql/
     - href: /languages/vb/
 ---
-
-<nav>
-  <a href="{{ site.url }}">Home</a> /
-  <a href="{{ page.url }}">{{ page.title }}</a>
-</nav>
-
-{% include basic-info.html %}
-
-{% for item in page._embedded.languages %}
-{% include languages/summary.html language=item heading_level=2 %}
-{% endfor %}
