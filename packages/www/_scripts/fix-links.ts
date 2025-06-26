@@ -14,8 +14,19 @@ const nonIndexResources = resources.filter(r => !r.isIndex)
 
 function fixSelfLinks() {
   for (const resource of resources) {
-    const links = findRelationLinks(resource, "self")
-    if (links.length > 0) continue
+    const selfLink = findRelationLinks(resource, "self")
+    const linkExists =
+      selfLink && (!Array.isArray(selfLink) || selfLink.length > 0)
+
+    if (linkExists) {
+      if (Array.isArray(selfLink)) {
+        console.warn(
+          `Resource ${resource.href} has a 'self' link that is an array. It should be a single object.`
+        )
+      }
+      continue
+    }
+
     resource.sourceMarkdown.data._links.self = { href: resource.href }
     writeMarkdown(
       resource.sourceMarkdown.path,
@@ -29,20 +40,33 @@ function fixNonIndexLinks() {
   for (const resource of nonIndexResources) {
     const relations = findRelations(resource)
     for (const relation of relations) {
-      const links = findRelationLinks(resource, relation)
+      const links = [].concat(findRelationLinks(resource, relation))
+
       for (const link of links) {
         const linkedResource = findResource(link, resources)
-        const linkedResourceLinks = findRelationLinks(
-          linkedResource,
-          resource.name
+        if (!linkedResource) continue
+
+        const backLinks = [].concat(
+          findRelationLinks(linkedResource, resource.name)
         )
-        if (!linkedResourceLinks.find(lrl => lrl.href === resource.href)) {
-          if (!linkedResource.sourceMarkdown.data._links[resource.name]) {
-            linkedResource.sourceMarkdown.data._links[resource.name] = []
+        const backLinkExists = backLinks.some(l => l.href === resource.href)
+
+        if (!backLinkExists) {
+          const existingBackLinks =
+            linkedResource.sourceMarkdown.data._links[resource.name]
+
+          if (!existingBackLinks) {
+            linkedResource.sourceMarkdown.data._links[resource.name] = {
+              href: resource.href,
+            }
+          } else if (Array.isArray(existingBackLinks)) {
+            existingBackLinks.push({ href: resource.href })
+          } else {
+            linkedResource.sourceMarkdown.data._links[resource.name] = [
+              existingBackLinks,
+              { href: resource.href },
+            ]
           }
-          linkedResource.sourceMarkdown.data._links[resource.name].push({
-            href: resource.href,
-          })
         }
       }
     }
@@ -61,6 +85,7 @@ function fixIndexLinks() {
     const directoryResources = nonIndexResources.filter(
       r => r.name === directory
     )
+    if (directoryResources.length === 0) continue
     const filePath = `${directory}/index.md`
     const { content, data } = matter.read(filePath)
     data._links[directory] = directoryResources.map(

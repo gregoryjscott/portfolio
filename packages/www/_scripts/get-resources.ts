@@ -11,6 +11,8 @@ export const resourceDirectories = [
   "projects",
   "schools",
   "tools",
+  // resume needs to be last b/c it references other "index" resources
+  "resume",
 ]
 const prompts = {
   db: title =>
@@ -95,14 +97,14 @@ export function findRelations(resource: Resource): string[] {
 export function findRelationLinks(
   resource: Resource,
   relation: string
-): { href: string }[] {
-  if (
-    !resource.sourceMarkdown.data._links ||
-    !resource.sourceMarkdown.data._links[relation]
-  ) {
+): { href: string } | { href: string }[] {
+  const links = resource.sourceMarkdown.data?._links?.[relation]
+
+  if (!links) {
     return []
   }
-  return resource.sourceMarkdown.data._links[relation]
+
+  return links
 }
 
 export function findResource(

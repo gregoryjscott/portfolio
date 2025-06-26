@@ -21,14 +21,28 @@ function embedLinkedResources(
     const relations = findRelations(resource)
     for (const relation of relations) {
       const links = findRelationLinks(resource, relation)
-      const linkedResources = links.map(link => {
-        const linkedResource = findResource(link, resources)
-        return { ...linkedResource[version].data }
-      })
-      if (!resource.targetYaml.data._embedded) {
-        resource.targetYaml.data._embedded = {}
+      let linkedResources
+
+      if (Array.isArray(links)) {
+        linkedResources = links
+          .map(link => {
+            const linkedResource = findResource(link, resources)
+            return linkedResource ? { ...linkedResource[version].data } : null
+          })
+          .filter(Boolean)
+      } else {
+        const linkedResource = findResource(links, resources)
+        if (linkedResource) {
+          linkedResources = { ...linkedResource[version].data }
+        }
       }
-      resource.targetYaml.data._embedded[relation] = linkedResources
+
+      if (typeof linkedResources !== "undefined") {
+        if (!resource.targetYaml.data._embedded) {
+          resource.targetYaml.data._embedded = {}
+        }
+        resource.targetYaml.data._embedded[relation] = linkedResources
+      }
     }
     writeYAML(resource.targetYaml.path, resource.targetYaml.data)
   }

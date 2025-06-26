@@ -4,105 +4,68 @@ export function sortEmbedded(data: { _embedded: any }) {
   if (!data?._embedded) return data
 
   if (data._embedded?.db) {
-    data = {
-      ...data,
-      _embedded: {
-        ...data._embedded,
-        db: byRecentProjects(data._embedded.db),
-      },
-    }
-    data = {
-      ...data,
-      _embedded: {
-        ...data._embedded,
-        db: data._embedded.db.map(sortEmbedded),
-      },
-    }
+    data = sortEmbeddedResource("db", data, byRecentProjects)
   }
 
   if (data._embedded?.jobs) {
-    data = {
-      ...data,
-      _embedded: {
-        ...data._embedded,
-        jobs: byRecent(data._embedded.jobs),
-      },
-    }
-    data = {
-      ...data,
-      _embedded: {
-        ...data._embedded,
-        jobs: data._embedded.jobs.map(sortEmbedded),
-      },
-    }
+    data = sortEmbeddedResource("jobs", data, byRecent)
   }
 
   if (data._embedded?.languages) {
-    data = {
-      ...data,
-      _embedded: {
-        ...data._embedded,
-        languages: byRecentProjects(data._embedded.languages),
-      },
-    }
-    data = {
-      ...data,
-      _embedded: {
-        ...data._embedded,
-        languages: data._embedded.languages.map(sortEmbedded),
-      },
-    }
+    data = sortEmbeddedResource("languages", data, byRecentProjects)
   }
 
   if (data._embedded?.os) {
-    data = {
-      ...data,
-      _embedded: {
-        ...data._embedded,
-        os: byRecentProjects(data._embedded.os),
-      },
-    }
-    data = {
-      ...data,
-      _embedded: {
-        ...data._embedded,
-        os: data._embedded.os.map(sortEmbedded),
-      },
-    }
+    data = sortEmbeddedResource("os", data, byRecentProjects)
   }
 
   if (data._embedded?.projects) {
+    data = sortEmbeddedResource("projects", data, byRecent)
+  }
+
+  if (data._embedded?.schools) {
+    data = sortEmbeddedResource("schools", data, byRecent)
+  }
+
+  if (data._embedded?.tools) {
+    data = sortEmbeddedResource("tools", data, byMostProjects)
+  }
+
+  return data
+}
+
+function sortEmbeddedResource(
+  resourceName: string,
+  data: { _embedded: any },
+  sortMethod: (items) => any
+): { _embedded: any } {
+  if (Array.isArray(data._embedded[resourceName])) {
     data = {
       ...data,
       _embedded: {
         ...data._embedded,
-        projects: byRecent(data._embedded.projects),
+        [resourceName]: sortMethod(data._embedded[resourceName]),
       },
     }
+  } else {
+    // The embedded resource must be an "index" object, so use __its__ embedded resource.
     data = {
       ...data,
       _embedded: {
         ...data._embedded,
-        projects: data._embedded.projects.map(sortEmbedded),
+        [resourceName]: sortMethod(
+          data._embedded[resourceName]._embedded[resourceName]
+        ),
       },
     }
   }
 
-  if (data._embedded?.tools) {
-    data = {
-      ...data,
-      _embedded: {
-        ...data._embedded,
-        tools: byMostProjects(data._embedded.tools),
-      },
-    }
-    data = {
-      ...data,
-      _embedded: {
-        ...data._embedded,
-        tools: data._embedded.tools.map(sortEmbedded),
-      },
-    }
+  data = {
+    ...data,
+    _embedded: {
+      ...data._embedded,
+      [resourceName]: data._embedded[resourceName].map(sortEmbedded),
+    },
   }
 
   return data
