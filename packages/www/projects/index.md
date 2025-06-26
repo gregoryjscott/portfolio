@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: list
 title: Projects
 desc: List of projects.
 _links:
@@ -42,14 +42,3 @@ _links:
     - href: /projects/wengage-acct/
     - href: /projects/wengage-si/
 ---
-
-<nav>
-  <a href="{{ site.url }}">Home</a> /
-  <a href="{{ page.url }}">{{ page.title }}</a>
-</nav>
-
-{% include basic-info.html %}
-
-{% for item in page._embedded.projects %}
-  {% include summary.html resource=item heading_level=2 %}
-{% endfor %}

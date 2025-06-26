@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: list
 title: Databases
 desc: List of databases.
 _links:
@@ -15,14 +15,3 @@ _links:
     - href: /db/sql-server/
     - href: /db/sqlite/
 ---
-
-<nav>
-  <a href="{{ site.url }}">Home</a> /
-  <a href="{{ page.url }}">{{ page.title }}</a>
-</nav>
-
-{% include basic-info.html %}
-
-{% for item in page._embedded.db %}
-  {% include summary.html resource=item heading_level=2 %}
-{% endfor %}
