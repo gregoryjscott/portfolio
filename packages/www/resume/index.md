@@ -40,7 +40,7 @@ _links:
 ## Experience
 
 {% for item in page._embedded.jobs %}
-   {% include summary.html resource=item heading_level=3 %}
+   {% include resume/job.html job=item %}
 {% endfor %}
 
 </section>
@@ -50,7 +50,7 @@ _links:
 ## Education
 
 {% for item in page._embedded.schools %}
-   {% include summary.html resource=item heading_level=3 %}
+   {% include resume/school.html school=item %}
 {% endfor %}
 
 </section>
