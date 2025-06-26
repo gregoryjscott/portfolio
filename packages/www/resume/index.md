@@ -4,6 +4,11 @@ title: Gregory J. Scott
 _links:
   self:
     href: /resume/
+  projects:
+    - href: /projects/epicloud/
+    - href: /projects/qb/
+    - href: /projects/sif-agent/
+    - href: /projects/mission-data-loader/
   languages:
     href: /languages/
   db:
@@ -25,7 +30,13 @@ _links:
 
 <section markdown="1">
 
-{% include resume/contact.md %}
+{% include resume/intro.md %}
+
+</section>
+
+<section markdown="1">
+
+{% include resume/highlights.md %}
 
 </section>
 

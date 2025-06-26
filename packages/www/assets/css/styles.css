@@ -65,7 +65,7 @@ p {
   margin: 2rem 0;
 }
 
-ul.skills {
+ul.skills, .contact {
   list-style: none;
   padding-left: 2rem;
 }
