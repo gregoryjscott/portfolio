@@ -1,6 +1,9 @@
 ---
 title: Gregory J. Scott
 layout: default
+_links:
+  self:
+    href: /resume/
 ---
 
 <section markdown="1">
