@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{% assign details_path_parts = page._links.self.href | split: '/' %}
+{% assign details_resource_key = details_path_parts[1] %}
+{% assign details_resource_title = site.data.index.resources[details_resource_key].title %}
+
+<nav>
+  <a href="{{ site.url }}">Home</a> /
+  <a href="{{ site.url }}/{{ details_resource_key }}">{{ details_resource_title}}</a> /
+  {{ page.title }}
+</nav>
+
+{% include header.html resource=page heading_level=1 %}
+
+{% if page.desc %}
+  <p>{{ page.desc }}</p>
+{% endif %}
+
+{% if page.content %}
+  {{ page.content | markdownify }}
+{% endif %}
+
+{% include relations-details.html resource=page %}

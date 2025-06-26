@@ -1,2 +1,15 @@
-title: Hi, I'm Greg.
-desc: The website of Gregory J. Scott.
+resources:
+  db:
+    title: Databases
+  jobs:
+    title: Jobs
+  languages:
+    title: Languages
+  os:
+    title: Operating Systems
+  projects:
+    title: Projects
+  schools:
+    title: Schools
+  tools:
+    title: Tools

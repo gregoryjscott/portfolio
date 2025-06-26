@@ -12,40 +12,40 @@ defaults:
     path: "db"
     type: "pages"
   values:
-    layout: "db"
+    layout: "details"
 
 - scope:
     path: "jobs"
     type: "pages"
   values:
-    layout: "job"
+    layout: "details"
 
 - scope:
     path: "languages"
     type: "pages"
   values:
-    layout: "language"
+    layout: "details"
 
 - scope:
     path: "os"
     type: "pages"
   values:
-    layout: "os"
+    layout: "details"
 
 - scope:
     path: "projects"
     type: "pages"
   values:
-    layout: "project"
+    layout: "details"
 
 - scope:
     path: "schools"
     type: "pages"
   values:
-    layout: "school"
+    layout: "details"
 
 - scope:
     path: "tools"
     type: "pages"
   values:
-    layout: "tool"
+    layout: "details"
