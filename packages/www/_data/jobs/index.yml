@@ -58,6 +58,7 @@ _embedded:
       _embedded:
         projects:
           - title: EpiCloud
+            subtitle: Infinitely Scaling Bots using AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -1047,6 +1048,7 @@ _embedded:
               os:
                 - href: /os/windows/
           - title: Quality Bank
+            subtitle: Invoicing $1 Billion/Month for Oil Pipeline
             desc: Web application that manages the workflow, pricing data, sampling data,
               volume data, and invoicing for the Trans-Alaska Pipeline System.
             role: Technical Lead
@@ -1780,6 +1782,7 @@ _embedded:
       _embedded:
         projects:
           - title: SIF Agent
+            subtitle: Integrating Schools with State of Oklahoma
             desc: Schools Interoperability Framework (SIF) compliant agent that allows the
               Oklahoma State Department of Education to submit queries and
               receive real-time student data changes from schools in Oklahoma.
@@ -2083,6 +2086,7 @@ _embedded:
               os:
                 - href: /os/solaris/
           - title: Mission Data Loader
+            subtitle: Distributing Mission Data to B-1 Bombers
             desc: Thread responsible for reading the contents of a cartridge containing
               mission data and distributing it throughout the avionic flight
               software.
