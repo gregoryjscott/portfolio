@@ -1,5 +1,6 @@
 ---
 title: SIF Agent
+subtitle: Integrating Schools with State of Oklahoma
 desc: >-
   Schools Interoperability Framework (SIF) compliant agent that allows the
   Oklahoma State Department of Education to submit queries and receive real-time
