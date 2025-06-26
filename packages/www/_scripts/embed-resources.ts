@@ -18,6 +18,9 @@ function embedLinkedResources(
 ) {
   for (const resource of resourcesToUpdate) {
     resource.targetYaml.data = { ...resource.sourceMarkdown.data }
+    if (resource.sourceMarkdown.content) {
+      resource.targetYaml.data.content = resource.sourceMarkdown.content.trim()
+    }
     const relations = findRelations(resource)
     for (const relation of relations) {
       const links = findRelationLinks(resource, relation)
