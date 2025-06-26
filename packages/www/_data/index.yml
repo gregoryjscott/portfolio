@@ -1,15 +1,16 @@
+# Note: the order of the resources below impacts how they are displayed by templates.
 resources:
-  db:
-    title: Databases
-  jobs:
-    title: Jobs
-  languages:
-    title: Languages
-  os:
-    title: Operating Systems
   projects:
     title: Projects
-  schools:
-    title: Schools
+  languages:
+    title: Languages
+  db:
+    title: Databases
+  os:
+    title: Operating Systems
   tools:
     title: Tools
+  jobs:
+    title: Jobs
+  schools:
+    title: Schools
