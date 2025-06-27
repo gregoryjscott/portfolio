@@ -311,6 +311,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
           - title: Centroid
             desc: Library for accessing environment based configuration from multiple
               different programming languages.
@@ -437,6 +438,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
               implement technology solutions

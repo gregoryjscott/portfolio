@@ -20,6 +20,7 @@ _links:
     - href: /tools/node/
     - href: /tools/puppeteer/
     - href: /tools/s3/
+    - href: /tools/sikulix/
     - href: /tools/sqs/
     - href: /tools/tracker/
     - href: /tools/vpc/

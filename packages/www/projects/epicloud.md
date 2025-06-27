@@ -34,4 +34,5 @@ _links:
     - href: /tools/sqs/
     - href: /tools/tracker/
     - href: /tools/vpc/
+    - href: /tools/sikulix/
 ---

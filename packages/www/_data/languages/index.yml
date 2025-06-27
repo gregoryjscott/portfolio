@@ -101,6 +101,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -138,6 +139,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: Ruby
       desc: Ruby is an open-source, object-oriented programming language created by
         Yukihiro Matsumoto in 1995. It is designed to be simple and easy to use,

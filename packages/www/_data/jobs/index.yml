@@ -48,6 +48,7 @@ _embedded:
           - href: /tools/sqs/
           - href: /tools/tracker/
           - href: /tools/vpc/
+          - href: /tools/sikulix/
       content: >-
         - Built the cloud-based backend integration and automation services for
         one of the largest online charter schools in the United States
@@ -92,6 +93,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         db:
           - title: BigQuery
             desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
@@ -151,6 +153,22 @@ _embedded:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
         tools:
+          - title: SikuliX
+            desc: SikuliX is an open-source GUI automation tool that uses image recognition
+              to interact with on-screen elements by matching screenshots. It
+              lets you write scripts in Python (via Jython), Java, and other JVM
+              languages to click, type, and verify UI states without needing
+              native application hooks. Built on OpenCV, SikuliX works across
+              Windows, macOS, and Linux, making it ideal for automating legacy
+              or custom interfaces and integrating with testing frameworks for
+              end-to-end automation or repetitive desktop task scripting.
+            _links:
+              self:
+                href: /tools/sikulix/
+              projects:
+                - href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
           - title: Amazon Virtual Private Cloud (VPC)
             desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
               provides users with a virtual private cloud, allowing them to

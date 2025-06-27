@@ -50,6 +50,7 @@ _embedded:
           - href: /tools/sqs/
           - href: /tools/tracker/
           - href: /tools/vpc/
+          - href: /tools/sikulix/
   jobs:
     - title: Futuristic Education
       desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -87,3 +88,4 @@ _embedded:
           - href: /tools/sqs/
           - href: /tools/tracker/
           - href: /tools/vpc/
+          - href: /tools/sikulix/

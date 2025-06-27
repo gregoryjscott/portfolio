@@ -1,13 +1,14 @@
-title: Node
-desc: Node.js is an open-source, cross-platform JavaScript runtime environment
-  that executes JavaScript code outside of a browser. It is used to create
-  server-side and networking applications. Node.js applications are written in
-  JavaScript and can be run within the Node.js runtime on OS X, Microsoft
-  Windows, and Linux. Node.js also provides a rich library of various JavaScript
-  modules which simplifies the development of web applications using Node.js.
+title: SikuliX
+desc: SikuliX is an open-source GUI automation tool that uses image recognition
+  to interact with on-screen elements by matching screenshots. It lets you write
+  scripts in Python (via Jython), Java, and other JVM languages to click, type,
+  and verify UI states without needing native application hooks. Built on
+  OpenCV, SikuliX works across Windows, macOS, and Linux, making it ideal for
+  automating legacy or custom interfaces and integrating with testing frameworks
+  for end-to-end automation or repetitive desktop task scripting.
 _links:
   self:
-    href: /tools/node/
+    href: /tools/sikulix/
   projects:
     - href: /projects/epicloud/
   jobs:

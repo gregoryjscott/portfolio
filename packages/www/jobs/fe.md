@@ -36,6 +36,7 @@ _links:
     - href: /tools/sqs/
     - href: /tools/tracker/
     - href: /tools/vpc/
+    - href: /tools/sikulix/
 ---
 
 - Built the cloud-based backend integration and automation services for one of the largest online charter schools in the United States

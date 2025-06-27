@@ -116,6 +116,7 @@ _embedded:
           - href: /tools/sqs/
           - href: /tools/tracker/
           - href: /tools/vpc/
+          - href: /tools/sikulix/
       _embedded:
         jobs:
           - title: Futuristic Education
@@ -154,6 +155,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         languages:
           - title: Typescript
             desc: Typescript is a typed superset of JavaScript that compiles to plain
@@ -213,6 +215,22 @@ _embedded:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
         tools:
+          - title: SikuliX
+            desc: SikuliX is an open-source GUI automation tool that uses image recognition
+              to interact with on-screen elements by matching screenshots. It
+              lets you write scripts in Python (via Jython), Java, and other JVM
+              languages to click, type, and verify UI states without needing
+              native application hooks. Built on OpenCV, SikuliX works across
+              Windows, macOS, and Linux, making it ideal for automating legacy
+              or custom interfaces and integrating with testing frameworks for
+              end-to-end automation or repetitive desktop task scripting.
+            _links:
+              self:
+                href: /tools/sikulix/
+              projects:
+                - href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
           - title: Amazon Virtual Private Cloud (VPC)
             desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
               provides users with a virtual private cloud, allowing them to
@@ -1154,6 +1172,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -1191,6 +1210,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: Ruby
       desc: Ruby is an open-source, object-oriented programming language created by
         Yukihiro Matsumoto in 1995. It is designed to be simple and easy to use,
@@ -4466,6 +4486,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -4503,6 +4524,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: Postgres
       desc: Postgres is an open source object-relational database management system
         (ORDBMS) developed by the PostgreSQL Global Development Group. It is
@@ -5841,6 +5863,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
           - title: Denver Schedules API
             desc: JSON API that provides access to Denver activities that impact the
               residents of Denver.
@@ -5967,6 +5990,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
               implement technology solutions
@@ -6995,6 +7019,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -7032,6 +7057,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: Pivotal Tracker
       desc: Pivotal Tracker is an agile project management tool that helps teams
         collaborate and manage their projects. It provides a visual timeline of
@@ -7083,6 +7109,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -7120,6 +7147,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: Amazon Simple Queue Service (SQS)
       desc: Amazon Simple Queue Service (SQS) is a fully managed message queuing
         service that enables applications to quickly and reliably queue messages
@@ -7174,6 +7202,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -7211,6 +7240,99 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
+    - title: SikuliX
+      desc: SikuliX is an open-source GUI automation tool that uses image recognition
+        to interact with on-screen elements by matching screenshots. It lets you
+        write scripts in Python (via Jython), Java, and other JVM languages to
+        click, type, and verify UI states without needing native application
+        hooks. Built on OpenCV, SikuliX works across Windows, macOS, and Linux,
+        making it ideal for automating legacy or custom interfaces and
+        integrating with testing frameworks for end-to-end automation or
+        repetitive desktop task scripting.
+      _links:
+        self:
+          href: /tools/sikulix/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+      _embedded:
+        projects:
+          - title: EpiCloud
+            subtitle: Infinitely Scaling Bots using AWS
+            desc: null
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/ddb/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/lerna/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/tracker/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
+        jobs:
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: null
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epicloud/
+              db:
+                - href: /db/bigquery/
+              languages:
+                - href: /languages/ts/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/ddb/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/lerna/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/tracker/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: Amazon Simple Storage Service (S3)
       desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
         Amazon Web Services (AWS). It provides object storage through a web
@@ -7263,6 +7385,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -7300,6 +7423,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: Puppeteer
       desc: Puppeteer is a Node library developed by Google that provides a high-level
         API to control headless Chrome or Chromium over the DevTools Protocol.
@@ -7352,6 +7476,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -7389,6 +7514,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: Node
       desc: Node.js is an open-source, cross-platform JavaScript runtime environment
         that executes JavaScript code outside of a browser. It is used to create
@@ -7441,6 +7567,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -7478,6 +7605,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: Lerna
       desc: Lerna is a tool that optimizes the workflow around managing multi-package
         repositories with git and npm. It allows developers to easily create,
@@ -7530,6 +7658,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -7567,6 +7696,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: AWS Identity and Access Management (IAM)
       desc: AWS Identity and Access Management (IAM) is a web service that helps you
         securely control access to AWS resources. With IAM, you can create and
@@ -7619,6 +7749,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -7656,6 +7787,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: Google Firebase
       desc: Google Firebase is a mobile and web application development platform that
         provides developers with a variety of tools and services to help them
@@ -7708,6 +7840,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -7745,6 +7878,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: Fargate
       desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
         deploy and manage containers without having to manage the underlying
@@ -7797,6 +7931,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -7834,6 +7969,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: Amazon Elastic Container Service (ECS)
       desc: Amazon Elastic Container Service (ECS) is a container orchestration
         service from Amazon Web Services (AWS) that enables users to easily
@@ -7886,6 +8022,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -7923,6 +8060,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: Amazon Elastic Container Registry (ECR)
       desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
         container registry that makes it easy to store, manage, and deploy
@@ -7975,6 +8113,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -8012,6 +8151,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: Amazon Elastic Compute Cloud (EC2)
       desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
         resizable compute capacity in the cloud. It is designed to make
@@ -8064,6 +8204,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -8101,6 +8242,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: Google Drive
       desc: Google Drive is a cloud storage service that allows users to store and
         access their files from any device with an internet connection. It
@@ -8154,6 +8296,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -8191,6 +8334,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: Docker
       desc: Docker is an open-source platform for developing, shipping, and running
         applications. It uses container technology to package applications into
@@ -8242,6 +8386,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -8279,6 +8424,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: DynamoDB
       desc: Amazon DynamoDB is a fully managed NoSQL database service that provides
         fast and predictable performance with seamless scalability. It is a
@@ -8331,6 +8477,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -8368,6 +8515,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: Google Classroom
       desc: Google Classroom is a free web-based platform that allows teachers to
         create and manage virtual classrooms. It enables teachers to easily
@@ -8420,6 +8568,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -8457,6 +8606,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
   jobs:
     - title: Futuristic Education
       desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -8494,6 +8644,7 @@ _embedded:
           - href: /tools/sqs/
           - href: /tools/tracker/
           - href: /tools/vpc/
+          - href: /tools/sikulix/
       content: >-
         - Built the cloud-based backend integration and automation services for
         one of the largest online charter schools in the United States
@@ -8538,6 +8689,7 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         db:
           - title: BigQuery
             desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
@@ -8597,6 +8749,22 @@ _embedded:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
         tools:
+          - title: SikuliX
+            desc: SikuliX is an open-source GUI automation tool that uses image recognition
+              to interact with on-screen elements by matching screenshots. It
+              lets you write scripts in Python (via Jython), Java, and other JVM
+              languages to click, type, and verify UI states without needing
+              native application hooks. Built on OpenCV, SikuliX works across
+              Windows, macOS, and Linux, making it ideal for automating legacy
+              or custom interfaces and integrating with testing frameworks for
+              end-to-end automation or repetitive desktop task scripting.
+            _links:
+              self:
+                href: /tools/sikulix/
+              projects:
+                - href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
           - title: Amazon Virtual Private Cloud (VPC)
             desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
               provides users with a virtual private cloud, allowing them to
