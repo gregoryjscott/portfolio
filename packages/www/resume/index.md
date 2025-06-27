@@ -48,15 +48,7 @@ Contact:
 ## Skills
 
 {% for resource in site.data.index.resources %}
-  {% assign resource_key = resource[0] %}
-  {% assign resource_data = resource[1] %}
-  {% if resource_data.is_skill and page._embedded[resource_key] %}
-    {% assign relation_links = page._embedded[resource_key] %}
-<section>
-  <h3><a href="/{{ resource_key }}/">{{ resource_data.title }}</a></h3>
-  <p>{% include relation-links.html links=relation_links %}</p>
-</section>
-  {% endif %}
+  {% include resume/skill.html site_resource=resource embedded=page._embedded %}
 {% endfor %}
 
 ## Experience
