@@ -1445,6 +1445,7 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
           - title: Wen-GAGE Student Information
             desc: Desktop application that is used by schools in Oklahoma to manage their
               student information such as enrollment, attendance, and grades.
@@ -1464,6 +1465,7 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
         jobs:
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -1572,6 +1574,7 @@ _embedded:
                 - href: /languages/sql/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
     - title: Python
       desc: Python is a high-level, interpreted, general-purpose programming language.
         It is an easy-to-learn, powerful language that is used for web
@@ -2295,6 +2298,7 @@ _embedded:
                 - href: /languages/sql/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
     - title: Transact-SQL
       desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
         with relational databases. It is a set-based, declarative programming
@@ -2996,6 +3000,7 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
           - title: Wen-GAGE Student Information
             desc: Desktop application that is used by schools in Oklahoma to manage their
               student information such as enrollment, attendance, and grades.
@@ -3015,6 +3020,7 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
           - title: Class Scheduler
             desc: Process that takes student course requests along with the available
               courses, sections, and teachers and builds the class schedule.
@@ -3030,8 +3036,10 @@ _embedded:
                 - href: /languages/delphi/
               db:
                 - href: /db/btrieve/
+                - href: /db/pervasive/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
         jobs:
           - title: Municipal Accounting Systems, Inc.
             desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
@@ -3058,6 +3066,7 @@ _embedded:
                 - href: /languages/sql/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
     - title: Ada 95
       desc: Ada 95 is a high-level, structured, statically typed, object-oriented
         programming language designed for real-time, embedded, and distributed

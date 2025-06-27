@@ -959,6 +959,7 @@ _embedded:
           - href: /projects/sif-agent/
           - href: /projects/wengage-acct/
           - href: /projects/wengage-si/
+          - href: /projects/class-scheduler/
         jobs:
           - href: /jobs/mas/
       _embedded:
@@ -1002,6 +1003,7 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
           - title: Wen-GAGE Student Information
             desc: Desktop application that is used by schools in Oklahoma to manage their
               student information such as enrollment, attendance, and grades.
@@ -1021,6 +1023,26 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
+          - title: Class Scheduler
+            desc: Process that takes student course requests along with the available
+              courses, sections, and teachers and builds the class schedule.
+            role: Lead Developer
+            begin_year: 1999
+            end_year: 1999
+            _links:
+              self:
+                href: /projects/class-scheduler/
+              jobs:
+                - href: /jobs/mas/
+              languages:
+                - href: /languages/delphi/
+              db:
+                - href: /db/btrieve/
+                - href: /db/pervasive/
+              os:
+                - href: /os/windows/
+                - href: /os/netware/
         jobs:
           - title: Municipal Accounting Systems, Inc.
             desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
@@ -1047,6 +1069,7 @@ _embedded:
                 - href: /languages/sql/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
     - title: Btrieve
       desc: Btrieve is a database management system (DBMS) developed by Pervasive
         Software. It is a high-performance, reliable, and cost-effective
@@ -1087,6 +1110,7 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
           - title: Wen-GAGE Student Information
             desc: Desktop application that is used by schools in Oklahoma to manage their
               student information such as enrollment, attendance, and grades.
@@ -1106,6 +1130,7 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
           - title: Class Scheduler
             desc: Process that takes student course requests along with the available
               courses, sections, and teachers and builds the class schedule.
@@ -1121,8 +1146,10 @@ _embedded:
                 - href: /languages/delphi/
               db:
                 - href: /db/btrieve/
+                - href: /db/pervasive/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
         jobs:
           - title: Municipal Accounting Systems, Inc.
             desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
@@ -1149,3 +1176,4 @@ _embedded:
                 - href: /languages/sql/
               os:
                 - href: /os/windows/
+                - href: /os/netware/

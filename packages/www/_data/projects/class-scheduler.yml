@@ -13,8 +13,10 @@ _links:
     - href: /languages/delphi/
   db:
     - href: /db/btrieve/
+    - href: /db/pervasive/
   os:
     - href: /os/windows/
+    - href: /os/netware/
 _embedded:
   jobs:
     - title: Municipal Accounting Systems, Inc.
@@ -42,6 +44,7 @@ _embedded:
           - href: /languages/sql/
         os:
           - href: /os/windows/
+          - href: /os/netware/
   languages:
     - title: Delphi
       desc: Delphi is an object-oriented programming language developed by Embarcadero
@@ -63,6 +66,26 @@ _embedded:
         jobs:
           - href: /jobs/mas/
   db:
+    - title: Pervasive
+      desc: Pervasive is a relational database management system (RDBMS) that is
+        designed to provide high performance, scalability, and reliability for
+        mission-critical applications. It is a cost-effective solution for
+        businesses of all sizes, and is used to store and manage data in a
+        secure and reliable manner. Pervasive is optimized for both online
+        transaction processing (OLTP) and online analytical processing (OLAP)
+        applications, and is compatible with a variety of operating systems,
+        including Windows, Linux, and Mac OS X. It also supports a wide range of
+        programming languages, including SQL, Java, and C#.
+      _links:
+        self:
+          href: /db/pervasive/
+        projects:
+          - href: /projects/sif-agent/
+          - href: /projects/wengage-acct/
+          - href: /projects/wengage-si/
+          - href: /projects/class-scheduler/
+        jobs:
+          - href: /jobs/mas/
     - title: Btrieve
       desc: Btrieve is a database management system (DBMS) developed by Pervasive
         Software. It is a high-performance, reliable, and cost-effective
@@ -83,6 +106,25 @@ _embedded:
         jobs:
           - href: /jobs/mas/
   os:
+    - title: NetWare
+      desc: NetWare is a network operating system developed by Novell, Inc. It was one
+        of the first network operating systems to be widely used in business
+        networks. It provides a distributed file system, print services, and
+        other network services. It also provides a graphical user interface,
+        allowing users to access and manage network resources. NetWare also
+        supports a wide range of network protocols, including IPX/SPX, TCP/IP,
+        and AppleTalk. It is also compatible with a variety of hardware
+        platforms, including Intel-based PCs, Macintosh computers, and UNIX
+        systems.
+      _links:
+        self:
+          href: /os/netware/
+        jobs:
+          - href: /jobs/mas/
+        projects:
+          - href: /projects/class-scheduler/
+          - href: /projects/wengage-acct/
+          - href: /projects/wengage-si/
     - title: Windows
       desc: Windows is a series of operating systems developed by Microsoft. It is the
         most popular operating system for personal computers, and is used in a

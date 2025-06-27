@@ -593,6 +593,7 @@ _embedded:
           - href: /db/pervasive/
         os:
           - href: /os/windows/
+          - href: /os/netware/
     - title: Wen-GAGE Student Information
       desc: Desktop application that is used by schools in Oklahoma to manage their
         student information such as enrollment, attendance, and grades.
@@ -612,6 +613,7 @@ _embedded:
           - href: /db/pervasive/
         os:
           - href: /os/windows/
+          - href: /os/netware/
     - title: Class Scheduler
       desc: Process that takes student course requests along with the available
         courses, sections, and teachers and builds the class schedule.
@@ -627,8 +629,10 @@ _embedded:
           - href: /languages/delphi/
         db:
           - href: /db/btrieve/
+          - href: /db/pervasive/
         os:
           - href: /os/windows/
+          - href: /os/netware/
   jobs:
     - title: Freelance Programmer
       desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -737,3 +741,4 @@ _embedded:
           - href: /languages/sql/
         os:
           - href: /os/windows/
+          - href: /os/netware/

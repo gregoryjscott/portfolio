@@ -10,3 +10,97 @@ desc: NetWare is a network operating system developed by Novell, Inc. It was one
 _links:
   self:
     href: /os/netware/
+  jobs:
+    - href: /jobs/mas/
+  projects:
+    - href: /projects/class-scheduler/
+    - href: /projects/wengage-acct/
+    - href: /projects/wengage-si/
+_embedded:
+  jobs:
+    - title: Municipal Accounting Systems, Inc.
+      desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
+        Shawnee, Oklahoma that provides accounting and student information
+        software solutions to school districts in Oklahoma
+      role: Lead Programmer
+      begin_year: 1999
+      end_year: 2005
+      time_desc: November 1999 - June 2005
+      _links:
+        self:
+          href: /jobs/mas/
+        projects:
+          - href: /projects/class-scheduler/
+          - href: /projects/sif-agent/
+          - href: /projects/wengage-acct/
+          - href: /projects/wengage-si/
+        db:
+          - href: /db/btrieve/
+          - href: /db/pervasive/
+        languages:
+          - href: /languages/delphi/
+          - href: /languages/cs/
+          - href: /languages/sql/
+        os:
+          - href: /os/windows/
+          - href: /os/netware/
+  projects:
+    - title: Wen-GAGE Accounting
+      desc: Desktop application that is used by schools in Oklahoma to manage all
+        their school accounting responsibilites.
+      role: Lead Developer
+      begin_year: 1999
+      end_year: 2004
+      _links:
+        self:
+          href: /projects/wengage-acct/
+        jobs:
+          - href: /jobs/mas/
+        languages:
+          - href: /languages/delphi/
+          - href: /languages/sql/
+        db:
+          - href: /db/btrieve/
+          - href: /db/pervasive/
+        os:
+          - href: /os/windows/
+          - href: /os/netware/
+    - title: Wen-GAGE Student Information
+      desc: Desktop application that is used by schools in Oklahoma to manage their
+        student information such as enrollment, attendance, and grades.
+      role: Lead Developer
+      begin_year: 1999
+      end_year: 2004
+      _links:
+        self:
+          href: /projects/wengage-si/
+        jobs:
+          - href: /jobs/mas/
+        languages:
+          - href: /languages/delphi/
+          - href: /languages/sql/
+        db:
+          - href: /db/btrieve/
+          - href: /db/pervasive/
+        os:
+          - href: /os/windows/
+          - href: /os/netware/
+    - title: Class Scheduler
+      desc: Process that takes student course requests along with the available
+        courses, sections, and teachers and builds the class schedule.
+      role: Lead Developer
+      begin_year: 1999
+      end_year: 1999
+      _links:
+        self:
+          href: /projects/class-scheduler/
+        jobs:
+          - href: /jobs/mas/
+        languages:
+          - href: /languages/delphi/
+        db:
+          - href: /db/btrieve/
+          - href: /db/pervasive/
+        os:
+          - href: /os/windows/
+          - href: /os/netware/

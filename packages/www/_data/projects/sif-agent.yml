@@ -45,6 +45,7 @@ _embedded:
           - href: /languages/sql/
         os:
           - href: /os/windows/
+          - href: /os/netware/
   languages:
     - title: SQL
       desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -140,6 +141,7 @@ _embedded:
           - href: /projects/sif-agent/
           - href: /projects/wengage-acct/
           - href: /projects/wengage-si/
+          - href: /projects/class-scheduler/
         jobs:
           - href: /jobs/mas/
   os:
