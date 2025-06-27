@@ -14,7 +14,6 @@ _links:
     - href: /languages/delphi/
     - href: /languages/fortran/
     - href: /languages/html/
-    - href: /languages/java/
     - href: /languages/js/
     - href: /languages/pascal/
     - href: /languages/php/
