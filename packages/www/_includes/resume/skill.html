@@ -1,0 +1,9 @@
+{% assign relation_key = include.site_resource[0] %}
+{% assign relation_data = include.site_resource[1] %}
+{% assign relation_links = include.embedded[relation_key] %}
+{% if relation_data.is_skill and relation_links %}
+<section>
+  <h3><a href="/{{ relation_key }}/">{{ relation_data.title }}</a></h3>
+  <p>{% include relation-links.html links=relation_links %}</p>
+</section>
+{% endif %}

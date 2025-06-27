@@ -1,31 +1,66 @@
 ---
-title: Gregory J. Scott
 layout: default
+title: Gregory J. Scott
 _links:
   self:
     href: /resume/
+  projects:
+    - href: /projects/epicloud/
+    - href: /projects/qb/
+    - href: /projects/sif-agent/
+    - href: /projects/mission-data-loader/
+  languages:
+    href: /languages/
+  db:
+    href: /db/
+  os:
+    href: /os/
+  tools:
+    href: /tools/
+  jobs:
+    href: /jobs/
+  schools:
+    href: /schools/
 ---
 
-<section markdown="1">
-* web: [http://gregoryjscott.com][g]
-* email: [me@gregoryjscott.com][email]
-* github: [https://github.com/gregoryjscott][github]
-* twitter: [https://twitter.com/gregoryjscott][twitter]
-</section>
+<div class="resume" markdown="1">
 
-<section markdown="1">
-{% include resume/skills.md %}
-</section>
+<nav>
+  <a href="{{ site.url }}">Home</a> / Resume
+</nav>
 
-<section markdown="1">
-{% include resume/experience.md %}
-</section>
+# Gregory J. Scott
 
-<section markdown="1">
-{% include resume/education.md %}
-</section>
+Versatile full-stack programmer with 25+ years of experience, specializing in custom app development using React Native, AI, state machines, and AWS.
 
-[g]: http://gregoryjscott.com
-[email]: mailto:me@gregoryjscott.com
-[twitter]: https://twitter.com/gregoryjscott
-[github]: https://github.com/gregoryjscott
+Online:
+- Web: [https://gregoryjscott.com](https://gregoryjscott.com)
+- Email: [me@gregoryjscott.com](mailto:me@gregoryjscott.com)
+- GitHub: [https://github.com/gregoryjscott](https://github.com/gregoryjscott)
+- Twitter: [https://x.com/gregoryjscott](https://x.com/gregoryjscott)
+
+## Highlights
+
+{% for highlight in page._embedded.projects %}
+  {% include resume/project.html resource=highlight %}
+{% endfor %}
+
+## Skills
+
+{% for resource in site.data.index.resources %}
+  {% include resume/skill.html site_resource=resource embedded=page._embedded %}
+{% endfor %}
+
+## Experience
+
+{% for item in page._embedded.jobs %}
+   {% include resume/job.html job=item %}
+{% endfor %}
+
+## Education
+
+{% for item in page._embedded.schools %}
+   {% include resume/school.html school=item %}
+{% endfor %}
+
+</div>

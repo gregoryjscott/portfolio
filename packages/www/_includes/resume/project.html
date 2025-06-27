@@ -1,0 +1,12 @@
+<section>
+  <header>
+    <h3>
+      <a href="{{ include.resource._links.self.href }}">{{ include.resource.subtitle }}</a>
+    </h3>
+  </header>
+ 
+  Technologies:
+  {% if include.resource._embedded %}
+    {% include relations-summary.html resource=include.resource %}
+  {% endif %}
+</section>

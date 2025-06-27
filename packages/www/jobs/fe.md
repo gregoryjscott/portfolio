@@ -37,3 +37,7 @@ _links:
     - href: /tools/tracker/
     - href: /tools/vpc/
 ---
+
+- Built the cloud-based backend integration and automation services for one of the largest online charter schools in the United States
+- Implemented a custom data warehouse and reporting system for a school district
+- Developed student performance reports to help teachers and administrators make data-driven decisions to improve student outcomes

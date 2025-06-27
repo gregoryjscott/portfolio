@@ -17,6 +17,13 @@ _links:
     - href: /languages/ada/
   os:
     - href: /os/solaris/
+content: >-
+  - Designed and developed the mission data loading interface used to
+  distribute mission data throughout the multi-threaded avionic flight software
+
+  - Developed the Device Backup displays used to emulate switch panels and keyboards in cases of hardware failure
+
+  - Developed the System Management Function displays used to monitor and administer the system
 _embedded:
   projects:
     - title: SMF Controls and Displays
@@ -34,6 +41,7 @@ _embedded:
         os:
           - href: /os/solaris/
     - title: Mission Data Loader
+      subtitle: Distributing Mission Data to B-1 Bombers
       desc: Thread responsible for reading the contents of a cartridge containing
         mission data and distributing it throughout the avionic flight software.
       role: Embedded Software Engineer

@@ -20,3 +20,7 @@ _links:
   os:
     - href: /os/solaris/
 ---
+
+- Designed and developed the mission data loading interface used to distribute mission data throughout the multi-threaded avionic flight software
+- Developed the Device Backup displays used to emulate switch panels and keyboards in cases of hardware failure
+- Developed the System Management Function displays used to monitor and administer the system

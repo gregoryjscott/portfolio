@@ -1,5 +1,6 @@
 ---
 title: Quality Bank
+subtitle: Invoicing $1 Billion/Month for Oil Pipeline
 desc: >-
   Web application that manages the workflow, pricing data, sampling data, volume
   data, and invoicing for the Trans-Alaska Pipeline System.

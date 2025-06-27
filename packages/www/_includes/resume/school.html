@@ -1,0 +1,16 @@
+{% assign school = include.school %}
+
+<section>
+  <header>
+    <h3>
+      <a href="{{ include.school._links.self.href }}">{{ include.school.title }}</a>
+    </h3>
+  </header>
+
+  {% if include.school.subtitle %}
+    <p>{{ include.school.subtitle }}</p>
+  {% endif %}
+  
+  <p>Technologies:</p>
+  {% include relations-summary.html resource=school %}
+</section>
