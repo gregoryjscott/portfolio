@@ -18,6 +18,7 @@ _links:
     - href: /languages/css/
     - href: /languages/html/
     - href: /languages/rb/
+    - href: /languages/ts/
   os:
     - href: /os/osx/
     - href: /os/linux/

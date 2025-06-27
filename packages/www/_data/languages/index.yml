@@ -26,6 +26,118 @@ _links:
     - href: /languages/vb/
 _embedded:
   languages:
+    - title: Typescript
+      desc: Typescript is a typed superset of JavaScript that compiles to plain
+        JavaScript. It adds optional static typing to the language, allowing
+        developers to use type annotations to catch errors early in the
+        development process. It also provides features such as classes, modules,
+        and interfaces that are not available in JavaScript. Typescript is
+        designed to make it easier to write and maintain large-scale
+        applications.
+      _links:
+        self:
+          href: /languages/ts/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/this-site/
+        jobs:
+          - href: /jobs/fe/
+      _embedded:
+        projects:
+          - title: This Site
+            desc: My website/experiment that uses Jekyll to create static HTML pages using
+              YAML, Markdown, and hypermedia.
+            role: Author
+            begin_year: 2014
+            end_year: null
+            _links:
+              self:
+                href: /projects/this-site/
+              code:
+                title: github.com/gregoryjscott/me
+                href: https://github.com/gregoryjscott/me
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/rb/
+                - href: /languages/ts/
+              os:
+                - href: /os/osx/
+                - href: /os/linux/
+          - title: EpiCloud
+            subtitle: Infinitely Scaling Bots using AWS
+            desc: null
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/ddb/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/lerna/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/tracker/
+                - href: /tools/vpc/
+        jobs:
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: null
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epicloud/
+              db:
+                - href: /db/bigquery/
+              languages:
+                - href: /languages/ts/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/ddb/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/lerna/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/tracker/
+                - href: /tools/vpc/
     - title: Ruby
       desc: Ruby is an open-source, object-oriented programming language created by
         Yukihiro Matsumoto in 1995. It is designed to be simple and easy to use,
@@ -68,6 +180,7 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/rb/
+                - href: /languages/ts/
               os:
                 - href: /os/osx/
                 - href: /os/linux/
@@ -333,6 +446,7 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/rb/
+                - href: /languages/ts/
               os:
                 - href: /os/osx/
                 - href: /os/linux/
@@ -644,6 +758,7 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/rb/
+                - href: /languages/ts/
               os:
                 - href: /os/osx/
                 - href: /os/linux/
@@ -909,95 +1024,6 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
-    - title: Typescript
-      desc: Typescript is a typed superset of JavaScript that compiles to plain
-        JavaScript. It adds optional static typing to the language, allowing
-        developers to use type annotations to catch errors early in the
-        development process. It also provides features such as classes, modules,
-        and interfaces that are not available in JavaScript. Typescript is
-        designed to make it easier to write and maintain large-scale
-        applications.
-      _links:
-        self:
-          href: /languages/ts/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-      _embedded:
-        projects:
-          - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
-            desc: null
-            role: Technical Lead
-            begin_year: 2015
-            end_year: 2021
-            _links:
-              self:
-                href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-              os:
-                - href: /os/linux/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/ddb/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/lerna/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/tracker/
-                - href: /tools/vpc/
-        jobs:
-          - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
-            begin_year: 2018
-            end_year: null
-            time_desc: March 2018 - present
-            _links:
-              self:
-                href: /jobs/fe/
-              projects:
-                - href: /projects/epicloud/
-              db:
-                - href: /db/bigquery/
-              languages:
-                - href: /languages/ts/
-              os:
-                - href: /os/linux/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/ddb/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/lerna/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/tracker/
-                - href: /tools/vpc/
     - title: SQL
       desc: SQL (Structured Query Language) is a domain-specific language used in
         programming and designed for managing data held in a relational database

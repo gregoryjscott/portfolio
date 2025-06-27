@@ -10,10 +10,33 @@ _links:
     href: /languages/ts/
   projects:
     - href: /projects/epicloud/
+    - href: /projects/this-site/
   jobs:
     - href: /jobs/fe/
 _embedded:
   projects:
+    - title: This Site
+      desc: My website/experiment that uses Jekyll to create static HTML pages using
+        YAML, Markdown, and hypermedia.
+      role: Author
+      begin_year: 2014
+      end_year: null
+      _links:
+        self:
+          href: /projects/this-site/
+        code:
+          title: github.com/gregoryjscott/me
+          href: https://github.com/gregoryjscott/me
+        jobs:
+          - href: /jobs/freelance/
+        languages:
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/rb/
+          - href: /languages/ts/
+        os:
+          - href: /os/osx/
+          - href: /os/linux/
     - title: EpiCloud
       subtitle: Infinitely Scaling Bots using AWS
       desc: null

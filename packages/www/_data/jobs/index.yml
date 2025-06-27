@@ -124,6 +124,7 @@ _embedded:
                 href: /languages/ts/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
         os:
@@ -473,6 +474,7 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/rb/
+                - href: /languages/ts/
               os:
                 - href: /os/osx/
                 - href: /os/linux/
