@@ -17,7 +17,7 @@ _links:
 
 Hello,
 
-Check out my [resume](/resume/).
+Check out my [resume](/resume/)!
 
 I've programmed servers, clouds, PCs, Macs, iPhones, Androids, iPads, Chromebooks, TVs, mainframes, hand-held range finders, GPS devices, lasers mounted to planes, calculators, and B-1 Bombers.
 
