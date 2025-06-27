@@ -822,6 +822,8 @@ _embedded:
                 - href: /jobs/freelance/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
         Texas, Idaho, Minnesota, and Oregon, that provides custom database, web,
@@ -1724,6 +1726,8 @@ _embedded:
                 - href: /jobs/freelance/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
           - title: OS X
             desc: OS X is an operating system developed by Apple Inc. for its Macintosh line
               of computers. It is based on the Unix operating system and
@@ -2087,6 +2091,8 @@ _embedded:
                 - href: /jobs/freelance/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
     - title: Boeing, Defense & Space Group
       desc: Embedded Software Engineer for Boeing, Defense and Space Group, based in
         Oklahoma City, Oklahoma that developed the B1-B Bomber Block E software

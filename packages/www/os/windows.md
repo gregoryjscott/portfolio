@@ -47,4 +47,6 @@ _links:
     - href: /jobs/freelance/
     - href: /jobs/mas/
     - href: /jobs/rdi/
+  schools:
+    - href: /schools/uco/
 ---

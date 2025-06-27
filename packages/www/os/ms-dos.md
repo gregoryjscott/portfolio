@@ -13,4 +13,6 @@ desc: >-
 _links:
   self:
     href: /os/ms-dos/
+  schools:
+    - href: /schools/uco/
 ---

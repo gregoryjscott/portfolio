@@ -19,6 +19,10 @@ _links:
     - href: /languages/c/
     - href: /languages/cpp/
     - href: /languages/vb/
+  os:
+    - href: /os/aix/
+    - href: /os/ms-dos/
+    - href: /os/windows/
 _embedded:
   languages:
     - title: Visual Basic
@@ -87,5 +91,85 @@ _embedded:
       _links:
         self:
           href: /languages/fortran/
+        schools:
+          - href: /schools/uco/
+  os:
+    - title: Windows
+      desc: Windows is a series of operating systems developed by Microsoft. It is the
+        most popular operating system for personal computers, and is used in a
+        variety of devices, including desktop and laptop computers, tablets, and
+        smartphones. Windows provides a graphical user interface, allowing users
+        to interact with their computer using a mouse and keyboard. It also
+        includes a range of applications, such as web browsers, media players,
+        and office suites. Windows also includes a range of security features,
+        such as user accounts, firewalls, and antivirus software.
+      _links:
+        self:
+          href: /os/windows/
+        projects:
+          - href: /projects/agdc/
+          - href: /projects/ahfc-integration/
+          - href: /projects/awwu-intranet/
+          - href: /projects/awwu-job-scheduler/
+          - href: /projects/awwu-systems-integration/
+          - href: /projects/bit-proposal/
+          - href: /projects/centroid/
+          - href: /projects/cis-data-capture/
+          - href: /projects/class-scheduler/
+          - href: /projects/consumption-views/
+          - href: /projects/database-sync-awwu/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/employee-suggestions/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/flir-monitoring/
+          - href: /projects/lasar-range-finder/
+          - href: /projects/mvc-integration-test-framework/
+          - href: /projects/please/
+          - href: /projects/qb/
+          - href: /projects/report-engine/
+          - href: /projects/sar-reports/
+          - href: /projects/scramble-score/
+          - href: /projects/scrum-tools/
+          - href: /projects/sif-agent/
+          - href: /projects/simpler/
+          - href: /projects/somd/
+          - href: /projects/systems-portal/
+          - href: /projects/train-builder/
+          - href: /projects/wengage-acct/
+          - href: /projects/wengage-si/
+        jobs:
+          - href: /jobs/freelance/
+          - href: /jobs/mas/
+          - href: /jobs/rdi/
+        schools:
+          - href: /schools/uco/
+    - title: MS-DOS
+      desc: MS-DOS (Microsoft Disk Operating System) is an operating system developed
+        by Microsoft for IBM-compatible personal computers. It was the most
+        commonly used member of the DOS family of operating systems and was the
+        main operating system for IBM PC compatible personal computers during
+        the 1980s and the early 1990s. MS-DOS was designed to provide a
+        user-friendly environment for running programs, managing files, and
+        controlling peripheral devices such as printers and disk drives. It also
+        provided a command-line interface for users to interact with the system.
+        MS-DOS was eventually replaced by Windows 95 and later versions of
+        Windows.
+      _links:
+        self:
+          href: /os/ms-dos/
+        schools:
+          - href: /schools/uco/
+    - title: AIX
+      desc: AIX (Advanced Interactive eXecutive) is an IBM proprietary Unix-based
+        operating system designed for enterprise-level computing. It is a
+        robust, secure, and reliable operating system that provides a high level
+        of scalability and performance. AIX is designed to run on IBM's Power
+        Systems hardware and is optimized for virtualization. It includes a wide
+        range of features such as high availability, scalability, and security.
+        AIX also provides a wide range of tools and utilities for system
+        administration, application development, and system management.
+      _links:
+        self:
+          href: /os/aix/
         schools:
           - href: /schools/uco/

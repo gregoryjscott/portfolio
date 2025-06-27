@@ -21,4 +21,8 @@ _links:
     - href: /languages/c/
     - href: /languages/cpp/
     - href: /languages/vb/
+  os:
+    - href: /os/aix/
+    - href: /os/ms-dos/
+    - href: /os/windows/
 ---

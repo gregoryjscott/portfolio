@@ -3191,6 +3191,10 @@ _embedded:
                 - href: /languages/c/
                 - href: /languages/cpp/
                 - href: /languages/vb/
+              os:
+                - href: /os/aix/
+                - href: /os/ms-dos/
+                - href: /os/windows/
     - title: PHP
       desc: PHP is a server-side scripting language used for web development. It is a
         powerful language that is used to create dynamic web pages and
@@ -3240,6 +3244,10 @@ _embedded:
                 - href: /languages/c/
                 - href: /languages/cpp/
                 - href: /languages/vb/
+              os:
+                - href: /os/aix/
+                - href: /os/ms-dos/
+                - href: /os/windows/
     - title: FORTRAN
       desc: FORTRAN (Formula Translator) is a general-purpose, procedural, imperative
         programming language that is especially suited to numeric computation
@@ -3279,6 +3287,10 @@ _embedded:
                 - href: /languages/c/
                 - href: /languages/cpp/
                 - href: /languages/vb/
+              os:
+                - href: /os/aix/
+                - href: /os/ms-dos/
+                - href: /os/windows/
     - title: C++
       desc: C++ is a general-purpose, object-oriented programming language developed
         by Bjarne Stroustrup in 1985. It is an extension of the C language and
@@ -3317,6 +3329,10 @@ _embedded:
                 - href: /languages/c/
                 - href: /languages/cpp/
                 - href: /languages/vb/
+              os:
+                - href: /os/aix/
+                - href: /os/ms-dos/
+                - href: /os/windows/
     - title: C
       desc: C is a general-purpose, procedural programming language developed in the
         early 1970s by Dennis Ritchie. It is a low-level language, meaning it
@@ -3356,3 +3372,7 @@ _embedded:
                 - href: /languages/c/
                 - href: /languages/cpp/
                 - href: /languages/vb/
+              os:
+                - href: /os/aix/
+                - href: /os/ms-dos/
+                - href: /os/windows/

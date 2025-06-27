@@ -892,6 +892,8 @@ _embedded:
           - href: /jobs/freelance/
           - href: /jobs/mas/
           - href: /jobs/rdi/
+        schools:
+          - href: /schools/uco/
     - title: OS X
       desc: OS X is an operating system developed by Apple Inc. for its Macintosh line
         of computers. It is based on the Unix operating system and provides a
