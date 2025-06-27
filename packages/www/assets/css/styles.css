@@ -55,6 +55,12 @@ h2 {
   margin-top: 8rem;
 }
 
+.resume h2 {
+  margin-bottom: 1rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--text-primary);
+}
+
 h3 {
   font-size: 1.25rem;
   margin-top: 7rem;
@@ -65,7 +71,7 @@ p {
   margin: 2rem 0;
 }
 
-ul.skills, .contact {
+ul.skills, .resume ul {
   list-style: none;
   padding-left: 2rem;
 }

@@ -23,30 +23,41 @@ _links:
     href: /schools/
 ---
 
+<div class="resume" markdown="1">
+
 <nav>
-  <a href="{{ site.url }}">Home</a> /
-  <a href="{{ site.url }}/resume">Resume</a>
+  <a href="{{ site.url }}">Home</a> / Resume
 </nav>
 
-<section markdown="1">
+# Gregory J. Scott
 
-{% include resume/intro.md %}
+Versatile full-stack programmer with 25+ years of experience, specializing in custom app development using React Native, AI, state machines, and AWS.
 
+Contact:
+- Web: [https://gregoryjscott.com](https://gregoryjscott.com)
+- Email: [me@gregoryjscott.com](mailto:me@gregoryjscott.com)
+- GitHub: [https://github.com/gregoryjscott](https://github.com/gregoryjscott)
+- Twitter: [https://x.com/gregoryjscott](https://x.com/gregoryjscott)
+
+## Highlights
+
+{% for highlight in page._embedded.projects %}
+  {% include resume/project.html resource=highlight %}
+{% endfor %}
+
+## Skills
+
+{% for resource in site.data.index.resources %}
+  {% assign resource_key = resource[0] %}
+  {% assign resource_data = resource[1] %}
+  {% if resource_data.is_skill and page._embedded[resource_key] %}
+    {% assign relation_links = page._embedded[resource_key] %}
+<section>
+  <h3><a href="/{{ resource_key }}/">{{ resource_data.title }}</a></h3>
+  <p>{% include relation-links.html links=relation_links %}</p>
 </section>
-
-<section markdown="1">
-
-{% include resume/highlights.md %}
-
-</section>
-
-<section markdown="1">
-
-{% include resume/skills.md %}
-
-</section>
-
-<section markdown="1">
+  {% endif %}
+{% endfor %}
 
 ## Experience
 
@@ -54,14 +65,10 @@ _links:
    {% include resume/job.html job=item %}
 {% endfor %}
 
-</section>
-
-<section markdown="1">
-
 ## Education
 
 {% for item in page._embedded.schools %}
    {% include resume/school.html school=item %}
 {% endfor %}
 
-</section>
+</div>
