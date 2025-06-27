@@ -21,6 +21,7 @@ _links:
     - href: /projects/denver-schedules-api/
     - href: /projects/employee-suggestions/
     - href: /projects/energy-efficiency-map/
+    - href: /projects/epic-ca-enrollment/
     - href: /projects/epicloud/
     - href: /projects/flir-monitoring/
     - href: /projects/lasar-range-finder/

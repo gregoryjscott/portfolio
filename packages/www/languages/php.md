@@ -9,4 +9,8 @@ desc: >-
 _links:
   self:
     href: /languages/php/
+  projects:
+    - href: /projects/epic-ca-enrollment/
+  jobs:
+    - href: /jobs/fe/
 ---

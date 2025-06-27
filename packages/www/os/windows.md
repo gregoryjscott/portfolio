@@ -43,6 +43,7 @@ _links:
     - href: /projects/train-builder/
     - href: /projects/wengage-acct/
     - href: /projects/wengage-si/
+    - href: /projects/epic-ca-enrollment/
   jobs:
     - href: /jobs/freelance/
     - href: /jobs/mas/

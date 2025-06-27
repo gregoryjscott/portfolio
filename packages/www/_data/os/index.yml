@@ -414,10 +414,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -564,6 +567,7 @@ _embedded:
           - href: /projects/train-builder/
           - href: /projects/wengage-acct/
           - href: /projects/wengage-si/
+          - href: /projects/epic-ca-enrollment/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/mas/
@@ -572,6 +576,22 @@ _embedded:
           - href: /schools/uco/
       _embedded:
         projects:
+          - title: Epic California Academy Enrollment
+            desc: null
+            role: Technical Lead
+            begin_year: 2017
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epic-ca-enrollment/
+              jobs:
+                - href: /jobs/fe/
+              languages:
+                - href: /languages/php/
+              db:
+                - href: /db/firebase/
+              os:
+                - href: /os/windows/
           - title: Centroid
             desc: Library for accessing environment based configuration from multiple
               different programming languages.

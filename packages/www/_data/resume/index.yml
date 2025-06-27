@@ -131,10 +131,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -820,6 +823,7 @@ _embedded:
                 - href: /projects/train-builder/
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
+                - href: /projects/epic-ca-enrollment/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/mas/
@@ -1019,6 +1023,7 @@ _embedded:
                 - href: /projects/train-builder/
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
+                - href: /projects/epic-ca-enrollment/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/mas/
@@ -1192,10 +1197,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -2103,6 +2111,79 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+    - title: PHP
+      desc: PHP is a server-side scripting language used for web development. It is a
+        powerful language that is used to create dynamic web pages and
+        applications. It is an open-source language, meaning it is free to use
+        and modify. PHP is easy to learn and is widely used for creating
+        websites and web applications. It is also used to create database-driven
+        websites and applications.
+      _links:
+        self:
+          href: /languages/php/
+        projects:
+          - href: /projects/epic-ca-enrollment/
+        jobs:
+          - href: /jobs/fe/
+      _embedded:
+        projects:
+          - title: Epic California Academy Enrollment
+            desc: null
+            role: Technical Lead
+            begin_year: 2017
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epic-ca-enrollment/
+              jobs:
+                - href: /jobs/fe/
+              languages:
+                - href: /languages/php/
+              db:
+                - href: /db/firebase/
+              os:
+                - href: /os/windows/
+        jobs:
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: null
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
+              db:
+                - href: /db/bigquery/
+                - href: /db/firebase/
+              languages:
+                - href: /languages/ts/
+                - href: /languages/php/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/ddb/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/lerna/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/tracker/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: SQL
       desc: SQL (Structured Query Language) is a domain-specific language used in
         programming and designed for managing data held in a relational database
@@ -4273,16 +4354,6 @@ _embedded:
                 - href: /os/aix/
                 - href: /os/ms-dos/
                 - href: /os/windows/
-    - title: PHP
-      desc: PHP is a server-side scripting language used for web development. It is a
-        powerful language that is used to create dynamic web pages and
-        applications. It is an open-source language, meaning it is free to use
-        and modify. PHP is easy to learn and is widely used for creating
-        websites and web applications. It is also used to create database-driven
-        websites and applications.
-      _links:
-        self:
-          href: /languages/php/
     - title: Pascal
       desc: Pascal is a procedural programming language developed in the late 1960s by
         Niklaus Wirth. It is a high-level language, meaning it is designed to be
@@ -4455,6 +4526,85 @@ _embedded:
                 - href: /os/ms-dos/
                 - href: /os/windows/
   db:
+    - title: Firebase
+      desc: Firebase’s Realtime Database is a cloud-hosted, NoSQL JSON data store that
+        lets you build rich, collaborative applications by syncing data in
+        milliseconds across all connected clients. Data is stored as a single,
+        hierarchical JSON tree and updated in real time—any changes made by one
+        client are immediately pushed to every other. SDKs for iOS, Android and
+        web handle offline caching and automatic resynchronization, while
+        granular security rules and Firebase Authentication ensure data is
+        accessed and modified only by authorized users. With built-in
+        scalability, sharding and integration with other Firebase services
+        (Cloud Functions, Analytics, etc.), the Realtime Database simplifies the
+        creation of responsive, data-driven apps without the need to manage your
+        own backend.
+      _links:
+        self:
+          href: /db/firebase/
+        jobs:
+          - href: /jobs/fe/
+        projects:
+          - href: /projects/epic-ca-enrollment/
+      _embedded:
+        jobs:
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: null
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
+              db:
+                - href: /db/bigquery/
+                - href: /db/firebase/
+              languages:
+                - href: /languages/ts/
+                - href: /languages/php/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/ddb/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/lerna/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/tracker/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
+        projects:
+          - title: Epic California Academy Enrollment
+            desc: null
+            role: Technical Lead
+            begin_year: 2017
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epic-ca-enrollment/
+              jobs:
+                - href: /jobs/fe/
+              languages:
+                - href: /languages/php/
+              db:
+                - href: /db/firebase/
+              os:
+                - href: /os/windows/
     - title: BigQuery
       desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
         enables businesses to store, query, and analyze large datasets. It is a
@@ -4522,10 +4672,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -6016,10 +6169,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -6166,6 +6322,7 @@ _embedded:
           - href: /projects/train-builder/
           - href: /projects/wengage-acct/
           - href: /projects/wengage-si/
+          - href: /projects/epic-ca-enrollment/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/mas/
@@ -6174,6 +6331,22 @@ _embedded:
           - href: /schools/uco/
       _embedded:
         projects:
+          - title: Epic California Academy Enrollment
+            desc: null
+            role: Technical Lead
+            begin_year: 2017
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epic-ca-enrollment/
+              jobs:
+                - href: /jobs/fe/
+              languages:
+                - href: /languages/php/
+              db:
+                - href: /db/firebase/
+              os:
+                - href: /os/windows/
           - title: Denver Schedules API
             desc: JSON API that provides access to Denver activities that impact the
               residents of Denver.
@@ -7274,10 +7447,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -7364,10 +7540,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -7457,10 +7636,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -7549,10 +7731,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -7640,10 +7825,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -7731,10 +7919,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -7822,10 +8013,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -7913,10 +8107,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -8004,10 +8201,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -8095,10 +8295,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -8186,10 +8389,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -8277,10 +8483,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -8368,10 +8577,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -8459,10 +8671,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -8551,10 +8766,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -8641,10 +8859,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -8732,10 +8953,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -8823,10 +9047,13 @@ _embedded:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
@@ -8861,10 +9088,13 @@ _embedded:
           href: /jobs/fe/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/epic-ca-enrollment/
         db:
           - href: /db/bigquery/
+          - href: /db/firebase/
         languages:
           - href: /languages/ts/
+          - href: /languages/php/
         os:
           - href: /os/linux/
         tools:
@@ -8895,6 +9125,22 @@ _embedded:
         - Developed student performance reports to help teachers and administrators make data-driven decisions to improve student outcomes
       _embedded:
         projects:
+          - title: Epic California Academy Enrollment
+            desc: null
+            role: Technical Lead
+            begin_year: 2017
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epic-ca-enrollment/
+              jobs:
+                - href: /jobs/fe/
+              languages:
+                - href: /languages/php/
+              db:
+                - href: /db/firebase/
+              os:
+                - href: /os/windows/
           - title: EpiCloud
             subtitle: Infinitely Scaling Bots using AWS
             desc: null
@@ -8932,6 +9178,27 @@ _embedded:
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
         db:
+          - title: Firebase
+            desc: Firebase’s Realtime Database is a cloud-hosted, NoSQL JSON data store that
+              lets you build rich, collaborative applications by syncing data in
+              milliseconds across all connected clients. Data is stored as a
+              single, hierarchical JSON tree and updated in real time—any
+              changes made by one client are immediately pushed to every other.
+              SDKs for iOS, Android and web handle offline caching and automatic
+              resynchronization, while granular security rules and Firebase
+              Authentication ensure data is accessed and modified only by
+              authorized users. With built-in scalability, sharding and
+              integration with other Firebase services (Cloud Functions,
+              Analytics, etc.), the Realtime Database simplifies the creation of
+              responsive, data-driven apps without the need to manage your own
+              backend.
+            _links:
+              self:
+                href: /db/firebase/
+              jobs:
+                - href: /jobs/fe/
+              projects:
+                - href: /projects/epic-ca-enrollment/
           - title: BigQuery
             desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
               enables businesses to store, query, and analyze large datasets. It
@@ -8950,6 +9217,20 @@ _embedded:
               jobs:
                 - href: /jobs/fe/
         languages:
+          - title: PHP
+            desc: PHP is a server-side scripting language used for web development. It is a
+              powerful language that is used to create dynamic web pages and
+              applications. It is an open-source language, meaning it is free to
+              use and modify. PHP is easy to learn and is widely used for
+              creating websites and web applications. It is also used to create
+              database-driven websites and applications.
+            _links:
+              self:
+                href: /languages/php/
+              projects:
+                - href: /projects/epic-ca-enrollment/
+              jobs:
+                - href: /jobs/fe/
           - title: Typescript
             desc: Typescript is a typed superset of JavaScript that compiles to plain
               JavaScript. It adds optional static typing to the language,
@@ -9655,6 +9936,7 @@ _embedded:
                 - href: /projects/train-builder/
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
+                - href: /projects/epic-ca-enrollment/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/mas/
@@ -10559,6 +10841,7 @@ _embedded:
                 - href: /projects/train-builder/
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
+                - href: /projects/epic-ca-enrollment/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/mas/
@@ -10924,6 +11207,7 @@ _embedded:
                 - href: /projects/train-builder/
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
+                - href: /projects/epic-ca-enrollment/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/mas/
@@ -11190,6 +11474,7 @@ _embedded:
                 - href: /projects/train-builder/
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
+                - href: /projects/epic-ca-enrollment/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/mas/

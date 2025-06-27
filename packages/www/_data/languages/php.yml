@@ -7,3 +7,66 @@ desc: PHP is a server-side scripting language used for web development. It is a
 _links:
   self:
     href: /languages/php/
+  projects:
+    - href: /projects/epic-ca-enrollment/
+  jobs:
+    - href: /jobs/fe/
+_embedded:
+  projects:
+    - title: Epic California Academy Enrollment
+      desc: null
+      role: Technical Lead
+      begin_year: 2017
+      end_year: 2021
+      _links:
+        self:
+          href: /projects/epic-ca-enrollment/
+        jobs:
+          - href: /jobs/fe/
+        languages:
+          - href: /languages/php/
+        db:
+          - href: /db/firebase/
+        os:
+          - href: /os/windows/
+  jobs:
+    - title: Futuristic Education
+      desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+        for schools and educators
+      role: Co-Founder/Programmer
+      begin_year: 2018
+      end_year: null
+      time_desc: March 2018 - present
+      _links:
+        self:
+          href: /jobs/fe/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/epic-ca-enrollment/
+        db:
+          - href: /db/bigquery/
+          - href: /db/firebase/
+        languages:
+          - href: /languages/ts/
+          - href: /languages/php/
+        os:
+          - href: /os/linux/
+        tools:
+          - href: /tools/classroom/
+          - href: /tools/ddb/
+          - href: /tools/docker/
+          - href: /tools/drive/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/firebase/
+          - href: /tools/iam/
+          - href: /tools/lerna/
+          - href: /tools/node/
+          - href: /tools/puppeteer/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/tracker/
+          - href: /tools/vpc/
+          - href: /tools/sikulix/
