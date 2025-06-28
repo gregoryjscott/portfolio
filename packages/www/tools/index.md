@@ -20,7 +20,6 @@ _links:
     - href: /tools/heroku/
     - href: /tools/iam/
     - href: /tools/jekyll/
-    - href: /tools/lerna/
     - href: /tools/node/
     - href: /tools/puppeteer/
     - href: /tools/react-native/

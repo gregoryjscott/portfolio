@@ -446,7 +446,6 @@ _embedded:
           - href: /tools/fargate/
           - href: /tools/firebase/
           - href: /tools/iam/
-          - href: /tools/lerna/
           - href: /tools/node/
           - href: /tools/puppeteer/
           - href: /tools/s3/
@@ -487,7 +486,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -674,22 +672,6 @@ _embedded:
             _links:
               self:
                 href: /tools/node/
-              projects:
-                - href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-          - title: Lerna
-            desc: Lerna is a tool that optimizes the workflow around managing multi-package
-              repositories with git and npm. It allows developers to easily
-              create, maintain, and version multiple packages from the same
-              codebase. It also provides a powerful set of features such as
-              managing dependencies, running scripts, and publishing packages.
-              Lerna makes it easier to manage complex projects with multiple
-              packages, and helps developers keep their codebase organized and
-              up-to-date.
-            _links:
-              self:
-                href: /tools/lerna/
               projects:
                 - href: /projects/epicloud/
               jobs:
@@ -1573,7 +1555,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -1613,7 +1594,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -2733,7 +2713,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -5204,7 +5183,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -5244,7 +5222,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -5305,7 +5282,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -5375,7 +5351,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -5415,7 +5390,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -6785,7 +6759,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -6825,7 +6798,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -6910,7 +6882,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -6950,7 +6921,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -7033,7 +7003,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -7073,7 +7042,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -7156,7 +7124,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -7196,7 +7163,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -7390,7 +7356,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -7430,7 +7395,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -7513,7 +7477,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -7553,7 +7516,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -7636,7 +7598,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -7676,7 +7637,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -7759,7 +7719,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -7799,7 +7758,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -7941,7 +7899,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -7981,7 +7938,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -8128,7 +8084,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -8168,7 +8123,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -8220,7 +8174,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -8260,99 +8213,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/sikulix/
-    - title: Lerna
-      desc: Lerna is a tool that optimizes the workflow around managing multi-package
-        repositories with git and npm. It allows developers to easily create,
-        maintain, and version multiple packages from the same codebase. It also
-        provides a powerful set of features such as managing dependencies,
-        running scripts, and publishing packages. Lerna makes it easier to
-        manage complex projects with multiple packages, and helps developers
-        keep their codebase organized and up-to-date.
-      _links:
-        self:
-          href: /tools/lerna/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-      _embedded:
-        projects:
-          - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
-            begin_year: 2015
-            end_year: 2021
-            _links:
-              self:
-                href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-              os:
-                - href: /os/linux/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/lerna/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/sikulix/
-        jobs:
-          - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
-            begin_year: 2018
-            end_year: null
-            time_desc: March 2018 - present
-            _links:
-              self:
-                href: /jobs/fe/
-              projects:
-                - href: /projects/epicloud/
-                - href: /projects/epic-ca-enrollment/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-                - href: /db/firebase/
-              languages:
-                - href: /languages/ts/
-                - href: /languages/php/
-              os:
-                - href: /os/linux/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -8483,7 +8343,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -8523,7 +8382,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -8576,7 +8434,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -8616,7 +8473,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -8667,7 +8523,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -8707,7 +8562,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -8759,7 +8613,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -8799,7 +8652,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -9116,7 +8968,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -9344,7 +9195,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -10916,7 +10766,6 @@ _embedded:
           - href: /tools/fargate/
           - href: /tools/firebase/
           - href: /tools/iam/
-          - href: /tools/lerna/
           - href: /tools/node/
           - href: /tools/puppeteer/
           - href: /tools/s3/
@@ -10976,7 +10825,6 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
@@ -11198,22 +11046,6 @@ _embedded:
             _links:
               self:
                 href: /tools/node/
-              projects:
-                - href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-          - title: Lerna
-            desc: Lerna is a tool that optimizes the workflow around managing multi-package
-              repositories with git and npm. It allows developers to easily
-              create, maintain, and version multiple packages from the same
-              codebase. It also provides a powerful set of features such as
-              managing dependencies, running scripts, and publishing packages.
-              Lerna makes it easier to manage complex projects with multiple
-              packages, and helps developers keep their codebase organized and
-              up-to-date.
-            _links:
-              self:
-                href: /tools/lerna/
               projects:
                 - href: /projects/epicloud/
               jobs:

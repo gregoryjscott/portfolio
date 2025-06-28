@@ -27,7 +27,6 @@ _links:
     - href: /tools/fargate/
     - href: /tools/firebase/
     - href: /tools/iam/
-    - href: /tools/lerna/
     - href: /tools/node/
     - href: /tools/puppeteer/
     - href: /tools/s3/
