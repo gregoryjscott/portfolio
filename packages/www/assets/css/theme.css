@@ -1,0 +1,18 @@
+:root {
+  --color-grey-040: #f5f5f5;
+  --color-grey-220: #c7c7c7;
+  --color-grey-710: #4a4a4a;
+  --color-blue-930: #010a23;
+
+  --color-bg:          var(--color-grey-040);
+  --color-text-base:   var(--color-grey-710);
+  --color-text-accent: var(--color-blue-930);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg:          var(--color-blue-930);
+    --color-text-base:   var(--color-grey-220);
+    --color-text-accent: var(--color-grey-040);
+  }
+}

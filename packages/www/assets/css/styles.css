@@ -1,17 +1,12 @@
-:root {
-  --text-primary: #34475e;
-  --text-secondary: #212838;
-  --background-primary: #ffffff;
-}
-
 html {
   font-size: 1rem;
+  color-scheme: light dark;
 }
 
 body {
   font-family: "Roboto Mono", monospace;
-  color: var(--text-primary);
-  background-color: var(--background-primary);
+  color: var(--color-text-base);
+  background-color: var(--color-bg);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,6 +22,7 @@ main {
 nav {
   font-weight: bold;
   margin: 2rem 0;
+  color: var(--color-text-accent);
 }
 
 section section {
@@ -42,7 +38,7 @@ h6 {
   font-weight: 500;
   margin: 0;
   margin-bottom: 2.5rem;
-  color: var(--text-secondary);
+  color: var(--color-text-accent);
 }
 
 h1 {
@@ -58,7 +54,7 @@ h2 {
 .resume h2 {
   margin-bottom: 1rem;
   padding-bottom: 1.5rem;
-  border-bottom: 1px solid var(--text-primary);
+  border-bottom: 1px solid var(--color-text-accent);
 }
 
 h3 {
@@ -87,16 +83,16 @@ li {
 
 a {
   line-height: 2rem;
-  color: var(--text-secondary);
+  color: var(--color-text-accent);
   font-weight: bold;
 }
 
 a:link {
-  color: var(--text-secondary);
+  color: var(--color-text-accent);
 }
 
 a:visited {
-  color: var(--text-secondary);
+  color: var(--color-text-accent);
 }
 
 footer {
