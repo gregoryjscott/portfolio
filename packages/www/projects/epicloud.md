@@ -1,6 +1,6 @@
 ---
 title: EpiCloud
-subtitle: Infinitely Scaling Bots using AWS
+subtitle: Infinitely Scaling Bots on AWS
 desc: null
 role: Technical Lead
 begin_year: 2015

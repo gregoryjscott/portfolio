@@ -419,7 +419,7 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
     - title: EpiCloud
-      subtitle: Infinitely Scaling Bots using AWS
+      subtitle: Infinitely Scaling Bots on AWS
       desc: null
       role: Technical Lead
       begin_year: 2015
@@ -1546,7 +1546,7 @@ _embedded:
                 - href: /tools/jekyll/
                 - href: /tools/hal/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -5177,7 +5177,7 @@ _embedded:
                 - href: /tools/vpc/
                 - href: /tools/xstate/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -5348,7 +5348,7 @@ _embedded:
       _embedded:
         projects:
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -6758,7 +6758,7 @@ _embedded:
                 - href: /tools/vpc/
                 - href: /tools/xstate/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -6883,7 +6883,7 @@ _embedded:
                 - href: /tools/vpc/
                 - href: /tools/xstate/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -7006,7 +7006,7 @@ _embedded:
                 - href: /tools/vpc/
                 - href: /tools/xstate/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -7129,7 +7129,7 @@ _embedded:
                 - href: /tools/vpc/
                 - href: /tools/xstate/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -7363,7 +7363,7 @@ _embedded:
                 - href: /tools/vpc/
                 - href: /tools/xstate/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -7486,7 +7486,7 @@ _embedded:
                 - href: /tools/vpc/
                 - href: /tools/xstate/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -7609,7 +7609,7 @@ _embedded:
                 - href: /tools/vpc/
                 - href: /tools/xstate/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -7732,7 +7732,7 @@ _embedded:
                 - href: /tools/vpc/
                 - href: /tools/xstate/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -7914,7 +7914,7 @@ _embedded:
       _embedded:
         projects:
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -8101,7 +8101,7 @@ _embedded:
       _embedded:
         projects:
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -8193,7 +8193,7 @@ _embedded:
       _embedded:
         projects:
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -8285,7 +8285,7 @@ _embedded:
       _embedded:
         projects:
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -8456,7 +8456,7 @@ _embedded:
       _embedded:
         projects:
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -8549,7 +8549,7 @@ _embedded:
       _embedded:
         projects:
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -8640,7 +8640,7 @@ _embedded:
       _embedded:
         projects:
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -8732,7 +8732,7 @@ _embedded:
       _embedded:
         projects:
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -9089,7 +9089,7 @@ _embedded:
                 - href: /tools/jekyll/
                 - href: /tools/hal/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -10949,7 +10949,7 @@ _embedded:
               os:
                 - href: /os/windows/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
