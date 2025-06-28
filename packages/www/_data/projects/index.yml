@@ -13,6 +13,7 @@ _links:
     - href: /projects/backup-controls-displays/
     - href: /projects/bit-proposal/
     - href: /projects/centroid/
+    - href: /projects/cfw/
     - href: /projects/cis-data-capture/
     - href: /projects/class-scheduler/
     - href: /projects/consumption-views/
@@ -82,6 +83,7 @@ _embedded:
                 - href: /projects/mvc-integration-test-framework/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               db:
                 - href: /db/postgres/
               languages:
@@ -94,6 +96,9 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
         languages:
           - title: Typescript
             desc: Typescript is a typed superset of JavaScript that compiles to plain
@@ -131,6 +136,7 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -204,6 +210,7 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -506,6 +513,7 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -796,6 +804,143 @@ _embedded:
                 - href: /projects/epicloud/
               jobs:
                 - href: /jobs/fe/
+    - title: fortworthtexas.gov
+      desc: Jekyll static site for the City of Fort Worth, Texas.
+      role: Technical Lead
+      begin_year: 2015
+      end_year: 2016
+      _links:
+        self:
+          href: /projects/cfw/
+        jobs:
+          - href: /jobs/freelance/
+        languages:
+          - href: /languages/rb/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
+        os:
+          - href: /os/linux/
+      _embedded:
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: null
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/denver-schedules-api/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+              db:
+                - href: /db/postgres/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/css/
+                - href: /languages/html/
+              os:
+                - href: /os/windows/
+                - href: /os/osx/
+                - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+        languages:
+          - title: Ruby
+            desc: Ruby is an open-source, object-oriented programming language created by
+              Yukihiro Matsumoto in 1995. It is designed to be simple and easy
+              to use, yet powerful and flexible. Ruby is often used for web
+              development, scripting, and general-purpose programming. It is
+              known for its use of blocks, which allow for the creation of
+              concise and powerful code. Ruby is also popular for its use of
+              metaprogramming, which allows for the dynamic creation of code at
+              runtime.
+            _links:
+              self:
+                href: /languages/rb/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/centroid/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/please/
+                - href: /projects/scramble-score/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+              jobs:
+                - href: /jobs/freelance/
+                - href: /jobs/rdi/
+        tools:
+          - title: Jekyll
+            desc: Jekyll is an open-source, Ruby-based static site generator that transforms
+              plain-text content (written in Markdown, Textile or HTML) and
+              Liquid-templated layouts into a complete, static website. By using
+              simple “front matter” at the top of each page or post to define
+              metadata (like title, date and categories), Jekyll assembles
+              content with shared layouts, includes and assets into fully
+              rendered HTML files. Because it produces only static pages—no
+              databases or server-side processing—it delivers fast, secure sites
+              that are easy to host (notably on GitHub Pages) and maintain via
+              version control.
+            _links:
+              self:
+                href: /tools/jekyll/
+              projects:
+                - href: /projects/cfw/
+              jobs:
+                - href: /jobs/freelance/
+          - title: Heroku
+            desc: Heroku is a cloud-based Platform as a Service (PaaS) that simplifies the
+              deployment, management and scaling of modern web applications.
+              Developers push code to Heroku via Git or GitHub, and Heroku’s
+              buildpacks automatically detect the language (such as Ruby,
+              Node.js, Python, Java, Go or PHP), install dependencies and
+              compile a runnable slug. Applications run in lightweight, isolated
+              containers called dynos, which can be scaled horizontally or
+              vertically on demand. The platform also offers a marketplace of
+              add-ons (databases, caching, monitoring, logging, etc.), a
+              web-based dashboard and a command-line interface, allowing teams
+              to iterate quickly without managing underlying infrastructure.
+            _links:
+              self:
+                href: /tools/heroku/
+              projects:
+                - href: /projects/cfw/
+              jobs:
+                - href: /jobs/freelance/
+        os:
+          - title: Linux
+            desc: Linux is an open-source operating system that is based on the Linux
+              kernel. It is a free and powerful operating system that is used in
+              many different types of computing devices, from smartphones to
+              supercomputers. It is highly customizable and can be used for a
+              variety of tasks, from web hosting to software development. It is
+              also highly secure and reliable, making it a popular choice for
+              many users.
+            _links:
+              self:
+                href: /os/linux/
+              projects:
+                - href: /projects/centroid/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
+                - href: /projects/scramble-score/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/freelance/
+                - href: /jobs/rdi/
     - title: Denver Schedules API
       desc: JSON API that provides access to Denver activities that impact the
         residents of Denver.
@@ -837,6 +982,7 @@ _embedded:
                 - href: /projects/mvc-integration-test-framework/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               db:
                 - href: /db/postgres/
               languages:
@@ -849,6 +995,9 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
         languages:
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -907,6 +1056,7 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -991,6 +1141,7 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -1165,6 +1316,7 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -1243,6 +1395,7 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -1477,6 +1630,7 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -1820,6 +1974,7 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -2891,6 +3046,7 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -3008,6 +3164,7 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -3445,6 +3602,7 @@ _embedded:
                 - href: /projects/mvc-integration-test-framework/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               db:
                 - href: /db/postgres/
               languages:
@@ -3457,6 +3615,9 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
         languages:
           - title: Ruby
             desc: Ruby is an open-source, object-oriented programming language created by
@@ -3478,6 +3639,7 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -3540,6 +3702,7 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -3976,6 +4139,7 @@ _embedded:
                 - href: /projects/mvc-integration-test-framework/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               db:
                 - href: /db/postgres/
               languages:
@@ -3988,6 +4152,9 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
         languages:
           - title: C#
             desc: C# is a general-purpose, object-oriented programming language developed by

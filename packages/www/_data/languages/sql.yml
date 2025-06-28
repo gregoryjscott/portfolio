@@ -455,6 +455,7 @@ _embedded:
           - href: /projects/mvc-integration-test-framework/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
         db:
           - href: /db/postgres/
         languages:
@@ -467,6 +468,9 @@ _embedded:
           - href: /os/windows/
           - href: /os/osx/
           - href: /os/linux/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
         Texas, Idaho, Minnesota, and Oregon, that provides custom database, web,

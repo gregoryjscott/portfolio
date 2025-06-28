@@ -1,0 +1,69 @@
+title: Heroku
+desc: Heroku is a cloud-based Platform as a Service (PaaS) that simplifies the
+  deployment, management and scaling of modern web applications. Developers push
+  code to Heroku via Git or GitHub, and Heroku’s buildpacks automatically detect
+  the language (such as Ruby, Node.js, Python, Java, Go or PHP), install
+  dependencies and compile a runnable slug. Applications run in lightweight,
+  isolated containers called dynos, which can be scaled horizontally or
+  vertically on demand. The platform also offers a marketplace of add-ons
+  (databases, caching, monitoring, logging, etc.), a web-based dashboard and a
+  command-line interface, allowing teams to iterate quickly without managing
+  underlying infrastructure.
+_links:
+  self:
+    href: /tools/heroku/
+  projects:
+    - href: /projects/cfw/
+  jobs:
+    - href: /jobs/freelance/
+_embedded:
+  projects:
+    - title: fortworthtexas.gov
+      desc: Jekyll static site for the City of Fort Worth, Texas.
+      role: Technical Lead
+      begin_year: 2015
+      end_year: 2016
+      _links:
+        self:
+          href: /projects/cfw/
+        jobs:
+          - href: /jobs/freelance/
+        languages:
+          - href: /languages/rb/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
+        os:
+          - href: /os/linux/
+  jobs:
+    - title: Freelance Programmer
+      desc: Freelance Programmer/Consultant, partnering with clients to architect and
+        implement technology solutions
+      role: Freelance Programmer
+      begin_year: 2014
+      end_year: null
+      time_desc: July 2014 - present
+      _links:
+        self:
+          href: /jobs/freelance/
+        projects:
+          - href: /projects/denver-schedules-api/
+          - href: /projects/mvc-integration-test-framework/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+          - href: /projects/cfw/
+        db:
+          - href: /db/postgres/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/rb/
+          - href: /languages/sql/
+          - href: /languages/css/
+          - href: /languages/html/
+        os:
+          - href: /os/windows/
+          - href: /os/osx/
+          - href: /os/linux/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/

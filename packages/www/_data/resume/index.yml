@@ -213,6 +213,7 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -1244,6 +1245,7 @@ _embedded:
           - href: /projects/scramble-score/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -1270,6 +1272,23 @@ _embedded:
                 - href: /languages/ts/
               os:
                 - href: /os/osx/
+                - href: /os/linux/
+          - title: fortworthtexas.gov
+            desc: Jekyll static site for the City of Fort Worth, Texas.
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2016
+            _links:
+              self:
+                href: /projects/cfw/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+              os:
                 - href: /os/linux/
           - title: Denver Schedules API
             desc: JSON API that provides access to Denver activities that impact the
@@ -1421,6 +1440,7 @@ _embedded:
                 - href: /projects/mvc-integration-test-framework/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               db:
                 - href: /db/postgres/
               languages:
@@ -1433,6 +1453,9 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -1732,6 +1755,7 @@ _embedded:
                 - href: /projects/mvc-integration-test-framework/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               db:
                 - href: /db/postgres/
               languages:
@@ -1744,6 +1768,9 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -2044,6 +2071,7 @@ _embedded:
                 - href: /projects/mvc-integration-test-framework/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               db:
                 - href: /db/postgres/
               languages:
@@ -2056,6 +2084,9 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -2641,6 +2672,7 @@ _embedded:
                 - href: /projects/mvc-integration-test-framework/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               db:
                 - href: /db/postgres/
               languages:
@@ -2653,6 +2685,9 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -3365,6 +3400,7 @@ _embedded:
                 - href: /projects/mvc-integration-test-framework/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               db:
                 - href: /db/postgres/
               languages:
@@ -3377,6 +3413,9 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -4785,6 +4824,7 @@ _embedded:
                 - href: /projects/mvc-integration-test-framework/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               db:
                 - href: /db/postgres/
               languages:
@@ -4797,6 +4837,9 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -5919,6 +5962,7 @@ _embedded:
                 - href: /projects/mvc-integration-test-framework/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               db:
                 - href: /db/postgres/
               languages:
@@ -5931,6 +5975,9 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -6003,6 +6050,7 @@ _embedded:
           - href: /projects/scramble-score/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/freelance/
@@ -6067,6 +6115,23 @@ _embedded:
                 - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
+          - title: fortworthtexas.gov
+            desc: Jekyll static site for the City of Fort Worth, Texas.
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2016
+            _links:
+              self:
+                href: /projects/cfw/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+              os:
+                - href: /os/linux/
           - title: Denver Schedules API
             desc: JSON API that provides access to Denver activities that impact the
               residents of Denver.
@@ -6212,6 +6277,7 @@ _embedded:
                 - href: /projects/mvc-integration-test-framework/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               db:
                 - href: /db/postgres/
               languages:
@@ -6224,6 +6290,9 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -6951,6 +7020,7 @@ _embedded:
                 - href: /projects/mvc-integration-test-framework/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               db:
                 - href: /db/postgres/
               languages:
@@ -6963,6 +7033,9 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -8135,6 +8208,74 @@ _embedded:
                 - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
+    - title: Jekyll
+      desc: Jekyll is an open-source, Ruby-based static site generator that transforms
+        plain-text content (written in Markdown, Textile or HTML) and
+        Liquid-templated layouts into a complete, static website. By using
+        simple “front matter” at the top of each page or post to define metadata
+        (like title, date and categories), Jekyll assembles content with shared
+        layouts, includes and assets into fully rendered HTML files. Because it
+        produces only static pages—no databases or server-side processing—it
+        delivers fast, secure sites that are easy to host (notably on GitHub
+        Pages) and maintain via version control.
+      _links:
+        self:
+          href: /tools/jekyll/
+        projects:
+          - href: /projects/cfw/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: fortworthtexas.gov
+            desc: Jekyll static site for the City of Fort Worth, Texas.
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2016
+            _links:
+              self:
+                href: /projects/cfw/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+              os:
+                - href: /os/linux/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: null
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/denver-schedules-api/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+              db:
+                - href: /db/postgres/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/css/
+                - href: /languages/html/
+              os:
+                - href: /os/windows/
+                - href: /os/osx/
+                - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
     - title: AWS Identity and Access Management (IAM)
       desc: AWS Identity and Access Management (IAM) is a web service that helps you
         securely control access to AWS resources. With IAM, you can create and
@@ -8229,6 +8370,76 @@ _embedded:
                 - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
+    - title: Heroku
+      desc: Heroku is a cloud-based Platform as a Service (PaaS) that simplifies the
+        deployment, management and scaling of modern web applications.
+        Developers push code to Heroku via Git or GitHub, and Heroku’s
+        buildpacks automatically detect the language (such as Ruby, Node.js,
+        Python, Java, Go or PHP), install dependencies and compile a runnable
+        slug. Applications run in lightweight, isolated containers called dynos,
+        which can be scaled horizontally or vertically on demand. The platform
+        also offers a marketplace of add-ons (databases, caching, monitoring,
+        logging, etc.), a web-based dashboard and a command-line interface,
+        allowing teams to iterate quickly without managing underlying
+        infrastructure.
+      _links:
+        self:
+          href: /tools/heroku/
+        projects:
+          - href: /projects/cfw/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: fortworthtexas.gov
+            desc: Jekyll static site for the City of Fort Worth, Texas.
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2016
+            _links:
+              self:
+                href: /projects/cfw/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+              os:
+                - href: /os/linux/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: null
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/denver-schedules-api/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+              db:
+                - href: /db/postgres/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/css/
+                - href: /languages/html/
+              os:
+                - href: /os/windows/
+                - href: /os/osx/
+                - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
     - title: Google Firebase
       desc: Google Firebase is a mobile and web application development platform that
         provides developers with a variety of tools and services to help them
@@ -9266,6 +9477,7 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -9571,6 +9783,7 @@ _embedded:
           - href: /projects/mvc-integration-test-framework/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
         db:
           - href: /db/postgres/
         languages:
@@ -9583,6 +9796,9 @@ _embedded:
           - href: /os/windows/
           - href: /os/osx/
           - href: /os/linux/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
       content: >-
         - Designed and built the software infrastructure that powers the sites
         and applications for the City of Fort Worth, Texas
@@ -9613,6 +9829,23 @@ _embedded:
                 - href: /languages/ts/
               os:
                 - href: /os/osx/
+                - href: /os/linux/
+          - title: fortworthtexas.gov
+            desc: Jekyll static site for the City of Fort Worth, Texas.
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2016
+            _links:
+              self:
+                href: /projects/cfw/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+              os:
                 - href: /os/linux/
           - title: Denver Schedules API
             desc: JSON API that provides access to Denver activities that impact the
@@ -9807,6 +10040,7 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -9869,6 +10103,7 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -9943,6 +10178,44 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        tools:
+          - title: Jekyll
+            desc: Jekyll is an open-source, Ruby-based static site generator that transforms
+              plain-text content (written in Markdown, Textile or HTML) and
+              Liquid-templated layouts into a complete, static website. By using
+              simple “front matter” at the top of each page or post to define
+              metadata (like title, date and categories), Jekyll assembles
+              content with shared layouts, includes and assets into fully
+              rendered HTML files. Because it produces only static pages—no
+              databases or server-side processing—it delivers fast, secure sites
+              that are easy to host (notably on GitHub Pages) and maintain via
+              version control.
+            _links:
+              self:
+                href: /tools/jekyll/
+              projects:
+                - href: /projects/cfw/
+              jobs:
+                - href: /jobs/freelance/
+          - title: Heroku
+            desc: Heroku is a cloud-based Platform as a Service (PaaS) that simplifies the
+              deployment, management and scaling of modern web applications.
+              Developers push code to Heroku via Git or GitHub, and Heroku’s
+              buildpacks automatically detect the language (such as Ruby,
+              Node.js, Python, Java, Go or PHP), install dependencies and
+              compile a runnable slug. Applications run in lightweight, isolated
+              containers called dynos, which can be scaled horizontally or
+              vertically on demand. The platform also offers a marketplace of
+              add-ons (databases, caching, monitoring, logging, etc.), a
+              web-based dashboard and a command-line interface, allowing teams
+              to iterate quickly without managing underlying infrastructure.
+            _links:
+              self:
+                href: /tools/heroku/
+              projects:
+                - href: /projects/cfw/
+              jobs:
+                - href: /jobs/freelance/
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
         Texas, Idaho, Minnesota, and Oregon, that provides custom database, web,
@@ -10664,6 +10937,7 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -10885,6 +11159,7 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/

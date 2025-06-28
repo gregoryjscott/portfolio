@@ -15,6 +15,7 @@ _links:
     - href: /projects/scramble-score/
     - href: /projects/simpler/
     - href: /projects/this-site/
+    - href: /projects/cfw/
   jobs:
     - href: /jobs/fe/
     - href: /jobs/freelance/
@@ -79,6 +80,23 @@ _embedded:
           - href: /tools/tracker/
           - href: /tools/vpc/
           - href: /tools/sikulix/
+    - title: fortworthtexas.gov
+      desc: Jekyll static site for the City of Fort Worth, Texas.
+      role: Technical Lead
+      begin_year: 2015
+      end_year: 2016
+      _links:
+        self:
+          href: /projects/cfw/
+        jobs:
+          - href: /jobs/freelance/
+        languages:
+          - href: /languages/rb/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
+        os:
+          - href: /os/linux/
     - title: Centroid
       desc: Library for accessing environment based configuration from multiple
         different programming languages.
@@ -224,6 +242,7 @@ _embedded:
           - href: /projects/mvc-integration-test-framework/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
         db:
           - href: /db/postgres/
         languages:
@@ -236,6 +255,9 @@ _embedded:
           - href: /os/windows/
           - href: /os/osx/
           - href: /os/linux/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
         Texas, Idaho, Minnesota, and Oregon, that provides custom database, web,

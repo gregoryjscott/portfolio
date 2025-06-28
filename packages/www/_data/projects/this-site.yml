@@ -37,6 +37,7 @@ _embedded:
           - href: /projects/mvc-integration-test-framework/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
         db:
           - href: /db/postgres/
         languages:
@@ -49,6 +50,9 @@ _embedded:
           - href: /os/windows/
           - href: /os/osx/
           - href: /os/linux/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
   languages:
     - title: Typescript
       desc: Typescript is a typed superset of JavaScript that compiles to plain
@@ -85,6 +89,7 @@ _embedded:
           - href: /projects/scramble-score/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -157,6 +162,7 @@ _embedded:
           - href: /projects/scramble-score/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/freelance/

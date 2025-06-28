@@ -35,6 +35,7 @@ _embedded:
           - href: /projects/mvc-integration-test-framework/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
         db:
           - href: /db/postgres/
         languages:
@@ -47,6 +48,9 @@ _embedded:
           - href: /os/windows/
           - href: /os/osx/
           - href: /os/linux/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
   languages:
     - title: Ruby
       desc: Ruby is an open-source, object-oriented programming language created by
@@ -67,6 +71,7 @@ _embedded:
           - href: /projects/scramble-score/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -128,6 +133,7 @@ _embedded:
           - href: /projects/scramble-score/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/freelance/

@@ -17,6 +17,7 @@ _links:
     - href: /projects/scramble-score/
     - href: /projects/simpler/
     - href: /projects/this-site/
+    - href: /projects/cfw/
   jobs:
     - href: /jobs/fe/
     - href: /jobs/freelance/

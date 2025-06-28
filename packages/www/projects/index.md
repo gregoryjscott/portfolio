@@ -14,6 +14,7 @@ _links:
     - href: /projects/backup-controls-displays/
     - href: /projects/bit-proposal/
     - href: /projects/centroid/
+    - href: /projects/cfw/
     - href: /projects/cis-data-capture/
     - href: /projects/class-scheduler/
     - href: /projects/consumption-views/

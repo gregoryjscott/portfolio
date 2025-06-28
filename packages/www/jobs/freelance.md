@@ -15,6 +15,7 @@ _links:
     - href: /projects/mvc-integration-test-framework/
     - href: /projects/simpler/
     - href: /projects/this-site/
+    - href: /projects/cfw/
   db:
     - href: /db/postgres/
   languages:
@@ -27,6 +28,9 @@ _links:
     - href: /os/windows/
     - href: /os/osx/
     - href: /os/linux/
+  tools:
+    - href: /tools/heroku/
+    - href: /tools/jekyll/
 ---
 
 - Designed and built the software infrastructure that powers the sites and applications for the City of Fort Worth, Texas
