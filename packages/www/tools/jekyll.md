@@ -14,6 +14,7 @@ _links:
     href: /tools/jekyll/
   projects:
     - href: /projects/cfw/
+    - href: /projects/this-site/
   jobs:
     - href: /jobs/freelance/
 ---

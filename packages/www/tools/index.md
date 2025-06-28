@@ -15,6 +15,7 @@ _links:
     - href: /tools/ecs/
     - href: /tools/fargate/
     - href: /tools/firebase/
+    - href: /tools/hal/
     - href: /tools/heroku/
     - href: /tools/iam/
     - href: /tools/jekyll/

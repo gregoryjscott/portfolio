@@ -48,6 +48,7 @@ _embedded:
         tools:
           - href: /tools/heroku/
           - href: /tools/jekyll/
+          - href: /tools/hal/
   languages:
     - title: Ruby
       desc: Ruby is an open-source, object-oriented programming language created by
@@ -88,6 +89,7 @@ _embedded:
           href: /tools/jekyll/
         projects:
           - href: /projects/cfw/
+          - href: /projects/this-site/
         jobs:
           - href: /jobs/freelance/
     - title: Heroku

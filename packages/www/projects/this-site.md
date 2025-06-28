@@ -1,8 +1,8 @@
 ---
-title: This Site
+title: gregoryjscott.com
 desc: >-
-  My website/experiment that uses Jekyll to create static HTML pages using YAML,
-  Markdown, and hypermedia.
+  My portfolio website that uses Jekyll to create static HTML pages using YAML,
+  Markdown, and HAL-based hypermedia.
 role: Author
 begin_year: 2014
 end_year: null
@@ -22,4 +22,7 @@ _links:
   os:
     - href: /os/osx/
     - href: /os/linux/
+  tools:
+    - href: /tools/jekyll/
+    - href: /tools/hal/
 ---

@@ -67,3 +67,4 @@ _embedded:
         tools:
           - href: /tools/heroku/
           - href: /tools/jekyll/
+          - href: /tools/hal/

@@ -55,6 +55,7 @@ _embedded:
         tools:
           - href: /tools/heroku/
           - href: /tools/jekyll/
+          - href: /tools/hal/
   languages:
     - title: SQL
       desc: SQL (Structured Query Language) is a domain-specific language used in

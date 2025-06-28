@@ -1127,9 +1127,9 @@ _embedded:
           - href: /jobs/fe/
       _embedded:
         projects:
-          - title: This Site
-            desc: My website/experiment that uses Jekyll to create static HTML pages using
-              YAML, Markdown, and hypermedia.
+          - title: gregoryjscott.com
+            desc: My portfolio website that uses Jekyll to create static HTML pages using
+              YAML, Markdown, and HAL-based hypermedia.
             role: Author
             begin_year: 2014
             end_year: null
@@ -1149,6 +1149,9 @@ _embedded:
               os:
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: EpiCloud
             subtitle: Infinitely Scaling Bots using AWS
             desc: null
@@ -1251,9 +1254,9 @@ _embedded:
           - href: /jobs/rdi/
       _embedded:
         projects:
-          - title: This Site
-            desc: My website/experiment that uses Jekyll to create static HTML pages using
-              YAML, Markdown, and hypermedia.
+          - title: gregoryjscott.com
+            desc: My portfolio website that uses Jekyll to create static HTML pages using
+              YAML, Markdown, and HAL-based hypermedia.
             role: Author
             begin_year: 2014
             end_year: null
@@ -1273,6 +1276,9 @@ _embedded:
               os:
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: fortworthtexas.gov
             desc: Jekyll static site for the City of Fort Worth, Texas.
             role: Technical Lead
@@ -1456,6 +1462,7 @@ _embedded:
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -1538,9 +1545,9 @@ _embedded:
           - href: /jobs/rdi/
       _embedded:
         projects:
-          - title: This Site
-            desc: My website/experiment that uses Jekyll to create static HTML pages using
-              YAML, Markdown, and hypermedia.
+          - title: gregoryjscott.com
+            desc: My portfolio website that uses Jekyll to create static HTML pages using
+              YAML, Markdown, and HAL-based hypermedia.
             role: Author
             begin_year: 2014
             end_year: null
@@ -1560,6 +1567,9 @@ _embedded:
               os:
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
               querying tools for their vast GIS data and infrastructure.
@@ -1771,6 +1781,7 @@ _embedded:
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -1854,9 +1865,9 @@ _embedded:
           - href: /jobs/rdi/
       _embedded:
         projects:
-          - title: This Site
-            desc: My website/experiment that uses Jekyll to create static HTML pages using
-              YAML, Markdown, and hypermedia.
+          - title: gregoryjscott.com
+            desc: My portfolio website that uses Jekyll to create static HTML pages using
+              YAML, Markdown, and HAL-based hypermedia.
             role: Author
             begin_year: 2014
             end_year: null
@@ -1876,6 +1887,9 @@ _embedded:
               os:
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
               querying tools for their vast GIS data and infrastructure.
@@ -2087,6 +2101,7 @@ _embedded:
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -2688,6 +2703,7 @@ _embedded:
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -3416,6 +3432,7 @@ _embedded:
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -4840,6 +4857,7 @@ _embedded:
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -5835,9 +5853,9 @@ _embedded:
           - href: /jobs/rdi/
       _embedded:
         projects:
-          - title: This Site
-            desc: My website/experiment that uses Jekyll to create static HTML pages using
-              YAML, Markdown, and hypermedia.
+          - title: gregoryjscott.com
+            desc: My portfolio website that uses Jekyll to create static HTML pages using
+              YAML, Markdown, and HAL-based hypermedia.
             role: Author
             begin_year: 2014
             end_year: null
@@ -5857,6 +5875,9 @@ _embedded:
               os:
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: Denver Schedules API
             desc: JSON API that provides access to Denver activities that impact the
               residents of Denver.
@@ -5978,6 +5999,7 @@ _embedded:
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -6057,9 +6079,9 @@ _embedded:
           - href: /jobs/rdi/
       _embedded:
         projects:
-          - title: This Site
-            desc: My website/experiment that uses Jekyll to create static HTML pages using
-              YAML, Markdown, and hypermedia.
+          - title: gregoryjscott.com
+            desc: My portfolio website that uses Jekyll to create static HTML pages using
+              YAML, Markdown, and HAL-based hypermedia.
             role: Author
             begin_year: 2014
             end_year: null
@@ -6079,6 +6101,9 @@ _embedded:
               os:
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: EpiCloud
             subtitle: Infinitely Scaling Bots using AWS
             desc: null
@@ -6293,6 +6318,7 @@ _embedded:
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -7036,6 +7062,7 @@ _embedded:
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -7452,6 +7479,101 @@ _embedded:
                 - href: /os/ms-dos/
                 - href: /os/windows/
   tools:
+    - title: Jekyll
+      desc: Jekyll is an open-source, Ruby-based static site generator that transforms
+        plain-text content (written in Markdown, Textile or HTML) and
+        Liquid-templated layouts into a complete, static website. By using
+        simple “front matter” at the top of each page or post to define metadata
+        (like title, date and categories), Jekyll assembles content with shared
+        layouts, includes and assets into fully rendered HTML files. Because it
+        produces only static pages—no databases or server-side processing—it
+        delivers fast, secure sites that are easy to host (notably on GitHub
+        Pages) and maintain via version control.
+      _links:
+        self:
+          href: /tools/jekyll/
+        projects:
+          - href: /projects/cfw/
+          - href: /projects/this-site/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: gregoryjscott.com
+            desc: My portfolio website that uses Jekyll to create static HTML pages using
+              YAML, Markdown, and HAL-based hypermedia.
+            role: Author
+            begin_year: 2014
+            end_year: null
+            _links:
+              self:
+                href: /projects/this-site/
+              code:
+                title: github.com/gregoryjscott/me
+                href: https://github.com/gregoryjscott/me
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/rb/
+                - href: /languages/ts/
+              os:
+                - href: /os/osx/
+                - href: /os/linux/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+          - title: fortworthtexas.gov
+            desc: Jekyll static site for the City of Fort Worth, Texas.
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2016
+            _links:
+              self:
+                href: /projects/cfw/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+              os:
+                - href: /os/linux/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: null
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/denver-schedules-api/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+              db:
+                - href: /db/postgres/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/css/
+                - href: /languages/html/
+              os:
+                - href: /os/windows/
+                - href: /os/osx/
+                - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+                - href: /tools/hal/
     - title: Amazon Virtual Private Cloud (VPC)
       desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
         provides users with a virtual private cloud, allowing them to provision
@@ -8208,74 +8330,6 @@ _embedded:
                 - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
-    - title: Jekyll
-      desc: Jekyll is an open-source, Ruby-based static site generator that transforms
-        plain-text content (written in Markdown, Textile or HTML) and
-        Liquid-templated layouts into a complete, static website. By using
-        simple “front matter” at the top of each page or post to define metadata
-        (like title, date and categories), Jekyll assembles content with shared
-        layouts, includes and assets into fully rendered HTML files. Because it
-        produces only static pages—no databases or server-side processing—it
-        delivers fast, secure sites that are easy to host (notably on GitHub
-        Pages) and maintain via version control.
-      _links:
-        self:
-          href: /tools/jekyll/
-        projects:
-          - href: /projects/cfw/
-        jobs:
-          - href: /jobs/freelance/
-      _embedded:
-        projects:
-          - title: fortworthtexas.gov
-            desc: Jekyll static site for the City of Fort Worth, Texas.
-            role: Technical Lead
-            begin_year: 2015
-            end_year: 2016
-            _links:
-              self:
-                href: /projects/cfw/
-              jobs:
-                - href: /jobs/freelance/
-              languages:
-                - href: /languages/rb/
-              tools:
-                - href: /tools/heroku/
-                - href: /tools/jekyll/
-              os:
-                - href: /os/linux/
-        jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
-            begin_year: 2014
-            end_year: null
-            time_desc: July 2014 - present
-            _links:
-              self:
-                href: /jobs/freelance/
-              projects:
-                - href: /projects/denver-schedules-api/
-                - href: /projects/mvc-integration-test-framework/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-                - href: /projects/cfw/
-              db:
-                - href: /db/postgres/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/css/
-                - href: /languages/html/
-              os:
-                - href: /os/windows/
-                - href: /os/osx/
-                - href: /os/linux/
-              tools:
-                - href: /tools/heroku/
-                - href: /tools/jekyll/
     - title: AWS Identity and Access Management (IAM)
       desc: AWS Identity and Access Management (IAM) is a web service that helps you
         securely control access to AWS resources. With IAM, you can create and
@@ -8440,6 +8494,87 @@ _embedded:
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
+                - href: /tools/hal/
+    - title: HAL
+      subtitle: Hypertext Application Language (HAL) is a a media type for
+        representing resources with hyperlinks
+      desc: The Hypertext Application Language (HAL) is a simple, vendor-neutral media
+        type for representing resources and their relationships in JSON or XML,
+        designed to make RESTful APIs more discoverable and self-descriptive. In
+        HAL, each resource’s state is represented by its attributes, its
+        hyperlinks by a standardized “_links” section (allowing clients to
+        navigate between related resources), and any embedded sub‐resources by
+        an “_embedded” section. By providing a consistent convention for linking
+        and embedding, HAL enables clients to follow HATEOAS
+        principles—dynamically discovering available operations and
+        transitions—without relying on out-of-band documentation.
+      _links:
+        self:
+          href: /tools/hal/
+        projects:
+          - href: /projects/this-site/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: gregoryjscott.com
+            desc: My portfolio website that uses Jekyll to create static HTML pages using
+              YAML, Markdown, and HAL-based hypermedia.
+            role: Author
+            begin_year: 2014
+            end_year: null
+            _links:
+              self:
+                href: /projects/this-site/
+              code:
+                title: github.com/gregoryjscott/me
+                href: https://github.com/gregoryjscott/me
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/rb/
+                - href: /languages/ts/
+              os:
+                - href: /os/osx/
+                - href: /os/linux/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: null
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/denver-schedules-api/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+              db:
+                - href: /db/postgres/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/css/
+                - href: /languages/html/
+              os:
+                - href: /os/windows/
+                - href: /os/osx/
+                - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+                - href: /tools/hal/
     - title: Google Firebase
       desc: Google Firebase is a mobile and web application development platform that
         provides developers with a variety of tools and services to help them
@@ -9799,6 +9934,7 @@ _embedded:
         tools:
           - href: /tools/heroku/
           - href: /tools/jekyll/
+          - href: /tools/hal/
       content: >-
         - Designed and built the software infrastructure that powers the sites
         and applications for the City of Fort Worth, Texas
@@ -9808,9 +9944,9 @@ _embedded:
         - Building open-source software for profit and fun
       _embedded:
         projects:
-          - title: This Site
-            desc: My website/experiment that uses Jekyll to create static HTML pages using
-              YAML, Markdown, and hypermedia.
+          - title: gregoryjscott.com
+            desc: My portfolio website that uses Jekyll to create static HTML pages using
+              YAML, Markdown, and HAL-based hypermedia.
             role: Author
             begin_year: 2014
             end_year: null
@@ -9830,6 +9966,9 @@ _embedded:
               os:
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: fortworthtexas.gov
             desc: Jekyll static site for the City of Fort Worth, Texas.
             role: Technical Lead
@@ -10179,6 +10318,27 @@ _embedded:
               schools:
                 - href: /schools/uco/
         tools:
+          - title: HAL
+            subtitle: Hypertext Application Language (HAL) is a a media type for
+              representing resources with hyperlinks
+            desc: The Hypertext Application Language (HAL) is a simple, vendor-neutral media
+              type for representing resources and their relationships in JSON or
+              XML, designed to make RESTful APIs more discoverable and
+              self-descriptive. In HAL, each resource’s state is represented by
+              its attributes, its hyperlinks by a standardized “_links” section
+              (allowing clients to navigate between related resources), and any
+              embedded sub‐resources by an “_embedded” section. By providing a
+              consistent convention for linking and embedding, HAL enables
+              clients to follow HATEOAS principles—dynamically discovering
+              available operations and transitions—without relying on
+              out-of-band documentation.
+            _links:
+              self:
+                href: /tools/hal/
+              projects:
+                - href: /projects/this-site/
+              jobs:
+                - href: /jobs/freelance/
           - title: Jekyll
             desc: Jekyll is an open-source, Ruby-based static site generator that transforms
               plain-text content (written in Markdown, Textile or HTML) and
@@ -10195,6 +10355,7 @@ _embedded:
                 href: /tools/jekyll/
               projects:
                 - href: /projects/cfw/
+                - href: /projects/this-site/
               jobs:
                 - href: /jobs/freelance/
           - title: Heroku

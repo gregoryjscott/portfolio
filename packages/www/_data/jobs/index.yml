@@ -524,6 +524,7 @@ _embedded:
         tools:
           - href: /tools/heroku/
           - href: /tools/jekyll/
+          - href: /tools/hal/
       content: >-
         - Designed and built the software infrastructure that powers the sites
         and applications for the City of Fort Worth, Texas
@@ -533,9 +534,9 @@ _embedded:
         - Building open-source software for profit and fun
       _embedded:
         projects:
-          - title: This Site
-            desc: My website/experiment that uses Jekyll to create static HTML pages using
-              YAML, Markdown, and hypermedia.
+          - title: gregoryjscott.com
+            desc: My portfolio website that uses Jekyll to create static HTML pages using
+              YAML, Markdown, and HAL-based hypermedia.
             role: Author
             begin_year: 2014
             end_year: null
@@ -555,6 +556,9 @@ _embedded:
               os:
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: fortworthtexas.gov
             desc: Jekyll static site for the City of Fort Worth, Texas.
             role: Technical Lead
@@ -904,6 +908,27 @@ _embedded:
               schools:
                 - href: /schools/uco/
         tools:
+          - title: HAL
+            subtitle: Hypertext Application Language (HAL) is a a media type for
+              representing resources with hyperlinks
+            desc: The Hypertext Application Language (HAL) is a simple, vendor-neutral media
+              type for representing resources and their relationships in JSON or
+              XML, designed to make RESTful APIs more discoverable and
+              self-descriptive. In HAL, each resource’s state is represented by
+              its attributes, its hyperlinks by a standardized “_links” section
+              (allowing clients to navigate between related resources), and any
+              embedded sub‐resources by an “_embedded” section. By providing a
+              consistent convention for linking and embedding, HAL enables
+              clients to follow HATEOAS principles—dynamically discovering
+              available operations and transitions—without relying on
+              out-of-band documentation.
+            _links:
+              self:
+                href: /tools/hal/
+              projects:
+                - href: /projects/this-site/
+              jobs:
+                - href: /jobs/freelance/
           - title: Jekyll
             desc: Jekyll is an open-source, Ruby-based static site generator that transforms
               plain-text content (written in Markdown, Textile or HTML) and
@@ -920,6 +945,7 @@ _embedded:
                 href: /tools/jekyll/
               projects:
                 - href: /projects/cfw/
+                - href: /projects/this-site/
               jobs:
                 - href: /jobs/freelance/
           - title: Heroku

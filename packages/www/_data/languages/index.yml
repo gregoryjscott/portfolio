@@ -43,9 +43,9 @@ _embedded:
           - href: /jobs/fe/
       _embedded:
         projects:
-          - title: This Site
-            desc: My website/experiment that uses Jekyll to create static HTML pages using
-              YAML, Markdown, and hypermedia.
+          - title: gregoryjscott.com
+            desc: My portfolio website that uses Jekyll to create static HTML pages using
+              YAML, Markdown, and HAL-based hypermedia.
             role: Author
             begin_year: 2014
             end_year: null
@@ -65,6 +65,9 @@ _embedded:
               os:
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: EpiCloud
             subtitle: Infinitely Scaling Bots using AWS
             desc: null
@@ -167,9 +170,9 @@ _embedded:
           - href: /jobs/rdi/
       _embedded:
         projects:
-          - title: This Site
-            desc: My website/experiment that uses Jekyll to create static HTML pages using
-              YAML, Markdown, and hypermedia.
+          - title: gregoryjscott.com
+            desc: My portfolio website that uses Jekyll to create static HTML pages using
+              YAML, Markdown, and HAL-based hypermedia.
             role: Author
             begin_year: 2014
             end_year: null
@@ -189,6 +192,9 @@ _embedded:
               os:
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: fortworthtexas.gov
             desc: Jekyll static site for the City of Fort Worth, Texas.
             role: Technical Lead
@@ -372,6 +378,7 @@ _embedded:
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -454,9 +461,9 @@ _embedded:
           - href: /jobs/rdi/
       _embedded:
         projects:
-          - title: This Site
-            desc: My website/experiment that uses Jekyll to create static HTML pages using
-              YAML, Markdown, and hypermedia.
+          - title: gregoryjscott.com
+            desc: My portfolio website that uses Jekyll to create static HTML pages using
+              YAML, Markdown, and HAL-based hypermedia.
             role: Author
             begin_year: 2014
             end_year: null
@@ -476,6 +483,9 @@ _embedded:
               os:
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
               querying tools for their vast GIS data and infrastructure.
@@ -687,6 +697,7 @@ _embedded:
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -770,9 +781,9 @@ _embedded:
           - href: /jobs/rdi/
       _embedded:
         projects:
-          - title: This Site
-            desc: My website/experiment that uses Jekyll to create static HTML pages using
-              YAML, Markdown, and hypermedia.
+          - title: gregoryjscott.com
+            desc: My portfolio website that uses Jekyll to create static HTML pages using
+              YAML, Markdown, and HAL-based hypermedia.
             role: Author
             begin_year: 2014
             end_year: null
@@ -792,6 +803,9 @@ _embedded:
               os:
                 - href: /os/osx/
                 - href: /os/linux/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
               querying tools for their vast GIS data and infrastructure.
@@ -1003,6 +1017,7 @@ _embedded:
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -1604,6 +1619,7 @@ _embedded:
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -2332,6 +2348,7 @@ _embedded:
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
+                - href: /tools/hal/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom

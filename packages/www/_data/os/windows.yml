@@ -684,6 +684,7 @@ _embedded:
         tools:
           - href: /tools/heroku/
           - href: /tools/jekyll/
+          - href: /tools/hal/
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
         Texas, Idaho, Minnesota, and Oregon, that provides custom database, web,

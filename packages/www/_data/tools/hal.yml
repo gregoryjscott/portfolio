@@ -1,17 +1,19 @@
-title: Jekyll
-desc: Jekyll is an open-source, Ruby-based static site generator that transforms
-  plain-text content (written in Markdown, Textile or HTML) and Liquid-templated
-  layouts into a complete, static website. By using simple “front matter” at the
-  top of each page or post to define metadata (like title, date and categories),
-  Jekyll assembles content with shared layouts, includes and assets into fully
-  rendered HTML files. Because it produces only static pages—no databases or
-  server-side processing—it delivers fast, secure sites that are easy to host
-  (notably on GitHub Pages) and maintain via version control.
+title: HAL
+subtitle: Hypertext Application Language (HAL) is a a media type for
+  representing resources with hyperlinks
+desc: The Hypertext Application Language (HAL) is a simple, vendor-neutral media
+  type for representing resources and their relationships in JSON or XML,
+  designed to make RESTful APIs more discoverable and self-descriptive. In HAL,
+  each resource’s state is represented by its attributes, its hyperlinks by a
+  standardized “_links” section (allowing clients to navigate between related
+  resources), and any embedded sub‐resources by an “_embedded” section. By
+  providing a consistent convention for linking and embedding, HAL enables
+  clients to follow HATEOAS principles—dynamically discovering available
+  operations and transitions—without relying on out-of-band documentation.
 _links:
   self:
-    href: /tools/jekyll/
+    href: /tools/hal/
   projects:
-    - href: /projects/cfw/
     - href: /projects/this-site/
   jobs:
     - href: /jobs/freelance/
@@ -42,23 +44,6 @@ _embedded:
         tools:
           - href: /tools/jekyll/
           - href: /tools/hal/
-    - title: fortworthtexas.gov
-      desc: Jekyll static site for the City of Fort Worth, Texas.
-      role: Technical Lead
-      begin_year: 2015
-      end_year: 2016
-      _links:
-        self:
-          href: /projects/cfw/
-        jobs:
-          - href: /jobs/freelance/
-        languages:
-          - href: /languages/rb/
-        tools:
-          - href: /tools/heroku/
-          - href: /tools/jekyll/
-        os:
-          - href: /os/linux/
   jobs:
     - title: Freelance Programmer
       desc: Freelance Programmer/Consultant, partnering with clients to architect and

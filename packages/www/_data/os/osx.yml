@@ -19,9 +19,9 @@ _links:
     - href: /jobs/rdi/
 _embedded:
   projects:
-    - title: This Site
-      desc: My website/experiment that uses Jekyll to create static HTML pages using
-        YAML, Markdown, and hypermedia.
+    - title: gregoryjscott.com
+      desc: My portfolio website that uses Jekyll to create static HTML pages using
+        YAML, Markdown, and HAL-based hypermedia.
       role: Author
       begin_year: 2014
       end_year: null
@@ -41,6 +41,9 @@ _embedded:
         os:
           - href: /os/osx/
           - href: /os/linux/
+        tools:
+          - href: /tools/jekyll/
+          - href: /tools/hal/
     - title: Centroid
       desc: Library for accessing environment based configuration from multiple
         different programming languages.
@@ -162,6 +165,7 @@ _embedded:
         tools:
           - href: /tools/heroku/
           - href: /tools/jekyll/
+          - href: /tools/hal/
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
         Texas, Idaho, Minnesota, and Oregon, that provides custom database, web,

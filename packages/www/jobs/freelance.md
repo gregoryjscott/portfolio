@@ -31,6 +31,7 @@ _links:
   tools:
     - href: /tools/heroku/
     - href: /tools/jekyll/
+    - href: /tools/hal/
 ---
 
 - Designed and built the software infrastructure that powers the sites and applications for the City of Fort Worth, Texas
