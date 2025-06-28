@@ -305,44 +305,6 @@ _embedded:
           - href: /os/osx/
           - href: /os/linux/
   jobs:
-    - title: Futuristic Education
-      desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-        for schools and educators
-      role: Co-Founder/Programmer
-      begin_year: 2018
-      end_year: null
-      time_desc: March 2018 - present
-      _links:
-        self:
-          href: /jobs/fe/
-        projects:
-          - href: /projects/epicloud/
-          - href: /projects/epic-ca-enrollment/
-        db:
-          - href: /db/bigquery/
-          - href: /db/ddb/
-          - href: /db/firebase/
-        languages:
-          - href: /languages/ts/
-          - href: /languages/php/
-        os:
-          - href: /os/linux/
-        tools:
-          - href: /tools/classroom/
-          - href: /tools/docker/
-          - href: /tools/drive/
-          - href: /tools/ec2/
-          - href: /tools/ecr/
-          - href: /tools/ecs/
-          - href: /tools/fargate/
-          - href: /tools/firebase/
-          - href: /tools/iam/
-          - href: /tools/node/
-          - href: /tools/puppeteer/
-          - href: /tools/s3/
-          - href: /tools/sqs/
-          - href: /tools/vpc/
-          - href: /tools/sikulix/
     - title: Freelance Programmer
       desc: Freelance Programmer/Consultant, partnering with clients to architect and
         implement technology solutions
@@ -383,6 +345,44 @@ _embedded:
           - href: /tools/amplify/
           - href: /tools/react-native/
           - href: /tools/xstate/
+    - title: Futuristic Education
+      desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+        for schools and educators
+      role: Co-Founder/Programmer
+      begin_year: 2018
+      end_year: 2022
+      time_desc: March 2018 - present
+      _links:
+        self:
+          href: /jobs/fe/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/epic-ca-enrollment/
+        db:
+          - href: /db/bigquery/
+          - href: /db/ddb/
+          - href: /db/firebase/
+        languages:
+          - href: /languages/ts/
+          - href: /languages/php/
+        os:
+          - href: /os/linux/
+        tools:
+          - href: /tools/classroom/
+          - href: /tools/docker/
+          - href: /tools/drive/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/firebase/
+          - href: /tools/iam/
+          - href: /tools/node/
+          - href: /tools/puppeteer/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+          - href: /tools/sikulix/
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
         Texas, Idaho, Minnesota, and Oregon, that provides custom database, web,

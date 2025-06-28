@@ -5,7 +5,7 @@ desc: >-
   schools and educators
 role: Co-Founder/Programmer
 begin_year: 2018
-end_year: null
+end_year: 2022
 time_desc: March 2018 - present
 _links:
   self:
