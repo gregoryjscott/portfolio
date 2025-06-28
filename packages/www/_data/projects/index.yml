@@ -337,6 +337,7 @@ _embedded:
                 - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/ddb/
                 - href: /db/firebase/
               languages:
                 - href: /languages/ts/
@@ -345,7 +346,6 @@ _embedded:
                 - href: /os/linux/
               tools:
                 - href: /tools/classroom/
-                - href: /tools/ddb/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -466,11 +466,11 @@ _embedded:
           - href: /languages/ts/
         db:
           - href: /db/bigquery/
+          - href: /db/ddb/
         os:
           - href: /os/linux/
         tools:
           - href: /tools/classroom/
-          - href: /tools/ddb/
           - href: /tools/docker/
           - href: /tools/drive/
           - href: /tools/ec2/
@@ -504,6 +504,7 @@ _embedded:
                 - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/ddb/
                 - href: /db/firebase/
               languages:
                 - href: /languages/ts/
@@ -512,7 +513,6 @@ _embedded:
                 - href: /os/linux/
               tools:
                 - href: /tools/classroom/
-                - href: /tools/ddb/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -547,6 +547,22 @@ _embedded:
               jobs:
                 - href: /jobs/fe/
         db:
+          - title: DynamoDB
+            desc: Amazon DynamoDB is a fully managed NoSQL database service that provides
+              fast and predictable performance with seamless scalability. It is
+              a serverless database that can automatically scale up or down to
+              meet the needs of your application. DynamoDB offers a flexible
+              data model, reliable performance, and automatic scaling of
+              throughput capacity. It also provides encryption at rest,
+              point-in-time recovery, and other features to help protect your
+              data.
+            _links:
+              self:
+                href: /db/ddb/
+              projects:
+                - href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
           - title: BigQuery
             desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
               enables businesses to store, query, and analyze large datasets. It
@@ -843,22 +859,6 @@ _embedded:
             _links:
               self:
                 href: /tools/docker/
-              projects:
-                - href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-          - title: DynamoDB
-            desc: Amazon DynamoDB is a fully managed NoSQL database service that provides
-              fast and predictable performance with seamless scalability. It is
-              a serverless database that can automatically scale up or down to
-              meet the needs of your application. DynamoDB offers a flexible
-              data model, reliable performance, and automatic scaling of
-              throughput capacity. It also provides encryption at rest,
-              point-in-time recovery, and other features to help protect your
-              data.
-            _links:
-              self:
-                href: /tools/ddb/
               projects:
                 - href: /projects/epicloud/
               jobs:

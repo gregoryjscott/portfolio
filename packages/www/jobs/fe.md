@@ -15,6 +15,7 @@ _links:
     - href: /projects/epic-ca-enrollment/
   db:
     - href: /db/bigquery/
+    - href: /db/ddb/
     - href: /db/firebase/
   languages:
     - href: /languages/ts/
@@ -23,7 +24,6 @@ _links:
     - href: /os/linux/
   tools:
     - href: /tools/classroom/
-    - href: /tools/ddb/
     - href: /tools/docker/
     - href: /tools/drive/
     - href: /tools/ec2/

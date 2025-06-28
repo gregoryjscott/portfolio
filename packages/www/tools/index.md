@@ -7,7 +7,6 @@ _links:
     href: /tools/
   tools:
     - href: /tools/classroom/
-    - href: /tools/ddb/
     - href: /tools/docker/
     - href: /tools/drive/
     - href: /tools/ec2/

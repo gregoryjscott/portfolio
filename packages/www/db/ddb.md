@@ -9,7 +9,7 @@ desc: >-
   point-in-time recovery, and other features to help protect your data.
 _links:
   self:
-    href: /tools/ddb/
+    href: /db/ddb/
   projects:
     - href: /projects/epicloud/
   jobs:

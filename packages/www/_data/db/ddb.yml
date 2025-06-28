@@ -1,13 +1,13 @@
-title: Pivotal Tracker
-desc: Pivotal Tracker is an agile project management tool that helps teams
-  collaborate and manage their projects. It provides a visual timeline of tasks,
-  stories, and epics, and allows teams to prioritize and track progress. It also
-  offers features such as real-time collaboration, automated workflow, and
-  reporting. It is designed to help teams stay organized and on track with their
-  projects.
+title: DynamoDB
+desc: Amazon DynamoDB is a fully managed NoSQL database service that provides
+  fast and predictable performance with seamless scalability. It is a serverless
+  database that can automatically scale up or down to meet the needs of your
+  application. DynamoDB offers a flexible data model, reliable performance, and
+  automatic scaling of throughput capacity. It also provides encryption at rest,
+  point-in-time recovery, and other features to help protect your data.
 _links:
   self:
-    href: /tools/tracker/
+    href: /db/ddb/
   projects:
     - href: /projects/epicloud/
   jobs:

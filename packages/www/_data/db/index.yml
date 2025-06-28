@@ -8,6 +8,7 @@ _links:
     - href: /db/access/
     - href: /db/bigquery/
     - href: /db/btrieve/
+    - href: /db/ddb/
     - href: /db/firebase/
     - href: /db/oracle/
     - href: /db/pervasive/
@@ -53,6 +54,7 @@ _embedded:
                 - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/ddb/
                 - href: /db/firebase/
               languages:
                 - href: /languages/ts/
@@ -61,7 +63,6 @@ _embedded:
                 - href: /os/linux/
               tools:
                 - href: /tools/classroom/
-                - href: /tools/ddb/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -95,6 +96,100 @@ _embedded:
                 - href: /db/firebase/
               os:
                 - href: /os/windows/
+    - title: DynamoDB
+      desc: Amazon DynamoDB is a fully managed NoSQL database service that provides
+        fast and predictable performance with seamless scalability. It is a
+        serverless database that can automatically scale up or down to meet the
+        needs of your application. DynamoDB offers a flexible data model,
+        reliable performance, and automatic scaling of throughput capacity. It
+        also provides encryption at rest, point-in-time recovery, and other
+        features to help protect your data.
+      _links:
+        self:
+          href: /db/ddb/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+      _embedded:
+        projects:
+          - title: EpiCloud
+            subtitle: Infinitely Scaling Bots using AWS
+            desc: null
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/lerna/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/tracker/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
+        jobs:
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: null
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              languages:
+                - href: /languages/ts/
+                - href: /languages/php/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/lerna/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/tracker/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: BigQuery
       desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
         enables businesses to store, query, and analyze large datasets. It is a
@@ -128,11 +223,11 @@ _embedded:
                 - href: /languages/ts/
               db:
                 - href: /db/bigquery/
+                - href: /db/ddb/
               os:
                 - href: /os/linux/
               tools:
                 - href: /tools/classroom/
-                - href: /tools/ddb/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -165,6 +260,7 @@ _embedded:
                 - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/ddb/
                 - href: /db/firebase/
               languages:
                 - href: /languages/ts/
@@ -173,7 +269,6 @@ _embedded:
                 - href: /os/linux/
               tools:
                 - href: /tools/classroom/
-                - href: /tools/ddb/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/

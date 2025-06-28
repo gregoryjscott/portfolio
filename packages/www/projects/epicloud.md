@@ -14,11 +14,11 @@ _links:
     - href: /languages/ts/
   db:
     - href: /db/bigquery/
+    - href: /db/ddb/
   os:
     - href: /os/linux/
   tools:
     - href: /tools/classroom/
-    - href: /tools/ddb/
     - href: /tools/docker/
     - href: /tools/drive/
     - href: /tools/ec2/
