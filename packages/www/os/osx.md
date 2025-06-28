@@ -16,6 +16,10 @@ _links:
     - href: /projects/scramble-score/
     - href: /projects/simpler/
     - href: /projects/this-site/
+    - href: /projects/jekyll-load/
+    - href: /projects/jekyll-api/
+    - href: /projects/jekyll-embed/
+    - href: /projects/jekyll-prep/
   jobs:
     - href: /jobs/freelance/
     - href: /jobs/rdi/

@@ -214,6 +214,10 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
                 - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -1249,6 +1253,10 @@ _embedded:
           - href: /projects/simpler/
           - href: /projects/this-site/
           - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -1295,6 +1303,88 @@ _embedded:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
               os:
+                - href: /os/linux/
+          - title: jekyll-prep
+            desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-prep/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-prep
+                href: https://github.com/gregoryjscott/jekyll-prep
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/osx/
+                - href: /os/linux/
+          - title: jekyll-embed
+            desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
+              frontmatter
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-embed/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-embed
+                href: https://github.com/gregoryjscott/jekyll-embed
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+              os:
+                - href: /os/osx/
+                - href: /os/linux/
+          - title: jekyll-api
+            desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-api/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-api
+                href: https://github.com/gregoryjscott/jekyll-api
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/osx/
+                - href: /os/linux/
+          - title: jekyll-load
+            desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-load/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-load
+                href: https://github.com/gregoryjscott/jekyll-load
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/osx/
                 - href: /os/linux/
           - title: Denver Schedules API
             desc: JSON API that provides access to Denver activities that impact the
@@ -1447,6 +1537,10 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
                 - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
               db:
                 - href: /db/postgres/
               languages:
@@ -1766,6 +1860,10 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
                 - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
               db:
                 - href: /db/postgres/
               languages:
@@ -2086,6 +2184,10 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
                 - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
               db:
                 - href: /db/postgres/
               languages:
@@ -2688,6 +2790,10 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
                 - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
               db:
                 - href: /db/postgres/
               languages:
@@ -3417,6 +3523,10 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
                 - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
               db:
                 - href: /db/postgres/
               languages:
@@ -4842,6 +4952,10 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
                 - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
               db:
                 - href: /db/postgres/
               languages:
@@ -5848,6 +5962,10 @@ _embedded:
           - href: /projects/scramble-score/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -5878,6 +5996,88 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
                 - href: /tools/hal/
+          - title: jekyll-prep
+            desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-prep/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-prep
+                href: https://github.com/gregoryjscott/jekyll-prep
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/osx/
+                - href: /os/linux/
+          - title: jekyll-embed
+            desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
+              frontmatter
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-embed/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-embed
+                href: https://github.com/gregoryjscott/jekyll-embed
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+              os:
+                - href: /os/osx/
+                - href: /os/linux/
+          - title: jekyll-api
+            desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-api/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-api
+                href: https://github.com/gregoryjscott/jekyll-api
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/osx/
+                - href: /os/linux/
+          - title: jekyll-load
+            desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-load/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-load
+                href: https://github.com/gregoryjscott/jekyll-load
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/osx/
+                - href: /os/linux/
           - title: Denver Schedules API
             desc: JSON API that provides access to Denver activities that impact the
               residents of Denver.
@@ -5984,6 +6184,10 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
                 - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
               db:
                 - href: /db/postgres/
               languages:
@@ -6073,6 +6277,10 @@ _embedded:
           - href: /projects/simpler/
           - href: /projects/this-site/
           - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/freelance/
@@ -6156,6 +6364,88 @@ _embedded:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
               os:
+                - href: /os/linux/
+          - title: jekyll-prep
+            desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-prep/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-prep
+                href: https://github.com/gregoryjscott/jekyll-prep
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/osx/
+                - href: /os/linux/
+          - title: jekyll-embed
+            desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
+              frontmatter
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-embed/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-embed
+                href: https://github.com/gregoryjscott/jekyll-embed
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+              os:
+                - href: /os/osx/
+                - href: /os/linux/
+          - title: jekyll-api
+            desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-api/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-api
+                href: https://github.com/gregoryjscott/jekyll-api
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/osx/
+                - href: /os/linux/
+          - title: jekyll-load
+            desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-load/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-load
+                href: https://github.com/gregoryjscott/jekyll-load
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/osx/
                 - href: /os/linux/
           - title: Denver Schedules API
             desc: JSON API that provides access to Denver activities that impact the
@@ -6303,6 +6593,10 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
                 - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
               db:
                 - href: /db/postgres/
               languages:
@@ -7047,6 +7341,10 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
                 - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
               db:
                 - href: /db/postgres/
               languages:
@@ -7495,6 +7793,10 @@ _embedded:
         projects:
           - href: /projects/cfw/
           - href: /projects/this-site/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
         jobs:
           - href: /jobs/freelance/
       _embedded:
@@ -7541,6 +7843,88 @@ _embedded:
                 - href: /tools/jekyll/
               os:
                 - href: /os/linux/
+          - title: jekyll-prep
+            desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-prep/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-prep
+                href: https://github.com/gregoryjscott/jekyll-prep
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/osx/
+                - href: /os/linux/
+          - title: jekyll-embed
+            desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
+              frontmatter
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-embed/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-embed
+                href: https://github.com/gregoryjscott/jekyll-embed
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+              os:
+                - href: /os/osx/
+                - href: /os/linux/
+          - title: jekyll-api
+            desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-api/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-api
+                href: https://github.com/gregoryjscott/jekyll-api
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/osx/
+                - href: /os/linux/
+          - title: jekyll-load
+            desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-load/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-load
+                href: https://github.com/gregoryjscott/jekyll-load
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/osx/
+                - href: /os/linux/
         jobs:
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -7558,6 +7942,117 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
                 - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+              db:
+                - href: /db/postgres/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/css/
+                - href: /languages/html/
+              os:
+                - href: /os/windows/
+                - href: /os/osx/
+                - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+    - title: HAL
+      subtitle: Hypertext Application Language (HAL) is a a media type for
+        representing resources with hyperlinks
+      desc: The Hypertext Application Language (HAL) is a simple, vendor-neutral media
+        type for representing resources and their relationships in JSON or XML,
+        designed to make RESTful APIs more discoverable and self-descriptive. In
+        HAL, each resource’s state is represented by its attributes, its
+        hyperlinks by a standardized “_links” section (allowing clients to
+        navigate between related resources), and any embedded sub‐resources by
+        an “_embedded” section. By providing a consistent convention for linking
+        and embedding, HAL enables clients to follow HATEOAS
+        principles—dynamically discovering available operations and
+        transitions—without relying on out-of-band documentation.
+      _links:
+        self:
+          href: /tools/hal/
+        projects:
+          - href: /projects/this-site/
+          - href: /projects/jekyll-embed/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: gregoryjscott.com
+            desc: My portfolio website that uses Jekyll to create static HTML pages using
+              YAML, Markdown, and HAL-based hypermedia.
+            role: Author
+            begin_year: 2014
+            end_year: null
+            _links:
+              self:
+                href: /projects/this-site/
+              code:
+                title: github.com/gregoryjscott/me
+                href: https://github.com/gregoryjscott/me
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/rb/
+                - href: /languages/ts/
+              os:
+                - href: /os/osx/
+                - href: /os/linux/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+          - title: jekyll-embed
+            desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
+              frontmatter
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-embed/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-embed
+                href: https://github.com/gregoryjscott/jekyll-embed
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+              os:
+                - href: /os/osx/
+                - href: /os/linux/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: null
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/denver-schedules-api/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
               db:
                 - href: /db/postgres/
               languages:
@@ -8479,86 +8974,10 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
                 - href: /projects/cfw/
-              db:
-                - href: /db/postgres/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/css/
-                - href: /languages/html/
-              os:
-                - href: /os/windows/
-                - href: /os/osx/
-                - href: /os/linux/
-              tools:
-                - href: /tools/heroku/
-                - href: /tools/jekyll/
-                - href: /tools/hal/
-    - title: HAL
-      subtitle: Hypertext Application Language (HAL) is a a media type for
-        representing resources with hyperlinks
-      desc: The Hypertext Application Language (HAL) is a simple, vendor-neutral media
-        type for representing resources and their relationships in JSON or XML,
-        designed to make RESTful APIs more discoverable and self-descriptive. In
-        HAL, each resource’s state is represented by its attributes, its
-        hyperlinks by a standardized “_links” section (allowing clients to
-        navigate between related resources), and any embedded sub‐resources by
-        an “_embedded” section. By providing a consistent convention for linking
-        and embedding, HAL enables clients to follow HATEOAS
-        principles—dynamically discovering available operations and
-        transitions—without relying on out-of-band documentation.
-      _links:
-        self:
-          href: /tools/hal/
-        projects:
-          - href: /projects/this-site/
-        jobs:
-          - href: /jobs/freelance/
-      _embedded:
-        projects:
-          - title: gregoryjscott.com
-            desc: My portfolio website that uses Jekyll to create static HTML pages using
-              YAML, Markdown, and HAL-based hypermedia.
-            role: Author
-            begin_year: 2014
-            end_year: null
-            _links:
-              self:
-                href: /projects/this-site/
-              code:
-                title: github.com/gregoryjscott/me
-                href: https://github.com/gregoryjscott/me
-              jobs:
-                - href: /jobs/freelance/
-              languages:
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/rb/
-                - href: /languages/ts/
-              os:
-                - href: /os/osx/
-                - href: /os/linux/
-              tools:
-                - href: /tools/jekyll/
-                - href: /tools/hal/
-        jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
-            begin_year: 2014
-            end_year: null
-            time_desc: July 2014 - present
-            _links:
-              self:
-                href: /jobs/freelance/
-              projects:
-                - href: /projects/denver-schedules-api/
-                - href: /projects/mvc-integration-test-framework/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
               db:
                 - href: /db/postgres/
               languages:
@@ -9613,6 +10032,10 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
                 - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -9919,6 +10342,10 @@ _embedded:
           - href: /projects/simpler/
           - href: /projects/this-site/
           - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
         db:
           - href: /db/postgres/
         languages:
@@ -9985,6 +10412,88 @@ _embedded:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
               os:
+                - href: /os/linux/
+          - title: jekyll-prep
+            desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-prep/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-prep
+                href: https://github.com/gregoryjscott/jekyll-prep
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/osx/
+                - href: /os/linux/
+          - title: jekyll-embed
+            desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
+              frontmatter
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-embed/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-embed
+                href: https://github.com/gregoryjscott/jekyll-embed
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+              os:
+                - href: /os/osx/
+                - href: /os/linux/
+          - title: jekyll-api
+            desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-api/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-api
+                href: https://github.com/gregoryjscott/jekyll-api
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/osx/
+                - href: /os/linux/
+          - title: jekyll-load
+            desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-load/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-load
+                href: https://github.com/gregoryjscott/jekyll-load
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/osx/
                 - href: /os/linux/
           - title: Denver Schedules API
             desc: JSON API that provides access to Denver activities that impact the
@@ -10180,6 +10689,10 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
                 - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -10243,6 +10756,10 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
                 - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -10263,6 +10780,10 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -10337,6 +10858,7 @@ _embedded:
                 href: /tools/hal/
               projects:
                 - href: /projects/this-site/
+                - href: /projects/jekyll-embed/
               jobs:
                 - href: /jobs/freelance/
           - title: Jekyll
@@ -10356,6 +10878,10 @@ _embedded:
               projects:
                 - href: /projects/cfw/
                 - href: /projects/this-site/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
               jobs:
                 - href: /jobs/freelance/
           - title: Heroku
@@ -11099,6 +11625,10 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
                 - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -11299,6 +11829,10 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -11321,6 +11855,10 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
                 - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/

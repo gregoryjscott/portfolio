@@ -16,6 +16,10 @@ _links:
     - href: /projects/simpler/
     - href: /projects/this-site/
     - href: /projects/cfw/
+    - href: /projects/jekyll-load/
+    - href: /projects/jekyll-api/
+    - href: /projects/jekyll-embed/
+    - href: /projects/jekyll-prep/
   db:
     - href: /db/postgres/
   languages:

@@ -25,6 +25,10 @@ _links:
     - href: /projects/epic-ca-enrollment/
     - href: /projects/epicloud/
     - href: /projects/flir-monitoring/
+    - href: /projects/jekyll-api/
+    - href: /projects/jekyll-embed/
+    - href: /projects/jekyll-load/
+    - href: /projects/jekyll-prep/
     - href: /projects/lasar-range-finder/
     - href: /projects/mission-data-loader/
     - href: /projects/mvc-integration-test-framework/
