@@ -22,7 +22,7 @@ Source code is available at: <a href="{{ page._links.code.href }}">{{ page._link
 {% endif %}
 
 {% if page.content %}
-  {{ page.content | markdownify }}
+  <div class="content">{{ page.content | markdownify }}</div>
 {% endif %}
 
 {% include relations-details.html resource=page %}
