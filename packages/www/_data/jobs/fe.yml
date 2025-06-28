@@ -131,6 +131,7 @@ _embedded:
           href: /db/ddb/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
     - title: BigQuery
@@ -178,6 +179,7 @@ _embedded:
         projects:
           - href: /projects/epicloud/
           - href: /projects/this-site/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
   os:
@@ -203,6 +205,7 @@ _embedded:
           - href: /projects/jekyll-api/
           - href: /projects/jekyll-embed/
           - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/freelance/
@@ -239,6 +242,7 @@ _embedded:
           href: /tools/vpc/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
     - title: Amazon Simple Queue Service (SQS)
@@ -256,6 +260,7 @@ _embedded:
           href: /tools/sqs/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
     - title: Amazon Simple Storage Service (S3)
@@ -271,6 +276,7 @@ _embedded:
           href: /tools/s3/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
     - title: Puppeteer
@@ -331,6 +337,7 @@ _embedded:
           href: /tools/iam/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
     - title: Google Firebase
@@ -361,6 +368,7 @@ _embedded:
           href: /tools/fargate/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
     - title: Amazon Elastic Container Service (ECS)
@@ -376,6 +384,7 @@ _embedded:
           href: /tools/ecs/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
     - title: Amazon Elastic Container Registry (ECR)
@@ -391,6 +400,7 @@ _embedded:
           href: /tools/ecr/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
     - title: Amazon Elastic Compute Cloud (EC2)
@@ -406,6 +416,7 @@ _embedded:
           href: /tools/ec2/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
     - title: Google Drive

@@ -18,6 +18,7 @@ _links:
     - href: /projects/jekyll-api/
     - href: /projects/jekyll-embed/
     - href: /projects/jekyll-prep/
+    - href: /projects/nuggets/
   db:
     - href: /db/postgres/
   languages:
@@ -34,6 +35,9 @@ _links:
     - href: /tools/heroku/
     - href: /tools/jekyll/
     - href: /tools/hal/
+    - href: /tools/amplify/
+    - href: /tools/react-native/
+    - href: /tools/xstate/
 content: >-
   - Designed and built the software infrastructure that powers the sites
   and applications for the City of Fort Worth, Texas
@@ -43,6 +47,36 @@ content: >-
   - Building open-source software for profit and fun
 _embedded:
   projects:
+    - title: Nuggets
+      subtitle: Customizing Curriculum for Students using AI
+      desc: React Native app built using AI and state machines for learning Spanish or
+        English.
+      role: Author
+      begin_year: 2024
+      end_year: null
+      _links:
+        self:
+          href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+        languages:
+          - href: /languages/ts/
+        db:
+          - href: /db/ddb/
+        os:
+          - href: /os/linux/
+        tools:
+          - href: /tools/amplify/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/iam/
+          - href: /tools/react-native/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+          - href: /tools/xstate/
     - title: gregoryjscott.com
       desc: My portfolio website that uses Jekyll to create static HTML pages using
         YAML, Markdown, and HAL-based hypermedia.
@@ -428,6 +462,7 @@ _embedded:
           - href: /projects/jekyll-api/
           - href: /projects/jekyll-embed/
           - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/freelance/
@@ -506,6 +541,62 @@ _embedded:
         schools:
           - href: /schools/uco/
   tools:
+    - title: XState
+      desc: XState is a JavaScript/TypeScript library for modeling application logic
+        as finite state machines and hierarchical statecharts, enabling
+        developers to define states, transitions, guards, actions, and invoked
+        services declaratively. With built-in support for parallel and history
+        states, runtime interpreters, visualizers, and integrations for React,
+        Vue, Angular, and Node.js, XState delivers predictable, testable, and
+        maintainable state management for complex synchronous and asynchronous
+        workflows.
+      _links:
+        self:
+          href: /tools/xstate/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+    - title: React Native
+      desc: React Native is an open-source framework developed by Facebook that
+        enables developers to build mobile apps for iOS and Android using
+        JavaScript and React. Instead of rendering web views, React Native
+        translates UI components into native platform widgets, delivering
+        near-native performance and look-and-feel. Its component-based
+        architecture and one-way data flow mirror React for the web, making it
+        easy for JavaScript developers to pick up. Features like hot reloading
+        accelerate the development cycle by instantly reflecting code changes on
+        the device. A rich ecosystem of libraries and a large community
+        contribute reusable modules and plugins, simplifying access to native
+        device features (camera, geolocation, sensors) without writing
+        platform-specific code. By sharing logic and UI components across
+        platforms, React Native significantly reduces development time and
+        maintenance overhead compared to traditional native app development.
+      _links:
+        self:
+          href: /tools/react-native/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+    - title: Amplify
+      desc: AWS Amplify is a comprehensive development platform from Amazon Web
+        Services that enables developers to quickly build, deploy, and manage
+        scalable full-stack web and mobile applications. It provides a set of
+        libraries, UI components and a command-line interface for integrating
+        popular front-end frameworks (React, Angular, Vue, iOS, Android,
+        Flutter) with cloud backends, including authentication, GraphQL and REST
+        APIs, storage, and serverless functions. Amplify Studio offers a visual
+        development environment for designing UI and data models, while built-in
+        hosting, CI/CD and environment management streamline the application
+        lifecycle so teams can focus on features instead of infrastructure.
+      _links:
+        self:
+          href: /tools/amplify/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
     - title: HAL
       subtitle: Hypertext Application Language (HAL) is a a media type for
         representing resources with hyperlinks

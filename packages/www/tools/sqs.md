@@ -15,6 +15,7 @@ _links:
     href: /tools/sqs/
   projects:
     - href: /projects/epicloud/
+    - href: /projects/nuggets/
   jobs:
     - href: /jobs/fe/
 ---

@@ -45,6 +45,7 @@ _embedded:
           - href: /projects/jekyll-api/
           - href: /projects/jekyll-embed/
           - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
         db:
           - href: /db/postgres/
         languages:
@@ -61,6 +62,9 @@ _embedded:
           - href: /tools/heroku/
           - href: /tools/jekyll/
           - href: /tools/hal/
+          - href: /tools/amplify/
+          - href: /tools/react-native/
+          - href: /tools/xstate/
   languages:
     - title: Typescript
       desc: Typescript is a typed superset of JavaScript that compiles to plain
@@ -76,6 +80,7 @@ _embedded:
         projects:
           - href: /projects/epicloud/
           - href: /projects/this-site/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
     - title: Ruby
@@ -179,6 +184,7 @@ _embedded:
           - href: /projects/jekyll-api/
           - href: /projects/jekyll-embed/
           - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/freelance/

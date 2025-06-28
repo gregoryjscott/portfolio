@@ -20,6 +20,7 @@ _links:
     - href: /projects/jekyll-api/
     - href: /projects/jekyll-embed/
     - href: /projects/jekyll-prep/
+    - href: /projects/nuggets/
   db:
     - href: /db/postgres/
   languages:
@@ -36,6 +37,9 @@ _links:
     - href: /tools/heroku/
     - href: /tools/jekyll/
     - href: /tools/hal/
+    - href: /tools/amplify/
+    - href: /tools/react-native/
+    - href: /tools/xstate/
 ---
 
 - Designed and built the software infrastructure that powers the sites and applications for the City of Fort Worth, Texas

@@ -20,12 +20,43 @@ _links:
     - href: /projects/jekyll-api/
     - href: /projects/jekyll-embed/
     - href: /projects/jekyll-prep/
+    - href: /projects/nuggets/
   jobs:
     - href: /jobs/fe/
     - href: /jobs/freelance/
     - href: /jobs/rdi/
 _embedded:
   projects:
+    - title: Nuggets
+      subtitle: Customizing Curriculum for Students using AI
+      desc: React Native app built using AI and state machines for learning Spanish or
+        English.
+      role: Author
+      begin_year: 2024
+      end_year: null
+      _links:
+        self:
+          href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+        languages:
+          - href: /languages/ts/
+        db:
+          - href: /db/ddb/
+        os:
+          - href: /os/linux/
+        tools:
+          - href: /tools/amplify/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/iam/
+          - href: /tools/react-native/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+          - href: /tools/xstate/
     - title: gregoryjscott.com
       desc: My portfolio website that uses Jekyll to create static HTML pages using
         YAML, Markdown, and HAL-based hypermedia.
@@ -334,6 +365,7 @@ _embedded:
           - href: /projects/jekyll-api/
           - href: /projects/jekyll-embed/
           - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
         db:
           - href: /db/postgres/
         languages:
@@ -350,6 +382,9 @@ _embedded:
           - href: /tools/heroku/
           - href: /tools/jekyll/
           - href: /tools/hal/
+          - href: /tools/amplify/
+          - href: /tools/react-native/
+          - href: /tools/xstate/
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
         Texas, Idaho, Minnesota, and Oregon, that provides custom database, web,

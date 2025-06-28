@@ -5,6 +5,7 @@ _links:
   self:
     href: /tools/
   tools:
+    - href: /tools/amplify/
     - href: /tools/backbone/
     - href: /tools/classroom/
     - href: /tools/docker/
@@ -21,10 +22,12 @@ _links:
     - href: /tools/lerna/
     - href: /tools/node/
     - href: /tools/puppeteer/
+    - href: /tools/react-native/
     - href: /tools/s3/
     - href: /tools/sikulix/
     - href: /tools/sqs/
     - href: /tools/vpc/
+    - href: /tools/xstate/
 _embedded:
   tools:
     - title: Jekyll
@@ -196,6 +199,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               db:
                 - href: /db/postgres/
               languages:
@@ -212,6 +216,505 @@ _embedded:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
+    - title: Amazon Virtual Private Cloud (VPC)
+      desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
+        provides users with a virtual private cloud, allowing them to provision
+        a logically isolated section of the Amazon Web Services (AWS) cloud. It
+        provides users with complete control over their virtual networking
+        environment, including selection of their own IP address range, creation
+        of subnets, and configuration of route tables and network gateways. It
+        also provides users with the ability to securely connect their VPC to
+        their existing IT infrastructure using industry-standard encrypted IPsec
+        VPN connections.
+      _links:
+        self:
+          href: /tools/vpc/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+          - title: EpiCloud
+            subtitle: Infinitely Scaling Bots using AWS
+            desc: null
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/lerna/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
+        jobs:
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: null
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              languages:
+                - href: /languages/ts/
+                - href: /languages/php/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/lerna/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
+    - title: Amazon Simple Queue Service (SQS)
+      desc: Amazon Simple Queue Service (SQS) is a fully managed message queuing
+        service that enables applications to quickly and reliably queue messages
+        that one component of an application can later process. SQS eliminates
+        the complexity and overhead associated with managing and operating
+        message-oriented middleware, and provides a simple and cost-effective
+        way to decouple the components of an application. SQS offers a reliable,
+        highly-scalable, hosted queue for storing messages as they travel
+        between computers. It also provides a simple web services interface that
+        can be used to access queues, add, receive, and delete messages.
+      _links:
+        self:
+          href: /tools/sqs/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+          - title: EpiCloud
+            subtitle: Infinitely Scaling Bots using AWS
+            desc: null
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/lerna/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
+        jobs:
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: null
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              languages:
+                - href: /languages/ts/
+                - href: /languages/php/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/lerna/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
+    - title: Amazon Simple Storage Service (S3)
+      desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
+        Amazon Web Services (AWS). It provides object storage through a web
+        service interface and is designed to store and retrieve any amount of
+        data from anywhere on the web. It is highly scalable, secure, and
+        durable, and provides features such as data versioning, encryption, and
+        access control. S3 is used by many organizations for storing and backing
+        up data, hosting websites, and streaming media.
+      _links:
+        self:
+          href: /tools/s3/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+          - title: EpiCloud
+            subtitle: Infinitely Scaling Bots using AWS
+            desc: null
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/lerna/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
+        jobs:
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: null
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              languages:
+                - href: /languages/ts/
+                - href: /languages/php/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/lerna/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
+    - title: AWS Identity and Access Management (IAM)
+      desc: AWS Identity and Access Management (IAM) is a web service that helps you
+        securely control access to AWS resources. With IAM, you can create and
+        manage AWS users and groups, and use permissions to allow and deny their
+        access to AWS resources. IAM also enables you to create and manage
+        security credentials such as access keys, passwords, and multi-factor
+        authentication devices. You can use IAM to manage access to AWS services
+        such as Amazon EC2, Amazon S3, and Amazon RDS.
+      _links:
+        self:
+          href: /tools/iam/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+          - title: EpiCloud
+            subtitle: Infinitely Scaling Bots using AWS
+            desc: null
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/lerna/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
+        jobs:
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: null
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              languages:
+                - href: /languages/ts/
+                - href: /languages/php/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/lerna/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: HAL
       subtitle: Hypertext Application Language (HAL) is a a media type for
         representing resources with hyperlinks
@@ -303,6 +806,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               db:
                 - href: /db/postgres/
               languages:
@@ -319,25 +823,57 @@ _embedded:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
                 - href: /tools/hal/
-    - title: Amazon Virtual Private Cloud (VPC)
-      desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
-        provides users with a virtual private cloud, allowing them to provision
-        a logically isolated section of the Amazon Web Services (AWS) cloud. It
-        provides users with complete control over their virtual networking
-        environment, including selection of their own IP address range, creation
-        of subnets, and configuration of route tables and network gateways. It
-        also provides users with the ability to securely connect their VPC to
-        their existing IT infrastructure using industry-standard encrypted IPsec
-        VPN connections.
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
+    - title: Fargate
+      desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
+        deploy and manage containers without having to manage the underlying
+        infrastructure. It provides a serverless compute engine for containers
+        that eliminates the need to provision, configure, and scale clusters of
+        virtual machines. Fargate also provides a secure and reliable platform
+        for running containers, allowing users to focus on building and running
+        their applications, rather than managing the underlying infrastructure.
       _links:
         self:
-          href: /tools/vpc/
+          href: /tools/fargate/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
       _embedded:
         projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
           - title: EpiCloud
             subtitle: Infinitely Scaling Bots using AWS
             desc: null
@@ -413,25 +949,54 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
-    - title: Amazon Simple Queue Service (SQS)
-      desc: Amazon Simple Queue Service (SQS) is a fully managed message queuing
-        service that enables applications to quickly and reliably queue messages
-        that one component of an application can later process. SQS eliminates
-        the complexity and overhead associated with managing and operating
-        message-oriented middleware, and provides a simple and cost-effective
-        way to decouple the components of an application. SQS offers a reliable,
-        highly-scalable, hosted queue for storing messages as they travel
-        between computers. It also provides a simple web services interface that
-        can be used to access queues, add, receive, and delete messages.
+    - title: Amazon Elastic Container Service (ECS)
+      desc: Amazon Elastic Container Service (ECS) is a container orchestration
+        service from Amazon Web Services (AWS) that enables users to easily
+        deploy, manage, and scale containerized applications on AWS. It provides
+        a secure and scalable platform for running Docker containers, allowing
+        users to quickly and easily deploy and manage applications in the cloud.
+        ECS also provides features such as automated container scaling, service
+        discovery, and resource management.
       _links:
         self:
-          href: /tools/sqs/
+          href: /tools/ecs/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
       _embedded:
         projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
           - title: EpiCloud
             subtitle: Infinitely Scaling Bots using AWS
             desc: null
@@ -507,6 +1072,341 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
+    - title: Amazon Elastic Container Registry (ECR)
+      desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
+        container registry that makes it easy to store, manage, and deploy
+        Docker container images. It is secure, highly available, and scales
+        automatically to meet the needs of your applications. ECR integrates
+        with Amazon Elastic Container Service (ECS) and AWS Fargate, simplifying
+        your development to production workflow. It also provides features such
+        as image scanning, lifecycle policies, and IAM authentication.
+      _links:
+        self:
+          href: /tools/ecr/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+          - title: EpiCloud
+            subtitle: Infinitely Scaling Bots using AWS
+            desc: null
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/lerna/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
+        jobs:
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: null
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              languages:
+                - href: /languages/ts/
+                - href: /languages/php/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/lerna/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
+    - title: Amazon Elastic Compute Cloud (EC2)
+      desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
+        resizable compute capacity in the cloud. It is designed to make
+        web-scale cloud computing easier for developers. EC2 allows users to
+        launch virtual servers, called “instances”, which can be configured to
+        their specific needs. EC2 also provides users with the ability to scale
+        their computing resources up or down as needed, allowing them to pay
+        only for the resources they use.
+      _links:
+        self:
+          href: /tools/ec2/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+          - title: EpiCloud
+            subtitle: Infinitely Scaling Bots using AWS
+            desc: null
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/lerna/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
+        jobs:
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: null
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              languages:
+                - href: /languages/ts/
+                - href: /languages/php/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/lerna/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
+    - title: XState
+      desc: XState is a JavaScript/TypeScript library for modeling application logic
+        as finite state machines and hierarchical statecharts, enabling
+        developers to define states, transitions, guards, actions, and invoked
+        services declaratively. With built-in support for parallel and history
+        states, runtime interpreters, visualizers, and integrations for React,
+        Vue, Angular, and Node.js, XState delivers predictable, testable, and
+        maintainable state management for complex synchronous and asynchronous
+        workflows.
+      _links:
+        self:
+          href: /tools/xstate/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: null
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/denver-schedules-api/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
+              db:
+                - href: /db/postgres/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/css/
+                - href: /languages/html/
+              os:
+                - href: /os/windows/
+                - href: /os/osx/
+                - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
     - title: SikuliX
       desc: SikuliX is an open-source GUI automation tool that uses image recognition
         to interact with on-screen elements by matching screenshots. It lets you
@@ -600,98 +1500,101 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
-    - title: Amazon Simple Storage Service (S3)
-      desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
-        Amazon Web Services (AWS). It provides object storage through a web
-        service interface and is designed to store and retrieve any amount of
-        data from anywhere on the web. It is highly scalable, secure, and
-        durable, and provides features such as data versioning, encryption, and
-        access control. S3 is used by many organizations for storing and backing
-        up data, hosting websites, and streaming media.
+    - title: React Native
+      desc: React Native is an open-source framework developed by Facebook that
+        enables developers to build mobile apps for iOS and Android using
+        JavaScript and React. Instead of rendering web views, React Native
+        translates UI components into native platform widgets, delivering
+        near-native performance and look-and-feel. Its component-based
+        architecture and one-way data flow mirror React for the web, making it
+        easy for JavaScript developers to pick up. Features like hot reloading
+        accelerate the development cycle by instantly reflecting code changes on
+        the device. A rich ecosystem of libraries and a large community
+        contribute reusable modules and plugins, simplifying access to native
+        device features (camera, geolocation, sensors) without writing
+        platform-specific code. By sharing logic and UI components across
+        platforms, React Native significantly reduces development time and
+        maintenance overhead compared to traditional native app development.
       _links:
         self:
-          href: /tools/s3/
+          href: /tools/react-native/
         projects:
-          - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
-          - href: /jobs/fe/
+          - href: /jobs/freelance/
       _embedded:
         projects:
-          - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
-            desc: null
-            role: Technical Lead
-            begin_year: 2015
-            end_year: 2021
-            _links:
-              self:
-                href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-              os:
-                - href: /os/linux/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/lerna/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/sikulix/
-        jobs:
-          - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
-            begin_year: 2018
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
             end_year: null
-            time_desc: March 2018 - present
             _links:
               self:
-                href: /jobs/fe/
-              projects:
-                - href: /projects/epicloud/
-                - href: /projects/epic-ca-enrollment/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-                - href: /db/firebase/
+                href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
               languages:
                 - href: /languages/ts/
-                - href: /languages/php/
+              db:
+                - href: /db/ddb/
               os:
                 - href: /os/linux/
               tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
+                - href: /tools/amplify/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
                 - href: /tools/fargate/
-                - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
+                - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
-                - href: /tools/sikulix/
+                - href: /tools/xstate/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: null
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/denver-schedules-api/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
+              db:
+                - href: /db/postgres/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/css/
+                - href: /languages/html/
+              os:
+                - href: /os/windows/
+                - href: /os/osx/
+                - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
     - title: Puppeteer
       desc: Puppeteer is a Node library developed by Google that provides a high-level
         API to control headless Chrome or Chromium over the DevTools Protocol.
@@ -968,98 +1871,6 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
-    - title: AWS Identity and Access Management (IAM)
-      desc: AWS Identity and Access Management (IAM) is a web service that helps you
-        securely control access to AWS resources. With IAM, you can create and
-        manage AWS users and groups, and use permissions to allow and deny their
-        access to AWS resources. IAM also enables you to create and manage
-        security credentials such as access keys, passwords, and multi-factor
-        authentication devices. You can use IAM to manage access to AWS services
-        such as Amazon EC2, Amazon S3, and Amazon RDS.
-      _links:
-        self:
-          href: /tools/iam/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-      _embedded:
-        projects:
-          - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
-            desc: null
-            role: Technical Lead
-            begin_year: 2015
-            end_year: 2021
-            _links:
-              self:
-                href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-              os:
-                - href: /os/linux/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/lerna/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/sikulix/
-        jobs:
-          - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
-            begin_year: 2018
-            end_year: null
-            time_desc: March 2018 - present
-            _links:
-              self:
-                href: /jobs/fe/
-              projects:
-                - href: /projects/epicloud/
-                - href: /projects/epic-ca-enrollment/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-                - href: /db/firebase/
-              languages:
-                - href: /languages/ts/
-                - href: /languages/php/
-              os:
-                - href: /os/linux/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/lerna/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/sikulix/
     - title: Heroku
       desc: Heroku is a cloud-based Platform as a Service (PaaS) that simplifies the
         deployment, management and scaling of modern web applications.
@@ -1119,6 +1930,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               db:
                 - href: /db/postgres/
               languages:
@@ -1135,6 +1947,9 @@ _embedded:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
     - title: Google Firebase
       desc: Google Firebase is a mobile and web application development platform that
         provides developers with a variety of tools and services to help them
@@ -1146,374 +1961,6 @@ _embedded:
       _links:
         self:
           href: /tools/firebase/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-      _embedded:
-        projects:
-          - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
-            desc: null
-            role: Technical Lead
-            begin_year: 2015
-            end_year: 2021
-            _links:
-              self:
-                href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-              os:
-                - href: /os/linux/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/lerna/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/sikulix/
-        jobs:
-          - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
-            begin_year: 2018
-            end_year: null
-            time_desc: March 2018 - present
-            _links:
-              self:
-                href: /jobs/fe/
-              projects:
-                - href: /projects/epicloud/
-                - href: /projects/epic-ca-enrollment/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-                - href: /db/firebase/
-              languages:
-                - href: /languages/ts/
-                - href: /languages/php/
-              os:
-                - href: /os/linux/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/lerna/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/sikulix/
-    - title: Fargate
-      desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
-        deploy and manage containers without having to manage the underlying
-        infrastructure. It provides a serverless compute engine for containers
-        that eliminates the need to provision, configure, and scale clusters of
-        virtual machines. Fargate also provides a secure and reliable platform
-        for running containers, allowing users to focus on building and running
-        their applications, rather than managing the underlying infrastructure.
-      _links:
-        self:
-          href: /tools/fargate/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-      _embedded:
-        projects:
-          - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
-            desc: null
-            role: Technical Lead
-            begin_year: 2015
-            end_year: 2021
-            _links:
-              self:
-                href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-              os:
-                - href: /os/linux/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/lerna/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/sikulix/
-        jobs:
-          - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
-            begin_year: 2018
-            end_year: null
-            time_desc: March 2018 - present
-            _links:
-              self:
-                href: /jobs/fe/
-              projects:
-                - href: /projects/epicloud/
-                - href: /projects/epic-ca-enrollment/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-                - href: /db/firebase/
-              languages:
-                - href: /languages/ts/
-                - href: /languages/php/
-              os:
-                - href: /os/linux/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/lerna/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/sikulix/
-    - title: Amazon Elastic Container Service (ECS)
-      desc: Amazon Elastic Container Service (ECS) is a container orchestration
-        service from Amazon Web Services (AWS) that enables users to easily
-        deploy, manage, and scale containerized applications on AWS. It provides
-        a secure and scalable platform for running Docker containers, allowing
-        users to quickly and easily deploy and manage applications in the cloud.
-        ECS also provides features such as automated container scaling, service
-        discovery, and resource management.
-      _links:
-        self:
-          href: /tools/ecs/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-      _embedded:
-        projects:
-          - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
-            desc: null
-            role: Technical Lead
-            begin_year: 2015
-            end_year: 2021
-            _links:
-              self:
-                href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-              os:
-                - href: /os/linux/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/lerna/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/sikulix/
-        jobs:
-          - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
-            begin_year: 2018
-            end_year: null
-            time_desc: March 2018 - present
-            _links:
-              self:
-                href: /jobs/fe/
-              projects:
-                - href: /projects/epicloud/
-                - href: /projects/epic-ca-enrollment/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-                - href: /db/firebase/
-              languages:
-                - href: /languages/ts/
-                - href: /languages/php/
-              os:
-                - href: /os/linux/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/lerna/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/sikulix/
-    - title: Amazon Elastic Container Registry (ECR)
-      desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
-        container registry that makes it easy to store, manage, and deploy
-        Docker container images. It is secure, highly available, and scales
-        automatically to meet the needs of your applications. ECR integrates
-        with Amazon Elastic Container Service (ECS) and AWS Fargate, simplifying
-        your development to production workflow. It also provides features such
-        as image scanning, lifecycle policies, and IAM authentication.
-      _links:
-        self:
-          href: /tools/ecr/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-      _embedded:
-        projects:
-          - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
-            desc: null
-            role: Technical Lead
-            begin_year: 2015
-            end_year: 2021
-            _links:
-              self:
-                href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-              os:
-                - href: /os/linux/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/lerna/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/sikulix/
-        jobs:
-          - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
-            begin_year: 2018
-            end_year: null
-            time_desc: March 2018 - present
-            _links:
-              self:
-                href: /jobs/fe/
-              projects:
-                - href: /projects/epicloud/
-                - href: /projects/epic-ca-enrollment/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-                - href: /db/firebase/
-              languages:
-                - href: /languages/ts/
-                - href: /languages/php/
-              os:
-                - href: /os/linux/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/lerna/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/sikulix/
-    - title: Amazon Elastic Compute Cloud (EC2)
-      desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
-        resizable compute capacity in the cloud. It is designed to make
-        web-scale cloud computing easier for developers. EC2 allows users to
-        launch virtual servers, called “instances”, which can be configured to
-        their specific needs. EC2 also provides users with the ability to scale
-        their computing resources up or down as needed, allowing them to pay
-        only for the resources they use.
-      _links:
-        self:
-          href: /tools/ec2/
         projects:
           - href: /projects/epicloud/
         jobs:
@@ -1977,3 +2424,94 @@ _embedded:
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
+    - title: Amplify
+      desc: AWS Amplify is a comprehensive development platform from Amazon Web
+        Services that enables developers to quickly build, deploy, and manage
+        scalable full-stack web and mobile applications. It provides a set of
+        libraries, UI components and a command-line interface for integrating
+        popular front-end frameworks (React, Angular, Vue, iOS, Android,
+        Flutter) with cloud backends, including authentication, GraphQL and REST
+        APIs, storage, and serverless functions. Amplify Studio offers a visual
+        development environment for designing UI and data models, while built-in
+        hosting, CI/CD and environment management streamline the application
+        lifecycle so teams can focus on features instead of infrastructure.
+      _links:
+        self:
+          href: /tools/amplify/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: null
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/denver-schedules-api/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
+              db:
+                - href: /db/postgres/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/css/
+                - href: /languages/html/
+              os:
+                - href: /os/windows/
+                - href: /os/osx/
+                - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/

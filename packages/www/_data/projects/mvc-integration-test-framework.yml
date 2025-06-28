@@ -38,6 +38,7 @@ _embedded:
           - href: /projects/jekyll-api/
           - href: /projects/jekyll-embed/
           - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
         db:
           - href: /db/postgres/
         languages:
@@ -54,6 +55,9 @@ _embedded:
           - href: /tools/heroku/
           - href: /tools/jekyll/
           - href: /tools/hal/
+          - href: /tools/amplify/
+          - href: /tools/react-native/
+          - href: /tools/xstate/
   languages:
     - title: C#
       desc: C# is a general-purpose, object-oriented programming language developed by

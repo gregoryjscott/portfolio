@@ -1,79 +1,75 @@
-title: EpiCloud
-subtitle: Infinitely Scaling Bots using AWS
-desc: null
-role: Technical Lead
-begin_year: 2015
-end_year: 2021
+title: Nuggets
+subtitle: Customizing Curriculum for Students using AI
+desc: React Native app built using AI and state machines for learning Spanish or
+  English.
+role: Author
+begin_year: 2024
+end_year: null
 _links:
   self:
-    href: /projects/epicloud/
+    href: /projects/nuggets/
   jobs:
-    - href: /jobs/fe/
+    - href: /jobs/freelance/
   languages:
     - href: /languages/ts/
   db:
-    - href: /db/bigquery/
     - href: /db/ddb/
   os:
     - href: /os/linux/
   tools:
-    - href: /tools/classroom/
-    - href: /tools/docker/
-    - href: /tools/drive/
+    - href: /tools/amplify/
     - href: /tools/ec2/
     - href: /tools/ecr/
     - href: /tools/ecs/
     - href: /tools/fargate/
-    - href: /tools/firebase/
     - href: /tools/iam/
-    - href: /tools/lerna/
-    - href: /tools/node/
-    - href: /tools/puppeteer/
+    - href: /tools/react-native/
     - href: /tools/s3/
     - href: /tools/sqs/
     - href: /tools/vpc/
-    - href: /tools/sikulix/
+    - href: /tools/xstate/
 _embedded:
   jobs:
-    - title: Futuristic Education
-      desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-        for schools and educators
-      role: Co-Founder/Programmer
-      begin_year: 2018
+    - title: Freelance Programmer
+      desc: Freelance Programmer/Consultant, partnering with clients to architect and
+        implement technology solutions
+      role: Freelance Programmer
+      begin_year: 2014
       end_year: null
-      time_desc: March 2018 - present
+      time_desc: July 2014 - present
       _links:
         self:
-          href: /jobs/fe/
+          href: /jobs/freelance/
         projects:
-          - href: /projects/epicloud/
-          - href: /projects/epic-ca-enrollment/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/mvc-integration-test-framework/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
         db:
-          - href: /db/bigquery/
-          - href: /db/ddb/
-          - href: /db/firebase/
+          - href: /db/postgres/
         languages:
-          - href: /languages/ts/
-          - href: /languages/php/
+          - href: /languages/cs/
+          - href: /languages/rb/
+          - href: /languages/sql/
+          - href: /languages/css/
+          - href: /languages/html/
         os:
+          - href: /os/windows/
+          - href: /os/osx/
           - href: /os/linux/
         tools:
-          - href: /tools/classroom/
-          - href: /tools/docker/
-          - href: /tools/drive/
-          - href: /tools/ec2/
-          - href: /tools/ecr/
-          - href: /tools/ecs/
-          - href: /tools/fargate/
-          - href: /tools/firebase/
-          - href: /tools/iam/
-          - href: /tools/lerna/
-          - href: /tools/node/
-          - href: /tools/puppeteer/
-          - href: /tools/s3/
-          - href: /tools/sqs/
-          - href: /tools/vpc/
-          - href: /tools/sikulix/
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
+          - href: /tools/hal/
+          - href: /tools/amplify/
+          - href: /tools/react-native/
+          - href: /tools/xstate/
   languages:
     - title: Typescript
       desc: Typescript is a typed superset of JavaScript that compiles to plain
@@ -109,22 +105,6 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-    - title: BigQuery
-      desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
-        enables businesses to store, query, and analyze large datasets. It is a
-        petabyte-scale data warehouse that can process up to 20,000 queries per
-        second and is designed to scale with the growth of your business.
-        BigQuery is integrated with Google Cloud Platform services, allowing
-        users to easily access and analyze data from other Google services such
-        as Google Ads, Google Analytics, and Google Cloud Storage. BigQuery also
-        supports a wide range of data formats, including CSV, JSON, and Avro.
-      _links:
-        self:
-          href: /db/bigquery/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
   os:
     - title: Linux
       desc: Linux is an open-source operating system that is based on the Linux
@@ -154,22 +134,22 @@ _embedded:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
   tools:
-    - title: SikuliX
-      desc: SikuliX is an open-source GUI automation tool that uses image recognition
-        to interact with on-screen elements by matching screenshots. It lets you
-        write scripts in Python (via Jython), Java, and other JVM languages to
-        click, type, and verify UI states without needing native application
-        hooks. Built on OpenCV, SikuliX works across Windows, macOS, and Linux,
-        making it ideal for automating legacy or custom interfaces and
-        integrating with testing frameworks for end-to-end automation or
-        repetitive desktop task scripting.
+    - title: XState
+      desc: XState is a JavaScript/TypeScript library for modeling application logic
+        as finite state machines and hierarchical statecharts, enabling
+        developers to define states, transitions, guards, actions, and invoked
+        services declaratively. With built-in support for parallel and history
+        states, runtime interpreters, visualizers, and integrations for React,
+        Vue, Angular, and Node.js, XState delivers predictable, testable, and
+        maintainable state management for complex synchronous and asynchronous
+        workflows.
       _links:
         self:
-          href: /tools/sikulix/
+          href: /tools/xstate/
         projects:
-          - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
-          - href: /jobs/fe/
+          - href: /jobs/freelance/
     - title: Amazon Virtual Private Cloud (VPC)
       desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
         provides users with a virtual private cloud, allowing them to provision
@@ -222,51 +202,28 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-    - title: Puppeteer
-      desc: Puppeteer is a Node library developed by Google that provides a high-level
-        API to control headless Chrome or Chromium over the DevTools Protocol.
-        It can be used to automate tasks that would normally be performed
-        manually in the browser, such as form submission, UI testing, keyboard
-        input, or capturing a timeline trace to diagnose performance issues.
-        Puppeteer can also be used to generate screenshots and PDFs of web
-        pages.
+    - title: React Native
+      desc: React Native is an open-source framework developed by Facebook that
+        enables developers to build mobile apps for iOS and Android using
+        JavaScript and React. Instead of rendering web views, React Native
+        translates UI components into native platform widgets, delivering
+        near-native performance and look-and-feel. Its component-based
+        architecture and one-way data flow mirror React for the web, making it
+        easy for JavaScript developers to pick up. Features like hot reloading
+        accelerate the development cycle by instantly reflecting code changes on
+        the device. A rich ecosystem of libraries and a large community
+        contribute reusable modules and plugins, simplifying access to native
+        device features (camera, geolocation, sensors) without writing
+        platform-specific code. By sharing logic and UI components across
+        platforms, React Native significantly reduces development time and
+        maintenance overhead compared to traditional native app development.
       _links:
         self:
-          href: /tools/puppeteer/
+          href: /tools/react-native/
         projects:
-          - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
-          - href: /jobs/fe/
-    - title: Node
-      desc: Node.js is an open-source, cross-platform JavaScript runtime environment
-        that executes JavaScript code outside of a browser. It is used to create
-        server-side and networking applications. Node.js applications are
-        written in JavaScript and can be run within the Node.js runtime on OS X,
-        Microsoft Windows, and Linux. Node.js also provides a rich library of
-        various JavaScript modules which simplifies the development of web
-        applications using Node.js.
-      _links:
-        self:
-          href: /tools/node/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-    - title: Lerna
-      desc: Lerna is a tool that optimizes the workflow around managing multi-package
-        repositories with git and npm. It allows developers to easily create,
-        maintain, and version multiple packages from the same codebase. It also
-        provides a powerful set of features such as managing dependencies,
-        running scripts, and publishing packages. Lerna makes it easier to
-        manage complex projects with multiple packages, and helps developers
-        keep their codebase organized and up-to-date.
-      _links:
-        self:
-          href: /tools/lerna/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
+          - href: /jobs/freelance/
     - title: AWS Identity and Access Management (IAM)
       desc: AWS Identity and Access Management (IAM) is a web service that helps you
         securely control access to AWS resources. With IAM, you can create and
@@ -281,21 +238,6 @@ _embedded:
         projects:
           - href: /projects/epicloud/
           - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/fe/
-    - title: Google Firebase
-      desc: Google Firebase is a mobile and web application development platform that
-        provides developers with a variety of tools and services to help them
-        quickly and easily build high-quality apps. Firebase provides a
-        real-time database, authentication, storage, hosting, analytics, and
-        more. It also offers a range of SDKs for Android, iOS, and web
-        development, allowing developers to quickly and easily integrate
-        Firebase into their apps.
-      _links:
-        self:
-          href: /tools/firebase/
-        projects:
-          - href: /projects/epicloud/
         jobs:
           - href: /jobs/fe/
     - title: Fargate
@@ -362,48 +304,21 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-    - title: Google Drive
-      desc: Google Drive is a cloud storage service that allows users to store and
-        access their files from any device with an internet connection. It
-        provides users with 15GB of free storage, and additional storage can be
-        purchased. It also offers a suite of office applications, including
-        Google Docs, Sheets, and Slides, which allow users to create and
-        collaborate on documents, spreadsheets, and presentations. Google Drive
-        also offers a range of features, such as file sharing, version history,
-        and real-time collaboration.
+    - title: Amplify
+      desc: AWS Amplify is a comprehensive development platform from Amazon Web
+        Services that enables developers to quickly build, deploy, and manage
+        scalable full-stack web and mobile applications. It provides a set of
+        libraries, UI components and a command-line interface for integrating
+        popular front-end frameworks (React, Angular, Vue, iOS, Android,
+        Flutter) with cloud backends, including authentication, GraphQL and REST
+        APIs, storage, and serverless functions. Amplify Studio offers a visual
+        development environment for designing UI and data models, while built-in
+        hosting, CI/CD and environment management streamline the application
+        lifecycle so teams can focus on features instead of infrastructure.
       _links:
         self:
-          href: /tools/drive/
+          href: /tools/amplify/
         projects:
-          - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
-          - href: /jobs/fe/
-    - title: Docker
-      desc: Docker is an open-source platform for developing, shipping, and running
-        applications. It uses container technology to package applications into
-        isolated, lightweight, and portable containers that can be quickly
-        deployed and moved between different computing environments. Docker also
-        provides a set of tools and services to help developers build, ship, and
-        run applications in a more efficient and secure way.
-      _links:
-        self:
-          href: /tools/docker/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-    - title: Google Classroom
-      desc: Google Classroom is a free web-based platform that allows teachers to
-        create and manage virtual classrooms. It enables teachers to easily
-        create and organize assignments, provide feedback, and communicate with
-        students. It also allows students to submit assignments, view grades,
-        and collaborate with their peers. Google Classroom integrates with other
-        Google applications such as Google Drive, Google Docs, and Google
-        Calendar.
-      _links:
-        self:
-          href: /tools/classroom/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
+          - href: /jobs/freelance/

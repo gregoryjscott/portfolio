@@ -22,6 +22,7 @@ _links:
     - href: /projects/jekyll-api/
     - href: /projects/jekyll-embed/
     - href: /projects/jekyll-prep/
+    - href: /projects/nuggets/
   jobs:
     - href: /jobs/fe/
     - href: /jobs/freelance/

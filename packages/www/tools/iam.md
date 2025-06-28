@@ -13,6 +13,7 @@ _links:
     href: /tools/iam/
   projects:
     - href: /projects/epicloud/
+    - href: /projects/nuggets/
   jobs:
     - href: /jobs/fe/
 ---

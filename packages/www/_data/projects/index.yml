@@ -31,6 +31,7 @@ _links:
     - href: /projects/lasar-range-finder/
     - href: /projects/mission-data-loader/
     - href: /projects/mvc-integration-test-framework/
+    - href: /projects/nuggets/
     - href: /projects/please/
     - href: /projects/qb/
     - href: /projects/report-engine/
@@ -48,6 +49,342 @@ _links:
     - href: /projects/wengage-si/
 _embedded:
   projects:
+    - title: Nuggets
+      subtitle: Customizing Curriculum for Students using AI
+      desc: React Native app built using AI and state machines for learning Spanish or
+        English.
+      role: Author
+      begin_year: 2024
+      end_year: null
+      _links:
+        self:
+          href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+        languages:
+          - href: /languages/ts/
+        db:
+          - href: /db/ddb/
+        os:
+          - href: /os/linux/
+        tools:
+          - href: /tools/amplify/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/iam/
+          - href: /tools/react-native/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+          - href: /tools/xstate/
+      _embedded:
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: null
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/denver-schedules-api/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
+              db:
+                - href: /db/postgres/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/css/
+                - href: /languages/html/
+              os:
+                - href: /os/windows/
+                - href: /os/osx/
+                - href: /os/linux/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
+        languages:
+          - title: Typescript
+            desc: Typescript is a typed superset of JavaScript that compiles to plain
+              JavaScript. It adds optional static typing to the language,
+              allowing developers to use type annotations to catch errors early
+              in the development process. It also provides features such as
+              classes, modules, and interfaces that are not available in
+              JavaScript. Typescript is designed to make it easier to write and
+              maintain large-scale applications.
+            _links:
+              self:
+                href: /languages/ts/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/this-site/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+        db:
+          - title: DynamoDB
+            desc: Amazon DynamoDB is a fully managed NoSQL database service that provides
+              fast and predictable performance with seamless scalability. It is
+              a serverless database that can automatically scale up or down to
+              meet the needs of your application. DynamoDB offers a flexible
+              data model, reliable performance, and automatic scaling of
+              throughput capacity. It also provides encryption at rest,
+              point-in-time recovery, and other features to help protect your
+              data.
+            _links:
+              self:
+                href: /db/ddb/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+        os:
+          - title: Linux
+            desc: Linux is an open-source operating system that is based on the Linux
+              kernel. It is a free and powerful operating system that is used in
+              many different types of computing devices, from smartphones to
+              supercomputers. It is highly customizable and can be used for a
+              variety of tasks, from web hosting to software development. It is
+              also highly secure and reliable, making it a popular choice for
+              many users.
+            _links:
+              self:
+                href: /os/linux/
+              projects:
+                - href: /projects/centroid/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
+                - href: /projects/scramble-score/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/freelance/
+                - href: /jobs/rdi/
+        tools:
+          - title: XState
+            desc: XState is a JavaScript/TypeScript library for modeling application logic
+              as finite state machines and hierarchical statecharts, enabling
+              developers to define states, transitions, guards, actions, and
+              invoked services declaratively. With built-in support for parallel
+              and history states, runtime interpreters, visualizers, and
+              integrations for React, Vue, Angular, and Node.js, XState delivers
+              predictable, testable, and maintainable state management for
+              complex synchronous and asynchronous workflows.
+            _links:
+              self:
+                href: /tools/xstate/
+              projects:
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+          - title: Amazon Virtual Private Cloud (VPC)
+            desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
+              provides users with a virtual private cloud, allowing them to
+              provision a logically isolated section of the Amazon Web Services
+              (AWS) cloud. It provides users with complete control over their
+              virtual networking environment, including selection of their own
+              IP address range, creation of subnets, and configuration of route
+              tables and network gateways. It also provides users with the
+              ability to securely connect their VPC to their existing IT
+              infrastructure using industry-standard encrypted IPsec VPN
+              connections.
+            _links:
+              self:
+                href: /tools/vpc/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+          - title: Amazon Simple Queue Service (SQS)
+            desc: Amazon Simple Queue Service (SQS) is a fully managed message queuing
+              service that enables applications to quickly and reliably queue
+              messages that one component of an application can later process.
+              SQS eliminates the complexity and overhead associated with
+              managing and operating message-oriented middleware, and provides a
+              simple and cost-effective way to decouple the components of an
+              application. SQS offers a reliable, highly-scalable, hosted queue
+              for storing messages as they travel between computers. It also
+              provides a simple web services interface that can be used to
+              access queues, add, receive, and delete messages.
+            _links:
+              self:
+                href: /tools/sqs/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+          - title: Amazon Simple Storage Service (S3)
+            desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
+              Amazon Web Services (AWS). It provides object storage through a
+              web service interface and is designed to store and retrieve any
+              amount of data from anywhere on the web. It is highly scalable,
+              secure, and durable, and provides features such as data
+              versioning, encryption, and access control. S3 is used by many
+              organizations for storing and backing up data, hosting websites,
+              and streaming media.
+            _links:
+              self:
+                href: /tools/s3/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+          - title: React Native
+            desc: React Native is an open-source framework developed by Facebook that
+              enables developers to build mobile apps for iOS and Android using
+              JavaScript and React. Instead of rendering web views, React Native
+              translates UI components into native platform widgets, delivering
+              near-native performance and look-and-feel. Its component-based
+              architecture and one-way data flow mirror React for the web,
+              making it easy for JavaScript developers to pick up. Features like
+              hot reloading accelerate the development cycle by instantly
+              reflecting code changes on the device. A rich ecosystem of
+              libraries and a large community contribute reusable modules and
+              plugins, simplifying access to native device features (camera,
+              geolocation, sensors) without writing platform-specific code. By
+              sharing logic and UI components across platforms, React Native
+              significantly reduces development time and maintenance overhead
+              compared to traditional native app development.
+            _links:
+              self:
+                href: /tools/react-native/
+              projects:
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+          - title: AWS Identity and Access Management (IAM)
+            desc: AWS Identity and Access Management (IAM) is a web service that helps you
+              securely control access to AWS resources. With IAM, you can create
+              and manage AWS users and groups, and use permissions to allow and
+              deny their access to AWS resources. IAM also enables you to create
+              and manage security credentials such as access keys, passwords,
+              and multi-factor authentication devices. You can use IAM to manage
+              access to AWS services such as Amazon EC2, Amazon S3, and Amazon
+              RDS.
+            _links:
+              self:
+                href: /tools/iam/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+          - title: Fargate
+            desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
+              deploy and manage containers without having to manage the
+              underlying infrastructure. It provides a serverless compute engine
+              for containers that eliminates the need to provision, configure,
+              and scale clusters of virtual machines. Fargate also provides a
+              secure and reliable platform for running containers, allowing
+              users to focus on building and running their applications, rather
+              than managing the underlying infrastructure.
+            _links:
+              self:
+                href: /tools/fargate/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+          - title: Amazon Elastic Container Service (ECS)
+            desc: Amazon Elastic Container Service (ECS) is a container orchestration
+              service from Amazon Web Services (AWS) that enables users to
+              easily deploy, manage, and scale containerized applications on
+              AWS. It provides a secure and scalable platform for running Docker
+              containers, allowing users to quickly and easily deploy and manage
+              applications in the cloud. ECS also provides features such as
+              automated container scaling, service discovery, and resource
+              management.
+            _links:
+              self:
+                href: /tools/ecs/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+          - title: Amazon Elastic Container Registry (ECR)
+            desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
+              container registry that makes it easy to store, manage, and deploy
+              Docker container images. It is secure, highly available, and
+              scales automatically to meet the needs of your applications. ECR
+              integrates with Amazon Elastic Container Service (ECS) and AWS
+              Fargate, simplifying your development to production workflow. It
+              also provides features such as image scanning, lifecycle policies,
+              and IAM authentication.
+            _links:
+              self:
+                href: /tools/ecr/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+          - title: Amazon Elastic Compute Cloud (EC2)
+            desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
+              resizable compute capacity in the cloud. It is designed to make
+              web-scale cloud computing easier for developers. EC2 allows users
+              to launch virtual servers, called “instances”, which can be
+              configured to their specific needs. EC2 also provides users with
+              the ability to scale their computing resources up or down as
+              needed, allowing them to pay only for the resources they use.
+            _links:
+              self:
+                href: /tools/ec2/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+          - title: Amplify
+            desc: AWS Amplify is a comprehensive development platform from Amazon Web
+              Services that enables developers to quickly build, deploy, and
+              manage scalable full-stack web and mobile applications. It
+              provides a set of libraries, UI components and a command-line
+              interface for integrating popular front-end frameworks (React,
+              Angular, Vue, iOS, Android, Flutter) with cloud backends,
+              including authentication, GraphQL and REST APIs, storage, and
+              serverless functions. Amplify Studio offers a visual development
+              environment for designing UI and data models, while built-in
+              hosting, CI/CD and environment management streamline the
+              application lifecycle so teams can focus on features instead of
+              infrastructure.
+            _links:
+              self:
+                href: /tools/amplify/
+              projects:
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
     - title: gregoryjscott.com
       desc: My portfolio website that uses Jekyll to create static HTML pages using
         YAML, Markdown, and HAL-based hypermedia.
@@ -95,6 +432,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               db:
                 - href: /db/postgres/
               languages:
@@ -111,6 +449,9 @@ _embedded:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
         languages:
           - title: Typescript
             desc: Typescript is a typed superset of JavaScript that compiles to plain
@@ -126,6 +467,7 @@ _embedded:
               projects:
                 - href: /projects/epicloud/
                 - href: /projects/this-site/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
           - title: Ruby
@@ -231,6 +573,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -541,6 +884,7 @@ _embedded:
               projects:
                 - href: /projects/epicloud/
                 - href: /projects/this-site/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
         db:
@@ -558,6 +902,7 @@ _embedded:
                 href: /db/ddb/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
           - title: BigQuery
@@ -601,6 +946,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -638,6 +984,7 @@ _embedded:
                 href: /tools/vpc/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
           - title: Amazon Simple Queue Service (SQS)
@@ -656,6 +1003,7 @@ _embedded:
                 href: /tools/sqs/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
           - title: Amazon Simple Storage Service (S3)
@@ -672,6 +1020,7 @@ _embedded:
                 href: /tools/s3/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
           - title: Puppeteer
@@ -734,6 +1083,7 @@ _embedded:
                 href: /tools/iam/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
           - title: Google Firebase
@@ -765,6 +1115,7 @@ _embedded:
                 href: /tools/fargate/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
           - title: Amazon Elastic Container Service (ECS)
@@ -781,6 +1132,7 @@ _embedded:
                 href: /tools/ecs/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
           - title: Amazon Elastic Container Registry (ECR)
@@ -797,6 +1149,7 @@ _embedded:
                 href: /tools/ecr/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
           - title: Amazon Elastic Compute Cloud (EC2)
@@ -812,6 +1165,7 @@ _embedded:
                 href: /tools/ec2/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
           - title: Google Drive
@@ -899,6 +1253,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               db:
                 - href: /db/postgres/
               languages:
@@ -915,6 +1270,9 @@ _embedded:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
         languages:
           - title: Ruby
             desc: Ruby is an open-source, object-oriented programming language created by
@@ -1011,6 +1369,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -1057,6 +1416,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               db:
                 - href: /db/postgres/
               languages:
@@ -1073,6 +1433,9 @@ _embedded:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
         languages:
           - title: Ruby
             desc: Ruby is an open-source, object-oriented programming language created by
@@ -1150,6 +1513,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -1219,6 +1583,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               db:
                 - href: /db/postgres/
               languages:
@@ -1235,6 +1600,9 @@ _embedded:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
         languages:
           - title: Ruby
             desc: Ruby is an open-source, object-oriented programming language created by
@@ -1312,6 +1680,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -1383,6 +1752,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               db:
                 - href: /db/postgres/
               languages:
@@ -1399,6 +1769,9 @@ _embedded:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
         languages:
           - title: Ruby
             desc: Ruby is an open-source, object-oriented programming language created by
@@ -1498,6 +1871,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -1567,6 +1941,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               db:
                 - href: /db/postgres/
               languages:
@@ -1583,6 +1958,9 @@ _embedded:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
         languages:
           - title: Ruby
             desc: Ruby is an open-source, object-oriented programming language created by
@@ -1660,6 +2038,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -1733,6 +2112,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               db:
                 - href: /db/postgres/
               languages:
@@ -1749,6 +2129,9 @@ _embedded:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
         languages:
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -1901,6 +2284,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -2169,6 +2553,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -3970,6 +4355,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -4418,6 +4804,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               db:
                 - href: /db/postgres/
               languages:
@@ -4434,6 +4821,9 @@ _embedded:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
         languages:
           - title: Ruby
             desc: Ruby is an open-source, object-oriented programming language created by
@@ -4527,6 +4917,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -4999,6 +5390,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
               db:
                 - href: /db/postgres/
               languages:
@@ -5015,6 +5407,9 @@ _embedded:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
         languages:
           - title: C#
             desc: C# is a general-purpose, object-oriented programming language developed by

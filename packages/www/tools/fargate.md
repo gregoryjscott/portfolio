@@ -13,6 +13,7 @@ _links:
     href: /tools/fargate/
   projects:
     - href: /projects/epicloud/
+    - href: /projects/nuggets/
   jobs:
     - href: /jobs/fe/
 ---

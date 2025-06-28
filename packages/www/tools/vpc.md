@@ -14,6 +14,7 @@ _links:
     href: /tools/vpc/
   projects:
     - href: /projects/epicloud/
+    - href: /projects/nuggets/
   jobs:
     - href: /jobs/fe/
 ---

@@ -6,6 +6,7 @@ _links:
   self:
     href: /tools/
   tools:
+    - href: /tools/amplify/
     - href: /tools/backbone/
     - href: /tools/classroom/
     - href: /tools/docker/
@@ -22,8 +23,10 @@ _links:
     - href: /tools/lerna/
     - href: /tools/node/
     - href: /tools/puppeteer/
+    - href: /tools/react-native/
     - href: /tools/s3/
     - href: /tools/sikulix/
     - href: /tools/sqs/
     - href: /tools/vpc/
+    - href: /tools/xstate/
 ---

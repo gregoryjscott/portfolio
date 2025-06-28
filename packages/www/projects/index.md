@@ -32,6 +32,7 @@ _links:
     - href: /projects/lasar-range-finder/
     - href: /projects/mission-data-loader/
     - href: /projects/mvc-integration-test-framework/
+    - href: /projects/nuggets/
     - href: /projects/please/
     - href: /projects/qb/
     - href: /projects/report-engine/

@@ -1,40 +1,50 @@
-title: Heroku
-desc: Heroku is a cloud-based Platform as a Service (PaaS) that simplifies the
-  deployment, management and scaling of modern web applications. Developers push
-  code to Heroku via Git or GitHub, and Heroku’s buildpacks automatically detect
-  the language (such as Ruby, Node.js, Python, Java, Go or PHP), install
-  dependencies and compile a runnable slug. Applications run in lightweight,
-  isolated containers called dynos, which can be scaled horizontally or
-  vertically on demand. The platform also offers a marketplace of add-ons
-  (databases, caching, monitoring, logging, etc.), a web-based dashboard and a
-  command-line interface, allowing teams to iterate quickly without managing
-  underlying infrastructure.
+title: XState
+desc: XState is a JavaScript/TypeScript library for modeling application logic
+  as finite state machines and hierarchical statecharts, enabling developers to
+  define states, transitions, guards, actions, and invoked services
+  declaratively. With built-in support for parallel and history states, runtime
+  interpreters, visualizers, and integrations for React, Vue, Angular, and
+  Node.js, XState delivers predictable, testable, and maintainable state
+  management for complex synchronous and asynchronous workflows.
 _links:
   self:
-    href: /tools/heroku/
+    href: /tools/xstate/
   projects:
-    - href: /projects/cfw/
+    - href: /projects/nuggets/
   jobs:
     - href: /jobs/freelance/
 _embedded:
   projects:
-    - title: fortworthtexas.gov
-      desc: Jekyll static site for the City of Fort Worth, Texas.
-      role: Technical Lead
-      begin_year: 2015
-      end_year: 2016
+    - title: Nuggets
+      subtitle: Customizing Curriculum for Students using AI
+      desc: React Native app built using AI and state machines for learning Spanish or
+        English.
+      role: Author
+      begin_year: 2024
+      end_year: null
       _links:
         self:
-          href: /projects/cfw/
+          href: /projects/nuggets/
         jobs:
           - href: /jobs/freelance/
         languages:
-          - href: /languages/rb/
-        tools:
-          - href: /tools/heroku/
-          - href: /tools/jekyll/
+          - href: /languages/ts/
+        db:
+          - href: /db/ddb/
         os:
           - href: /os/linux/
+        tools:
+          - href: /tools/amplify/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/iam/
+          - href: /tools/react-native/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+          - href: /tools/xstate/
   jobs:
     - title: Freelance Programmer
       desc: Freelance Programmer/Consultant, partnering with clients to architect and
