@@ -4,13 +4,13 @@ import * as matter from "gray-matter"
 
 const yamlDirectory = "_data"
 export const resourceDirectories = [
-  "db",
-  "jobs",
-  "languages",
-  "os",
   "projects",
+  "jobs",
   "schools",
+  "languages",
+  "db",
   "tools",
+  "os",
   // resume needs to be last b/c it references other "index" resources
   "resume",
 ]
@@ -26,7 +26,7 @@ const prompts = {
 }
 
 export interface Resource {
-  name: string
+  relation: string
   href: string
   isIndex: boolean
   prompt: string | null
@@ -59,7 +59,7 @@ export function getResources(): Resource[] {
       const { content, data } = matter.read(sourceFilePath)
 
       resources.push({
-        name: directory,
+        relation: directory,
         href: isIndex ? `/${directory}/` : `/${directory}/${parsedPath.name}/`,
         isIndex,
         prompt: prompts[directory] ? prompts[directory](data.title) : null,

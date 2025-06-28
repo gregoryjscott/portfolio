@@ -8,12 +8,12 @@ import {
 
 const resources: Resource[] = getResources()
 const nonIndexResources = resources.filter(r => !r.isIndex)
-const projects = nonIndexResources.filter(r => r.name === "projects")
-const schools = nonIndexResources.filter(r => r.name === "schools")
+const projects = nonIndexResources.filter(r => r.relation === "projects")
+const schools = nonIndexResources.filter(r => r.relation === "schools")
 const targetResources = nonIndexResources.filter(
-  r => r.name !== "projects" && r.name !== "schools"
+  r => r.relation !== "projects" && r.relation !== "schools"
 )
-const skills = targetResources.filter(r => r.name !== "jobs")
+const skills = targetResources.filter(r => r.relation !== "jobs")
 
 function setYearRange() {
   for (const skill of skills) {
