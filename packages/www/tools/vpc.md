@@ -1,5 +1,5 @@
 ---
-title: Amazon Virtual Private Cloud (VPC)
+title: VPC
 desc: >-
   Amazon Virtual Private Cloud (VPC) is a cloud computing service that provides
   users with a virtual private cloud, allowing them to provision a logically

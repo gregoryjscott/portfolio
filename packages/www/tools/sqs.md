@@ -1,5 +1,5 @@
 ---
-title: Amazon Simple Queue Service (SQS)
+title: SQS
 desc: >-
   Amazon Simple Queue Service (SQS) is a fully managed message queuing service
   that enables applications to quickly and reliably queue messages that one

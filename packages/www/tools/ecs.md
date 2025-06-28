@@ -1,5 +1,5 @@
 ---
-title: Amazon Elastic Container Service (ECS)
+title: ECS
 desc: >-
   Amazon Elastic Container Service (ECS) is a container orchestration service
   from Amazon Web Services (AWS) that enables users to easily deploy, manage,

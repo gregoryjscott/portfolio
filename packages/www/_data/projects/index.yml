@@ -203,7 +203,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/freelance/
-          - title: Amazon Virtual Private Cloud (VPC)
+          - title: VPC
             desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
               provides users with a virtual private cloud, allowing them to
               provision a logically isolated section of the Amazon Web Services
@@ -222,7 +222,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-          - title: Amazon Simple Queue Service (SQS)
+          - title: SQS
             desc: Amazon Simple Queue Service (SQS) is a fully managed message queuing
               service that enables applications to quickly and reliably queue
               messages that one component of an application can later process.
@@ -241,7 +241,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-          - title: Amazon Simple Storage Service (S3)
+          - title: S3
             desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
               Amazon Web Services (AWS). It provides object storage through a
               web service interface and is designed to store and retrieve any
@@ -281,7 +281,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/freelance/
-          - title: AWS Identity and Access Management (IAM)
+          - title: IAM
             desc: AWS Identity and Access Management (IAM) is a web service that helps you
               securely control access to AWS resources. With IAM, you can create
               and manage AWS users and groups, and use permissions to allow and
@@ -315,7 +315,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-          - title: Amazon Elastic Container Service (ECS)
+          - title: ECS
             desc: Amazon Elastic Container Service (ECS) is a container orchestration
               service from Amazon Web Services (AWS) that enables users to
               easily deploy, manage, and scale containerized applications on
@@ -332,7 +332,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-          - title: Amazon Elastic Container Registry (ECR)
+          - title: ECR
             desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
               container registry that makes it easy to store, manage, and deploy
               Docker container images. It is secure, highly available, and
@@ -349,7 +349,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-          - title: Amazon Elastic Compute Cloud (EC2)
+          - title: EC2
             desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
               resizable compute capacity in the cloud. It is designed to make
               web-scale cloud computing easier for developers. EC2 allows users
@@ -965,7 +965,7 @@ _embedded:
                 - href: /projects/epicloud/
               jobs:
                 - href: /jobs/fe/
-          - title: Amazon Virtual Private Cloud (VPC)
+          - title: VPC
             desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
               provides users with a virtual private cloud, allowing them to
               provision a logically isolated section of the Amazon Web Services
@@ -984,7 +984,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-          - title: Amazon Simple Queue Service (SQS)
+          - title: SQS
             desc: Amazon Simple Queue Service (SQS) is a fully managed message queuing
               service that enables applications to quickly and reliably queue
               messages that one component of an application can later process.
@@ -1003,7 +1003,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-          - title: Amazon Simple Storage Service (S3)
+          - title: S3
             desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
               Amazon Web Services (AWS). It provides object storage through a
               web service interface and is designed to store and retrieve any
@@ -1050,7 +1050,7 @@ _embedded:
                 - href: /projects/epicloud/
               jobs:
                 - href: /jobs/fe/
-          - title: AWS Identity and Access Management (IAM)
+          - title: IAM
             desc: AWS Identity and Access Management (IAM) is a web service that helps you
               securely control access to AWS resources. With IAM, you can create
               and manage AWS users and groups, and use permissions to allow and
@@ -1067,7 +1067,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-          - title: Google Firebase
+          - title: Firebase
             desc: Google Firebase is a mobile and web application development platform that
               provides developers with a variety of tools and services to help
               them quickly and easily build high-quality apps. Firebase provides
@@ -1099,7 +1099,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-          - title: Amazon Elastic Container Service (ECS)
+          - title: ECS
             desc: Amazon Elastic Container Service (ECS) is a container orchestration
               service from Amazon Web Services (AWS) that enables users to
               easily deploy, manage, and scale containerized applications on
@@ -1116,7 +1116,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-          - title: Amazon Elastic Container Registry (ECR)
+          - title: ECR
             desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
               container registry that makes it easy to store, manage, and deploy
               Docker container images. It is secure, highly available, and
@@ -1133,7 +1133,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-          - title: Amazon Elastic Compute Cloud (EC2)
+          - title: EC2
             desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
               resizable compute capacity in the cloud. It is designed to make
               web-scale cloud computing easier for developers. EC2 allows users
