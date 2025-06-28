@@ -101,7 +101,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
         jobs:
@@ -142,7 +141,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
     - title: Ruby
@@ -1251,7 +1249,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
     - title: SQL

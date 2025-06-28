@@ -24,7 +24,6 @@ _links:
     - href: /tools/s3/
     - href: /tools/sikulix/
     - href: /tools/sqs/
-    - href: /tools/tracker/
     - href: /tools/vpc/
 _embedded:
   tools:
@@ -372,7 +371,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
         jobs:
@@ -413,100 +411,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
-                - href: /tools/vpc/
-                - href: /tools/sikulix/
-    - title: Pivotal Tracker
-      desc: Pivotal Tracker is an agile project management tool that helps teams
-        collaborate and manage their projects. It provides a visual timeline of
-        tasks, stories, and epics, and allows teams to prioritize and track
-        progress. It also offers features such as real-time collaboration,
-        automated workflow, and reporting. It is designed to help teams stay
-        organized and on track with their projects.
-      _links:
-        self:
-          href: /tools/tracker/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-      _embedded:
-        projects:
-          - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
-            desc: null
-            role: Technical Lead
-            begin_year: 2015
-            end_year: 2021
-            _links:
-              self:
-                href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-              os:
-                - href: /os/linux/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/lerna/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/tracker/
-                - href: /tools/vpc/
-                - href: /tools/sikulix/
-        jobs:
-          - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
-            begin_year: 2018
-            end_year: null
-            time_desc: March 2018 - present
-            _links:
-              self:
-                href: /jobs/fe/
-              projects:
-                - href: /projects/epicloud/
-                - href: /projects/epic-ca-enrollment/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-                - href: /db/firebase/
-              languages:
-                - href: /languages/ts/
-                - href: /languages/php/
-              os:
-                - href: /os/linux/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/lerna/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
     - title: Amazon Simple Queue Service (SQS)
@@ -561,7 +465,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
         jobs:
@@ -602,7 +505,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
     - title: SikuliX
@@ -656,7 +558,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
         jobs:
@@ -697,7 +598,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
     - title: Amazon Simple Storage Service (S3)
@@ -750,7 +650,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
         jobs:
@@ -791,7 +690,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
     - title: Puppeteer
@@ -844,7 +742,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
         jobs:
@@ -885,7 +782,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
     - title: Node
@@ -938,7 +834,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
         jobs:
@@ -979,7 +874,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
     - title: Lerna
@@ -1032,7 +926,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
         jobs:
@@ -1073,7 +966,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
     - title: AWS Identity and Access Management (IAM)
@@ -1126,7 +1018,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
         jobs:
@@ -1167,7 +1058,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
     - title: Heroku
@@ -1295,7 +1185,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
         jobs:
@@ -1336,7 +1225,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
     - title: Fargate
@@ -1389,7 +1277,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
         jobs:
@@ -1430,7 +1317,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
     - title: Amazon Elastic Container Service (ECS)
@@ -1483,7 +1369,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
         jobs:
@@ -1524,7 +1409,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
     - title: Amazon Elastic Container Registry (ECR)
@@ -1577,7 +1461,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
         jobs:
@@ -1618,7 +1501,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
     - title: Amazon Elastic Compute Cloud (EC2)
@@ -1671,7 +1553,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
         jobs:
@@ -1712,7 +1593,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
     - title: Google Drive
@@ -1766,7 +1646,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
         jobs:
@@ -1807,7 +1686,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
     - title: Docker
@@ -1859,7 +1737,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
         jobs:
@@ -1900,7 +1777,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
     - title: Google Classroom
@@ -1953,7 +1829,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
         jobs:
@@ -1994,7 +1869,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
     - title: Backbone.js

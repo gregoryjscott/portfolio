@@ -76,7 +76,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
         projects:
@@ -146,7 +145,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
         jobs:
@@ -187,7 +185,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
     - title: BigQuery
@@ -241,7 +238,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
         jobs:
@@ -282,7 +278,6 @@ _embedded:
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
     - title: Postgres
