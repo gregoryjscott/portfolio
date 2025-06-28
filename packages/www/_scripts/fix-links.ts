@@ -50,12 +50,10 @@ function fixNonIndexLinks() {
           findRelationLinks(linkedResource, resource.name)
         )
         if (!linkedResourceLinks.find(lrl => lrl.href === resource.href)) {
-          if (!linkedResource.sourceMarkdown.data._links[resource.name]) {
-            linkedResource.sourceMarkdown.data._links[resource.name] = []
-          }
-          linkedResource.sourceMarkdown.data._links[resource.name].push({
-            href: resource.href,
-          })
+          linkedResource.sourceMarkdown.data._links[resource.name] = [
+            ...linkedResource.sourceMarkdown.data._links[resource.name],
+            { href: resource.href },
+          ]
         }
       }
     }
