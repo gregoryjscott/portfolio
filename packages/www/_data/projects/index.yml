@@ -2076,6 +2076,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: Ruby
             desc: Ruby is an open-source, object-oriented programming language created by
@@ -2344,6 +2346,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: Transact-SQL
             desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
@@ -2713,6 +2717,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -2966,6 +2972,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: Transact-SQL
             desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
@@ -3287,6 +3295,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: Transact-SQL
             desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
@@ -3499,6 +3509,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: Transact-SQL
             desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
@@ -3826,6 +3838,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: Ruby
             desc: Ruby is an open-source, object-oriented programming language created by
@@ -4131,6 +4145,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: Transact-SQL
             desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
@@ -4630,6 +4646,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/
       _embedded:
         jobs:
           - title: Resource Data, Inc.
@@ -4687,6 +4705,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: Transact-SQL
             desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
@@ -4934,6 +4954,29 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        tools:
+          - title: Backbone.js
+            desc: Backbone.js is a lightweight JavaScript library that brings structure to
+              client‐side applications by providing models with key–value
+              binding and custom events, collections with rich enumerable
+              functions, views with declarative event handling, and a router for
+              managing application state and URLs. It syncs seamlessly with
+              RESTful APIs via its built‐in sync method, making it easy to fetch
+              and persist JSON data. By relying only on Underscore.js (and
+              optionally jQuery or Zepto), Backbone.js imposes minimal
+              constraints on how you architect your code while offering just
+              enough conventions to keep large‐scale single‐page applications
+              organized and maintainable. Its event‐driven design encourages
+              decoupled components, and its simplicity has made it popular for
+              developers who prefer to assemble their own toolchains rather than
+              adopt more opinionated frameworks.
+            _links:
+              self:
+                href: /tools/backbone/
+              projects:
+                - href: /projects/qb/
+              jobs:
+                - href: /jobs/rdi/
     - title: MvcIntegrationTestFramework
       desc: Framework that can be used to perform integration tests on a ASP.NET MVC
         application.
@@ -5163,6 +5206,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -5488,6 +5533,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -5700,6 +5747,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: C#
             desc: C# is a general-purpose, object-oriented programming language developed by
@@ -5884,6 +5933,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -6132,6 +6183,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: C#
             desc: C# is a general-purpose, object-oriented programming language developed by
@@ -6304,6 +6357,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -6629,6 +6684,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -6856,6 +6913,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -7087,6 +7146,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: C#
             desc: C# is a general-purpose, object-oriented programming language developed by
@@ -7271,6 +7332,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -7502,6 +7565,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -7753,6 +7818,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: C#
             desc: C# is a general-purpose, object-oriented programming language developed by
@@ -7943,6 +8010,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: C#
             desc: C# is a general-purpose, object-oriented programming language developed by
@@ -8111,6 +8180,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         languages:
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in

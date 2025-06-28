@@ -524,6 +524,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
     - title: HTML
       desc: HTML (HyperText Markup Language) is a markup language used to create
         webpages and web applications. It is the standard markup language used
@@ -710,6 +712,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
           - title: Service Order Mobile Dispatch
             desc: Mobile web application that allows Anchorage Water & Wastewater Utility
               service workers to query and record service information while in
@@ -847,6 +851,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
     - title: CSS
       desc: CSS (Cascading Style Sheets) is a style sheet language used for describing
         the presentation of a document written in a markup language such as
@@ -1034,6 +1040,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
           - title: Service Order Mobile Dispatch
             desc: Mobile web application that allows Anchorage Water & Wastewater Utility
               service workers to query and record service information while in
@@ -1171,6 +1179,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
     - title: PHP
       desc: PHP is a server-side scripting language used for web development. It is a
         powerful language that is used to create dynamic web pages and
@@ -1455,6 +1465,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
           - title: Consumption Views
             desc: Set of database views that provides water consumption information that
               feed into reporting tools used by AWWU to make business decisions.
@@ -1777,6 +1789,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
           - title: Municipal Accounting Systems, Inc.
             desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
               Shawnee, Oklahoma that provides accounting and student information
@@ -1923,6 +1937,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
     - title: C#
       desc: C# is a general-purpose, object-oriented programming language developed by
         Microsoft. It is used to develop a variety of applications, including
@@ -2163,6 +2179,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
           - title: MvcIntegrationTestFramework
             desc: Framework that can be used to perform integration tests on a ASP.NET MVC
               application.
@@ -2510,6 +2528,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
           - title: Municipal Accounting Systems, Inc.
             desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
               Shawnee, Oklahoma that provides accounting and student information
@@ -2687,6 +2707,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -2743,6 +2765,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
     - title: JavaScript
       desc: JavaScript is a high-level, interpreted programming language that is used
         to create interactive web pages and applications. It is a scripting
@@ -2900,6 +2924,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
           - title: Service Order Mobile Dispatch
             desc: Mobile web application that allows Anchorage Water & Wastewater Utility
               service workers to query and record service information while in
@@ -3001,6 +3027,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
     - title: PL/SQL
       desc: PL/SQL (Procedural Language/Structured Query Language) is a procedural
         language used in Oracle databases. It is a combination of SQL and
@@ -3197,6 +3225,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
     - title: Delphi
       desc: Delphi is an object-oriented programming language developed by Embarcadero
         Technologies. It is based on the Object Pascal language and is used to

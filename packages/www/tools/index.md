@@ -6,6 +6,7 @@ _links:
   self:
     href: /tools/
   tools:
+    - href: /tools/backbone/
     - href: /tools/classroom/
     - href: /tools/docker/
     - href: /tools/drive/

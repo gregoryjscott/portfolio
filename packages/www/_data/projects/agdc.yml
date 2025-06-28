@@ -79,6 +79,8 @@ _embedded:
           - href: /os/linux/
           - href: /os/osx/
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/
   languages:
     - title: Transact-SQL
       desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact

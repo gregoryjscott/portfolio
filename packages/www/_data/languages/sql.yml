@@ -209,6 +209,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/
     - title: Consumption Views
       desc: Set of database views that provides water consumption information that
         feed into reporting tools used by AWWU to make business decisions.
@@ -531,6 +533,8 @@ _embedded:
           - href: /os/linux/
           - href: /os/osx/
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/
     - title: Municipal Accounting Systems, Inc.
       desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
         Shawnee, Oklahoma that provides accounting and student information

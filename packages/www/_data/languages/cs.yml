@@ -237,6 +237,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/
     - title: MvcIntegrationTestFramework
       desc: Framework that can be used to perform integration tests on a ASP.NET MVC
         application.
@@ -582,6 +584,8 @@ _embedded:
           - href: /os/linux/
           - href: /os/osx/
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/
     - title: Municipal Accounting Systems, Inc.
       desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
         Shawnee, Oklahoma that provides accounting and student information

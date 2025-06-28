@@ -77,6 +77,8 @@ _embedded:
           - href: /os/linux/
           - href: /os/osx/
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/
   languages:
     - title: Ruby
       desc: Ruby is an open-source, object-oriented programming language created by

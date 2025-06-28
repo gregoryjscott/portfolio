@@ -446,6 +446,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
     - title: SQL Server
       desc: SQL Server is a relational database management system (RDBMS) developed by
         Microsoft. It is used to store and manage data in a structured format,
@@ -597,6 +599,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
           - title: TrainBuilder
             desc: Windows Presentation Framework (WPF) application used by the Alaska
               Railroad to plan and schedule structure of their trains.
@@ -671,6 +675,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
     - title: SQLite
       desc: SQLite is a lightweight, self-contained, serverless, zero-configuration,
         transactional SQL database engine. It is the most widely deployed
@@ -766,6 +772,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
     - title: Oracle
       desc: Oracle Database is a relational database management system (RDBMS)
         developed by Oracle Corporation. It is the world's most popular database
@@ -1019,6 +1027,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
     - title: Access
       desc: The Access database is a relational database management system (RDBMS)
         developed by Microsoft. It is used to store and manage data in a
@@ -1129,6 +1139,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
     - title: Pervasive
       desc: Pervasive is a relational database management system (RDBMS) that is
         designed to provide high performance, scalability, and reliability for

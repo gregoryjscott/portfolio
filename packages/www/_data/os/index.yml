@@ -329,6 +329,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
     - title: Linux
       desc: Linux is an open-source operating system that is based on the Linux
         kernel. It is a free and powerful operating system that is used in many
@@ -738,6 +740,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
     - title: Windows
       desc: Windows is a series of operating systems developed by Microsoft. It is the
         most popular operating system for personal computers, and is used in a
@@ -1044,6 +1048,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
           - title: MvcIntegrationTestFramework
             desc: Framework that can be used to perform integration tests on a ASP.NET MVC
               application.
@@ -1486,6 +1492,8 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/osx/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
           - title: Municipal Accounting Systems, Inc.
             desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
               Shawnee, Oklahoma that provides accounting and student information
