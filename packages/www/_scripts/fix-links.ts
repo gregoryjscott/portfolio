@@ -46,27 +46,16 @@ function fixNonIndexLinks() {
         const linkedResource = findResource(link, resources)
         if (!linkedResource) continue
 
-        const backLinks = [].concat(
+        const linkedResourceLinks = [].concat(
           findRelationLinks(linkedResource, resource.name)
         )
-        const backLinkExists = backLinks.some(l => l.href === resource.href)
-
-        if (!backLinkExists) {
-          const existingBackLinks =
-            linkedResource.sourceMarkdown.data._links[resource.name]
-
-          if (!existingBackLinks) {
-            linkedResource.sourceMarkdown.data._links[resource.name] = {
-              href: resource.href,
-            }
-          } else if (Array.isArray(existingBackLinks)) {
-            existingBackLinks.push({ href: resource.href })
-          } else {
-            linkedResource.sourceMarkdown.data._links[resource.name] = [
-              existingBackLinks,
-              { href: resource.href },
-            ]
+        if (!linkedResourceLinks.find(lrl => lrl.href === resource.href)) {
+          if (!linkedResource.sourceMarkdown.data._links[resource.name]) {
+            linkedResource.sourceMarkdown.data._links[resource.name] = []
           }
+          linkedResource.sourceMarkdown.data._links[resource.name].push({
+            href: resource.href,
+          })
         }
       }
     }
