@@ -130,6 +130,7 @@ _embedded:
         projects:
           - href: /projects/epicloud/
           - href: /projects/nuggets/
+          - href: /projects/la-boda/
         jobs:
           - href: /jobs/fe/
     - title: BigQuery
@@ -204,6 +205,7 @@ _embedded:
           - href: /projects/jekyll-embed/
           - href: /projects/jekyll-prep/
           - href: /projects/nuggets/
+          - href: /projects/la-boda/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/freelance/

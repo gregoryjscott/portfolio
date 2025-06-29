@@ -138,6 +138,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -193,6 +194,7 @@ _embedded:
               projects:
                 - href: /projects/epicloud/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
         os:
@@ -220,6 +222,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -455,6 +458,7 @@ _embedded:
                 href: /tools/amplify/
               projects:
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
     - title: EpiCloud
@@ -565,6 +569,7 @@ _embedded:
               projects:
                 - href: /projects/epicloud/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
           - title: BigQuery
@@ -609,6 +614,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -1024,6 +1030,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/rdi/
           - title: HTML
@@ -1048,6 +1055,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -1074,6 +1082,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -1952,6 +1961,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -2052,6 +2062,7 @@ _embedded:
           - href: /projects/somd/
           - href: /projects/systems-portal/
           - href: /projects/this-site/
+          - href: /projects/la-boda/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -2082,6 +2093,26 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
                 - href: /tools/hal/
+          - title: hazelandgreg.wedding
+            desc: Wedding website for Hazel and Greg
+            role: Author
+            begin_year: 2025
+            end_year: 2025
+            _links:
+              self:
+                href: /projects/la-boda/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+              os:
+                - href: /os/linux/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
               querying tools for their vast GIS data and infrastructure.
@@ -2286,6 +2317,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -2387,6 +2419,7 @@ _embedded:
           - href: /projects/somd/
           - href: /projects/systems-portal/
           - href: /projects/this-site/
+          - href: /projects/la-boda/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -2417,6 +2450,26 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
                 - href: /tools/hal/
+          - title: hazelandgreg.wedding
+            desc: Wedding website for Hazel and Greg
+            role: Author
+            begin_year: 2025
+            end_year: 2025
+            _links:
+              self:
+                href: /projects/la-boda/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+              os:
+                - href: /os/linux/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
               querying tools for their vast GIS data and infrastructure.
@@ -2621,6 +2674,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -2699,77 +2753,6 @@ _embedded:
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
-    - title: PHP
-      desc: PHP is a server-side scripting language used for web development. It is a
-        powerful language that is used to create dynamic web pages and
-        applications. It is an open-source language, meaning it is free to use
-        and modify. PHP is easy to learn and is widely used for creating
-        websites and web applications. It is also used to create database-driven
-        websites and applications.
-      _links:
-        self:
-          href: /languages/php/
-        projects:
-          - href: /projects/epic-ca-enrollment/
-        jobs:
-          - href: /jobs/fe/
-      _embedded:
-        projects:
-          - title: Epic California Academy Enrollment
-            desc: null
-            role: Technical Lead
-            begin_year: 2017
-            end_year: 2021
-            _links:
-              self:
-                href: /projects/epic-ca-enrollment/
-              jobs:
-                - href: /jobs/fe/
-              languages:
-                - href: /languages/php/
-              db:
-                - href: /db/firebase/
-              os:
-                - href: /os/windows/
-        jobs:
-          - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
-            begin_year: 2018
-            end_year: 2022
-            time_desc: March 2018 - present
-            _links:
-              self:
-                href: /jobs/fe/
-              projects:
-                - href: /projects/epicloud/
-                - href: /projects/epic-ca-enrollment/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-                - href: /db/firebase/
-              languages:
-                - href: /languages/ts/
-                - href: /languages/php/
-              os:
-                - href: /os/linux/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/sikulix/
     - title: JavaScript
       desc: JavaScript is a high-level, interpreted programming language that is used
         to create interactive web pages and applications. It is a scripting
@@ -2790,10 +2773,31 @@ _embedded:
           - href: /projects/somd/
           - href: /projects/systems-portal/
           - href: /projects/aprender/
+          - href: /projects/la-boda/
         jobs:
           - href: /jobs/rdi/
       _embedded:
         projects:
+          - title: hazelandgreg.wedding
+            desc: Wedding website for Hazel and Greg
+            role: Author
+            begin_year: 2025
+            end_year: 2025
+            _links:
+              self:
+                href: /projects/la-boda/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+              os:
+                - href: /os/linux/
           - title: aprender
             desc: CLI for learning Spanish
             role: Author
@@ -3050,6 +3054,77 @@ _embedded:
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
+    - title: PHP
+      desc: PHP is a server-side scripting language used for web development. It is a
+        powerful language that is used to create dynamic web pages and
+        applications. It is an open-source language, meaning it is free to use
+        and modify. PHP is easy to learn and is widely used for creating
+        websites and web applications. It is also used to create database-driven
+        websites and applications.
+      _links:
+        self:
+          href: /languages/php/
+        projects:
+          - href: /projects/epic-ca-enrollment/
+        jobs:
+          - href: /jobs/fe/
+      _embedded:
+        projects:
+          - title: Epic California Academy Enrollment
+            desc: null
+            role: Technical Lead
+            begin_year: 2017
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epic-ca-enrollment/
+              jobs:
+                - href: /jobs/fe/
+              languages:
+                - href: /languages/php/
+              db:
+                - href: /db/firebase/
+              os:
+                - href: /os/windows/
+        jobs:
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: 2022
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              languages:
+                - href: /languages/ts/
+                - href: /languages/php/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: SQL
       desc: SQL (Structured Query Language) is a domain-specific language used in
         programming and designed for managing data held in a relational database
@@ -3516,6 +3591,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -4262,6 +4338,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -5191,6 +5268,7 @@ _embedded:
         projects:
           - href: /projects/epicloud/
           - href: /projects/nuggets/
+          - href: /projects/la-boda/
         jobs:
           - href: /jobs/fe/
       _embedded:
@@ -5227,6 +5305,26 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/vpc/
                 - href: /tools/xstate/
+          - title: hazelandgreg.wedding
+            desc: Wedding website for Hazel and Greg
+            role: Author
+            begin_year: 2025
+            end_year: 2025
+            _links:
+              self:
+                href: /projects/la-boda/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+              os:
+                - href: /os/linux/
           - title: EpiCloud
             subtitle: Infinitely Scaling Bots on AWS
             desc: null
@@ -5560,6 +5658,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -6738,6 +6837,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -7348,6 +7448,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -7861,6 +7962,124 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
+    - title: Amplify
+      desc: AWS Amplify is a comprehensive development platform from Amazon Web
+        Services that enables developers to quickly build, deploy, and manage
+        scalable full-stack web and mobile applications. It provides a set of
+        libraries, UI components and a command-line interface for integrating
+        popular front-end frameworks (React, Angular, Vue, iOS, Android,
+        Flutter) with cloud backends, including authentication, GraphQL and REST
+        APIs, storage, and serverless functions. Amplify Studio offers a visual
+        development environment for designing UI and data models, while built-in
+        hosting, CI/CD and environment management streamline the application
+        lifecycle so teams can focus on features instead of infrastructure.
+      _links:
+        self:
+          href: /tools/amplify/
+        projects:
+          - href: /projects/nuggets/
+          - href: /projects/la-boda/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+          - title: hazelandgreg.wedding
+            desc: Wedding website for Hazel and Greg
+            role: Author
+            begin_year: 2025
+            end_year: 2025
+            _links:
+              self:
+                href: /projects/la-boda/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+              os:
+                - href: /os/linux/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: null
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/denver-schedules-api/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
+                - href: /projects/aprender/
+                - href: /projects/la-boda/
+              db:
+                - href: /db/postgres/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/css/
+                - href: /languages/html/
+              os:
+                - href: /os/windows/
+                - href: /os/macos/
+                - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
     - title: XState
       desc: XState is a JavaScript/TypeScript library for modeling application logic
         as finite state machines and hierarchical statecharts, enabling
@@ -7934,6 +8153,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -8125,6 +8345,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -8387,6 +8608,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -8874,102 +9096,6 @@ _embedded:
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
-    - title: Amplify
-      desc: AWS Amplify is a comprehensive development platform from Amazon Web
-        Services that enables developers to quickly build, deploy, and manage
-        scalable full-stack web and mobile applications. It provides a set of
-        libraries, UI components and a command-line interface for integrating
-        popular front-end frameworks (React, Angular, Vue, iOS, Android,
-        Flutter) with cloud backends, including authentication, GraphQL and REST
-        APIs, storage, and serverless functions. Amplify Studio offers a visual
-        development environment for designing UI and data models, while built-in
-        hosting, CI/CD and environment management streamline the application
-        lifecycle so teams can focus on features instead of infrastructure.
-      _links:
-        self:
-          href: /tools/amplify/
-        projects:
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/freelance/
-      _embedded:
-        projects:
-          - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
-            role: Author
-            begin_year: 2024
-            end_year: null
-            _links:
-              self:
-                href: /projects/nuggets/
-              jobs:
-                - href: /jobs/freelance/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/iam/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-        jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
-            begin_year: 2014
-            end_year: null
-            time_desc: July 2014 - present
-            _links:
-              self:
-                href: /jobs/freelance/
-              projects:
-                - href: /projects/denver-schedules-api/
-                - href: /projects/mvc-integration-test-framework/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-                - href: /projects/cfw/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-prep/
-                - href: /projects/nuggets/
-                - href: /projects/aprender/
-              db:
-                - href: /db/postgres/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/css/
-                - href: /languages/html/
-              os:
-                - href: /os/windows/
-                - href: /os/macos/
-                - href: /os/linux/
-                - href: /os/android/
-                - href: /os/ios/
-              tools:
-                - href: /tools/heroku/
-                - href: /tools/jekyll/
-                - href: /tools/hal/
-                - href: /tools/amplify/
-                - href: /tools/react-native/
-                - href: /tools/xstate/
   os:
     - title: Linux
       desc: Linux is an open-source operating system that is based on the Linux
@@ -8994,6 +9120,7 @@ _embedded:
           - href: /projects/jekyll-embed/
           - href: /projects/jekyll-prep/
           - href: /projects/nuggets/
+          - href: /projects/la-boda/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/freelance/
@@ -9057,6 +9184,26 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
                 - href: /tools/hal/
+          - title: hazelandgreg.wedding
+            desc: Wedding website for Hazel and Greg
+            role: Author
+            begin_year: 2025
+            end_year: 2025
+            _links:
+              self:
+                href: /projects/la-boda/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+              os:
+                - href: /os/linux/
           - title: EpiCloud
             subtitle: Infinitely Scaling Bots on AWS
             desc: null
@@ -9302,6 +9449,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -9491,6 +9639,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -9585,6 +9734,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -9872,6 +10022,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -10631,6 +10782,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -11065,6 +11217,7 @@ _embedded:
           - href: /projects/jekyll-prep/
           - href: /projects/nuggets/
           - href: /projects/aprender/
+          - href: /projects/la-boda/
         db:
           - href: /db/postgres/
         languages:
@@ -11152,6 +11305,26 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
                 - href: /tools/hal/
+          - title: hazelandgreg.wedding
+            desc: Wedding website for Hazel and Greg
+            role: Author
+            begin_year: 2025
+            end_year: 2025
+            _links:
+              self:
+                href: /projects/la-boda/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+              os:
+                - href: /os/linux/
           - title: aprender
             desc: CLI for learning Spanish
             role: Author
@@ -11375,6 +11548,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -11401,6 +11575,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -11568,6 +11743,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -11710,6 +11886,7 @@ _embedded:
                 href: /tools/amplify/
               projects:
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
           - title: HAL
@@ -11910,6 +12087,7 @@ _embedded:
               projects:
                 - href: /projects/epicloud/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
           - title: BigQuery
@@ -11986,6 +12164,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -13007,6 +13186,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/rdi/
           - title: HTML
@@ -13031,6 +13211,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -13057,6 +13238,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -13205,6 +13387,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/

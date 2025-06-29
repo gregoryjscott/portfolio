@@ -22,6 +22,7 @@ _links:
     - href: /projects/jekyll-prep/
     - href: /projects/nuggets/
     - href: /projects/aprender/
+    - href: /projects/la-boda/
   db:
     - href: /db/postgres/
   languages:

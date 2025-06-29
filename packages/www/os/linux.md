@@ -23,6 +23,7 @@ _links:
     - href: /projects/jekyll-embed/
     - href: /projects/jekyll-prep/
     - href: /projects/nuggets/
+    - href: /projects/la-boda/
   jobs:
     - href: /jobs/fe/
     - href: /jobs/freelance/

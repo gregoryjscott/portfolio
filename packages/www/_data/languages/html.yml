@@ -19,6 +19,7 @@ _links:
     - href: /projects/somd/
     - href: /projects/systems-portal/
     - href: /projects/this-site/
+    - href: /projects/la-boda/
   jobs:
     - href: /jobs/freelance/
     - href: /jobs/rdi/
@@ -49,6 +50,26 @@ _embedded:
         tools:
           - href: /tools/jekyll/
           - href: /tools/hal/
+    - title: hazelandgreg.wedding
+      desc: Wedding website for Hazel and Greg
+      role: Author
+      begin_year: 2025
+      end_year: 2025
+      _links:
+        self:
+          href: /projects/la-boda/
+        jobs:
+          - href: /jobs/freelance/
+        languages:
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+        db:
+          - href: /db/ddb/
+        tools:
+          - href: /tools/amplify/
+        os:
+          - href: /os/linux/
     - title: Alaska Gasline Development Corporation
       desc: Web application that provides AGDC with documentation, reporting, and
         querying tools for their vast GIS data and infrastructure.
@@ -253,6 +274,7 @@ _embedded:
           - href: /projects/jekyll-prep/
           - href: /projects/nuggets/
           - href: /projects/aprender/
+          - href: /projects/la-boda/
         db:
           - href: /db/postgres/
         languages:

@@ -200,6 +200,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -810,6 +811,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -1323,6 +1325,124 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/vpc/
                 - href: /tools/sikulix/
+    - title: Amplify
+      desc: AWS Amplify is a comprehensive development platform from Amazon Web
+        Services that enables developers to quickly build, deploy, and manage
+        scalable full-stack web and mobile applications. It provides a set of
+        libraries, UI components and a command-line interface for integrating
+        popular front-end frameworks (React, Angular, Vue, iOS, Android,
+        Flutter) with cloud backends, including authentication, GraphQL and REST
+        APIs, storage, and serverless functions. Amplify Studio offers a visual
+        development environment for designing UI and data models, while built-in
+        hosting, CI/CD and environment management streamline the application
+        lifecycle so teams can focus on features instead of infrastructure.
+      _links:
+        self:
+          href: /tools/amplify/
+        projects:
+          - href: /projects/nuggets/
+          - href: /projects/la-boda/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+          - title: hazelandgreg.wedding
+            desc: Wedding website for Hazel and Greg
+            role: Author
+            begin_year: 2025
+            end_year: 2025
+            _links:
+              self:
+                href: /projects/la-boda/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+              os:
+                - href: /os/linux/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: null
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/denver-schedules-api/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
+                - href: /projects/aprender/
+                - href: /projects/la-boda/
+              db:
+                - href: /db/postgres/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/css/
+                - href: /languages/html/
+              os:
+                - href: /os/windows/
+                - href: /os/macos/
+                - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
     - title: XState
       desc: XState is a JavaScript/TypeScript library for modeling application logic
         as finite state machines and hierarchical statecharts, enabling
@@ -1396,6 +1516,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -1587,6 +1708,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -1849,6 +1971,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -2336,99 +2459,3 @@ _embedded:
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
-    - title: Amplify
-      desc: AWS Amplify is a comprehensive development platform from Amazon Web
-        Services that enables developers to quickly build, deploy, and manage
-        scalable full-stack web and mobile applications. It provides a set of
-        libraries, UI components and a command-line interface for integrating
-        popular front-end frameworks (React, Angular, Vue, iOS, Android,
-        Flutter) with cloud backends, including authentication, GraphQL and REST
-        APIs, storage, and serverless functions. Amplify Studio offers a visual
-        development environment for designing UI and data models, while built-in
-        hosting, CI/CD and environment management streamline the application
-        lifecycle so teams can focus on features instead of infrastructure.
-      _links:
-        self:
-          href: /tools/amplify/
-        projects:
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/freelance/
-      _embedded:
-        projects:
-          - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
-            role: Author
-            begin_year: 2024
-            end_year: null
-            _links:
-              self:
-                href: /projects/nuggets/
-              jobs:
-                - href: /jobs/freelance/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/iam/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-        jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
-            begin_year: 2014
-            end_year: null
-            time_desc: July 2014 - present
-            _links:
-              self:
-                href: /jobs/freelance/
-              projects:
-                - href: /projects/denver-schedules-api/
-                - href: /projects/mvc-integration-test-framework/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-                - href: /projects/cfw/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-prep/
-                - href: /projects/nuggets/
-                - href: /projects/aprender/
-              db:
-                - href: /db/postgres/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/css/
-                - href: /languages/html/
-              os:
-                - href: /os/windows/
-                - href: /os/macos/
-                - href: /os/linux/
-                - href: /os/android/
-                - href: /os/ios/
-              tools:
-                - href: /tools/heroku/
-                - href: /tools/jekyll/
-                - href: /tools/hal/
-                - href: /tools/amplify/
-                - href: /tools/react-native/
-                - href: /tools/xstate/

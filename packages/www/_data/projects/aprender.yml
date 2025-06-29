@@ -39,6 +39,7 @@ _embedded:
           - href: /projects/jekyll-prep/
           - href: /projects/nuggets/
           - href: /projects/aprender/
+          - href: /projects/la-boda/
         db:
           - href: /db/postgres/
         languages:
@@ -81,6 +82,7 @@ _embedded:
           - href: /projects/somd/
           - href: /projects/systems-portal/
           - href: /projects/aprender/
+          - href: /projects/la-boda/
         jobs:
           - href: /jobs/rdi/
   os:

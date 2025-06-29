@@ -16,6 +16,7 @@ _links:
     href: /tools/amplify/
   projects:
     - href: /projects/nuggets/
+    - href: /projects/la-boda/
   jobs:
     - href: /jobs/freelance/
 ---

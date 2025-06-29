@@ -39,6 +39,7 @@ _embedded:
           - href: /projects/jekyll-embed/
           - href: /projects/jekyll-prep/
           - href: /projects/nuggets/
+          - href: /projects/la-boda/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/freelance/
@@ -102,6 +103,26 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
                 - href: /tools/hal/
+          - title: hazelandgreg.wedding
+            desc: Wedding website for Hazel and Greg
+            role: Author
+            begin_year: 2025
+            end_year: 2025
+            _links:
+              self:
+                href: /projects/la-boda/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+              os:
+                - href: /os/linux/
           - title: EpiCloud
             subtitle: Infinitely Scaling Bots on AWS
             desc: null
@@ -347,6 +368,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -536,6 +558,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -630,6 +653,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -917,6 +941,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -1676,6 +1701,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:

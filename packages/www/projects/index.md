@@ -30,6 +30,7 @@ _links:
     - href: /projects/jekyll-embed/
     - href: /projects/jekyll-load/
     - href: /projects/jekyll-prep/
+    - href: /projects/la-boda/
     - href: /projects/lasar-range-finder/
     - href: /projects/mission-data-loader/
     - href: /projects/mvc-integration-test-framework/

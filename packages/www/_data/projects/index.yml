@@ -29,6 +29,7 @@ _links:
     - href: /projects/jekyll-embed/
     - href: /projects/jekyll-load/
     - href: /projects/jekyll-prep/
+    - href: /projects/la-boda/
     - href: /projects/lasar-range-finder/
     - href: /projects/mission-data-loader/
     - href: /projects/mvc-integration-test-framework/
@@ -106,6 +107,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -161,6 +163,7 @@ _embedded:
               projects:
                 - href: /projects/epicloud/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
         os:
@@ -188,6 +191,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -423,6 +427,7 @@ _embedded:
                 href: /tools/amplify/
               projects:
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
     - title: gregoryjscott.com
@@ -474,6 +479,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -563,6 +569,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -589,6 +596,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -617,6 +625,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -696,6 +705,221 @@ _embedded:
                 - href: /projects/jekyll-prep/
               jobs:
                 - href: /jobs/freelance/
+    - title: hazelandgreg.wedding
+      desc: Wedding website for Hazel and Greg
+      role: Author
+      begin_year: 2025
+      end_year: 2025
+      _links:
+        self:
+          href: /projects/la-boda/
+        jobs:
+          - href: /jobs/freelance/
+        languages:
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+        db:
+          - href: /db/ddb/
+        tools:
+          - href: /tools/amplify/
+        os:
+          - href: /os/linux/
+      _embedded:
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: null
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/denver-schedules-api/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
+                - href: /projects/aprender/
+                - href: /projects/la-boda/
+              db:
+                - href: /db/postgres/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/css/
+                - href: /languages/html/
+              os:
+                - href: /os/windows/
+                - href: /os/macos/
+                - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
+        languages:
+          - title: JavaScript
+            desc: JavaScript is a high-level, interpreted programming language that is used
+              to create interactive web pages and applications. It is a
+              scripting language that is used to add dynamic elements to web
+              pages, such as animations, interactive forms, and dynamic content.
+              JavaScript is also used to create mobile applications and desktop
+              applications. It is an object-oriented language that is used to
+              create complex applications.
+            _links:
+              self:
+                href: /languages/js/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/awwu-intranet/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/qb/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/aprender/
+                - href: /projects/la-boda/
+              jobs:
+                - href: /jobs/rdi/
+          - title: HTML
+            desc: HTML (HyperText Markup Language) is a markup language used to create
+              webpages and web applications. It is the standard markup language
+              used to create webpages and web applications. HTML is written in
+              the form of HTML elements consisting of tags enclosed in angle
+              brackets. These tags describe the content and structure of
+              webpages and web applications. HTML also provides a means to
+              create interactive webpages and web applications with the use of
+              HTML forms, which can be used to collect user input.
+            _links:
+              self:
+                href: /languages/html/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/awwu-intranet/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/qb/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/this-site/
+                - href: /projects/la-boda/
+              jobs:
+                - href: /jobs/freelance/
+                - href: /jobs/rdi/
+          - title: CSS
+            desc: CSS (Cascading Style Sheets) is a style sheet language used for describing
+              the presentation of a document written in a markup language such
+              as HTML. CSS is designed to enable the separation of presentation
+              and content, including layout, colors, and fonts. This separation
+              can improve content accessibility, provide more flexibility and
+              control in the specification of presentation characteristics,
+              enable multiple web pages to share formatting by specifying the
+              relevant CSS in a separate .css file, and reduce complexity and
+              repetition in the structural content.
+            _links:
+              self:
+                href: /languages/css/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/awwu-intranet/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/qb/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/this-site/
+                - href: /projects/la-boda/
+              jobs:
+                - href: /jobs/freelance/
+                - href: /jobs/rdi/
+        db:
+          - title: DynamoDB
+            desc: Amazon DynamoDB is a fully managed NoSQL database service that provides
+              fast and predictable performance with seamless scalability. It is
+              a serverless database that can automatically scale up or down to
+              meet the needs of your application. DynamoDB offers a flexible
+              data model, reliable performance, and automatic scaling of
+              throughput capacity. It also provides encryption at rest,
+              point-in-time recovery, and other features to help protect your
+              data.
+            _links:
+              self:
+                href: /db/ddb/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+                - href: /projects/la-boda/
+              jobs:
+                - href: /jobs/fe/
+        tools:
+          - title: Amplify
+            desc: AWS Amplify is a comprehensive development platform from Amazon Web
+              Services that enables developers to quickly build, deploy, and
+              manage scalable full-stack web and mobile applications. It
+              provides a set of libraries, UI components and a command-line
+              interface for integrating popular front-end frameworks (React,
+              Angular, Vue, iOS, Android, Flutter) with cloud backends,
+              including authentication, GraphQL and REST APIs, storage, and
+              serverless functions. Amplify Studio offers a visual development
+              environment for designing UI and data models, while built-in
+              hosting, CI/CD and environment management streamline the
+              application lifecycle so teams can focus on features instead of
+              infrastructure.
+            _links:
+              self:
+                href: /tools/amplify/
+              projects:
+                - href: /projects/nuggets/
+                - href: /projects/la-boda/
+              jobs:
+                - href: /jobs/freelance/
+        os:
+          - title: Linux
+            desc: Linux is an open-source operating system that is based on the Linux
+              kernel. It is a free and powerful operating system that is used in
+              many different types of computing devices, from smartphones to
+              supercomputers. It is highly customizable and can be used for a
+              variety of tasks, from web hosting to software development. It is
+              also highly secure and reliable, making it a popular choice for
+              many users.
+            _links:
+              self:
+                href: /os/linux/
+              projects:
+                - href: /projects/centroid/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
+                - href: /projects/scramble-score/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
+                - href: /projects/la-boda/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/freelance/
+                - href: /jobs/rdi/
     - title: Epic California Academy Enrollment
       desc: null
       role: Technical Lead
@@ -949,6 +1173,7 @@ _embedded:
               projects:
                 - href: /projects/epicloud/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
           - title: BigQuery
@@ -993,6 +1218,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -1285,6 +1511,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -1328,6 +1555,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/rdi/
         os:
@@ -1401,6 +1629,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -1519,6 +1748,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -1567,6 +1797,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -1666,6 +1897,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -1743,6 +1975,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -1842,6 +2075,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -1921,6 +2155,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -2042,6 +2277,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -2119,6 +2355,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -2218,6 +2455,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -2299,6 +2537,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -2473,6 +2712,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -2748,6 +2988,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -3039,6 +3280,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/rdi/
           - title: HTML
@@ -3063,6 +3305,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -3089,6 +3332,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -3622,6 +3866,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/rdi/
           - title: HTML
@@ -3646,6 +3891,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -3672,6 +3918,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -4160,6 +4407,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/rdi/
           - title: HTML
@@ -4184,6 +4432,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -4210,6 +4459,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -4460,6 +4710,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/rdi/
           - title: HTML
@@ -4484,6 +4735,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -4510,6 +4762,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -4560,6 +4813,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -4805,6 +5059,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/rdi/
           - title: HTML
@@ -4829,6 +5084,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -4855,6 +5111,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -5017,6 +5274,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -5132,6 +5390,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -5380,6 +5639,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/rdi/
           - title: HTML
@@ -5404,6 +5664,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -5430,6 +5691,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -5613,6 +5875,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -5889,6 +6152,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/rdi/
           - title: HTML
@@ -5913,6 +6177,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -5939,6 +6204,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -7041,6 +7307,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/rdi/
           - title: HTML
@@ -7065,6 +7332,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -7091,6 +7359,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/

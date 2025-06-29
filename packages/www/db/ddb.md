@@ -13,6 +13,7 @@ _links:
   projects:
     - href: /projects/epicloud/
     - href: /projects/nuggets/
+    - href: /projects/la-boda/
   jobs:
     - href: /jobs/fe/
 ---

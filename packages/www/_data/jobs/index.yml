@@ -34,6 +34,7 @@ _embedded:
           - href: /projects/jekyll-prep/
           - href: /projects/nuggets/
           - href: /projects/aprender/
+          - href: /projects/la-boda/
         db:
           - href: /db/postgres/
         languages:
@@ -121,6 +122,26 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
                 - href: /tools/hal/
+          - title: hazelandgreg.wedding
+            desc: Wedding website for Hazel and Greg
+            role: Author
+            begin_year: 2025
+            end_year: 2025
+            _links:
+              self:
+                href: /projects/la-boda/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+              os:
+                - href: /os/linux/
           - title: aprender
             desc: CLI for learning Spanish
             role: Author
@@ -344,6 +365,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -370,6 +392,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -537,6 +560,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -679,6 +703,7 @@ _embedded:
                 href: /tools/amplify/
               projects:
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
           - title: HAL
@@ -879,6 +904,7 @@ _embedded:
               projects:
                 - href: /projects/epicloud/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
           - title: BigQuery
@@ -955,6 +981,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
@@ -1976,6 +2003,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/aprender/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/rdi/
           - title: HTML
@@ -2000,6 +2028,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -2026,6 +2055,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -2174,6 +2204,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/

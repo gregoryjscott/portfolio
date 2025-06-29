@@ -21,6 +21,7 @@ _links:
     - href: /projects/somd/
     - href: /projects/systems-portal/
     - href: /projects/this-site/
+    - href: /projects/la-boda/
   jobs:
     - href: /jobs/freelance/
     - href: /jobs/rdi/
