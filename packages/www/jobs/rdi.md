@@ -53,7 +53,7 @@ _links:
     - href: /languages/plsql/
   os:
     - href: /os/linux/
-    - href: /os/osx/
+    - href: /os/macos/
     - href: /os/windows/
   tools:
     - href: /tools/backbone/

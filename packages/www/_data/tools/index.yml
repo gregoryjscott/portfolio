@@ -73,7 +73,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
               tools:
                 - href: /tools/jekyll/
@@ -113,7 +113,7 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: jekyll-embed
             desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
@@ -135,7 +135,7 @@ _embedded:
                 - href: /tools/jekyll/
                 - href: /tools/hal/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: jekyll-api
             desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
@@ -155,7 +155,7 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: jekyll-load
             desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
@@ -175,7 +175,7 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
         jobs:
           - title: Freelance Programmer
@@ -209,7 +209,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -759,7 +759,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
               tools:
                 - href: /tools/jekyll/
@@ -784,7 +784,7 @@ _embedded:
                 - href: /tools/jekyll/
                 - href: /tools/hal/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
         jobs:
           - title: Freelance Programmer
@@ -818,7 +818,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -1403,7 +1403,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -1593,7 +1593,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -1854,7 +1854,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -2327,7 +2327,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -2415,7 +2415,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/

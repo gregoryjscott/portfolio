@@ -20,7 +20,7 @@ _links:
     - href: /languages/rb/
     - href: /languages/ts/
   os:
-    - href: /os/osx/
+    - href: /os/macos/
     - href: /os/linux/
   tools:
     - href: /tools/jekyll/

@@ -40,7 +40,7 @@ _embedded:
           - href: /languages/rb/
           - href: /languages/ts/
         os:
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
         tools:
           - href: /tools/jekyll/
@@ -65,7 +65,7 @@ _embedded:
           - href: /tools/jekyll/
           - href: /tools/hal/
         os:
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
   jobs:
     - title: Freelance Programmer
@@ -99,7 +99,7 @@ _embedded:
           - href: /languages/html/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
           - href: /os/android/
           - href: /os/ios/

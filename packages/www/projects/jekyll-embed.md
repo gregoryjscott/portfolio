@@ -20,6 +20,6 @@ _links:
     - href: /tools/jekyll/
     - href: /tools/hal/
   os:
-    - href: /os/osx/
+    - href: /os/macos/
     - href: /os/linux/
 ---

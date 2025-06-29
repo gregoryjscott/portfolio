@@ -31,7 +31,7 @@ _links:
     - href: /languages/html/
   os:
     - href: /os/windows/
-    - href: /os/osx/
+    - href: /os/macos/
     - href: /os/linux/
     - href: /os/android/
     - href: /os/ios/

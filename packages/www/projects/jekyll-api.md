@@ -17,6 +17,6 @@ _links:
   tools:
     - href: /tools/jekyll/
   os:
-    - href: /os/osx/
+    - href: /os/macos/
     - href: /os/linux/
 ---

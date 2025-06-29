@@ -352,7 +352,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: ScrambleScore
             desc: Mobile web application that allows golfers participating in scramble golf
@@ -375,7 +375,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
         jobs:
           - title: Freelance Programmer
@@ -409,7 +409,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -473,7 +473,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -702,7 +702,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -799,7 +799,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -1054,7 +1054,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -1166,7 +1166,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/

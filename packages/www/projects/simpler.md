@@ -17,6 +17,6 @@ _links:
     - href: /languages/rb/
   os:
     - href: /os/windows/
-    - href: /os/osx/
+    - href: /os/macos/
     - href: /os/linux/
 ---

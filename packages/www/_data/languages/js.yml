@@ -109,7 +109,7 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
     - title: Scrum Tools
       desc: null
@@ -256,7 +256,7 @@ _embedded:
           - href: /languages/plsql/
         os:
           - href: /os/linux/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/windows/
         tools:
           - href: /tools/backbone/

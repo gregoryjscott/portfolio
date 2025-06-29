@@ -45,7 +45,7 @@ _embedded:
           - href: /languages/rb/
           - href: /languages/ts/
         os:
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
         tools:
           - href: /tools/jekyll/
@@ -137,7 +137,7 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
     - title: Energy Efficiency Map
       desc: Web application that allows the Alaska Energy Authority to monitor and
@@ -263,7 +263,7 @@ _embedded:
           - href: /languages/html/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
           - href: /os/android/
           - href: /os/ios/
@@ -327,7 +327,7 @@ _embedded:
           - href: /languages/plsql/
         os:
           - href: /os/linux/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/windows/
         tools:
           - href: /tools/backbone/

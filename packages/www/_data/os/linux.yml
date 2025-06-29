@@ -79,7 +79,7 @@ _embedded:
           - href: /languages/rb/
           - href: /languages/ts/
         os:
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
         tools:
           - href: /tools/jekyll/
@@ -155,7 +155,7 @@ _embedded:
           - href: /languages/rb/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
     - title: Denver Schedules API
       desc: JSON API that provides access to Denver activities that impact the
@@ -179,7 +179,7 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
     - title: jekyll-load
       desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
@@ -199,7 +199,7 @@ _embedded:
         tools:
           - href: /tools/jekyll/
         os:
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
     - title: jekyll-api
       desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
@@ -219,7 +219,7 @@ _embedded:
         tools:
           - href: /tools/jekyll/
         os:
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
     - title: jekyll-embed
       desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
@@ -241,7 +241,7 @@ _embedded:
           - href: /tools/jekyll/
           - href: /tools/hal/
         os:
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
     - title: jekyll-prep
       desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
@@ -261,7 +261,7 @@ _embedded:
         tools:
           - href: /tools/jekyll/
         os:
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
     - title: ScrambleScore
       desc: Mobile web application that allows golfers participating in scramble golf
@@ -284,7 +284,7 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
     - title: Simpler
       desc: Library that provides a simpler approach to C# class design.
@@ -304,7 +304,7 @@ _embedded:
           - href: /languages/rb/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
   jobs:
     - title: Freelance Programmer
@@ -338,7 +338,7 @@ _embedded:
           - href: /languages/html/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
           - href: /os/android/
           - href: /os/ios/
@@ -440,7 +440,7 @@ _embedded:
           - href: /languages/plsql/
         os:
           - href: /os/linux/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/windows/
         tools:
           - href: /tools/backbone/

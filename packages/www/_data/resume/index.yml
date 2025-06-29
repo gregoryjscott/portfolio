@@ -147,7 +147,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -939,7 +939,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -1562,7 +1562,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
               tools:
                 - href: /tools/jekyll/
@@ -1689,7 +1689,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
               tools:
                 - href: /tools/jekyll/
@@ -1729,7 +1729,7 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: jekyll-embed
             desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
@@ -1751,7 +1751,7 @@ _embedded:
                 - href: /tools/jekyll/
                 - href: /tools/hal/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: jekyll-api
             desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
@@ -1771,7 +1771,7 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: jekyll-load
             desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
@@ -1791,7 +1791,7 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Denver Schedules API
             desc: JSON API that provides access to Denver activities that impact the
@@ -1815,7 +1815,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Centroid
             desc: Library for accessing environment based configuration from multiple
@@ -1837,7 +1837,7 @@ _embedded:
                 - href: /languages/rb/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
@@ -1905,7 +1905,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Simpler
             desc: Library that provides a simpler approach to C# class design.
@@ -1925,7 +1925,7 @@ _embedded:
                 - href: /languages/rb/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
         jobs:
           - title: Freelance Programmer
@@ -1959,7 +1959,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -2023,7 +2023,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -2074,7 +2074,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
               tools:
                 - href: /tools/jekyll/
@@ -2166,7 +2166,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Energy Efficiency Map
             desc: Web application that allows the Alaska Energy Authority to monitor and
@@ -2292,7 +2292,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -2356,7 +2356,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -2408,7 +2408,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
               tools:
                 - href: /tools/jekyll/
@@ -2500,7 +2500,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Energy Efficiency Map
             desc: Web application that allows the Alaska Energy Authority to monitor and
@@ -2626,7 +2626,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -2690,7 +2690,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -2825,7 +2825,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
@@ -3240,7 +3240,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -3304,7 +3304,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -3372,7 +3372,7 @@ _embedded:
                 - href: /languages/rb/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
@@ -3452,7 +3452,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -3520,7 +3520,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Centroid
             desc: Library for accessing environment based configuration from multiple
@@ -3542,7 +3542,7 @@ _embedded:
                 - href: /languages/rb/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
@@ -3671,7 +3671,7 @@ _embedded:
                 - href: /languages/rb/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Quality Bank
             subtitle: Invoicing $1 Billion/Month for Oil Pipeline
@@ -3985,7 +3985,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -4049,7 +4049,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -4286,7 +4286,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -4400,7 +4400,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Energy Efficiency Map
             desc: Web application that allows the Alaska Energy Authority to monitor and
@@ -4548,7 +4548,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -4746,7 +4746,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -5487,7 +5487,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: ScrambleScore
             desc: Mobile web application that allows golfers participating in scramble golf
@@ -5510,7 +5510,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
         jobs:
           - title: Freelance Programmer
@@ -5544,7 +5544,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -5608,7 +5608,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -5837,7 +5837,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -5934,7 +5934,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -6189,7 +6189,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -6301,7 +6301,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -6585,7 +6585,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
               tools:
                 - href: /tools/jekyll/
@@ -6625,7 +6625,7 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: jekyll-embed
             desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
@@ -6647,7 +6647,7 @@ _embedded:
                 - href: /tools/jekyll/
                 - href: /tools/hal/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: jekyll-api
             desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
@@ -6667,7 +6667,7 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: jekyll-load
             desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
@@ -6687,7 +6687,7 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
         jobs:
           - title: Freelance Programmer
@@ -6721,7 +6721,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -7271,7 +7271,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
               tools:
                 - href: /tools/jekyll/
@@ -7296,7 +7296,7 @@ _embedded:
                 - href: /tools/jekyll/
                 - href: /tools/hal/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
         jobs:
           - title: Freelance Programmer
@@ -7330,7 +7330,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -7915,7 +7915,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -8105,7 +8105,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -8366,7 +8366,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -8839,7 +8839,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -8927,7 +8927,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -9020,7 +9020,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
               tools:
                 - href: /tools/jekyll/
@@ -9094,7 +9094,7 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: jekyll-embed
             desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
@@ -9116,7 +9116,7 @@ _embedded:
                 - href: /tools/jekyll/
                 - href: /tools/hal/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: jekyll-api
             desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
@@ -9136,7 +9136,7 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: jekyll-load
             desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
@@ -9156,7 +9156,7 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Denver Schedules API
             desc: JSON API that provides access to Denver activities that impact the
@@ -9180,7 +9180,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Centroid
             desc: Library for accessing environment based configuration from multiple
@@ -9202,7 +9202,7 @@ _embedded:
                 - href: /languages/rb/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: ScrambleScore
             desc: Mobile web application that allows golfers participating in scramble golf
@@ -9225,7 +9225,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Simpler
             desc: Library that provides a simpler approach to C# class design.
@@ -9245,7 +9245,7 @@ _embedded:
                 - href: /languages/rb/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
         jobs:
           - title: Freelance Programmer
@@ -9279,7 +9279,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -9381,7 +9381,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -9467,7 +9467,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -9560,7 +9560,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -9571,16 +9571,20 @@ _embedded:
                 - href: /tools/amplify/
                 - href: /tools/react-native/
                 - href: /tools/xstate/
-    - title: OS X
-      desc: OS X is an operating system developed by Apple Inc. for its Macintosh line
-        of computers. It is based on the Unix operating system and provides a
-        graphical user interface, multitasking, and support for a variety of
-        hardware and software. It also includes a wide range of features such as
-        the Finder, Dock, Spotlight, Time Machine, and iCloud. OS X is designed
-        to be secure, reliable, and easy to use.
+    - title: macOS
+      desc: macOS is Apple’s Unix‐based desktop operating system, first released in
+        2001 as Mac OS X and built on the open‐source Darwin core and the
+        proprietary XNU kernel. Designed exclusively for Mac computers, it
+        combines a polished Aqua graphical interface with deep integration of
+        hardware and software, offering features like Spotlight search, Time
+        Machine backups, and Continuity for seamless work across Apple devices.
+        With strong emphasis on stability, security and performance, macOS
+        supports a rich ecosystem of native and third-party applications via the
+        Mac App Store and developer tools such as Xcode, making it a popular
+        choice for both creative professionals and everyday users.
       _links:
         self:
-          href: /os/osx/
+          href: /os/macos/
         projects:
           - href: /projects/centroid/
           - href: /projects/denver-schedules-api/
@@ -9616,7 +9620,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
               tools:
                 - href: /tools/jekyll/
@@ -9639,7 +9643,7 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: jekyll-embed
             desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
@@ -9661,7 +9665,7 @@ _embedded:
                 - href: /tools/jekyll/
                 - href: /tools/hal/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: jekyll-api
             desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
@@ -9681,7 +9685,7 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: jekyll-load
             desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
@@ -9701,7 +9705,7 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Denver Schedules API
             desc: JSON API that provides access to Denver activities that impact the
@@ -9725,7 +9729,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Centroid
             desc: Library for accessing environment based configuration from multiple
@@ -9747,7 +9751,7 @@ _embedded:
                 - href: /languages/rb/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: ScrambleScore
             desc: Mobile web application that allows golfers participating in scramble golf
@@ -9770,7 +9774,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Simpler
             desc: Library that provides a simpler approach to C# class design.
@@ -9790,7 +9794,7 @@ _embedded:
                 - href: /languages/rb/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
         jobs:
           - title: Freelance Programmer
@@ -9824,7 +9828,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -9888,7 +9892,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -9982,7 +9986,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Centroid
             desc: Library for accessing environment based configuration from multiple
@@ -10004,7 +10008,7 @@ _embedded:
                 - href: /languages/rb/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
@@ -10131,7 +10135,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Energy Efficiency Map
             desc: Web application that allows the Alaska Energy Authority to monitor and
@@ -10173,7 +10177,7 @@ _embedded:
                 - href: /languages/rb/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Quality Bank
             subtitle: Invoicing $1 Billion/Month for Oil Pipeline
@@ -10582,7 +10586,7 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
                 - href: /os/android/
                 - href: /os/ios/
@@ -10646,7 +10650,7 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
@@ -11015,7 +11019,7 @@ _embedded:
           - href: /languages/html/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
           - href: /os/android/
           - href: /os/ios/
@@ -11087,7 +11091,7 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
               tools:
                 - href: /tools/jekyll/
@@ -11127,7 +11131,7 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: jekyll-embed
             desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
@@ -11149,7 +11153,7 @@ _embedded:
                 - href: /tools/jekyll/
                 - href: /tools/hal/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: jekyll-api
             desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
@@ -11169,7 +11173,7 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: jekyll-load
             desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
@@ -11189,7 +11193,7 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Denver Schedules API
             desc: JSON API that provides access to Denver activities that impact the
@@ -11213,7 +11217,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Simpler
             desc: Library that provides a simpler approach to C# class design.
@@ -11233,7 +11237,7 @@ _embedded:
                 - href: /languages/rb/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: MvcIntegrationTestFramework
             desc: Framework that can be used to perform integration tests on a ASP.NET MVC
@@ -11495,16 +11499,21 @@ _embedded:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
-          - title: OS X
-            desc: OS X is an operating system developed by Apple Inc. for its Macintosh line
-              of computers. It is based on the Unix operating system and
-              provides a graphical user interface, multitasking, and support for
-              a variety of hardware and software. It also includes a wide range
-              of features such as the Finder, Dock, Spotlight, Time Machine, and
-              iCloud. OS X is designed to be secure, reliable, and easy to use.
+          - title: macOS
+            desc: macOS is Apple’s Unix‐based desktop operating system, first released in
+              2001 as Mac OS X and built on the open‐source Darwin core and the
+              proprietary XNU kernel. Designed exclusively for Mac computers, it
+              combines a polished Aqua graphical interface with deep integration
+              of hardware and software, offering features like Spotlight search,
+              Time Machine backups, and Continuity for seamless work across
+              Apple devices. With strong emphasis on stability, security and
+              performance, macOS supports a rich ecosystem of native and
+              third-party applications via the Mac App Store and developer tools
+              such as Xcode, making it a popular choice for both creative
+              professionals and everyday users.
             _links:
               self:
-                href: /os/osx/
+                href: /os/macos/
               projects:
                 - href: /projects/centroid/
                 - href: /projects/denver-schedules-api/
@@ -12207,7 +12216,7 @@ _embedded:
           - href: /languages/plsql/
         os:
           - href: /os/linux/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/windows/
         tools:
           - href: /tools/backbone/
@@ -12250,7 +12259,7 @@ _embedded:
                 - href: /languages/rb/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
@@ -12377,7 +12386,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Energy Efficiency Map
             desc: Web application that allows the Alaska Energy Authority to monitor and
@@ -13068,16 +13077,21 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
-          - title: OS X
-            desc: OS X is an operating system developed by Apple Inc. for its Macintosh line
-              of computers. It is based on the Unix operating system and
-              provides a graphical user interface, multitasking, and support for
-              a variety of hardware and software. It also includes a wide range
-              of features such as the Finder, Dock, Spotlight, Time Machine, and
-              iCloud. OS X is designed to be secure, reliable, and easy to use.
+          - title: macOS
+            desc: macOS is Apple’s Unix‐based desktop operating system, first released in
+              2001 as Mac OS X and built on the open‐source Darwin core and the
+              proprietary XNU kernel. Designed exclusively for Mac computers, it
+              combines a polished Aqua graphical interface with deep integration
+              of hardware and software, offering features like Spotlight search,
+              Time Machine backups, and Continuity for seamless work across
+              Apple devices. With strong emphasis on stability, security and
+              performance, macOS supports a rich ecosystem of native and
+              third-party applications via the Mac App Store and developer tools
+              such as Xcode, making it a popular choice for both creative
+              professionals and everyday users.
             _links:
               self:
-                href: /os/osx/
+                href: /os/macos/
               projects:
                 - href: /projects/centroid/
                 - href: /projects/denver-schedules-api/
