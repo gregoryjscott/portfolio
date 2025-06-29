@@ -346,6 +346,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/aprender/
               db:
                 - href: /db/postgres/
               languages:
@@ -534,6 +535,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/aprender/
               db:
                 - href: /db/postgres/
               languages:
@@ -627,6 +629,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/aprender/
               db:
                 - href: /db/postgres/
               languages:
@@ -672,6 +675,7 @@ _embedded:
           - href: /projects/jekyll-api/
           - href: /projects/jekyll-embed/
           - href: /projects/jekyll-prep/
+          - href: /projects/aprender/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -702,6 +706,23 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
                 - href: /tools/hal/
+          - title: aprender
+            desc: CLI for learning Spanish
+            role: Author
+            begin_year: 2017
+            end_year: 2017
+            _links:
+              self:
+                href: /projects/aprender/
+              code:
+                title: github.com/gregoryjscott/aprender
+                href: https://github.com/gregoryjscott/aprender
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/js/
+              os:
+                - href: /os/macos/
           - title: Centroid
             desc: Library for accessing environment based configuration from multiple
               different programming languages.
@@ -895,6 +916,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/aprender/
               db:
                 - href: /db/postgres/
               languages:
@@ -1653,6 +1675,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
                 - href: /projects/nuggets/
+                - href: /projects/aprender/
               db:
                 - href: /db/postgres/
               languages:

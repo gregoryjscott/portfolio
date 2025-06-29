@@ -41,6 +41,7 @@ _embedded:
           - href: /projects/jekyll-embed/
           - href: /projects/jekyll-prep/
           - href: /projects/nuggets/
+          - href: /projects/aprender/
         db:
           - href: /db/postgres/
         languages:
@@ -182,6 +183,7 @@ _embedded:
           - href: /projects/jekyll-api/
           - href: /projects/jekyll-embed/
           - href: /projects/jekyll-prep/
+          - href: /projects/aprender/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/

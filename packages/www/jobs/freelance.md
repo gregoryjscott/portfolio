@@ -21,6 +21,7 @@ _links:
     - href: /projects/jekyll-embed/
     - href: /projects/jekyll-prep/
     - href: /projects/nuggets/
+    - href: /projects/aprender/
   db:
     - href: /db/postgres/
   languages:

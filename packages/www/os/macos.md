@@ -24,6 +24,7 @@ _links:
     - href: /projects/jekyll-api/
     - href: /projects/jekyll-embed/
     - href: /projects/jekyll-prep/
+    - href: /projects/aprender/
   jobs:
     - href: /jobs/freelance/
     - href: /jobs/rdi/

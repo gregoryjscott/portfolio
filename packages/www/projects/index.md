@@ -8,6 +8,7 @@ _links:
   projects:
     - href: /projects/agdc/
     - href: /projects/ahfc-integration/
+    - href: /projects/aprender/
     - href: /projects/awwu-intranet/
     - href: /projects/awwu-job-scheduler/
     - href: /projects/awwu-systems-integration/

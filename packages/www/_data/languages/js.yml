@@ -17,10 +17,28 @@ _links:
     - href: /projects/scrum-tools/
     - href: /projects/somd/
     - href: /projects/systems-portal/
+    - href: /projects/aprender/
   jobs:
     - href: /jobs/rdi/
 _embedded:
   projects:
+    - title: aprender
+      desc: CLI for learning Spanish
+      role: Author
+      begin_year: 2017
+      end_year: 2017
+      _links:
+        self:
+          href: /projects/aprender/
+        code:
+          title: github.com/gregoryjscott/aprender
+          href: https://github.com/gregoryjscott/aprender
+        jobs:
+          - href: /jobs/freelance/
+        languages:
+          - href: /languages/js/
+        os:
+          - href: /os/macos/
     - title: Alaska Gasline Development Corporation
       desc: Web application that provides AGDC with documentation, reporting, and
         querying tools for their vast GIS data and infrastructure.

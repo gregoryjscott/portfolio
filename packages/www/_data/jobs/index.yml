@@ -33,6 +33,7 @@ _embedded:
           - href: /projects/jekyll-embed/
           - href: /projects/jekyll-prep/
           - href: /projects/nuggets/
+          - href: /projects/aprender/
         db:
           - href: /db/postgres/
         languages:
@@ -120,6 +121,23 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
                 - href: /tools/hal/
+          - title: aprender
+            desc: CLI for learning Spanish
+            role: Author
+            begin_year: 2017
+            end_year: 2017
+            _links:
+              self:
+                href: /projects/aprender/
+              code:
+                title: github.com/gregoryjscott/aprender
+                href: https://github.com/gregoryjscott/aprender
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/js/
+              os:
+                - href: /os/macos/
           - title: fortworthtexas.gov
             desc: Jekyll static site for the City of Fort Worth, Texas.
             role: Technical Lead
@@ -548,6 +566,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/aprender/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -1956,6 +1975,7 @@ _embedded:
                 - href: /projects/scrum-tools/
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
+                - href: /projects/aprender/
               jobs:
                 - href: /jobs/rdi/
           - title: HTML
@@ -2126,6 +2146,7 @@ _embedded:
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-prep/
+                - href: /projects/aprender/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/

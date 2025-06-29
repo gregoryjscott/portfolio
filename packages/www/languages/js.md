@@ -19,6 +19,7 @@ _links:
     - href: /projects/scrum-tools/
     - href: /projects/somd/
     - href: /projects/systems-portal/
+    - href: /projects/aprender/
   jobs:
     - href: /jobs/rdi/
 ---
