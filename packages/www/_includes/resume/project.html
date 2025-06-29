@@ -7,6 +7,16 @@
  
   Technologies:
   {% if include.resource._embedded %}
-    {% include relations-summary.html resource=include.resource %}
-  {% endif %}
+    <ul>
+    {% for resource in site.data.index.resources %}
+        {% assign resource_key = resource[0] %}
+        {% assign resource_data = resource[1] %}
+        {% if include.resource._embedded[resource_key] and resource_data.is_skill %}
+          {% assign relation_label = resource_data.title %}
+          {% assign relation_links = include.resource._embedded[resource_key] %}
+          {% include relation-li.html label=relation_label links=relation_links %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+    {% endif %}
 </section>

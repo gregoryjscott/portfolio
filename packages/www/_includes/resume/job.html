@@ -7,8 +7,8 @@
     <p>{{ job.desc }}</p>
   {% endif %}
 
-  <div class="bullets">{{ job.content | markdownify }}</div>
+  <div class="content">{{ job.content | markdownify }}</div>
 
   <p>Projects & Technologies:</p>
-  {% include relations-summary.html resource=job %}
+  {% include relations-ul.html resource=job %}
 </section>

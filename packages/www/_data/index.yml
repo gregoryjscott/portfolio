@@ -9,11 +9,11 @@ resources:
   db:
     title: Databases
     is_skill: true
-  os:
-    title: Operating Systems
-    is_skill: true
   tools:
     title: Tools
+    is_skill: true
+  os:
+    title: Operating Systems
     is_skill: true
   jobs:
     title: Jobs

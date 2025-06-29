@@ -1,4 +1,4 @@
-<ul class="skills">
+<ul>
   {% if include.resource._links.code %}
     <li>
       Code: <a href="{{ include.resource._links.code.href }}">{{ include.resource._links.code.title }}</a>
@@ -11,7 +11,7 @@
       {% if include.resource._embedded[resource_key] %}
         {% assign relation_label = resource_data.title %}
         {% assign relation_links = include.resource._embedded[resource_key] %}
-        {% include relation.html label=relation_label links=relation_links %}
+        {% include relation-li.html label=relation_label links=relation_links %}
       {% endif %}
     {% endfor %}
   {% endif %}

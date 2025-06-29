@@ -17,8 +17,12 @@ layout: default
   <p>{{ page.desc }}</p>
 {% endif %}
 
-{% if page.content %}
-  {{ page.content | markdownify }}
+{% if page._links.code %}
+Source code is available at: <a href="{{ page._links.code.href }}">{{ page._links.code.title }}</a>
 {% endif %}
 
-{% include relations-details.html resource=page %}
+{% if page.content %}
+  <div class="content">{{ page.content | markdownify }}</div>
+{% endif %}
+
+{% include relations-sections.html resource=page %}
