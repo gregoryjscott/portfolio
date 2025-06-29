@@ -99,6 +99,8 @@ _embedded:
         db:
           - href: /db/ddb/
         os:
+          - href: /os/android/
+          - href: /os/ios/
           - href: /os/linux/
         tools:
           - href: /tools/amplify/
@@ -147,6 +149,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
@@ -219,6 +223,40 @@ _embedded:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
+          - title: iOS
+            desc: iOS is a mobile operating system developed by Apple Inc. for its iPhone,
+              iPad, and iPod Touch devices. It is the second most popular mobile
+              operating system in the world, behind Android. iOS is based on the
+              Mac OS X operating system and provides a user interface based on
+              direct manipulation of the screen using multi-touch gestures. It
+              includes features such as a home screen with app icons, a
+              notification center, and access to the App Store for downloading
+              apps. iOS also includes features such as iCloud, AirPlay, and
+              Apple Pay.
+            _links:
+              self:
+                href: /os/ios/
+              projects:
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+          - title: Android
+            desc: Android is a mobile operating system developed by Google. It is based on a
+              modified version of the Linux kernel and other open source
+              software, and is designed primarily for touchscreen mobile devices
+              such as smartphones and tablets. Android has a large community of
+              developers writing applications ("apps") that extend the
+              functionality of the devices. Apps can be downloaded from
+              third-party app stores or through online stores such as Google
+              Play. Android has been the best-selling OS on tablets since 2013,
+              and on smartphones it is dominant by any metric.
+            _links:
+              self:
+                href: /os/android/
+              projects:
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
         tools:
           - title: XState
             desc: XState is a JavaScript/TypeScript library for modeling application logic
@@ -1489,6 +1527,8 @@ _embedded:
               db:
                 - href: /db/ddb/
               os:
+                - href: /os/android/
+                - href: /os/ios/
                 - href: /os/linux/
               tools:
                 - href: /tools/amplify/
@@ -1921,6 +1961,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
@@ -2252,6 +2294,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
@@ -2584,6 +2628,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
@@ -3196,6 +3242,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
@@ -3939,6 +3987,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
@@ -5137,6 +5187,8 @@ _embedded:
               db:
                 - href: /db/ddb/
               os:
+                - href: /os/android/
+                - href: /os/ios/
                 - href: /os/linux/
               tools:
                 - href: /tools/amplify/
@@ -5494,6 +5546,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
@@ -6669,6 +6723,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
@@ -6713,6 +6769,8 @@ _embedded:
               db:
                 - href: /db/ddb/
               os:
+                - href: /os/android/
+                - href: /os/ios/
                 - href: /os/linux/
               tools:
                 - href: /tools/amplify/
@@ -6836,6 +6894,8 @@ _embedded:
               db:
                 - href: /db/ddb/
               os:
+                - href: /os/android/
+                - href: /os/ios/
                 - href: /os/linux/
               tools:
                 - href: /tools/amplify/
@@ -6957,6 +7017,8 @@ _embedded:
               db:
                 - href: /db/ddb/
               os:
+                - href: /os/android/
+                - href: /os/ios/
                 - href: /os/linux/
               tools:
                 - href: /tools/amplify/
@@ -7078,6 +7140,8 @@ _embedded:
               db:
                 - href: /db/ddb/
               os:
+                - href: /os/android/
+                - href: /os/ios/
                 - href: /os/linux/
               tools:
                 - href: /tools/amplify/
@@ -7268,6 +7332,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
@@ -7310,6 +7376,8 @@ _embedded:
               db:
                 - href: /db/ddb/
               os:
+                - href: /os/android/
+                - href: /os/ios/
                 - href: /os/linux/
               tools:
                 - href: /tools/amplify/
@@ -7431,6 +7499,8 @@ _embedded:
               db:
                 - href: /db/ddb/
               os:
+                - href: /os/android/
+                - href: /os/ios/
                 - href: /os/linux/
               tools:
                 - href: /tools/amplify/
@@ -7552,6 +7622,8 @@ _embedded:
               db:
                 - href: /db/ddb/
               os:
+                - href: /os/android/
+                - href: /os/ios/
                 - href: /os/linux/
               tools:
                 - href: /tools/amplify/
@@ -7673,6 +7745,8 @@ _embedded:
               db:
                 - href: /db/ddb/
               os:
+                - href: /os/android/
+                - href: /os/ios/
                 - href: /os/linux/
               tools:
                 - href: /tools/amplify/
@@ -7794,6 +7868,8 @@ _embedded:
               db:
                 - href: /db/ddb/
               os:
+                - href: /os/android/
+                - href: /os/ios/
                 - href: /os/linux/
               tools:
                 - href: /tools/amplify/
@@ -7841,6 +7917,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
@@ -7980,6 +8058,8 @@ _embedded:
               db:
                 - href: /db/ddb/
               os:
+                - href: /os/android/
+                - href: /os/ios/
                 - href: /os/linux/
               tools:
                 - href: /tools/amplify/
@@ -8027,6 +8107,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
@@ -8286,6 +8368,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
@@ -8796,6 +8880,8 @@ _embedded:
               db:
                 - href: /db/ddb/
               os:
+                - href: /os/android/
+                - href: /os/ios/
                 - href: /os/linux/
               tools:
                 - href: /tools/amplify/
@@ -8843,6 +8929,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
@@ -8897,6 +8985,8 @@ _embedded:
               db:
                 - href: /db/ddb/
               os:
+                - href: /os/android/
+                - href: /os/ios/
                 - href: /os/linux/
               tools:
                 - href: /tools/amplify/
@@ -9191,6 +9281,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
@@ -9293,6 +9385,192 @@ _embedded:
                 - href: /os/windows/
               tools:
                 - href: /tools/backbone/
+    - title: iOS
+      desc: iOS is a mobile operating system developed by Apple Inc. for its iPhone,
+        iPad, and iPod Touch devices. It is the second most popular mobile
+        operating system in the world, behind Android. iOS is based on the Mac
+        OS X operating system and provides a user interface based on direct
+        manipulation of the screen using multi-touch gestures. It includes
+        features such as a home screen with app icons, a notification center,
+        and access to the App Store for downloading apps. iOS also includes
+        features such as iCloud, AirPlay, and Apple Pay.
+      _links:
+        self:
+          href: /os/ios/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: null
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/denver-schedules-api/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
+              db:
+                - href: /db/postgres/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/css/
+                - href: /languages/html/
+              os:
+                - href: /os/windows/
+                - href: /os/osx/
+                - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
+    - title: Android
+      desc: Android is a mobile operating system developed by Google. It is based on a
+        modified version of the Linux kernel and other open source software, and
+        is designed primarily for touchscreen mobile devices such as smartphones
+        and tablets. Android has a large community of developers writing
+        applications ("apps") that extend the functionality of the devices. Apps
+        can be downloaded from third-party app stores or through online stores
+        such as Google Play. Android has been the best-selling OS on tablets
+        since 2013, and on smartphones it is dominant by any metric.
+      _links:
+        self:
+          href: /os/android/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: null
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/denver-schedules-api/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
+              db:
+                - href: /db/postgres/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/css/
+                - href: /languages/html/
+              os:
+                - href: /os/windows/
+                - href: /os/osx/
+                - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
     - title: OS X
       desc: OS X is an operating system developed by Apple Inc. for its Macintosh line
         of computers. It is based on the Unix operating system and provides a
@@ -9548,6 +9826,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
@@ -10304,6 +10584,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/osx/
                 - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
               tools:
                 - href: /tools/heroku/
                 - href: /tools/jekyll/
@@ -10659,30 +10941,6 @@ _embedded:
                 - href: /os/aix/
                 - href: /os/ms-dos/
                 - href: /os/windows/
-    - title: iOS
-      desc: iOS is a mobile operating system developed by Apple Inc. for its iPhone,
-        iPad, and iPod Touch devices. It is the second most popular mobile
-        operating system in the world, behind Android. iOS is based on the Mac
-        OS X operating system and provides a user interface based on direct
-        manipulation of the screen using multi-touch gestures. It includes
-        features such as a home screen with app icons, a notification center,
-        and access to the App Store for downloading apps. iOS also includes
-        features such as iCloud, AirPlay, and Apple Pay.
-      _links:
-        self:
-          href: /os/ios/
-    - title: Android
-      desc: Android is a mobile operating system developed by Google. It is based on a
-        modified version of the Linux kernel and other open source software, and
-        is designed primarily for touchscreen mobile devices such as smartphones
-        and tablets. Android has a large community of developers writing
-        applications ("apps") that extend the functionality of the devices. Apps
-        can be downloaded from third-party app stores or through online stores
-        such as Google Play. Android has been the best-selling OS on tablets
-        since 2013, and on smartphones it is dominant by any metric.
-      _links:
-        self:
-          href: /os/android/
     - title: AIX
       desc: AIX (Advanced Interactive eXecutive) is an IBM proprietary Unix-based
         operating system designed for enterprise-level computing. It is a
@@ -10759,6 +11017,8 @@ _embedded:
           - href: /os/windows/
           - href: /os/osx/
           - href: /os/linux/
+          - href: /os/android/
+          - href: /os/ios/
         tools:
           - href: /tools/heroku/
           - href: /tools/jekyll/
@@ -10792,6 +11052,8 @@ _embedded:
               db:
                 - href: /db/ddb/
               os:
+                - href: /os/android/
+                - href: /os/ios/
                 - href: /os/linux/
               tools:
                 - href: /tools/amplify/
@@ -11171,6 +11433,40 @@ _embedded:
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         os:
+          - title: iOS
+            desc: iOS is a mobile operating system developed by Apple Inc. for its iPhone,
+              iPad, and iPod Touch devices. It is the second most popular mobile
+              operating system in the world, behind Android. iOS is based on the
+              Mac OS X operating system and provides a user interface based on
+              direct manipulation of the screen using multi-touch gestures. It
+              includes features such as a home screen with app icons, a
+              notification center, and access to the App Store for downloading
+              apps. iOS also includes features such as iCloud, AirPlay, and
+              Apple Pay.
+            _links:
+              self:
+                href: /os/ios/
+              projects:
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+          - title: Android
+            desc: Android is a mobile operating system developed by Google. It is based on a
+              modified version of the Linux kernel and other open source
+              software, and is designed primarily for touchscreen mobile devices
+              such as smartphones and tablets. Android has a large community of
+              developers writing applications ("apps") that extend the
+              functionality of the devices. Apps can be downloaded from
+              third-party app stores or through online stores such as Google
+              Play. Android has been the best-selling OS on tablets since 2013,
+              and on smartphones it is dominant by any metric.
+            _links:
+              self:
+                href: /os/android/
+              projects:
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
           - title: Linux
             desc: Linux is an open-source operating system that is based on the Linux
               kernel. It is a free and powerful operating system that is used in

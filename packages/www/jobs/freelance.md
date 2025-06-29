@@ -33,6 +33,8 @@ _links:
     - href: /os/windows/
     - href: /os/osx/
     - href: /os/linux/
+    - href: /os/android/
+    - href: /os/ios/
   tools:
     - href: /tools/heroku/
     - href: /tools/jekyll/

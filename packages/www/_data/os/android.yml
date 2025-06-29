@@ -10,3 +10,84 @@ desc: Android is a mobile operating system developed by Google. It is based on a
 _links:
   self:
     href: /os/android/
+  projects:
+    - href: /projects/nuggets/
+  jobs:
+    - href: /jobs/freelance/
+_embedded:
+  projects:
+    - title: Nuggets
+      subtitle: Customizing Curriculum for Students using AI
+      desc: React Native app built using AI and state machines for learning Spanish or
+        English.
+      role: Author
+      begin_year: 2024
+      end_year: null
+      _links:
+        self:
+          href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+        languages:
+          - href: /languages/ts/
+        db:
+          - href: /db/ddb/
+        os:
+          - href: /os/android/
+          - href: /os/ios/
+          - href: /os/linux/
+        tools:
+          - href: /tools/amplify/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/iam/
+          - href: /tools/react-native/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+          - href: /tools/xstate/
+  jobs:
+    - title: Freelance Programmer
+      desc: Freelance Programmer/Consultant, partnering with clients to architect and
+        implement technology solutions
+      role: Freelance Programmer
+      begin_year: 2014
+      end_year: null
+      time_desc: July 2014 - present
+      _links:
+        self:
+          href: /jobs/freelance/
+        projects:
+          - href: /projects/denver-schedules-api/
+          - href: /projects/mvc-integration-test-framework/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
+        db:
+          - href: /db/postgres/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/rb/
+          - href: /languages/sql/
+          - href: /languages/css/
+          - href: /languages/html/
+        os:
+          - href: /os/windows/
+          - href: /os/osx/
+          - href: /os/linux/
+          - href: /os/android/
+          - href: /os/ios/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
+          - href: /tools/hal/
+          - href: /tools/amplify/
+          - href: /tools/react-native/
+          - href: /tools/xstate/

@@ -17,6 +17,8 @@ _links:
   db:
     - href: /db/ddb/
   os:
+    - href: /os/android/
+    - href: /os/ios/
     - href: /os/linux/
   tools:
     - href: /tools/amplify/
