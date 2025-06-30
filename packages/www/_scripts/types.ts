@@ -46,7 +46,7 @@ export type Resource = {
   }
 }
 
-export type SortableItem = Yaml & {
+export type Sortable = Yaml & {
   begin_year?: number
   end_year?: number | "present"
 }

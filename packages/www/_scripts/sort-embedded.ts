@@ -1,5 +1,5 @@
 import { reverse, sortBy } from "lodash"
-import { Relation, SortableItem, Yaml } from "./types"
+import { Relation, Sortable, Yaml } from "./types"
 
 export function sortEmbedded<T extends Yaml>(data: T): T {
   if (!data._embedded) {
@@ -58,11 +58,11 @@ function sortEmbeddedResource<T extends Yaml>(
   } as T
 }
 
-function byRecent(items: SortableItem[]): SortableItem[] {
+function byRecent(items: Sortable[]): Sortable[] {
   return reverse(sortBy(items, item => buildSortTerm(item)))
 }
 
-function buildSortTerm(item: SortableItem): string {
+function buildSortTerm(item: Sortable): string {
   const { begin_year, end_year } = item
   const endYearTerm = !end_year || end_year === "present" ? 9999 : end_year
   return `${endYearTerm}-${begin_year || "0000"}`
