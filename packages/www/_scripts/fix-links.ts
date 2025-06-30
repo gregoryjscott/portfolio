@@ -43,7 +43,7 @@ function fixSelfLinks() {
   }
 }
 
-function fixNonIndexLinks() {
+function fixBackLinks() {
   for (const targetResource of targetResources) {
     targetResource.sourceMarkdown.data._links = {
       self: targetResource.sourceMarkdown.data._links.self,
@@ -175,5 +175,5 @@ process.on("unhandledRejection", err => {
 })
 
 fixSelfLinks()
-fixNonIndexLinks()
+fixBackLinks()
 fixIndexLinks()
