@@ -8,6 +8,11 @@ export type Links = {
   [key in Relation]?: Link | Link[]
 }
 
+export type Markdown = {
+  frontmatter: Frontmatter
+  content: string
+}
+
 export type Frontmatter = {
   [key: string]: any
   _links?: Links
