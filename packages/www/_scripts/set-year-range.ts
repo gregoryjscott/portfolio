@@ -1,10 +1,6 @@
 import { writeMarkdown } from "./util"
-import {
-  Resource,
-  findResource,
-  findRelationLinks,
-  getResources,
-} from "./get-resources"
+import { findResource, findRelationLinks, getResources } from "./get-resources"
+import { Resource } from "./types"
 
 const resources: Resource[] = getResources()
 const nonIndexResources = resources.filter(r => !r.isIndex)

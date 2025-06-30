@@ -1,6 +1,7 @@
 import OpenAI from "openai"
 import { writeMarkdown } from "./util"
-import { getResources, Resource } from "./get-resources"
+import { getResources } from "./get-resources"
+import { Resource } from "./types"
 
 const resources: Resource[] = getResources()
 const resourcesWithPrompts = resources.filter(r => r.prompt && !r.isIndex)

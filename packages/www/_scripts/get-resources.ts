@@ -1,6 +1,7 @@
 import * as fs from "fs"
 import * as path from "path"
 import * as matter from "gray-matter"
+import { Link, Relation, Resource } from "./types"
 
 const yamlDirectory = "_data"
 
@@ -26,53 +27,6 @@ const prompts = {
   tools: title =>
     `Provide a brief one-paragraph summary of the ${title} technology.`,
 }
-
-export type Relation = typeof resourceDirectories[number] | "self"
-
-export type Link = { href: string }
-
-export type Links = {
-  [key in Relation]?: Link | Link[]
-}
-
-export interface Frontmatter {
-  [key: string]: any
-  _links?: Links
-}
-
-export type Embedded = {
-  [key in Relation]?: Yaml[]
-}
-
-export interface Yaml {
-  [key: string]: any
-  _links?: Links
-  _embedded?: Embedded
-  content?: string
-}
-
-export interface Resource {
-  relation: Relation
-  href: string
-  isIndex: boolean
-  prompt: string | null
-  sourceMarkdown: {
-    path: {
-      directory: string
-      name: string
-    }
-    content: string
-    frontmatter: Frontmatter
-  }
-  targetYaml: {
-    path: {
-      directory: string
-      name: string
-    }
-    yaml: Yaml | undefined
-  }
-}
-
 export function getResources(): Resource[] {
   if (!fs.existsSync(yamlDirectory)) fs.mkdirSync(yamlDirectory)
   const resources: Resource[] = []

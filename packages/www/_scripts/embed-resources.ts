@@ -1,13 +1,12 @@
 import { writeYAML } from "./util"
 import { sortEmbedded } from "./sort-embedded"
 import {
-  Resource,
   findResource,
   findRelationLinks,
   findRelations,
   getResources,
-  Link,
 } from "./get-resources"
+import { Link, Resource } from "./types"
 
 const resources: Resource[] = getResources()
 const nonIndexResources = resources.filter(r => !r.isIndex)

@@ -1,10 +1,5 @@
 import { reverse, sortBy } from "lodash"
-import { Yaml, Relation } from "./get-resources"
-
-type SortableItem = Yaml & {
-  begin_year?: number
-  end_year?: number | "present"
-}
+import { Relation, SortableItem, Yaml } from "./types"
 
 export function sortEmbedded<T extends Yaml>(data: T): T {
   if (!data._embedded) {

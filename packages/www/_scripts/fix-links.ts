@@ -2,13 +2,13 @@ import * as matter from "gray-matter"
 import { sortBy, uniqBy } from "lodash"
 import { writeMarkdown } from "./util"
 import {
-  Resource,
   findResource,
   findRelationLinks,
   findRelations,
   getResources,
   resourceDirectories,
 } from "./get-resources"
+import { Resource } from "./types"
 
 const resources: Resource[] = getResources()
 const nonIndexResources = resources.filter(r => !r.isIndex)
