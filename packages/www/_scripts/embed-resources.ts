@@ -6,6 +6,7 @@ import {
   findRelationLinks,
   findRelations,
   getResources,
+  Link,
 } from "./get-resources"
 
 const resources: Resource[] = getResources()
@@ -28,9 +29,9 @@ function embedLinkedResources(
 
       if (Array.isArray(links)) {
         linkedResources = links
-          .map(link => {
+          .map((link: Link) => {
             const linkedResource = findResource(link, resources)
-            return linkedResource ? { ...linkedResource[version].data } : null
+            return { ...linkedResource[version].data }
           })
           .filter(Boolean)
       } else {
@@ -41,7 +42,7 @@ function embedLinkedResources(
         }
       }
 
-      if (typeof linkedResources !== "undefined") {
+      if (linkedResources) {
         if (!resource.targetYaml.data._embedded) {
           resource.targetYaml.data._embedded = {}
         }
@@ -54,8 +55,10 @@ function embedLinkedResources(
 
 function sortEmbeddedResources(resources: Resource[]) {
   for (const resource of resources) {
-    resource.targetYaml.data = sortEmbedded(resource.targetYaml.data)
-    writeYAML(resource.targetYaml.path, resource.targetYaml.data)
+    if (resource.targetYaml.data && resource.targetYaml.data._embedded) {
+      resource.targetYaml.data = sortEmbedded(resource.targetYaml.data)
+      writeYAML(resource.targetYaml.path, resource.targetYaml.data)
+    }
   }
 }
 

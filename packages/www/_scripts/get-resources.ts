@@ -27,7 +27,27 @@ const prompts = {
     `Provide a brief one-paragraph summary of the ${title} technology.`,
 }
 
-type Relation = typeof resourceDirectories[number] | "self"
+export type Relation = (typeof resourceDirectories)[number] | "self"
+
+export type Link = { href: string }
+
+export type Links = {
+  [key in Relation]?: Link | Link[]
+}
+
+export interface ResourceData {
+  [key: string]: any
+  _links?: Links
+}
+
+export type Embedded = {
+  [key in Relation]?: ResourceData | ResourceData[]
+}
+
+export interface TargetData extends ResourceData {
+  content?: string
+  _embedded?: Embedded
+}
 
 export interface Resource {
   relation: Relation
@@ -40,14 +60,14 @@ export interface Resource {
       name: string
     }
     content: string
-    data: any
+    data: ResourceData
   }
   targetYaml: {
     path: {
       directory: string
       name: string
     }
-    data: any
+    data: TargetData | undefined
   }
 }
 
@@ -101,7 +121,7 @@ export function findRelations(resource: Resource): Relation[] {
 export function findRelationLinks(
   resource: Resource,
   relation: Relation
-): { href: string } | { href: string }[] {
+): Link | Link[] {
   const links = resource.sourceMarkdown.data?._links?.[relation]
   if (!links) {
     return []
@@ -109,10 +129,7 @@ export function findRelationLinks(
   return links
 }
 
-export function findResource(
-  link: { href: string },
-  resources: Resource[]
-): Resource {
+export function findResource(link: Link, resources: Resource[]): Resource {
   const linkedResource = resources.find((r: Resource) => r.href == link.href)
   if (!linkedResource) throw `Didn't find resource ${link.href}`
   return linkedResource

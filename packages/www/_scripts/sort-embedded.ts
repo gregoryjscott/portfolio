@@ -1,9 +1,17 @@
 import { reverse, sortBy } from "lodash"
+import { ResourceData, Relation } from "./get-resources"
 
-export function sortEmbedded(data: { _embedded: any }) {
-  if (!data?._embedded) return data
+type SortableItem = ResourceData & {
+  begin_year?: number
+  end_year?: number | "present"
+}
 
-  if (data._embedded?.db) {
+export function sortEmbedded<T extends ResourceData>(data: T): T {
+  if (!data._embedded) {
+    return data
+  }
+
+  if (data._embedded.db) {
     data = sortEmbeddedResource("db", data)
   }
 
@@ -34,10 +42,10 @@ export function sortEmbedded(data: { _embedded: any }) {
   return data
 }
 
-function sortEmbeddedResource(
-  resourceName: string,
-  data: { _embedded: any }
-): { _embedded: any } {
+function sortEmbeddedResource<T extends ResourceData>(
+  resourceName: Relation,
+  data: T
+): T {
   data = {
     ...data,
     _embedded: {
@@ -46,22 +54,21 @@ function sortEmbeddedResource(
     },
   }
 
-  data = {
+  return {
     ...data,
     _embedded: {
       ...data._embedded,
       [resourceName]: data._embedded[resourceName].map(sortEmbedded),
     },
-  }
-
-  return data
+  } as T
 }
 
-function byRecent(items: { begin_year; end_year }[]) {
+function byRecent(items: SortableItem[]): SortableItem[] {
   return reverse(sortBy(items, item => buildSortTerm(item)))
 }
 
-function buildSortTerm({ begin_year, end_year }) {
+function buildSortTerm(item: SortableItem): string {
+  const { begin_year, end_year } = item
   const endYearTerm = !end_year || end_year === "present" ? 9999 : end_year
-  return `${endYearTerm}-${begin_year}`
+  return `${endYearTerm}-${begin_year || "0000"}`
 }
