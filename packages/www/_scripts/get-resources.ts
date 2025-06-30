@@ -43,15 +43,17 @@ export function getResources(): Resource[] {
         href: isIndex ? `/${directory}/` : `/${directory}/${parsedPath.name}/`,
         isIndex,
         prompt: prompts[directory] ? prompts[directory](data.title) : null,
-        sourceMarkdown: {
+        source: {
           path: {
             directory,
             name: parsedPath.name,
           },
-          content,
-          frontmatter: data,
+          markdown: {
+            content,
+            frontmatter: data,
+          },
         },
-        targetYaml: {
+        target: {
           path: {
             directory: `${yamlDirectory}/${directory}`,
             name: parsedPath.name,
@@ -68,9 +70,9 @@ export function getResources(): Resource[] {
 }
 
 export function findRelations(resource: Resource): Relation[] {
-  if (!resource.sourceMarkdown.frontmatter._links) return []
+  if (!resource.source.markdown.frontmatter._links) return []
   const linkRels: string[] = Object.keys(
-    resource.sourceMarkdown.frontmatter._links
+    resource.source.markdown.frontmatter._links
   )
   const allowedRelationSet = new Set<string>(resourceDirectories)
   return linkRels.filter((lr): lr is Relation => allowedRelationSet.has(lr))
@@ -80,7 +82,7 @@ export function findRelationLinks(
   resource: Resource,
   relation: Relation
 ): Link | Link[] {
-  const links = resource.sourceMarkdown.frontmatter?._links?.[relation]
+  const links = resource.source.markdown.frontmatter?._links?.[relation]
   if (!links) {
     return []
   }

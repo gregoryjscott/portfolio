@@ -9,16 +9,16 @@ const resourcesWithPrompts = resources.filter(r => r.prompt && !r.isIndex)
 async function generateDesc() {
   for (const resource of resourcesWithPrompts) {
     const hasDesc =
-      resource.sourceMarkdown.frontmatter.desc &&
-      resource.sourceMarkdown.frontmatter.desc.length > 0
+      resource.source.markdown.frontmatter.desc &&
+      resource.source.markdown.frontmatter.desc.length > 0
     if (hasDesc) continue
 
     const promptOutput = (await runPrompt(resource.prompt)).trim()
-    resource.sourceMarkdown.frontmatter.desc = promptOutput
+    resource.source.markdown.frontmatter.desc = promptOutput
     writeMarkdown(
-      resource.sourceMarkdown.path,
-      resource.sourceMarkdown.content,
-      resource.sourceMarkdown.frontmatter
+      resource.source.path,
+      resource.source.markdown.content,
+      resource.source.markdown.frontmatter
     )
   }
 }

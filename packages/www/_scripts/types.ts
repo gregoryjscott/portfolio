@@ -34,15 +34,14 @@ export type Resource = {
   href: string
   isIndex: boolean
   prompt: string | null
-  sourceMarkdown: {
+  source: {
     path: {
       directory: string
       name: string
     }
-    content: string
-    frontmatter: Frontmatter
+    markdown: Markdown
   }
-  targetYaml: {
+  target: {
     path: {
       directory: string
       name: string
