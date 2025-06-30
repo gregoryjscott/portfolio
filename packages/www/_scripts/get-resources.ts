@@ -27,7 +27,7 @@ const prompts = {
     `Provide a brief one-paragraph summary of the ${title} technology.`,
 }
 
-export type Relation = (typeof resourceDirectories)[number] | "self"
+export type Relation = typeof resourceDirectories[number] | "self"
 
 export type Link = { href: string }
 
@@ -35,18 +35,20 @@ export type Links = {
   [key in Relation]?: Link | Link[]
 }
 
-export interface ResourceData {
+export interface Frontmatter {
   [key: string]: any
   _links?: Links
 }
 
 export type Embedded = {
-  [key in Relation]?: ResourceData | ResourceData[]
+  [key in Relation]?: Frontmatter | Frontmatter[]
 }
 
-export interface TargetData extends ResourceData {
-  content?: string
+export interface Yaml {
+  [key: string]: any
+  _links?: Links
   _embedded?: Embedded
+  content?: string
 }
 
 export interface Resource {
@@ -60,14 +62,14 @@ export interface Resource {
       name: string
     }
     content: string
-    data: ResourceData
+    frontmatter: Frontmatter
   }
   targetYaml: {
     path: {
       directory: string
       name: string
     }
-    data: TargetData | undefined
+    yaml: Yaml | undefined
   }
 }
 
@@ -93,14 +95,14 @@ export function getResources(): Resource[] {
             name: parsedPath.name,
           },
           content,
-          data,
+          frontmatter: data,
         },
         targetYaml: {
           path: {
             directory: `${yamlDirectory}/${directory}`,
             name: parsedPath.name,
           },
-          data: undefined,
+          yaml: undefined,
         },
       })
     }
@@ -112,8 +114,10 @@ export function getResources(): Resource[] {
 }
 
 export function findRelations(resource: Resource): Relation[] {
-  if (!resource.sourceMarkdown.data._links) return []
-  const linkRels: string[] = Object.keys(resource.sourceMarkdown.data._links)
+  if (!resource.sourceMarkdown.frontmatter._links) return []
+  const linkRels: string[] = Object.keys(
+    resource.sourceMarkdown.frontmatter._links
+  )
   const allowedRelationSet = new Set<string>(resourceDirectories)
   return linkRels.filter((lr): lr is Relation => allowedRelationSet.has(lr))
 }
@@ -122,7 +126,7 @@ export function findRelationLinks(
   resource: Resource,
   relation: Relation
 ): Link | Link[] {
-  const links = resource.sourceMarkdown.data?._links?.[relation]
+  const links = resource.sourceMarkdown.frontmatter?._links?.[relation]
   if (!links) {
     return []
   }

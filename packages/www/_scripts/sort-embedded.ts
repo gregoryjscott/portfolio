@@ -1,12 +1,12 @@
 import { reverse, sortBy } from "lodash"
-import { ResourceData, Relation } from "./get-resources"
+import { Yaml, Relation } from "./get-resources"
 
-type SortableItem = ResourceData & {
+type SortableItem = Yaml & {
   begin_year?: number
   end_year?: number | "present"
 }
 
-export function sortEmbedded<T extends ResourceData>(data: T): T {
+export function sortEmbedded<T extends Yaml>(data: T): T {
   if (!data._embedded) {
     return data
   }
@@ -42,7 +42,7 @@ export function sortEmbedded<T extends ResourceData>(data: T): T {
   return data
 }
 
-function sortEmbeddedResource<T extends ResourceData>(
+function sortEmbeddedResource<T extends Yaml>(
   resourceName: Relation,
   data: T
 ): T {

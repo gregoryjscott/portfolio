@@ -18,9 +18,9 @@ function embedLinkedResources(
   version: "sourceMarkdown" | "targetYaml"
 ) {
   for (const resource of resourcesToUpdate) {
-    resource.targetYaml.data = { ...resource.sourceMarkdown.data }
+    resource.targetYaml.yaml = { ...resource.sourceMarkdown.frontmatter }
     if (resource.sourceMarkdown.content) {
-      resource.targetYaml.data.content = resource.sourceMarkdown.content.trim()
+      resource.targetYaml.yaml.content = resource.sourceMarkdown.content.trim()
     }
     const relations = findRelations(resource)
     for (const relation of relations) {
@@ -31,33 +31,40 @@ function embedLinkedResources(
         linkedResources = links
           .map((link: Link) => {
             const linkedResource = findResource(link, resources)
-            return { ...linkedResource[version].data }
+            return version === "sourceMarkdown"
+              ? { ...linkedResource[version].frontmatter }
+              : { ...linkedResource[version].yaml }
           })
           .filter(Boolean)
-      } else {
+      } else if (version === "targetYaml") {
         // Must be an "index" relation (e.g. /languages/), so embed __its__ embedded resource.
         const linkedResource = findResource(links, resources)
         linkedResources = {
-          ...linkedResource[version].data._embedded[relation],
+          ...linkedResource[version].yaml._embedded[relation],
         }
+        // TODO - is the version = "sourceMarkdown" really needed?
+        // linkedResources =
+        //   version === "sourceMarkdown"
+        //     ? { ...linkedResource[version].frontmatter }
+        //     : { ...linkedResource[version].yaml }
       }
 
       if (linkedResources) {
-        if (!resource.targetYaml.data._embedded) {
-          resource.targetYaml.data._embedded = {}
+        if (!resource.targetYaml.yaml._embedded) {
+          resource.targetYaml.yaml._embedded = {}
         }
-        resource.targetYaml.data._embedded[relation] = linkedResources
+        resource.targetYaml.yaml._embedded[relation] = linkedResources
       }
     }
-    writeYAML(resource.targetYaml.path, resource.targetYaml.data)
+    writeYAML(resource.targetYaml.path, resource.targetYaml.yaml)
   }
 }
 
 function sortEmbeddedResources(resources: Resource[]) {
   for (const resource of resources) {
-    if (resource.targetYaml.data && resource.targetYaml.data._embedded) {
-      resource.targetYaml.data = sortEmbedded(resource.targetYaml.data)
-      writeYAML(resource.targetYaml.path, resource.targetYaml.data)
+    if (resource.targetYaml.yaml && resource.targetYaml.yaml._embedded) {
+      resource.targetYaml.yaml = sortEmbedded(resource.targetYaml.yaml)
+      writeYAML(resource.targetYaml.path, resource.targetYaml.yaml)
     }
   }
 }
