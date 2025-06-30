@@ -41,7 +41,7 @@ export interface Frontmatter {
 }
 
 export type Embedded = {
-  [key in Relation]?: Frontmatter | Frontmatter[]
+  [key in Relation]?: Yaml[]
 }
 
 export interface Yaml {
