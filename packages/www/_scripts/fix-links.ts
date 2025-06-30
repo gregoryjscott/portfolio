@@ -62,9 +62,9 @@ function fixBackLinks() {
           targetResources
         )
         const linkedResourceProjectLinks = [].concat(
-          findRelationLinks(linkedResource, project.relation)
+          findRelationLinks(linkedResource, "projects")
         )
-        linkedResource.sourceMarkdown.data._links[project.relation] = sortBy(
+        linkedResource.sourceMarkdown.data._links["projects"] = sortBy(
           [...linkedResourceProjectLinks, { href: project.href }],
           l => l.href
         )
@@ -95,9 +95,9 @@ function fixBackLinks() {
       for (const schoolRelationLink of schoolRelationLinks) {
         const linkedResource = findResource(schoolRelationLink, targetResources)
         const linkedResourceSchoolLinks = [].concat(
-          findRelationLinks(linkedResource, school.relation)
+          findRelationLinks(linkedResource, "schools")
         )
-        linkedResource.sourceMarkdown.data._links[school.relation] = sortBy(
+        linkedResource.sourceMarkdown.data._links["schools"] = sortBy(
           [...linkedResourceSchoolLinks, { href: school.href }],
           l => l.href
         )
