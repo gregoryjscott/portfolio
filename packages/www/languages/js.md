@@ -7,6 +7,8 @@ desc: >-
   forms, and dynamic content. JavaScript is also used to create mobile
   applications and desktop applications. It is an object-oriented language that
   is used to create complex applications.
+begin_year: 2005
+end_year: 2025
 _links:
   self:
     href: /languages/js/

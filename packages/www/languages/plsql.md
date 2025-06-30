@@ -8,6 +8,8 @@ desc: >-
   functions, packages, and triggers, as well as to execute SQL statements.
   PL/SQL is a powerful language that allows developers to create complex
   applications and to interact with the Oracle database.
+begin_year: 2005
+end_year: 2009
 _links:
   self:
     href: /languages/plsql/

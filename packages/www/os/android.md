@@ -9,6 +9,8 @@ desc: >-
   from third-party app stores or through online stores such as Google Play.
   Android has been the best-selling OS on tablets since 2013, and on smartphones
   it is dominant by any metric.
+begin_year: 2024
+end_year: present
 _links:
   self:
     href: /os/android/

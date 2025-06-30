@@ -9,6 +9,8 @@ desc: >-
   functions, which can be called from other parts of the program. C is widely
   used in many applications, including operating systems, embedded systems, and
   scientific computing.
+begin_year: 1994
+end_year: 1998
 _links:
   self:
     href: /languages/c/

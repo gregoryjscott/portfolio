@@ -8,6 +8,8 @@ desc: >-
   programming languages and is still used today for a variety of applications.
   It is known for its efficiency and accuracy in numerical calculations, and is
   often used in scientific and engineering applications.
+begin_year: 1994
+end_year: 1998
 _links:
   self:
     href: /languages/fortran/

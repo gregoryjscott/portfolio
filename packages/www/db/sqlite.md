@@ -8,6 +8,8 @@ desc: >-
   and requires minimal setup and maintenance. It supports most of the SQL
   standard, including transactions, triggers, and views. It is also highly
   extensible, allowing developers to create custom functions and extensions.
+begin_year: 2012
+end_year: 2014
 _links:
   self:
     href: /db/sqlite/

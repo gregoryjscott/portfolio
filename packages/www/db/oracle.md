@@ -9,6 +9,8 @@ desc: >-
   and tools to help organizations store, manage, and analyze their data. Oracle
   Database is available in a variety of editions, including Enterprise Edition,
   Standard Edition, and Express Edition.
+begin_year: 2005
+end_year: 2009
 _links:
   self:
     href: /db/oracle/

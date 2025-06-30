@@ -7,6 +7,8 @@ desc: >-
   JavaScript and can be run within the Node.js runtime on OS X, Microsoft
   Windows, and Linux. Node.js also provides a rich library of various JavaScript
   modules which simplifies the development of web applications using Node.js.
+begin_year: 2015
+end_year: 2021
 _links:
   self:
     href: /tools/node/

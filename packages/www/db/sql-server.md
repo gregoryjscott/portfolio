@@ -8,6 +8,8 @@ desc: >-
   management, and is used by many organizations for mission-critical
   applications. It is highly scalable and supports a wide range of features,
   including data replication, security, and high availability.
+begin_year: 2007
+end_year: 2014
 _links:
   self:
     href: /db/sql-server/

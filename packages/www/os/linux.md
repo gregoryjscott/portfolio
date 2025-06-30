@@ -7,6 +7,8 @@ desc: >-
   customizable and can be used for a variety of tasks, from web hosting to
   software development. It is also highly secure and reliable, making it a
   popular choice for many users.
+begin_year: 2010
+end_year: present
 _links:
   self:
     href: /os/linux/

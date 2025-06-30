@@ -9,6 +9,8 @@ desc: >-
   access and analyze data from other Google services such as Google Ads, Google
   Analytics, and Google Cloud Storage. BigQuery also supports a wide range of
   data formats, including CSV, JSON, and Avro.
+begin_year: 2015
+end_year: 2021
 _links:
   self:
     href: /db/bigquery/
