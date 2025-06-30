@@ -6,6 +6,8 @@ desc: SQL (Structured Query Language) is a domain-specific language used in
   create and modify database structures, such as tables, views, and stored
   procedures. It is a powerful language that can be used to query, analyze, and
   manipulate data.
+begin_year: 1999
+end_year: 2014
 _links:
   self:
     href: /languages/sql/
@@ -105,6 +107,27 @@ _embedded:
           - href: /db/sqlite/
         os:
           - href: /os/windows/
+    - title: Systems Portal
+      desc: Web application for tracking data used by systems administrators.
+      role: Technical Lead
+      begin_year: 2013
+      end_year: 2013
+      _links:
+        self:
+          href: /projects/systems-portal/
+        jobs:
+          - href: /jobs/rdi/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/sql/
+          - href: /languages/tsql/
+        db:
+          - href: /db/sql-server/
+        os:
+          - href: /os/windows/
     - title: AHFC Integration
       desc: Alaska Housing Finance Corporation Integration
       role: Technical Lead
@@ -122,14 +145,14 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
-    - title: Systems Portal
-      desc: Web application for tracking data used by systems administrators.
+    - title: Scrum Tools
+      desc: null
       role: Technical Lead
-      begin_year: 2013
+      begin_year: 2012
       end_year: 2013
       _links:
         self:
-          href: /projects/systems-portal/
+          href: /projects/scrum-tools/
         jobs:
           - href: /jobs/rdi/
         languages:
@@ -152,27 +175,6 @@ _embedded:
       _links:
         self:
           href: /projects/energy-efficiency-map/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/css/
-          - href: /languages/html/
-          - href: /languages/js/
-          - href: /languages/sql/
-          - href: /languages/tsql/
-        db:
-          - href: /db/sql-server/
-        os:
-          - href: /os/windows/
-    - title: Scrum Tools
-      desc: null
-      role: Technical Lead
-      begin_year: 2012
-      end_year: 2013
-      _links:
-        self:
-          href: /projects/scrum-tools/
         jobs:
           - href: /jobs/rdi/
         languages:
@@ -211,24 +213,6 @@ _embedded:
           - href: /os/windows/
         tools:
           - href: /tools/backbone/
-    - title: Consumption Views
-      desc: Set of database views that provides water consumption information that
-        feed into reporting tools used by AWWU to make business decisions.
-      role: Lead Developer
-      begin_year: 2009
-      end_year: 2009
-      _links:
-        self:
-          href: /projects/consumption-views/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/plsql/
-          - href: /languages/sql/
-        db:
-          - href: /db/oracle/
-        os:
-          - href: /os/windows/
     - title: Service Order Mobile Dispatch
       desc: Mobile web application that allows Anchorage Water & Wastewater Utility
         service workers to query and record service information while in the
@@ -246,6 +230,24 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
+          - href: /languages/plsql/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+    - title: Consumption Views
+      desc: Set of database views that provides water consumption information that
+        feed into reporting tools used by AWWU to make business decisions.
+      role: Lead Developer
+      begin_year: 2009
+      end_year: 2009
+      _links:
+        self:
+          href: /projects/consumption-views/
+        jobs:
+          - href: /jobs/rdi/
+        languages:
           - href: /languages/plsql/
           - href: /languages/sql/
         db:
@@ -292,23 +294,6 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
-    - title: SAR Reports
-      desc: null
-      role: Lead Developer
-      begin_year: 2007
-      end_year: 2007
-      _links:
-        self:
-          href: /projects/sar-reports/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/sql/
-        db:
-          - href: /db/oracle/
-        os:
-          - href: /os/windows/
     - title: TrainBuilder
       desc: Windows Presentation Framework (WPF) application used by the Alaska
         Railroad to plan and schedule structure of their trains.
@@ -325,6 +310,23 @@ _embedded:
           - href: /languages/sql/
         db:
           - href: /db/sql-server/
+        os:
+          - href: /os/windows/
+    - title: SAR Reports
+      desc: null
+      role: Lead Developer
+      begin_year: 2007
+      end_year: 2007
+      _links:
+        self:
+          href: /projects/sar-reports/
+        jobs:
+          - href: /jobs/rdi/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
         os:
           - href: /os/windows/
     - title: CIS Data Capture
@@ -401,26 +403,6 @@ _embedded:
           - href: /db/pervasive/
         os:
           - href: /os/windows/
-    - title: Wen-GAGE Accounting
-      desc: Desktop application that is used by schools in Oklahoma to manage all
-        their school accounting responsibilites.
-      role: Lead Developer
-      begin_year: 1999
-      end_year: 2004
-      _links:
-        self:
-          href: /projects/wengage-acct/
-        jobs:
-          - href: /jobs/mas/
-        languages:
-          - href: /languages/delphi/
-          - href: /languages/sql/
-        db:
-          - href: /db/btrieve/
-          - href: /db/pervasive/
-        os:
-          - href: /os/windows/
-          - href: /os/netware/
     - title: Wen-GAGE Student Information
       desc: Desktop application that is used by schools in Oklahoma to manage their
         student information such as enrollment, attendance, and grades.
@@ -441,13 +423,33 @@ _embedded:
         os:
           - href: /os/windows/
           - href: /os/netware/
+    - title: Wen-GAGE Accounting
+      desc: Desktop application that is used by schools in Oklahoma to manage all
+        their school accounting responsibilites.
+      role: Lead Developer
+      begin_year: 1999
+      end_year: 2004
+      _links:
+        self:
+          href: /projects/wengage-acct/
+        jobs:
+          - href: /jobs/mas/
+        languages:
+          - href: /languages/delphi/
+          - href: /languages/sql/
+        db:
+          - href: /db/btrieve/
+          - href: /db/pervasive/
+        os:
+          - href: /os/windows/
+          - href: /os/netware/
   jobs:
     - title: Freelance Programmer
       desc: Freelance Programmer/Consultant, partnering with clients to architect and
         implement technology solutions
       role: Freelance Programmer
       begin_year: 2014
-      end_year: null
+      end_year: present
       time_desc: July 2014 - present
       _links:
         self:

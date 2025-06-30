@@ -8,6 +8,8 @@ desc: >-
   procedures, and triggers. It also provides control of transactions and error
   handling. T-SQL is a powerful language that allows developers to write complex
   queries and stored procedures to access and manipulate data.
+begin_year: 2010
+end_year: 2014
 _links:
   self:
     href: /languages/tsql/

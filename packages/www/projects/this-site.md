@@ -5,7 +5,7 @@ desc: >-
   Markdown, and HAL-based hypermedia.
 role: Author
 begin_year: 2014
-end_year: null
+end_year: present
 _links:
   self:
     href: /projects/this-site/

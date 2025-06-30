@@ -9,6 +9,8 @@ desc: >-
   meaning that programs are broken down into smaller, manageable parts. Pascal
   is widely used in education and is the basis for many other languages, such as
   Object Pascal and Delphi.
+begin_year: 1994
+end_year: 1998
 _links:
   self:
     href: /languages/pascal/

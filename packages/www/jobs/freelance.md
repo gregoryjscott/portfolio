@@ -5,7 +5,7 @@ desc: >-
   implement technology solutions
 role: Freelance Programmer
 begin_year: 2014
-end_year: null
+end_year: present
 time_desc: July 2014 - present
 _links:
   self:

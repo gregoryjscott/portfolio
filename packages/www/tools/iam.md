@@ -8,6 +8,8 @@ desc: >-
   such as access keys, passwords, and multi-factor authentication devices. You
   can use IAM to manage access to AWS services such as Amazon EC2, Amazon S3,
   and Amazon RDS.
+begin_year: 2015
+end_year: present
 _links:
   self:
     href: /tools/iam/

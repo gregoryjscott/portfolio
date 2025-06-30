@@ -13,6 +13,8 @@ desc: >-
   providing a consistent convention for linking and embedding, HAL enables
   clients to follow HATEOAS principles—dynamically discovering available
   operations and transitions—without relying on out-of-band documentation.
+begin_year: 2014
+end_year: 2014
 _links:
   self:
     href: /tools/hal/

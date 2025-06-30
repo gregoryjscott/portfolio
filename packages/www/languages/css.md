@@ -9,6 +9,8 @@ desc: >-
   characteristics, enable multiple web pages to share formatting by specifying
   the relevant CSS in a separate .css file, and reduce complexity and repetition
   in the structural content.
+begin_year: 2005
+end_year: 2025
 _links:
   self:
     href: /languages/css/

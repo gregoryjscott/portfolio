@@ -10,6 +10,8 @@ desc: >-
   and disk drives. It also provided a command-line interface for users to
   interact with the system. MS-DOS was eventually replaced by Windows 95 and
   later versions of Windows.
+begin_year: 1994
+end_year: 1998
 _links:
   self:
     href: /os/ms-dos/

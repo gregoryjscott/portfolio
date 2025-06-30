@@ -9,6 +9,8 @@ desc: >-
   features, including data encryption, transaction logging, and replication.
   Btrieve is also highly scalable, allowing it to be used in a variety of
   applications, from single-user systems to large enterprise networks.
+begin_year: 1999
+end_year: 2004
 _links:
   self:
     href: /db/btrieve/

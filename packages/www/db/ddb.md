@@ -7,6 +7,8 @@ desc: >-
   application. DynamoDB offers a flexible data model, reliable performance, and
   automatic scaling of throughput capacity. It also provides encryption at rest,
   point-in-time recovery, and other features to help protect your data.
+begin_year: 2015
+end_year: present
 _links:
   self:
     href: /db/ddb/

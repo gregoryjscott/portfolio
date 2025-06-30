@@ -14,6 +14,8 @@ desc: >-
   platform-specific code. By sharing logic and UI components across platforms,
   React Native significantly reduces development time and maintenance overhead
   compared to traditional native app development.
+begin_year: 2024
+end_year: present
 _links:
   self:
     href: /tools/react-native/

@@ -7,6 +7,8 @@ desc: Delphi is an object-oriented programming language developed by Embarcadero
   library (VCL) and an integrated development environment (IDE). Delphi is used
   by developers to create applications for a variety of industries, including
   finance, healthcare, and manufacturing.
+begin_year: 1999
+end_year: 2004
 _links:
   self:
     href: /languages/delphi/

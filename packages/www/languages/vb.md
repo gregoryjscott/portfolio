@@ -8,6 +8,8 @@ desc: >-
   to learn and use, and provides a wide range of features and capabilities.
   Visual Basic is also compatible with other programming languages, such as C#
   and Java.
+begin_year: 1994
+end_year: 1998
 _links:
   self:
     href: /languages/vb/

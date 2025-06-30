@@ -8,6 +8,8 @@ desc: >-
   type-safe. It supports both procedural and object-oriented programming
   paradigms, and it is used to create applications for the .NET framework. C# is
   a versatile language that can be used to create a wide range of applications.
+begin_year: 2004
+end_year: 2014
 _links:
   self:
     href: /languages/cs/

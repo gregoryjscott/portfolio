@@ -13,6 +13,8 @@ desc: >-
   encourages decoupled components, and its simplicity has made it popular for
   developers who prefer to assemble their own toolchains rather than adopt more
   opinionated frameworks.
+begin_year: 2010
+end_year: 2012
 _links:
   self:
     href: /tools/backbone/

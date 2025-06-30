@@ -7,6 +7,8 @@ desc: >-
   handling. C++ is used to develop a wide range of applications, from system
   software to high-performance server and client applications, and is one of the
   most popular programming languages in the world.
+begin_year: 1994
+end_year: 1998
 _links:
   self:
     href: /languages/cpp/

@@ -11,6 +11,8 @@ desc: >-
   designing UI and data models, while built-in hosting, CI/CD and environment
   management streamline the application lifecycle so teams can focus on features
   instead of infrastructure.
+begin_year: 2024
+end_year: present
 _links:
   self:
     href: /tools/amplify/

@@ -96,6 +96,25 @@ _embedded:
           - href: /tools/vpc/
           - href: /tools/sikulix/
   db:
+    - title: DynamoDB
+      desc: Amazon DynamoDB is a fully managed NoSQL database service that provides
+        fast and predictable performance with seamless scalability. It is a
+        serverless database that can automatically scale up or down to meet the
+        needs of your application. DynamoDB offers a flexible data model,
+        reliable performance, and automatic scaling of throughput capacity. It
+        also provides encryption at rest, point-in-time recovery, and other
+        features to help protect your data.
+      begin_year: 2015
+      end_year: present
+      _links:
+        self:
+          href: /db/ddb/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+          - href: /projects/la-boda/
+        jobs:
+          - href: /jobs/fe/
     - title: Firebase
       desc: Firebase’s Realtime Database is a cloud-hosted, NoSQL JSON data store that
         lets you build rich, collaborative applications by syncing data in
@@ -109,6 +128,8 @@ _embedded:
         (Cloud Functions, Analytics, etc.), the Realtime Database simplifies the
         creation of responsive, data-driven apps without the need to manage your
         own backend.
+      begin_year: 2017
+      end_year: 2021
       _links:
         self:
           href: /db/firebase/
@@ -116,23 +137,6 @@ _embedded:
           - href: /jobs/fe/
         projects:
           - href: /projects/epic-ca-enrollment/
-    - title: DynamoDB
-      desc: Amazon DynamoDB is a fully managed NoSQL database service that provides
-        fast and predictable performance with seamless scalability. It is a
-        serverless database that can automatically scale up or down to meet the
-        needs of your application. DynamoDB offers a flexible data model,
-        reliable performance, and automatic scaling of throughput capacity. It
-        also provides encryption at rest, point-in-time recovery, and other
-        features to help protect your data.
-      _links:
-        self:
-          href: /db/ddb/
-        projects:
-          - href: /projects/epicloud/
-          - href: /projects/nuggets/
-          - href: /projects/la-boda/
-        jobs:
-          - href: /jobs/fe/
     - title: BigQuery
       desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
         enables businesses to store, query, and analyze large datasets. It is a
@@ -142,6 +146,8 @@ _embedded:
         users to easily access and analyze data from other Google services such
         as Google Ads, Google Analytics, and Google Cloud Storage. BigQuery also
         supports a wide range of data formats, including CSV, JSON, and Avro.
+      begin_year: 2015
+      end_year: 2021
       _links:
         self:
           href: /db/bigquery/
@@ -150,20 +156,6 @@ _embedded:
         jobs:
           - href: /jobs/fe/
   languages:
-    - title: PHP
-      desc: PHP is a server-side scripting language used for web development. It is a
-        powerful language that is used to create dynamic web pages and
-        applications. It is an open-source language, meaning it is free to use
-        and modify. PHP is easy to learn and is widely used for creating
-        websites and web applications. It is also used to create database-driven
-        websites and applications.
-      _links:
-        self:
-          href: /languages/php/
-        projects:
-          - href: /projects/epic-ca-enrollment/
-        jobs:
-          - href: /jobs/fe/
     - title: Typescript
       desc: Typescript is a typed superset of JavaScript that compiles to plain
         JavaScript. It adds optional static typing to the language, allowing
@@ -172,6 +164,8 @@ _embedded:
         and interfaces that are not available in JavaScript. Typescript is
         designed to make it easier to write and maintain large-scale
         applications.
+      begin_year: 2014
+      end_year: present
       _links:
         self:
           href: /languages/ts/
@@ -179,6 +173,22 @@ _embedded:
           - href: /projects/epicloud/
           - href: /projects/this-site/
           - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+    - title: PHP
+      desc: PHP is a server-side scripting language used for web development. It is a
+        powerful language that is used to create dynamic web pages and
+        applications. It is an open-source language, meaning it is free to use
+        and modify. PHP is easy to learn and is widely used for creating
+        websites and web applications. It is also used to create database-driven
+        websites and applications.
+      begin_year: 2017
+      end_year: 2021
+      _links:
+        self:
+          href: /languages/php/
+        projects:
+          - href: /projects/epic-ca-enrollment/
         jobs:
           - href: /jobs/fe/
   os:
@@ -189,6 +199,8 @@ _embedded:
         supercomputers. It is highly customizable and can be used for a variety
         of tasks, from web hosting to software development. It is also highly
         secure and reliable, making it a popular choice for many users.
+      begin_year: 2010
+      end_year: present
       _links:
         self:
           href: /os/linux/
@@ -211,22 +223,6 @@ _embedded:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
   tools:
-    - title: SikuliX
-      desc: SikuliX is an open-source GUI automation tool that uses image recognition
-        to interact with on-screen elements by matching screenshots. It lets you
-        write scripts in Python (via Jython), Java, and other JVM languages to
-        click, type, and verify UI states without needing native application
-        hooks. Built on OpenCV, SikuliX works across Windows, macOS, and Linux,
-        making it ideal for automating legacy or custom interfaces and
-        integrating with testing frameworks for end-to-end automation or
-        repetitive desktop task scripting.
-      _links:
-        self:
-          href: /tools/sikulix/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
     - title: VPC
       desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
         provides users with a virtual private cloud, allowing them to provision
@@ -237,6 +233,8 @@ _embedded:
         also provides users with the ability to securely connect their VPC to
         their existing IT infrastructure using industry-standard encrypted IPsec
         VPN connections.
+      begin_year: 2015
+      end_year: present
       _links:
         self:
           href: /tools/vpc/
@@ -255,6 +253,8 @@ _embedded:
         highly-scalable, hosted queue for storing messages as they travel
         between computers. It also provides a simple web services interface that
         can be used to access queues, add, receive, and delete messages.
+      begin_year: 2015
+      end_year: present
       _links:
         self:
           href: /tools/sqs/
@@ -271,42 +271,14 @@ _embedded:
         durable, and provides features such as data versioning, encryption, and
         access control. S3 is used by many organizations for storing and backing
         up data, hosting websites, and streaming media.
+      begin_year: 2015
+      end_year: present
       _links:
         self:
           href: /tools/s3/
         projects:
           - href: /projects/epicloud/
           - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/fe/
-    - title: Puppeteer
-      desc: Puppeteer is a Node library developed by Google that provides a high-level
-        API to control headless Chrome or Chromium over the DevTools Protocol.
-        It can be used to automate tasks that would normally be performed
-        manually in the browser, such as form submission, UI testing, keyboard
-        input, or capturing a timeline trace to diagnose performance issues.
-        Puppeteer can also be used to generate screenshots and PDFs of web
-        pages.
-      _links:
-        self:
-          href: /tools/puppeteer/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-    - title: Node
-      desc: Node.js is an open-source, cross-platform JavaScript runtime environment
-        that executes JavaScript code outside of a browser. It is used to create
-        server-side and networking applications. Node.js applications are
-        written in JavaScript and can be run within the Node.js runtime on OS X,
-        Microsoft Windows, and Linux. Node.js also provides a rich library of
-        various JavaScript modules which simplifies the development of web
-        applications using Node.js.
-      _links:
-        self:
-          href: /tools/node/
-        projects:
-          - href: /projects/epicloud/
         jobs:
           - href: /jobs/fe/
     - title: IAM
@@ -317,27 +289,14 @@ _embedded:
         security credentials such as access keys, passwords, and multi-factor
         authentication devices. You can use IAM to manage access to AWS services
         such as Amazon EC2, Amazon S3, and Amazon RDS.
+      begin_year: 2015
+      end_year: present
       _links:
         self:
           href: /tools/iam/
         projects:
           - href: /projects/epicloud/
           - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/fe/
-    - title: Firebase
-      desc: Google Firebase is a mobile and web application development platform that
-        provides developers with a variety of tools and services to help them
-        quickly and easily build high-quality apps. Firebase provides a
-        real-time database, authentication, storage, hosting, analytics, and
-        more. It also offers a range of SDKs for Android, iOS, and web
-        development, allowing developers to quickly and easily integrate
-        Firebase into their apps.
-      _links:
-        self:
-          href: /tools/firebase/
-        projects:
-          - href: /projects/epicloud/
         jobs:
           - href: /jobs/fe/
     - title: Fargate
@@ -348,6 +307,8 @@ _embedded:
         virtual machines. Fargate also provides a secure and reliable platform
         for running containers, allowing users to focus on building and running
         their applications, rather than managing the underlying infrastructure.
+      begin_year: 2015
+      end_year: present
       _links:
         self:
           href: /tools/fargate/
@@ -364,6 +325,8 @@ _embedded:
         users to quickly and easily deploy and manage applications in the cloud.
         ECS also provides features such as automated container scaling, service
         discovery, and resource management.
+      begin_year: 2015
+      end_year: present
       _links:
         self:
           href: /tools/ecs/
@@ -380,6 +343,8 @@ _embedded:
         with Amazon Elastic Container Service (ECS) and AWS Fargate, simplifying
         your development to production workflow. It also provides features such
         as image scanning, lifecycle policies, and IAM authentication.
+      begin_year: 2015
+      end_year: present
       _links:
         self:
           href: /tools/ecr/
@@ -396,12 +361,83 @@ _embedded:
         their specific needs. EC2 also provides users with the ability to scale
         their computing resources up or down as needed, allowing them to pay
         only for the resources they use.
+      begin_year: 2015
+      end_year: present
       _links:
         self:
           href: /tools/ec2/
         projects:
           - href: /projects/epicloud/
           - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+    - title: SikuliX
+      desc: SikuliX is an open-source GUI automation tool that uses image recognition
+        to interact with on-screen elements by matching screenshots. It lets you
+        write scripts in Python (via Jython), Java, and other JVM languages to
+        click, type, and verify UI states without needing native application
+        hooks. Built on OpenCV, SikuliX works across Windows, macOS, and Linux,
+        making it ideal for automating legacy or custom interfaces and
+        integrating with testing frameworks for end-to-end automation or
+        repetitive desktop task scripting.
+      begin_year: 2015
+      end_year: 2021
+      _links:
+        self:
+          href: /tools/sikulix/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: Puppeteer
+      desc: Puppeteer is a Node library developed by Google that provides a high-level
+        API to control headless Chrome or Chromium over the DevTools Protocol.
+        It can be used to automate tasks that would normally be performed
+        manually in the browser, such as form submission, UI testing, keyboard
+        input, or capturing a timeline trace to diagnose performance issues.
+        Puppeteer can also be used to generate screenshots and PDFs of web
+        pages.
+      begin_year: 2015
+      end_year: 2021
+      _links:
+        self:
+          href: /tools/puppeteer/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: Node
+      desc: Node.js is an open-source, cross-platform JavaScript runtime environment
+        that executes JavaScript code outside of a browser. It is used to create
+        server-side and networking applications. Node.js applications are
+        written in JavaScript and can be run within the Node.js runtime on OS X,
+        Microsoft Windows, and Linux. Node.js also provides a rich library of
+        various JavaScript modules which simplifies the development of web
+        applications using Node.js.
+      begin_year: 2015
+      end_year: 2021
+      _links:
+        self:
+          href: /tools/node/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: Firebase
+      desc: Google Firebase is a mobile and web application development platform that
+        provides developers with a variety of tools and services to help them
+        quickly and easily build high-quality apps. Firebase provides a
+        real-time database, authentication, storage, hosting, analytics, and
+        more. It also offers a range of SDKs for Android, iOS, and web
+        development, allowing developers to quickly and easily integrate
+        Firebase into their apps.
+      begin_year: 2015
+      end_year: 2021
+      _links:
+        self:
+          href: /tools/firebase/
+        projects:
+          - href: /projects/epicloud/
         jobs:
           - href: /jobs/fe/
     - title: Google Drive
@@ -413,6 +449,8 @@ _embedded:
         collaborate on documents, spreadsheets, and presentations. Google Drive
         also offers a range of features, such as file sharing, version history,
         and real-time collaboration.
+      begin_year: 2015
+      end_year: 2021
       _links:
         self:
           href: /tools/drive/
@@ -427,6 +465,8 @@ _embedded:
         deployed and moved between different computing environments. Docker also
         provides a set of tools and services to help developers build, ship, and
         run applications in a more efficient and secure way.
+      begin_year: 2015
+      end_year: 2021
       _links:
         self:
           href: /tools/docker/
@@ -442,6 +482,8 @@ _embedded:
         and collaborate with their peers. Google Classroom integrates with other
         Google applications such as Google Drive, Google Docs, and Google
         Calendar.
+      begin_year: 2015
+      end_year: 2021
       _links:
         self:
           href: /tools/classroom/

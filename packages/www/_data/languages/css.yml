@@ -7,6 +7,8 @@ desc: CSS (Cascading Style Sheets) is a style sheet language used for describing
   characteristics, enable multiple web pages to share formatting by specifying
   the relevant CSS in a separate .css file, and reduce complexity and repetition
   in the structural content.
+begin_year: 2005
+end_year: 2025
 _links:
   self:
     href: /languages/css/
@@ -31,7 +33,7 @@ _embedded:
         YAML, Markdown, and HAL-based hypermedia.
       role: Author
       begin_year: 2014
-      end_year: null
+      end_year: present
       _links:
         self:
           href: /projects/this-site/
@@ -258,7 +260,7 @@ _embedded:
         implement technology solutions
       role: Freelance Programmer
       begin_year: 2014
-      end_year: null
+      end_year: present
       time_desc: July 2014 - present
       _links:
         self:

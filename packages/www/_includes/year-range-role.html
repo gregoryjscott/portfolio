@@ -2,14 +2,16 @@
   {{ include.resource.begin_year }}
   {%- unless include.resource.begin_year == include.resource.end_year -%}
     &nbsp;–&nbsp;
-    {%- if include.resource.end_year -%}
-      {{ include.resource.end_year }}
-    {%- else -%}
-      present
-    {%- endif -%}
+    {{ include.resource.end_year }}
   {%- endunless -%}
 {%- endcapture %}
 
-<p>
-  <em>{{ year_range | strip }}, {{ include.resource.role }}</em>
-</p>
+{% if include.resource.role %}
+  <p>
+    <em>{{ year_range | strip }}, {{ include.resource.role }}</em>
+  </p>
+{% else %}
+  <p>
+    <em>{{ year_range | strip }}</em>
+  </p>
+{% endif %}

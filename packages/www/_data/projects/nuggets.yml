@@ -37,7 +37,7 @@ _embedded:
         implement technology solutions
       role: Freelance Programmer
       begin_year: 2014
-      end_year: null
+      end_year: present
       time_desc: July 2014 - present
       _links:
         self:
@@ -85,6 +85,8 @@ _embedded:
         and interfaces that are not available in JavaScript. Typescript is
         designed to make it easier to write and maintain large-scale
         applications.
+      begin_year: 2014
+      end_year: present
       _links:
         self:
           href: /languages/ts/
@@ -103,6 +105,8 @@ _embedded:
         reliable performance, and automatic scaling of throughput capacity. It
         also provides encryption at rest, point-in-time recovery, and other
         features to help protect your data.
+      begin_year: 2015
+      end_year: present
       _links:
         self:
           href: /db/ddb/
@@ -113,6 +117,42 @@ _embedded:
         jobs:
           - href: /jobs/fe/
   os:
+    - title: iOS
+      desc: iOS is a mobile operating system developed by Apple Inc. for its iPhone,
+        iPad, and iPod Touch devices. It is the second most popular mobile
+        operating system in the world, behind Android. iOS is based on the Mac
+        OS X operating system and provides a user interface based on direct
+        manipulation of the screen using multi-touch gestures. It includes
+        features such as a home screen with app icons, a notification center,
+        and access to the App Store for downloading apps. iOS also includes
+        features such as iCloud, AirPlay, and Apple Pay.
+      begin_year: 2024
+      end_year: present
+      _links:
+        self:
+          href: /os/ios/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+    - title: Android
+      desc: Android is a mobile operating system developed by Google. It is based on a
+        modified version of the Linux kernel and other open source software, and
+        is designed primarily for touchscreen mobile devices such as smartphones
+        and tablets. Android has a large community of developers writing
+        applications ("apps") that extend the functionality of the devices. Apps
+        can be downloaded from third-party app stores or through online stores
+        such as Google Play. Android has been the best-selling OS on tablets
+        since 2013, and on smartphones it is dominant by any metric.
+      begin_year: 2024
+      end_year: present
+      _links:
+        self:
+          href: /os/android/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
     - title: Linux
       desc: Linux is an open-source operating system that is based on the Linux
         kernel. It is a free and powerful operating system that is used in many
@@ -120,6 +160,8 @@ _embedded:
         supercomputers. It is highly customizable and can be used for a variety
         of tasks, from web hosting to software development. It is also highly
         secure and reliable, making it a popular choice for many users.
+      begin_year: 2010
+      end_year: present
       _links:
         self:
           href: /os/linux/
@@ -141,38 +183,6 @@ _embedded:
           - href: /jobs/fe/
           - href: /jobs/freelance/
           - href: /jobs/rdi/
-    - title: iOS
-      desc: iOS is a mobile operating system developed by Apple Inc. for its iPhone,
-        iPad, and iPod Touch devices. It is the second most popular mobile
-        operating system in the world, behind Android. iOS is based on the Mac
-        OS X operating system and provides a user interface based on direct
-        manipulation of the screen using multi-touch gestures. It includes
-        features such as a home screen with app icons, a notification center,
-        and access to the App Store for downloading apps. iOS also includes
-        features such as iCloud, AirPlay, and Apple Pay.
-      _links:
-        self:
-          href: /os/ios/
-        projects:
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/freelance/
-    - title: Android
-      desc: Android is a mobile operating system developed by Google. It is based on a
-        modified version of the Linux kernel and other open source software, and
-        is designed primarily for touchscreen mobile devices such as smartphones
-        and tablets. Android has a large community of developers writing
-        applications ("apps") that extend the functionality of the devices. Apps
-        can be downloaded from third-party app stores or through online stores
-        such as Google Play. Android has been the best-selling OS on tablets
-        since 2013, and on smartphones it is dominant by any metric.
-      _links:
-        self:
-          href: /os/android/
-        projects:
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/freelance/
   tools:
     - title: XState
       desc: XState is a JavaScript/TypeScript library for modeling application logic
@@ -183,11 +193,58 @@ _embedded:
         Vue, Angular, and Node.js, XState delivers predictable, testable, and
         maintainable state management for complex synchronous and asynchronous
         workflows.
+      begin_year: 2024
+      end_year: present
       _links:
         self:
           href: /tools/xstate/
         projects:
           - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+    - title: React Native
+      desc: React Native is an open-source framework developed by Facebook that
+        enables developers to build mobile apps for iOS and Android using
+        JavaScript and React. Instead of rendering web views, React Native
+        translates UI components into native platform widgets, delivering
+        near-native performance and look-and-feel. Its component-based
+        architecture and one-way data flow mirror React for the web, making it
+        easy for JavaScript developers to pick up. Features like hot reloading
+        accelerate the development cycle by instantly reflecting code changes on
+        the device. A rich ecosystem of libraries and a large community
+        contribute reusable modules and plugins, simplifying access to native
+        device features (camera, geolocation, sensors) without writing
+        platform-specific code. By sharing logic and UI components across
+        platforms, React Native significantly reduces development time and
+        maintenance overhead compared to traditional native app development.
+      begin_year: 2024
+      end_year: present
+      _links:
+        self:
+          href: /tools/react-native/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+    - title: Amplify
+      desc: AWS Amplify is a comprehensive development platform from Amazon Web
+        Services that enables developers to quickly build, deploy, and manage
+        scalable full-stack web and mobile applications. It provides a set of
+        libraries, UI components and a command-line interface for integrating
+        popular front-end frameworks (React, Angular, Vue, iOS, Android,
+        Flutter) with cloud backends, including authentication, GraphQL and REST
+        APIs, storage, and serverless functions. Amplify Studio offers a visual
+        development environment for designing UI and data models, while built-in
+        hosting, CI/CD and environment management streamline the application
+        lifecycle so teams can focus on features instead of infrastructure.
+      begin_year: 2024
+      end_year: present
+      _links:
+        self:
+          href: /tools/amplify/
+        projects:
+          - href: /projects/nuggets/
+          - href: /projects/la-boda/
         jobs:
           - href: /jobs/freelance/
     - title: VPC
@@ -200,6 +257,8 @@ _embedded:
         also provides users with the ability to securely connect their VPC to
         their existing IT infrastructure using industry-standard encrypted IPsec
         VPN connections.
+      begin_year: 2015
+      end_year: present
       _links:
         self:
           href: /tools/vpc/
@@ -218,6 +277,8 @@ _embedded:
         highly-scalable, hosted queue for storing messages as they travel
         between computers. It also provides a simple web services interface that
         can be used to access queues, add, receive, and delete messages.
+      begin_year: 2015
+      end_year: present
       _links:
         self:
           href: /tools/sqs/
@@ -234,6 +295,8 @@ _embedded:
         durable, and provides features such as data versioning, encryption, and
         access control. S3 is used by many organizations for storing and backing
         up data, hosting websites, and streaming media.
+      begin_year: 2015
+      end_year: present
       _links:
         self:
           href: /tools/s3/
@@ -242,28 +305,6 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-    - title: React Native
-      desc: React Native is an open-source framework developed by Facebook that
-        enables developers to build mobile apps for iOS and Android using
-        JavaScript and React. Instead of rendering web views, React Native
-        translates UI components into native platform widgets, delivering
-        near-native performance and look-and-feel. Its component-based
-        architecture and one-way data flow mirror React for the web, making it
-        easy for JavaScript developers to pick up. Features like hot reloading
-        accelerate the development cycle by instantly reflecting code changes on
-        the device. A rich ecosystem of libraries and a large community
-        contribute reusable modules and plugins, simplifying access to native
-        device features (camera, geolocation, sensors) without writing
-        platform-specific code. By sharing logic and UI components across
-        platforms, React Native significantly reduces development time and
-        maintenance overhead compared to traditional native app development.
-      _links:
-        self:
-          href: /tools/react-native/
-        projects:
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/freelance/
     - title: IAM
       desc: AWS Identity and Access Management (IAM) is a web service that helps you
         securely control access to AWS resources. With IAM, you can create and
@@ -272,6 +313,8 @@ _embedded:
         security credentials such as access keys, passwords, and multi-factor
         authentication devices. You can use IAM to manage access to AWS services
         such as Amazon EC2, Amazon S3, and Amazon RDS.
+      begin_year: 2015
+      end_year: present
       _links:
         self:
           href: /tools/iam/
@@ -288,6 +331,8 @@ _embedded:
         virtual machines. Fargate also provides a secure and reliable platform
         for running containers, allowing users to focus on building and running
         their applications, rather than managing the underlying infrastructure.
+      begin_year: 2015
+      end_year: present
       _links:
         self:
           href: /tools/fargate/
@@ -304,6 +349,8 @@ _embedded:
         users to quickly and easily deploy and manage applications in the cloud.
         ECS also provides features such as automated container scaling, service
         discovery, and resource management.
+      begin_year: 2015
+      end_year: present
       _links:
         self:
           href: /tools/ecs/
@@ -320,6 +367,8 @@ _embedded:
         with Amazon Elastic Container Service (ECS) and AWS Fargate, simplifying
         your development to production workflow. It also provides features such
         as image scanning, lifecycle policies, and IAM authentication.
+      begin_year: 2015
+      end_year: present
       _links:
         self:
           href: /tools/ecr/
@@ -336,6 +385,8 @@ _embedded:
         their specific needs. EC2 also provides users with the ability to scale
         their computing resources up or down as needed, allowing them to pay
         only for the resources they use.
+      begin_year: 2015
+      end_year: present
       _links:
         self:
           href: /tools/ec2/
@@ -344,22 +395,3 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-    - title: Amplify
-      desc: AWS Amplify is a comprehensive development platform from Amazon Web
-        Services that enables developers to quickly build, deploy, and manage
-        scalable full-stack web and mobile applications. It provides a set of
-        libraries, UI components and a command-line interface for integrating
-        popular front-end frameworks (React, Angular, Vue, iOS, Android,
-        Flutter) with cloud backends, including authentication, GraphQL and REST
-        APIs, storage, and serverless functions. Amplify Studio offers a visual
-        development environment for designing UI and data models, while built-in
-        hosting, CI/CD and environment management streamline the application
-        lifecycle so teams can focus on features instead of infrastructure.
-      _links:
-        self:
-          href: /tools/amplify/
-        projects:
-          - href: /projects/nuggets/
-          - href: /projects/la-boda/
-        jobs:
-          - href: /jobs/freelance/

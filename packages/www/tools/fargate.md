@@ -8,6 +8,8 @@ desc: >-
   also provides a secure and reliable platform for running containers, allowing
   users to focus on building and running their applications, rather than
   managing the underlying infrastructure.
+begin_year: 2015
+end_year: present
 _links:
   self:
     href: /tools/fargate/

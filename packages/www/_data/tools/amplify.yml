@@ -9,6 +9,8 @@ desc: AWS Amplify is a comprehensive development platform from Amazon Web
   designing UI and data models, while built-in hosting, CI/CD and environment
   management streamline the application lifecycle so teams can focus on features
   instead of infrastructure.
+begin_year: 2024
+end_year: present
 _links:
   self:
     href: /tools/amplify/
@@ -77,7 +79,7 @@ _embedded:
         implement technology solutions
       role: Freelance Programmer
       begin_year: 2014
-      end_year: null
+      end_year: present
       time_desc: July 2014 - present
       _links:
         self:
