@@ -34,9 +34,10 @@ function embedLinkedResources(
           })
           .filter(Boolean)
       } else {
+        // Must be an "index" relation (e.g. /languages/), so embed __its__ embedded resource.
         const linkedResource = findResource(links, resources)
-        if (linkedResource) {
-          linkedResources = { ...linkedResource[version].data }
+        linkedResources = {
+          ...linkedResource[version].data._embedded[relation],
         }
       }
 

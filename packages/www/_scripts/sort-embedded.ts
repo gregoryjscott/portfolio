@@ -38,25 +38,12 @@ function sortEmbeddedResource(
   resourceName: string,
   data: { _embedded: any }
 ): { _embedded: any } {
-  if (Array.isArray(data._embedded[resourceName])) {
-    data = {
-      ...data,
-      _embedded: {
-        ...data._embedded,
-        [resourceName]: byRecent(data._embedded[resourceName]),
-      },
-    }
-  } else {
-    // The embedded resource must be an "index" object, so use __its__ embedded resource.
-    data = {
-      ...data,
-      _embedded: {
-        ...data._embedded,
-        [resourceName]: byRecent(
-          data._embedded[resourceName]._embedded[resourceName]
-        ),
-      },
-    }
+  data = {
+    ...data,
+    _embedded: {
+      ...data._embedded,
+      [resourceName]: byRecent(data._embedded[resourceName]),
+    },
   }
 
   data = {
