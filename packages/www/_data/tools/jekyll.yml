@@ -7,6 +7,8 @@ desc: Jekyll is an open-source, Ruby-based static site generator that transforms
   rendered HTML files. Because it produces only static pages—no databases or
   server-side processing—it delivers fast, secure sites that are easy to host
   (notably on GitHub Pages) and maintain via version control.
+begin_year: 2014
+end_year: 2016
 _links:
   self:
     href: /tools/jekyll/
@@ -26,7 +28,7 @@ _embedded:
         YAML, Markdown, and HAL-based hypermedia.
       role: Author
       begin_year: 2014
-      end_year: null
+      end_year: present
       _links:
         self:
           href: /projects/this-site/
@@ -151,7 +153,7 @@ _embedded:
         implement technology solutions
       role: Freelance Programmer
       begin_year: 2014
-      end_year: null
+      end_year: present
       time_desc: July 2014 - present
       _links:
         self:

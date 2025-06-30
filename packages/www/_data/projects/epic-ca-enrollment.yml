@@ -62,6 +62,8 @@ _embedded:
         and modify. PHP is easy to learn and is widely used for creating
         websites and web applications. It is also used to create database-driven
         websites and applications.
+      begin_year: 2017
+      end_year: 2021
       _links:
         self:
           href: /languages/php/
@@ -83,6 +85,8 @@ _embedded:
         (Cloud Functions, Analytics, etc.), the Realtime Database simplifies the
         creation of responsive, data-driven apps without the need to manage your
         own backend.
+      begin_year: 2017
+      end_year: 2021
       _links:
         self:
           href: /db/firebase/
@@ -100,6 +104,8 @@ _embedded:
         includes a range of applications, such as web browsers, media players,
         and office suites. Windows also includes a range of security features,
         such as user accounts, firewalls, and antivirus software.
+      begin_year: 1994
+      end_year: 2021
       _links:
         self:
           href: /os/windows/

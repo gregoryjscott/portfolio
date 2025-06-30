@@ -7,6 +7,8 @@ desc: Pervasive is a relational database management system (RDBMS) that is
   and online analytical processing (OLAP) applications, and is compatible with a
   variety of operating systems, including Windows, Linux, and Mac OS X. It also
   supports a wide range of programming languages, including SQL, Java, and C#.
+begin_year: 1999
+end_year: 2005
 _links:
   self:
     href: /db/pervasive/
@@ -39,15 +41,15 @@ _embedded:
           - href: /db/pervasive/
         os:
           - href: /os/windows/
-    - title: Wen-GAGE Accounting
-      desc: Desktop application that is used by schools in Oklahoma to manage all
-        their school accounting responsibilites.
+    - title: Wen-GAGE Student Information
+      desc: Desktop application that is used by schools in Oklahoma to manage their
+        student information such as enrollment, attendance, and grades.
       role: Lead Developer
       begin_year: 1999
       end_year: 2004
       _links:
         self:
-          href: /projects/wengage-acct/
+          href: /projects/wengage-si/
         jobs:
           - href: /jobs/mas/
         languages:
@@ -59,15 +61,15 @@ _embedded:
         os:
           - href: /os/windows/
           - href: /os/netware/
-    - title: Wen-GAGE Student Information
-      desc: Desktop application that is used by schools in Oklahoma to manage their
-        student information such as enrollment, attendance, and grades.
+    - title: Wen-GAGE Accounting
+      desc: Desktop application that is used by schools in Oklahoma to manage all
+        their school accounting responsibilites.
       role: Lead Developer
       begin_year: 1999
       end_year: 2004
       _links:
         self:
-          href: /projects/wengage-si/
+          href: /projects/wengage-acct/
         jobs:
           - href: /jobs/mas/
         languages:

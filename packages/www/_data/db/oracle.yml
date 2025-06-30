@@ -7,6 +7,8 @@ desc: Oracle Database is a relational database management system (RDBMS)
   and tools to help organizations store, manage, and analyze their data. Oracle
   Database is available in a variety of editions, including Enterprise Edition,
   Standard Edition, and Express Edition.
+begin_year: 2005
+end_year: 2009
 _links:
   self:
     href: /db/oracle/
@@ -24,24 +26,6 @@ _links:
     - href: /jobs/rdi/
 _embedded:
   projects:
-    - title: Consumption Views
-      desc: Set of database views that provides water consumption information that
-        feed into reporting tools used by AWWU to make business decisions.
-      role: Lead Developer
-      begin_year: 2009
-      end_year: 2009
-      _links:
-        self:
-          href: /projects/consumption-views/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/plsql/
-          - href: /languages/sql/
-        db:
-          - href: /db/oracle/
-        os:
-          - href: /os/windows/
     - title: Service Order Mobile Dispatch
       desc: Mobile web application that allows Anchorage Water & Wastewater Utility
         service workers to query and record service information while in the
@@ -59,6 +43,24 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
+          - href: /languages/plsql/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+    - title: Consumption Views
+      desc: Set of database views that provides water consumption information that
+        feed into reporting tools used by AWWU to make business decisions.
+      role: Lead Developer
+      begin_year: 2009
+      end_year: 2009
+      _links:
+        self:
+          href: /projects/consumption-views/
+        jobs:
+          - href: /jobs/rdi/
+        languages:
           - href: /languages/plsql/
           - href: /languages/sql/
         db:
@@ -140,23 +142,6 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
-    - title: AWWU Job Scheduler
-      desc: Framework for creating background processing jobs that migrate,
-        synchronize, and transform data throughout AWWU's integrated systems.
-      role: Technical Lead
-      begin_year: 2005
-      end_year: 2006
-      _links:
-        self:
-          href: /projects/awwu-job-scheduler/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/cs/
-        db:
-          - href: /db/oracle/
-        os:
-          - href: /os/windows/
     - title: AWWU Systems Integration
       desc: null
       role: Technical Lead
@@ -171,6 +156,23 @@ _embedded:
           - href: /languages/cs/
           - href: /languages/plsql/
           - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+    - title: AWWU Job Scheduler
+      desc: Framework for creating background processing jobs that migrate,
+        synchronize, and transform data throughout AWWU's integrated systems.
+      role: Technical Lead
+      begin_year: 2005
+      end_year: 2006
+      _links:
+        self:
+          href: /projects/awwu-job-scheduler/
+        jobs:
+          - href: /jobs/rdi/
+        languages:
+          - href: /languages/cs/
         db:
           - href: /db/oracle/
         os:

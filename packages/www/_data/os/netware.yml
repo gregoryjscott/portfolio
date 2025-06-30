@@ -7,6 +7,8 @@ desc: NetWare is a network operating system developed by Novell, Inc. It was one
   network protocols, including IPX/SPX, TCP/IP, and AppleTalk. It is also
   compatible with a variety of hardware platforms, including Intel-based PCs,
   Macintosh computers, and UNIX systems.
+begin_year: 1999
+end_year: 2004
 _links:
   self:
     href: /os/netware/
@@ -45,15 +47,15 @@ _embedded:
           - href: /os/windows/
           - href: /os/netware/
   projects:
-    - title: Wen-GAGE Accounting
-      desc: Desktop application that is used by schools in Oklahoma to manage all
-        their school accounting responsibilites.
+    - title: Wen-GAGE Student Information
+      desc: Desktop application that is used by schools in Oklahoma to manage their
+        student information such as enrollment, attendance, and grades.
       role: Lead Developer
       begin_year: 1999
       end_year: 2004
       _links:
         self:
-          href: /projects/wengage-acct/
+          href: /projects/wengage-si/
         jobs:
           - href: /jobs/mas/
         languages:
@@ -65,15 +67,15 @@ _embedded:
         os:
           - href: /os/windows/
           - href: /os/netware/
-    - title: Wen-GAGE Student Information
-      desc: Desktop application that is used by schools in Oklahoma to manage their
-        student information such as enrollment, attendance, and grades.
+    - title: Wen-GAGE Accounting
+      desc: Desktop application that is used by schools in Oklahoma to manage all
+        their school accounting responsibilites.
       role: Lead Developer
       begin_year: 1999
       end_year: 2004
       _links:
         self:
-          href: /projects/wengage-si/
+          href: /projects/wengage-acct/
         jobs:
           - href: /jobs/mas/
         languages:
