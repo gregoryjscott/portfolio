@@ -9,9 +9,11 @@ desc: >-
   point-in-time recovery, and other features to help protect your data.
 _links:
   self:
-    href: /tools/ddb/
+    href: /db/ddb/
   projects:
     - href: /projects/epicloud/
+    - href: /projects/nuggets/
+    - href: /projects/la-boda/
   jobs:
     - href: /jobs/fe/
 ---

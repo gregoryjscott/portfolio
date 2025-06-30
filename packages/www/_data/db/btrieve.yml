@@ -37,6 +37,7 @@ _embedded:
           - href: /db/pervasive/
         os:
           - href: /os/windows/
+          - href: /os/netware/
     - title: Wen-GAGE Accounting
       desc: Desktop application that is used by schools in Oklahoma to manage all
         their school accounting responsibilites.
@@ -56,6 +57,7 @@ _embedded:
           - href: /db/pervasive/
         os:
           - href: /os/windows/
+          - href: /os/netware/
     - title: Class Scheduler
       desc: Process that takes student course requests along with the available
         courses, sections, and teachers and builds the class schedule.
@@ -71,8 +73,10 @@ _embedded:
           - href: /languages/delphi/
         db:
           - href: /db/btrieve/
+          - href: /db/pervasive/
         os:
           - href: /os/windows/
+          - href: /os/netware/
   jobs:
     - title: Municipal Accounting Systems, Inc.
       desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
@@ -99,3 +103,4 @@ _embedded:
           - href: /languages/sql/
         os:
           - href: /os/windows/
+          - href: /os/netware/

@@ -12,4 +12,8 @@ desc: >-
 _links:
   self:
     href: /os/android/
+  projects:
+    - href: /projects/nuggets/
+  jobs:
+    - href: /jobs/freelance/
 ---

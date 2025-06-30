@@ -20,6 +20,6 @@ _links:
     - href: /db/postgres/
   os:
     - href: /os/windows/
-    - href: /os/osx/
+    - href: /os/macos/
     - href: /os/linux/
 ---

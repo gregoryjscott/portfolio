@@ -1,5 +1,5 @@
 ---
-title: Google Firebase
+title: Firebase
 desc: >-
   Google Firebase is a mobile and web application development platform that
   provides developers with a variety of tools and services to help them quickly

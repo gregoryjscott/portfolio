@@ -148,6 +148,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/
   jobs:
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -202,5 +204,7 @@ _embedded:
           - href: /languages/plsql/
         os:
           - href: /os/linux/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/

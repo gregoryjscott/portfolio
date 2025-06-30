@@ -5,6 +5,7 @@ _links:
   self:
     href: /resume/
   projects:
+    - href: /projects/nuggets/
     - href: /projects/epicloud/
     - href: /projects/qb/
     - href: /projects/sif-agent/
@@ -13,10 +14,10 @@ _links:
     href: /languages/
   db:
     href: /db/
-  os:
-    href: /os/
   tools:
     href: /tools/
+  os:
+    href: /os/
   jobs:
     href: /jobs/
   schools:

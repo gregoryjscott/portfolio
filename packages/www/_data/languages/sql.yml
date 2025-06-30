@@ -58,7 +58,7 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
     - title: Alaska Gasline Development Corporation
       desc: Web application that provides AGDC with documentation, reporting, and
@@ -209,6 +209,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/
     - title: Consumption Views
       desc: Set of database views that provides water consumption information that
         feed into reporting tools used by AWWU to make business decisions.
@@ -418,6 +420,7 @@ _embedded:
           - href: /db/pervasive/
         os:
           - href: /os/windows/
+          - href: /os/netware/
     - title: Wen-GAGE Student Information
       desc: Desktop application that is used by schools in Oklahoma to manage their
         student information such as enrollment, attendance, and grades.
@@ -437,6 +440,7 @@ _embedded:
           - href: /db/pervasive/
         os:
           - href: /os/windows/
+          - href: /os/netware/
   jobs:
     - title: Freelance Programmer
       desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -453,6 +457,14 @@ _embedded:
           - href: /projects/mvc-integration-test-framework/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
+          - href: /projects/aprender/
+          - href: /projects/la-boda/
         db:
           - href: /db/postgres/
         languages:
@@ -463,8 +475,17 @@ _embedded:
           - href: /languages/html/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/android/
+          - href: /os/ios/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
+          - href: /tools/hal/
+          - href: /tools/amplify/
+          - href: /tools/react-native/
+          - href: /tools/xstate/
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
         Texas, Idaho, Minnesota, and Oregon, that provides custom database, web,
@@ -518,8 +539,10 @@ _embedded:
           - href: /languages/plsql/
         os:
           - href: /os/linux/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/
     - title: Municipal Accounting Systems, Inc.
       desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
         Shawnee, Oklahoma that provides accounting and student information
@@ -545,3 +568,4 @@ _embedded:
           - href: /languages/sql/
         os:
           - href: /os/windows/
+          - href: /os/netware/

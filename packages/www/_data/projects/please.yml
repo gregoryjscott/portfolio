@@ -74,8 +74,10 @@ _embedded:
           - href: /languages/plsql/
         os:
           - href: /os/linux/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/
   languages:
     - title: SQL
       desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -132,6 +134,11 @@ _embedded:
           - href: /projects/scramble-score/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -236,7 +243,10 @@ _embedded:
           - href: /projects/train-builder/
           - href: /projects/wengage-acct/
           - href: /projects/wengage-si/
+          - href: /projects/epic-ca-enrollment/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/mas/
           - href: /jobs/rdi/
+        schools:
+          - href: /schools/uco/

@@ -41,7 +41,7 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
     - title: ScrambleScore
       desc: Mobile web application that allows golfers participating in scramble golf
@@ -64,7 +64,7 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
   jobs:
     - title: Freelance Programmer
@@ -82,6 +82,14 @@ _embedded:
           - href: /projects/mvc-integration-test-framework/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
+          - href: /projects/aprender/
+          - href: /projects/la-boda/
         db:
           - href: /db/postgres/
         languages:
@@ -92,8 +100,17 @@ _embedded:
           - href: /languages/html/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/android/
+          - href: /os/ios/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
+          - href: /tools/hal/
+          - href: /tools/amplify/
+          - href: /tools/react-native/
+          - href: /tools/xstate/
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
         Texas, Idaho, Minnesota, and Oregon, that provides custom database, web,
@@ -147,5 +164,7 @@ _embedded:
           - href: /languages/plsql/
         os:
           - href: /os/linux/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/

@@ -61,7 +61,7 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
     - title: Centroid
       desc: Library for accessing environment based configuration from multiple
@@ -83,7 +83,7 @@ _embedded:
           - href: /languages/rb/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
     - title: Alaska Gasline Development Corporation
       desc: Web application that provides AGDC with documentation, reporting, and
@@ -212,7 +212,7 @@ _embedded:
           - href: /languages/rb/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
     - title: Quality Bank
       subtitle: Invoicing $1 Billion/Month for Oil Pipeline
@@ -237,6 +237,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/
     - title: MvcIntegrationTestFramework
       desc: Framework that can be used to perform integration tests on a ASP.NET MVC
         application.
@@ -506,6 +508,14 @@ _embedded:
           - href: /projects/mvc-integration-test-framework/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
+          - href: /projects/aprender/
+          - href: /projects/la-boda/
         db:
           - href: /db/postgres/
         languages:
@@ -516,8 +526,17 @@ _embedded:
           - href: /languages/html/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/android/
+          - href: /os/ios/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
+          - href: /tools/hal/
+          - href: /tools/amplify/
+          - href: /tools/react-native/
+          - href: /tools/xstate/
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
         Texas, Idaho, Minnesota, and Oregon, that provides custom database, web,
@@ -571,8 +590,10 @@ _embedded:
           - href: /languages/plsql/
         os:
           - href: /os/linux/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/
     - title: Municipal Accounting Systems, Inc.
       desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
         Shawnee, Oklahoma that provides accounting and student information
@@ -598,3 +619,4 @@ _embedded:
           - href: /languages/sql/
         os:
           - href: /os/windows/
+          - href: /os/netware/

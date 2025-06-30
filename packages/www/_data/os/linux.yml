@@ -15,15 +15,54 @@ _links:
     - href: /projects/scramble-score/
     - href: /projects/simpler/
     - href: /projects/this-site/
+    - href: /projects/cfw/
+    - href: /projects/jekyll-load/
+    - href: /projects/jekyll-api/
+    - href: /projects/jekyll-embed/
+    - href: /projects/jekyll-prep/
+    - href: /projects/nuggets/
+    - href: /projects/la-boda/
   jobs:
     - href: /jobs/fe/
     - href: /jobs/freelance/
     - href: /jobs/rdi/
 _embedded:
   projects:
-    - title: This Site
-      desc: My website/experiment that uses Jekyll to create static HTML pages using
-        YAML, Markdown, and hypermedia.
+    - title: Nuggets
+      subtitle: Customizing Curriculum for Students using AI
+      desc: React Native app built using AI and state machines for learning Spanish or
+        English.
+      role: Author
+      begin_year: 2024
+      end_year: null
+      _links:
+        self:
+          href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+        languages:
+          - href: /languages/ts/
+        db:
+          - href: /db/ddb/
+        os:
+          - href: /os/android/
+          - href: /os/ios/
+          - href: /os/linux/
+        tools:
+          - href: /tools/amplify/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/iam/
+          - href: /tools/react-native/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+          - href: /tools/xstate/
+    - title: gregoryjscott.com
+      desc: My portfolio website that uses Jekyll to create static HTML pages using
+        YAML, Markdown, and HAL-based hypermedia.
       role: Author
       begin_year: 2014
       end_year: null
@@ -39,11 +78,35 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/rb/
+          - href: /languages/ts/
         os:
-          - href: /os/osx/
+          - href: /os/macos/
+          - href: /os/linux/
+        tools:
+          - href: /tools/jekyll/
+          - href: /tools/hal/
+    - title: hazelandgreg.wedding
+      desc: Wedding website for Hazel and Greg
+      role: Author
+      begin_year: 2025
+      end_year: 2025
+      _links:
+        self:
+          href: /projects/la-boda/
+        jobs:
+          - href: /jobs/freelance/
+        languages:
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+        db:
+          - href: /db/ddb/
+        tools:
+          - href: /tools/amplify/
+        os:
           - href: /os/linux/
     - title: EpiCloud
-      subtitle: Infinitely Scaling Bots using AWS
+      subtitle: Infinitely Scaling Bots on AWS
       desc: null
       role: Technical Lead
       begin_year: 2015
@@ -57,11 +120,11 @@ _embedded:
           - href: /languages/ts/
         db:
           - href: /db/bigquery/
+          - href: /db/ddb/
         os:
           - href: /os/linux/
         tools:
           - href: /tools/classroom/
-          - href: /tools/ddb/
           - href: /tools/docker/
           - href: /tools/drive/
           - href: /tools/ec2/
@@ -70,13 +133,29 @@ _embedded:
           - href: /tools/fargate/
           - href: /tools/firebase/
           - href: /tools/iam/
-          - href: /tools/lerna/
           - href: /tools/node/
           - href: /tools/puppeteer/
           - href: /tools/s3/
           - href: /tools/sqs/
-          - href: /tools/tracker/
           - href: /tools/vpc/
+          - href: /tools/sikulix/
+    - title: fortworthtexas.gov
+      desc: Jekyll static site for the City of Fort Worth, Texas.
+      role: Technical Lead
+      begin_year: 2015
+      end_year: 2016
+      _links:
+        self:
+          href: /projects/cfw/
+        jobs:
+          - href: /jobs/freelance/
+        languages:
+          - href: /languages/rb/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
+        os:
+          - href: /os/linux/
     - title: Centroid
       desc: Library for accessing environment based configuration from multiple
         different programming languages.
@@ -97,7 +176,7 @@ _embedded:
           - href: /languages/rb/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
     - title: Denver Schedules API
       desc: JSON API that provides access to Denver activities that impact the
@@ -121,7 +200,89 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
+          - href: /os/linux/
+    - title: jekyll-load
+      desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
+      role: Author
+      begin_year: 2014
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/jekyll-load/
+        jobs:
+          - href: /jobs/freelance/
+        code:
+          title: github.com/gregoryjscott/jekyll-load
+          href: https://github.com/gregoryjscott/jekyll-load
+        languages:
+          - href: /languages/rb/
+        tools:
+          - href: /tools/jekyll/
+        os:
+          - href: /os/macos/
+          - href: /os/linux/
+    - title: jekyll-api
+      desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
+      role: Author
+      begin_year: 2014
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/jekyll-api/
+        jobs:
+          - href: /jobs/freelance/
+        code:
+          title: github.com/gregoryjscott/jekyll-api
+          href: https://github.com/gregoryjscott/jekyll-api
+        languages:
+          - href: /languages/rb/
+        tools:
+          - href: /tools/jekyll/
+        os:
+          - href: /os/macos/
+          - href: /os/linux/
+    - title: jekyll-embed
+      desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
+        frontmatter
+      role: Author
+      begin_year: 2014
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/jekyll-embed/
+        jobs:
+          - href: /jobs/freelance/
+        code:
+          title: github.com/gregoryjscott/jekyll-embed
+          href: https://github.com/gregoryjscott/jekyll-embed
+        languages:
+          - href: /languages/rb/
+        tools:
+          - href: /tools/jekyll/
+          - href: /tools/hal/
+        os:
+          - href: /os/macos/
+          - href: /os/linux/
+    - title: jekyll-prep
+      desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
+      role: Author
+      begin_year: 2014
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/jekyll-prep/
+        jobs:
+          - href: /jobs/freelance/
+        code:
+          title: github.com/gregoryjscott/jekyll-prep
+          href: https://github.com/gregoryjscott/jekyll-prep
+        languages:
+          - href: /languages/rb/
+        tools:
+          - href: /tools/jekyll/
+        os:
+          - href: /os/macos/
           - href: /os/linux/
     - title: ScrambleScore
       desc: Mobile web application that allows golfers participating in scramble golf
@@ -144,7 +305,7 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
     - title: Simpler
       desc: Library that provides a simpler approach to C# class design.
@@ -164,45 +325,9 @@ _embedded:
           - href: /languages/rb/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
   jobs:
-    - title: Futuristic Education
-      desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-        for schools and educators
-      role: Co-Founder/Programmer
-      begin_year: 2018
-      end_year: null
-      time_desc: March 2018 - present
-      _links:
-        self:
-          href: /jobs/fe/
-        projects:
-          - href: /projects/epicloud/
-        db:
-          - href: /db/bigquery/
-        languages:
-          - href: /languages/ts/
-        os:
-          - href: /os/linux/
-        tools:
-          - href: /tools/classroom/
-          - href: /tools/ddb/
-          - href: /tools/docker/
-          - href: /tools/drive/
-          - href: /tools/ec2/
-          - href: /tools/ecr/
-          - href: /tools/ecs/
-          - href: /tools/fargate/
-          - href: /tools/firebase/
-          - href: /tools/iam/
-          - href: /tools/lerna/
-          - href: /tools/node/
-          - href: /tools/puppeteer/
-          - href: /tools/s3/
-          - href: /tools/sqs/
-          - href: /tools/tracker/
-          - href: /tools/vpc/
     - title: Freelance Programmer
       desc: Freelance Programmer/Consultant, partnering with clients to architect and
         implement technology solutions
@@ -218,6 +343,14 @@ _embedded:
           - href: /projects/mvc-integration-test-framework/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
+          - href: /projects/aprender/
+          - href: /projects/la-boda/
         db:
           - href: /db/postgres/
         languages:
@@ -228,8 +361,55 @@ _embedded:
           - href: /languages/html/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/android/
+          - href: /os/ios/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
+          - href: /tools/hal/
+          - href: /tools/amplify/
+          - href: /tools/react-native/
+          - href: /tools/xstate/
+    - title: Futuristic Education
+      desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+        for schools and educators
+      role: Co-Founder/Programmer
+      begin_year: 2018
+      end_year: 2022
+      time_desc: March 2018 - present
+      _links:
+        self:
+          href: /jobs/fe/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/epic-ca-enrollment/
+        db:
+          - href: /db/bigquery/
+          - href: /db/ddb/
+          - href: /db/firebase/
+        languages:
+          - href: /languages/ts/
+          - href: /languages/php/
+        os:
+          - href: /os/linux/
+        tools:
+          - href: /tools/classroom/
+          - href: /tools/docker/
+          - href: /tools/drive/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/firebase/
+          - href: /tools/iam/
+          - href: /tools/node/
+          - href: /tools/puppeteer/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+          - href: /tools/sikulix/
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
         Texas, Idaho, Minnesota, and Oregon, that provides custom database, web,
@@ -283,5 +463,7 @@ _embedded:
           - href: /languages/plsql/
         os:
           - href: /os/linux/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/

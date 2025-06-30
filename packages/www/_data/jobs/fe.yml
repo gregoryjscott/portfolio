@@ -3,22 +3,25 @@ desc: Co-Founder/Programmer of Futuristic Education, building custom technology
   for schools and educators
 role: Co-Founder/Programmer
 begin_year: 2018
-end_year: null
+end_year: 2022
 time_desc: March 2018 - present
 _links:
   self:
     href: /jobs/fe/
   projects:
     - href: /projects/epicloud/
+    - href: /projects/epic-ca-enrollment/
   db:
     - href: /db/bigquery/
+    - href: /db/ddb/
+    - href: /db/firebase/
   languages:
     - href: /languages/ts/
+    - href: /languages/php/
   os:
     - href: /os/linux/
   tools:
     - href: /tools/classroom/
-    - href: /tools/ddb/
     - href: /tools/docker/
     - href: /tools/drive/
     - href: /tools/ec2/
@@ -27,13 +30,12 @@ _links:
     - href: /tools/fargate/
     - href: /tools/firebase/
     - href: /tools/iam/
-    - href: /tools/lerna/
     - href: /tools/node/
     - href: /tools/puppeteer/
     - href: /tools/s3/
     - href: /tools/sqs/
-    - href: /tools/tracker/
     - href: /tools/vpc/
+    - href: /tools/sikulix/
 content: >-
   - Built the cloud-based backend integration and automation services for
   one of the largest online charter schools in the United States
@@ -43,8 +45,24 @@ content: >-
   - Developed student performance reports to help teachers and administrators make data-driven decisions to improve student outcomes
 _embedded:
   projects:
+    - title: Epic California Academy Enrollment
+      desc: null
+      role: Technical Lead
+      begin_year: 2017
+      end_year: 2021
+      _links:
+        self:
+          href: /projects/epic-ca-enrollment/
+        jobs:
+          - href: /jobs/fe/
+        languages:
+          - href: /languages/php/
+        db:
+          - href: /db/firebase/
+        os:
+          - href: /os/windows/
     - title: EpiCloud
-      subtitle: Infinitely Scaling Bots using AWS
+      subtitle: Infinitely Scaling Bots on AWS
       desc: null
       role: Technical Lead
       begin_year: 2015
@@ -58,11 +76,11 @@ _embedded:
           - href: /languages/ts/
         db:
           - href: /db/bigquery/
+          - href: /db/ddb/
         os:
           - href: /os/linux/
         tools:
           - href: /tools/classroom/
-          - href: /tools/ddb/
           - href: /tools/docker/
           - href: /tools/drive/
           - href: /tools/ec2/
@@ -71,14 +89,50 @@ _embedded:
           - href: /tools/fargate/
           - href: /tools/firebase/
           - href: /tools/iam/
-          - href: /tools/lerna/
           - href: /tools/node/
           - href: /tools/puppeteer/
           - href: /tools/s3/
           - href: /tools/sqs/
-          - href: /tools/tracker/
           - href: /tools/vpc/
+          - href: /tools/sikulix/
   db:
+    - title: Firebase
+      desc: Firebase’s Realtime Database is a cloud-hosted, NoSQL JSON data store that
+        lets you build rich, collaborative applications by syncing data in
+        milliseconds across all connected clients. Data is stored as a single,
+        hierarchical JSON tree and updated in real time—any changes made by one
+        client are immediately pushed to every other. SDKs for iOS, Android and
+        web handle offline caching and automatic resynchronization, while
+        granular security rules and Firebase Authentication ensure data is
+        accessed and modified only by authorized users. With built-in
+        scalability, sharding and integration with other Firebase services
+        (Cloud Functions, Analytics, etc.), the Realtime Database simplifies the
+        creation of responsive, data-driven apps without the need to manage your
+        own backend.
+      _links:
+        self:
+          href: /db/firebase/
+        jobs:
+          - href: /jobs/fe/
+        projects:
+          - href: /projects/epic-ca-enrollment/
+    - title: DynamoDB
+      desc: Amazon DynamoDB is a fully managed NoSQL database service that provides
+        fast and predictable performance with seamless scalability. It is a
+        serverless database that can automatically scale up or down to meet the
+        needs of your application. DynamoDB offers a flexible data model,
+        reliable performance, and automatic scaling of throughput capacity. It
+        also provides encryption at rest, point-in-time recovery, and other
+        features to help protect your data.
+      _links:
+        self:
+          href: /db/ddb/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+          - href: /projects/la-boda/
+        jobs:
+          - href: /jobs/fe/
     - title: BigQuery
       desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
         enables businesses to store, query, and analyze large datasets. It is a
@@ -96,6 +150,20 @@ _embedded:
         jobs:
           - href: /jobs/fe/
   languages:
+    - title: PHP
+      desc: PHP is a server-side scripting language used for web development. It is a
+        powerful language that is used to create dynamic web pages and
+        applications. It is an open-source language, meaning it is free to use
+        and modify. PHP is easy to learn and is widely used for creating
+        websites and web applications. It is also used to create database-driven
+        websites and applications.
+      _links:
+        self:
+          href: /languages/php/
+        projects:
+          - href: /projects/epic-ca-enrollment/
+        jobs:
+          - href: /jobs/fe/
     - title: Typescript
       desc: Typescript is a typed superset of JavaScript that compiles to plain
         JavaScript. It adds optional static typing to the language, allowing
@@ -109,6 +177,8 @@ _embedded:
           href: /languages/ts/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/this-site/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
   os:
@@ -129,12 +199,35 @@ _embedded:
           - href: /projects/scramble-score/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
+          - href: /projects/la-boda/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/freelance/
           - href: /jobs/rdi/
   tools:
-    - title: Amazon Virtual Private Cloud (VPC)
+    - title: SikuliX
+      desc: SikuliX is an open-source GUI automation tool that uses image recognition
+        to interact with on-screen elements by matching screenshots. It lets you
+        write scripts in Python (via Jython), Java, and other JVM languages to
+        click, type, and verify UI states without needing native application
+        hooks. Built on OpenCV, SikuliX works across Windows, macOS, and Linux,
+        making it ideal for automating legacy or custom interfaces and
+        integrating with testing frameworks for end-to-end automation or
+        repetitive desktop task scripting.
+      _links:
+        self:
+          href: /tools/sikulix/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: VPC
       desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
         provides users with a virtual private cloud, allowing them to provision
         a logically isolated section of the Amazon Web Services (AWS) cloud. It
@@ -149,23 +242,10 @@ _embedded:
           href: /tools/vpc/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-    - title: Pivotal Tracker
-      desc: Pivotal Tracker is an agile project management tool that helps teams
-        collaborate and manage their projects. It provides a visual timeline of
-        tasks, stories, and epics, and allows teams to prioritize and track
-        progress. It also offers features such as real-time collaboration,
-        automated workflow, and reporting. It is designed to help teams stay
-        organized and on track with their projects.
-      _links:
-        self:
-          href: /tools/tracker/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-    - title: Amazon Simple Queue Service (SQS)
+    - title: SQS
       desc: Amazon Simple Queue Service (SQS) is a fully managed message queuing
         service that enables applications to quickly and reliably queue messages
         that one component of an application can later process. SQS eliminates
@@ -180,9 +260,10 @@ _embedded:
           href: /tools/sqs/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-    - title: Amazon Simple Storage Service (S3)
+    - title: S3
       desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
         Amazon Web Services (AWS). It provides object storage through a web
         service interface and is designed to store and retrieve any amount of
@@ -195,6 +276,7 @@ _embedded:
           href: /tools/s3/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
     - title: Puppeteer
@@ -227,22 +309,7 @@ _embedded:
           - href: /projects/epicloud/
         jobs:
           - href: /jobs/fe/
-    - title: Lerna
-      desc: Lerna is a tool that optimizes the workflow around managing multi-package
-        repositories with git and npm. It allows developers to easily create,
-        maintain, and version multiple packages from the same codebase. It also
-        provides a powerful set of features such as managing dependencies,
-        running scripts, and publishing packages. Lerna makes it easier to
-        manage complex projects with multiple packages, and helps developers
-        keep their codebase organized and up-to-date.
-      _links:
-        self:
-          href: /tools/lerna/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-    - title: AWS Identity and Access Management (IAM)
+    - title: IAM
       desc: AWS Identity and Access Management (IAM) is a web service that helps you
         securely control access to AWS resources. With IAM, you can create and
         manage AWS users and groups, and use permissions to allow and deny their
@@ -255,9 +322,10 @@ _embedded:
           href: /tools/iam/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-    - title: Google Firebase
+    - title: Firebase
       desc: Google Firebase is a mobile and web application development platform that
         provides developers with a variety of tools and services to help them
         quickly and easily build high-quality apps. Firebase provides a
@@ -285,9 +353,10 @@ _embedded:
           href: /tools/fargate/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-    - title: Amazon Elastic Container Service (ECS)
+    - title: ECS
       desc: Amazon Elastic Container Service (ECS) is a container orchestration
         service from Amazon Web Services (AWS) that enables users to easily
         deploy, manage, and scale containerized applications on AWS. It provides
@@ -300,9 +369,10 @@ _embedded:
           href: /tools/ecs/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-    - title: Amazon Elastic Container Registry (ECR)
+    - title: ECR
       desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
         container registry that makes it easy to store, manage, and deploy
         Docker container images. It is secure, highly available, and scales
@@ -315,9 +385,10 @@ _embedded:
           href: /tools/ecr/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-    - title: Amazon Elastic Compute Cloud (EC2)
+    - title: EC2
       desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
         resizable compute capacity in the cloud. It is designed to make
         web-scale cloud computing easier for developers. EC2 allows users to
@@ -330,6 +401,7 @@ _embedded:
           href: /tools/ec2/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
     - title: Google Drive
@@ -358,21 +430,6 @@ _embedded:
       _links:
         self:
           href: /tools/docker/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-    - title: DynamoDB
-      desc: Amazon DynamoDB is a fully managed NoSQL database service that provides
-        fast and predictable performance with seamless scalability. It is a
-        serverless database that can automatically scale up or down to meet the
-        needs of your application. DynamoDB offers a flexible data model,
-        reliable performance, and automatic scaling of throughput capacity. It
-        also provides encryption at rest, point-in-time recovery, and other
-        features to help protect your data.
-      _links:
-        self:
-          href: /tools/ddb/
         projects:
           - href: /projects/epicloud/
         jobs:

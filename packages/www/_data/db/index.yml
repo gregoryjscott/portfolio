@@ -8,6 +8,8 @@ _links:
     - href: /db/access/
     - href: /db/bigquery/
     - href: /db/btrieve/
+    - href: /db/ddb/
+    - href: /db/firebase/
     - href: /db/oracle/
     - href: /db/pervasive/
     - href: /db/postgres/
@@ -15,6 +17,227 @@ _links:
     - href: /db/sqlite/
 _embedded:
   db:
+    - title: DynamoDB
+      desc: Amazon DynamoDB is a fully managed NoSQL database service that provides
+        fast and predictable performance with seamless scalability. It is a
+        serverless database that can automatically scale up or down to meet the
+        needs of your application. DynamoDB offers a flexible data model,
+        reliable performance, and automatic scaling of throughput capacity. It
+        also provides encryption at rest, point-in-time recovery, and other
+        features to help protect your data.
+      _links:
+        self:
+          href: /db/ddb/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+          - href: /projects/la-boda/
+        jobs:
+          - href: /jobs/fe/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+          - title: hazelandgreg.wedding
+            desc: Wedding website for Hazel and Greg
+            role: Author
+            begin_year: 2025
+            end_year: 2025
+            _links:
+              self:
+                href: /projects/la-boda/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+              os:
+                - href: /os/linux/
+          - title: EpiCloud
+            subtitle: Infinitely Scaling Bots on AWS
+            desc: null
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
+        jobs:
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: 2022
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              languages:
+                - href: /languages/ts/
+                - href: /languages/php/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
+    - title: Firebase
+      desc: Firebase’s Realtime Database is a cloud-hosted, NoSQL JSON data store that
+        lets you build rich, collaborative applications by syncing data in
+        milliseconds across all connected clients. Data is stored as a single,
+        hierarchical JSON tree and updated in real time—any changes made by one
+        client are immediately pushed to every other. SDKs for iOS, Android and
+        web handle offline caching and automatic resynchronization, while
+        granular security rules and Firebase Authentication ensure data is
+        accessed and modified only by authorized users. With built-in
+        scalability, sharding and integration with other Firebase services
+        (Cloud Functions, Analytics, etc.), the Realtime Database simplifies the
+        creation of responsive, data-driven apps without the need to manage your
+        own backend.
+      _links:
+        self:
+          href: /db/firebase/
+        jobs:
+          - href: /jobs/fe/
+        projects:
+          - href: /projects/epic-ca-enrollment/
+      _embedded:
+        jobs:
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: 2022
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              languages:
+                - href: /languages/ts/
+                - href: /languages/php/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
+        projects:
+          - title: Epic California Academy Enrollment
+            desc: null
+            role: Technical Lead
+            begin_year: 2017
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epic-ca-enrollment/
+              jobs:
+                - href: /jobs/fe/
+              languages:
+                - href: /languages/php/
+              db:
+                - href: /db/firebase/
+              os:
+                - href: /os/windows/
     - title: BigQuery
       desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
         enables businesses to store, query, and analyze large datasets. It is a
@@ -34,7 +257,7 @@ _embedded:
       _embedded:
         projects:
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -48,11 +271,11 @@ _embedded:
                 - href: /languages/ts/
               db:
                 - href: /db/bigquery/
+                - href: /db/ddb/
               os:
                 - href: /os/linux/
               tools:
                 - href: /tools/classroom/
-                - href: /tools/ddb/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -61,35 +284,37 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
               for schools and educators
             role: Co-Founder/Programmer
             begin_year: 2018
-            end_year: null
+            end_year: 2022
             time_desc: March 2018 - present
             _links:
               self:
                 href: /jobs/fe/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
               db:
                 - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
               languages:
                 - href: /languages/ts/
+                - href: /languages/php/
               os:
                 - href: /os/linux/
               tools:
                 - href: /tools/classroom/
-                - href: /tools/ddb/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -98,13 +323,12 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
     - title: Postgres
       desc: Postgres is an open source object-relational database management system
         (ORDBMS) developed by the PostgreSQL Global Development Group. It is
@@ -149,7 +373,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: ScrambleScore
             desc: Mobile web application that allows golfers participating in scramble golf
@@ -172,7 +396,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
         jobs:
           - title: Freelance Programmer
@@ -190,6 +414,14 @@ _embedded:
                 - href: /projects/mvc-integration-test-framework/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
+                - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -200,8 +432,17 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -255,8 +496,10 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
     - title: SQL Server
       desc: SQL Server is a relational database management system (RDBMS) developed by
         Microsoft. It is used to store and manage data in a structured format,
@@ -408,6 +651,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
           - title: TrainBuilder
             desc: Windows Presentation Framework (WPF) application used by the Alaska
               Railroad to plan and schedule structure of their trains.
@@ -480,8 +725,10 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
     - title: SQLite
       desc: SQLite is a lightweight, self-contained, serverless, zero-configuration,
         transactional SQL database engine. It is the most widely deployed
@@ -575,8 +822,10 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
     - title: Oracle
       desc: Oracle Database is a relational database management system (RDBMS)
         developed by Oracle Corporation. It is the world's most popular database
@@ -828,8 +1077,10 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
     - title: Access
       desc: The Access database is a relational database management system (RDBMS)
         developed by Microsoft. It is used to store and manage data in a
@@ -938,8 +1189,10 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
     - title: Pervasive
       desc: Pervasive is a relational database management system (RDBMS) that is
         designed to provide high performance, scalability, and reliability for
@@ -957,6 +1210,7 @@ _embedded:
           - href: /projects/sif-agent/
           - href: /projects/wengage-acct/
           - href: /projects/wengage-si/
+          - href: /projects/class-scheduler/
         jobs:
           - href: /jobs/mas/
       _embedded:
@@ -1000,6 +1254,7 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
           - title: Wen-GAGE Student Information
             desc: Desktop application that is used by schools in Oklahoma to manage their
               student information such as enrollment, attendance, and grades.
@@ -1019,6 +1274,26 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
+          - title: Class Scheduler
+            desc: Process that takes student course requests along with the available
+              courses, sections, and teachers and builds the class schedule.
+            role: Lead Developer
+            begin_year: 1999
+            end_year: 1999
+            _links:
+              self:
+                href: /projects/class-scheduler/
+              jobs:
+                - href: /jobs/mas/
+              languages:
+                - href: /languages/delphi/
+              db:
+                - href: /db/btrieve/
+                - href: /db/pervasive/
+              os:
+                - href: /os/windows/
+                - href: /os/netware/
         jobs:
           - title: Municipal Accounting Systems, Inc.
             desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
@@ -1045,6 +1320,7 @@ _embedded:
                 - href: /languages/sql/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
     - title: Btrieve
       desc: Btrieve is a database management system (DBMS) developed by Pervasive
         Software. It is a high-performance, reliable, and cost-effective
@@ -1085,6 +1361,7 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
           - title: Wen-GAGE Student Information
             desc: Desktop application that is used by schools in Oklahoma to manage their
               student information such as enrollment, attendance, and grades.
@@ -1104,6 +1381,7 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
           - title: Class Scheduler
             desc: Process that takes student course requests along with the available
               courses, sections, and teachers and builds the class schedule.
@@ -1119,8 +1397,10 @@ _embedded:
                 - href: /languages/delphi/
               db:
                 - href: /db/btrieve/
+                - href: /db/pervasive/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
         jobs:
           - title: Municipal Accounting Systems, Inc.
             desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
@@ -1147,3 +1427,4 @@ _embedded:
                 - href: /languages/sql/
               os:
                 - href: /os/windows/
+                - href: /os/netware/

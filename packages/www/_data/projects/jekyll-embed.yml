@@ -1,0 +1,197 @@
+title: jekyll-embed
+desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
+  frontmatter
+role: Author
+begin_year: 2014
+end_year: 2014
+_links:
+  self:
+    href: /projects/jekyll-embed/
+  jobs:
+    - href: /jobs/freelance/
+  code:
+    title: github.com/gregoryjscott/jekyll-embed
+    href: https://github.com/gregoryjscott/jekyll-embed
+  languages:
+    - href: /languages/rb/
+  tools:
+    - href: /tools/jekyll/
+    - href: /tools/hal/
+  os:
+    - href: /os/macos/
+    - href: /os/linux/
+_embedded:
+  jobs:
+    - title: Freelance Programmer
+      desc: Freelance Programmer/Consultant, partnering with clients to architect and
+        implement technology solutions
+      role: Freelance Programmer
+      begin_year: 2014
+      end_year: null
+      time_desc: July 2014 - present
+      _links:
+        self:
+          href: /jobs/freelance/
+        projects:
+          - href: /projects/denver-schedules-api/
+          - href: /projects/mvc-integration-test-framework/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
+          - href: /projects/aprender/
+          - href: /projects/la-boda/
+        db:
+          - href: /db/postgres/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/rb/
+          - href: /languages/sql/
+          - href: /languages/css/
+          - href: /languages/html/
+        os:
+          - href: /os/windows/
+          - href: /os/macos/
+          - href: /os/linux/
+          - href: /os/android/
+          - href: /os/ios/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
+          - href: /tools/hal/
+          - href: /tools/amplify/
+          - href: /tools/react-native/
+          - href: /tools/xstate/
+  languages:
+    - title: Ruby
+      desc: Ruby is an open-source, object-oriented programming language created by
+        Yukihiro Matsumoto in 1995. It is designed to be simple and easy to use,
+        yet powerful and flexible. Ruby is often used for web development,
+        scripting, and general-purpose programming. It is known for its use of
+        blocks, which allow for the creation of concise and powerful code. Ruby
+        is also popular for its use of metaprogramming, which allows for the
+        dynamic creation of code at runtime.
+      _links:
+        self:
+          href: /languages/rb/
+        projects:
+          - href: /projects/agdc/
+          - href: /projects/centroid/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/please/
+          - href: /projects/scramble-score/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+        jobs:
+          - href: /jobs/freelance/
+          - href: /jobs/rdi/
+  tools:
+    - title: HAL
+      subtitle: Hypertext Application Language (HAL) is a a media type for
+        representing resources with hyperlinks
+      desc: The Hypertext Application Language (HAL) is a simple, vendor-neutral media
+        type for representing resources and their relationships in JSON or XML,
+        designed to make RESTful APIs more discoverable and self-descriptive. In
+        HAL, each resource’s state is represented by its attributes, its
+        hyperlinks by a standardized “_links” section (allowing clients to
+        navigate between related resources), and any embedded sub‐resources by
+        an “_embedded” section. By providing a consistent convention for linking
+        and embedding, HAL enables clients to follow HATEOAS
+        principles—dynamically discovering available operations and
+        transitions—without relying on out-of-band documentation.
+      _links:
+        self:
+          href: /tools/hal/
+        projects:
+          - href: /projects/this-site/
+          - href: /projects/jekyll-embed/
+        jobs:
+          - href: /jobs/freelance/
+    - title: Jekyll
+      desc: Jekyll is an open-source, Ruby-based static site generator that transforms
+        plain-text content (written in Markdown, Textile or HTML) and
+        Liquid-templated layouts into a complete, static website. By using
+        simple “front matter” at the top of each page or post to define metadata
+        (like title, date and categories), Jekyll assembles content with shared
+        layouts, includes and assets into fully rendered HTML files. Because it
+        produces only static pages—no databases or server-side processing—it
+        delivers fast, secure sites that are easy to host (notably on GitHub
+        Pages) and maintain via version control.
+      _links:
+        self:
+          href: /tools/jekyll/
+        projects:
+          - href: /projects/cfw/
+          - href: /projects/this-site/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+        jobs:
+          - href: /jobs/freelance/
+  os:
+    - title: Linux
+      desc: Linux is an open-source operating system that is based on the Linux
+        kernel. It is a free and powerful operating system that is used in many
+        different types of computing devices, from smartphones to
+        supercomputers. It is highly customizable and can be used for a variety
+        of tasks, from web hosting to software development. It is also highly
+        secure and reliable, making it a popular choice for many users.
+      _links:
+        self:
+          href: /os/linux/
+        projects:
+          - href: /projects/centroid/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/epicloud/
+          - href: /projects/scramble-score/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
+          - href: /projects/la-boda/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/freelance/
+          - href: /jobs/rdi/
+    - title: macOS
+      desc: macOS is Apple’s Unix‐based desktop operating system, first released in
+        2001 as Mac OS X and built on the open‐source Darwin core and the
+        proprietary XNU kernel. Designed exclusively for Mac computers, it
+        combines a polished Aqua graphical interface with deep integration of
+        hardware and software, offering features like Spotlight search, Time
+        Machine backups, and Continuity for seamless work across Apple devices.
+        With strong emphasis on stability, security and performance, macOS
+        supports a rich ecosystem of native and third-party applications via the
+        Mac App Store and developer tools such as Xcode, making it a popular
+        choice for both creative professionals and everyday users.
+      _links:
+        self:
+          href: /os/macos/
+        projects:
+          - href: /projects/centroid/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/scramble-score/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/aprender/
+        jobs:
+          - href: /jobs/freelance/
+          - href: /jobs/rdi/

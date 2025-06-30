@@ -12,413 +12,6 @@ _links:
     - href: /jobs/rdi/
 _embedded:
   jobs:
-    - title: Futuristic Education
-      desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-        for schools and educators
-      role: Co-Founder/Programmer
-      begin_year: 2018
-      end_year: null
-      time_desc: March 2018 - present
-      _links:
-        self:
-          href: /jobs/fe/
-        projects:
-          - href: /projects/epicloud/
-        db:
-          - href: /db/bigquery/
-        languages:
-          - href: /languages/ts/
-        os:
-          - href: /os/linux/
-        tools:
-          - href: /tools/classroom/
-          - href: /tools/ddb/
-          - href: /tools/docker/
-          - href: /tools/drive/
-          - href: /tools/ec2/
-          - href: /tools/ecr/
-          - href: /tools/ecs/
-          - href: /tools/fargate/
-          - href: /tools/firebase/
-          - href: /tools/iam/
-          - href: /tools/lerna/
-          - href: /tools/node/
-          - href: /tools/puppeteer/
-          - href: /tools/s3/
-          - href: /tools/sqs/
-          - href: /tools/tracker/
-          - href: /tools/vpc/
-      content: >-
-        - Built the cloud-based backend integration and automation services for
-        one of the largest online charter schools in the United States
-
-        - Implemented a custom data warehouse and reporting system for a school district
-
-        - Developed student performance reports to help teachers and administrators make data-driven decisions to improve student outcomes
-      _embedded:
-        projects:
-          - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
-            desc: null
-            role: Technical Lead
-            begin_year: 2015
-            end_year: 2021
-            _links:
-              self:
-                href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-              os:
-                - href: /os/linux/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/ddb/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/lerna/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/tracker/
-                - href: /tools/vpc/
-        db:
-          - title: BigQuery
-            desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
-              enables businesses to store, query, and analyze large datasets. It
-              is a petabyte-scale data warehouse that can process up to 20,000
-              queries per second and is designed to scale with the growth of
-              your business. BigQuery is integrated with Google Cloud Platform
-              services, allowing users to easily access and analyze data from
-              other Google services such as Google Ads, Google Analytics, and
-              Google Cloud Storage. BigQuery also supports a wide range of data
-              formats, including CSV, JSON, and Avro.
-            _links:
-              self:
-                href: /db/bigquery/
-              projects:
-                - href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-        languages:
-          - title: Typescript
-            desc: Typescript is a typed superset of JavaScript that compiles to plain
-              JavaScript. It adds optional static typing to the language,
-              allowing developers to use type annotations to catch errors early
-              in the development process. It also provides features such as
-              classes, modules, and interfaces that are not available in
-              JavaScript. Typescript is designed to make it easier to write and
-              maintain large-scale applications.
-            _links:
-              self:
-                href: /languages/ts/
-              projects:
-                - href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-        os:
-          - title: Linux
-            desc: Linux is an open-source operating system that is based on the Linux
-              kernel. It is a free and powerful operating system that is used in
-              many different types of computing devices, from smartphones to
-              supercomputers. It is highly customizable and can be used for a
-              variety of tasks, from web hosting to software development. It is
-              also highly secure and reliable, making it a popular choice for
-              many users.
-            _links:
-              self:
-                href: /os/linux/
-              projects:
-                - href: /projects/centroid/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/epicloud/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              jobs:
-                - href: /jobs/fe/
-                - href: /jobs/freelance/
-                - href: /jobs/rdi/
-        tools:
-          - title: Amazon Virtual Private Cloud (VPC)
-            desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
-              provides users with a virtual private cloud, allowing them to
-              provision a logically isolated section of the Amazon Web Services
-              (AWS) cloud. It provides users with complete control over their
-              virtual networking environment, including selection of their own
-              IP address range, creation of subnets, and configuration of route
-              tables and network gateways. It also provides users with the
-              ability to securely connect their VPC to their existing IT
-              infrastructure using industry-standard encrypted IPsec VPN
-              connections.
-            _links:
-              self:
-                href: /tools/vpc/
-              projects:
-                - href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-          - title: Pivotal Tracker
-            desc: Pivotal Tracker is an agile project management tool that helps teams
-              collaborate and manage their projects. It provides a visual
-              timeline of tasks, stories, and epics, and allows teams to
-              prioritize and track progress. It also offers features such as
-              real-time collaboration, automated workflow, and reporting. It is
-              designed to help teams stay organized and on track with their
-              projects.
-            _links:
-              self:
-                href: /tools/tracker/
-              projects:
-                - href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-          - title: Amazon Simple Queue Service (SQS)
-            desc: Amazon Simple Queue Service (SQS) is a fully managed message queuing
-              service that enables applications to quickly and reliably queue
-              messages that one component of an application can later process.
-              SQS eliminates the complexity and overhead associated with
-              managing and operating message-oriented middleware, and provides a
-              simple and cost-effective way to decouple the components of an
-              application. SQS offers a reliable, highly-scalable, hosted queue
-              for storing messages as they travel between computers. It also
-              provides a simple web services interface that can be used to
-              access queues, add, receive, and delete messages.
-            _links:
-              self:
-                href: /tools/sqs/
-              projects:
-                - href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-          - title: Amazon Simple Storage Service (S3)
-            desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
-              Amazon Web Services (AWS). It provides object storage through a
-              web service interface and is designed to store and retrieve any
-              amount of data from anywhere on the web. It is highly scalable,
-              secure, and durable, and provides features such as data
-              versioning, encryption, and access control. S3 is used by many
-              organizations for storing and backing up data, hosting websites,
-              and streaming media.
-            _links:
-              self:
-                href: /tools/s3/
-              projects:
-                - href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-          - title: Puppeteer
-            desc: Puppeteer is a Node library developed by Google that provides a high-level
-              API to control headless Chrome or Chromium over the DevTools
-              Protocol. It can be used to automate tasks that would normally be
-              performed manually in the browser, such as form submission, UI
-              testing, keyboard input, or capturing a timeline trace to diagnose
-              performance issues. Puppeteer can also be used to generate
-              screenshots and PDFs of web pages.
-            _links:
-              self:
-                href: /tools/puppeteer/
-              projects:
-                - href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-          - title: Node
-            desc: Node.js is an open-source, cross-platform JavaScript runtime environment
-              that executes JavaScript code outside of a browser. It is used to
-              create server-side and networking applications. Node.js
-              applications are written in JavaScript and can be run within the
-              Node.js runtime on OS X, Microsoft Windows, and Linux. Node.js
-              also provides a rich library of various JavaScript modules which
-              simplifies the development of web applications using Node.js.
-            _links:
-              self:
-                href: /tools/node/
-              projects:
-                - href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-          - title: Lerna
-            desc: Lerna is a tool that optimizes the workflow around managing multi-package
-              repositories with git and npm. It allows developers to easily
-              create, maintain, and version multiple packages from the same
-              codebase. It also provides a powerful set of features such as
-              managing dependencies, running scripts, and publishing packages.
-              Lerna makes it easier to manage complex projects with multiple
-              packages, and helps developers keep their codebase organized and
-              up-to-date.
-            _links:
-              self:
-                href: /tools/lerna/
-              projects:
-                - href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-          - title: AWS Identity and Access Management (IAM)
-            desc: AWS Identity and Access Management (IAM) is a web service that helps you
-              securely control access to AWS resources. With IAM, you can create
-              and manage AWS users and groups, and use permissions to allow and
-              deny their access to AWS resources. IAM also enables you to create
-              and manage security credentials such as access keys, passwords,
-              and multi-factor authentication devices. You can use IAM to manage
-              access to AWS services such as Amazon EC2, Amazon S3, and Amazon
-              RDS.
-            _links:
-              self:
-                href: /tools/iam/
-              projects:
-                - href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-          - title: Google Firebase
-            desc: Google Firebase is a mobile and web application development platform that
-              provides developers with a variety of tools and services to help
-              them quickly and easily build high-quality apps. Firebase provides
-              a real-time database, authentication, storage, hosting, analytics,
-              and more. It also offers a range of SDKs for Android, iOS, and web
-              development, allowing developers to quickly and easily integrate
-              Firebase into their apps.
-            _links:
-              self:
-                href: /tools/firebase/
-              projects:
-                - href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-          - title: Fargate
-            desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
-              deploy and manage containers without having to manage the
-              underlying infrastructure. It provides a serverless compute engine
-              for containers that eliminates the need to provision, configure,
-              and scale clusters of virtual machines. Fargate also provides a
-              secure and reliable platform for running containers, allowing
-              users to focus on building and running their applications, rather
-              than managing the underlying infrastructure.
-            _links:
-              self:
-                href: /tools/fargate/
-              projects:
-                - href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-          - title: Amazon Elastic Container Service (ECS)
-            desc: Amazon Elastic Container Service (ECS) is a container orchestration
-              service from Amazon Web Services (AWS) that enables users to
-              easily deploy, manage, and scale containerized applications on
-              AWS. It provides a secure and scalable platform for running Docker
-              containers, allowing users to quickly and easily deploy and manage
-              applications in the cloud. ECS also provides features such as
-              automated container scaling, service discovery, and resource
-              management.
-            _links:
-              self:
-                href: /tools/ecs/
-              projects:
-                - href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-          - title: Amazon Elastic Container Registry (ECR)
-            desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
-              container registry that makes it easy to store, manage, and deploy
-              Docker container images. It is secure, highly available, and
-              scales automatically to meet the needs of your applications. ECR
-              integrates with Amazon Elastic Container Service (ECS) and AWS
-              Fargate, simplifying your development to production workflow. It
-              also provides features such as image scanning, lifecycle policies,
-              and IAM authentication.
-            _links:
-              self:
-                href: /tools/ecr/
-              projects:
-                - href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-          - title: Amazon Elastic Compute Cloud (EC2)
-            desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
-              resizable compute capacity in the cloud. It is designed to make
-              web-scale cloud computing easier for developers. EC2 allows users
-              to launch virtual servers, called “instances”, which can be
-              configured to their specific needs. EC2 also provides users with
-              the ability to scale their computing resources up or down as
-              needed, allowing them to pay only for the resources they use.
-            _links:
-              self:
-                href: /tools/ec2/
-              projects:
-                - href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-          - title: Google Drive
-            desc: Google Drive is a cloud storage service that allows users to store and
-              access their files from any device with an internet connection. It
-              provides users with 15GB of free storage, and additional storage
-              can be purchased. It also offers a suite of office applications,
-              including Google Docs, Sheets, and Slides, which allow users to
-              create and collaborate on documents, spreadsheets, and
-              presentations. Google Drive also offers a range of features, such
-              as file sharing, version history, and real-time collaboration.
-            _links:
-              self:
-                href: /tools/drive/
-              projects:
-                - href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-          - title: Docker
-            desc: Docker is an open-source platform for developing, shipping, and running
-              applications. It uses container technology to package applications
-              into isolated, lightweight, and portable containers that can be
-              quickly deployed and moved between different computing
-              environments. Docker also provides a set of tools and services to
-              help developers build, ship, and run applications in a more
-              efficient and secure way.
-            _links:
-              self:
-                href: /tools/docker/
-              projects:
-                - href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-          - title: DynamoDB
-            desc: Amazon DynamoDB is a fully managed NoSQL database service that provides
-              fast and predictable performance with seamless scalability. It is
-              a serverless database that can automatically scale up or down to
-              meet the needs of your application. DynamoDB offers a flexible
-              data model, reliable performance, and automatic scaling of
-              throughput capacity. It also provides encryption at rest,
-              point-in-time recovery, and other features to help protect your
-              data.
-            _links:
-              self:
-                href: /tools/ddb/
-              projects:
-                - href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
-          - title: Google Classroom
-            desc: Google Classroom is a free web-based platform that allows teachers to
-              create and manage virtual classrooms. It enables teachers to
-              easily create and organize assignments, provide feedback, and
-              communicate with students. It also allows students to submit
-              assignments, view grades, and collaborate with their peers. Google
-              Classroom integrates with other Google applications such as Google
-              Drive, Google Docs, and Google Calendar.
-            _links:
-              self:
-                href: /tools/classroom/
-              projects:
-                - href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
     - title: Freelance Programmer
       desc: Freelance Programmer/Consultant, partnering with clients to architect and
         implement technology solutions
@@ -434,6 +27,14 @@ _embedded:
           - href: /projects/mvc-integration-test-framework/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
+          - href: /projects/aprender/
+          - href: /projects/la-boda/
         db:
           - href: /db/postgres/
         languages:
@@ -444,8 +45,17 @@ _embedded:
           - href: /languages/html/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/android/
+          - href: /os/ios/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
+          - href: /tools/hal/
+          - href: /tools/amplify/
+          - href: /tools/react-native/
+          - href: /tools/xstate/
       content: >-
         - Designed and built the software infrastructure that powers the sites
         and applications for the City of Fort Worth, Texas
@@ -455,9 +65,41 @@ _embedded:
         - Building open-source software for profit and fun
       _embedded:
         projects:
-          - title: This Site
-            desc: My website/experiment that uses Jekyll to create static HTML pages using
-              YAML, Markdown, and hypermedia.
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+          - title: gregoryjscott.com
+            desc: My portfolio website that uses Jekyll to create static HTML pages using
+              YAML, Markdown, and HAL-based hypermedia.
             role: Author
             begin_year: 2014
             end_year: null
@@ -473,8 +115,148 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/rb/
+                - href: /languages/ts/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
+                - href: /os/linux/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+          - title: hazelandgreg.wedding
+            desc: Wedding website for Hazel and Greg
+            role: Author
+            begin_year: 2025
+            end_year: 2025
+            _links:
+              self:
+                href: /projects/la-boda/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+              os:
+                - href: /os/linux/
+          - title: aprender
+            desc: CLI for learning Spanish
+            role: Author
+            begin_year: 2017
+            end_year: 2017
+            _links:
+              self:
+                href: /projects/aprender/
+              code:
+                title: github.com/gregoryjscott/aprender
+                href: https://github.com/gregoryjscott/aprender
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/js/
+              os:
+                - href: /os/macos/
+          - title: fortworthtexas.gov
+            desc: Jekyll static site for the City of Fort Worth, Texas.
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2016
+            _links:
+              self:
+                href: /projects/cfw/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+              os:
+                - href: /os/linux/
+          - title: jekyll-prep
+            desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-prep/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-prep
+                href: https://github.com/gregoryjscott/jekyll-prep
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/macos/
+                - href: /os/linux/
+          - title: jekyll-embed
+            desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
+              frontmatter
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-embed/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-embed
+                href: https://github.com/gregoryjscott/jekyll-embed
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+              os:
+                - href: /os/macos/
+                - href: /os/linux/
+          - title: jekyll-api
+            desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-api/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-api
+                href: https://github.com/gregoryjscott/jekyll-api
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/macos/
+                - href: /os/linux/
+          - title: jekyll-load
+            desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-load/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-load
+                href: https://github.com/gregoryjscott/jekyll-load
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Denver Schedules API
             desc: JSON API that provides access to Denver activities that impact the
@@ -498,7 +280,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Simpler
             desc: Library that provides a simpler approach to C# class design.
@@ -518,7 +300,7 @@ _embedded:
                 - href: /languages/rb/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: MvcIntegrationTestFramework
             desc: Framework that can be used to perform integration tests on a ASP.NET MVC
@@ -583,6 +365,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -609,6 +392,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -669,6 +453,11 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -713,6 +502,40 @@ _embedded:
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         os:
+          - title: iOS
+            desc: iOS is a mobile operating system developed by Apple Inc. for its iPhone,
+              iPad, and iPod Touch devices. It is the second most popular mobile
+              operating system in the world, behind Android. iOS is based on the
+              Mac OS X operating system and provides a user interface based on
+              direct manipulation of the screen using multi-touch gestures. It
+              includes features such as a home screen with app icons, a
+              notification center, and access to the App Store for downloading
+              apps. iOS also includes features such as iCloud, AirPlay, and
+              Apple Pay.
+            _links:
+              self:
+                href: /os/ios/
+              projects:
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+          - title: Android
+            desc: Android is a mobile operating system developed by Google. It is based on a
+              modified version of the Linux kernel and other open source
+              software, and is designed primarily for touchscreen mobile devices
+              such as smartphones and tablets. Android has a large community of
+              developers writing applications ("apps") that extend the
+              functionality of the devices. Apps can be downloaded from
+              third-party app stores or through online stores such as Google
+              Play. Android has been the best-selling OS on tablets since 2013,
+              and on smartphones it is dominant by any metric.
+            _links:
+              self:
+                href: /os/android/
+              projects:
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
           - title: Linux
             desc: Linux is an open-source operating system that is based on the Linux
               kernel. It is a free and powerful operating system that is used in
@@ -731,26 +554,43 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
-          - title: OS X
-            desc: OS X is an operating system developed by Apple Inc. for its Macintosh line
-              of computers. It is based on the Unix operating system and
-              provides a graphical user interface, multitasking, and support for
-              a variety of hardware and software. It also includes a wide range
-              of features such as the Finder, Dock, Spotlight, Time Machine, and
-              iCloud. OS X is designed to be secure, reliable, and easy to use.
+          - title: macOS
+            desc: macOS is Apple’s Unix‐based desktop operating system, first released in
+              2001 as Mac OS X and built on the open‐source Darwin core and the
+              proprietary XNU kernel. Designed exclusively for Mac computers, it
+              combines a polished Aqua graphical interface with deep integration
+              of hardware and software, offering features like Spotlight search,
+              Time Machine backups, and Continuity for seamless work across
+              Apple devices. With strong emphasis on stability, security and
+              performance, macOS supports a rich ecosystem of native and
+              third-party applications via the Mac App Store and developer tools
+              such as Xcode, making it a popular choice for both creative
+              professionals and everyday users.
             _links:
               self:
-                href: /os/osx/
+                href: /os/macos/
               projects:
                 - href: /projects/centroid/
                 - href: /projects/denver-schedules-api/
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+                - href: /projects/aprender/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -798,10 +638,601 @@ _embedded:
                 - href: /projects/train-builder/
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
+                - href: /projects/epic-ca-enrollment/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
+        tools:
+          - title: XState
+            desc: XState is a JavaScript/TypeScript library for modeling application logic
+              as finite state machines and hierarchical statecharts, enabling
+              developers to define states, transitions, guards, actions, and
+              invoked services declaratively. With built-in support for parallel
+              and history states, runtime interpreters, visualizers, and
+              integrations for React, Vue, Angular, and Node.js, XState delivers
+              predictable, testable, and maintainable state management for
+              complex synchronous and asynchronous workflows.
+            _links:
+              self:
+                href: /tools/xstate/
+              projects:
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+          - title: React Native
+            desc: React Native is an open-source framework developed by Facebook that
+              enables developers to build mobile apps for iOS and Android using
+              JavaScript and React. Instead of rendering web views, React Native
+              translates UI components into native platform widgets, delivering
+              near-native performance and look-and-feel. Its component-based
+              architecture and one-way data flow mirror React for the web,
+              making it easy for JavaScript developers to pick up. Features like
+              hot reloading accelerate the development cycle by instantly
+              reflecting code changes on the device. A rich ecosystem of
+              libraries and a large community contribute reusable modules and
+              plugins, simplifying access to native device features (camera,
+              geolocation, sensors) without writing platform-specific code. By
+              sharing logic and UI components across platforms, React Native
+              significantly reduces development time and maintenance overhead
+              compared to traditional native app development.
+            _links:
+              self:
+                href: /tools/react-native/
+              projects:
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+          - title: Amplify
+            desc: AWS Amplify is a comprehensive development platform from Amazon Web
+              Services that enables developers to quickly build, deploy, and
+              manage scalable full-stack web and mobile applications. It
+              provides a set of libraries, UI components and a command-line
+              interface for integrating popular front-end frameworks (React,
+              Angular, Vue, iOS, Android, Flutter) with cloud backends,
+              including authentication, GraphQL and REST APIs, storage, and
+              serverless functions. Amplify Studio offers a visual development
+              environment for designing UI and data models, while built-in
+              hosting, CI/CD and environment management streamline the
+              application lifecycle so teams can focus on features instead of
+              infrastructure.
+            _links:
+              self:
+                href: /tools/amplify/
+              projects:
+                - href: /projects/nuggets/
+                - href: /projects/la-boda/
+              jobs:
+                - href: /jobs/freelance/
+          - title: HAL
+            subtitle: Hypertext Application Language (HAL) is a a media type for
+              representing resources with hyperlinks
+            desc: The Hypertext Application Language (HAL) is a simple, vendor-neutral media
+              type for representing resources and their relationships in JSON or
+              XML, designed to make RESTful APIs more discoverable and
+              self-descriptive. In HAL, each resource’s state is represented by
+              its attributes, its hyperlinks by a standardized “_links” section
+              (allowing clients to navigate between related resources), and any
+              embedded sub‐resources by an “_embedded” section. By providing a
+              consistent convention for linking and embedding, HAL enables
+              clients to follow HATEOAS principles—dynamically discovering
+              available operations and transitions—without relying on
+              out-of-band documentation.
+            _links:
+              self:
+                href: /tools/hal/
+              projects:
+                - href: /projects/this-site/
+                - href: /projects/jekyll-embed/
+              jobs:
+                - href: /jobs/freelance/
+          - title: Jekyll
+            desc: Jekyll is an open-source, Ruby-based static site generator that transforms
+              plain-text content (written in Markdown, Textile or HTML) and
+              Liquid-templated layouts into a complete, static website. By using
+              simple “front matter” at the top of each page or post to define
+              metadata (like title, date and categories), Jekyll assembles
+              content with shared layouts, includes and assets into fully
+              rendered HTML files. Because it produces only static pages—no
+              databases or server-side processing—it delivers fast, secure sites
+              that are easy to host (notably on GitHub Pages) and maintain via
+              version control.
+            _links:
+              self:
+                href: /tools/jekyll/
+              projects:
+                - href: /projects/cfw/
+                - href: /projects/this-site/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+              jobs:
+                - href: /jobs/freelance/
+          - title: Heroku
+            desc: Heroku is a cloud-based Platform as a Service (PaaS) that simplifies the
+              deployment, management and scaling of modern web applications.
+              Developers push code to Heroku via Git or GitHub, and Heroku’s
+              buildpacks automatically detect the language (such as Ruby,
+              Node.js, Python, Java, Go or PHP), install dependencies and
+              compile a runnable slug. Applications run in lightweight, isolated
+              containers called dynos, which can be scaled horizontally or
+              vertically on demand. The platform also offers a marketplace of
+              add-ons (databases, caching, monitoring, logging, etc.), a
+              web-based dashboard and a command-line interface, allowing teams
+              to iterate quickly without managing underlying infrastructure.
+            _links:
+              self:
+                href: /tools/heroku/
+              projects:
+                - href: /projects/cfw/
+              jobs:
+                - href: /jobs/freelance/
+    - title: Futuristic Education
+      desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+        for schools and educators
+      role: Co-Founder/Programmer
+      begin_year: 2018
+      end_year: 2022
+      time_desc: March 2018 - present
+      _links:
+        self:
+          href: /jobs/fe/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/epic-ca-enrollment/
+        db:
+          - href: /db/bigquery/
+          - href: /db/ddb/
+          - href: /db/firebase/
+        languages:
+          - href: /languages/ts/
+          - href: /languages/php/
+        os:
+          - href: /os/linux/
+        tools:
+          - href: /tools/classroom/
+          - href: /tools/docker/
+          - href: /tools/drive/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/firebase/
+          - href: /tools/iam/
+          - href: /tools/node/
+          - href: /tools/puppeteer/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+          - href: /tools/sikulix/
+      content: >-
+        - Built the cloud-based backend integration and automation services for
+        one of the largest online charter schools in the United States
+
+        - Implemented a custom data warehouse and reporting system for a school district
+
+        - Developed student performance reports to help teachers and administrators make data-driven decisions to improve student outcomes
+      _embedded:
+        projects:
+          - title: Epic California Academy Enrollment
+            desc: null
+            role: Technical Lead
+            begin_year: 2017
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epic-ca-enrollment/
+              jobs:
+                - href: /jobs/fe/
+              languages:
+                - href: /languages/php/
+              db:
+                - href: /db/firebase/
+              os:
+                - href: /os/windows/
+          - title: EpiCloud
+            subtitle: Infinitely Scaling Bots on AWS
+            desc: null
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
+        db:
+          - title: Firebase
+            desc: Firebase’s Realtime Database is a cloud-hosted, NoSQL JSON data store that
+              lets you build rich, collaborative applications by syncing data in
+              milliseconds across all connected clients. Data is stored as a
+              single, hierarchical JSON tree and updated in real time—any
+              changes made by one client are immediately pushed to every other.
+              SDKs for iOS, Android and web handle offline caching and automatic
+              resynchronization, while granular security rules and Firebase
+              Authentication ensure data is accessed and modified only by
+              authorized users. With built-in scalability, sharding and
+              integration with other Firebase services (Cloud Functions,
+              Analytics, etc.), the Realtime Database simplifies the creation of
+              responsive, data-driven apps without the need to manage your own
+              backend.
+            _links:
+              self:
+                href: /db/firebase/
+              jobs:
+                - href: /jobs/fe/
+              projects:
+                - href: /projects/epic-ca-enrollment/
+          - title: DynamoDB
+            desc: Amazon DynamoDB is a fully managed NoSQL database service that provides
+              fast and predictable performance with seamless scalability. It is
+              a serverless database that can automatically scale up or down to
+              meet the needs of your application. DynamoDB offers a flexible
+              data model, reliable performance, and automatic scaling of
+              throughput capacity. It also provides encryption at rest,
+              point-in-time recovery, and other features to help protect your
+              data.
+            _links:
+              self:
+                href: /db/ddb/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+                - href: /projects/la-boda/
+              jobs:
+                - href: /jobs/fe/
+          - title: BigQuery
+            desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
+              enables businesses to store, query, and analyze large datasets. It
+              is a petabyte-scale data warehouse that can process up to 20,000
+              queries per second and is designed to scale with the growth of
+              your business. BigQuery is integrated with Google Cloud Platform
+              services, allowing users to easily access and analyze data from
+              other Google services such as Google Ads, Google Analytics, and
+              Google Cloud Storage. BigQuery also supports a wide range of data
+              formats, including CSV, JSON, and Avro.
+            _links:
+              self:
+                href: /db/bigquery/
+              projects:
+                - href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
+        languages:
+          - title: PHP
+            desc: PHP is a server-side scripting language used for web development. It is a
+              powerful language that is used to create dynamic web pages and
+              applications. It is an open-source language, meaning it is free to
+              use and modify. PHP is easy to learn and is widely used for
+              creating websites and web applications. It is also used to create
+              database-driven websites and applications.
+            _links:
+              self:
+                href: /languages/php/
+              projects:
+                - href: /projects/epic-ca-enrollment/
+              jobs:
+                - href: /jobs/fe/
+          - title: Typescript
+            desc: Typescript is a typed superset of JavaScript that compiles to plain
+              JavaScript. It adds optional static typing to the language,
+              allowing developers to use type annotations to catch errors early
+              in the development process. It also provides features such as
+              classes, modules, and interfaces that are not available in
+              JavaScript. Typescript is designed to make it easier to write and
+              maintain large-scale applications.
+            _links:
+              self:
+                href: /languages/ts/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/this-site/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+        os:
+          - title: Linux
+            desc: Linux is an open-source operating system that is based on the Linux
+              kernel. It is a free and powerful operating system that is used in
+              many different types of computing devices, from smartphones to
+              supercomputers. It is highly customizable and can be used for a
+              variety of tasks, from web hosting to software development. It is
+              also highly secure and reliable, making it a popular choice for
+              many users.
+            _links:
+              self:
+                href: /os/linux/
+              projects:
+                - href: /projects/centroid/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
+                - href: /projects/scramble-score/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
+                - href: /projects/la-boda/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/freelance/
+                - href: /jobs/rdi/
+        tools:
+          - title: SikuliX
+            desc: SikuliX is an open-source GUI automation tool that uses image recognition
+              to interact with on-screen elements by matching screenshots. It
+              lets you write scripts in Python (via Jython), Java, and other JVM
+              languages to click, type, and verify UI states without needing
+              native application hooks. Built on OpenCV, SikuliX works across
+              Windows, macOS, and Linux, making it ideal for automating legacy
+              or custom interfaces and integrating with testing frameworks for
+              end-to-end automation or repetitive desktop task scripting.
+            _links:
+              self:
+                href: /tools/sikulix/
+              projects:
+                - href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
+          - title: VPC
+            desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
+              provides users with a virtual private cloud, allowing them to
+              provision a logically isolated section of the Amazon Web Services
+              (AWS) cloud. It provides users with complete control over their
+              virtual networking environment, including selection of their own
+              IP address range, creation of subnets, and configuration of route
+              tables and network gateways. It also provides users with the
+              ability to securely connect their VPC to their existing IT
+              infrastructure using industry-standard encrypted IPsec VPN
+              connections.
+            _links:
+              self:
+                href: /tools/vpc/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+          - title: SQS
+            desc: Amazon Simple Queue Service (SQS) is a fully managed message queuing
+              service that enables applications to quickly and reliably queue
+              messages that one component of an application can later process.
+              SQS eliminates the complexity and overhead associated with
+              managing and operating message-oriented middleware, and provides a
+              simple and cost-effective way to decouple the components of an
+              application. SQS offers a reliable, highly-scalable, hosted queue
+              for storing messages as they travel between computers. It also
+              provides a simple web services interface that can be used to
+              access queues, add, receive, and delete messages.
+            _links:
+              self:
+                href: /tools/sqs/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+          - title: S3
+            desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
+              Amazon Web Services (AWS). It provides object storage through a
+              web service interface and is designed to store and retrieve any
+              amount of data from anywhere on the web. It is highly scalable,
+              secure, and durable, and provides features such as data
+              versioning, encryption, and access control. S3 is used by many
+              organizations for storing and backing up data, hosting websites,
+              and streaming media.
+            _links:
+              self:
+                href: /tools/s3/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+          - title: Puppeteer
+            desc: Puppeteer is a Node library developed by Google that provides a high-level
+              API to control headless Chrome or Chromium over the DevTools
+              Protocol. It can be used to automate tasks that would normally be
+              performed manually in the browser, such as form submission, UI
+              testing, keyboard input, or capturing a timeline trace to diagnose
+              performance issues. Puppeteer can also be used to generate
+              screenshots and PDFs of web pages.
+            _links:
+              self:
+                href: /tools/puppeteer/
+              projects:
+                - href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
+          - title: Node
+            desc: Node.js is an open-source, cross-platform JavaScript runtime environment
+              that executes JavaScript code outside of a browser. It is used to
+              create server-side and networking applications. Node.js
+              applications are written in JavaScript and can be run within the
+              Node.js runtime on OS X, Microsoft Windows, and Linux. Node.js
+              also provides a rich library of various JavaScript modules which
+              simplifies the development of web applications using Node.js.
+            _links:
+              self:
+                href: /tools/node/
+              projects:
+                - href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
+          - title: IAM
+            desc: AWS Identity and Access Management (IAM) is a web service that helps you
+              securely control access to AWS resources. With IAM, you can create
+              and manage AWS users and groups, and use permissions to allow and
+              deny their access to AWS resources. IAM also enables you to create
+              and manage security credentials such as access keys, passwords,
+              and multi-factor authentication devices. You can use IAM to manage
+              access to AWS services such as Amazon EC2, Amazon S3, and Amazon
+              RDS.
+            _links:
+              self:
+                href: /tools/iam/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+          - title: Firebase
+            desc: Google Firebase is a mobile and web application development platform that
+              provides developers with a variety of tools and services to help
+              them quickly and easily build high-quality apps. Firebase provides
+              a real-time database, authentication, storage, hosting, analytics,
+              and more. It also offers a range of SDKs for Android, iOS, and web
+              development, allowing developers to quickly and easily integrate
+              Firebase into their apps.
+            _links:
+              self:
+                href: /tools/firebase/
+              projects:
+                - href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
+          - title: Fargate
+            desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
+              deploy and manage containers without having to manage the
+              underlying infrastructure. It provides a serverless compute engine
+              for containers that eliminates the need to provision, configure,
+              and scale clusters of virtual machines. Fargate also provides a
+              secure and reliable platform for running containers, allowing
+              users to focus on building and running their applications, rather
+              than managing the underlying infrastructure.
+            _links:
+              self:
+                href: /tools/fargate/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+          - title: ECS
+            desc: Amazon Elastic Container Service (ECS) is a container orchestration
+              service from Amazon Web Services (AWS) that enables users to
+              easily deploy, manage, and scale containerized applications on
+              AWS. It provides a secure and scalable platform for running Docker
+              containers, allowing users to quickly and easily deploy and manage
+              applications in the cloud. ECS also provides features such as
+              automated container scaling, service discovery, and resource
+              management.
+            _links:
+              self:
+                href: /tools/ecs/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+          - title: ECR
+            desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
+              container registry that makes it easy to store, manage, and deploy
+              Docker container images. It is secure, highly available, and
+              scales automatically to meet the needs of your applications. ECR
+              integrates with Amazon Elastic Container Service (ECS) and AWS
+              Fargate, simplifying your development to production workflow. It
+              also provides features such as image scanning, lifecycle policies,
+              and IAM authentication.
+            _links:
+              self:
+                href: /tools/ecr/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+          - title: EC2
+            desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
+              resizable compute capacity in the cloud. It is designed to make
+              web-scale cloud computing easier for developers. EC2 allows users
+              to launch virtual servers, called “instances”, which can be
+              configured to their specific needs. EC2 also provides users with
+              the ability to scale their computing resources up or down as
+              needed, allowing them to pay only for the resources they use.
+            _links:
+              self:
+                href: /tools/ec2/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+          - title: Google Drive
+            desc: Google Drive is a cloud storage service that allows users to store and
+              access their files from any device with an internet connection. It
+              provides users with 15GB of free storage, and additional storage
+              can be purchased. It also offers a suite of office applications,
+              including Google Docs, Sheets, and Slides, which allow users to
+              create and collaborate on documents, spreadsheets, and
+              presentations. Google Drive also offers a range of features, such
+              as file sharing, version history, and real-time collaboration.
+            _links:
+              self:
+                href: /tools/drive/
+              projects:
+                - href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
+          - title: Docker
+            desc: Docker is an open-source platform for developing, shipping, and running
+              applications. It uses container technology to package applications
+              into isolated, lightweight, and portable containers that can be
+              quickly deployed and moved between different computing
+              environments. Docker also provides a set of tools and services to
+              help developers build, ship, and run applications in a more
+              efficient and secure way.
+            _links:
+              self:
+                href: /tools/docker/
+              projects:
+                - href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
+          - title: Google Classroom
+            desc: Google Classroom is a free web-based platform that allows teachers to
+              create and manage virtual classrooms. It enables teachers to
+              easily create and organize assignments, provide feedback, and
+              communicate with students. It also allows students to submit
+              assignments, view grades, and collaborate with their peers. Google
+              Classroom integrates with other Google applications such as Google
+              Drive, Google Docs, and Google Calendar.
+            _links:
+              self:
+                href: /tools/classroom/
+              projects:
+                - href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
         Texas, Idaho, Minnesota, and Oregon, that provides custom database, web,
@@ -855,8 +1286,10 @@ _embedded:
           - href: /languages/plsql/
         os:
           - href: /os/linux/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/
       content: >-
         - Worked directly with clients during on all phases of the software
         development lifecycle
@@ -896,7 +1329,7 @@ _embedded:
                 - href: /languages/rb/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
@@ -1023,7 +1456,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Energy Efficiency Map
             desc: Web application that allows the Alaska Energy Authority to monitor and
@@ -1070,6 +1503,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
           - title: Service Order Mobile Dispatch
             desc: Mobile web application that allows Anchorage Water & Wastewater Utility
               service workers to query and record service information while in
@@ -1523,6 +1958,11 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -1562,6 +2002,8 @@ _embedded:
                 - href: /projects/scrum-tools/
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
+                - href: /projects/aprender/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/rdi/
           - title: HTML
@@ -1586,6 +2028,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -1612,6 +2055,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -1700,26 +2144,39 @@ _embedded:
                 - href: /projects/train-builder/
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
+                - href: /projects/epic-ca-enrollment/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
-          - title: OS X
-            desc: OS X is an operating system developed by Apple Inc. for its Macintosh line
-              of computers. It is based on the Unix operating system and
-              provides a graphical user interface, multitasking, and support for
-              a variety of hardware and software. It also includes a wide range
-              of features such as the Finder, Dock, Spotlight, Time Machine, and
-              iCloud. OS X is designed to be secure, reliable, and easy to use.
+              schools:
+                - href: /schools/uco/
+          - title: macOS
+            desc: macOS is Apple’s Unix‐based desktop operating system, first released in
+              2001 as Mac OS X and built on the open‐source Darwin core and the
+              proprietary XNU kernel. Designed exclusively for Mac computers, it
+              combines a polished Aqua graphical interface with deep integration
+              of hardware and software, offering features like Spotlight search,
+              Time Machine backups, and Continuity for seamless work across
+              Apple devices. With strong emphasis on stability, security and
+              performance, macOS supports a rich ecosystem of native and
+              third-party applications via the Mac App Store and developer tools
+              such as Xcode, making it a popular choice for both creative
+              professionals and everyday users.
             _links:
               self:
-                href: /os/osx/
+                href: /os/macos/
               projects:
                 - href: /projects/centroid/
                 - href: /projects/denver-schedules-api/
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+                - href: /projects/aprender/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
@@ -1741,9 +2198,39 @@ _embedded:
                 - href: /projects/scramble-score/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
+                - href: /projects/la-boda/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
+                - href: /jobs/rdi/
+        tools:
+          - title: Backbone.js
+            desc: Backbone.js is a lightweight JavaScript library that brings structure to
+              client‐side applications by providing models with key–value
+              binding and custom events, collections with rich enumerable
+              functions, views with declarative event handling, and a router for
+              managing application state and URLs. It syncs seamlessly with
+              RESTful APIs via its built‐in sync method, making it easy to fetch
+              and persist JSON data. By relying only on Underscore.js (and
+              optionally jQuery or Zepto), Backbone.js imposes minimal
+              constraints on how you architect your code while offering just
+              enough conventions to keep large‐scale single‐page applications
+              organized and maintainable. Its event‐driven design encourages
+              decoupled components, and its simplicity has made it popular for
+              developers who prefer to assemble their own toolchains rather than
+              adopt more opinionated frameworks.
+            _links:
+              self:
+                href: /tools/backbone/
+              projects:
+                - href: /projects/qb/
+              jobs:
                 - href: /jobs/rdi/
     - title: Municipal Accounting Systems, Inc.
       desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
@@ -1770,6 +2257,7 @@ _embedded:
           - href: /languages/sql/
         os:
           - href: /os/windows/
+          - href: /os/netware/
       content: >-
         - Led the development team in replacing the legacy DOS-based software
         product stack with a suite of Windows desktop applications
@@ -1820,6 +2308,7 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
           - title: Wen-GAGE Accounting
             desc: Desktop application that is used by schools in Oklahoma to manage all
               their school accounting responsibilites.
@@ -1839,6 +2328,7 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
           - title: Class Scheduler
             desc: Process that takes student course requests along with the available
               courses, sections, and teachers and builds the class schedule.
@@ -1854,8 +2344,10 @@ _embedded:
                 - href: /languages/delphi/
               db:
                 - href: /db/btrieve/
+                - href: /db/pervasive/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
         db:
           - title: Pervasive
             desc: Pervasive is a relational database management system (RDBMS) that is
@@ -1875,6 +2367,7 @@ _embedded:
                 - href: /projects/sif-agent/
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
+                - href: /projects/class-scheduler/
               jobs:
                 - href: /jobs/mas/
           - title: Btrieve
@@ -1994,6 +2487,25 @@ _embedded:
               jobs:
                 - href: /jobs/mas/
         os:
+          - title: NetWare
+            desc: NetWare is a network operating system developed by Novell, Inc. It was one
+              of the first network operating systems to be widely used in
+              business networks. It provides a distributed file system, print
+              services, and other network services. It also provides a graphical
+              user interface, allowing users to access and manage network
+              resources. NetWare also supports a wide range of network
+              protocols, including IPX/SPX, TCP/IP, and AppleTalk. It is also
+              compatible with a variety of hardware platforms, including
+              Intel-based PCs, Macintosh computers, and UNIX systems.
+            _links:
+              self:
+                href: /os/netware/
+              jobs:
+                - href: /jobs/mas/
+              projects:
+                - href: /projects/class-scheduler/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
           - title: Windows
             desc: Windows is a series of operating systems developed by Microsoft. It is the
               most popular operating system for personal computers, and is used
@@ -2038,10 +2550,13 @@ _embedded:
                 - href: /projects/train-builder/
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
+                - href: /projects/epic-ca-enrollment/
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
     - title: Boeing, Defense & Space Group
       desc: Embedded Software Engineer for Boeing, Defense and Space Group, based in
         Oklahoma City, Oklahoma that developed the B1-B Bomber Block E software

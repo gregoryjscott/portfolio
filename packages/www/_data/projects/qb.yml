@@ -21,6 +21,8 @@ _links:
     - href: /db/sql-server/
   os:
     - href: /os/windows/
+  tools:
+    - href: /tools/backbone/
 _embedded:
   jobs:
     - title: Resource Data, Inc.
@@ -76,8 +78,10 @@ _embedded:
           - href: /languages/plsql/
         os:
           - href: /os/linux/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/
   languages:
     - title: Transact-SQL
       desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
@@ -155,6 +159,8 @@ _embedded:
           - href: /projects/scrum-tools/
           - href: /projects/somd/
           - href: /projects/systems-portal/
+          - href: /projects/aprender/
+          - href: /projects/la-boda/
         jobs:
           - href: /jobs/rdi/
     - title: HTML
@@ -179,6 +185,7 @@ _embedded:
           - href: /projects/somd/
           - href: /projects/systems-portal/
           - href: /projects/this-site/
+          - href: /projects/la-boda/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -205,6 +212,7 @@ _embedded:
           - href: /projects/somd/
           - href: /projects/systems-portal/
           - href: /projects/this-site/
+          - href: /projects/la-boda/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -314,7 +322,32 @@ _embedded:
           - href: /projects/train-builder/
           - href: /projects/wengage-acct/
           - href: /projects/wengage-si/
+          - href: /projects/epic-ca-enrollment/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/mas/
+          - href: /jobs/rdi/
+        schools:
+          - href: /schools/uco/
+  tools:
+    - title: Backbone.js
+      desc: Backbone.js is a lightweight JavaScript library that brings structure to
+        client‐side applications by providing models with key–value binding and
+        custom events, collections with rich enumerable functions, views with
+        declarative event handling, and a router for managing application state
+        and URLs. It syncs seamlessly with RESTful APIs via its built‐in sync
+        method, making it easy to fetch and persist JSON data. By relying only
+        on Underscore.js (and optionally jQuery or Zepto), Backbone.js imposes
+        minimal constraints on how you architect your code while offering just
+        enough conventions to keep large‐scale single‐page applications
+        organized and maintainable. Its event‐driven design encourages decoupled
+        components, and its simplicity has made it popular for developers who
+        prefer to assemble their own toolchains rather than adopt more
+        opinionated frameworks.
+      _links:
+        self:
+          href: /tools/backbone/
+        projects:
+          - href: /projects/qb/
+        jobs:
           - href: /jobs/rdi/

@@ -12,6 +12,8 @@ _links:
     href: /languages/ts/
   projects:
     - href: /projects/epicloud/
+    - href: /projects/this-site/
+    - href: /projects/nuggets/
   jobs:
     - href: /jobs/fe/
 ---

@@ -1,5 +1,5 @@
 ---
-title: Amazon Elastic Container Registry (ECR)
+title: ECR
 desc: >-
   Amazon Elastic Container Registry (ECR) is a fully-managed Docker container
   registry that makes it easy to store, manage, and deploy Docker container
@@ -13,6 +13,7 @@ _links:
     href: /tools/ecr/
   projects:
     - href: /projects/epicloud/
+    - href: /projects/nuggets/
   jobs:
     - href: /jobs/fe/
 ---

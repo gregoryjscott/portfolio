@@ -1,4 +1,4 @@
-title: Amazon Elastic Compute Cloud (EC2)
+title: EC2
 desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
   resizable compute capacity in the cloud. It is designed to make web-scale
   cloud computing easier for developers. EC2 allows users to launch virtual
@@ -10,12 +10,45 @@ _links:
     href: /tools/ec2/
   projects:
     - href: /projects/epicloud/
+    - href: /projects/nuggets/
   jobs:
     - href: /jobs/fe/
 _embedded:
   projects:
+    - title: Nuggets
+      subtitle: Customizing Curriculum for Students using AI
+      desc: React Native app built using AI and state machines for learning Spanish or
+        English.
+      role: Author
+      begin_year: 2024
+      end_year: null
+      _links:
+        self:
+          href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+        languages:
+          - href: /languages/ts/
+        db:
+          - href: /db/ddb/
+        os:
+          - href: /os/android/
+          - href: /os/ios/
+          - href: /os/linux/
+        tools:
+          - href: /tools/amplify/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/iam/
+          - href: /tools/react-native/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+          - href: /tools/xstate/
     - title: EpiCloud
-      subtitle: Infinitely Scaling Bots using AWS
+      subtitle: Infinitely Scaling Bots on AWS
       desc: null
       role: Technical Lead
       begin_year: 2015
@@ -29,11 +62,11 @@ _embedded:
           - href: /languages/ts/
         db:
           - href: /db/bigquery/
+          - href: /db/ddb/
         os:
           - href: /os/linux/
         tools:
           - href: /tools/classroom/
-          - href: /tools/ddb/
           - href: /tools/docker/
           - href: /tools/drive/
           - href: /tools/ec2/
@@ -42,35 +75,37 @@ _embedded:
           - href: /tools/fargate/
           - href: /tools/firebase/
           - href: /tools/iam/
-          - href: /tools/lerna/
           - href: /tools/node/
           - href: /tools/puppeteer/
           - href: /tools/s3/
           - href: /tools/sqs/
-          - href: /tools/tracker/
           - href: /tools/vpc/
+          - href: /tools/sikulix/
   jobs:
     - title: Futuristic Education
       desc: Co-Founder/Programmer of Futuristic Education, building custom technology
         for schools and educators
       role: Co-Founder/Programmer
       begin_year: 2018
-      end_year: null
+      end_year: 2022
       time_desc: March 2018 - present
       _links:
         self:
           href: /jobs/fe/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/epic-ca-enrollment/
         db:
           - href: /db/bigquery/
+          - href: /db/ddb/
+          - href: /db/firebase/
         languages:
           - href: /languages/ts/
+          - href: /languages/php/
         os:
           - href: /os/linux/
         tools:
           - href: /tools/classroom/
-          - href: /tools/ddb/
           - href: /tools/docker/
           - href: /tools/drive/
           - href: /tools/ec2/
@@ -79,10 +114,9 @@ _embedded:
           - href: /tools/fargate/
           - href: /tools/firebase/
           - href: /tools/iam/
-          - href: /tools/lerna/
           - href: /tools/node/
           - href: /tools/puppeteer/
           - href: /tools/s3/
           - href: /tools/sqs/
-          - href: /tools/tracker/
           - href: /tools/vpc/
+          - href: /tools/sikulix/

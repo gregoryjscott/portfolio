@@ -9,227 +9,13 @@ _links:
     - href: /os/android/
     - href: /os/ios/
     - href: /os/linux/
+    - href: /os/macos/
     - href: /os/ms-dos/
     - href: /os/netware/
-    - href: /os/osx/
     - href: /os/solaris/
     - href: /os/windows/
 _embedded:
   os:
-    - title: OS X
-      desc: OS X is an operating system developed by Apple Inc. for its Macintosh line
-        of computers. It is based on the Unix operating system and provides a
-        graphical user interface, multitasking, and support for a variety of
-        hardware and software. It also includes a wide range of features such as
-        the Finder, Dock, Spotlight, Time Machine, and iCloud. OS X is designed
-        to be secure, reliable, and easy to use.
-      _links:
-        self:
-          href: /os/osx/
-        projects:
-          - href: /projects/centroid/
-          - href: /projects/denver-schedules-api/
-          - href: /projects/scramble-score/
-          - href: /projects/simpler/
-          - href: /projects/this-site/
-        jobs:
-          - href: /jobs/freelance/
-          - href: /jobs/rdi/
-      _embedded:
-        projects:
-          - title: This Site
-            desc: My website/experiment that uses Jekyll to create static HTML pages using
-              YAML, Markdown, and hypermedia.
-            role: Author
-            begin_year: 2014
-            end_year: null
-            _links:
-              self:
-                href: /projects/this-site/
-              code:
-                title: github.com/gregoryjscott/me
-                href: https://github.com/gregoryjscott/me
-              jobs:
-                - href: /jobs/freelance/
-              languages:
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/rb/
-              os:
-                - href: /os/osx/
-                - href: /os/linux/
-          - title: Centroid
-            desc: Library for accessing environment based configuration from multiple
-              different programming languages.
-            role: Contributor
-            begin_year: 2014
-            end_year: 2014
-            _links:
-              self:
-                href: /projects/centroid/
-              jobs:
-                - href: /jobs/rdi/
-              code:
-                title: github.com/ResourceDataInc/Centroid
-                href: https://github.com/ResourceDataInc/Centroid
-              languages:
-                - href: /languages/cs/
-                - href: /languages/py/
-                - href: /languages/rb/
-              os:
-                - href: /os/windows/
-                - href: /os/osx/
-                - href: /os/linux/
-          - title: Denver Schedules API
-            desc: JSON API that provides access to Denver activities that impact the
-              residents of Denver.
-            role: Contributor
-            begin_year: 2014
-            end_year: 2014
-            _links:
-              self:
-                href: /projects/denver-schedules-api/
-              code:
-                title: github.com/codeforamerica/denver-schedules-api
-                href: https://github.com/codeforamerica/denver-schedules-api
-              jobs:
-                - href: /jobs/freelance/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/rb/
-                - href: /languages/sql/
-              db:
-                - href: /db/postgres/
-              os:
-                - href: /os/windows/
-                - href: /os/osx/
-                - href: /os/linux/
-          - title: ScrambleScore
-            desc: Mobile web application that allows golfers participating in scramble golf
-              tournaments to record their scores and monitor the tournament
-              leaderboard.
-            role: Project Manager
-            begin_year: 2012
-            end_year: 2013
-            _links:
-              self:
-                href: /projects/scramble-score/
-              jobs:
-                - href: /jobs/rdi/
-              languages:
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/rb/
-              db:
-                - href: /db/postgres/
-              os:
-                - href: /os/windows/
-                - href: /os/osx/
-                - href: /os/linux/
-          - title: Simpler
-            desc: Library that provides a simpler approach to C# class design.
-            role: Author
-            begin_year: 2010
-            end_year: 2013
-            _links:
-              self:
-                href: /projects/simpler/
-              code:
-                title: github.com/gregoryjscott/Simpler
-                href: https://github.com/gregoryjscott/Simpler
-              jobs:
-                - href: /jobs/freelance/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/rb/
-              os:
-                - href: /os/windows/
-                - href: /os/osx/
-                - href: /os/linux/
-        jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
-            begin_year: 2014
-            end_year: null
-            time_desc: July 2014 - present
-            _links:
-              self:
-                href: /jobs/freelance/
-              projects:
-                - href: /projects/denver-schedules-api/
-                - href: /projects/mvc-integration-test-framework/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              db:
-                - href: /db/postgres/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/css/
-                - href: /languages/html/
-              os:
-                - href: /os/windows/
-                - href: /os/osx/
-                - href: /os/linux/
-          - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
-            role: Technical Lead
-            begin_year: 2005
-            end_year: 2014
-            time_desc: July 2005 - July 2014
-            _links:
-              self:
-                href: /jobs/rdi/
-              projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-job-scheduler/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/bit-proposal/
-                - href: /projects/centroid/
-                - href: /projects/cis-data-capture/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
-                - href: /projects/please/
-                - href: /projects/qb/
-                - href: /projects/report-engine/
-                - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
-                - href: /projects/scrum-tools/
-                - href: /projects/somd/
-                - href: /projects/systems-portal/
-                - href: /projects/train-builder/
-              db:
-                - href: /db/sql-server/
-                - href: /db/oracle/
-                - href: /db/access/
-                - href: /db/sqlite/
-                - href: /db/postgres/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/py/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-                - href: /languages/plsql/
-              os:
-                - href: /os/linux/
-                - href: /os/osx/
-                - href: /os/windows/
     - title: Linux
       desc: Linux is an open-source operating system that is based on the Linux
         kernel. It is a free and powerful operating system that is used in many
@@ -247,15 +33,54 @@ _embedded:
           - href: /projects/scramble-score/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
+          - href: /projects/la-boda/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/freelance/
           - href: /jobs/rdi/
       _embedded:
         projects:
-          - title: This Site
-            desc: My website/experiment that uses Jekyll to create static HTML pages using
-              YAML, Markdown, and hypermedia.
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+          - title: gregoryjscott.com
+            desc: My portfolio website that uses Jekyll to create static HTML pages using
+              YAML, Markdown, and HAL-based hypermedia.
             role: Author
             begin_year: 2014
             end_year: null
@@ -271,11 +96,35 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/rb/
+                - href: /languages/ts/
               os:
-                - href: /os/osx/
+                - href: /os/macos/
+                - href: /os/linux/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+          - title: hazelandgreg.wedding
+            desc: Wedding website for Hazel and Greg
+            role: Author
+            begin_year: 2025
+            end_year: 2025
+            _links:
+              self:
+                href: /projects/la-boda/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+              os:
                 - href: /os/linux/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots using AWS
+            subtitle: Infinitely Scaling Bots on AWS
             desc: null
             role: Technical Lead
             begin_year: 2015
@@ -289,11 +138,11 @@ _embedded:
                 - href: /languages/ts/
               db:
                 - href: /db/bigquery/
+                - href: /db/ddb/
               os:
                 - href: /os/linux/
               tools:
                 - href: /tools/classroom/
-                - href: /tools/ddb/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -302,13 +151,29 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/firebase/
                 - href: /tools/iam/
-                - href: /tools/lerna/
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
                 - href: /tools/sqs/
-                - href: /tools/tracker/
                 - href: /tools/vpc/
+                - href: /tools/sikulix/
+          - title: fortworthtexas.gov
+            desc: Jekyll static site for the City of Fort Worth, Texas.
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2016
+            _links:
+              self:
+                href: /projects/cfw/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+              os:
+                - href: /os/linux/
           - title: Centroid
             desc: Library for accessing environment based configuration from multiple
               different programming languages.
@@ -329,7 +194,7 @@ _embedded:
                 - href: /languages/rb/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Denver Schedules API
             desc: JSON API that provides access to Denver activities that impact the
@@ -353,7 +218,89 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
+                - href: /os/linux/
+          - title: jekyll-load
+            desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-load/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-load
+                href: https://github.com/gregoryjscott/jekyll-load
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/macos/
+                - href: /os/linux/
+          - title: jekyll-api
+            desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-api/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-api
+                href: https://github.com/gregoryjscott/jekyll-api
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/macos/
+                - href: /os/linux/
+          - title: jekyll-embed
+            desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
+              frontmatter
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-embed/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-embed
+                href: https://github.com/gregoryjscott/jekyll-embed
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+              os:
+                - href: /os/macos/
+                - href: /os/linux/
+          - title: jekyll-prep
+            desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-prep/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-prep
+                href: https://github.com/gregoryjscott/jekyll-prep
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/macos/
                 - href: /os/linux/
           - title: ScrambleScore
             desc: Mobile web application that allows golfers participating in scramble golf
@@ -376,7 +323,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Simpler
             desc: Library that provides a simpler approach to C# class design.
@@ -396,45 +343,9 @@ _embedded:
                 - href: /languages/rb/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
         jobs:
-          - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
-            begin_year: 2018
-            end_year: null
-            time_desc: March 2018 - present
-            _links:
-              self:
-                href: /jobs/fe/
-              projects:
-                - href: /projects/epicloud/
-              db:
-                - href: /db/bigquery/
-              languages:
-                - href: /languages/ts/
-              os:
-                - href: /os/linux/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/ddb/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/lerna/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/tracker/
-                - href: /tools/vpc/
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
               implement technology solutions
@@ -450,6 +361,14 @@ _embedded:
                 - href: /projects/mvc-integration-test-framework/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
+                - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -460,8 +379,55 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: 2022
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/epic-ca-enrollment/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              languages:
+                - href: /languages/ts/
+                - href: /languages/php/
+              os:
+                - href: /os/linux/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/sikulix/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -515,8 +481,545 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
+    - title: iOS
+      desc: iOS is a mobile operating system developed by Apple Inc. for its iPhone,
+        iPad, and iPod Touch devices. It is the second most popular mobile
+        operating system in the world, behind Android. iOS is based on the Mac
+        OS X operating system and provides a user interface based on direct
+        manipulation of the screen using multi-touch gestures. It includes
+        features such as a home screen with app icons, a notification center,
+        and access to the App Store for downloading apps. iOS also includes
+        features such as iCloud, AirPlay, and Apple Pay.
+      _links:
+        self:
+          href: /os/ios/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: null
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/denver-schedules-api/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
+                - href: /projects/aprender/
+                - href: /projects/la-boda/
+              db:
+                - href: /db/postgres/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/css/
+                - href: /languages/html/
+              os:
+                - href: /os/windows/
+                - href: /os/macos/
+                - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
+    - title: Android
+      desc: Android is a mobile operating system developed by Google. It is based on a
+        modified version of the Linux kernel and other open source software, and
+        is designed primarily for touchscreen mobile devices such as smartphones
+        and tablets. Android has a large community of developers writing
+        applications ("apps") that extend the functionality of the devices. Apps
+        can be downloaded from third-party app stores or through online stores
+        such as Google Play. Android has been the best-selling OS on tablets
+        since 2013, and on smartphones it is dominant by any metric.
+      _links:
+        self:
+          href: /os/android/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: null
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/denver-schedules-api/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
+                - href: /projects/aprender/
+                - href: /projects/la-boda/
+              db:
+                - href: /db/postgres/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/css/
+                - href: /languages/html/
+              os:
+                - href: /os/windows/
+                - href: /os/macos/
+                - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
+    - title: macOS
+      desc: macOS is Apple’s Unix‐based desktop operating system, first released in
+        2001 as Mac OS X and built on the open‐source Darwin core and the
+        proprietary XNU kernel. Designed exclusively for Mac computers, it
+        combines a polished Aqua graphical interface with deep integration of
+        hardware and software, offering features like Spotlight search, Time
+        Machine backups, and Continuity for seamless work across Apple devices.
+        With strong emphasis on stability, security and performance, macOS
+        supports a rich ecosystem of native and third-party applications via the
+        Mac App Store and developer tools such as Xcode, making it a popular
+        choice for both creative professionals and everyday users.
+      _links:
+        self:
+          href: /os/macos/
+        projects:
+          - href: /projects/centroid/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/scramble-score/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/aprender/
+        jobs:
+          - href: /jobs/freelance/
+          - href: /jobs/rdi/
+      _embedded:
+        projects:
+          - title: gregoryjscott.com
+            desc: My portfolio website that uses Jekyll to create static HTML pages using
+              YAML, Markdown, and HAL-based hypermedia.
+            role: Author
+            begin_year: 2014
+            end_year: null
+            _links:
+              self:
+                href: /projects/this-site/
+              code:
+                title: github.com/gregoryjscott/me
+                href: https://github.com/gregoryjscott/me
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/rb/
+                - href: /languages/ts/
+              os:
+                - href: /os/macos/
+                - href: /os/linux/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+          - title: aprender
+            desc: CLI for learning Spanish
+            role: Author
+            begin_year: 2017
+            end_year: 2017
+            _links:
+              self:
+                href: /projects/aprender/
+              code:
+                title: github.com/gregoryjscott/aprender
+                href: https://github.com/gregoryjscott/aprender
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/js/
+              os:
+                - href: /os/macos/
+          - title: Centroid
+            desc: Library for accessing environment based configuration from multiple
+              different programming languages.
+            role: Contributor
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/centroid/
+              jobs:
+                - href: /jobs/rdi/
+              code:
+                title: github.com/ResourceDataInc/Centroid
+                href: https://github.com/ResourceDataInc/Centroid
+              languages:
+                - href: /languages/cs/
+                - href: /languages/py/
+                - href: /languages/rb/
+              os:
+                - href: /os/windows/
+                - href: /os/macos/
+                - href: /os/linux/
+          - title: Denver Schedules API
+            desc: JSON API that provides access to Denver activities that impact the
+              residents of Denver.
+            role: Contributor
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/denver-schedules-api/
+              code:
+                title: github.com/codeforamerica/denver-schedules-api
+                href: https://github.com/codeforamerica/denver-schedules-api
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/rb/
+                - href: /languages/sql/
+              db:
+                - href: /db/postgres/
+              os:
+                - href: /os/windows/
+                - href: /os/macos/
+                - href: /os/linux/
+          - title: jekyll-load
+            desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-load/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-load
+                href: https://github.com/gregoryjscott/jekyll-load
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/macos/
+                - href: /os/linux/
+          - title: jekyll-api
+            desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-api/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-api
+                href: https://github.com/gregoryjscott/jekyll-api
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/macos/
+                - href: /os/linux/
+          - title: jekyll-embed
+            desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
+              frontmatter
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-embed/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-embed
+                href: https://github.com/gregoryjscott/jekyll-embed
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+              os:
+                - href: /os/macos/
+                - href: /os/linux/
+          - title: jekyll-prep
+            desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-prep/
+              jobs:
+                - href: /jobs/freelance/
+              code:
+                title: github.com/gregoryjscott/jekyll-prep
+                href: https://github.com/gregoryjscott/jekyll-prep
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/macos/
+                - href: /os/linux/
+          - title: ScrambleScore
+            desc: Mobile web application that allows golfers participating in scramble golf
+              tournaments to record their scores and monitor the tournament
+              leaderboard.
+            role: Project Manager
+            begin_year: 2012
+            end_year: 2013
+            _links:
+              self:
+                href: /projects/scramble-score/
+              jobs:
+                - href: /jobs/rdi/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+              db:
+                - href: /db/postgres/
+              os:
+                - href: /os/windows/
+                - href: /os/macos/
+                - href: /os/linux/
+          - title: Simpler
+            desc: Library that provides a simpler approach to C# class design.
+            role: Author
+            begin_year: 2010
+            end_year: 2013
+            _links:
+              self:
+                href: /projects/simpler/
+              code:
+                title: github.com/gregoryjscott/Simpler
+                href: https://github.com/gregoryjscott/Simpler
+              jobs:
+                - href: /jobs/freelance/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/rb/
+              os:
+                - href: /os/windows/
+                - href: /os/macos/
+                - href: /os/linux/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: null
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/denver-schedules-api/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
+                - href: /projects/aprender/
+                - href: /projects/la-boda/
+              db:
+                - href: /db/postgres/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/css/
+                - href: /languages/html/
+              os:
+                - href: /os/windows/
+                - href: /os/macos/
+                - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
+          - title: Resource Data, Inc.
+            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
+              Texas, Idaho, Minnesota, and Oregon, that provides custom
+              database, web, and GIS programming services
+            role: Technical Lead
+            begin_year: 2005
+            end_year: 2014
+            time_desc: July 2005 - July 2014
+            _links:
+              self:
+                href: /jobs/rdi/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/bit-proposal/
+                - href: /projects/centroid/
+                - href: /projects/cis-data-capture/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/flir-monitoring/
+                - href: /projects/lasar-range-finder/
+                - href: /projects/please/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/train-builder/
+              db:
+                - href: /db/sql-server/
+                - href: /db/oracle/
+                - href: /db/access/
+                - href: /db/sqlite/
+                - href: /db/postgres/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/py/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/tsql/
+                - href: /languages/plsql/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
     - title: Windows
       desc: Windows is a series of operating systems developed by Microsoft. It is the
         most popular operating system for personal computers, and is used in a
@@ -560,12 +1063,31 @@ _embedded:
           - href: /projects/train-builder/
           - href: /projects/wengage-acct/
           - href: /projects/wengage-si/
+          - href: /projects/epic-ca-enrollment/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/mas/
           - href: /jobs/rdi/
+        schools:
+          - href: /schools/uco/
       _embedded:
         projects:
+          - title: Epic California Academy Enrollment
+            desc: null
+            role: Technical Lead
+            begin_year: 2017
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epic-ca-enrollment/
+              jobs:
+                - href: /jobs/fe/
+              languages:
+                - href: /languages/php/
+              db:
+                - href: /db/firebase/
+              os:
+                - href: /os/windows/
           - title: Centroid
             desc: Library for accessing environment based configuration from multiple
               different programming languages.
@@ -586,7 +1108,7 @@ _embedded:
                 - href: /languages/rb/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Denver Schedules API
             desc: JSON API that provides access to Denver activities that impact the
@@ -610,7 +1132,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
@@ -738,7 +1260,7 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Scrum Tools
             desc: null
@@ -779,7 +1301,7 @@ _embedded:
                 - href: /languages/rb/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
           - title: Quality Bank
             subtitle: Invoicing $1 Billion/Month for Oil Pipeline
@@ -804,6 +1326,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
           - title: MvcIntegrationTestFramework
             desc: Framework that can be used to perform integration tests on a ASP.NET MVC
               application.
@@ -1114,6 +1638,7 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
           - title: Wen-GAGE Student Information
             desc: Desktop application that is used by schools in Oklahoma to manage their
               student information such as enrollment, attendance, and grades.
@@ -1133,6 +1658,7 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
           - title: Class Scheduler
             desc: Process that takes student course requests along with the available
               courses, sections, and teachers and builds the class schedule.
@@ -1148,8 +1674,10 @@ _embedded:
                 - href: /languages/delphi/
               db:
                 - href: /db/btrieve/
+                - href: /db/pervasive/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
         jobs:
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -1166,6 +1694,14 @@ _embedded:
                 - href: /projects/mvc-integration-test-framework/
                 - href: /projects/simpler/
                 - href: /projects/this-site/
+                - href: /projects/cfw/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-prep/
+                - href: /projects/nuggets/
+                - href: /projects/aprender/
+                - href: /projects/la-boda/
               db:
                 - href: /db/postgres/
               languages:
@@ -1176,8 +1712,17 @@ _embedded:
                 - href: /languages/html/
               os:
                 - href: /os/windows/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/android/
+                - href: /os/ios/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
+                - href: /tools/hal/
+                - href: /tools/amplify/
+                - href: /tools/react-native/
+                - href: /tools/xstate/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
               Texas, Idaho, Minnesota, and Oregon, that provides custom
@@ -1231,8 +1776,10 @@ _embedded:
                 - href: /languages/plsql/
               os:
                 - href: /os/linux/
-                - href: /os/osx/
+                - href: /os/macos/
                 - href: /os/windows/
+              tools:
+                - href: /tools/backbone/
           - title: Municipal Accounting Systems, Inc.
             desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
               Shawnee, Oklahoma that provides accounting and student information
@@ -1258,6 +1805,141 @@ _embedded:
                 - href: /languages/sql/
               os:
                 - href: /os/windows/
+                - href: /os/netware/
+        schools:
+          - title: University of Central Oklahoma
+            subtitle: Bachelor of Science in Mathematics, 1998
+            desc: The University of Central Oklahoma (UCO), located in Edmond, Oklahoma, is
+              a public university known for its strong emphasis on
+              transformative learning and leadership development. As one of the
+              state's oldest institutions of higher education, UCO offers a
+              diverse range of undergraduate and graduate programs across fields
+              such as business, education, liberal arts, and the sciences. The
+              university fosters a student-centered environment focused on
+              academic excellence, community engagement, and real-world
+              experience.
+            begin_year: 1994
+            end_year: 1998
+            _links:
+              self:
+                href: /schools/uco/
+              languages:
+                - href: /languages/fortran/
+                - href: /languages/pascal/
+                - href: /languages/c/
+                - href: /languages/cpp/
+                - href: /languages/vb/
+              os:
+                - href: /os/aix/
+                - href: /os/ms-dos/
+                - href: /os/windows/
+    - title: NetWare
+      desc: NetWare is a network operating system developed by Novell, Inc. It was one
+        of the first network operating systems to be widely used in business
+        networks. It provides a distributed file system, print services, and
+        other network services. It also provides a graphical user interface,
+        allowing users to access and manage network resources. NetWare also
+        supports a wide range of network protocols, including IPX/SPX, TCP/IP,
+        and AppleTalk. It is also compatible with a variety of hardware
+        platforms, including Intel-based PCs, Macintosh computers, and UNIX
+        systems.
+      _links:
+        self:
+          href: /os/netware/
+        jobs:
+          - href: /jobs/mas/
+        projects:
+          - href: /projects/class-scheduler/
+          - href: /projects/wengage-acct/
+          - href: /projects/wengage-si/
+      _embedded:
+        jobs:
+          - title: Municipal Accounting Systems, Inc.
+            desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
+              Shawnee, Oklahoma that provides accounting and student information
+              software solutions to school districts in Oklahoma
+            role: Lead Programmer
+            begin_year: 1999
+            end_year: 2005
+            time_desc: November 1999 - June 2005
+            _links:
+              self:
+                href: /jobs/mas/
+              projects:
+                - href: /projects/class-scheduler/
+                - href: /projects/sif-agent/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              db:
+                - href: /db/btrieve/
+                - href: /db/pervasive/
+              languages:
+                - href: /languages/delphi/
+                - href: /languages/cs/
+                - href: /languages/sql/
+              os:
+                - href: /os/windows/
+                - href: /os/netware/
+        projects:
+          - title: Wen-GAGE Accounting
+            desc: Desktop application that is used by schools in Oklahoma to manage all
+              their school accounting responsibilites.
+            role: Lead Developer
+            begin_year: 1999
+            end_year: 2004
+            _links:
+              self:
+                href: /projects/wengage-acct/
+              jobs:
+                - href: /jobs/mas/
+              languages:
+                - href: /languages/delphi/
+                - href: /languages/sql/
+              db:
+                - href: /db/btrieve/
+                - href: /db/pervasive/
+              os:
+                - href: /os/windows/
+                - href: /os/netware/
+          - title: Wen-GAGE Student Information
+            desc: Desktop application that is used by schools in Oklahoma to manage their
+              student information such as enrollment, attendance, and grades.
+            role: Lead Developer
+            begin_year: 1999
+            end_year: 2004
+            _links:
+              self:
+                href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/mas/
+              languages:
+                - href: /languages/delphi/
+                - href: /languages/sql/
+              db:
+                - href: /db/btrieve/
+                - href: /db/pervasive/
+              os:
+                - href: /os/windows/
+                - href: /os/netware/
+          - title: Class Scheduler
+            desc: Process that takes student course requests along with the available
+              courses, sections, and teachers and builds the class schedule.
+            role: Lead Developer
+            begin_year: 1999
+            end_year: 1999
+            _links:
+              self:
+                href: /projects/class-scheduler/
+              jobs:
+                - href: /jobs/mas/
+              languages:
+                - href: /languages/delphi/
+              db:
+                - href: /db/btrieve/
+                - href: /db/pervasive/
+              os:
+                - href: /os/windows/
+                - href: /os/netware/
     - title: Solaris
       desc: Solaris is a Unix-based operating system developed by Sun Microsystems. It
         is designed to provide a secure, reliable, and high-performance
@@ -1345,19 +2027,6 @@ _embedded:
                 - href: /languages/ada/
               os:
                 - href: /os/solaris/
-    - title: NetWare
-      desc: NetWare is a network operating system developed by Novell, Inc. It was one
-        of the first network operating systems to be widely used in business
-        networks. It provides a distributed file system, print services, and
-        other network services. It also provides a graphical user interface,
-        allowing users to access and manage network resources. NetWare also
-        supports a wide range of network protocols, including IPX/SPX, TCP/IP,
-        and AppleTalk. It is also compatible with a variety of hardware
-        platforms, including Intel-based PCs, Macintosh computers, and UNIX
-        systems.
-      _links:
-        self:
-          href: /os/netware/
     - title: MS-DOS
       desc: MS-DOS (Microsoft Disk Operating System) is an operating system developed
         by Microsoft for IBM-compatible personal computers. It was the most
@@ -1372,30 +2041,36 @@ _embedded:
       _links:
         self:
           href: /os/ms-dos/
-    - title: iOS
-      desc: iOS is a mobile operating system developed by Apple Inc. for its iPhone,
-        iPad, and iPod Touch devices. It is the second most popular mobile
-        operating system in the world, behind Android. iOS is based on the Mac
-        OS X operating system and provides a user interface based on direct
-        manipulation of the screen using multi-touch gestures. It includes
-        features such as a home screen with app icons, a notification center,
-        and access to the App Store for downloading apps. iOS also includes
-        features such as iCloud, AirPlay, and Apple Pay.
-      _links:
-        self:
-          href: /os/ios/
-    - title: Android
-      desc: Android is a mobile operating system developed by Google. It is based on a
-        modified version of the Linux kernel and other open source software, and
-        is designed primarily for touchscreen mobile devices such as smartphones
-        and tablets. Android has a large community of developers writing
-        applications ("apps") that extend the functionality of the devices. Apps
-        can be downloaded from third-party app stores or through online stores
-        such as Google Play. Android has been the best-selling OS on tablets
-        since 2013, and on smartphones it is dominant by any metric.
-      _links:
-        self:
-          href: /os/android/
+        schools:
+          - href: /schools/uco/
+      _embedded:
+        schools:
+          - title: University of Central Oklahoma
+            subtitle: Bachelor of Science in Mathematics, 1998
+            desc: The University of Central Oklahoma (UCO), located in Edmond, Oklahoma, is
+              a public university known for its strong emphasis on
+              transformative learning and leadership development. As one of the
+              state's oldest institutions of higher education, UCO offers a
+              diverse range of undergraduate and graduate programs across fields
+              such as business, education, liberal arts, and the sciences. The
+              university fosters a student-centered environment focused on
+              academic excellence, community engagement, and real-world
+              experience.
+            begin_year: 1994
+            end_year: 1998
+            _links:
+              self:
+                href: /schools/uco/
+              languages:
+                - href: /languages/fortran/
+                - href: /languages/pascal/
+                - href: /languages/c/
+                - href: /languages/cpp/
+                - href: /languages/vb/
+              os:
+                - href: /os/aix/
+                - href: /os/ms-dos/
+                - href: /os/windows/
     - title: AIX
       desc: AIX (Advanced Interactive eXecutive) is an IBM proprietary Unix-based
         operating system designed for enterprise-level computing. It is a
@@ -1408,3 +2083,33 @@ _embedded:
       _links:
         self:
           href: /os/aix/
+        schools:
+          - href: /schools/uco/
+      _embedded:
+        schools:
+          - title: University of Central Oklahoma
+            subtitle: Bachelor of Science in Mathematics, 1998
+            desc: The University of Central Oklahoma (UCO), located in Edmond, Oklahoma, is
+              a public university known for its strong emphasis on
+              transformative learning and leadership development. As one of the
+              state's oldest institutions of higher education, UCO offers a
+              diverse range of undergraduate and graduate programs across fields
+              such as business, education, liberal arts, and the sciences. The
+              university fosters a student-centered environment focused on
+              academic excellence, community engagement, and real-world
+              experience.
+            begin_year: 1994
+            end_year: 1998
+            _links:
+              self:
+                href: /schools/uco/
+              languages:
+                - href: /languages/fortran/
+                - href: /languages/pascal/
+                - href: /languages/c/
+                - href: /languages/cpp/
+                - href: /languages/vb/
+              os:
+                - href: /os/aix/
+                - href: /os/ms-dos/
+                - href: /os/windows/

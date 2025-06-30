@@ -12,4 +12,6 @@ desc: >-
 _links:
   self:
     href: /os/aix/
+  schools:
+    - href: /schools/uco/
 ---

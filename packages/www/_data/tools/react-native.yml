@@ -1,0 +1,100 @@
+title: React Native
+desc: React Native is an open-source framework developed by Facebook that
+  enables developers to build mobile apps for iOS and Android using JavaScript
+  and React. Instead of rendering web views, React Native translates UI
+  components into native platform widgets, delivering near-native performance
+  and look-and-feel. Its component-based architecture and one-way data flow
+  mirror React for the web, making it easy for JavaScript developers to pick up.
+  Features like hot reloading accelerate the development cycle by instantly
+  reflecting code changes on the device. A rich ecosystem of libraries and a
+  large community contribute reusable modules and plugins, simplifying access to
+  native device features (camera, geolocation, sensors) without writing
+  platform-specific code. By sharing logic and UI components across platforms,
+  React Native significantly reduces development time and maintenance overhead
+  compared to traditional native app development.
+_links:
+  self:
+    href: /tools/react-native/
+  projects:
+    - href: /projects/nuggets/
+  jobs:
+    - href: /jobs/freelance/
+_embedded:
+  projects:
+    - title: Nuggets
+      subtitle: Customizing Curriculum for Students using AI
+      desc: React Native app built using AI and state machines for learning Spanish or
+        English.
+      role: Author
+      begin_year: 2024
+      end_year: null
+      _links:
+        self:
+          href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+        languages:
+          - href: /languages/ts/
+        db:
+          - href: /db/ddb/
+        os:
+          - href: /os/android/
+          - href: /os/ios/
+          - href: /os/linux/
+        tools:
+          - href: /tools/amplify/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/iam/
+          - href: /tools/react-native/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+          - href: /tools/xstate/
+  jobs:
+    - title: Freelance Programmer
+      desc: Freelance Programmer/Consultant, partnering with clients to architect and
+        implement technology solutions
+      role: Freelance Programmer
+      begin_year: 2014
+      end_year: null
+      time_desc: July 2014 - present
+      _links:
+        self:
+          href: /jobs/freelance/
+        projects:
+          - href: /projects/denver-schedules-api/
+          - href: /projects/mvc-integration-test-framework/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
+          - href: /projects/aprender/
+          - href: /projects/la-boda/
+        db:
+          - href: /db/postgres/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/rb/
+          - href: /languages/sql/
+          - href: /languages/css/
+          - href: /languages/html/
+        os:
+          - href: /os/windows/
+          - href: /os/macos/
+          - href: /os/linux/
+          - href: /os/android/
+          - href: /os/ios/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
+          - href: /tools/hal/
+          - href: /tools/amplify/
+          - href: /tools/react-native/
+          - href: /tools/xstate/

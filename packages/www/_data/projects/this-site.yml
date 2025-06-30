@@ -1,6 +1,6 @@
-title: This Site
-desc: My website/experiment that uses Jekyll to create static HTML pages using
-  YAML, Markdown, and hypermedia.
+title: gregoryjscott.com
+desc: My portfolio website that uses Jekyll to create static HTML pages using
+  YAML, Markdown, and HAL-based hypermedia.
 role: Author
 begin_year: 2014
 end_year: null
@@ -16,9 +16,13 @@ _links:
     - href: /languages/css/
     - href: /languages/html/
     - href: /languages/rb/
+    - href: /languages/ts/
   os:
-    - href: /os/osx/
+    - href: /os/macos/
     - href: /os/linux/
+  tools:
+    - href: /tools/jekyll/
+    - href: /tools/hal/
 _embedded:
   jobs:
     - title: Freelance Programmer
@@ -36,6 +40,14 @@ _embedded:
           - href: /projects/mvc-integration-test-framework/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
+          - href: /projects/aprender/
+          - href: /projects/la-boda/
         db:
           - href: /db/postgres/
         languages:
@@ -46,9 +58,35 @@ _embedded:
           - href: /languages/html/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/android/
+          - href: /os/ios/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
+          - href: /tools/hal/
+          - href: /tools/amplify/
+          - href: /tools/react-native/
+          - href: /tools/xstate/
   languages:
+    - title: Typescript
+      desc: Typescript is a typed superset of JavaScript that compiles to plain
+        JavaScript. It adds optional static typing to the language, allowing
+        developers to use type annotations to catch errors early in the
+        development process. It also provides features such as classes, modules,
+        and interfaces that are not available in JavaScript. Typescript is
+        designed to make it easier to write and maintain large-scale
+        applications.
+      _links:
+        self:
+          href: /languages/ts/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/this-site/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
     - title: Ruby
       desc: Ruby is an open-source, object-oriented programming language created by
         Yukihiro Matsumoto in 1995. It is designed to be simple and easy to use,
@@ -68,6 +106,11 @@ _embedded:
           - href: /projects/scramble-score/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -93,6 +136,7 @@ _embedded:
           - href: /projects/somd/
           - href: /projects/systems-portal/
           - href: /projects/this-site/
+          - href: /projects/la-boda/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -119,6 +163,7 @@ _embedded:
           - href: /projects/somd/
           - href: /projects/systems-portal/
           - href: /projects/this-site/
+          - href: /projects/la-boda/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -140,26 +185,86 @@ _embedded:
           - href: /projects/scramble-score/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
+          - href: /projects/la-boda/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/freelance/
           - href: /jobs/rdi/
-    - title: OS X
-      desc: OS X is an operating system developed by Apple Inc. for its Macintosh line
-        of computers. It is based on the Unix operating system and provides a
-        graphical user interface, multitasking, and support for a variety of
-        hardware and software. It also includes a wide range of features such as
-        the Finder, Dock, Spotlight, Time Machine, and iCloud. OS X is designed
-        to be secure, reliable, and easy to use.
+    - title: macOS
+      desc: macOS is Apple’s Unix‐based desktop operating system, first released in
+        2001 as Mac OS X and built on the open‐source Darwin core and the
+        proprietary XNU kernel. Designed exclusively for Mac computers, it
+        combines a polished Aqua graphical interface with deep integration of
+        hardware and software, offering features like Spotlight search, Time
+        Machine backups, and Continuity for seamless work across Apple devices.
+        With strong emphasis on stability, security and performance, macOS
+        supports a rich ecosystem of native and third-party applications via the
+        Mac App Store and developer tools such as Xcode, making it a popular
+        choice for both creative professionals and everyday users.
       _links:
         self:
-          href: /os/osx/
+          href: /os/macos/
         projects:
           - href: /projects/centroid/
           - href: /projects/denver-schedules-api/
           - href: /projects/scramble-score/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/aprender/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
+  tools:
+    - title: HAL
+      subtitle: Hypertext Application Language (HAL) is a a media type for
+        representing resources with hyperlinks
+      desc: The Hypertext Application Language (HAL) is a simple, vendor-neutral media
+        type for representing resources and their relationships in JSON or XML,
+        designed to make RESTful APIs more discoverable and self-descriptive. In
+        HAL, each resource’s state is represented by its attributes, its
+        hyperlinks by a standardized “_links” section (allowing clients to
+        navigate between related resources), and any embedded sub‐resources by
+        an “_embedded” section. By providing a consistent convention for linking
+        and embedding, HAL enables clients to follow HATEOAS
+        principles—dynamically discovering available operations and
+        transitions—without relying on out-of-band documentation.
+      _links:
+        self:
+          href: /tools/hal/
+        projects:
+          - href: /projects/this-site/
+          - href: /projects/jekyll-embed/
+        jobs:
+          - href: /jobs/freelance/
+    - title: Jekyll
+      desc: Jekyll is an open-source, Ruby-based static site generator that transforms
+        plain-text content (written in Markdown, Textile or HTML) and
+        Liquid-templated layouts into a complete, static website. By using
+        simple “front matter” at the top of each page or post to define metadata
+        (like title, date and categories), Jekyll assembles content with shared
+        layouts, includes and assets into fully rendered HTML files. Because it
+        produces only static pages—no databases or server-side processing—it
+        delivers fast, secure sites that are easy to host (notably on GitHub
+        Pages) and maintain via version control.
+      _links:
+        self:
+          href: /tools/jekyll/
+        projects:
+          - href: /projects/cfw/
+          - href: /projects/this-site/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+        jobs:
+          - href: /jobs/freelance/

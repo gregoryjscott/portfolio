@@ -19,14 +19,15 @@ _links:
     - href: /projects/somd/
     - href: /projects/systems-portal/
     - href: /projects/this-site/
+    - href: /projects/la-boda/
   jobs:
     - href: /jobs/freelance/
     - href: /jobs/rdi/
 _embedded:
   projects:
-    - title: This Site
-      desc: My website/experiment that uses Jekyll to create static HTML pages using
-        YAML, Markdown, and hypermedia.
+    - title: gregoryjscott.com
+      desc: My portfolio website that uses Jekyll to create static HTML pages using
+        YAML, Markdown, and HAL-based hypermedia.
       role: Author
       begin_year: 2014
       end_year: null
@@ -42,8 +43,32 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/rb/
+          - href: /languages/ts/
         os:
-          - href: /os/osx/
+          - href: /os/macos/
+          - href: /os/linux/
+        tools:
+          - href: /tools/jekyll/
+          - href: /tools/hal/
+    - title: hazelandgreg.wedding
+      desc: Wedding website for Hazel and Greg
+      role: Author
+      begin_year: 2025
+      end_year: 2025
+      _links:
+        self:
+          href: /projects/la-boda/
+        jobs:
+          - href: /jobs/freelance/
+        languages:
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+        db:
+          - href: /db/ddb/
+        tools:
+          - href: /tools/amplify/
+        os:
           - href: /os/linux/
     - title: Alaska Gasline Development Corporation
       desc: Web application that provides AGDC with documentation, reporting, and
@@ -132,7 +157,7 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
     - title: Energy Efficiency Map
       desc: Web application that allows the Alaska Energy Authority to monitor and
@@ -179,6 +204,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/
     - title: Service Order Mobile Dispatch
       desc: Mobile web application that allows Anchorage Water & Wastewater Utility
         service workers to query and record service information while in the
@@ -240,6 +267,14 @@ _embedded:
           - href: /projects/mvc-integration-test-framework/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
+          - href: /projects/aprender/
+          - href: /projects/la-boda/
         db:
           - href: /db/postgres/
         languages:
@@ -250,8 +285,17 @@ _embedded:
           - href: /languages/html/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/android/
+          - href: /os/ios/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
+          - href: /tools/hal/
+          - href: /tools/amplify/
+          - href: /tools/react-native/
+          - href: /tools/xstate/
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
         Texas, Idaho, Minnesota, and Oregon, that provides custom database, web,
@@ -305,5 +349,7 @@ _embedded:
           - href: /languages/plsql/
         os:
           - href: /os/linux/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/

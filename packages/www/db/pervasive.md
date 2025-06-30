@@ -16,6 +16,7 @@ _links:
     - href: /projects/sif-agent/
     - href: /projects/wengage-acct/
     - href: /projects/wengage-si/
+    - href: /projects/class-scheduler/
   jobs:
     - href: /jobs/mas/
 ---

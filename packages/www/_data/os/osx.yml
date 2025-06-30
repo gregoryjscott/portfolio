@@ -14,14 +14,18 @@ _links:
     - href: /projects/scramble-score/
     - href: /projects/simpler/
     - href: /projects/this-site/
+    - href: /projects/jekyll-load/
+    - href: /projects/jekyll-api/
+    - href: /projects/jekyll-embed/
+    - href: /projects/jekyll-prep/
   jobs:
     - href: /jobs/freelance/
     - href: /jobs/rdi/
 _embedded:
   projects:
-    - title: This Site
-      desc: My website/experiment that uses Jekyll to create static HTML pages using
-        YAML, Markdown, and hypermedia.
+    - title: gregoryjscott.com
+      desc: My portfolio website that uses Jekyll to create static HTML pages using
+        YAML, Markdown, and HAL-based hypermedia.
       role: Author
       begin_year: 2014
       end_year: null
@@ -37,9 +41,13 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/rb/
+          - href: /languages/ts/
         os:
           - href: /os/osx/
           - href: /os/linux/
+        tools:
+          - href: /tools/jekyll/
+          - href: /tools/hal/
     - title: Centroid
       desc: Library for accessing environment based configuration from multiple
         different programming languages.
@@ -84,6 +92,88 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/windows/
+          - href: /os/osx/
+          - href: /os/linux/
+    - title: jekyll-load
+      desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
+      role: Author
+      begin_year: 2014
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/jekyll-load/
+        jobs:
+          - href: /jobs/freelance/
+        code:
+          title: github.com/gregoryjscott/jekyll-load
+          href: https://github.com/gregoryjscott/jekyll-load
+        languages:
+          - href: /languages/rb/
+        tools:
+          - href: /tools/jekyll/
+        os:
+          - href: /os/osx/
+          - href: /os/linux/
+    - title: jekyll-api
+      desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
+      role: Author
+      begin_year: 2014
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/jekyll-api/
+        jobs:
+          - href: /jobs/freelance/
+        code:
+          title: github.com/gregoryjscott/jekyll-api
+          href: https://github.com/gregoryjscott/jekyll-api
+        languages:
+          - href: /languages/rb/
+        tools:
+          - href: /tools/jekyll/
+        os:
+          - href: /os/osx/
+          - href: /os/linux/
+    - title: jekyll-embed
+      desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
+        frontmatter
+      role: Author
+      begin_year: 2014
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/jekyll-embed/
+        jobs:
+          - href: /jobs/freelance/
+        code:
+          title: github.com/gregoryjscott/jekyll-embed
+          href: https://github.com/gregoryjscott/jekyll-embed
+        languages:
+          - href: /languages/rb/
+        tools:
+          - href: /tools/jekyll/
+          - href: /tools/hal/
+        os:
+          - href: /os/osx/
+          - href: /os/linux/
+    - title: jekyll-prep
+      desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
+      role: Author
+      begin_year: 2014
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/jekyll-prep/
+        jobs:
+          - href: /jobs/freelance/
+        code:
+          title: github.com/gregoryjscott/jekyll-prep
+          href: https://github.com/gregoryjscott/jekyll-prep
+        languages:
+          - href: /languages/rb/
+        tools:
+          - href: /tools/jekyll/
+        os:
           - href: /os/osx/
           - href: /os/linux/
     - title: ScrambleScore
@@ -145,6 +235,12 @@ _embedded:
           - href: /projects/mvc-integration-test-framework/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
         db:
           - href: /db/postgres/
         languages:
@@ -157,6 +253,15 @@ _embedded:
           - href: /os/windows/
           - href: /os/osx/
           - href: /os/linux/
+          - href: /os/android/
+          - href: /os/ios/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
+          - href: /tools/hal/
+          - href: /tools/amplify/
+          - href: /tools/react-native/
+          - href: /tools/xstate/
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
         Texas, Idaho, Minnesota, and Oregon, that provides custom database, web,
@@ -212,3 +317,5 @@ _embedded:
           - href: /os/linux/
           - href: /os/osx/
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/

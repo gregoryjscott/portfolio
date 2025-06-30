@@ -25,6 +25,7 @@ _links:
     - href: /languages/sql/
   os:
     - href: /os/windows/
+    - href: /os/netware/
 ---
 
 - Led the development team in replacing the legacy DOS-based software product stack with a suite of Windows desktop applications

@@ -1,6 +1,6 @@
 ---
 title: EpiCloud
-subtitle: Infinitely Scaling Bots using AWS
+subtitle: Infinitely Scaling Bots on AWS
 desc: null
 role: Technical Lead
 begin_year: 2015
@@ -14,11 +14,11 @@ _links:
     - href: /languages/ts/
   db:
     - href: /db/bigquery/
+    - href: /db/ddb/
   os:
     - href: /os/linux/
   tools:
     - href: /tools/classroom/
-    - href: /tools/ddb/
     - href: /tools/docker/
     - href: /tools/drive/
     - href: /tools/ec2/
@@ -27,11 +27,10 @@ _links:
     - href: /tools/fargate/
     - href: /tools/firebase/
     - href: /tools/iam/
-    - href: /tools/lerna/
     - href: /tools/node/
     - href: /tools/puppeteer/
     - href: /tools/s3/
     - href: /tools/sqs/
-    - href: /tools/tracker/
     - href: /tools/vpc/
+    - href: /tools/sikulix/
 ---

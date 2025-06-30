@@ -9,6 +9,8 @@ _links:
     - href: /db/access/
     - href: /db/bigquery/
     - href: /db/btrieve/
+    - href: /db/ddb/
+    - href: /db/firebase/
     - href: /db/oracle/
     - href: /db/pervasive/
     - href: /db/postgres/

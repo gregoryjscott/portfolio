@@ -17,6 +17,13 @@ _links:
     - href: /projects/scramble-score/
     - href: /projects/simpler/
     - href: /projects/this-site/
+    - href: /projects/cfw/
+    - href: /projects/jekyll-load/
+    - href: /projects/jekyll-api/
+    - href: /projects/jekyll-embed/
+    - href: /projects/jekyll-prep/
+    - href: /projects/nuggets/
+    - href: /projects/la-boda/
   jobs:
     - href: /jobs/fe/
     - href: /jobs/freelance/

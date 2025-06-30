@@ -1,5 +1,5 @@
 ---
-title: Amazon Elastic Compute Cloud (EC2)
+title: EC2
 desc: >-
   Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
   resizable compute capacity in the cloud. It is designed to make web-scale
@@ -12,6 +12,7 @@ _links:
     href: /tools/ec2/
   projects:
     - href: /projects/epicloud/
+    - href: /projects/nuggets/
   jobs:
     - href: /jobs/fe/
 ---

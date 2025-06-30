@@ -51,8 +51,10 @@ _links:
     - href: /languages/plsql/
   os:
     - href: /os/linux/
-    - href: /os/osx/
+    - href: /os/macos/
     - href: /os/windows/
+  tools:
+    - href: /tools/backbone/
 content: >-
   - Worked directly with clients during on all phases of the software
   development lifecycle
@@ -92,7 +94,7 @@ _embedded:
           - href: /languages/rb/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
     - title: Alaska Gasline Development Corporation
       desc: Web application that provides AGDC with documentation, reporting, and
@@ -219,7 +221,7 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
     - title: Energy Efficiency Map
       desc: Web application that allows the Alaska Energy Authority to monitor and
@@ -266,6 +268,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/
     - title: Service Order Mobile Dispatch
       desc: Mobile web application that allows Anchorage Water & Wastewater Utility
         service workers to query and record service information while in the
@@ -713,6 +717,11 @@ _embedded:
           - href: /projects/scramble-score/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -751,6 +760,8 @@ _embedded:
           - href: /projects/scrum-tools/
           - href: /projects/somd/
           - href: /projects/systems-portal/
+          - href: /projects/aprender/
+          - href: /projects/la-boda/
         jobs:
           - href: /jobs/rdi/
     - title: HTML
@@ -775,6 +786,7 @@ _embedded:
           - href: /projects/somd/
           - href: /projects/systems-portal/
           - href: /projects/this-site/
+          - href: /projects/la-boda/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -801,6 +813,7 @@ _embedded:
           - href: /projects/somd/
           - href: /projects/systems-portal/
           - href: /projects/this-site/
+          - href: /projects/la-boda/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -888,26 +901,38 @@ _embedded:
           - href: /projects/train-builder/
           - href: /projects/wengage-acct/
           - href: /projects/wengage-si/
+          - href: /projects/epic-ca-enrollment/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/mas/
           - href: /jobs/rdi/
-    - title: OS X
-      desc: OS X is an operating system developed by Apple Inc. for its Macintosh line
-        of computers. It is based on the Unix operating system and provides a
-        graphical user interface, multitasking, and support for a variety of
-        hardware and software. It also includes a wide range of features such as
-        the Finder, Dock, Spotlight, Time Machine, and iCloud. OS X is designed
-        to be secure, reliable, and easy to use.
+        schools:
+          - href: /schools/uco/
+    - title: macOS
+      desc: macOS is Apple’s Unix‐based desktop operating system, first released in
+        2001 as Mac OS X and built on the open‐source Darwin core and the
+        proprietary XNU kernel. Designed exclusively for Mac computers, it
+        combines a polished Aqua graphical interface with deep integration of
+        hardware and software, offering features like Spotlight search, Time
+        Machine backups, and Continuity for seamless work across Apple devices.
+        With strong emphasis on stability, security and performance, macOS
+        supports a rich ecosystem of native and third-party applications via the
+        Mac App Store and developer tools such as Xcode, making it a popular
+        choice for both creative professionals and everyday users.
       _links:
         self:
-          href: /os/osx/
+          href: /os/macos/
         projects:
           - href: /projects/centroid/
           - href: /projects/denver-schedules-api/
           - href: /projects/scramble-score/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/aprender/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -928,7 +953,36 @@ _embedded:
           - href: /projects/scramble-score/
           - href: /projects/simpler/
           - href: /projects/this-site/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
+          - href: /projects/la-boda/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/freelance/
+          - href: /jobs/rdi/
+  tools:
+    - title: Backbone.js
+      desc: Backbone.js is a lightweight JavaScript library that brings structure to
+        client‐side applications by providing models with key–value binding and
+        custom events, collections with rich enumerable functions, views with
+        declarative event handling, and a router for managing application state
+        and URLs. It syncs seamlessly with RESTful APIs via its built‐in sync
+        method, making it easy to fetch and persist JSON data. By relying only
+        on Underscore.js (and optionally jQuery or Zepto), Backbone.js imposes
+        minimal constraints on how you architect your code while offering just
+        enough conventions to keep large‐scale single‐page applications
+        organized and maintainable. Its event‐driven design encourages decoupled
+        components, and its simplicity has made it popular for developers who
+        prefer to assemble their own toolchains rather than adopt more
+        opinionated frameworks.
+      _links:
+        self:
+          href: /tools/backbone/
+        projects:
+          - href: /projects/qb/
+        jobs:
           - href: /jobs/rdi/

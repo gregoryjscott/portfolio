@@ -15,6 +15,14 @@ _links:
     - href: /projects/mvc-integration-test-framework/
     - href: /projects/simpler/
     - href: /projects/this-site/
+    - href: /projects/cfw/
+    - href: /projects/jekyll-load/
+    - href: /projects/jekyll-api/
+    - href: /projects/jekyll-embed/
+    - href: /projects/jekyll-prep/
+    - href: /projects/nuggets/
+    - href: /projects/aprender/
+    - href: /projects/la-boda/
   db:
     - href: /db/postgres/
   languages:
@@ -25,8 +33,17 @@ _links:
     - href: /languages/html/
   os:
     - href: /os/windows/
-    - href: /os/osx/
+    - href: /os/macos/
     - href: /os/linux/
+    - href: /os/android/
+    - href: /os/ios/
+  tools:
+    - href: /tools/heroku/
+    - href: /tools/jekyll/
+    - href: /tools/hal/
+    - href: /tools/amplify/
+    - href: /tools/react-native/
+    - href: /tools/xstate/
 ---
 
 - Designed and built the software infrastructure that powers the sites and applications for the City of Fort Worth, Texas

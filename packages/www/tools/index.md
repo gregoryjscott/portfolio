@@ -6,8 +6,9 @@ _links:
   self:
     href: /tools/
   tools:
+    - href: /tools/amplify/
+    - href: /tools/backbone/
     - href: /tools/classroom/
-    - href: /tools/ddb/
     - href: /tools/docker/
     - href: /tools/drive/
     - href: /tools/ec2/
@@ -15,12 +16,16 @@ _links:
     - href: /tools/ecs/
     - href: /tools/fargate/
     - href: /tools/firebase/
+    - href: /tools/hal/
+    - href: /tools/heroku/
     - href: /tools/iam/
-    - href: /tools/lerna/
+    - href: /tools/jekyll/
     - href: /tools/node/
     - href: /tools/puppeteer/
+    - href: /tools/react-native/
     - href: /tools/s3/
+    - href: /tools/sikulix/
     - href: /tools/sqs/
-    - href: /tools/tracker/
     - href: /tools/vpc/
+    - href: /tools/xstate/
 ---

@@ -1,0 +1,116 @@
+title: aprender
+desc: CLI for learning Spanish
+role: Author
+begin_year: 2017
+end_year: 2017
+_links:
+  self:
+    href: /projects/aprender/
+  code:
+    title: github.com/gregoryjscott/aprender
+    href: https://github.com/gregoryjscott/aprender
+  jobs:
+    - href: /jobs/freelance/
+  languages:
+    - href: /languages/js/
+  os:
+    - href: /os/macos/
+_embedded:
+  jobs:
+    - title: Freelance Programmer
+      desc: Freelance Programmer/Consultant, partnering with clients to architect and
+        implement technology solutions
+      role: Freelance Programmer
+      begin_year: 2014
+      end_year: null
+      time_desc: July 2014 - present
+      _links:
+        self:
+          href: /jobs/freelance/
+        projects:
+          - href: /projects/denver-schedules-api/
+          - href: /projects/mvc-integration-test-framework/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/nuggets/
+          - href: /projects/aprender/
+          - href: /projects/la-boda/
+        db:
+          - href: /db/postgres/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/rb/
+          - href: /languages/sql/
+          - href: /languages/css/
+          - href: /languages/html/
+        os:
+          - href: /os/windows/
+          - href: /os/macos/
+          - href: /os/linux/
+          - href: /os/android/
+          - href: /os/ios/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
+          - href: /tools/hal/
+          - href: /tools/amplify/
+          - href: /tools/react-native/
+          - href: /tools/xstate/
+  languages:
+    - title: JavaScript
+      desc: JavaScript is a high-level, interpreted programming language that is used
+        to create interactive web pages and applications. It is a scripting
+        language that is used to add dynamic elements to web pages, such as
+        animations, interactive forms, and dynamic content. JavaScript is also
+        used to create mobile applications and desktop applications. It is an
+        object-oriented language that is used to create complex applications.
+      _links:
+        self:
+          href: /languages/js/
+        projects:
+          - href: /projects/agdc/
+          - href: /projects/awwu-intranet/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/qb/
+          - href: /projects/scramble-score/
+          - href: /projects/scrum-tools/
+          - href: /projects/somd/
+          - href: /projects/systems-portal/
+          - href: /projects/aprender/
+          - href: /projects/la-boda/
+        jobs:
+          - href: /jobs/rdi/
+  os:
+    - title: macOS
+      desc: macOS is Apple’s Unix‐based desktop operating system, first released in
+        2001 as Mac OS X and built on the open‐source Darwin core and the
+        proprietary XNU kernel. Designed exclusively for Mac computers, it
+        combines a polished Aqua graphical interface with deep integration of
+        hardware and software, offering features like Spotlight search, Time
+        Machine backups, and Continuity for seamless work across Apple devices.
+        With strong emphasis on stability, security and performance, macOS
+        supports a rich ecosystem of native and third-party applications via the
+        Mac App Store and developer tools such as Xcode, making it a popular
+        choice for both creative professionals and everyday users.
+      _links:
+        self:
+          href: /os/macos/
+        projects:
+          - href: /projects/centroid/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/scramble-score/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-prep/
+          - href: /projects/aprender/
+        jobs:
+          - href: /jobs/freelance/
+          - href: /jobs/rdi/

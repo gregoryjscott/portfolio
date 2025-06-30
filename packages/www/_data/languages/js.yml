@@ -17,10 +17,49 @@ _links:
     - href: /projects/scrum-tools/
     - href: /projects/somd/
     - href: /projects/systems-portal/
+    - href: /projects/aprender/
+    - href: /projects/la-boda/
   jobs:
     - href: /jobs/rdi/
 _embedded:
   projects:
+    - title: hazelandgreg.wedding
+      desc: Wedding website for Hazel and Greg
+      role: Author
+      begin_year: 2025
+      end_year: 2025
+      _links:
+        self:
+          href: /projects/la-boda/
+        jobs:
+          - href: /jobs/freelance/
+        languages:
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+        db:
+          - href: /db/ddb/
+        tools:
+          - href: /tools/amplify/
+        os:
+          - href: /os/linux/
+    - title: aprender
+      desc: CLI for learning Spanish
+      role: Author
+      begin_year: 2017
+      end_year: 2017
+      _links:
+        self:
+          href: /projects/aprender/
+        code:
+          title: github.com/gregoryjscott/aprender
+          href: https://github.com/gregoryjscott/aprender
+        jobs:
+          - href: /jobs/freelance/
+        languages:
+          - href: /languages/js/
+        os:
+          - href: /os/macos/
     - title: Alaska Gasline Development Corporation
       desc: Web application that provides AGDC with documentation, reporting, and
         querying tools for their vast GIS data and infrastructure.
@@ -109,7 +148,7 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/windows/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/linux/
     - title: Scrum Tools
       desc: null
@@ -155,6 +194,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/
     - title: Service Order Mobile Dispatch
       desc: Mobile web application that allows Anchorage Water & Wastewater Utility
         service workers to query and record service information while in the
@@ -254,5 +295,7 @@ _embedded:
           - href: /languages/plsql/
         os:
           - href: /os/linux/
-          - href: /os/osx/
+          - href: /os/macos/
           - href: /os/windows/
+        tools:
+          - href: /tools/backbone/
