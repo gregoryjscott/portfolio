@@ -110,7 +110,7 @@ function fixBackLinks() {
     for (const projectLink of projectLinks) {
       const project = findResource(projectLink, projects)
       const projectRelations = findRelations(project).filter(
-        pr => pr !== "jobs" // TODO - aka skills
+        pr => pr !== "jobs"
       )
       for (const relation of projectRelations) {
         const projectRelationLinks = [].concat(

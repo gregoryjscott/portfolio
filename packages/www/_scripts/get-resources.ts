@@ -3,6 +3,7 @@ import * as path from "path"
 import * as matter from "gray-matter"
 
 const yamlDirectory = "_data"
+
 export const resourceDirectories = [
   "projects",
   "jobs",
@@ -13,7 +14,8 @@ export const resourceDirectories = [
   "os",
   // resume needs to be last b/c it references other "index" resources
   "resume",
-]
+] as const
+
 const prompts = {
   db: title =>
     `Provide a brief one-paragraph summary of the ${title} database.`,
@@ -25,8 +27,10 @@ const prompts = {
     `Provide a brief one-paragraph summary of the ${title} technology.`,
 }
 
+type Relation = typeof resourceDirectories[number] | "self"
+
 export interface Resource {
-  relation: string
+  relation: Relation
   href: string
   isIndex: boolean
   prompt: string | null
@@ -87,23 +91,21 @@ export function getResources(): Resource[] {
   return resources
 }
 
-export function findRelations(resource: Resource): string[] {
+export function findRelations(resource: Resource): Relation[] {
   if (!resource.sourceMarkdown.data._links) return []
   const linkRels: string[] = Object.keys(resource.sourceMarkdown.data._links)
-  const allowedRelations = ["index", ...resourceDirectories]
-  return linkRels.filter(lr => allowedRelations.includes(lr))
+  const allowedRelationSet = new Set<string>(resourceDirectories)
+  return linkRels.filter((lr): lr is Relation => allowedRelationSet.has(lr))
 }
 
 export function findRelationLinks(
   resource: Resource,
-  relation: string
+  relation: Relation
 ): { href: string } | { href: string }[] {
   const links = resource.sourceMarkdown.data?._links?.[relation]
-
   if (!links) {
     return []
   }
-
   return links
 }
 
