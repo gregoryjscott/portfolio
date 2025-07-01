@@ -9,11 +9,11 @@ end_year: 2014
 _links:
   self:
     href: /projects/jekyll-embed/
-  jobs:
-    - href: /jobs/freelance/
   code:
     title: github.com/gregoryjscott/jekyll-embed
     href: "https://github.com/gregoryjscott/jekyll-embed"
+  jobs:
+    - href: /jobs/freelance/
   languages:
     - href: /languages/rb/
   tools:

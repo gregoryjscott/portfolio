@@ -1,4 +1,5 @@
 import * as matter from "gray-matter"
+import { sortBy, uniqBy } from "lodash"
 import { writeMarkdown } from "./util"
 import {
   Resource,
@@ -11,6 +12,12 @@ import {
 
 const resources: Resource[] = getResources()
 const nonIndexResources = resources.filter(r => !r.isIndex)
+const projects = nonIndexResources.filter(r => r.relation === "projects")
+const schools = nonIndexResources.filter(r => r.relation === "schools")
+const targetResources = nonIndexResources.filter(
+  r => r.relation !== "projects" && r.relation !== "schools"
+)
+const jobs = targetResources.filter(r => r.relation === "jobs")
 
 function fixSelfLinks() {
   for (const resource of resources) {
@@ -36,42 +43,90 @@ function fixSelfLinks() {
   }
 }
 
-function fixNonIndexLinks() {
-  for (const resource of nonIndexResources) {
-    const relations = findRelations(resource)
-    for (const relation of relations) {
-      const links = [].concat(findRelationLinks(resource, relation))
+function fixBackLinks() {
+  for (const targetResource of targetResources) {
+    targetResource.sourceMarkdown.data._links = {
+      self: targetResource.sourceMarkdown.data._links.self,
+    }
+  }
 
-      for (const link of links) {
-        const linkedResource = findResource(link, resources)
-        if (!linkedResource) continue
-
-        const backLinks = [].concat(
-          findRelationLinks(linkedResource, resource.name)
+  for (const project of projects) {
+    const projectRelations = findRelations(project)
+    for (const projectRelation of projectRelations) {
+      const projectRelationLinks = [].concat(
+        findRelationLinks(project, projectRelation)
+      )
+      for (const projectRelationLink of projectRelationLinks) {
+        const linkedResource = findResource(
+          projectRelationLink,
+          targetResources
         )
-        const backLinkExists = backLinks.some(l => l.href === resource.href)
+        const linkedResourceProjectLinks = [].concat(
+          findRelationLinks(linkedResource, "projects")
+        )
+        linkedResource.sourceMarkdown.data._links["projects"] = sortBy(
+          [...linkedResourceProjectLinks, { href: project.href }],
+          l => l.href
+        )
 
-        if (!backLinkExists) {
-          const existingBackLinks =
-            linkedResource.sourceMarkdown.data._links[resource.name]
-
-          if (!existingBackLinks) {
-            linkedResource.sourceMarkdown.data._links[resource.name] = {
-              href: resource.href,
-            }
-          } else if (Array.isArray(existingBackLinks)) {
-            existingBackLinks.push({ href: resource.href })
-          } else {
-            linkedResource.sourceMarkdown.data._links[resource.name] = [
-              existingBackLinks,
-              { href: resource.href },
-            ]
-          }
+        if (projectRelation !== "jobs") {
+          const projectJobLinks = [].concat(findRelationLinks(project, "jobs"))
+          const linkedResourceJobLinks = [].concat(
+            findRelationLinks(linkedResource, "jobs")
+          )
+          linkedResource.sourceMarkdown.data._links["jobs"] = sortBy(
+            uniqBy(
+              [...linkedResourceJobLinks, ...projectJobLinks],
+              l => l.href
+            ),
+            l => l.href
+          )
         }
       }
     }
   }
+
+  for (const school of schools) {
+    const schoolRelations = findRelations(school)
+    for (const schoolRelation of schoolRelations) {
+      const schoolRelationLinks = [].concat(
+        findRelationLinks(school, schoolRelation)
+      )
+      for (const schoolRelationLink of schoolRelationLinks) {
+        const linkedResource = findResource(schoolRelationLink, targetResources)
+        const linkedResourceSchoolLinks = [].concat(
+          findRelationLinks(linkedResource, "schools")
+        )
+        linkedResource.sourceMarkdown.data._links["schools"] = sortBy(
+          [...linkedResourceSchoolLinks, { href: school.href }],
+          l => l.href
+        )
+      }
+    }
+  }
+
+  for (const job of jobs) {
+    const projectLinks = [].concat(findRelationLinks(job, "projects"))
+    for (const projectLink of projectLinks) {
+      const project = findResource(projectLink, projects)
+      const projectRelations = findRelations(project).filter(
+        pr => pr !== "jobs" // TODO - aka skills
+      )
+      for (const relation of projectRelations) {
+        const projectRelationLinks = [].concat(
+          findRelationLinks(project, relation)
+        )
+        const jobRelationLinks = [].concat(findRelationLinks(job, relation))
+        job.sourceMarkdown.data._links[relation] = sortBy(
+          uniqBy([...jobRelationLinks, ...projectRelationLinks], l => l.href),
+          l => l.href
+        )
+      }
+    }
+  }
+
   for (const resource of nonIndexResources) {
+    sortRelations(resource)
     writeMarkdown(
       resource.sourceMarkdown.path,
       resource.sourceMarkdown.content,
@@ -83,7 +138,7 @@ function fixNonIndexLinks() {
 function fixIndexLinks() {
   for (const directory of resourceDirectories) {
     const directoryResources = nonIndexResources.filter(
-      r => r.name === directory
+      r => r.relation === directory
     )
     if (directoryResources.length === 0) continue
     const filePath = `${directory}/index.md`
@@ -95,11 +150,30 @@ function fixIndexLinks() {
   }
 }
 
+function sortRelations(resource: Resource) {
+  const order = ["self", "code", ...resourceDirectories]
+  resource.sourceMarkdown.data._links = {
+    ...Object.fromEntries(
+      Object.entries(resource.sourceMarkdown.data._links).sort(
+        ([keyA], [keyB]) => {
+          const indexA = order.indexOf(keyA)
+          const indexB = order.indexOf(keyB)
+
+          if (indexA > -1 && indexB > -1) return indexA - indexB
+          if (indexA > -1) return -1
+          if (indexB > -1) return 1
+          return keyA.localeCompare(keyB)
+        }
+      )
+    ),
+  }
+}
+
 process.on("unhandledRejection", err => {
   console.error("There was an uncaught error", err)
   process.exit(1)
 })
 
 fixSelfLinks()
-fixNonIndexLinks()
+fixBackLinks()
 fixIndexLinks()

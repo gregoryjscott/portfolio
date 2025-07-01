@@ -17,8 +17,8 @@ end_year: 2021
 _links:
   self:
     href: /db/firebase/
-  jobs:
-    - href: /jobs/fe/
   projects:
     - href: /projects/epic-ca-enrollment/
+  jobs:
+    - href: /jobs/fe/
 ---

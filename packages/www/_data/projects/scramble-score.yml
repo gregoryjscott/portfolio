@@ -57,53 +57,57 @@ _embedded:
           - href: /projects/somd/
           - href: /projects/systems-portal/
           - href: /projects/train-builder/
-        db:
-          - href: /db/sql-server/
-          - href: /db/oracle/
-          - href: /db/access/
-          - href: /db/sqlite/
-          - href: /db/postgres/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
+          - href: /languages/plsql/
           - href: /languages/py/
           - href: /languages/rb/
           - href: /languages/sql/
           - href: /languages/tsql/
-          - href: /languages/plsql/
+        db:
+          - href: /db/access/
+          - href: /db/oracle/
+          - href: /db/postgres/
+          - href: /db/sql-server/
+          - href: /db/sqlite/
+        tools:
+          - href: /tools/backbone/
         os:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
-        tools:
-          - href: /tools/backbone/
   languages:
-    - title: JavaScript
-      desc: JavaScript is a high-level, interpreted programming language that is used
-        to create interactive web pages and applications. It is a scripting
-        language that is used to add dynamic elements to web pages, such as
-        animations, interactive forms, and dynamic content. JavaScript is also
-        used to create mobile applications and desktop applications. It is an
-        object-oriented language that is used to create complex applications.
-      begin_year: 2005
-      end_year: 2025
+    - title: Ruby
+      desc: Ruby is an open-source, object-oriented programming language created by
+        Yukihiro Matsumoto in 1995. It is designed to be simple and easy to use,
+        yet powerful and flexible. Ruby is often used for web development,
+        scripting, and general-purpose programming. It is known for its use of
+        blocks, which allow for the creation of concise and powerful code. Ruby
+        is also popular for its use of metaprogramming, which allows for the
+        dynamic creation of code at runtime.
+      begin_year: 2010
+      end_year: present
       _links:
         self:
-          href: /languages/js/
+          href: /languages/rb/
         projects:
           - href: /projects/agdc/
-          - href: /projects/awwu-intranet/
-          - href: /projects/energy-efficiency-map/
-          - href: /projects/qb/
+          - href: /projects/centroid/
+          - href: /projects/cfw/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/please/
           - href: /projects/scramble-score/
-          - href: /projects/scrum-tools/
-          - href: /projects/somd/
-          - href: /projects/systems-portal/
-          - href: /projects/aprender/
-          - href: /projects/la-boda/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
         jobs:
+          - href: /jobs/freelance/
           - href: /jobs/rdi/
     - title: HTML
       desc: HTML (HyperText Markup Language) is a markup language used to create
@@ -115,7 +119,7 @@ _embedded:
         applications with the use of HTML forms, which can be used to collect
         user input.
       begin_year: 2005
-      end_year: 2025
+      end_year: present
       _links:
         self:
           href: /languages/html/
@@ -123,13 +127,13 @@ _embedded:
           - href: /projects/agdc/
           - href: /projects/awwu-intranet/
           - href: /projects/energy-efficiency-map/
+          - href: /projects/la-boda/
           - href: /projects/qb/
           - href: /projects/scramble-score/
           - href: /projects/scrum-tools/
           - href: /projects/somd/
           - href: /projects/systems-portal/
           - href: /projects/this-site/
-          - href: /projects/la-boda/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -144,7 +148,7 @@ _embedded:
         .css file, and reduce complexity and repetition in the structural
         content.
       begin_year: 2005
-      end_year: 2025
+      end_year: present
       _links:
         self:
           href: /languages/css/
@@ -152,42 +156,39 @@ _embedded:
           - href: /projects/agdc/
           - href: /projects/awwu-intranet/
           - href: /projects/energy-efficiency-map/
+          - href: /projects/la-boda/
           - href: /projects/qb/
           - href: /projects/scramble-score/
           - href: /projects/scrum-tools/
           - href: /projects/somd/
           - href: /projects/systems-portal/
           - href: /projects/this-site/
-          - href: /projects/la-boda/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
-    - title: Ruby
-      desc: Ruby is an open-source, object-oriented programming language created by
-        Yukihiro Matsumoto in 1995. It is designed to be simple and easy to use,
-        yet powerful and flexible. Ruby is often used for web development,
-        scripting, and general-purpose programming. It is known for its use of
-        blocks, which allow for the creation of concise and powerful code. Ruby
-        is also popular for its use of metaprogramming, which allows for the
-        dynamic creation of code at runtime.
-      begin_year: 2010
-      end_year: 2016
+    - title: JavaScript
+      desc: JavaScript is a high-level, interpreted programming language that is used
+        to create interactive web pages and applications. It is a scripting
+        language that is used to add dynamic elements to web pages, such as
+        animations, interactive forms, and dynamic content. JavaScript is also
+        used to create mobile applications and desktop applications. It is an
+        object-oriented language that is used to create complex applications.
+      begin_year: 2005
+      end_year: 2025
       _links:
         self:
-          href: /languages/rb/
+          href: /languages/js/
         projects:
           - href: /projects/agdc/
-          - href: /projects/centroid/
-          - href: /projects/denver-schedules-api/
-          - href: /projects/please/
+          - href: /projects/aprender/
+          - href: /projects/awwu-intranet/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/la-boda/
+          - href: /projects/qb/
           - href: /projects/scramble-score/
-          - href: /projects/simpler/
-          - href: /projects/this-site/
-          - href: /projects/cfw/
-          - href: /projects/jekyll-load/
-          - href: /projects/jekyll-api/
-          - href: /projects/jekyll-embed/
-          - href: /projects/jekyll-prep/
+          - href: /projects/scrum-tools/
+          - href: /projects/somd/
+          - href: /projects/systems-portal/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -229,20 +230,50 @@ _embedded:
           href: /os/linux/
         projects:
           - href: /projects/centroid/
+          - href: /projects/cfw/
           - href: /projects/denver-schedules-api/
           - href: /projects/epicloud/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/la-boda/
+          - href: /projects/nuggets/
           - href: /projects/scramble-score/
           - href: /projects/simpler/
           - href: /projects/this-site/
-          - href: /projects/cfw/
-          - href: /projects/jekyll-load/
-          - href: /projects/jekyll-api/
-          - href: /projects/jekyll-embed/
-          - href: /projects/jekyll-prep/
-          - href: /projects/nuggets/
-          - href: /projects/la-boda/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
+          - href: /jobs/rdi/
+    - title: macOS
+      desc: macOS is Apple’s Unix‐based desktop operating system, first released in
+        2001 as Mac OS X and built on the open‐source Darwin core and the
+        proprietary XNU kernel. Designed exclusively for Mac computers, it
+        combines a polished Aqua graphical interface with deep integration of
+        hardware and software, offering features like Spotlight search, Time
+        Machine backups, and Continuity for seamless work across Apple devices.
+        With strong emphasis on stability, security and performance, macOS
+        supports a rich ecosystem of native and third-party applications via the
+        Mac App Store and developer tools such as Xcode, making it a popular
+        choice for both creative professionals and everyday users.
+      begin_year: 2010
+      end_year: present
+      _links:
+        self:
+          href: /os/macos/
+        projects:
+          - href: /projects/aprender/
+          - href: /projects/centroid/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/scramble-score/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+        jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
     - title: Windows
@@ -274,6 +305,7 @@ _embedded:
           - href: /projects/denver-schedules-api/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
+          - href: /projects/epic-ca-enrollment/
           - href: /projects/flir-monitoring/
           - href: /projects/lasar-range-finder/
           - href: /projects/mvc-integration-test-framework/
@@ -290,40 +322,10 @@ _embedded:
           - href: /projects/train-builder/
           - href: /projects/wengage-acct/
           - href: /projects/wengage-si/
-          - href: /projects/epic-ca-enrollment/
         jobs:
+          - href: /jobs/fe/
           - href: /jobs/freelance/
           - href: /jobs/mas/
           - href: /jobs/rdi/
         schools:
           - href: /schools/uco/
-    - title: macOS
-      desc: macOS is Apple’s Unix‐based desktop operating system, first released in
-        2001 as Mac OS X and built on the open‐source Darwin core and the
-        proprietary XNU kernel. Designed exclusively for Mac computers, it
-        combines a polished Aqua graphical interface with deep integration of
-        hardware and software, offering features like Spotlight search, Time
-        Machine backups, and Continuity for seamless work across Apple devices.
-        With strong emphasis on stability, security and performance, macOS
-        supports a rich ecosystem of native and third-party applications via the
-        Mac App Store and developer tools such as Xcode, making it a popular
-        choice for both creative professionals and everyday users.
-      begin_year: 2010
-      end_year: 2017
-      _links:
-        self:
-          href: /os/macos/
-        projects:
-          - href: /projects/centroid/
-          - href: /projects/denver-schedules-api/
-          - href: /projects/scramble-score/
-          - href: /projects/simpler/
-          - href: /projects/this-site/
-          - href: /projects/jekyll-load/
-          - href: /projects/jekyll-api/
-          - href: /projects/jekyll-embed/
-          - href: /projects/jekyll-prep/
-          - href: /projects/aprender/
-        jobs:
-          - href: /jobs/freelance/
-          - href: /jobs/rdi/

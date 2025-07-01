@@ -17,16 +17,16 @@ _links:
   self:
     href: /os/macos/
   projects:
+    - href: /projects/aprender/
     - href: /projects/centroid/
     - href: /projects/denver-schedules-api/
+    - href: /projects/jekyll-api/
+    - href: /projects/jekyll-embed/
+    - href: /projects/jekyll-load/
+    - href: /projects/jekyll-prep/
     - href: /projects/scramble-score/
     - href: /projects/simpler/
     - href: /projects/this-site/
-    - href: /projects/jekyll-load/
-    - href: /projects/jekyll-api/
-    - href: /projects/jekyll-embed/
-    - href: /projects/jekyll-prep/
-    - href: /projects/aprender/
   jobs:
     - href: /jobs/freelance/
     - href: /jobs/rdi/

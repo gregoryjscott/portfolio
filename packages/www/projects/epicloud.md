@@ -15,8 +15,6 @@ _links:
   db:
     - href: /db/bigquery/
     - href: /db/ddb/
-  os:
-    - href: /os/linux/
   tools:
     - href: /tools/classroom/
     - href: /tools/docker/
@@ -33,4 +31,6 @@ _links:
     - href: /tools/sqs/
     - href: /tools/vpc/
     - href: /tools/sikulix/
+  os:
+    - href: /os/linux/
 ---

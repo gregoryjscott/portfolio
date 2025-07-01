@@ -14,10 +14,6 @@ _links:
     - href: /languages/ts/
   db:
     - href: /db/ddb/
-  os:
-    - href: /os/android/
-    - href: /os/ios/
-    - href: /os/linux/
   tools:
     - href: /tools/amplify/
     - href: /tools/ec2/
@@ -30,6 +26,10 @@ _links:
     - href: /tools/sqs/
     - href: /tools/vpc/
     - href: /tools/xstate/
+  os:
+    - href: /os/android/
+    - href: /os/ios/
+    - href: /os/linux/
 _embedded:
   jobs:
     - title: Freelance Programmer
@@ -43,39 +43,50 @@ _embedded:
         self:
           href: /jobs/freelance/
         projects:
-          - href: /projects/denver-schedules-api/
-          - href: /projects/mvc-integration-test-framework/
-          - href: /projects/simpler/
-          - href: /projects/this-site/
+          - href: /projects/aprender/
           - href: /projects/cfw/
-          - href: /projects/jekyll-load/
+          - href: /projects/denver-schedules-api/
           - href: /projects/jekyll-api/
           - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
           - href: /projects/jekyll-prep/
-          - href: /projects/nuggets/
-          - href: /projects/aprender/
           - href: /projects/la-boda/
-        db:
-          - href: /db/postgres/
+          - href: /projects/mvc-integration-test-framework/
+          - href: /projects/nuggets/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
         languages:
           - href: /languages/cs/
-          - href: /languages/rb/
-          - href: /languages/sql/
           - href: /languages/css/
           - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/rb/
+          - href: /languages/sql/
+          - href: /languages/ts/
+        db:
+          - href: /db/ddb/
+          - href: /db/postgres/
+        tools:
+          - href: /tools/amplify/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/hal/
+          - href: /tools/heroku/
+          - href: /tools/iam/
+          - href: /tools/jekyll/
+          - href: /tools/react-native/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+          - href: /tools/xstate/
         os:
-          - href: /os/windows/
-          - href: /os/macos/
-          - href: /os/linux/
           - href: /os/android/
           - href: /os/ios/
-        tools:
-          - href: /tools/heroku/
-          - href: /tools/jekyll/
-          - href: /tools/hal/
-          - href: /tools/amplify/
-          - href: /tools/react-native/
-          - href: /tools/xstate/
+          - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
   languages:
     - title: Typescript
       desc: Typescript is a typed superset of JavaScript that compiles to plain
@@ -92,10 +103,11 @@ _embedded:
           href: /languages/ts/
         projects:
           - href: /projects/epicloud/
-          - href: /projects/this-site/
           - href: /projects/nuggets/
+          - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
   db:
     - title: DynamoDB
       desc: Amazon DynamoDB is a fully managed NoSQL database service that provides
@@ -112,77 +124,11 @@ _embedded:
           href: /db/ddb/
         projects:
           - href: /projects/epicloud/
-          - href: /projects/nuggets/
           - href: /projects/la-boda/
-        jobs:
-          - href: /jobs/fe/
-  os:
-    - title: iOS
-      desc: iOS is a mobile operating system developed by Apple Inc. for its iPhone,
-        iPad, and iPod Touch devices. It is the second most popular mobile
-        operating system in the world, behind Android. iOS is based on the Mac
-        OS X operating system and provides a user interface based on direct
-        manipulation of the screen using multi-touch gestures. It includes
-        features such as a home screen with app icons, a notification center,
-        and access to the App Store for downloading apps. iOS also includes
-        features such as iCloud, AirPlay, and Apple Pay.
-      begin_year: 2024
-      end_year: present
-      _links:
-        self:
-          href: /os/ios/
-        projects:
           - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/freelance/
-    - title: Android
-      desc: Android is a mobile operating system developed by Google. It is based on a
-        modified version of the Linux kernel and other open source software, and
-        is designed primarily for touchscreen mobile devices such as smartphones
-        and tablets. Android has a large community of developers writing
-        applications ("apps") that extend the functionality of the devices. Apps
-        can be downloaded from third-party app stores or through online stores
-        such as Google Play. Android has been the best-selling OS on tablets
-        since 2013, and on smartphones it is dominant by any metric.
-      begin_year: 2024
-      end_year: present
-      _links:
-        self:
-          href: /os/android/
-        projects:
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/freelance/
-    - title: Linux
-      desc: Linux is an open-source operating system that is based on the Linux
-        kernel. It is a free and powerful operating system that is used in many
-        different types of computing devices, from smartphones to
-        supercomputers. It is highly customizable and can be used for a variety
-        of tasks, from web hosting to software development. It is also highly
-        secure and reliable, making it a popular choice for many users.
-      begin_year: 2010
-      end_year: present
-      _links:
-        self:
-          href: /os/linux/
-        projects:
-          - href: /projects/centroid/
-          - href: /projects/denver-schedules-api/
-          - href: /projects/epicloud/
-          - href: /projects/scramble-score/
-          - href: /projects/simpler/
-          - href: /projects/this-site/
-          - href: /projects/cfw/
-          - href: /projects/jekyll-load/
-          - href: /projects/jekyll-api/
-          - href: /projects/jekyll-embed/
-          - href: /projects/jekyll-prep/
-          - href: /projects/nuggets/
-          - href: /projects/la-boda/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/freelance/
-          - href: /jobs/rdi/
   tools:
     - title: XState
       desc: XState is a JavaScript/TypeScript library for modeling application logic
@@ -243,8 +189,8 @@ _embedded:
         self:
           href: /tools/amplify/
         projects:
-          - href: /projects/nuggets/
           - href: /projects/la-boda/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/freelance/
     - title: VPC
@@ -267,6 +213,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
     - title: SQS
       desc: Amazon Simple Queue Service (SQS) is a fully managed message queuing
         service that enables applications to quickly and reliably queue messages
@@ -287,6 +234,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
     - title: S3
       desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
         Amazon Web Services (AWS). It provides object storage through a web
@@ -305,6 +253,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
     - title: IAM
       desc: AWS Identity and Access Management (IAM) is a web service that helps you
         securely control access to AWS resources. With IAM, you can create and
@@ -323,6 +272,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
     - title: Fargate
       desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
         deploy and manage containers without having to manage the underlying
@@ -341,6 +291,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
     - title: ECS
       desc: Amazon Elastic Container Service (ECS) is a container orchestration
         service from Amazon Web Services (AWS) that enables users to easily
@@ -359,6 +310,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
     - title: ECR
       desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
         container registry that makes it easy to store, manage, and deploy
@@ -377,6 +329,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
     - title: EC2
       desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
         resizable compute capacity in the cloud. It is designed to make
@@ -395,3 +348,71 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
+  os:
+    - title: iOS
+      desc: iOS is a mobile operating system developed by Apple Inc. for its iPhone,
+        iPad, and iPod Touch devices. It is the second most popular mobile
+        operating system in the world, behind Android. iOS is based on the Mac
+        OS X operating system and provides a user interface based on direct
+        manipulation of the screen using multi-touch gestures. It includes
+        features such as a home screen with app icons, a notification center,
+        and access to the App Store for downloading apps. iOS also includes
+        features such as iCloud, AirPlay, and Apple Pay.
+      begin_year: 2024
+      end_year: present
+      _links:
+        self:
+          href: /os/ios/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+    - title: Android
+      desc: Android is a mobile operating system developed by Google. It is based on a
+        modified version of the Linux kernel and other open source software, and
+        is designed primarily for touchscreen mobile devices such as smartphones
+        and tablets. Android has a large community of developers writing
+        applications ("apps") that extend the functionality of the devices. Apps
+        can be downloaded from third-party app stores or through online stores
+        such as Google Play. Android has been the best-selling OS on tablets
+        since 2013, and on smartphones it is dominant by any metric.
+      begin_year: 2024
+      end_year: present
+      _links:
+        self:
+          href: /os/android/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+    - title: Linux
+      desc: Linux is an open-source operating system that is based on the Linux
+        kernel. It is a free and powerful operating system that is used in many
+        different types of computing devices, from smartphones to
+        supercomputers. It is highly customizable and can be used for a variety
+        of tasks, from web hosting to software development. It is also highly
+        secure and reliable, making it a popular choice for many users.
+      begin_year: 2010
+      end_year: present
+      _links:
+        self:
+          href: /os/linux/
+        projects:
+          - href: /projects/centroid/
+          - href: /projects/cfw/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/epicloud/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/la-boda/
+          - href: /projects/nuggets/
+          - href: /projects/scramble-score/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/freelance/
+          - href: /jobs/rdi/

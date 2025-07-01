@@ -11,17 +11,15 @@ _links:
   self:
     href: /jobs/fe/
   projects:
-    - href: /projects/epicloud/
     - href: /projects/epic-ca-enrollment/
+    - href: /projects/epicloud/
+  languages:
+    - href: /languages/php/
+    - href: /languages/ts/
   db:
     - href: /db/bigquery/
     - href: /db/ddb/
     - href: /db/firebase/
-  languages:
-    - href: /languages/ts/
-    - href: /languages/php/
-  os:
-    - href: /os/linux/
   tools:
     - href: /tools/classroom/
     - href: /tools/docker/
@@ -35,9 +33,12 @@ _links:
     - href: /tools/node/
     - href: /tools/puppeteer/
     - href: /tools/s3/
+    - href: /tools/sikulix/
     - href: /tools/sqs/
     - href: /tools/vpc/
-    - href: /tools/sikulix/
+  os:
+    - href: /os/linux/
+    - href: /os/windows/
 ---
 
 - Built the cloud-based backend integration and automation services for one of the largest online charter schools in the United States

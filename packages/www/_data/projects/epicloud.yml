@@ -14,8 +14,6 @@ _links:
   db:
     - href: /db/bigquery/
     - href: /db/ddb/
-  os:
-    - href: /os/linux/
   tools:
     - href: /tools/classroom/
     - href: /tools/docker/
@@ -32,6 +30,8 @@ _links:
     - href: /tools/sqs/
     - href: /tools/vpc/
     - href: /tools/sikulix/
+  os:
+    - href: /os/linux/
 _embedded:
   jobs:
     - title: Futuristic Education
@@ -45,17 +45,15 @@ _embedded:
         self:
           href: /jobs/fe/
         projects:
-          - href: /projects/epicloud/
           - href: /projects/epic-ca-enrollment/
+          - href: /projects/epicloud/
+        languages:
+          - href: /languages/php/
+          - href: /languages/ts/
         db:
           - href: /db/bigquery/
           - href: /db/ddb/
           - href: /db/firebase/
-        languages:
-          - href: /languages/ts/
-          - href: /languages/php/
-        os:
-          - href: /os/linux/
         tools:
           - href: /tools/classroom/
           - href: /tools/docker/
@@ -69,9 +67,12 @@ _embedded:
           - href: /tools/node/
           - href: /tools/puppeteer/
           - href: /tools/s3/
+          - href: /tools/sikulix/
           - href: /tools/sqs/
           - href: /tools/vpc/
-          - href: /tools/sikulix/
+        os:
+          - href: /os/linux/
+          - href: /os/windows/
   languages:
     - title: Typescript
       desc: Typescript is a typed superset of JavaScript that compiles to plain
@@ -88,10 +89,11 @@ _embedded:
           href: /languages/ts/
         projects:
           - href: /projects/epicloud/
-          - href: /projects/this-site/
           - href: /projects/nuggets/
+          - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
   db:
     - title: DynamoDB
       desc: Amazon DynamoDB is a fully managed NoSQL database service that provides
@@ -108,10 +110,11 @@ _embedded:
           href: /db/ddb/
         projects:
           - href: /projects/epicloud/
-          - href: /projects/nuggets/
           - href: /projects/la-boda/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
     - title: BigQuery
       desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
         enables businesses to store, query, and analyze large datasets. It is a
@@ -130,37 +133,6 @@ _embedded:
           - href: /projects/epicloud/
         jobs:
           - href: /jobs/fe/
-  os:
-    - title: Linux
-      desc: Linux is an open-source operating system that is based on the Linux
-        kernel. It is a free and powerful operating system that is used in many
-        different types of computing devices, from smartphones to
-        supercomputers. It is highly customizable and can be used for a variety
-        of tasks, from web hosting to software development. It is also highly
-        secure and reliable, making it a popular choice for many users.
-      begin_year: 2010
-      end_year: present
-      _links:
-        self:
-          href: /os/linux/
-        projects:
-          - href: /projects/centroid/
-          - href: /projects/denver-schedules-api/
-          - href: /projects/epicloud/
-          - href: /projects/scramble-score/
-          - href: /projects/simpler/
-          - href: /projects/this-site/
-          - href: /projects/cfw/
-          - href: /projects/jekyll-load/
-          - href: /projects/jekyll-api/
-          - href: /projects/jekyll-embed/
-          - href: /projects/jekyll-prep/
-          - href: /projects/nuggets/
-          - href: /projects/la-boda/
-        jobs:
-          - href: /jobs/fe/
-          - href: /jobs/freelance/
-          - href: /jobs/rdi/
   tools:
     - title: VPC
       desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
@@ -182,6 +154,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
     - title: SQS
       desc: Amazon Simple Queue Service (SQS) is a fully managed message queuing
         service that enables applications to quickly and reliably queue messages
@@ -202,6 +175,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
     - title: S3
       desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
         Amazon Web Services (AWS). It provides object storage through a web
@@ -220,6 +194,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
     - title: IAM
       desc: AWS Identity and Access Management (IAM) is a web service that helps you
         securely control access to AWS resources. With IAM, you can create and
@@ -238,6 +213,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
     - title: Fargate
       desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
         deploy and manage containers without having to manage the underlying
@@ -256,6 +232,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
     - title: ECS
       desc: Amazon Elastic Container Service (ECS) is a container orchestration
         service from Amazon Web Services (AWS) that enables users to easily
@@ -274,6 +251,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
     - title: ECR
       desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
         container registry that makes it easy to store, manage, and deploy
@@ -292,6 +270,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
     - title: EC2
       desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
         resizable compute capacity in the cloud. It is designed to make
@@ -310,6 +289,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
     - title: SikuliX
       desc: SikuliX is an open-source GUI automation tool that uses image recognition
         to interact with on-screen elements by matching screenshots. It lets you
@@ -430,3 +410,34 @@ _embedded:
           - href: /projects/epicloud/
         jobs:
           - href: /jobs/fe/
+  os:
+    - title: Linux
+      desc: Linux is an open-source operating system that is based on the Linux
+        kernel. It is a free and powerful operating system that is used in many
+        different types of computing devices, from smartphones to
+        supercomputers. It is highly customizable and can be used for a variety
+        of tasks, from web hosting to software development. It is also highly
+        secure and reliable, making it a popular choice for many users.
+      begin_year: 2010
+      end_year: present
+      _links:
+        self:
+          href: /os/linux/
+        projects:
+          - href: /projects/centroid/
+          - href: /projects/cfw/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/epicloud/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/la-boda/
+          - href: /projects/nuggets/
+          - href: /projects/scramble-score/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/freelance/
+          - href: /jobs/rdi/

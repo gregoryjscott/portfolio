@@ -16,10 +16,6 @@ _links:
     - href: /languages/ts/
   db:
     - href: /db/ddb/
-  os:
-    - href: /os/android/
-    - href: /os/ios/
-    - href: /os/linux/
   tools:
     - href: /tools/amplify/
     - href: /tools/ec2/
@@ -32,4 +28,8 @@ _links:
     - href: /tools/sqs/
     - href: /tools/vpc/
     - href: /tools/xstate/
+  os:
+    - href: /os/android/
+    - href: /os/ios/
+    - href: /os/linux/
 ---

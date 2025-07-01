@@ -9,11 +9,11 @@ end_year: 2014
 _links:
   self:
     href: /projects/centroid/
-  jobs:
-    - href: /jobs/rdi/
   code:
     title: github.com/ResourceDataInc/Centroid
     href: "https://github.com/ResourceDataInc/Centroid"
+  jobs:
+    - href: /jobs/rdi/
   languages:
     - href: /languages/cs/
     - href: /languages/py/

@@ -27,17 +27,15 @@ _embedded:
         self:
           href: /jobs/fe/
         projects:
-          - href: /projects/epicloud/
           - href: /projects/epic-ca-enrollment/
+          - href: /projects/epicloud/
+        languages:
+          - href: /languages/php/
+          - href: /languages/ts/
         db:
           - href: /db/bigquery/
           - href: /db/ddb/
           - href: /db/firebase/
-        languages:
-          - href: /languages/ts/
-          - href: /languages/php/
-        os:
-          - href: /os/linux/
         tools:
           - href: /tools/classroom/
           - href: /tools/docker/
@@ -51,9 +49,12 @@ _embedded:
           - href: /tools/node/
           - href: /tools/puppeteer/
           - href: /tools/s3/
+          - href: /tools/sikulix/
           - href: /tools/sqs/
           - href: /tools/vpc/
-          - href: /tools/sikulix/
+        os:
+          - href: /os/linux/
+          - href: /os/windows/
   languages:
     - title: PHP
       desc: PHP is a server-side scripting language used for web development. It is a
@@ -90,10 +91,10 @@ _embedded:
       _links:
         self:
           href: /db/firebase/
-        jobs:
-          - href: /jobs/fe/
         projects:
           - href: /projects/epic-ca-enrollment/
+        jobs:
+          - href: /jobs/fe/
   os:
     - title: Windows
       desc: Windows is a series of operating systems developed by Microsoft. It is the
@@ -124,6 +125,7 @@ _embedded:
           - href: /projects/denver-schedules-api/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
+          - href: /projects/epic-ca-enrollment/
           - href: /projects/flir-monitoring/
           - href: /projects/lasar-range-finder/
           - href: /projects/mvc-integration-test-framework/
@@ -140,8 +142,8 @@ _embedded:
           - href: /projects/train-builder/
           - href: /projects/wengage-acct/
           - href: /projects/wengage-si/
-          - href: /projects/epic-ca-enrollment/
         jobs:
+          - href: /jobs/fe/
           - href: /jobs/freelance/
           - href: /jobs/mas/
           - href: /jobs/rdi/

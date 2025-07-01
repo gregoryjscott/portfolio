@@ -21,8 +21,8 @@ _links:
     - href: /languages/tsql/
   db:
     - href: /db/sql-server/
-  os:
-    - href: /os/windows/
   tools:
     - href: /tools/backbone/
+  os:
+    - href: /os/windows/
 ---

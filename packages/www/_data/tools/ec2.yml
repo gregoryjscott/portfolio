@@ -15,6 +15,7 @@ _links:
     - href: /projects/nuggets/
   jobs:
     - href: /jobs/fe/
+    - href: /jobs/freelance/
 _embedded:
   projects:
     - title: Nuggets
@@ -33,10 +34,6 @@ _embedded:
           - href: /languages/ts/
         db:
           - href: /db/ddb/
-        os:
-          - href: /os/android/
-          - href: /os/ios/
-          - href: /os/linux/
         tools:
           - href: /tools/amplify/
           - href: /tools/ec2/
@@ -49,6 +46,10 @@ _embedded:
           - href: /tools/sqs/
           - href: /tools/vpc/
           - href: /tools/xstate/
+        os:
+          - href: /os/android/
+          - href: /os/ios/
+          - href: /os/linux/
     - title: EpiCloud
       subtitle: Infinitely Scaling Bots on AWS
       desc: null
@@ -65,8 +66,6 @@ _embedded:
         db:
           - href: /db/bigquery/
           - href: /db/ddb/
-        os:
-          - href: /os/linux/
         tools:
           - href: /tools/classroom/
           - href: /tools/docker/
@@ -83,7 +82,64 @@ _embedded:
           - href: /tools/sqs/
           - href: /tools/vpc/
           - href: /tools/sikulix/
+        os:
+          - href: /os/linux/
   jobs:
+    - title: Freelance Programmer
+      desc: Freelance Programmer/Consultant, partnering with clients to architect and
+        implement technology solutions
+      role: Freelance Programmer
+      begin_year: 2014
+      end_year: present
+      time_desc: July 2014 - present
+      _links:
+        self:
+          href: /jobs/freelance/
+        projects:
+          - href: /projects/aprender/
+          - href: /projects/cfw/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/la-boda/
+          - href: /projects/mvc-integration-test-framework/
+          - href: /projects/nuggets/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/rb/
+          - href: /languages/sql/
+          - href: /languages/ts/
+        db:
+          - href: /db/ddb/
+          - href: /db/postgres/
+        tools:
+          - href: /tools/amplify/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/hal/
+          - href: /tools/heroku/
+          - href: /tools/iam/
+          - href: /tools/jekyll/
+          - href: /tools/react-native/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+          - href: /tools/xstate/
+        os:
+          - href: /os/android/
+          - href: /os/ios/
+          - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
     - title: Futuristic Education
       desc: Co-Founder/Programmer of Futuristic Education, building custom technology
         for schools and educators
@@ -95,17 +151,15 @@ _embedded:
         self:
           href: /jobs/fe/
         projects:
-          - href: /projects/epicloud/
           - href: /projects/epic-ca-enrollment/
+          - href: /projects/epicloud/
+        languages:
+          - href: /languages/php/
+          - href: /languages/ts/
         db:
           - href: /db/bigquery/
           - href: /db/ddb/
           - href: /db/firebase/
-        languages:
-          - href: /languages/ts/
-          - href: /languages/php/
-        os:
-          - href: /os/linux/
         tools:
           - href: /tools/classroom/
           - href: /tools/docker/
@@ -119,6 +173,9 @@ _embedded:
           - href: /tools/node/
           - href: /tools/puppeteer/
           - href: /tools/s3/
+          - href: /tools/sikulix/
           - href: /tools/sqs/
           - href: /tools/vpc/
-          - href: /tools/sikulix/
+        os:
+          - href: /os/linux/
+          - href: /os/windows/

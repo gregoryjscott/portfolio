@@ -39,10 +39,6 @@ _embedded:
           - href: /languages/ts/
         db:
           - href: /db/ddb/
-        os:
-          - href: /os/android/
-          - href: /os/ios/
-          - href: /os/linux/
         tools:
           - href: /tools/amplify/
           - href: /tools/ec2/
@@ -55,6 +51,10 @@ _embedded:
           - href: /tools/sqs/
           - href: /tools/vpc/
           - href: /tools/xstate/
+        os:
+          - href: /os/android/
+          - href: /os/ios/
+          - href: /os/linux/
   jobs:
     - title: Freelance Programmer
       desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -67,36 +67,47 @@ _embedded:
         self:
           href: /jobs/freelance/
         projects:
-          - href: /projects/denver-schedules-api/
-          - href: /projects/mvc-integration-test-framework/
-          - href: /projects/simpler/
-          - href: /projects/this-site/
+          - href: /projects/aprender/
           - href: /projects/cfw/
-          - href: /projects/jekyll-load/
+          - href: /projects/denver-schedules-api/
           - href: /projects/jekyll-api/
           - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
           - href: /projects/jekyll-prep/
-          - href: /projects/nuggets/
-          - href: /projects/aprender/
           - href: /projects/la-boda/
-        db:
-          - href: /db/postgres/
+          - href: /projects/mvc-integration-test-framework/
+          - href: /projects/nuggets/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
         languages:
           - href: /languages/cs/
-          - href: /languages/rb/
-          - href: /languages/sql/
           - href: /languages/css/
           - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/rb/
+          - href: /languages/sql/
+          - href: /languages/ts/
+        db:
+          - href: /db/ddb/
+          - href: /db/postgres/
+        tools:
+          - href: /tools/amplify/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/hal/
+          - href: /tools/heroku/
+          - href: /tools/iam/
+          - href: /tools/jekyll/
+          - href: /tools/react-native/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+          - href: /tools/xstate/
         os:
-          - href: /os/windows/
-          - href: /os/macos/
-          - href: /os/linux/
           - href: /os/android/
           - href: /os/ios/
-        tools:
-          - href: /tools/heroku/
-          - href: /tools/jekyll/
-          - href: /tools/hal/
-          - href: /tools/amplify/
-          - href: /tools/react-native/
-          - href: /tools/xstate/
+          - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/

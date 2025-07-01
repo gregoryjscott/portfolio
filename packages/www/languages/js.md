@@ -14,15 +14,16 @@ _links:
     href: /languages/js/
   projects:
     - href: /projects/agdc/
+    - href: /projects/aprender/
     - href: /projects/awwu-intranet/
     - href: /projects/energy-efficiency-map/
+    - href: /projects/la-boda/
     - href: /projects/qb/
     - href: /projects/scramble-score/
     - href: /projects/scrum-tools/
     - href: /projects/somd/
     - href: /projects/systems-portal/
-    - href: /projects/aprender/
-    - href: /projects/la-boda/
   jobs:
+    - href: /jobs/freelance/
     - href: /jobs/rdi/
 ---

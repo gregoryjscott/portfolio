@@ -35,28 +35,28 @@ _links:
     - href: /projects/somd/
     - href: /projects/systems-portal/
     - href: /projects/train-builder/
-  db:
-    - href: /db/sql-server/
-    - href: /db/oracle/
-    - href: /db/access/
-    - href: /db/sqlite/
-    - href: /db/postgres/
   languages:
     - href: /languages/cs/
     - href: /languages/css/
     - href: /languages/html/
     - href: /languages/js/
+    - href: /languages/plsql/
     - href: /languages/py/
     - href: /languages/rb/
     - href: /languages/sql/
     - href: /languages/tsql/
-    - href: /languages/plsql/
+  db:
+    - href: /db/access/
+    - href: /db/oracle/
+    - href: /db/postgres/
+    - href: /db/sql-server/
+    - href: /db/sqlite/
+  tools:
+    - href: /tools/backbone/
   os:
     - href: /os/linux/
     - href: /os/macos/
     - href: /os/windows/
-  tools:
-    - href: /tools/backbone/
 ---
 
 - Worked directly with clients during on all phases of the software development lifecycle

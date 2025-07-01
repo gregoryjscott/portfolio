@@ -11,13 +11,13 @@ desc: The Hypertext Application Language (HAL) is a simple, vendor-neutral media
   clients to follow HATEOAS principles—dynamically discovering available
   operations and transitions—without relying on out-of-band documentation.
 begin_year: 2014
-end_year: 2014
+end_year: present
 _links:
   self:
     href: /tools/hal/
   projects:
-    - href: /projects/this-site/
     - href: /projects/jekyll-embed/
+    - href: /projects/this-site/
   jobs:
     - href: /jobs/freelance/
 _embedded:
@@ -41,12 +41,12 @@ _embedded:
           - href: /languages/html/
           - href: /languages/rb/
           - href: /languages/ts/
-        os:
-          - href: /os/macos/
-          - href: /os/linux/
         tools:
           - href: /tools/jekyll/
           - href: /tools/hal/
+        os:
+          - href: /os/macos/
+          - href: /os/linux/
     - title: jekyll-embed
       desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
         frontmatter
@@ -56,11 +56,11 @@ _embedded:
       _links:
         self:
           href: /projects/jekyll-embed/
-        jobs:
-          - href: /jobs/freelance/
         code:
           title: github.com/gregoryjscott/jekyll-embed
           href: https://github.com/gregoryjscott/jekyll-embed
+        jobs:
+          - href: /jobs/freelance/
         languages:
           - href: /languages/rb/
         tools:
@@ -81,36 +81,47 @@ _embedded:
         self:
           href: /jobs/freelance/
         projects:
-          - href: /projects/denver-schedules-api/
-          - href: /projects/mvc-integration-test-framework/
-          - href: /projects/simpler/
-          - href: /projects/this-site/
+          - href: /projects/aprender/
           - href: /projects/cfw/
-          - href: /projects/jekyll-load/
+          - href: /projects/denver-schedules-api/
           - href: /projects/jekyll-api/
           - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
           - href: /projects/jekyll-prep/
-          - href: /projects/nuggets/
-          - href: /projects/aprender/
           - href: /projects/la-boda/
-        db:
-          - href: /db/postgres/
+          - href: /projects/mvc-integration-test-framework/
+          - href: /projects/nuggets/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
         languages:
           - href: /languages/cs/
-          - href: /languages/rb/
-          - href: /languages/sql/
           - href: /languages/css/
           - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/rb/
+          - href: /languages/sql/
+          - href: /languages/ts/
+        db:
+          - href: /db/ddb/
+          - href: /db/postgres/
+        tools:
+          - href: /tools/amplify/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/hal/
+          - href: /tools/heroku/
+          - href: /tools/iam/
+          - href: /tools/jekyll/
+          - href: /tools/react-native/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+          - href: /tools/xstate/
         os:
-          - href: /os/windows/
-          - href: /os/macos/
-          - href: /os/linux/
           - href: /os/android/
           - href: /os/ios/
-        tools:
-          - href: /tools/heroku/
-          - href: /tools/jekyll/
-          - href: /tools/hal/
-          - href: /tools/amplify/
-          - href: /tools/react-native/
-          - href: /tools/xstate/
+          - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
