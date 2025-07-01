@@ -9,7 +9,7 @@ desc: >-
   use of metaprogramming, which allows for the dynamic creation of code at
   runtime.
 begin_year: 2010
-end_year: 2016
+end_year: present
 _links:
   self:
     href: /languages/rb/
