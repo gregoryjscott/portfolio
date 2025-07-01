@@ -19,10 +19,10 @@ _links:
     - href: /languages/html/
     - href: /languages/rb/
     - href: /languages/ts/
-  os:
-    - href: /os/macos/
-    - href: /os/linux/
   tools:
     - href: /tools/jekyll/
     - href: /tools/hal/
+  os:
+    - href: /os/macos/
+    - href: /os/linux/
 ---

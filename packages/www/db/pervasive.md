@@ -15,10 +15,10 @@ _links:
   self:
     href: /db/pervasive/
   projects:
+    - href: /projects/class-scheduler/
     - href: /projects/sif-agent/
     - href: /projects/wengage-acct/
     - href: /projects/wengage-si/
-    - href: /projects/class-scheduler/
   jobs:
     - href: /jobs/mas/
 ---

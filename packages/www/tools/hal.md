@@ -19,8 +19,8 @@ _links:
   self:
     href: /tools/hal/
   projects:
-    - href: /projects/this-site/
     - href: /projects/jekyll-embed/
+    - href: /projects/this-site/
   jobs:
     - href: /jobs/freelance/
 ---

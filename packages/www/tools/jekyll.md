@@ -16,11 +16,11 @@ _links:
     href: /tools/jekyll/
   projects:
     - href: /projects/cfw/
-    - href: /projects/this-site/
-    - href: /projects/jekyll-load/
     - href: /projects/jekyll-api/
     - href: /projects/jekyll-embed/
+    - href: /projects/jekyll-load/
     - href: /projects/jekyll-prep/
+    - href: /projects/this-site/
   jobs:
     - href: /jobs/freelance/
 ---

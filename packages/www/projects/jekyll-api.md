@@ -7,11 +7,11 @@ end_year: 2014
 _links:
   self:
     href: /projects/jekyll-api/
-  jobs:
-    - href: /jobs/freelance/
   code:
     title: github.com/gregoryjscott/jekyll-api
     href: "https://github.com/gregoryjscott/jekyll-api"
+  jobs:
+    - href: /jobs/freelance/
   languages:
     - href: /languages/rb/
   tools:

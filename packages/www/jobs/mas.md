@@ -16,16 +16,16 @@ _links:
     - href: /projects/sif-agent/
     - href: /projects/wengage-acct/
     - href: /projects/wengage-si/
+  languages:
+    - href: /languages/cs/
+    - href: /languages/delphi/
+    - href: /languages/sql/
   db:
     - href: /db/btrieve/
     - href: /db/pervasive/
-  languages:
-    - href: /languages/delphi/
-    - href: /languages/cs/
-    - href: /languages/sql/
   os:
-    - href: /os/windows/
     - href: /os/netware/
+    - href: /os/windows/
 ---
 
 - Led the development team in replacing the legacy DOS-based software product stack with a suite of Windows desktop applications

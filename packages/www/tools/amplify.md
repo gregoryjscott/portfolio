@@ -17,8 +17,8 @@ _links:
   self:
     href: /tools/amplify/
   projects:
-    - href: /projects/nuggets/
     - href: /projects/la-boda/
+    - href: /projects/nuggets/
   jobs:
     - href: /jobs/freelance/
 ---

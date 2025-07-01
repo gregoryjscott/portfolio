@@ -7,11 +7,11 @@ end_year: 2014
 _links:
   self:
     href: /projects/jekyll-prep/
-  jobs:
-    - href: /jobs/freelance/
   code:
     title: github.com/gregoryjscott/jekyll-prep
     href: "https://github.com/gregoryjscott/jekyll-prep"
+  jobs:
+    - href: /jobs/freelance/
   languages:
     - href: /languages/rb/
   tools:

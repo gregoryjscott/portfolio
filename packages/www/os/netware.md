@@ -14,10 +14,10 @@ end_year: 2004
 _links:
   self:
     href: /os/netware/
-  jobs:
-    - href: /jobs/mas/
   projects:
     - href: /projects/class-scheduler/
     - href: /projects/wengage-acct/
     - href: /projects/wengage-si/
+  jobs:
+    - href: /jobs/mas/
 ---
