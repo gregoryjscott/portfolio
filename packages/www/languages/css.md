@@ -10,7 +10,7 @@ desc: >-
   the relevant CSS in a separate .css file, and reduce complexity and repetition
   in the structural content.
 begin_year: 2005
-end_year: 2025
+end_year: present
 _links:
   self:
     href: /languages/css/

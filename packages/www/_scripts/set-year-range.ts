@@ -24,7 +24,10 @@ function setYearRange() {
     for (const projectLink of projectLinks) {
       const project = findResource(projectLink, projects)
       const beginYear = project.sourceMarkdown.data.begin_year
-      const endYear = project.sourceMarkdown.data.end_year || 9999
+      const endYear =
+        project.sourceMarkdown.data.end_year === "present"
+          ? 9999
+          : project.sourceMarkdown.data.end_year || 9999
       if (beginYear && beginYear < minYear) {
         minYear = beginYear
       }
@@ -37,7 +40,10 @@ function setYearRange() {
     for (const schoolLink of schoolLinks) {
       const school = findResource(schoolLink, schools)
       const beginYear = school.sourceMarkdown.data.begin_year
-      const endYear = school.sourceMarkdown.data.end_year || 9999
+      const endYear =
+        school.sourceMarkdown.data.end_year === "present"
+          ? 9999
+          : school.sourceMarkdown.data.end_year || 9999
       if (beginYear && beginYear < minYear) {
         minYear = beginYear
       }
