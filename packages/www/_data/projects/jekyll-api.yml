@@ -6,11 +6,11 @@ end_year: 2014
 _links:
   self:
     href: /projects/jekyll-api/
-  jobs:
-    - href: /jobs/freelance/
   code:
     title: github.com/gregoryjscott/jekyll-api
     href: https://github.com/gregoryjscott/jekyll-api
+  jobs:
+    - href: /jobs/freelance/
   languages:
     - href: /languages/rb/
   tools:
@@ -31,39 +31,50 @@ _embedded:
         self:
           href: /jobs/freelance/
         projects:
-          - href: /projects/denver-schedules-api/
-          - href: /projects/mvc-integration-test-framework/
-          - href: /projects/simpler/
-          - href: /projects/this-site/
+          - href: /projects/aprender/
           - href: /projects/cfw/
-          - href: /projects/jekyll-load/
+          - href: /projects/denver-schedules-api/
           - href: /projects/jekyll-api/
           - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
           - href: /projects/jekyll-prep/
-          - href: /projects/nuggets/
-          - href: /projects/aprender/
           - href: /projects/la-boda/
-        db:
-          - href: /db/postgres/
+          - href: /projects/mvc-integration-test-framework/
+          - href: /projects/nuggets/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
         languages:
           - href: /languages/cs/
-          - href: /languages/rb/
-          - href: /languages/sql/
           - href: /languages/css/
           - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/rb/
+          - href: /languages/sql/
+          - href: /languages/ts/
+        db:
+          - href: /db/ddb/
+          - href: /db/postgres/
+        tools:
+          - href: /tools/amplify/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/hal/
+          - href: /tools/heroku/
+          - href: /tools/iam/
+          - href: /tools/jekyll/
+          - href: /tools/react-native/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+          - href: /tools/xstate/
         os:
-          - href: /os/windows/
-          - href: /os/macos/
-          - href: /os/linux/
           - href: /os/android/
           - href: /os/ios/
-        tools:
-          - href: /tools/heroku/
-          - href: /tools/jekyll/
-          - href: /tools/hal/
-          - href: /tools/amplify/
-          - href: /tools/react-native/
-          - href: /tools/xstate/
+          - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
   languages:
     - title: Ruby
       desc: Ruby is an open-source, object-oriented programming language created by
@@ -74,23 +85,23 @@ _embedded:
         is also popular for its use of metaprogramming, which allows for the
         dynamic creation of code at runtime.
       begin_year: 2010
-      end_year: 2016
+      end_year: present
       _links:
         self:
           href: /languages/rb/
         projects:
           - href: /projects/agdc/
           - href: /projects/centroid/
+          - href: /projects/cfw/
           - href: /projects/denver-schedules-api/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
           - href: /projects/please/
           - href: /projects/scramble-score/
           - href: /projects/simpler/
           - href: /projects/this-site/
-          - href: /projects/cfw/
-          - href: /projects/jekyll-load/
-          - href: /projects/jekyll-api/
-          - href: /projects/jekyll-embed/
-          - href: /projects/jekyll-prep/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -106,17 +117,17 @@ _embedded:
         delivers fast, secure sites that are easy to host (notably on GitHub
         Pages) and maintain via version control.
       begin_year: 2014
-      end_year: 2016
+      end_year: present
       _links:
         self:
           href: /tools/jekyll/
         projects:
           - href: /projects/cfw/
-          - href: /projects/this-site/
-          - href: /projects/jekyll-load/
           - href: /projects/jekyll-api/
           - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
           - href: /projects/jekyll-prep/
+          - href: /projects/this-site/
         jobs:
           - href: /jobs/freelance/
   os:
@@ -134,18 +145,18 @@ _embedded:
           href: /os/linux/
         projects:
           - href: /projects/centroid/
+          - href: /projects/cfw/
           - href: /projects/denver-schedules-api/
           - href: /projects/epicloud/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/la-boda/
+          - href: /projects/nuggets/
           - href: /projects/scramble-score/
           - href: /projects/simpler/
           - href: /projects/this-site/
-          - href: /projects/cfw/
-          - href: /projects/jekyll-load/
-          - href: /projects/jekyll-api/
-          - href: /projects/jekyll-embed/
-          - href: /projects/jekyll-prep/
-          - href: /projects/nuggets/
-          - href: /projects/la-boda/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/freelance/
@@ -162,21 +173,21 @@ _embedded:
         Mac App Store and developer tools such as Xcode, making it a popular
         choice for both creative professionals and everyday users.
       begin_year: 2010
-      end_year: 2017
+      end_year: present
       _links:
         self:
           href: /os/macos/
         projects:
+          - href: /projects/aprender/
           - href: /projects/centroid/
           - href: /projects/denver-schedules-api/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
           - href: /projects/scramble-score/
           - href: /projects/simpler/
           - href: /projects/this-site/
-          - href: /projects/jekyll-load/
-          - href: /projects/jekyll-api/
-          - href: /projects/jekyll-embed/
-          - href: /projects/jekyll-prep/
-          - href: /projects/aprender/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/

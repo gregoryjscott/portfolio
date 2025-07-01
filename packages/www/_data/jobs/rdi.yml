@@ -33,28 +33,28 @@ _links:
     - href: /projects/somd/
     - href: /projects/systems-portal/
     - href: /projects/train-builder/
-  db:
-    - href: /db/sql-server/
-    - href: /db/oracle/
-    - href: /db/access/
-    - href: /db/sqlite/
-    - href: /db/postgres/
   languages:
     - href: /languages/cs/
     - href: /languages/css/
     - href: /languages/html/
     - href: /languages/js/
+    - href: /languages/plsql/
     - href: /languages/py/
     - href: /languages/rb/
     - href: /languages/sql/
     - href: /languages/tsql/
-    - href: /languages/plsql/
+  db:
+    - href: /db/access/
+    - href: /db/oracle/
+    - href: /db/postgres/
+    - href: /db/sql-server/
+    - href: /db/sqlite/
+  tools:
+    - href: /tools/backbone/
   os:
     - href: /os/linux/
     - href: /os/macos/
     - href: /os/windows/
-  tools:
-    - href: /tools/backbone/
 content: >-
   - Worked directly with clients during on all phases of the software
   development lifecycle
@@ -83,11 +83,11 @@ _embedded:
       _links:
         self:
           href: /projects/centroid/
-        jobs:
-          - href: /jobs/rdi/
         code:
           title: github.com/ResourceDataInc/Centroid
           href: https://github.com/ResourceDataInc/Centroid
+        jobs:
+          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/py/
@@ -128,11 +128,11 @@ _embedded:
       _links:
         self:
           href: /projects/please/
-        jobs:
-          - href: /jobs/rdi/
         code:
           title: github.com/ResourceDataInc/please
           href: https://github.com/ResourceDataInc/please
+        jobs:
+          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/rb/
@@ -266,10 +266,10 @@ _embedded:
           - href: /languages/tsql/
         db:
           - href: /db/sql-server/
-        os:
-          - href: /os/windows/
         tools:
           - href: /tools/backbone/
+        os:
+          - href: /os/windows/
     - title: Service Order Mobile Dispatch
       desc: Mobile web application that allows Anchorage Water & Wastewater Utility
         service workers to query and record service information while in the
@@ -521,139 +521,35 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
-  db:
-    - title: Postgres
-      desc: Postgres is an open source object-relational database management system
-        (ORDBMS) developed by the PostgreSQL Global Development Group. It is
-        designed to be extensible, highly reliable, and standards-compliant.
-        Postgres is used for a wide range of applications, including data
-        warehousing, e-commerce, web applications, and more. It supports a wide
-        range of data types, including JSON, XML, and user-defined types. It
-        also provides powerful features such as triggers, stored procedures, and
-        views. Postgres is highly scalable and can handle large amounts of data.
-        It is also highly secure, with built-in authentication and access
-        control.
-      begin_year: 2012
-      end_year: 2014
+  languages:
+    - title: Ruby
+      desc: Ruby is an open-source, object-oriented programming language created by
+        Yukihiro Matsumoto in 1995. It is designed to be simple and easy to use,
+        yet powerful and flexible. Ruby is often used for web development,
+        scripting, and general-purpose programming. It is known for its use of
+        blocks, which allow for the creation of concise and powerful code. Ruby
+        is also popular for its use of metaprogramming, which allows for the
+        dynamic creation of code at runtime.
+      begin_year: 2010
+      end_year: present
       _links:
         self:
-          href: /db/postgres/
+          href: /languages/rb/
         projects:
+          - href: /projects/agdc/
+          - href: /projects/centroid/
+          - href: /projects/cfw/
           - href: /projects/denver-schedules-api/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/please/
           - href: /projects/scramble-score/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
         jobs:
           - href: /jobs/freelance/
-          - href: /jobs/rdi/
-    - title: SQLite
-      desc: SQLite is a lightweight, self-contained, serverless, zero-configuration,
-        transactional SQL database engine. It is the most widely deployed
-        database in the world with over 1 trillion installations. It is used in
-        countless applications, from web browsers to operating systems. It is
-        fast, reliable, and requires minimal setup and maintenance. It supports
-        most of the SQL standard, including transactions, triggers, and views.
-        It is also highly extensible, allowing developers to create custom
-        functions and extensions.
-      begin_year: 2012
-      end_year: 2014
-      _links:
-        self:
-          href: /db/sqlite/
-        projects:
-          - href: /projects/please/
-        jobs:
-          - href: /jobs/rdi/
-    - title: SQL Server
-      desc: SQL Server is a relational database management system (RDBMS) developed by
-        Microsoft. It is used to store and manage data in a structured format,
-        allowing users to query and manipulate the data using Structured Query
-        Language (SQL). It is a powerful and reliable platform for data storage
-        and management, and is used by many organizations for mission-critical
-        applications. It is highly scalable and supports a wide range of
-        features, including data replication, security, and high availability.
-      begin_year: 2007
-      end_year: 2014
-      _links:
-        self:
-          href: /db/sql-server/
-        projects:
-          - href: /projects/agdc/
-          - href: /projects/ahfc-integration/
-          - href: /projects/energy-efficiency-map/
-          - href: /projects/qb/
-          - href: /projects/scrum-tools/
-          - href: /projects/systems-portal/
-          - href: /projects/train-builder/
-        jobs:
-          - href: /jobs/rdi/
-    - title: Oracle
-      desc: Oracle Database is a relational database management system (RDBMS)
-        developed by Oracle Corporation. It is the world's most popular database
-        and is used by many of the world's largest organizations to store and
-        manage their data. Oracle Database is a powerful, reliable, and secure
-        platform for running applications and managing data. It provides a
-        comprehensive set of features and tools to help organizations store,
-        manage, and analyze their data. Oracle Database is available in a
-        variety of editions, including Enterprise Edition, Standard Edition, and
-        Express Edition.
-      begin_year: 2005
-      end_year: 2009
-      _links:
-        self:
-          href: /db/oracle/
-        projects:
-          - href: /projects/awwu-intranet/
-          - href: /projects/awwu-job-scheduler/
-          - href: /projects/awwu-systems-integration/
-          - href: /projects/cis-data-capture/
-          - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
-          - href: /projects/employee-suggestions/
-          - href: /projects/sar-reports/
-          - href: /projects/somd/
-        jobs:
-          - href: /jobs/rdi/
-    - title: Access
-      desc: The Access database is a relational database management system (RDBMS)
-        developed by Microsoft. It is used to store and manage data in a
-        structured format, allowing users to quickly and easily access and
-        manipulate data. It is designed to be user-friendly and can be used to
-        create forms, reports, and queries. It also supports data import and
-        export, as well as data validation and security.
-      begin_year: 2007
-      end_year: 2008
-      _links:
-        self:
-          href: /db/access/
-        projects:
-          - href: /projects/flir-monitoring/
-          - href: /projects/lasar-range-finder/
-        jobs:
-          - href: /jobs/rdi/
-  languages:
-    - title: JavaScript
-      desc: JavaScript is a high-level, interpreted programming language that is used
-        to create interactive web pages and applications. It is a scripting
-        language that is used to add dynamic elements to web pages, such as
-        animations, interactive forms, and dynamic content. JavaScript is also
-        used to create mobile applications and desktop applications. It is an
-        object-oriented language that is used to create complex applications.
-      begin_year: 2005
-      end_year: 2025
-      _links:
-        self:
-          href: /languages/js/
-        projects:
-          - href: /projects/agdc/
-          - href: /projects/awwu-intranet/
-          - href: /projects/energy-efficiency-map/
-          - href: /projects/qb/
-          - href: /projects/scramble-score/
-          - href: /projects/scrum-tools/
-          - href: /projects/somd/
-          - href: /projects/systems-portal/
-          - href: /projects/aprender/
-          - href: /projects/la-boda/
-        jobs:
           - href: /jobs/rdi/
     - title: HTML
       desc: HTML (HyperText Markup Language) is a markup language used to create
@@ -665,7 +561,7 @@ _embedded:
         applications with the use of HTML forms, which can be used to collect
         user input.
       begin_year: 2005
-      end_year: 2025
+      end_year: present
       _links:
         self:
           href: /languages/html/
@@ -673,13 +569,13 @@ _embedded:
           - href: /projects/agdc/
           - href: /projects/awwu-intranet/
           - href: /projects/energy-efficiency-map/
+          - href: /projects/la-boda/
           - href: /projects/qb/
           - href: /projects/scramble-score/
           - href: /projects/scrum-tools/
           - href: /projects/somd/
           - href: /projects/systems-portal/
           - href: /projects/this-site/
-          - href: /projects/la-boda/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -694,7 +590,7 @@ _embedded:
         .css file, and reduce complexity and repetition in the structural
         content.
       begin_year: 2005
-      end_year: 2025
+      end_year: present
       _links:
         self:
           href: /languages/css/
@@ -702,42 +598,39 @@ _embedded:
           - href: /projects/agdc/
           - href: /projects/awwu-intranet/
           - href: /projects/energy-efficiency-map/
+          - href: /projects/la-boda/
           - href: /projects/qb/
           - href: /projects/scramble-score/
           - href: /projects/scrum-tools/
           - href: /projects/somd/
           - href: /projects/systems-portal/
           - href: /projects/this-site/
-          - href: /projects/la-boda/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
-    - title: Ruby
-      desc: Ruby is an open-source, object-oriented programming language created by
-        Yukihiro Matsumoto in 1995. It is designed to be simple and easy to use,
-        yet powerful and flexible. Ruby is often used for web development,
-        scripting, and general-purpose programming. It is known for its use of
-        blocks, which allow for the creation of concise and powerful code. Ruby
-        is also popular for its use of metaprogramming, which allows for the
-        dynamic creation of code at runtime.
-      begin_year: 2010
-      end_year: 2016
+    - title: JavaScript
+      desc: JavaScript is a high-level, interpreted programming language that is used
+        to create interactive web pages and applications. It is a scripting
+        language that is used to add dynamic elements to web pages, such as
+        animations, interactive forms, and dynamic content. JavaScript is also
+        used to create mobile applications and desktop applications. It is an
+        object-oriented language that is used to create complex applications.
+      begin_year: 2005
+      end_year: 2025
       _links:
         self:
-          href: /languages/rb/
+          href: /languages/js/
         projects:
           - href: /projects/agdc/
-          - href: /projects/centroid/
-          - href: /projects/denver-schedules-api/
-          - href: /projects/please/
+          - href: /projects/aprender/
+          - href: /projects/awwu-intranet/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/la-boda/
+          - href: /projects/qb/
           - href: /projects/scramble-score/
-          - href: /projects/simpler/
-          - href: /projects/this-site/
-          - href: /projects/cfw/
-          - href: /projects/jekyll-load/
-          - href: /projects/jekyll-api/
-          - href: /projects/jekyll-embed/
-          - href: /projects/jekyll-prep/
+          - href: /projects/scrum-tools/
+          - href: /projects/somd/
+          - href: /projects/systems-portal/
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
@@ -885,7 +778,169 @@ _embedded:
           - href: /projects/somd/
         jobs:
           - href: /jobs/rdi/
+  db:
+    - title: SQLite
+      desc: SQLite is a lightweight, self-contained, serverless, zero-configuration,
+        transactional SQL database engine. It is the most widely deployed
+        database in the world with over 1 trillion installations. It is used in
+        countless applications, from web browsers to operating systems. It is
+        fast, reliable, and requires minimal setup and maintenance. It supports
+        most of the SQL standard, including transactions, triggers, and views.
+        It is also highly extensible, allowing developers to create custom
+        functions and extensions.
+      begin_year: 2012
+      end_year: 2014
+      _links:
+        self:
+          href: /db/sqlite/
+        projects:
+          - href: /projects/please/
+        jobs:
+          - href: /jobs/rdi/
+    - title: Postgres
+      desc: Postgres is an open source object-relational database management system
+        (ORDBMS) developed by the PostgreSQL Global Development Group. It is
+        designed to be extensible, highly reliable, and standards-compliant.
+        Postgres is used for a wide range of applications, including data
+        warehousing, e-commerce, web applications, and more. It supports a wide
+        range of data types, including JSON, XML, and user-defined types. It
+        also provides powerful features such as triggers, stored procedures, and
+        views. Postgres is highly scalable and can handle large amounts of data.
+        It is also highly secure, with built-in authentication and access
+        control.
+      begin_year: 2012
+      end_year: 2014
+      _links:
+        self:
+          href: /db/postgres/
+        projects:
+          - href: /projects/denver-schedules-api/
+          - href: /projects/scramble-score/
+        jobs:
+          - href: /jobs/freelance/
+          - href: /jobs/rdi/
+    - title: SQL Server
+      desc: SQL Server is a relational database management system (RDBMS) developed by
+        Microsoft. It is used to store and manage data in a structured format,
+        allowing users to query and manipulate the data using Structured Query
+        Language (SQL). It is a powerful and reliable platform for data storage
+        and management, and is used by many organizations for mission-critical
+        applications. It is highly scalable and supports a wide range of
+        features, including data replication, security, and high availability.
+      begin_year: 2007
+      end_year: 2014
+      _links:
+        self:
+          href: /db/sql-server/
+        projects:
+          - href: /projects/agdc/
+          - href: /projects/ahfc-integration/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/qb/
+          - href: /projects/scrum-tools/
+          - href: /projects/systems-portal/
+          - href: /projects/train-builder/
+        jobs:
+          - href: /jobs/rdi/
+    - title: Oracle
+      desc: Oracle Database is a relational database management system (RDBMS)
+        developed by Oracle Corporation. It is the world's most popular database
+        and is used by many of the world's largest organizations to store and
+        manage their data. Oracle Database is a powerful, reliable, and secure
+        platform for running applications and managing data. It provides a
+        comprehensive set of features and tools to help organizations store,
+        manage, and analyze their data. Oracle Database is available in a
+        variety of editions, including Enterprise Edition, Standard Edition, and
+        Express Edition.
+      begin_year: 2005
+      end_year: 2009
+      _links:
+        self:
+          href: /db/oracle/
+        projects:
+          - href: /projects/awwu-intranet/
+          - href: /projects/awwu-job-scheduler/
+          - href: /projects/awwu-systems-integration/
+          - href: /projects/cis-data-capture/
+          - href: /projects/consumption-views/
+          - href: /projects/database-sync-awwu/
+          - href: /projects/employee-suggestions/
+          - href: /projects/sar-reports/
+          - href: /projects/somd/
+        jobs:
+          - href: /jobs/rdi/
+    - title: Access
+      desc: The Access database is a relational database management system (RDBMS)
+        developed by Microsoft. It is used to store and manage data in a
+        structured format, allowing users to quickly and easily access and
+        manipulate data. It is designed to be user-friendly and can be used to
+        create forms, reports, and queries. It also supports data import and
+        export, as well as data validation and security.
+      begin_year: 2007
+      end_year: 2008
+      _links:
+        self:
+          href: /db/access/
+        projects:
+          - href: /projects/flir-monitoring/
+          - href: /projects/lasar-range-finder/
+        jobs:
+          - href: /jobs/rdi/
+  tools:
+    - title: Backbone.js
+      desc: Backbone.js is a lightweight JavaScript library that brings structure to
+        client‐side applications by providing models with key–value binding and
+        custom events, collections with rich enumerable functions, views with
+        declarative event handling, and a router for managing application state
+        and URLs. It syncs seamlessly with RESTful APIs via its built‐in sync
+        method, making it easy to fetch and persist JSON data. By relying only
+        on Underscore.js (and optionally jQuery or Zepto), Backbone.js imposes
+        minimal constraints on how you architect your code while offering just
+        enough conventions to keep large‐scale single‐page applications
+        organized and maintainable. Its event‐driven design encourages decoupled
+        components, and its simplicity has made it popular for developers who
+        prefer to assemble their own toolchains rather than adopt more
+        opinionated frameworks.
+      begin_year: 2010
+      end_year: 2012
+      _links:
+        self:
+          href: /tools/backbone/
+        projects:
+          - href: /projects/qb/
+        jobs:
+          - href: /jobs/rdi/
   os:
+    - title: macOS
+      desc: macOS is Apple’s Unix‐based desktop operating system, first released in
+        2001 as Mac OS X and built on the open‐source Darwin core and the
+        proprietary XNU kernel. Designed exclusively for Mac computers, it
+        combines a polished Aqua graphical interface with deep integration of
+        hardware and software, offering features like Spotlight search, Time
+        Machine backups, and Continuity for seamless work across Apple devices.
+        With strong emphasis on stability, security and performance, macOS
+        supports a rich ecosystem of native and third-party applications via the
+        Mac App Store and developer tools such as Xcode, making it a popular
+        choice for both creative professionals and everyday users.
+      begin_year: 2010
+      end_year: present
+      _links:
+        self:
+          href: /os/macos/
+        projects:
+          - href: /projects/aprender/
+          - href: /projects/centroid/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/scramble-score/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+        jobs:
+          - href: /jobs/freelance/
+          - href: /jobs/rdi/
     - title: Linux
       desc: Linux is an open-source operating system that is based on the Linux
         kernel. It is a free and powerful operating system that is used in many
@@ -900,18 +955,18 @@ _embedded:
           href: /os/linux/
         projects:
           - href: /projects/centroid/
+          - href: /projects/cfw/
           - href: /projects/denver-schedules-api/
           - href: /projects/epicloud/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/la-boda/
+          - href: /projects/nuggets/
           - href: /projects/scramble-score/
           - href: /projects/simpler/
           - href: /projects/this-site/
-          - href: /projects/cfw/
-          - href: /projects/jekyll-load/
-          - href: /projects/jekyll-api/
-          - href: /projects/jekyll-embed/
-          - href: /projects/jekyll-prep/
-          - href: /projects/nuggets/
-          - href: /projects/la-boda/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/freelance/
@@ -945,6 +1000,7 @@ _embedded:
           - href: /projects/denver-schedules-api/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
+          - href: /projects/epic-ca-enrollment/
           - href: /projects/flir-monitoring/
           - href: /projects/lasar-range-finder/
           - href: /projects/mvc-integration-test-framework/
@@ -961,64 +1017,10 @@ _embedded:
           - href: /projects/train-builder/
           - href: /projects/wengage-acct/
           - href: /projects/wengage-si/
-          - href: /projects/epic-ca-enrollment/
         jobs:
+          - href: /jobs/fe/
           - href: /jobs/freelance/
           - href: /jobs/mas/
           - href: /jobs/rdi/
         schools:
           - href: /schools/uco/
-    - title: macOS
-      desc: macOS is Apple’s Unix‐based desktop operating system, first released in
-        2001 as Mac OS X and built on the open‐source Darwin core and the
-        proprietary XNU kernel. Designed exclusively for Mac computers, it
-        combines a polished Aqua graphical interface with deep integration of
-        hardware and software, offering features like Spotlight search, Time
-        Machine backups, and Continuity for seamless work across Apple devices.
-        With strong emphasis on stability, security and performance, macOS
-        supports a rich ecosystem of native and third-party applications via the
-        Mac App Store and developer tools such as Xcode, making it a popular
-        choice for both creative professionals and everyday users.
-      begin_year: 2010
-      end_year: 2017
-      _links:
-        self:
-          href: /os/macos/
-        projects:
-          - href: /projects/centroid/
-          - href: /projects/denver-schedules-api/
-          - href: /projects/scramble-score/
-          - href: /projects/simpler/
-          - href: /projects/this-site/
-          - href: /projects/jekyll-load/
-          - href: /projects/jekyll-api/
-          - href: /projects/jekyll-embed/
-          - href: /projects/jekyll-prep/
-          - href: /projects/aprender/
-        jobs:
-          - href: /jobs/freelance/
-          - href: /jobs/rdi/
-  tools:
-    - title: Backbone.js
-      desc: Backbone.js is a lightweight JavaScript library that brings structure to
-        client‐side applications by providing models with key–value binding and
-        custom events, collections with rich enumerable functions, views with
-        declarative event handling, and a router for managing application state
-        and URLs. It syncs seamlessly with RESTful APIs via its built‐in sync
-        method, making it easy to fetch and persist JSON data. By relying only
-        on Underscore.js (and optionally jQuery or Zepto), Backbone.js imposes
-        minimal constraints on how you architect your code while offering just
-        enough conventions to keep large‐scale single‐page applications
-        organized and maintainable. Its event‐driven design encourages decoupled
-        components, and its simplicity has made it popular for developers who
-        prefer to assemble their own toolchains rather than adopt more
-        opinionated frameworks.
-      begin_year: 2010
-      end_year: 2012
-      _links:
-        self:
-          href: /tools/backbone/
-        projects:
-          - href: /projects/qb/
-        jobs:
-          - href: /jobs/rdi/
