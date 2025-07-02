@@ -170,6 +170,24 @@ function sortRelations(resource: Resource) {
       )
     ),
   }
+
+  // Relation links on dependent resources are overwritten (and therefore sorted), so
+  // we only need to sort the relation links on non-dependent resources.
+  if (!dependentResources.includes(resource)) {
+    const resourceRelations = findRelations(resource).filter(
+      pr => pr !== "self"
+    )
+    for (const relation of resourceRelations) {
+      const projectRelationLinks = [].concat(
+        findRelationLinks(resource, relation)
+      )
+      const jobRelationLinks = [].concat(findRelationLinks(resource, relation))
+      resource.source.markdown.frontmatter._links[relation] = sortBy(
+        uniqBy([...jobRelationLinks, ...projectRelationLinks], l => l.href),
+        l => l.href
+      )
+    }
+  }
 }
 
 process.on("unhandledRejection", err => {
