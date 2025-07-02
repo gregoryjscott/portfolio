@@ -1,5 +1,8 @@
 # Note: the order of the resources below impacts how they are displayed by templates.
 resources:
+  resume:
+    title: Resume
+    is_skill: false
   projects:
     title: Projects
     is_skill: false

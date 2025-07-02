@@ -6,6 +6,7 @@ import { Link, Relation, Resource } from "./types"
 const yamlDirectory = "_data"
 
 export const resourceDirectories = [
+  "resume",
   "projects",
   "jobs",
   "schools",
@@ -13,8 +14,6 @@ export const resourceDirectories = [
   "db",
   "tools",
   "os",
-  // resume needs to be last b/c it references other "index" resources
-  "resume",
 ] as const
 
 const prompts = {

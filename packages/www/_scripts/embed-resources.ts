@@ -10,7 +10,10 @@ import { Link, Resource } from "./types"
 
 const resources: Resource[] = getResources()
 const nonIndexResources = resources.filter(r => !r.isIndex)
-const indexResources = resources.filter(r => r.isIndex)
+const indexResources = resources.filter(
+  r => r.isIndex && r.relation !== "resume"
+)
+const resumeResource = resources.filter(r => r.relation === "resume")
 
 function embedLinkedResources(
   resourcesToUpdate: Resource[],
@@ -72,4 +75,5 @@ process.on("unhandledRejection", err => {
 
 embedLinkedResources(nonIndexResources, "source")
 embedLinkedResources(indexResources, "target")
+embedLinkedResources(resumeResource, "target")
 sortEmbeddedResources(resources)
