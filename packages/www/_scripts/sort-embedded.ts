@@ -6,46 +6,20 @@ export function sortEmbedded<T extends Yaml>(data: T): T {
     return data
   }
 
-  if (data._embedded.db) {
-    data = sortEmbeddedResource("db", data)
-  }
-
-  if (data._embedded?.jobs) {
-    data = sortEmbeddedResource("jobs", data)
-  }
-
-  if (data._embedded?.languages) {
-    data = sortEmbeddedResource("languages", data)
-  }
-
-  if (data._embedded?.os) {
-    data = sortEmbeddedResource("os", data)
-  }
-
-  if (data._embedded?.projects) {
-    data = sortEmbeddedResource("projects", data)
-  }
-
-  if (data._embedded?.schools) {
-    data = sortEmbeddedResource("schools", data)
-  }
-
-  if (data._embedded?.tools) {
-    data = sortEmbeddedResource("tools", data)
+  const relations = Object.keys(data._embedded) as Relation[]
+  for (const relation of relations) {
+    data = sortEmbeddedResource(relation, data)
   }
 
   return data
 }
 
-function sortEmbeddedResource<T extends Yaml>(
-  resourceName: Relation,
-  data: T
-): T {
+function sortEmbeddedResource<T extends Yaml>(relation: Relation, data: T): T {
   data = {
     ...data,
     _embedded: {
       ...data._embedded,
-      [resourceName]: byRecent(data._embedded[resourceName]),
+      [relation]: byRecent(data._embedded[relation]),
     },
   }
 
@@ -53,7 +27,7 @@ function sortEmbeddedResource<T extends Yaml>(
     ...data,
     _embedded: {
       ...data._embedded,
-      [resourceName]: data._embedded[resourceName].map(sortEmbedded),
+      [relation]: data._embedded[relation].map(sortEmbedded),
     },
   } as T
 }
