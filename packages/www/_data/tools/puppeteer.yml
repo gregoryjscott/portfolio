@@ -25,8 +25,6 @@ _embedded:
       _links:
         self:
           href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
         languages:
           - href: /languages/ts/
         db:
@@ -50,6 +48,8 @@ _embedded:
           - href: /tools/sikulix/
         os:
           - href: /os/linux/
+        jobs:
+          - href: /jobs/fe/
   jobs:
     - title: Futuristic Education
       desc: Co-Founder/Programmer of Futuristic Education, building custom technology

@@ -11,8 +11,6 @@ end_year: 2005
 _links:
   self:
     href: /projects/sif-agent/
-  jobs:
-    - href: /jobs/mas/
   languages:
     - href: /languages/cs/
     - href: /languages/sql/
@@ -20,4 +18,6 @@ _links:
     - href: /db/pervasive/
   os:
     - href: /os/windows/
+  jobs:
+    - href: /jobs/mas/
 ---

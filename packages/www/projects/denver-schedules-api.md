@@ -12,8 +12,6 @@ _links:
   code:
     title: github.com/codeforamerica/denver-schedules-api
     href: "https://github.com/codeforamerica/denver-schedules-api"
-  jobs:
-    - href: /jobs/freelance/
   languages:
     - href: /languages/cs/
     - href: /languages/rb/
@@ -24,4 +22,6 @@ _links:
     - href: /os/windows/
     - href: /os/macos/
     - href: /os/linux/
+  jobs:
+    - href: /jobs/freelance/
 ---

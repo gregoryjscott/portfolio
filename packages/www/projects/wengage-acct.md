@@ -9,8 +9,6 @@ end_year: 2004
 _links:
   self:
     href: /projects/wengage-acct/
-  jobs:
-    - href: /jobs/mas/
   languages:
     - href: /languages/delphi/
     - href: /languages/sql/
@@ -20,4 +18,6 @@ _links:
   os:
     - href: /os/windows/
     - href: /os/netware/
+  jobs:
+    - href: /jobs/mas/
 ---

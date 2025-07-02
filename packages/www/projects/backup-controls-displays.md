@@ -9,10 +9,10 @@ end_year: 1999
 _links:
   self:
     href: /projects/backup-controls-displays/
-  jobs:
-    - href: /jobs/boeing/
   languages:
     - href: /languages/ada/
   os:
     - href: /os/solaris/
+  jobs:
+    - href: /jobs/boeing/
 ---

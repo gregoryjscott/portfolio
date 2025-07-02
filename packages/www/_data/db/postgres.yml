@@ -33,8 +33,6 @@ _embedded:
         code:
           title: github.com/codeforamerica/denver-schedules-api
           href: https://github.com/codeforamerica/denver-schedules-api
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/cs/
           - href: /languages/rb/
@@ -45,6 +43,8 @@ _embedded:
           - href: /os/windows/
           - href: /os/macos/
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
     - title: ScrambleScore
       desc: Mobile web application that allows golfers participating in scramble golf
         tournaments to record their scores and monitor the tournament
@@ -55,8 +55,6 @@ _embedded:
       _links:
         self:
           href: /projects/scramble-score/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/css/
           - href: /languages/html/
@@ -68,6 +66,8 @@ _embedded:
           - href: /os/windows/
           - href: /os/macos/
           - href: /os/linux/
+        jobs:
+          - href: /jobs/rdi/
   jobs:
     - title: Freelance Programmer
       desc: Freelance Programmer/Consultant, partnering with clients to architect and

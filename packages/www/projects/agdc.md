@@ -9,8 +9,6 @@ end_year: 2014
 _links:
   self:
     href: /projects/agdc/
-  jobs:
-    - href: /jobs/rdi/
   languages:
     - href: /languages/cs/
     - href: /languages/css/
@@ -24,4 +22,6 @@ _links:
     - href: /db/sql-server/
   os:
     - href: /os/windows/
+  jobs:
+    - href: /jobs/rdi/
 ---

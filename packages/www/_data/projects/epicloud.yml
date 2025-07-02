@@ -7,8 +7,6 @@ end_year: 2021
 _links:
   self:
     href: /projects/epicloud/
-  jobs:
-    - href: /jobs/fe/
   languages:
     - href: /languages/ts/
   db:
@@ -32,47 +30,9 @@ _links:
     - href: /tools/sikulix/
   os:
     - href: /os/linux/
-_embedded:
   jobs:
-    - title: Futuristic Education
-      desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-        for schools and educators
-      role: Co-Founder/Programmer
-      begin_year: 2018
-      end_year: 2022
-      time_desc: March 2018 - present
-      _links:
-        self:
-          href: /jobs/fe/
-        projects:
-          - href: /projects/epic-ca-enrollment/
-          - href: /projects/epicloud/
-        languages:
-          - href: /languages/php/
-          - href: /languages/ts/
-        db:
-          - href: /db/bigquery/
-          - href: /db/ddb/
-          - href: /db/firebase/
-        tools:
-          - href: /tools/classroom/
-          - href: /tools/docker/
-          - href: /tools/drive/
-          - href: /tools/ec2/
-          - href: /tools/ecr/
-          - href: /tools/ecs/
-          - href: /tools/fargate/
-          - href: /tools/firebase/
-          - href: /tools/iam/
-          - href: /tools/node/
-          - href: /tools/puppeteer/
-          - href: /tools/s3/
-          - href: /tools/sikulix/
-          - href: /tools/sqs/
-          - href: /tools/vpc/
-        os:
-          - href: /os/linux/
-          - href: /os/windows/
+    - href: /jobs/fe/
+_embedded:
   languages:
     - title: Typescript
       desc: Typescript is a typed superset of JavaScript that compiles to plain
@@ -441,3 +401,43 @@ _embedded:
           - href: /jobs/fe/
           - href: /jobs/freelance/
           - href: /jobs/rdi/
+  jobs:
+    - title: Futuristic Education
+      desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+        for schools and educators
+      role: Co-Founder/Programmer
+      begin_year: 2018
+      end_year: 2022
+      time_desc: March 2018 - present
+      _links:
+        self:
+          href: /jobs/fe/
+        projects:
+          - href: /projects/epic-ca-enrollment/
+          - href: /projects/epicloud/
+        languages:
+          - href: /languages/php/
+          - href: /languages/ts/
+        db:
+          - href: /db/bigquery/
+          - href: /db/ddb/
+          - href: /db/firebase/
+        tools:
+          - href: /tools/classroom/
+          - href: /tools/docker/
+          - href: /tools/drive/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/firebase/
+          - href: /tools/iam/
+          - href: /tools/node/
+          - href: /tools/puppeteer/
+          - href: /tools/s3/
+          - href: /tools/sikulix/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+        os:
+          - href: /os/linux/
+          - href: /os/windows/

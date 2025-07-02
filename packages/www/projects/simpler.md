@@ -10,8 +10,6 @@ _links:
   code:
     title: github.com/gregoryjscott/Simpler
     href: "https://github.com/gregoryjscott/Simpler"
-  jobs:
-    - href: /jobs/freelance/
   languages:
     - href: /languages/cs/
     - href: /languages/rb/
@@ -19,4 +17,6 @@ _links:
     - href: /os/windows/
     - href: /os/macos/
     - href: /os/linux/
+  jobs:
+    - href: /jobs/freelance/
 ---

@@ -36,8 +36,6 @@ _embedded:
       _links:
         self:
           href: /projects/somd/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -49,6 +47,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: Consumption Views
       desc: Set of database views that provides water consumption information that
         feed into reporting tools used by AWWU to make business decisions.
@@ -58,8 +58,6 @@ _embedded:
       _links:
         self:
           href: /projects/consumption-views/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/plsql/
           - href: /languages/sql/
@@ -67,6 +65,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: Database Synchronization (AWWU)
       desc: null
       role: Lead Developer
@@ -75,8 +75,6 @@ _embedded:
       _links:
         self:
           href: /projects/database-sync-awwu/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/plsql/
@@ -85,6 +83,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: AWWU Intranet
       desc: Web application that contains AWWU's reporting and querying tools, systems
         status, and custom applications.
@@ -94,8 +94,6 @@ _embedded:
       _links:
         self:
           href: /projects/awwu-intranet/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -107,6 +105,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: SAR Reports
       desc: null
       role: Lead Developer
@@ -115,8 +115,6 @@ _embedded:
       _links:
         self:
           href: /projects/sar-reports/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/sql/
@@ -124,6 +122,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: CIS Data Capture
       desc: Console application that captures monthly snapshots of AWWU's customer
         information system (CIS) data and loads it into a data warehouse.
@@ -133,8 +133,6 @@ _embedded:
       _links:
         self:
           href: /projects/cis-data-capture/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/sql/
@@ -142,6 +140,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: AWWU Systems Integration
       desc: null
       role: Technical Lead
@@ -150,8 +150,6 @@ _embedded:
       _links:
         self:
           href: /projects/awwu-systems-integration/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/plsql/
@@ -160,6 +158,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: AWWU Job Scheduler
       desc: Framework for creating background processing jobs that migrate,
         synchronize, and transform data throughout AWWU's integrated systems.
@@ -169,14 +169,14 @@ _embedded:
       _links:
         self:
           href: /projects/awwu-job-scheduler/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
         db:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: Employees Suggestion
       desc: Oracle Forms application that allows AWWU employees to submit suggestions
         for improving the AWWU workplace.
@@ -186,8 +186,6 @@ _embedded:
       _links:
         self:
           href: /projects/employee-suggestions/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/plsql/
           - href: /languages/sql/
@@ -195,6 +193,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
   jobs:
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,

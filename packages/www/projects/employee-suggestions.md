@@ -9,8 +9,6 @@ end_year: 2005
 _links:
   self:
     href: /projects/employee-suggestions/
-  jobs:
-    - href: /jobs/rdi/
   languages:
     - href: /languages/plsql/
     - href: /languages/sql/
@@ -18,4 +16,6 @@ _links:
     - href: /db/oracle/
   os:
     - href: /os/windows/
+  jobs:
+    - href: /jobs/rdi/
 ---

@@ -7,8 +7,6 @@ end_year: 2013
 _links:
   self:
     href: /projects/ahfc-integration/
-  jobs:
-    - href: /jobs/rdi/
   languages:
     - href: /languages/sql/
     - href: /languages/tsql/
@@ -16,4 +14,6 @@ _links:
     - href: /db/sql-server/
   os:
     - href: /os/windows/
+  jobs:
+    - href: /jobs/rdi/
 ---

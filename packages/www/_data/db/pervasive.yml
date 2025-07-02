@@ -32,8 +32,6 @@ _embedded:
       _links:
         self:
           href: /projects/sif-agent/
-        jobs:
-          - href: /jobs/mas/
         languages:
           - href: /languages/cs/
           - href: /languages/sql/
@@ -41,6 +39,8 @@ _embedded:
           - href: /db/pervasive/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/mas/
     - title: Wen-GAGE Student Information
       desc: Desktop application that is used by schools in Oklahoma to manage their
         student information such as enrollment, attendance, and grades.
@@ -50,8 +50,6 @@ _embedded:
       _links:
         self:
           href: /projects/wengage-si/
-        jobs:
-          - href: /jobs/mas/
         languages:
           - href: /languages/delphi/
           - href: /languages/sql/
@@ -61,6 +59,8 @@ _embedded:
         os:
           - href: /os/windows/
           - href: /os/netware/
+        jobs:
+          - href: /jobs/mas/
     - title: Wen-GAGE Accounting
       desc: Desktop application that is used by schools in Oklahoma to manage all
         their school accounting responsibilites.
@@ -70,8 +70,6 @@ _embedded:
       _links:
         self:
           href: /projects/wengage-acct/
-        jobs:
-          - href: /jobs/mas/
         languages:
           - href: /languages/delphi/
           - href: /languages/sql/
@@ -81,6 +79,8 @@ _embedded:
         os:
           - href: /os/windows/
           - href: /os/netware/
+        jobs:
+          - href: /jobs/mas/
     - title: Class Scheduler
       desc: Process that takes student course requests along with the available
         courses, sections, and teachers and builds the class schedule.
@@ -90,8 +90,6 @@ _embedded:
       _links:
         self:
           href: /projects/class-scheduler/
-        jobs:
-          - href: /jobs/mas/
         languages:
           - href: /languages/delphi/
         db:
@@ -100,6 +98,8 @@ _embedded:
         os:
           - href: /os/windows/
           - href: /os/netware/
+        jobs:
+          - href: /jobs/mas/
   jobs:
     - title: Municipal Accounting Systems, Inc.
       desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in

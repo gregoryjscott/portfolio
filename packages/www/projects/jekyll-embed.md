@@ -12,8 +12,6 @@ _links:
   code:
     title: github.com/gregoryjscott/jekyll-embed
     href: "https://github.com/gregoryjscott/jekyll-embed"
-  jobs:
-    - href: /jobs/freelance/
   languages:
     - href: /languages/rb/
   tools:
@@ -22,4 +20,6 @@ _links:
   os:
     - href: /os/macos/
     - href: /os/linux/
+  jobs:
+    - href: /jobs/freelance/
 ---

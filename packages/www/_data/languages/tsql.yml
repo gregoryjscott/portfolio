@@ -31,8 +31,6 @@ _embedded:
       _links:
         self:
           href: /projects/agdc/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -46,6 +44,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: Systems Portal
       desc: Web application for tracking data used by systems administrators.
       role: Technical Lead
@@ -54,8 +54,6 @@ _embedded:
       _links:
         self:
           href: /projects/systems-portal/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -67,6 +65,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: AHFC Integration
       desc: Alaska Housing Finance Corporation Integration
       role: Technical Lead
@@ -75,8 +75,6 @@ _embedded:
       _links:
         self:
           href: /projects/ahfc-integration/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/sql/
           - href: /languages/tsql/
@@ -84,6 +82,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: Scrum Tools
       desc: null
       role: Technical Lead
@@ -92,8 +92,6 @@ _embedded:
       _links:
         self:
           href: /projects/scrum-tools/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -105,6 +103,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: Energy Efficiency Map
       desc: Web application that allows the Alaska Energy Authority to monitor and
         administer data from their statewide energy saving programs.
@@ -114,8 +114,6 @@ _embedded:
       _links:
         self:
           href: /projects/energy-efficiency-map/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -127,6 +125,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: Quality Bank
       subtitle: Invoicing $1 Billion/Month for Oil Pipeline
       desc: Web application that manages the workflow, pricing data, sampling data,
@@ -137,8 +137,6 @@ _embedded:
       _links:
         self:
           href: /projects/qb/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -152,6 +150,8 @@ _embedded:
           - href: /tools/backbone/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
   jobs:
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,

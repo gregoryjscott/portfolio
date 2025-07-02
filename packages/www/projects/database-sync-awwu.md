@@ -7,8 +7,6 @@ end_year: 2008
 _links:
   self:
     href: /projects/database-sync-awwu/
-  jobs:
-    - href: /jobs/rdi/
   languages:
     - href: /languages/cs/
     - href: /languages/plsql/
@@ -17,4 +15,6 @@ _links:
     - href: /db/oracle/
   os:
     - href: /os/windows/
+  jobs:
+    - href: /jobs/rdi/
 ---

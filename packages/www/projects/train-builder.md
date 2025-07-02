@@ -9,8 +9,6 @@ end_year: 2007
 _links:
   self:
     href: /projects/train-builder/
-  jobs:
-    - href: /jobs/rdi/
   languages:
     - href: /languages/cs/
     - href: /languages/sql/
@@ -18,4 +16,6 @@ _links:
     - href: /db/sql-server/
   os:
     - href: /os/windows/
+  jobs:
+    - href: /jobs/rdi/
 ---

@@ -53,8 +53,6 @@ _embedded:
         code:
           title: github.com/codeforamerica/denver-schedules-api
           href: https://github.com/codeforamerica/denver-schedules-api
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/cs/
           - href: /languages/rb/
@@ -65,6 +63,8 @@ _embedded:
           - href: /os/windows/
           - href: /os/macos/
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
     - title: Centroid
       desc: Library for accessing environment based configuration from multiple
         different programming languages.
@@ -77,8 +77,6 @@ _embedded:
         code:
           title: github.com/ResourceDataInc/Centroid
           href: https://github.com/ResourceDataInc/Centroid
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/py/
@@ -87,6 +85,8 @@ _embedded:
           - href: /os/windows/
           - href: /os/macos/
           - href: /os/linux/
+        jobs:
+          - href: /jobs/rdi/
     - title: Alaska Gasline Development Corporation
       desc: Web application that provides AGDC with documentation, reporting, and
         querying tools for their vast GIS data and infrastructure.
@@ -96,8 +96,6 @@ _embedded:
       _links:
         self:
           href: /projects/agdc/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -111,6 +109,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: Please
       desc: Please is a set of commands useful for maintaining software projects.
       role: Author
@@ -122,8 +122,6 @@ _embedded:
         code:
           title: github.com/ResourceDataInc/please
           href: https://github.com/ResourceDataInc/please
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/rb/
@@ -132,6 +130,8 @@ _embedded:
           - href: /db/sqlite/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: Systems Portal
       desc: Web application for tracking data used by systems administrators.
       role: Technical Lead
@@ -140,8 +140,6 @@ _embedded:
       _links:
         self:
           href: /projects/systems-portal/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -153,6 +151,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: Scrum Tools
       desc: null
       role: Technical Lead
@@ -161,8 +161,6 @@ _embedded:
       _links:
         self:
           href: /projects/scrum-tools/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -174,6 +172,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: Energy Efficiency Map
       desc: Web application that allows the Alaska Energy Authority to monitor and
         administer data from their statewide energy saving programs.
@@ -183,8 +183,6 @@ _embedded:
       _links:
         self:
           href: /projects/energy-efficiency-map/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -196,6 +194,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: Simpler
       desc: Library that provides a simpler approach to C# class design.
       role: Author
@@ -207,8 +207,6 @@ _embedded:
         code:
           title: github.com/gregoryjscott/Simpler
           href: https://github.com/gregoryjscott/Simpler
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/cs/
           - href: /languages/rb/
@@ -216,6 +214,8 @@ _embedded:
           - href: /os/windows/
           - href: /os/macos/
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
     - title: Quality Bank
       subtitle: Invoicing $1 Billion/Month for Oil Pipeline
       desc: Web application that manages the workflow, pricing data, sampling data,
@@ -226,8 +226,6 @@ _embedded:
       _links:
         self:
           href: /projects/qb/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -241,6 +239,8 @@ _embedded:
           - href: /tools/backbone/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: MvcIntegrationTestFramework
       desc: Framework that can be used to perform integration tests on a ASP.NET MVC
         application.
@@ -253,12 +253,12 @@ _embedded:
         code:
           title: github.com/gregoryjscott/MvcIntegrationTestFramework
           href: https://github.com/gregoryjscott/MvcIntegrationTestFramework
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/cs/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/freelance/
     - title: Service Order Mobile Dispatch
       desc: Mobile web application that allows Anchorage Water & Wastewater Utility
         service workers to query and record service information while in the
@@ -269,8 +269,6 @@ _embedded:
       _links:
         self:
           href: /projects/somd/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -282,6 +280,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: Lasar Range Finder
       desc: Software that records output from a handheld lasar range finder and
         combines it with records from a GPS unit which allows field workers to
@@ -292,14 +292,14 @@ _embedded:
       _links:
         self:
           href: /projects/lasar-range-finder/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
         db:
           - href: /db/access/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: Database Synchronization (AWWU)
       desc: null
       role: Lead Developer
@@ -308,8 +308,6 @@ _embedded:
       _links:
         self:
           href: /projects/database-sync-awwu/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/plsql/
@@ -318,6 +316,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: Bit Proposal
       desc: null
       role: Lead Developer
@@ -326,12 +326,12 @@ _embedded:
       _links:
         self:
           href: /projects/bit-proposal/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: AWWU Intranet
       desc: Web application that contains AWWU's reporting and querying tools, systems
         status, and custom applications.
@@ -341,8 +341,6 @@ _embedded:
       _links:
         self:
           href: /projects/awwu-intranet/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -354,6 +352,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: TrainBuilder
       desc: Windows Presentation Framework (WPF) application used by the Alaska
         Railroad to plan and schedule structure of their trains.
@@ -363,8 +363,6 @@ _embedded:
       _links:
         self:
           href: /projects/train-builder/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/sql/
@@ -372,6 +370,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: SAR Reports
       desc: null
       role: Lead Developer
@@ -380,8 +380,6 @@ _embedded:
       _links:
         self:
           href: /projects/sar-reports/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/sql/
@@ -389,6 +387,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: FLIR Monitoring System
       desc: Software that reads the output from a FLIR laser mounted on a single
         engine plane used to fly over the Alaska North Slope and record land
@@ -399,14 +399,14 @@ _embedded:
       _links:
         self:
           href: /projects/flir-monitoring/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
         db:
           - href: /db/access/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: CIS Data Capture
       desc: Console application that captures monthly snapshots of AWWU's customer
         information system (CIS) data and loads it into a data warehouse.
@@ -416,8 +416,6 @@ _embedded:
       _links:
         self:
           href: /projects/cis-data-capture/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/sql/
@@ -425,6 +423,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: AWWU Systems Integration
       desc: null
       role: Technical Lead
@@ -433,8 +433,6 @@ _embedded:
       _links:
         self:
           href: /projects/awwu-systems-integration/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/plsql/
@@ -443,6 +441,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: AWWU Job Scheduler
       desc: Framework for creating background processing jobs that migrate,
         synchronize, and transform data throughout AWWU's integrated systems.
@@ -452,14 +452,14 @@ _embedded:
       _links:
         self:
           href: /projects/awwu-job-scheduler/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
         db:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: Report Engine
       desc: C# library for producing HTML reports based on database queries.
       role: Lead Developer
@@ -468,12 +468,12 @@ _embedded:
       _links:
         self:
           href: /projects/report-engine/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: SIF Agent
       subtitle: Integrating Schools with State of Oklahoma
       desc: Schools Interoperability Framework (SIF) compliant agent that allows the
@@ -485,8 +485,6 @@ _embedded:
       _links:
         self:
           href: /projects/sif-agent/
-        jobs:
-          - href: /jobs/mas/
         languages:
           - href: /languages/cs/
           - href: /languages/sql/
@@ -494,6 +492,8 @@ _embedded:
           - href: /db/pervasive/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/mas/
   jobs:
     - title: Freelance Programmer
       desc: Freelance Programmer/Consultant, partnering with clients to architect and

@@ -7,10 +7,10 @@ end_year: 2005
 _links:
   self:
     href: /projects/report-engine/
-  jobs:
-    - href: /jobs/rdi/
   languages:
     - href: /languages/cs/
   os:
     - href: /os/windows/
+  jobs:
+    - href: /jobs/rdi/
 ---

@@ -61,8 +61,6 @@ _embedded:
       _links:
         self:
           href: /projects/nuggets/
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/ts/
         db:
@@ -83,63 +81,9 @@ _embedded:
           - href: /os/android/
           - href: /os/ios/
           - href: /os/linux/
-      _embedded:
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
-            begin_year: 2014
-            end_year: present
-            time_desc: July 2014 - present
-            _links:
-              self:
-                href: /jobs/freelance/
-              projects:
-                - href: /projects/aprender/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/mvc-integration-test-framework/
-                - href: /projects/nuggets/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-                - href: /db/postgres/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/hal/
-                - href: /tools/heroku/
-                - href: /tools/iam/
-                - href: /tools/jekyll/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
+          - href: /jobs/freelance/
+      _embedded:
         languages:
           - title: Typescript
             desc: Typescript is a typed superset of JavaScript that compiles to plain
@@ -483,32 +427,6 @@ _embedded:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
-    - title: gregoryjscott.com
-      desc: My portfolio website that uses Jekyll to create static HTML pages using
-        YAML, Markdown, and HAL-based hypermedia.
-      role: Author
-      begin_year: 2014
-      end_year: present
-      _links:
-        self:
-          href: /projects/this-site/
-        code:
-          title: github.com/gregoryjscott/me
-          href: https://github.com/gregoryjscott/me
-        jobs:
-          - href: /jobs/freelance/
-        languages:
-          - href: /languages/css/
-          - href: /languages/html/
-          - href: /languages/rb/
-          - href: /languages/ts/
-        tools:
-          - href: /tools/jekyll/
-          - href: /tools/hal/
-        os:
-          - href: /os/macos/
-          - href: /os/linux/
-      _embedded:
         jobs:
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -565,6 +483,32 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+    - title: gregoryjscott.com
+      desc: My portfolio website that uses Jekyll to create static HTML pages using
+        YAML, Markdown, and HAL-based hypermedia.
+      role: Author
+      begin_year: 2014
+      end_year: present
+      _links:
+        self:
+          href: /projects/this-site/
+        code:
+          title: github.com/gregoryjscott/me
+          href: https://github.com/gregoryjscott/me
+        languages:
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/rb/
+          - href: /languages/ts/
+        tools:
+          - href: /tools/jekyll/
+          - href: /tools/hal/
+        os:
+          - href: /os/macos/
+          - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
         languages:
           - title: Typescript
             desc: Typescript is a typed superset of JavaScript that compiles to plain
@@ -786,27 +730,6 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
-    - title: hazelandgreg.wedding
-      desc: Wedding website for Hazel and Greg
-      role: Author
-      begin_year: 2025
-      end_year: 2025
-      _links:
-        self:
-          href: /projects/la-boda/
-        jobs:
-          - href: /jobs/freelance/
-        languages:
-          - href: /languages/css/
-          - href: /languages/html/
-          - href: /languages/js/
-        db:
-          - href: /db/ddb/
-        tools:
-          - href: /tools/amplify/
-        os:
-          - href: /os/linux/
-      _embedded:
         jobs:
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -863,6 +786,27 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+    - title: hazelandgreg.wedding
+      desc: Wedding website for Hazel and Greg
+      role: Author
+      begin_year: 2025
+      end_year: 2025
+      _links:
+        self:
+          href: /projects/la-boda/
+        languages:
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+        db:
+          - href: /db/ddb/
+        tools:
+          - href: /tools/amplify/
+        os:
+          - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
         languages:
           - title: HTML
             desc: HTML (HyperText Markup Language) is a markup language used to create
@@ -1026,6 +970,62 @@ _embedded:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: present
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/nuggets/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+                - href: /db/postgres/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/hal/
+                - href: /tools/heroku/
+                - href: /tools/iam/
+                - href: /tools/jekyll/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
     - title: Epic California Academy Enrollment
       desc: null
       role: Technical Lead
@@ -1034,55 +1034,15 @@ _embedded:
       _links:
         self:
           href: /projects/epic-ca-enrollment/
-        jobs:
-          - href: /jobs/fe/
         languages:
           - href: /languages/php/
         db:
           - href: /db/firebase/
         os:
           - href: /os/windows/
-      _embedded:
         jobs:
-          - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
-            begin_year: 2018
-            end_year: 2022
-            time_desc: March 2018 - present
-            _links:
-              self:
-                href: /jobs/fe/
-              projects:
-                - href: /projects/epic-ca-enrollment/
-                - href: /projects/epicloud/
-              languages:
-                - href: /languages/php/
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-                - href: /db/firebase/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sikulix/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-              os:
-                - href: /os/linux/
-                - href: /os/windows/
+          - href: /jobs/fe/
+      _embedded:
         languages:
           - title: PHP
             desc: PHP is a server-side scripting language used for web development. It is a
@@ -1179,41 +1139,6 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
-    - title: EpiCloud
-      subtitle: Infinitely Scaling Bots on AWS
-      desc: null
-      role: Technical Lead
-      begin_year: 2015
-      end_year: 2021
-      _links:
-        self:
-          href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-        languages:
-          - href: /languages/ts/
-        db:
-          - href: /db/bigquery/
-          - href: /db/ddb/
-        tools:
-          - href: /tools/classroom/
-          - href: /tools/docker/
-          - href: /tools/drive/
-          - href: /tools/ec2/
-          - href: /tools/ecr/
-          - href: /tools/ecs/
-          - href: /tools/fargate/
-          - href: /tools/firebase/
-          - href: /tools/iam/
-          - href: /tools/node/
-          - href: /tools/puppeteer/
-          - href: /tools/s3/
-          - href: /tools/sqs/
-          - href: /tools/vpc/
-          - href: /tools/sikulix/
-        os:
-          - href: /os/linux/
-      _embedded:
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -1254,6 +1179,41 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/windows/
+    - title: EpiCloud
+      subtitle: Infinitely Scaling Bots on AWS
+      desc: null
+      role: Technical Lead
+      begin_year: 2015
+      end_year: 2021
+      _links:
+        self:
+          href: /projects/epicloud/
+        languages:
+          - href: /languages/ts/
+        db:
+          - href: /db/bigquery/
+          - href: /db/ddb/
+        tools:
+          - href: /tools/classroom/
+          - href: /tools/docker/
+          - href: /tools/drive/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/firebase/
+          - href: /tools/iam/
+          - href: /tools/node/
+          - href: /tools/puppeteer/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+          - href: /tools/sikulix/
+        os:
+          - href: /os/linux/
+        jobs:
+          - href: /jobs/fe/
+      _embedded:
         languages:
           - title: Typescript
             desc: Typescript is a typed superset of JavaScript that compiles to plain
@@ -1633,6 +1593,46 @@ _embedded:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
+        jobs:
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: 2022
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/epicloud/
+              languages:
+                - href: /languages/php/
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
+                - href: /os/linux/
+                - href: /os/windows/
     - title: aprender
       desc: CLI for learning Spanish
       role: Author
@@ -1644,69 +1644,13 @@ _embedded:
         code:
           title: github.com/gregoryjscott/aprender
           href: https://github.com/gregoryjscott/aprender
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/js/
         os:
           - href: /os/macos/
-      _embedded:
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
-            begin_year: 2014
-            end_year: present
-            time_desc: July 2014 - present
-            _links:
-              self:
-                href: /jobs/freelance/
-              projects:
-                - href: /projects/aprender/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/mvc-integration-test-framework/
-                - href: /projects/nuggets/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-                - href: /db/postgres/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/hal/
-                - href: /tools/heroku/
-                - href: /tools/iam/
-                - href: /tools/jekyll/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
+          - href: /jobs/freelance/
+      _embedded:
         languages:
           - title: JavaScript
             desc: JavaScript is a high-level, interpreted programming language that is used
@@ -1767,24 +1711,6 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
-    - title: fortworthtexas.gov
-      desc: Jekyll static site for the City of Fort Worth, Texas.
-      role: Technical Lead
-      begin_year: 2015
-      end_year: 2016
-      _links:
-        self:
-          href: /projects/cfw/
-        jobs:
-          - href: /jobs/freelance/
-        languages:
-          - href: /languages/rb/
-        tools:
-          - href: /tools/heroku/
-          - href: /tools/jekyll/
-        os:
-          - href: /os/linux/
-      _embedded:
         jobs:
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -1841,6 +1767,24 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+    - title: fortworthtexas.gov
+      desc: Jekyll static site for the City of Fort Worth, Texas.
+      role: Technical Lead
+      begin_year: 2015
+      end_year: 2016
+      _links:
+        self:
+          href: /projects/cfw/
+        languages:
+          - href: /languages/rb/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
+        os:
+          - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
         languages:
           - title: Ruby
             desc: Ruby is an open-source, object-oriented programming language created by
@@ -1951,6 +1895,62 @@ _embedded:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: present
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/nuggets/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+                - href: /db/postgres/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/hal/
+                - href: /tools/heroku/
+                - href: /tools/iam/
+                - href: /tools/jekyll/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
     - title: jekyll-prep
       desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
       role: Author
@@ -1962,8 +1962,6 @@ _embedded:
         code:
           title: github.com/gregoryjscott/jekyll-prep
           href: https://github.com/gregoryjscott/jekyll-prep
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/rb/
         tools:
@@ -1971,63 +1969,9 @@ _embedded:
         os:
           - href: /os/macos/
           - href: /os/linux/
-      _embedded:
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
-            begin_year: 2014
-            end_year: present
-            time_desc: July 2014 - present
-            _links:
-              self:
-                href: /jobs/freelance/
-              projects:
-                - href: /projects/aprender/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/mvc-integration-test-framework/
-                - href: /projects/nuggets/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-                - href: /db/postgres/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/hal/
-                - href: /tools/heroku/
-                - href: /tools/iam/
-                - href: /tools/jekyll/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
+          - href: /jobs/freelance/
+      _embedded:
         languages:
           - title: Ruby
             desc: Ruby is an open-source, object-oriented programming language created by
@@ -2148,6 +2092,62 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: present
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/nuggets/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+                - href: /db/postgres/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/hal/
+                - href: /tools/heroku/
+                - href: /tools/iam/
+                - href: /tools/jekyll/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
     - title: jekyll-load
       desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
       role: Author
@@ -2159,8 +2159,6 @@ _embedded:
         code:
           title: github.com/gregoryjscott/jekyll-load
           href: https://github.com/gregoryjscott/jekyll-load
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/rb/
         tools:
@@ -2168,63 +2166,9 @@ _embedded:
         os:
           - href: /os/macos/
           - href: /os/linux/
-      _embedded:
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
-            begin_year: 2014
-            end_year: present
-            time_desc: July 2014 - present
-            _links:
-              self:
-                href: /jobs/freelance/
-              projects:
-                - href: /projects/aprender/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/mvc-integration-test-framework/
-                - href: /projects/nuggets/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-                - href: /db/postgres/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/hal/
-                - href: /tools/heroku/
-                - href: /tools/iam/
-                - href: /tools/jekyll/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
+          - href: /jobs/freelance/
+      _embedded:
         languages:
           - title: Ruby
             desc: Ruby is an open-source, object-oriented programming language created by
@@ -2345,6 +2289,62 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: present
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/nuggets/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+                - href: /db/postgres/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/hal/
+                - href: /tools/heroku/
+                - href: /tools/iam/
+                - href: /tools/jekyll/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
     - title: jekyll-embed
       desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
         frontmatter
@@ -2357,8 +2357,6 @@ _embedded:
         code:
           title: github.com/gregoryjscott/jekyll-embed
           href: https://github.com/gregoryjscott/jekyll-embed
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/rb/
         tools:
@@ -2367,63 +2365,9 @@ _embedded:
         os:
           - href: /os/macos/
           - href: /os/linux/
-      _embedded:
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
-            begin_year: 2014
-            end_year: present
-            time_desc: July 2014 - present
-            _links:
-              self:
-                href: /jobs/freelance/
-              projects:
-                - href: /projects/aprender/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/mvc-integration-test-framework/
-                - href: /projects/nuggets/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-                - href: /db/postgres/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/hal/
-                - href: /tools/heroku/
-                - href: /tools/iam/
-                - href: /tools/jekyll/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
+          - href: /jobs/freelance/
+      _embedded:
         languages:
           - title: Ruby
             desc: Ruby is an open-source, object-oriented programming language created by
@@ -2568,27 +2512,6 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
-    - title: jekyll-api
-      desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
-      role: Author
-      begin_year: 2014
-      end_year: 2014
-      _links:
-        self:
-          href: /projects/jekyll-api/
-        code:
-          title: github.com/gregoryjscott/jekyll-api
-          href: https://github.com/gregoryjscott/jekyll-api
-        jobs:
-          - href: /jobs/freelance/
-        languages:
-          - href: /languages/rb/
-        tools:
-          - href: /tools/jekyll/
-        os:
-          - href: /os/macos/
-          - href: /os/linux/
-      _embedded:
         jobs:
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -2645,6 +2568,27 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+    - title: jekyll-api
+      desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
+      role: Author
+      begin_year: 2014
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/jekyll-api/
+        code:
+          title: github.com/gregoryjscott/jekyll-api
+          href: https://github.com/gregoryjscott/jekyll-api
+        languages:
+          - href: /languages/rb/
+        tools:
+          - href: /tools/jekyll/
+        os:
+          - href: /os/macos/
+          - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
         languages:
           - title: Ruby
             desc: Ruby is an open-source, object-oriented programming language created by
@@ -2765,31 +2709,6 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
-    - title: Denver Schedules API
-      desc: JSON API that provides access to Denver activities that impact the
-        residents of Denver.
-      role: Contributor
-      begin_year: 2014
-      end_year: 2014
-      _links:
-        self:
-          href: /projects/denver-schedules-api/
-        code:
-          title: github.com/codeforamerica/denver-schedules-api
-          href: https://github.com/codeforamerica/denver-schedules-api
-        jobs:
-          - href: /jobs/freelance/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/rb/
-          - href: /languages/sql/
-        db:
-          - href: /db/postgres/
-        os:
-          - href: /os/windows/
-          - href: /os/macos/
-          - href: /os/linux/
-      _embedded:
         jobs:
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -2846,6 +2765,31 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+    - title: Denver Schedules API
+      desc: JSON API that provides access to Denver activities that impact the
+        residents of Denver.
+      role: Contributor
+      begin_year: 2014
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/denver-schedules-api/
+        code:
+          title: github.com/codeforamerica/denver-schedules-api
+          href: https://github.com/codeforamerica/denver-schedules-api
+        languages:
+          - href: /languages/cs/
+          - href: /languages/rb/
+          - href: /languages/sql/
+        db:
+          - href: /db/postgres/
+        os:
+          - href: /os/windows/
+          - href: /os/macos/
+          - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
         languages:
           - title: Ruby
             desc: Ruby is an open-source, object-oriented programming language created by
@@ -3099,6 +3043,62 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: present
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/nuggets/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+                - href: /db/postgres/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/hal/
+                - href: /tools/heroku/
+                - href: /tools/iam/
+                - href: /tools/jekyll/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
     - title: Centroid
       desc: Library for accessing environment based configuration from multiple
         different programming languages.
@@ -3111,8 +3111,6 @@ _embedded:
         code:
           title: github.com/ResourceDataInc/Centroid
           href: https://github.com/ResourceDataInc/Centroid
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/py/
@@ -3121,65 +3119,9 @@ _embedded:
           - href: /os/windows/
           - href: /os/macos/
           - href: /os/linux/
-      _embedded:
         jobs:
-          - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
-            role: Technical Lead
-            begin_year: 2005
-            end_year: 2014
-            time_desc: July 2005 - July 2014
-            _links:
-              self:
-                href: /jobs/rdi/
-              projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-job-scheduler/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/bit-proposal/
-                - href: /projects/centroid/
-                - href: /projects/cis-data-capture/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
-                - href: /projects/please/
-                - href: /projects/qb/
-                - href: /projects/report-engine/
-                - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
-                - href: /projects/scrum-tools/
-                - href: /projects/somd/
-                - href: /projects/systems-portal/
-                - href: /projects/train-builder/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/plsql/
-                - href: /languages/py/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/access/
-                - href: /db/oracle/
-                - href: /db/postgres/
-                - href: /db/sql-server/
-                - href: /db/sqlite/
-              tools:
-                - href: /tools/backbone/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: Ruby
             desc: Ruby is an open-source, object-oriented programming language created by
@@ -3388,31 +3330,6 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
-    - title: Alaska Gasline Development Corporation
-      desc: Web application that provides AGDC with documentation, reporting, and
-        querying tools for their vast GIS data and infrastructure.
-      role: Technical Lead
-      begin_year: 2013
-      end_year: 2014
-      _links:
-        self:
-          href: /projects/agdc/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/css/
-          - href: /languages/html/
-          - href: /languages/js/
-          - href: /languages/py/
-          - href: /languages/rb/
-          - href: /languages/sql/
-          - href: /languages/tsql/
-        db:
-          - href: /db/sql-server/
-        os:
-          - href: /os/windows/
-      _embedded:
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -3471,6 +3388,31 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+    - title: Alaska Gasline Development Corporation
+      desc: Web application that provides AGDC with documentation, reporting, and
+        querying tools for their vast GIS data and infrastructure.
+      role: Technical Lead
+      begin_year: 2013
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/agdc/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/py/
+          - href: /languages/rb/
+          - href: /languages/sql/
+          - href: /languages/tsql/
+        db:
+          - href: /db/sql-server/
+        os:
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: Ruby
             desc: Ruby is an open-source, object-oriented programming language created by
@@ -3788,28 +3730,6 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
-    - title: Please
-      desc: Please is a set of commands useful for maintaining software projects.
-      role: Author
-      begin_year: 2012
-      end_year: 2014
-      _links:
-        self:
-          href: /projects/please/
-        code:
-          title: github.com/ResourceDataInc/please
-          href: https://github.com/ResourceDataInc/please
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/rb/
-          - href: /languages/sql/
-        db:
-          - href: /db/sqlite/
-        os:
-          - href: /os/windows/
-      _embedded:
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -3868,6 +3788,28 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+    - title: Please
+      desc: Please is a set of commands useful for maintaining software projects.
+      role: Author
+      begin_year: 2012
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/please/
+        code:
+          title: github.com/ResourceDataInc/please
+          href: https://github.com/ResourceDataInc/please
+        languages:
+          - href: /languages/cs/
+          - href: /languages/rb/
+          - href: /languages/sql/
+        db:
+          - href: /db/sqlite/
+        os:
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: Ruby
             desc: Ruby is an open-source, object-oriented programming language created by
@@ -4054,6 +3996,64 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        jobs:
+          - title: Resource Data, Inc.
+            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
+              Texas, Idaho, Minnesota, and Oregon, that provides custom
+              database, web, and GIS programming services
+            role: Technical Lead
+            begin_year: 2005
+            end_year: 2014
+            time_desc: July 2005 - July 2014
+            _links:
+              self:
+                href: /jobs/rdi/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/bit-proposal/
+                - href: /projects/centroid/
+                - href: /projects/cis-data-capture/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/flir-monitoring/
+                - href: /projects/lasar-range-finder/
+                - href: /projects/please/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/train-builder/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/plsql/
+                - href: /languages/py/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/tsql/
+              db:
+                - href: /db/access/
+                - href: /db/oracle/
+                - href: /db/postgres/
+                - href: /db/sql-server/
+                - href: /db/sqlite/
+              tools:
+                - href: /tools/backbone/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
     - title: Systems Portal
       desc: Web application for tracking data used by systems administrators.
       role: Technical Lead
@@ -4062,8 +4062,6 @@ _embedded:
       _links:
         self:
           href: /projects/systems-portal/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -4075,65 +4073,9 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
-      _embedded:
         jobs:
-          - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
-            role: Technical Lead
-            begin_year: 2005
-            end_year: 2014
-            time_desc: July 2005 - July 2014
-            _links:
-              self:
-                href: /jobs/rdi/
-              projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-job-scheduler/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/bit-proposal/
-                - href: /projects/centroid/
-                - href: /projects/cis-data-capture/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
-                - href: /projects/please/
-                - href: /projects/qb/
-                - href: /projects/report-engine/
-                - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
-                - href: /projects/scrum-tools/
-                - href: /projects/somd/
-                - href: /projects/systems-portal/
-                - href: /projects/train-builder/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/plsql/
-                - href: /languages/py/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/access/
-                - href: /db/oracle/
-                - href: /db/postgres/
-                - href: /db/sql-server/
-                - href: /db/sqlite/
-              tools:
-                - href: /tools/backbone/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: HTML
             desc: HTML (HyperText Markup Language) is a markup language used to create
@@ -4403,6 +4345,64 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        jobs:
+          - title: Resource Data, Inc.
+            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
+              Texas, Idaho, Minnesota, and Oregon, that provides custom
+              database, web, and GIS programming services
+            role: Technical Lead
+            begin_year: 2005
+            end_year: 2014
+            time_desc: July 2005 - July 2014
+            _links:
+              self:
+                href: /jobs/rdi/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/bit-proposal/
+                - href: /projects/centroid/
+                - href: /projects/cis-data-capture/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/flir-monitoring/
+                - href: /projects/lasar-range-finder/
+                - href: /projects/please/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/train-builder/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/plsql/
+                - href: /languages/py/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/tsql/
+              db:
+                - href: /db/access/
+                - href: /db/oracle/
+                - href: /db/postgres/
+                - href: /db/sql-server/
+                - href: /db/sqlite/
+              tools:
+                - href: /tools/backbone/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
     - title: AHFC Integration
       desc: Alaska Housing Finance Corporation Integration
       role: Technical Lead
@@ -4411,8 +4411,6 @@ _embedded:
       _links:
         self:
           href: /projects/ahfc-integration/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/sql/
           - href: /languages/tsql/
@@ -4420,65 +4418,9 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
-      _embedded:
         jobs:
-          - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
-            role: Technical Lead
-            begin_year: 2005
-            end_year: 2014
-            time_desc: July 2005 - July 2014
-            _links:
-              self:
-                href: /jobs/rdi/
-              projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-job-scheduler/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/bit-proposal/
-                - href: /projects/centroid/
-                - href: /projects/cis-data-capture/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
-                - href: /projects/please/
-                - href: /projects/qb/
-                - href: /projects/report-engine/
-                - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
-                - href: /projects/scrum-tools/
-                - href: /projects/somd/
-                - href: /projects/systems-portal/
-                - href: /projects/train-builder/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/plsql/
-                - href: /languages/py/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/access/
-                - href: /db/oracle/
-                - href: /db/postgres/
-                - href: /db/sql-server/
-                - href: /db/sqlite/
-              tools:
-                - href: /tools/backbone/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: Transact-SQL
             desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
@@ -4622,28 +4564,6 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
-    - title: Scrum Tools
-      desc: null
-      role: Technical Lead
-      begin_year: 2012
-      end_year: 2013
-      _links:
-        self:
-          href: /projects/scrum-tools/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/css/
-          - href: /languages/html/
-          - href: /languages/js/
-          - href: /languages/sql/
-          - href: /languages/tsql/
-        db:
-          - href: /db/sql-server/
-        os:
-          - href: /os/windows/
-      _embedded:
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -4702,6 +4622,28 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+    - title: Scrum Tools
+      desc: null
+      role: Technical Lead
+      begin_year: 2012
+      end_year: 2013
+      _links:
+        self:
+          href: /projects/scrum-tools/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/sql/
+          - href: /languages/tsql/
+        db:
+          - href: /db/sql-server/
+        os:
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: HTML
             desc: HTML (HyperText Markup Language) is a markup language used to create
@@ -4971,6 +4913,64 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        jobs:
+          - title: Resource Data, Inc.
+            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
+              Texas, Idaho, Minnesota, and Oregon, that provides custom
+              database, web, and GIS programming services
+            role: Technical Lead
+            begin_year: 2005
+            end_year: 2014
+            time_desc: July 2005 - July 2014
+            _links:
+              self:
+                href: /jobs/rdi/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/bit-proposal/
+                - href: /projects/centroid/
+                - href: /projects/cis-data-capture/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/flir-monitoring/
+                - href: /projects/lasar-range-finder/
+                - href: /projects/please/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/train-builder/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/plsql/
+                - href: /languages/py/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/tsql/
+              db:
+                - href: /db/access/
+                - href: /db/oracle/
+                - href: /db/postgres/
+                - href: /db/sql-server/
+                - href: /db/sqlite/
+              tools:
+                - href: /tools/backbone/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
     - title: ScrambleScore
       desc: Mobile web application that allows golfers participating in scramble golf
         tournaments to record their scores and monitor the tournament
@@ -4981,8 +4981,6 @@ _embedded:
       _links:
         self:
           href: /projects/scramble-score/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/css/
           - href: /languages/html/
@@ -4994,65 +4992,9 @@ _embedded:
           - href: /os/windows/
           - href: /os/macos/
           - href: /os/linux/
-      _embedded:
         jobs:
-          - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
-            role: Technical Lead
-            begin_year: 2005
-            end_year: 2014
-            time_desc: July 2005 - July 2014
-            _links:
-              self:
-                href: /jobs/rdi/
-              projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-job-scheduler/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/bit-proposal/
-                - href: /projects/centroid/
-                - href: /projects/cis-data-capture/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
-                - href: /projects/please/
-                - href: /projects/qb/
-                - href: /projects/report-engine/
-                - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
-                - href: /projects/scrum-tools/
-                - href: /projects/somd/
-                - href: /projects/systems-portal/
-                - href: /projects/train-builder/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/plsql/
-                - href: /languages/py/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/access/
-                - href: /db/oracle/
-                - href: /db/postgres/
-                - href: /db/sql-server/
-                - href: /db/sqlite/
-              tools:
-                - href: /tools/backbone/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: Ruby
             desc: Ruby is an open-source, object-oriented programming language created by
@@ -5309,29 +5251,6 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
-    - title: Energy Efficiency Map
-      desc: Web application that allows the Alaska Energy Authority to monitor and
-        administer data from their statewide energy saving programs.
-      role: Technical Lead
-      begin_year: 2012
-      end_year: 2013
-      _links:
-        self:
-          href: /projects/energy-efficiency-map/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/css/
-          - href: /languages/html/
-          - href: /languages/js/
-          - href: /languages/sql/
-          - href: /languages/tsql/
-        db:
-          - href: /db/sql-server/
-        os:
-          - href: /os/windows/
-      _embedded:
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -5390,6 +5309,29 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+    - title: Energy Efficiency Map
+      desc: Web application that allows the Alaska Energy Authority to monitor and
+        administer data from their statewide energy saving programs.
+      role: Technical Lead
+      begin_year: 2012
+      end_year: 2013
+      _links:
+        self:
+          href: /projects/energy-efficiency-map/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/sql/
+          - href: /languages/tsql/
+        db:
+          - href: /db/sql-server/
+        os:
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: HTML
             desc: HTML (HyperText Markup Language) is a markup language used to create
@@ -5659,6 +5601,64 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        jobs:
+          - title: Resource Data, Inc.
+            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
+              Texas, Idaho, Minnesota, and Oregon, that provides custom
+              database, web, and GIS programming services
+            role: Technical Lead
+            begin_year: 2005
+            end_year: 2014
+            time_desc: July 2005 - July 2014
+            _links:
+              self:
+                href: /jobs/rdi/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/bit-proposal/
+                - href: /projects/centroid/
+                - href: /projects/cis-data-capture/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/flir-monitoring/
+                - href: /projects/lasar-range-finder/
+                - href: /projects/please/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/train-builder/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/plsql/
+                - href: /languages/py/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/tsql/
+              db:
+                - href: /db/access/
+                - href: /db/oracle/
+                - href: /db/postgres/
+                - href: /db/sql-server/
+                - href: /db/sqlite/
+              tools:
+                - href: /tools/backbone/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
     - title: Simpler
       desc: Library that provides a simpler approach to C# class design.
       role: Author
@@ -5670,8 +5670,6 @@ _embedded:
         code:
           title: github.com/gregoryjscott/Simpler
           href: https://github.com/gregoryjscott/Simpler
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/cs/
           - href: /languages/rb/
@@ -5679,63 +5677,9 @@ _embedded:
           - href: /os/windows/
           - href: /os/macos/
           - href: /os/linux/
-      _embedded:
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
-            begin_year: 2014
-            end_year: present
-            time_desc: July 2014 - present
-            _links:
-              self:
-                href: /jobs/freelance/
-              projects:
-                - href: /projects/aprender/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/mvc-integration-test-framework/
-                - href: /projects/nuggets/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-                - href: /db/postgres/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/hal/
-                - href: /tools/heroku/
-                - href: /tools/iam/
-                - href: /tools/jekyll/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
+          - href: /jobs/freelance/
+      _embedded:
         languages:
           - title: Ruby
             desc: Ruby is an open-source, object-oriented programming language created by
@@ -5926,6 +5870,62 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: present
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/nuggets/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+                - href: /db/postgres/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/hal/
+                - href: /tools/heroku/
+                - href: /tools/iam/
+                - href: /tools/jekyll/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
     - title: Quality Bank
       subtitle: Invoicing $1 Billion/Month for Oil Pipeline
       desc: Web application that manages the workflow, pricing data, sampling data,
@@ -5936,8 +5936,6 @@ _embedded:
       _links:
         self:
           href: /projects/qb/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -5951,65 +5949,9 @@ _embedded:
           - href: /tools/backbone/
         os:
           - href: /os/windows/
-      _embedded:
         jobs:
-          - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
-            role: Technical Lead
-            begin_year: 2005
-            end_year: 2014
-            time_desc: July 2005 - July 2014
-            _links:
-              self:
-                href: /jobs/rdi/
-              projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-job-scheduler/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/bit-proposal/
-                - href: /projects/centroid/
-                - href: /projects/cis-data-capture/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
-                - href: /projects/please/
-                - href: /projects/qb/
-                - href: /projects/report-engine/
-                - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
-                - href: /projects/scrum-tools/
-                - href: /projects/somd/
-                - href: /projects/systems-portal/
-                - href: /projects/train-builder/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/plsql/
-                - href: /languages/py/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/access/
-                - href: /db/oracle/
-                - href: /db/postgres/
-                - href: /db/sql-server/
-                - href: /db/sqlite/
-              tools:
-                - href: /tools/backbone/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: HTML
             desc: HTML (HyperText Markup Language) is a markup language used to create
@@ -6304,6 +6246,64 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        jobs:
+          - title: Resource Data, Inc.
+            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
+              Texas, Idaho, Minnesota, and Oregon, that provides custom
+              database, web, and GIS programming services
+            role: Technical Lead
+            begin_year: 2005
+            end_year: 2014
+            time_desc: July 2005 - July 2014
+            _links:
+              self:
+                href: /jobs/rdi/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/bit-proposal/
+                - href: /projects/centroid/
+                - href: /projects/cis-data-capture/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/flir-monitoring/
+                - href: /projects/lasar-range-finder/
+                - href: /projects/please/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/train-builder/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/plsql/
+                - href: /languages/py/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/tsql/
+              db:
+                - href: /db/access/
+                - href: /db/oracle/
+                - href: /db/postgres/
+                - href: /db/sql-server/
+                - href: /db/sqlite/
+              tools:
+                - href: /tools/backbone/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
     - title: MvcIntegrationTestFramework
       desc: Framework that can be used to perform integration tests on a ASP.NET MVC
         application.
@@ -6316,69 +6316,13 @@ _embedded:
         code:
           title: github.com/gregoryjscott/MvcIntegrationTestFramework
           href: https://github.com/gregoryjscott/MvcIntegrationTestFramework
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/cs/
         os:
           - href: /os/windows/
-      _embedded:
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
-            begin_year: 2014
-            end_year: present
-            time_desc: July 2014 - present
-            _links:
-              self:
-                href: /jobs/freelance/
-              projects:
-                - href: /projects/aprender/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/mvc-integration-test-framework/
-                - href: /projects/nuggets/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-                - href: /db/postgres/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/hal/
-                - href: /tools/heroku/
-                - href: /tools/iam/
-                - href: /tools/jekyll/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
+          - href: /jobs/freelance/
+      _embedded:
         languages:
           - title: C#
             desc: C# is a general-purpose, object-oriented programming language developed by
@@ -6477,6 +6421,62 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: present
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/nuggets/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+                - href: /db/postgres/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/hal/
+                - href: /tools/heroku/
+                - href: /tools/iam/
+                - href: /tools/jekyll/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
     - title: Service Order Mobile Dispatch
       desc: Mobile web application that allows Anchorage Water & Wastewater Utility
         service workers to query and record service information while in the
@@ -6487,8 +6487,6 @@ _embedded:
       _links:
         self:
           href: /projects/somd/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -6500,65 +6498,9 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
-      _embedded:
         jobs:
-          - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
-            role: Technical Lead
-            begin_year: 2005
-            end_year: 2014
-            time_desc: July 2005 - July 2014
-            _links:
-              self:
-                href: /jobs/rdi/
-              projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-job-scheduler/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/bit-proposal/
-                - href: /projects/centroid/
-                - href: /projects/cis-data-capture/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
-                - href: /projects/please/
-                - href: /projects/qb/
-                - href: /projects/report-engine/
-                - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
-                - href: /projects/scrum-tools/
-                - href: /projects/somd/
-                - href: /projects/systems-portal/
-                - href: /projects/train-builder/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/plsql/
-                - href: /languages/py/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/access/
-                - href: /db/oracle/
-                - href: /db/postgres/
-                - href: /db/sql-server/
-                - href: /db/sqlite/
-              tools:
-                - href: /tools/backbone/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: HTML
             desc: HTML (HyperText Markup Language) is a markup language used to create
@@ -6831,25 +6773,6 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
-    - title: Consumption Views
-      desc: Set of database views that provides water consumption information that
-        feed into reporting tools used by AWWU to make business decisions.
-      role: Lead Developer
-      begin_year: 2009
-      end_year: 2009
-      _links:
-        self:
-          href: /projects/consumption-views/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/plsql/
-          - href: /languages/sql/
-        db:
-          - href: /db/oracle/
-        os:
-          - href: /os/windows/
-      _embedded:
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -6908,6 +6831,25 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+    - title: Consumption Views
+      desc: Set of database views that provides water consumption information that
+        feed into reporting tools used by AWWU to make business decisions.
+      role: Lead Developer
+      begin_year: 2009
+      end_year: 2009
+      _links:
+        self:
+          href: /projects/consumption-views/
+        languages:
+          - href: /languages/plsql/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -7054,25 +6996,6 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
-    - title: Lasar Range Finder
-      desc: Software that records output from a handheld lasar range finder and
-        combines it with records from a GPS unit which allows field workers to
-        record the locations of objects that aren't assessible otherwise.
-      role: Lead Developer
-      begin_year: 2008
-      end_year: 2008
-      _links:
-        self:
-          href: /projects/lasar-range-finder/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/cs/
-        db:
-          - href: /db/access/
-        os:
-          - href: /os/windows/
-      _embedded:
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -7131,6 +7054,25 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+    - title: Lasar Range Finder
+      desc: Software that records output from a handheld lasar range finder and
+        combines it with records from a GPS unit which allows field workers to
+        record the locations of objects that aren't assessible otherwise.
+      role: Lead Developer
+      begin_year: 2008
+      end_year: 2008
+      _links:
+        self:
+          href: /projects/lasar-range-finder/
+        languages:
+          - href: /languages/cs/
+        db:
+          - href: /db/access/
+        os:
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: C#
             desc: C# is a general-purpose, object-oriented programming language developed by
@@ -7247,25 +7189,6 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
-    - title: Database Synchronization (AWWU)
-      desc: null
-      role: Lead Developer
-      begin_year: 2008
-      end_year: 2008
-      _links:
-        self:
-          href: /projects/database-sync-awwu/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/plsql/
-          - href: /languages/sql/
-        db:
-          - href: /db/oracle/
-        os:
-          - href: /os/windows/
-      _embedded:
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -7324,6 +7247,25 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+    - title: Database Synchronization (AWWU)
+      desc: null
+      role: Lead Developer
+      begin_year: 2008
+      end_year: 2008
+      _links:
+        self:
+          href: /projects/database-sync-awwu/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/plsql/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: C#
             desc: C# is a general-purpose, object-oriented programming language developed by
@@ -7512,21 +7454,6 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
-    - title: Bit Proposal
-      desc: null
-      role: Lead Developer
-      begin_year: 2008
-      end_year: 2008
-      _links:
-        self:
-          href: /projects/bit-proposal/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/cs/
-        os:
-          - href: /os/windows/
-      _embedded:
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -7585,6 +7512,21 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+    - title: Bit Proposal
+      desc: null
+      role: Lead Developer
+      begin_year: 2008
+      end_year: 2008
+      _links:
+        self:
+          href: /projects/bit-proposal/
+        languages:
+          - href: /languages/cs/
+        os:
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: C#
             desc: C# is a general-purpose, object-oriented programming language developed by
@@ -7683,29 +7625,6 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
-    - title: AWWU Intranet
-      desc: Web application that contains AWWU's reporting and querying tools, systems
-        status, and custom applications.
-      role: Technical Lead
-      begin_year: 2005
-      end_year: 2008
-      _links:
-        self:
-          href: /projects/awwu-intranet/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/css/
-          - href: /languages/html/
-          - href: /languages/js/
-          - href: /languages/plsql/
-          - href: /languages/sql/
-        db:
-          - href: /db/oracle/
-        os:
-          - href: /os/windows/
-      _embedded:
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -7764,6 +7683,29 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+    - title: AWWU Intranet
+      desc: Web application that contains AWWU's reporting and querying tools, systems
+        status, and custom applications.
+      role: Technical Lead
+      begin_year: 2005
+      end_year: 2008
+      _links:
+        self:
+          href: /projects/awwu-intranet/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/plsql/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: HTML
             desc: HTML (HyperText Markup Language) is a markup language used to create
@@ -8036,25 +7978,6 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
-    - title: TrainBuilder
-      desc: Windows Presentation Framework (WPF) application used by the Alaska
-        Railroad to plan and schedule structure of their trains.
-      role: Developer
-      begin_year: 2007
-      end_year: 2007
-      _links:
-        self:
-          href: /projects/train-builder/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/sql/
-        db:
-          - href: /db/sql-server/
-        os:
-          - href: /os/windows/
-      _embedded:
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -8113,6 +8036,25 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+    - title: TrainBuilder
+      desc: Windows Presentation Framework (WPF) application used by the Alaska
+        Railroad to plan and schedule structure of their trains.
+      role: Developer
+      begin_year: 2007
+      end_year: 2007
+      _links:
+        self:
+          href: /projects/train-builder/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/sql/
+        db:
+          - href: /db/sql-server/
+        os:
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: C#
             desc: C# is a general-purpose, object-oriented programming language developed by
@@ -8275,24 +8217,6 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
-    - title: SAR Reports
-      desc: null
-      role: Lead Developer
-      begin_year: 2007
-      end_year: 2007
-      _links:
-        self:
-          href: /projects/sar-reports/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/sql/
-        db:
-          - href: /db/oracle/
-        os:
-          - href: /os/windows/
-      _embedded:
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -8351,6 +8275,24 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+    - title: SAR Reports
+      desc: null
+      role: Lead Developer
+      begin_year: 2007
+      end_year: 2007
+      _links:
+        self:
+          href: /projects/sar-reports/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: C#
             desc: C# is a general-purpose, object-oriented programming language developed by
@@ -8516,25 +8458,6 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
-    - title: FLIR Monitoring System
-      desc: Software that reads the output from a FLIR laser mounted on a single
-        engine plane used to fly over the Alaska North Slope and record land
-        information.
-      role: Developer
-      begin_year: 2007
-      end_year: 2007
-      _links:
-        self:
-          href: /projects/flir-monitoring/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/cs/
-        db:
-          - href: /db/access/
-        os:
-          - href: /os/windows/
-      _embedded:
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -8593,6 +8516,25 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+    - title: FLIR Monitoring System
+      desc: Software that reads the output from a FLIR laser mounted on a single
+        engine plane used to fly over the Alaska North Slope and record land
+        information.
+      role: Developer
+      begin_year: 2007
+      end_year: 2007
+      _links:
+        self:
+          href: /projects/flir-monitoring/
+        languages:
+          - href: /languages/cs/
+        db:
+          - href: /db/access/
+        os:
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: C#
             desc: C# is a general-purpose, object-oriented programming language developed by
@@ -8709,6 +8651,64 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        jobs:
+          - title: Resource Data, Inc.
+            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
+              Texas, Idaho, Minnesota, and Oregon, that provides custom
+              database, web, and GIS programming services
+            role: Technical Lead
+            begin_year: 2005
+            end_year: 2014
+            time_desc: July 2005 - July 2014
+            _links:
+              self:
+                href: /jobs/rdi/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/bit-proposal/
+                - href: /projects/centroid/
+                - href: /projects/cis-data-capture/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/flir-monitoring/
+                - href: /projects/lasar-range-finder/
+                - href: /projects/please/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/train-builder/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/plsql/
+                - href: /languages/py/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/tsql/
+              db:
+                - href: /db/access/
+                - href: /db/oracle/
+                - href: /db/postgres/
+                - href: /db/sql-server/
+                - href: /db/sqlite/
+              tools:
+                - href: /tools/backbone/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
     - title: CIS Data Capture
       desc: Console application that captures monthly snapshots of AWWU's customer
         information system (CIS) data and loads it into a data warehouse.
@@ -8718,8 +8718,6 @@ _embedded:
       _links:
         self:
           href: /projects/cis-data-capture/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/sql/
@@ -8727,65 +8725,9 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
-      _embedded:
         jobs:
-          - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
-            role: Technical Lead
-            begin_year: 2005
-            end_year: 2014
-            time_desc: July 2005 - July 2014
-            _links:
-              self:
-                href: /jobs/rdi/
-              projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-job-scheduler/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/bit-proposal/
-                - href: /projects/centroid/
-                - href: /projects/cis-data-capture/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
-                - href: /projects/please/
-                - href: /projects/qb/
-                - href: /projects/report-engine/
-                - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
-                - href: /projects/scrum-tools/
-                - href: /projects/somd/
-                - href: /projects/systems-portal/
-                - href: /projects/train-builder/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/plsql/
-                - href: /languages/py/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/access/
-                - href: /db/oracle/
-                - href: /db/postgres/
-                - href: /db/sql-server/
-                - href: /db/sqlite/
-              tools:
-                - href: /tools/backbone/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: C#
             desc: C# is a general-purpose, object-oriented programming language developed by
@@ -8951,25 +8893,6 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
-    - title: AWWU Systems Integration
-      desc: null
-      role: Technical Lead
-      begin_year: 2005
-      end_year: 2006
-      _links:
-        self:
-          href: /projects/awwu-systems-integration/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/plsql/
-          - href: /languages/sql/
-        db:
-          - href: /db/oracle/
-        os:
-          - href: /os/windows/
-      _embedded:
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -9028,6 +8951,25 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+    - title: AWWU Systems Integration
+      desc: null
+      role: Technical Lead
+      begin_year: 2005
+      end_year: 2006
+      _links:
+        self:
+          href: /projects/awwu-systems-integration/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/plsql/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: C#
             desc: C# is a general-purpose, object-oriented programming language developed by
@@ -9216,6 +9158,64 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        jobs:
+          - title: Resource Data, Inc.
+            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
+              Texas, Idaho, Minnesota, and Oregon, that provides custom
+              database, web, and GIS programming services
+            role: Technical Lead
+            begin_year: 2005
+            end_year: 2014
+            time_desc: July 2005 - July 2014
+            _links:
+              self:
+                href: /jobs/rdi/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/bit-proposal/
+                - href: /projects/centroid/
+                - href: /projects/cis-data-capture/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/flir-monitoring/
+                - href: /projects/lasar-range-finder/
+                - href: /projects/please/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/train-builder/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/plsql/
+                - href: /languages/py/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/tsql/
+              db:
+                - href: /db/access/
+                - href: /db/oracle/
+                - href: /db/postgres/
+                - href: /db/sql-server/
+                - href: /db/sqlite/
+              tools:
+                - href: /tools/backbone/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
     - title: AWWU Job Scheduler
       desc: Framework for creating background processing jobs that migrate,
         synchronize, and transform data throughout AWWU's integrated systems.
@@ -9225,73 +9225,15 @@ _embedded:
       _links:
         self:
           href: /projects/awwu-job-scheduler/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
         db:
           - href: /db/oracle/
         os:
           - href: /os/windows/
-      _embedded:
         jobs:
-          - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
-            role: Technical Lead
-            begin_year: 2005
-            end_year: 2014
-            time_desc: July 2005 - July 2014
-            _links:
-              self:
-                href: /jobs/rdi/
-              projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-job-scheduler/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/bit-proposal/
-                - href: /projects/centroid/
-                - href: /projects/cis-data-capture/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
-                - href: /projects/please/
-                - href: /projects/qb/
-                - href: /projects/report-engine/
-                - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
-                - href: /projects/scrum-tools/
-                - href: /projects/somd/
-                - href: /projects/systems-portal/
-                - href: /projects/train-builder/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/plsql/
-                - href: /languages/py/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/access/
-                - href: /db/oracle/
-                - href: /db/postgres/
-                - href: /db/sql-server/
-                - href: /db/sqlite/
-              tools:
-                - href: /tools/backbone/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: C#
             desc: C# is a general-purpose, object-oriented programming language developed by
@@ -9418,21 +9360,6 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
-    - title: Report Engine
-      desc: C# library for producing HTML reports based on database queries.
-      role: Lead Developer
-      begin_year: 2005
-      end_year: 2005
-      _links:
-        self:
-          href: /projects/report-engine/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/cs/
-        os:
-          - href: /os/windows/
-      _embedded:
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -9491,6 +9418,21 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+    - title: Report Engine
+      desc: C# library for producing HTML reports based on database queries.
+      role: Lead Developer
+      begin_year: 2005
+      end_year: 2005
+      _links:
+        self:
+          href: /projects/report-engine/
+        languages:
+          - href: /languages/cs/
+        os:
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: C#
             desc: C# is a general-purpose, object-oriented programming language developed by
@@ -9589,25 +9531,6 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
-    - title: Employees Suggestion
-      desc: Oracle Forms application that allows AWWU employees to submit suggestions
-        for improving the AWWU workplace.
-      role: Lead Developer
-      begin_year: 2005
-      end_year: 2005
-      _links:
-        self:
-          href: /projects/employee-suggestions/
-        jobs:
-          - href: /jobs/rdi/
-        languages:
-          - href: /languages/plsql/
-          - href: /languages/sql/
-        db:
-          - href: /db/oracle/
-        os:
-          - href: /os/windows/
-      _embedded:
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -9666,6 +9589,25 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+    - title: Employees Suggestion
+      desc: Oracle Forms application that allows AWWU employees to submit suggestions
+        for improving the AWWU workplace.
+      role: Lead Developer
+      begin_year: 2005
+      end_year: 2005
+      _links:
+        self:
+          href: /projects/employee-suggestions/
+        languages:
+          - href: /languages/plsql/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
+      _embedded:
         languages:
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -9812,6 +9754,64 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        jobs:
+          - title: Resource Data, Inc.
+            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
+              Texas, Idaho, Minnesota, and Oregon, that provides custom
+              database, web, and GIS programming services
+            role: Technical Lead
+            begin_year: 2005
+            end_year: 2014
+            time_desc: July 2005 - July 2014
+            _links:
+              self:
+                href: /jobs/rdi/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/bit-proposal/
+                - href: /projects/centroid/
+                - href: /projects/cis-data-capture/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/flir-monitoring/
+                - href: /projects/lasar-range-finder/
+                - href: /projects/please/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/train-builder/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/plsql/
+                - href: /languages/py/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/tsql/
+              db:
+                - href: /db/access/
+                - href: /db/oracle/
+                - href: /db/postgres/
+                - href: /db/sql-server/
+                - href: /db/sqlite/
+              tools:
+                - href: /tools/backbone/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
     - title: SIF Agent
       subtitle: Integrating Schools with State of Oklahoma
       desc: Schools Interoperability Framework (SIF) compliant agent that allows the
@@ -9823,8 +9823,6 @@ _embedded:
       _links:
         self:
           href: /projects/sif-agent/
-        jobs:
-          - href: /jobs/mas/
         languages:
           - href: /languages/cs/
           - href: /languages/sql/
@@ -9832,34 +9830,9 @@ _embedded:
           - href: /db/pervasive/
         os:
           - href: /os/windows/
-      _embedded:
         jobs:
-          - title: Municipal Accounting Systems, Inc.
-            desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
-              Shawnee, Oklahoma that provides accounting and student information
-              software solutions to school districts in Oklahoma
-            role: Lead Programmer
-            begin_year: 1999
-            end_year: 2005
-            time_desc: November 1999 - June 2005
-            _links:
-              self:
-                href: /jobs/mas/
-              projects:
-                - href: /projects/class-scheduler/
-                - href: /projects/sif-agent/
-                - href: /projects/wengage-acct/
-                - href: /projects/wengage-si/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/delphi/
-                - href: /languages/sql/
-              db:
-                - href: /db/btrieve/
-                - href: /db/pervasive/
-              os:
-                - href: /os/netware/
-                - href: /os/windows/
+          - href: /jobs/mas/
+      _embedded:
         languages:
           - title: C#
             desc: C# is a general-purpose, object-oriented programming language developed by
@@ -10021,6 +9994,33 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        jobs:
+          - title: Municipal Accounting Systems, Inc.
+            desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
+              Shawnee, Oklahoma that provides accounting and student information
+              software solutions to school districts in Oklahoma
+            role: Lead Programmer
+            begin_year: 1999
+            end_year: 2005
+            time_desc: November 1999 - June 2005
+            _links:
+              self:
+                href: /jobs/mas/
+              projects:
+                - href: /projects/class-scheduler/
+                - href: /projects/sif-agent/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/delphi/
+                - href: /languages/sql/
+              db:
+                - href: /db/btrieve/
+                - href: /db/pervasive/
+              os:
+                - href: /os/netware/
+                - href: /os/windows/
     - title: Wen-GAGE Student Information
       desc: Desktop application that is used by schools in Oklahoma to manage their
         student information such as enrollment, attendance, and grades.
@@ -10030,8 +10030,6 @@ _embedded:
       _links:
         self:
           href: /projects/wengage-si/
-        jobs:
-          - href: /jobs/mas/
         languages:
           - href: /languages/delphi/
           - href: /languages/sql/
@@ -10041,34 +10039,9 @@ _embedded:
         os:
           - href: /os/windows/
           - href: /os/netware/
-      _embedded:
         jobs:
-          - title: Municipal Accounting Systems, Inc.
-            desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
-              Shawnee, Oklahoma that provides accounting and student information
-              software solutions to school districts in Oklahoma
-            role: Lead Programmer
-            begin_year: 1999
-            end_year: 2005
-            time_desc: November 1999 - June 2005
-            _links:
-              self:
-                href: /jobs/mas/
-              projects:
-                - href: /projects/class-scheduler/
-                - href: /projects/sif-agent/
-                - href: /projects/wengage-acct/
-                - href: /projects/wengage-si/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/delphi/
-                - href: /languages/sql/
-              db:
-                - href: /db/btrieve/
-                - href: /db/pervasive/
-              os:
-                - href: /os/netware/
-                - href: /os/windows/
+          - href: /jobs/mas/
+      _embedded:
         languages:
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -10251,6 +10224,33 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/mas/
+        jobs:
+          - title: Municipal Accounting Systems, Inc.
+            desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
+              Shawnee, Oklahoma that provides accounting and student information
+              software solutions to school districts in Oklahoma
+            role: Lead Programmer
+            begin_year: 1999
+            end_year: 2005
+            time_desc: November 1999 - June 2005
+            _links:
+              self:
+                href: /jobs/mas/
+              projects:
+                - href: /projects/class-scheduler/
+                - href: /projects/sif-agent/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/delphi/
+                - href: /languages/sql/
+              db:
+                - href: /db/btrieve/
+                - href: /db/pervasive/
+              os:
+                - href: /os/netware/
+                - href: /os/windows/
     - title: Wen-GAGE Accounting
       desc: Desktop application that is used by schools in Oklahoma to manage all
         their school accounting responsibilites.
@@ -10260,8 +10260,6 @@ _embedded:
       _links:
         self:
           href: /projects/wengage-acct/
-        jobs:
-          - href: /jobs/mas/
         languages:
           - href: /languages/delphi/
           - href: /languages/sql/
@@ -10271,34 +10269,9 @@ _embedded:
         os:
           - href: /os/windows/
           - href: /os/netware/
-      _embedded:
         jobs:
-          - title: Municipal Accounting Systems, Inc.
-            desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
-              Shawnee, Oklahoma that provides accounting and student information
-              software solutions to school districts in Oklahoma
-            role: Lead Programmer
-            begin_year: 1999
-            end_year: 2005
-            time_desc: November 1999 - June 2005
-            _links:
-              self:
-                href: /jobs/mas/
-              projects:
-                - href: /projects/class-scheduler/
-                - href: /projects/sif-agent/
-                - href: /projects/wengage-acct/
-                - href: /projects/wengage-si/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/delphi/
-                - href: /languages/sql/
-              db:
-                - href: /db/btrieve/
-                - href: /db/pervasive/
-              os:
-                - href: /os/netware/
-                - href: /os/windows/
+          - href: /jobs/mas/
+      _embedded:
         languages:
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -10481,26 +10454,6 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/mas/
-    - title: Class Scheduler
-      desc: Process that takes student course requests along with the available
-        courses, sections, and teachers and builds the class schedule.
-      role: Lead Developer
-      begin_year: 1999
-      end_year: 1999
-      _links:
-        self:
-          href: /projects/class-scheduler/
-        jobs:
-          - href: /jobs/mas/
-        languages:
-          - href: /languages/delphi/
-        db:
-          - href: /db/btrieve/
-          - href: /db/pervasive/
-        os:
-          - href: /os/windows/
-          - href: /os/netware/
-      _embedded:
         jobs:
           - title: Municipal Accounting Systems, Inc.
             desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
@@ -10528,6 +10481,26 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+    - title: Class Scheduler
+      desc: Process that takes student course requests along with the available
+        courses, sections, and teachers and builds the class schedule.
+      role: Lead Developer
+      begin_year: 1999
+      end_year: 1999
+      _links:
+        self:
+          href: /projects/class-scheduler/
+        languages:
+          - href: /languages/delphi/
+        db:
+          - href: /db/btrieve/
+          - href: /db/pervasive/
+        os:
+          - href: /os/windows/
+          - href: /os/netware/
+        jobs:
+          - href: /jobs/mas/
+      _embedded:
         languages:
           - title: Delphi
             desc: Delphi is an object-oriented programming language developed by Embarcadero
@@ -10671,6 +10644,33 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/mas/
+        jobs:
+          - title: Municipal Accounting Systems, Inc.
+            desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
+              Shawnee, Oklahoma that provides accounting and student information
+              software solutions to school districts in Oklahoma
+            role: Lead Programmer
+            begin_year: 1999
+            end_year: 2005
+            time_desc: November 1999 - June 2005
+            _links:
+              self:
+                href: /jobs/mas/
+              projects:
+                - href: /projects/class-scheduler/
+                - href: /projects/sif-agent/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/delphi/
+                - href: /languages/sql/
+              db:
+                - href: /db/btrieve/
+                - href: /db/pervasive/
+              os:
+                - href: /os/netware/
+                - href: /os/windows/
     - title: SMF Controls and Displays
       desc: null
       role: Embedded Software Engineer
@@ -10679,33 +10679,13 @@ _embedded:
       _links:
         self:
           href: /projects/smf-controls-displays/
-        jobs:
-          - href: /jobs/boeing/
         languages:
           - href: /languages/ada/
         os:
           - href: /os/solaris/
-      _embedded:
         jobs:
-          - title: Boeing, Defense & Space Group
-            desc: Embedded Software Engineer for Boeing, Defense and Space Group, based in
-              Oklahoma City, Oklahoma that developed the B1-B Bomber Block E
-              software upgrade
-            role: Embedded Software Engineer
-            begin_year: 1998
-            end_year: 1999
-            time_desc: August 1998 - November 1999
-            _links:
-              self:
-                href: /jobs/boeing/
-              projects:
-                - href: /projects/backup-controls-displays/
-                - href: /projects/mission-data-loader/
-                - href: /projects/smf-controls-displays/
-              languages:
-                - href: /languages/ada/
-              os:
-                - href: /os/solaris/
+          - href: /jobs/boeing/
+      _embedded:
         languages:
           - title: Ada 95
             desc: Ada 95 is a high-level, structured, statically typed, object-oriented
@@ -10750,6 +10730,26 @@ _embedded:
                 - href: /projects/smf-controls-displays/
               jobs:
                 - href: /jobs/boeing/
+        jobs:
+          - title: Boeing, Defense & Space Group
+            desc: Embedded Software Engineer for Boeing, Defense and Space Group, based in
+              Oklahoma City, Oklahoma that developed the B1-B Bomber Block E
+              software upgrade
+            role: Embedded Software Engineer
+            begin_year: 1998
+            end_year: 1999
+            time_desc: August 1998 - November 1999
+            _links:
+              self:
+                href: /jobs/boeing/
+              projects:
+                - href: /projects/backup-controls-displays/
+                - href: /projects/mission-data-loader/
+                - href: /projects/smf-controls-displays/
+              languages:
+                - href: /languages/ada/
+              os:
+                - href: /os/solaris/
     - title: Mission Data Loader
       subtitle: Distributing Mission Data to B-1 Bombers
       desc: Thread responsible for reading the contents of a cartridge containing
@@ -10760,33 +10760,13 @@ _embedded:
       _links:
         self:
           href: /projects/mission-data-loader/
-        jobs:
-          - href: /jobs/boeing/
         languages:
           - href: /languages/ada/
         os:
           - href: /os/solaris/
-      _embedded:
         jobs:
-          - title: Boeing, Defense & Space Group
-            desc: Embedded Software Engineer for Boeing, Defense and Space Group, based in
-              Oklahoma City, Oklahoma that developed the B1-B Bomber Block E
-              software upgrade
-            role: Embedded Software Engineer
-            begin_year: 1998
-            end_year: 1999
-            time_desc: August 1998 - November 1999
-            _links:
-              self:
-                href: /jobs/boeing/
-              projects:
-                - href: /projects/backup-controls-displays/
-                - href: /projects/mission-data-loader/
-                - href: /projects/smf-controls-displays/
-              languages:
-                - href: /languages/ada/
-              os:
-                - href: /os/solaris/
+          - href: /jobs/boeing/
+      _embedded:
         languages:
           - title: Ada 95
             desc: Ada 95 is a high-level, structured, statically typed, object-oriented
@@ -10831,6 +10811,26 @@ _embedded:
                 - href: /projects/smf-controls-displays/
               jobs:
                 - href: /jobs/boeing/
+        jobs:
+          - title: Boeing, Defense & Space Group
+            desc: Embedded Software Engineer for Boeing, Defense and Space Group, based in
+              Oklahoma City, Oklahoma that developed the B1-B Bomber Block E
+              software upgrade
+            role: Embedded Software Engineer
+            begin_year: 1998
+            end_year: 1999
+            time_desc: August 1998 - November 1999
+            _links:
+              self:
+                href: /jobs/boeing/
+              projects:
+                - href: /projects/backup-controls-displays/
+                - href: /projects/mission-data-loader/
+                - href: /projects/smf-controls-displays/
+              languages:
+                - href: /languages/ada/
+              os:
+                - href: /os/solaris/
     - title: Backup Controls and Displays
       desc: Screens used to emulate hardware such as switch boards and displays in the
         event of their failure.
@@ -10840,33 +10840,13 @@ _embedded:
       _links:
         self:
           href: /projects/backup-controls-displays/
-        jobs:
-          - href: /jobs/boeing/
         languages:
           - href: /languages/ada/
         os:
           - href: /os/solaris/
-      _embedded:
         jobs:
-          - title: Boeing, Defense & Space Group
-            desc: Embedded Software Engineer for Boeing, Defense and Space Group, based in
-              Oklahoma City, Oklahoma that developed the B1-B Bomber Block E
-              software upgrade
-            role: Embedded Software Engineer
-            begin_year: 1998
-            end_year: 1999
-            time_desc: August 1998 - November 1999
-            _links:
-              self:
-                href: /jobs/boeing/
-              projects:
-                - href: /projects/backup-controls-displays/
-                - href: /projects/mission-data-loader/
-                - href: /projects/smf-controls-displays/
-              languages:
-                - href: /languages/ada/
-              os:
-                - href: /os/solaris/
+          - href: /jobs/boeing/
+      _embedded:
         languages:
           - title: Ada 95
             desc: Ada 95 is a high-level, structured, statically typed, object-oriented
@@ -10911,3 +10891,23 @@ _embedded:
                 - href: /projects/smf-controls-displays/
               jobs:
                 - href: /jobs/boeing/
+        jobs:
+          - title: Boeing, Defense & Space Group
+            desc: Embedded Software Engineer for Boeing, Defense and Space Group, based in
+              Oklahoma City, Oklahoma that developed the B1-B Bomber Block E
+              software upgrade
+            role: Embedded Software Engineer
+            begin_year: 1998
+            end_year: 1999
+            time_desc: August 1998 - November 1999
+            _links:
+              self:
+                href: /jobs/boeing/
+              projects:
+                - href: /projects/backup-controls-displays/
+                - href: /projects/mission-data-loader/
+                - href: /projects/smf-controls-displays/
+              languages:
+                - href: /languages/ada/
+              os:
+                - href: /os/solaris/

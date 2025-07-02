@@ -31,8 +31,6 @@ _embedded:
       _links:
         self:
           href: /projects/nuggets/
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/ts/
         db:
@@ -53,6 +51,8 @@ _embedded:
           - href: /os/android/
           - href: /os/ios/
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
     - title: hazelandgreg.wedding
       desc: Wedding website for Hazel and Greg
       role: Author
@@ -61,8 +61,6 @@ _embedded:
       _links:
         self:
           href: /projects/la-boda/
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/css/
           - href: /languages/html/
@@ -73,6 +71,8 @@ _embedded:
           - href: /tools/amplify/
         os:
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
   jobs:
     - title: Freelance Programmer
       desc: Freelance Programmer/Consultant, partnering with clients to architect and

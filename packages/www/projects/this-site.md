@@ -12,8 +12,6 @@ _links:
   code:
     title: github.com/gregoryjscott/me
     href: "https://github.com/gregoryjscott/me"
-  jobs:
-    - href: /jobs/freelance/
   languages:
     - href: /languages/css/
     - href: /languages/html/
@@ -25,4 +23,6 @@ _links:
   os:
     - href: /os/macos/
     - href: /os/linux/
+  jobs:
+    - href: /jobs/freelance/
 ---

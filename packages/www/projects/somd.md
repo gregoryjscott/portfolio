@@ -9,8 +9,6 @@ end_year: 2009
 _links:
   self:
     href: /projects/somd/
-  jobs:
-    - href: /jobs/rdi/
   languages:
     - href: /languages/cs/
     - href: /languages/css/
@@ -22,4 +20,6 @@ _links:
     - href: /db/oracle/
   os:
     - href: /os/windows/
+  jobs:
+    - href: /jobs/rdi/
 ---

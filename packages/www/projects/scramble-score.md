@@ -9,8 +9,6 @@ end_year: 2013
 _links:
   self:
     href: /projects/scramble-score/
-  jobs:
-    - href: /jobs/rdi/
   languages:
     - href: /languages/css/
     - href: /languages/html/
@@ -22,4 +20,6 @@ _links:
     - href: /os/windows/
     - href: /os/macos/
     - href: /os/linux/
+  jobs:
+    - href: /jobs/rdi/
 ---

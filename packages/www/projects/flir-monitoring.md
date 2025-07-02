@@ -9,12 +9,12 @@ end_year: 2007
 _links:
   self:
     href: /projects/flir-monitoring/
-  jobs:
-    - href: /jobs/rdi/
   languages:
     - href: /languages/cs/
   db:
     - href: /db/access/
   os:
     - href: /os/windows/
+  jobs:
+    - href: /jobs/rdi/
 ---

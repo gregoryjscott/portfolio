@@ -9,12 +9,12 @@ end_year: 2006
 _links:
   self:
     href: /projects/awwu-job-scheduler/
-  jobs:
-    - href: /jobs/rdi/
   languages:
     - href: /languages/cs/
   db:
     - href: /db/oracle/
   os:
     - href: /os/windows/
+  jobs:
+    - href: /jobs/rdi/
 ---

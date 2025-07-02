@@ -6,8 +6,6 @@ end_year: 2016
 _links:
   self:
     href: /projects/cfw/
-  jobs:
-    - href: /jobs/freelance/
   languages:
     - href: /languages/rb/
   tools:
@@ -15,63 +13,9 @@ _links:
     - href: /tools/jekyll/
   os:
     - href: /os/linux/
-_embedded:
   jobs:
-    - title: Freelance Programmer
-      desc: Freelance Programmer/Consultant, partnering with clients to architect and
-        implement technology solutions
-      role: Freelance Programmer
-      begin_year: 2014
-      end_year: present
-      time_desc: July 2014 - present
-      _links:
-        self:
-          href: /jobs/freelance/
-        projects:
-          - href: /projects/aprender/
-          - href: /projects/cfw/
-          - href: /projects/denver-schedules-api/
-          - href: /projects/jekyll-api/
-          - href: /projects/jekyll-embed/
-          - href: /projects/jekyll-load/
-          - href: /projects/jekyll-prep/
-          - href: /projects/la-boda/
-          - href: /projects/mvc-integration-test-framework/
-          - href: /projects/nuggets/
-          - href: /projects/simpler/
-          - href: /projects/this-site/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/css/
-          - href: /languages/html/
-          - href: /languages/js/
-          - href: /languages/rb/
-          - href: /languages/sql/
-          - href: /languages/ts/
-        db:
-          - href: /db/ddb/
-          - href: /db/postgres/
-        tools:
-          - href: /tools/amplify/
-          - href: /tools/ec2/
-          - href: /tools/ecr/
-          - href: /tools/ecs/
-          - href: /tools/fargate/
-          - href: /tools/hal/
-          - href: /tools/heroku/
-          - href: /tools/iam/
-          - href: /tools/jekyll/
-          - href: /tools/react-native/
-          - href: /tools/s3/
-          - href: /tools/sqs/
-          - href: /tools/vpc/
-          - href: /tools/xstate/
-        os:
-          - href: /os/android/
-          - href: /os/ios/
-          - href: /os/linux/
-          - href: /os/macos/
-          - href: /os/windows/
+    - href: /jobs/freelance/
+_embedded:
   languages:
     - title: Ruby
       desc: Ruby is an open-source, object-oriented programming language created by
@@ -179,3 +123,59 @@ _embedded:
           - href: /jobs/fe/
           - href: /jobs/freelance/
           - href: /jobs/rdi/
+  jobs:
+    - title: Freelance Programmer
+      desc: Freelance Programmer/Consultant, partnering with clients to architect and
+        implement technology solutions
+      role: Freelance Programmer
+      begin_year: 2014
+      end_year: present
+      time_desc: July 2014 - present
+      _links:
+        self:
+          href: /jobs/freelance/
+        projects:
+          - href: /projects/aprender/
+          - href: /projects/cfw/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/la-boda/
+          - href: /projects/mvc-integration-test-framework/
+          - href: /projects/nuggets/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/rb/
+          - href: /languages/sql/
+          - href: /languages/ts/
+        db:
+          - href: /db/ddb/
+          - href: /db/postgres/
+        tools:
+          - href: /tools/amplify/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/hal/
+          - href: /tools/heroku/
+          - href: /tools/iam/
+          - href: /tools/jekyll/
+          - href: /tools/react-native/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+          - href: /tools/xstate/
+        os:
+          - href: /os/android/
+          - href: /os/ios/
+          - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/

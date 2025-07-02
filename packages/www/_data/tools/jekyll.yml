@@ -35,8 +35,6 @@ _embedded:
         code:
           title: github.com/gregoryjscott/me
           href: https://github.com/gregoryjscott/me
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/css/
           - href: /languages/html/
@@ -48,6 +46,8 @@ _embedded:
         os:
           - href: /os/macos/
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
     - title: fortworthtexas.gov
       desc: Jekyll static site for the City of Fort Worth, Texas.
       role: Technical Lead
@@ -56,8 +56,6 @@ _embedded:
       _links:
         self:
           href: /projects/cfw/
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/rb/
         tools:
@@ -65,6 +63,8 @@ _embedded:
           - href: /tools/jekyll/
         os:
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
     - title: jekyll-prep
       desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
       role: Author
@@ -76,8 +76,6 @@ _embedded:
         code:
           title: github.com/gregoryjscott/jekyll-prep
           href: https://github.com/gregoryjscott/jekyll-prep
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/rb/
         tools:
@@ -85,6 +83,8 @@ _embedded:
         os:
           - href: /os/macos/
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
     - title: jekyll-load
       desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
       role: Author
@@ -96,8 +96,6 @@ _embedded:
         code:
           title: github.com/gregoryjscott/jekyll-load
           href: https://github.com/gregoryjscott/jekyll-load
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/rb/
         tools:
@@ -105,6 +103,8 @@ _embedded:
         os:
           - href: /os/macos/
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
     - title: jekyll-embed
       desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
         frontmatter
@@ -117,8 +117,6 @@ _embedded:
         code:
           title: github.com/gregoryjscott/jekyll-embed
           href: https://github.com/gregoryjscott/jekyll-embed
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/rb/
         tools:
@@ -127,6 +125,8 @@ _embedded:
         os:
           - href: /os/macos/
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
     - title: jekyll-api
       desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
       role: Author
@@ -138,8 +138,6 @@ _embedded:
         code:
           title: github.com/gregoryjscott/jekyll-api
           href: https://github.com/gregoryjscott/jekyll-api
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/rb/
         tools:
@@ -147,6 +145,8 @@ _embedded:
         os:
           - href: /os/macos/
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
   jobs:
     - title: Freelance Programmer
       desc: Freelance Programmer/Consultant, partnering with clients to architect and
