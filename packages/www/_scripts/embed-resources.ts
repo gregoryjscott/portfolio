@@ -61,7 +61,7 @@ function embedLinkedResources(
 
 function sortEmbeddedResources(resources: Resource[]) {
   for (const resource of resources) {
-    if (resource.target.yaml && resource.target.yaml._embedded) {
+    if (resource.target.yaml?._embedded) {
       resource.target.yaml = sortEmbedded(resource.target.yaml)
       writeYAML(resource.target.path, resource.target.yaml)
     }
