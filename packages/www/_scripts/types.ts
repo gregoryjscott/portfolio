@@ -1,4 +1,4 @@
-import index from "../_data/index.json"
+import resources from "../_data/resources.json"
 
 export type Resource = {
   relation: Relation
@@ -21,7 +21,7 @@ export type Resource = {
   }
 }
 
-export type Relation = keyof typeof index.resources | "self"
+export type Relation = keyof typeof resources | "self"
 
 export type Link = { href: string }
 

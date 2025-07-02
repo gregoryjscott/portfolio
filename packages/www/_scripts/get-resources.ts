@@ -2,10 +2,10 @@ import * as fs from "fs"
 import * as path from "path"
 import * as matter from "gray-matter"
 import { Link, Relation, Resource } from "./types"
-import index from "../_data/index.json"
+import resources from "../_data/resources.json"
 
 const yamlDirectory = "_data"
-export const resourceDirectories = Object.keys(index.resources) as Exclude<
+export const resourceDirectories = Object.keys(resources) as Exclude<
   Relation,
   "self"
 >[]

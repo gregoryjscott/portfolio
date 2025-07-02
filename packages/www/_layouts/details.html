@@ -3,7 +3,7 @@ layout: default
 ---
 {% assign details_path_parts = page._links.self.href | split: '/' %}
 {% assign details_resource_key = details_path_parts[1] %}
-{% assign details_resource_title = site.data.index.resources[details_resource_key].title %}
+{% assign details_resource_title = site.data.resources[details_resource_key].title %}
 
 <nav>
   <a href="{{ site.url }}">Home</a> /

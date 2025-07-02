@@ -48,7 +48,7 @@ Online:
 
 ## Skills
 
-{% for resource in site.data.index.resources %}
+{% for resource in site.data.resources %}
   {% include resume/skill.html site_resource=resource embedded=page._embedded %}
 {% endfor %}
 

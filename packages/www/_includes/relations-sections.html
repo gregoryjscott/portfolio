@@ -1,4 +1,4 @@
-{% for resource in site.data.index.resources %}
+{% for resource in site.data.resources %}
   {% assign resource_key = resource[0] %}
   {% assign resource_data = resource[1] %}
   {% if include.resource._embedded[resource_key] %}
