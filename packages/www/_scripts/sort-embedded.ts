@@ -64,6 +64,7 @@ function byRecent(items: Sortable[]): Sortable[] {
 
 function buildSortTerm(item: Sortable): string {
   const { begin_year, end_year } = item
+  const beginYearTerm = begin_year || "0000"
   const endYearTerm = !end_year || end_year === "present" ? 9999 : end_year
-  return `${endYearTerm}-${begin_year || "0000"}`
+  return `${endYearTerm}-${beginYearTerm}`
 }
