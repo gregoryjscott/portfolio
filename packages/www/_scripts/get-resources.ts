@@ -2,19 +2,13 @@ import * as fs from "fs"
 import * as path from "path"
 import * as matter from "gray-matter"
 import { Link, Relation, Resource } from "./types"
+import index from "../_data/index.json"
 
 const yamlDirectory = "_data"
-
-export const resourceDirectories = [
-  "resume",
-  "projects",
-  "jobs",
-  "schools",
-  "languages",
-  "db",
-  "tools",
-  "os",
-] as const
+export const resourceDirectories = Object.keys(index.resources) as Exclude<
+  Relation,
+  "self"
+>[]
 
 const prompts = {
   db: title =>

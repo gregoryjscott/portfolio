@@ -1,4 +1,4 @@
-import { resourceDirectories } from "./get-resources"
+import index from "../_data/index.json"
 
 export type Resource = {
   relation: Relation
@@ -21,7 +21,7 @@ export type Resource = {
   }
 }
 
-export type Relation = typeof resourceDirectories[number] | "self"
+export type Relation = keyof typeof index.resources | "self"
 
 export type Link = { href: string }
 
