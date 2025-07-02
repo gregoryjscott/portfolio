@@ -21,7 +21,7 @@ export type Resource = {
   }
 }
 
-export type Relation = keyof typeof resources | "self"
+export type Relation = "self" | keyof typeof resources
 
 export type Link = { href: string }
 
