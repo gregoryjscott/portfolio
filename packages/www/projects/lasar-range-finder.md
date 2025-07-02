@@ -10,12 +10,12 @@ end_year: 2008
 _links:
   self:
     href: /projects/lasar-range-finder/
-  jobs:
-    - href: /jobs/rdi/
   languages:
     - href: /languages/cs/
   db:
     - href: /db/access/
   os:
     - href: /os/windows/
+  jobs:
+    - href: /jobs/rdi/
 ---

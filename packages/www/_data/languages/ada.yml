@@ -28,12 +28,12 @@ _embedded:
       _links:
         self:
           href: /projects/smf-controls-displays/
-        jobs:
-          - href: /jobs/boeing/
         languages:
           - href: /languages/ada/
         os:
           - href: /os/solaris/
+        jobs:
+          - href: /jobs/boeing/
     - title: Mission Data Loader
       subtitle: Distributing Mission Data to B-1 Bombers
       desc: Thread responsible for reading the contents of a cartridge containing
@@ -44,12 +44,12 @@ _embedded:
       _links:
         self:
           href: /projects/mission-data-loader/
-        jobs:
-          - href: /jobs/boeing/
         languages:
           - href: /languages/ada/
         os:
           - href: /os/solaris/
+        jobs:
+          - href: /jobs/boeing/
     - title: Backup Controls and Displays
       desc: Screens used to emulate hardware such as switch boards and displays in the
         event of their failure.
@@ -59,12 +59,12 @@ _embedded:
       _links:
         self:
           href: /projects/backup-controls-displays/
-        jobs:
-          - href: /jobs/boeing/
         languages:
           - href: /languages/ada/
         os:
           - href: /os/solaris/
+        jobs:
+          - href: /jobs/boeing/
   jobs:
     - title: Boeing, Defense & Space Group
       desc: Embedded Software Engineer for Boeing, Defense and Space Group, based in

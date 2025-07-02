@@ -7,8 +7,6 @@ end_year: 2025
 _links:
   self:
     href: /projects/la-boda/
-  jobs:
-    - href: /jobs/freelance/
   languages:
     - href: /languages/css/
     - href: /languages/html/
@@ -19,4 +17,6 @@ _links:
     - href: /tools/amplify/
   os:
     - href: /os/linux/
+  jobs:
+    - href: /jobs/freelance/
 ---

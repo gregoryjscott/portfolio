@@ -10,10 +10,10 @@ _links:
   code:
     title: github.com/gregoryjscott/aprender
     href: "https://github.com/gregoryjscott/aprender"
-  jobs:
-    - href: /jobs/freelance/
   languages:
     - href: /languages/js/
   os:
     - href: /os/macos/
+  jobs:
+    - href: /jobs/freelance/
 ---

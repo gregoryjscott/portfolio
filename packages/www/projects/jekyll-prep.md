@@ -10,8 +10,6 @@ _links:
   code:
     title: github.com/gregoryjscott/jekyll-prep
     href: "https://github.com/gregoryjscott/jekyll-prep"
-  jobs:
-    - href: /jobs/freelance/
   languages:
     - href: /languages/rb/
   tools:
@@ -19,4 +17,6 @@ _links:
   os:
     - href: /os/macos/
     - href: /os/linux/
+  jobs:
+    - href: /jobs/freelance/
 ---

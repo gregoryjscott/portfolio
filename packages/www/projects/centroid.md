@@ -12,8 +12,6 @@ _links:
   code:
     title: github.com/ResourceDataInc/Centroid
     href: "https://github.com/ResourceDataInc/Centroid"
-  jobs:
-    - href: /jobs/rdi/
   languages:
     - href: /languages/cs/
     - href: /languages/py/
@@ -22,4 +20,6 @@ _links:
     - href: /os/windows/
     - href: /os/macos/
     - href: /os/linux/
+  jobs:
+    - href: /jobs/rdi/
 ---

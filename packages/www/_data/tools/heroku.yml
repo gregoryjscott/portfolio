@@ -28,8 +28,6 @@ _embedded:
       _links:
         self:
           href: /projects/cfw/
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/rb/
         tools:
@@ -37,6 +35,8 @@ _embedded:
           - href: /tools/jekyll/
         os:
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
   jobs:
     - title: Freelance Programmer
       desc: Freelance Programmer/Consultant, partnering with clients to architect and

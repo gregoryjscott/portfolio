@@ -6,7 +6,9 @@
     "target": "es2019",
     "lib": ["es2020", "dom"],
     "module": "commonjs",
-    "sourceMap": true
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   },
   "exclude": ["node_modules"]
 }

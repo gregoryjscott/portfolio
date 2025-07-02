@@ -32,8 +32,6 @@ _embedded:
       _links:
         self:
           href: /projects/qb/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -47,6 +45,8 @@ _embedded:
           - href: /tools/backbone/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
   jobs:
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,

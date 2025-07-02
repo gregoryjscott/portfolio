@@ -9,8 +9,6 @@ end_year: 1999
 _links:
   self:
     href: /projects/class-scheduler/
-  jobs:
-    - href: /jobs/mas/
   languages:
     - href: /languages/delphi/
   db:
@@ -19,4 +17,6 @@ _links:
   os:
     - href: /os/windows/
     - href: /os/netware/
+  jobs:
+    - href: /jobs/mas/
 ---

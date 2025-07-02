@@ -31,8 +31,6 @@ _embedded:
       _links:
         self:
           href: /projects/nuggets/
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/ts/
         db:
@@ -53,6 +51,8 @@ _embedded:
           - href: /os/android/
           - href: /os/ios/
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
     - title: EpiCloud
       subtitle: Infinitely Scaling Bots on AWS
       desc: null
@@ -62,8 +62,6 @@ _embedded:
       _links:
         self:
           href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
         languages:
           - href: /languages/ts/
         db:
@@ -87,6 +85,8 @@ _embedded:
           - href: /tools/sikulix/
         os:
           - href: /os/linux/
+        jobs:
+          - href: /jobs/fe/
   jobs:
     - title: Freelance Programmer
       desc: Freelance Programmer/Consultant, partnering with clients to architect and

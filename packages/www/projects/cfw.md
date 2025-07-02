@@ -7,8 +7,6 @@ end_year: 2016
 _links:
   self:
     href: /projects/cfw/
-  jobs:
-    - href: /jobs/freelance/
   languages:
     - href: /languages/rb/
   tools:
@@ -16,4 +14,6 @@ _links:
     - href: /tools/jekyll/
   os:
     - href: /os/linux/
+  jobs:
+    - href: /jobs/freelance/
 ---

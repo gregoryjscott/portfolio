@@ -10,8 +10,6 @@ end_year: null
 _links:
   self:
     href: /projects/nuggets/
-  jobs:
-    - href: /jobs/freelance/
   languages:
     - href: /languages/ts/
   db:
@@ -32,4 +30,6 @@ _links:
     - href: /os/android/
     - href: /os/ios/
     - href: /os/linux/
+  jobs:
+    - href: /jobs/freelance/
 ---

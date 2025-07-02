@@ -10,69 +10,13 @@ _links:
   code:
     title: github.com/gregoryjscott/MvcIntegrationTestFramework
     href: https://github.com/gregoryjscott/MvcIntegrationTestFramework
-  jobs:
-    - href: /jobs/freelance/
   languages:
     - href: /languages/cs/
   os:
     - href: /os/windows/
-_embedded:
   jobs:
-    - title: Freelance Programmer
-      desc: Freelance Programmer/Consultant, partnering with clients to architect and
-        implement technology solutions
-      role: Freelance Programmer
-      begin_year: 2014
-      end_year: present
-      time_desc: July 2014 - present
-      _links:
-        self:
-          href: /jobs/freelance/
-        projects:
-          - href: /projects/aprender/
-          - href: /projects/cfw/
-          - href: /projects/denver-schedules-api/
-          - href: /projects/jekyll-api/
-          - href: /projects/jekyll-embed/
-          - href: /projects/jekyll-load/
-          - href: /projects/jekyll-prep/
-          - href: /projects/la-boda/
-          - href: /projects/mvc-integration-test-framework/
-          - href: /projects/nuggets/
-          - href: /projects/simpler/
-          - href: /projects/this-site/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/css/
-          - href: /languages/html/
-          - href: /languages/js/
-          - href: /languages/rb/
-          - href: /languages/sql/
-          - href: /languages/ts/
-        db:
-          - href: /db/ddb/
-          - href: /db/postgres/
-        tools:
-          - href: /tools/amplify/
-          - href: /tools/ec2/
-          - href: /tools/ecr/
-          - href: /tools/ecs/
-          - href: /tools/fargate/
-          - href: /tools/hal/
-          - href: /tools/heroku/
-          - href: /tools/iam/
-          - href: /tools/jekyll/
-          - href: /tools/react-native/
-          - href: /tools/s3/
-          - href: /tools/sqs/
-          - href: /tools/vpc/
-          - href: /tools/xstate/
-        os:
-          - href: /os/android/
-          - href: /os/ios/
-          - href: /os/linux/
-          - href: /os/macos/
-          - href: /os/windows/
+    - href: /jobs/freelance/
+_embedded:
   languages:
     - title: C#
       desc: C# is a general-purpose, object-oriented programming language developed by
@@ -170,3 +114,59 @@ _embedded:
           - href: /jobs/rdi/
         schools:
           - href: /schools/uco/
+  jobs:
+    - title: Freelance Programmer
+      desc: Freelance Programmer/Consultant, partnering with clients to architect and
+        implement technology solutions
+      role: Freelance Programmer
+      begin_year: 2014
+      end_year: present
+      time_desc: July 2014 - present
+      _links:
+        self:
+          href: /jobs/freelance/
+        projects:
+          - href: /projects/aprender/
+          - href: /projects/cfw/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/la-boda/
+          - href: /projects/mvc-integration-test-framework/
+          - href: /projects/nuggets/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/rb/
+          - href: /languages/sql/
+          - href: /languages/ts/
+        db:
+          - href: /db/ddb/
+          - href: /db/postgres/
+        tools:
+          - href: /tools/amplify/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/hal/
+          - href: /tools/heroku/
+          - href: /tools/iam/
+          - href: /tools/jekyll/
+          - href: /tools/react-native/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+          - href: /tools/xstate/
+        os:
+          - href: /os/android/
+          - href: /os/ios/
+          - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/

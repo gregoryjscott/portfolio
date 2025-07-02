@@ -12,10 +12,10 @@ _links:
   code:
     title: github.com/gregoryjscott/MvcIntegrationTestFramework
     href: "https://github.com/gregoryjscott/MvcIntegrationTestFramework"
-  jobs:
-    - href: /jobs/freelance/
   languages:
     - href: /languages/cs/
   os:
     - href: /os/windows/
+  jobs:
+    - href: /jobs/freelance/
 ---

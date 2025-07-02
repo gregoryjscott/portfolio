@@ -10,8 +10,6 @@ end_year: 2012
 _links:
   self:
     href: /projects/qb/
-  jobs:
-    - href: /jobs/rdi/
   languages:
     - href: /languages/cs/
     - href: /languages/css/
@@ -25,4 +23,6 @@ _links:
     - href: /tools/backbone/
   os:
     - href: /os/windows/
+  jobs:
+    - href: /jobs/rdi/
 ---

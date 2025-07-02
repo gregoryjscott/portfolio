@@ -1,10 +1,6 @@
 import { writeMarkdown } from "./util"
-import {
-  Resource,
-  findResource,
-  findRelationLinks,
-  getResources,
-} from "./get-resources"
+import { findResource, findRelationLinks, getResources } from "./get-resources"
+import { Resource } from "./types"
 
 const resources: Resource[] = getResources()
 const nonIndexResources = resources.filter(r => !r.isIndex)
@@ -23,11 +19,11 @@ function setYearRange() {
     const projectLinks = [].concat(findRelationLinks(skill, "projects"))
     for (const projectLink of projectLinks) {
       const project = findResource(projectLink, projects)
-      const beginYear = project.sourceMarkdown.data.begin_year
+      const beginYear = project.source.markdown.frontmatter.begin_year
       const endYear =
-        project.sourceMarkdown.data.end_year === "present"
+        project.source.markdown.frontmatter.end_year === "present"
           ? 9999
-          : project.sourceMarkdown.data.end_year || 9999
+          : project.source.markdown.frontmatter.end_year || 9999
       if (beginYear && beginYear < minYear) {
         minYear = beginYear
       }
@@ -39,11 +35,11 @@ function setYearRange() {
     const schoolLinks = [].concat(findRelationLinks(skill, "schools"))
     for (const schoolLink of schoolLinks) {
       const school = findResource(schoolLink, schools)
-      const beginYear = school.sourceMarkdown.data.begin_year
+      const beginYear = school.source.markdown.frontmatter.begin_year
       const endYear =
-        school.sourceMarkdown.data.end_year === "present"
+        school.source.markdown.frontmatter.end_year === "present"
           ? 9999
-          : school.sourceMarkdown.data.end_year || 9999
+          : school.source.markdown.frontmatter.end_year || 9999
       if (beginYear && beginYear < minYear) {
         minYear = beginYear
       }
@@ -56,7 +52,7 @@ function setYearRange() {
       throw `${skill.href} has no projects or schools`
     }
 
-    const { _links, ...rest } = skill.sourceMarkdown.data
+    const { _links, ...rest } = skill.source.markdown.frontmatter
     const data = {
       ...rest,
       begin_year: minYear,
@@ -64,7 +60,7 @@ function setYearRange() {
       _links,
     }
 
-    writeMarkdown(skill.sourceMarkdown.path, skill.sourceMarkdown.content, data)
+    writeMarkdown(skill.source.path, skill.source.markdown.content, data)
   }
 }
 

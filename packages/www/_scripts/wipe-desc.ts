@@ -1,16 +1,17 @@
 import { writeMarkdown } from "./util"
-import { getResources, Resource } from "./get-resources"
+import { getResources } from "./get-resources"
+import { Resource } from "./types"
 
 const resources: Resource[] = getResources()
 const resourcesWithPrompts = resources.filter(r => r.prompt && !r.isIndex)
 
 async function wipeDesc() {
   for (const resource of resourcesWithPrompts) {
-    resource.sourceMarkdown.data.desc = null
+    resource.source.markdown.frontmatter.desc = null
     writeMarkdown(
-      resource.sourceMarkdown.path,
-      resource.sourceMarkdown.content,
-      resource.sourceMarkdown.data
+      resource.source.path,
+      resource.source.markdown.content,
+      resource.source.markdown.frontmatter
     )
   }
   console.log()

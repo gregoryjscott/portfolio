@@ -34,8 +34,6 @@ _embedded:
       _links:
         self:
           href: /projects/la-boda/
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/css/
           - href: /languages/html/
@@ -46,6 +44,8 @@ _embedded:
           - href: /tools/amplify/
         os:
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
     - title: aprender
       desc: CLI for learning Spanish
       role: Author
@@ -57,12 +57,12 @@ _embedded:
         code:
           title: github.com/gregoryjscott/aprender
           href: https://github.com/gregoryjscott/aprender
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/js/
         os:
           - href: /os/macos/
+        jobs:
+          - href: /jobs/freelance/
     - title: Alaska Gasline Development Corporation
       desc: Web application that provides AGDC with documentation, reporting, and
         querying tools for their vast GIS data and infrastructure.
@@ -72,8 +72,6 @@ _embedded:
       _links:
         self:
           href: /projects/agdc/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -87,6 +85,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: Systems Portal
       desc: Web application for tracking data used by systems administrators.
       role: Technical Lead
@@ -95,8 +95,6 @@ _embedded:
       _links:
         self:
           href: /projects/systems-portal/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -108,6 +106,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: Scrum Tools
       desc: null
       role: Technical Lead
@@ -116,8 +116,6 @@ _embedded:
       _links:
         self:
           href: /projects/scrum-tools/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -129,6 +127,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: ScrambleScore
       desc: Mobile web application that allows golfers participating in scramble golf
         tournaments to record their scores and monitor the tournament
@@ -139,8 +139,6 @@ _embedded:
       _links:
         self:
           href: /projects/scramble-score/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/css/
           - href: /languages/html/
@@ -152,6 +150,8 @@ _embedded:
           - href: /os/windows/
           - href: /os/macos/
           - href: /os/linux/
+        jobs:
+          - href: /jobs/rdi/
     - title: Energy Efficiency Map
       desc: Web application that allows the Alaska Energy Authority to monitor and
         administer data from their statewide energy saving programs.
@@ -161,8 +161,6 @@ _embedded:
       _links:
         self:
           href: /projects/energy-efficiency-map/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -174,6 +172,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: Quality Bank
       subtitle: Invoicing $1 Billion/Month for Oil Pipeline
       desc: Web application that manages the workflow, pricing data, sampling data,
@@ -184,8 +184,6 @@ _embedded:
       _links:
         self:
           href: /projects/qb/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -199,6 +197,8 @@ _embedded:
           - href: /tools/backbone/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: Service Order Mobile Dispatch
       desc: Mobile web application that allows Anchorage Water & Wastewater Utility
         service workers to query and record service information while in the
@@ -209,8 +209,6 @@ _embedded:
       _links:
         self:
           href: /projects/somd/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -222,6 +220,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: AWWU Intranet
       desc: Web application that contains AWWU's reporting and querying tools, systems
         status, and custom applications.
@@ -231,8 +231,6 @@ _embedded:
       _links:
         self:
           href: /projects/awwu-intranet/
-        jobs:
-          - href: /jobs/rdi/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -244,6 +242,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
   jobs:
     - title: Freelance Programmer
       desc: Freelance Programmer/Consultant, partnering with clients to architect and

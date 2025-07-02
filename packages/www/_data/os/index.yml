@@ -46,8 +46,6 @@ _embedded:
             _links:
               self:
                 href: /projects/nuggets/
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/ts/
               db:
@@ -68,6 +66,8 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
         jobs:
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -154,8 +154,6 @@ _embedded:
             _links:
               self:
                 href: /projects/nuggets/
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/ts/
               db:
@@ -176,6 +174,8 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
         jobs:
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -276,8 +276,6 @@ _embedded:
               code:
                 title: github.com/gregoryjscott/me
                 href: https://github.com/gregoryjscott/me
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/css/
                 - href: /languages/html/
@@ -289,6 +287,8 @@ _embedded:
               os:
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
           - title: aprender
             desc: CLI for learning Spanish
             role: Author
@@ -300,12 +300,12 @@ _embedded:
               code:
                 title: github.com/gregoryjscott/aprender
                 href: https://github.com/gregoryjscott/aprender
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/js/
               os:
                 - href: /os/macos/
+              jobs:
+                - href: /jobs/freelance/
           - title: jekyll-prep
             desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
             role: Author
@@ -317,8 +317,6 @@ _embedded:
               code:
                 title: github.com/gregoryjscott/jekyll-prep
                 href: https://github.com/gregoryjscott/jekyll-prep
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/rb/
               tools:
@@ -326,6 +324,8 @@ _embedded:
               os:
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
           - title: jekyll-load
             desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
             role: Author
@@ -337,8 +337,6 @@ _embedded:
               code:
                 title: github.com/gregoryjscott/jekyll-load
                 href: https://github.com/gregoryjscott/jekyll-load
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/rb/
               tools:
@@ -346,6 +344,8 @@ _embedded:
               os:
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
           - title: jekyll-embed
             desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
               frontmatter
@@ -358,8 +358,6 @@ _embedded:
               code:
                 title: github.com/gregoryjscott/jekyll-embed
                 href: https://github.com/gregoryjscott/jekyll-embed
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/rb/
               tools:
@@ -368,6 +366,8 @@ _embedded:
               os:
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
           - title: jekyll-api
             desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
             role: Author
@@ -379,8 +379,6 @@ _embedded:
               code:
                 title: github.com/gregoryjscott/jekyll-api
                 href: https://github.com/gregoryjscott/jekyll-api
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/rb/
               tools:
@@ -388,6 +386,8 @@ _embedded:
               os:
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
           - title: Denver Schedules API
             desc: JSON API that provides access to Denver activities that impact the
               residents of Denver.
@@ -400,8 +400,6 @@ _embedded:
               code:
                 title: github.com/codeforamerica/denver-schedules-api
                 href: https://github.com/codeforamerica/denver-schedules-api
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/cs/
                 - href: /languages/rb/
@@ -412,6 +410,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
           - title: Centroid
             desc: Library for accessing environment based configuration from multiple
               different programming languages.
@@ -424,8 +424,6 @@ _embedded:
               code:
                 title: github.com/ResourceDataInc/Centroid
                 href: https://github.com/ResourceDataInc/Centroid
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/py/
@@ -434,6 +432,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/rdi/
           - title: ScrambleScore
             desc: Mobile web application that allows golfers participating in scramble golf
               tournaments to record their scores and monitor the tournament
@@ -444,8 +444,6 @@ _embedded:
             _links:
               self:
                 href: /projects/scramble-score/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/css/
                 - href: /languages/html/
@@ -457,6 +455,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/rdi/
           - title: Simpler
             desc: Library that provides a simpler approach to C# class design.
             role: Author
@@ -468,8 +468,6 @@ _embedded:
               code:
                 title: github.com/gregoryjscott/Simpler
                 href: https://github.com/gregoryjscott/Simpler
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/cs/
                 - href: /languages/rb/
@@ -477,6 +475,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
         jobs:
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -632,8 +632,6 @@ _embedded:
             _links:
               self:
                 href: /projects/nuggets/
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/ts/
               db:
@@ -654,6 +652,8 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
           - title: gregoryjscott.com
             desc: My portfolio website that uses Jekyll to create static HTML pages using
               YAML, Markdown, and HAL-based hypermedia.
@@ -666,8 +666,6 @@ _embedded:
               code:
                 title: github.com/gregoryjscott/me
                 href: https://github.com/gregoryjscott/me
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/css/
                 - href: /languages/html/
@@ -679,6 +677,8 @@ _embedded:
               os:
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
           - title: hazelandgreg.wedding
             desc: Wedding website for Hazel and Greg
             role: Author
@@ -687,8 +687,6 @@ _embedded:
             _links:
               self:
                 href: /projects/la-boda/
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/css/
                 - href: /languages/html/
@@ -699,6 +697,8 @@ _embedded:
                 - href: /tools/amplify/
               os:
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
           - title: EpiCloud
             subtitle: Infinitely Scaling Bots on AWS
             desc: null
@@ -708,8 +708,6 @@ _embedded:
             _links:
               self:
                 href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
               languages:
                 - href: /languages/ts/
               db:
@@ -733,6 +731,8 @@ _embedded:
                 - href: /tools/sikulix/
               os:
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/fe/
           - title: fortworthtexas.gov
             desc: Jekyll static site for the City of Fort Worth, Texas.
             role: Technical Lead
@@ -741,8 +741,6 @@ _embedded:
             _links:
               self:
                 href: /projects/cfw/
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/rb/
               tools:
@@ -750,6 +748,8 @@ _embedded:
                 - href: /tools/jekyll/
               os:
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
           - title: jekyll-prep
             desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
             role: Author
@@ -761,8 +761,6 @@ _embedded:
               code:
                 title: github.com/gregoryjscott/jekyll-prep
                 href: https://github.com/gregoryjscott/jekyll-prep
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/rb/
               tools:
@@ -770,6 +768,8 @@ _embedded:
               os:
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
           - title: jekyll-load
             desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
             role: Author
@@ -781,8 +781,6 @@ _embedded:
               code:
                 title: github.com/gregoryjscott/jekyll-load
                 href: https://github.com/gregoryjscott/jekyll-load
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/rb/
               tools:
@@ -790,6 +788,8 @@ _embedded:
               os:
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
           - title: jekyll-embed
             desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
               frontmatter
@@ -802,8 +802,6 @@ _embedded:
               code:
                 title: github.com/gregoryjscott/jekyll-embed
                 href: https://github.com/gregoryjscott/jekyll-embed
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/rb/
               tools:
@@ -812,6 +810,8 @@ _embedded:
               os:
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
           - title: jekyll-api
             desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
             role: Author
@@ -823,8 +823,6 @@ _embedded:
               code:
                 title: github.com/gregoryjscott/jekyll-api
                 href: https://github.com/gregoryjscott/jekyll-api
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/rb/
               tools:
@@ -832,6 +830,8 @@ _embedded:
               os:
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
           - title: Denver Schedules API
             desc: JSON API that provides access to Denver activities that impact the
               residents of Denver.
@@ -844,8 +844,6 @@ _embedded:
               code:
                 title: github.com/codeforamerica/denver-schedules-api
                 href: https://github.com/codeforamerica/denver-schedules-api
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/cs/
                 - href: /languages/rb/
@@ -856,6 +854,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
           - title: Centroid
             desc: Library for accessing environment based configuration from multiple
               different programming languages.
@@ -868,8 +868,6 @@ _embedded:
               code:
                 title: github.com/ResourceDataInc/Centroid
                 href: https://github.com/ResourceDataInc/Centroid
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/py/
@@ -878,6 +876,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/rdi/
           - title: ScrambleScore
             desc: Mobile web application that allows golfers participating in scramble golf
               tournaments to record their scores and monitor the tournament
@@ -888,8 +888,6 @@ _embedded:
             _links:
               self:
                 href: /projects/scramble-score/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/css/
                 - href: /languages/html/
@@ -901,6 +899,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/rdi/
           - title: Simpler
             desc: Library that provides a simpler approach to C# class design.
             role: Author
@@ -912,8 +912,6 @@ _embedded:
               code:
                 title: github.com/gregoryjscott/Simpler
                 href: https://github.com/gregoryjscott/Simpler
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/cs/
                 - href: /languages/rb/
@@ -921,6 +919,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
         jobs:
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -1136,14 +1136,14 @@ _embedded:
             _links:
               self:
                 href: /projects/epic-ca-enrollment/
-              jobs:
-                - href: /jobs/fe/
               languages:
                 - href: /languages/php/
               db:
                 - href: /db/firebase/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/fe/
           - title: Denver Schedules API
             desc: JSON API that provides access to Denver activities that impact the
               residents of Denver.
@@ -1156,8 +1156,6 @@ _embedded:
               code:
                 title: github.com/codeforamerica/denver-schedules-api
                 href: https://github.com/codeforamerica/denver-schedules-api
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/cs/
                 - href: /languages/rb/
@@ -1168,6 +1166,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
           - title: Centroid
             desc: Library for accessing environment based configuration from multiple
               different programming languages.
@@ -1180,8 +1180,6 @@ _embedded:
               code:
                 title: github.com/ResourceDataInc/Centroid
                 href: https://github.com/ResourceDataInc/Centroid
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/py/
@@ -1190,6 +1188,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/rdi/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
               querying tools for their vast GIS data and infrastructure.
@@ -1199,8 +1199,6 @@ _embedded:
             _links:
               self:
                 href: /projects/agdc/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/css/
@@ -1214,6 +1212,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: Please
             desc: Please is a set of commands useful for maintaining software projects.
             role: Author
@@ -1225,8 +1225,6 @@ _embedded:
               code:
                 title: github.com/ResourceDataInc/please
                 href: https://github.com/ResourceDataInc/please
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/rb/
@@ -1235,6 +1233,8 @@ _embedded:
                 - href: /db/sqlite/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: Systems Portal
             desc: Web application for tracking data used by systems administrators.
             role: Technical Lead
@@ -1243,8 +1243,6 @@ _embedded:
             _links:
               self:
                 href: /projects/systems-portal/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/css/
@@ -1256,6 +1254,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: AHFC Integration
             desc: Alaska Housing Finance Corporation Integration
             role: Technical Lead
@@ -1264,8 +1264,6 @@ _embedded:
             _links:
               self:
                 href: /projects/ahfc-integration/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/sql/
                 - href: /languages/tsql/
@@ -1273,6 +1271,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: Scrum Tools
             desc: null
             role: Technical Lead
@@ -1281,8 +1281,6 @@ _embedded:
             _links:
               self:
                 href: /projects/scrum-tools/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/css/
@@ -1294,6 +1292,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: ScrambleScore
             desc: Mobile web application that allows golfers participating in scramble golf
               tournaments to record their scores and monitor the tournament
@@ -1304,8 +1304,6 @@ _embedded:
             _links:
               self:
                 href: /projects/scramble-score/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/css/
                 - href: /languages/html/
@@ -1317,6 +1315,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/rdi/
           - title: Energy Efficiency Map
             desc: Web application that allows the Alaska Energy Authority to monitor and
               administer data from their statewide energy saving programs.
@@ -1326,8 +1326,6 @@ _embedded:
             _links:
               self:
                 href: /projects/energy-efficiency-map/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/css/
@@ -1339,6 +1337,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: Simpler
             desc: Library that provides a simpler approach to C# class design.
             role: Author
@@ -1350,8 +1350,6 @@ _embedded:
               code:
                 title: github.com/gregoryjscott/Simpler
                 href: https://github.com/gregoryjscott/Simpler
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/cs/
                 - href: /languages/rb/
@@ -1359,6 +1357,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
           - title: Quality Bank
             subtitle: Invoicing $1 Billion/Month for Oil Pipeline
             desc: Web application that manages the workflow, pricing data, sampling data,
@@ -1369,8 +1369,6 @@ _embedded:
             _links:
               self:
                 href: /projects/qb/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/css/
@@ -1384,6 +1382,8 @@ _embedded:
                 - href: /tools/backbone/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: MvcIntegrationTestFramework
             desc: Framework that can be used to perform integration tests on a ASP.NET MVC
               application.
@@ -1396,12 +1396,12 @@ _embedded:
               code:
                 title: github.com/gregoryjscott/MvcIntegrationTestFramework
                 href: https://github.com/gregoryjscott/MvcIntegrationTestFramework
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/cs/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/freelance/
           - title: Service Order Mobile Dispatch
             desc: Mobile web application that allows Anchorage Water & Wastewater Utility
               service workers to query and record service information while in
@@ -1412,8 +1412,6 @@ _embedded:
             _links:
               self:
                 href: /projects/somd/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/css/
@@ -1425,6 +1423,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: Consumption Views
             desc: Set of database views that provides water consumption information that
               feed into reporting tools used by AWWU to make business decisions.
@@ -1434,8 +1434,6 @@ _embedded:
             _links:
               self:
                 href: /projects/consumption-views/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/plsql/
                 - href: /languages/sql/
@@ -1443,6 +1441,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: Lasar Range Finder
             desc: Software that records output from a handheld lasar range finder and
               combines it with records from a GPS unit which allows field
@@ -1454,14 +1454,14 @@ _embedded:
             _links:
               self:
                 href: /projects/lasar-range-finder/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
               db:
                 - href: /db/access/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: Database Synchronization (AWWU)
             desc: null
             role: Lead Developer
@@ -1470,8 +1470,6 @@ _embedded:
             _links:
               self:
                 href: /projects/database-sync-awwu/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/plsql/
@@ -1480,6 +1478,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: Bit Proposal
             desc: null
             role: Lead Developer
@@ -1488,12 +1488,12 @@ _embedded:
             _links:
               self:
                 href: /projects/bit-proposal/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: AWWU Intranet
             desc: Web application that contains AWWU's reporting and querying tools, systems
               status, and custom applications.
@@ -1503,8 +1503,6 @@ _embedded:
             _links:
               self:
                 href: /projects/awwu-intranet/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/css/
@@ -1516,6 +1514,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: TrainBuilder
             desc: Windows Presentation Framework (WPF) application used by the Alaska
               Railroad to plan and schedule structure of their trains.
@@ -1525,8 +1525,6 @@ _embedded:
             _links:
               self:
                 href: /projects/train-builder/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/sql/
@@ -1534,6 +1532,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: SAR Reports
             desc: null
             role: Lead Developer
@@ -1542,8 +1542,6 @@ _embedded:
             _links:
               self:
                 href: /projects/sar-reports/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/sql/
@@ -1551,6 +1549,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: FLIR Monitoring System
             desc: Software that reads the output from a FLIR laser mounted on a single
               engine plane used to fly over the Alaska North Slope and record
@@ -1561,14 +1561,14 @@ _embedded:
             _links:
               self:
                 href: /projects/flir-monitoring/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
               db:
                 - href: /db/access/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: CIS Data Capture
             desc: Console application that captures monthly snapshots of AWWU's customer
               information system (CIS) data and loads it into a data warehouse.
@@ -1578,8 +1578,6 @@ _embedded:
             _links:
               self:
                 href: /projects/cis-data-capture/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/sql/
@@ -1587,6 +1585,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: AWWU Systems Integration
             desc: null
             role: Technical Lead
@@ -1595,8 +1595,6 @@ _embedded:
             _links:
               self:
                 href: /projects/awwu-systems-integration/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/plsql/
@@ -1605,6 +1603,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: AWWU Job Scheduler
             desc: Framework for creating background processing jobs that migrate,
               synchronize, and transform data throughout AWWU's integrated
@@ -1615,14 +1615,14 @@ _embedded:
             _links:
               self:
                 href: /projects/awwu-job-scheduler/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
               db:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: Report Engine
             desc: C# library for producing HTML reports based on database queries.
             role: Lead Developer
@@ -1631,12 +1631,12 @@ _embedded:
             _links:
               self:
                 href: /projects/report-engine/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: Employees Suggestion
             desc: Oracle Forms application that allows AWWU employees to submit suggestions
               for improving the AWWU workplace.
@@ -1646,8 +1646,6 @@ _embedded:
             _links:
               self:
                 href: /projects/employee-suggestions/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/plsql/
                 - href: /languages/sql/
@@ -1655,6 +1653,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: SIF Agent
             subtitle: Integrating Schools with State of Oklahoma
             desc: Schools Interoperability Framework (SIF) compliant agent that allows the
@@ -1666,8 +1666,6 @@ _embedded:
             _links:
               self:
                 href: /projects/sif-agent/
-              jobs:
-                - href: /jobs/mas/
               languages:
                 - href: /languages/cs/
                 - href: /languages/sql/
@@ -1675,6 +1673,8 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/mas/
           - title: Wen-GAGE Student Information
             desc: Desktop application that is used by schools in Oklahoma to manage their
               student information such as enrollment, attendance, and grades.
@@ -1684,8 +1684,6 @@ _embedded:
             _links:
               self:
                 href: /projects/wengage-si/
-              jobs:
-                - href: /jobs/mas/
               languages:
                 - href: /languages/delphi/
                 - href: /languages/sql/
@@ -1695,6 +1693,8 @@ _embedded:
               os:
                 - href: /os/windows/
                 - href: /os/netware/
+              jobs:
+                - href: /jobs/mas/
           - title: Wen-GAGE Accounting
             desc: Desktop application that is used by schools in Oklahoma to manage all
               their school accounting responsibilites.
@@ -1704,8 +1704,6 @@ _embedded:
             _links:
               self:
                 href: /projects/wengage-acct/
-              jobs:
-                - href: /jobs/mas/
               languages:
                 - href: /languages/delphi/
                 - href: /languages/sql/
@@ -1715,6 +1713,8 @@ _embedded:
               os:
                 - href: /os/windows/
                 - href: /os/netware/
+              jobs:
+                - href: /jobs/mas/
           - title: Class Scheduler
             desc: Process that takes student course requests along with the available
               courses, sections, and teachers and builds the class schedule.
@@ -1724,8 +1724,6 @@ _embedded:
             _links:
               self:
                 href: /projects/class-scheduler/
-              jobs:
-                - href: /jobs/mas/
               languages:
                 - href: /languages/delphi/
               db:
@@ -1734,6 +1732,8 @@ _embedded:
               os:
                 - href: /os/windows/
                 - href: /os/netware/
+              jobs:
+                - href: /jobs/mas/
         jobs:
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -1971,8 +1971,6 @@ _embedded:
             _links:
               self:
                 href: /projects/wengage-si/
-              jobs:
-                - href: /jobs/mas/
               languages:
                 - href: /languages/delphi/
                 - href: /languages/sql/
@@ -1982,6 +1980,8 @@ _embedded:
               os:
                 - href: /os/windows/
                 - href: /os/netware/
+              jobs:
+                - href: /jobs/mas/
           - title: Wen-GAGE Accounting
             desc: Desktop application that is used by schools in Oklahoma to manage all
               their school accounting responsibilites.
@@ -1991,8 +1991,6 @@ _embedded:
             _links:
               self:
                 href: /projects/wengage-acct/
-              jobs:
-                - href: /jobs/mas/
               languages:
                 - href: /languages/delphi/
                 - href: /languages/sql/
@@ -2002,6 +2000,8 @@ _embedded:
               os:
                 - href: /os/windows/
                 - href: /os/netware/
+              jobs:
+                - href: /jobs/mas/
           - title: Class Scheduler
             desc: Process that takes student course requests along with the available
               courses, sections, and teachers and builds the class schedule.
@@ -2011,8 +2011,6 @@ _embedded:
             _links:
               self:
                 href: /projects/class-scheduler/
-              jobs:
-                - href: /jobs/mas/
               languages:
                 - href: /languages/delphi/
               db:
@@ -2021,6 +2019,8 @@ _embedded:
               os:
                 - href: /os/windows/
                 - href: /os/netware/
+              jobs:
+                - href: /jobs/mas/
         jobs:
           - title: Municipal Accounting Systems, Inc.
             desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
@@ -2079,12 +2079,12 @@ _embedded:
             _links:
               self:
                 href: /projects/smf-controls-displays/
-              jobs:
-                - href: /jobs/boeing/
               languages:
                 - href: /languages/ada/
               os:
                 - href: /os/solaris/
+              jobs:
+                - href: /jobs/boeing/
           - title: Mission Data Loader
             subtitle: Distributing Mission Data to B-1 Bombers
             desc: Thread responsible for reading the contents of a cartridge containing
@@ -2096,12 +2096,12 @@ _embedded:
             _links:
               self:
                 href: /projects/mission-data-loader/
-              jobs:
-                - href: /jobs/boeing/
               languages:
                 - href: /languages/ada/
               os:
                 - href: /os/solaris/
+              jobs:
+                - href: /jobs/boeing/
           - title: Backup Controls and Displays
             desc: Screens used to emulate hardware such as switch boards and displays in the
               event of their failure.
@@ -2111,12 +2111,12 @@ _embedded:
             _links:
               self:
                 href: /projects/backup-controls-displays/
-              jobs:
-                - href: /jobs/boeing/
               languages:
                 - href: /languages/ada/
               os:
                 - href: /os/solaris/
+              jobs:
+                - href: /jobs/boeing/
         jobs:
           - title: Boeing, Defense & Space Group
             desc: Embedded Software Engineer for Boeing, Defense and Space Group, based in

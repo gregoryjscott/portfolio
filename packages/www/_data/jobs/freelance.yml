@@ -72,8 +72,6 @@ _embedded:
       _links:
         self:
           href: /projects/nuggets/
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/ts/
         db:
@@ -94,6 +92,8 @@ _embedded:
           - href: /os/android/
           - href: /os/ios/
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
     - title: gregoryjscott.com
       desc: My portfolio website that uses Jekyll to create static HTML pages using
         YAML, Markdown, and HAL-based hypermedia.
@@ -106,8 +106,6 @@ _embedded:
         code:
           title: github.com/gregoryjscott/me
           href: https://github.com/gregoryjscott/me
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/css/
           - href: /languages/html/
@@ -119,6 +117,8 @@ _embedded:
         os:
           - href: /os/macos/
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
     - title: hazelandgreg.wedding
       desc: Wedding website for Hazel and Greg
       role: Author
@@ -127,8 +127,6 @@ _embedded:
       _links:
         self:
           href: /projects/la-boda/
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/css/
           - href: /languages/html/
@@ -139,6 +137,8 @@ _embedded:
           - href: /tools/amplify/
         os:
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
     - title: aprender
       desc: CLI for learning Spanish
       role: Author
@@ -150,12 +150,12 @@ _embedded:
         code:
           title: github.com/gregoryjscott/aprender
           href: https://github.com/gregoryjscott/aprender
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/js/
         os:
           - href: /os/macos/
+        jobs:
+          - href: /jobs/freelance/
     - title: fortworthtexas.gov
       desc: Jekyll static site for the City of Fort Worth, Texas.
       role: Technical Lead
@@ -164,8 +164,6 @@ _embedded:
       _links:
         self:
           href: /projects/cfw/
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/rb/
         tools:
@@ -173,6 +171,8 @@ _embedded:
           - href: /tools/jekyll/
         os:
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
     - title: jekyll-prep
       desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
       role: Author
@@ -184,8 +184,6 @@ _embedded:
         code:
           title: github.com/gregoryjscott/jekyll-prep
           href: https://github.com/gregoryjscott/jekyll-prep
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/rb/
         tools:
@@ -193,6 +191,8 @@ _embedded:
         os:
           - href: /os/macos/
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
     - title: jekyll-load
       desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
       role: Author
@@ -204,8 +204,6 @@ _embedded:
         code:
           title: github.com/gregoryjscott/jekyll-load
           href: https://github.com/gregoryjscott/jekyll-load
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/rb/
         tools:
@@ -213,6 +211,8 @@ _embedded:
         os:
           - href: /os/macos/
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
     - title: jekyll-embed
       desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
         frontmatter
@@ -225,8 +225,6 @@ _embedded:
         code:
           title: github.com/gregoryjscott/jekyll-embed
           href: https://github.com/gregoryjscott/jekyll-embed
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/rb/
         tools:
@@ -235,6 +233,8 @@ _embedded:
         os:
           - href: /os/macos/
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
     - title: jekyll-api
       desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
       role: Author
@@ -246,8 +246,6 @@ _embedded:
         code:
           title: github.com/gregoryjscott/jekyll-api
           href: https://github.com/gregoryjscott/jekyll-api
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/rb/
         tools:
@@ -255,6 +253,8 @@ _embedded:
         os:
           - href: /os/macos/
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
     - title: Denver Schedules API
       desc: JSON API that provides access to Denver activities that impact the
         residents of Denver.
@@ -267,8 +267,6 @@ _embedded:
         code:
           title: github.com/codeforamerica/denver-schedules-api
           href: https://github.com/codeforamerica/denver-schedules-api
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/cs/
           - href: /languages/rb/
@@ -279,6 +277,8 @@ _embedded:
           - href: /os/windows/
           - href: /os/macos/
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
     - title: Simpler
       desc: Library that provides a simpler approach to C# class design.
       role: Author
@@ -290,8 +290,6 @@ _embedded:
         code:
           title: github.com/gregoryjscott/Simpler
           href: https://github.com/gregoryjscott/Simpler
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/cs/
           - href: /languages/rb/
@@ -299,6 +297,8 @@ _embedded:
           - href: /os/windows/
           - href: /os/macos/
           - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
     - title: MvcIntegrationTestFramework
       desc: Framework that can be used to perform integration tests on a ASP.NET MVC
         application.
@@ -311,12 +311,12 @@ _embedded:
         code:
           title: github.com/gregoryjscott/MvcIntegrationTestFramework
           href: https://github.com/gregoryjscott/MvcIntegrationTestFramework
-        jobs:
-          - href: /jobs/freelance/
         languages:
           - href: /languages/cs/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/freelance/
   languages:
     - title: Typescript
       desc: Typescript is a typed superset of JavaScript that compiles to plain

@@ -8,8 +8,6 @@ end_year: 2021
 _links:
   self:
     href: /projects/epicloud/
-  jobs:
-    - href: /jobs/fe/
   languages:
     - href: /languages/ts/
   db:
@@ -33,4 +31,6 @@ _links:
     - href: /tools/sikulix/
   os:
     - href: /os/linux/
+  jobs:
+    - href: /jobs/fe/
 ---

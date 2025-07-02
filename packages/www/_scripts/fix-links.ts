@@ -2,13 +2,13 @@ import * as matter from "gray-matter"
 import { sortBy, uniqBy } from "lodash"
 import { writeMarkdown } from "./util"
 import {
-  Resource,
   findResource,
   findRelationLinks,
   findRelations,
   getResources,
   resourceDirectories,
 } from "./get-resources"
+import { Resource } from "./types"
 
 const resources: Resource[] = getResources()
 const nonIndexResources = resources.filter(r => !r.isIndex)
@@ -34,19 +34,19 @@ function fixSelfLinks() {
       continue
     }
 
-    resource.sourceMarkdown.data._links.self = { href: resource.href }
+    resource.source.markdown.frontmatter._links.self = { href: resource.href }
     writeMarkdown(
-      resource.sourceMarkdown.path,
-      resource.sourceMarkdown.content,
-      resource.sourceMarkdown.data
+      resource.source.path,
+      resource.source.markdown.content,
+      resource.source.markdown.frontmatter
     )
   }
 }
 
 function fixBackLinks() {
   for (const targetResource of targetResources) {
-    targetResource.sourceMarkdown.data._links = {
-      self: targetResource.sourceMarkdown.data._links.self,
+    targetResource.source.markdown.frontmatter._links = {
+      self: targetResource.source.markdown.frontmatter._links.self,
     }
   }
 
@@ -64,7 +64,7 @@ function fixBackLinks() {
         const linkedResourceProjectLinks = [].concat(
           findRelationLinks(linkedResource, "projects")
         )
-        linkedResource.sourceMarkdown.data._links["projects"] = sortBy(
+        linkedResource.source.markdown.frontmatter._links["projects"] = sortBy(
           [...linkedResourceProjectLinks, { href: project.href }],
           l => l.href
         )
@@ -74,7 +74,7 @@ function fixBackLinks() {
           const linkedResourceJobLinks = [].concat(
             findRelationLinks(linkedResource, "jobs")
           )
-          linkedResource.sourceMarkdown.data._links["jobs"] = sortBy(
+          linkedResource.source.markdown.frontmatter._links["jobs"] = sortBy(
             uniqBy(
               [...linkedResourceJobLinks, ...projectJobLinks],
               l => l.href
@@ -97,7 +97,7 @@ function fixBackLinks() {
         const linkedResourceSchoolLinks = [].concat(
           findRelationLinks(linkedResource, "schools")
         )
-        linkedResource.sourceMarkdown.data._links["schools"] = sortBy(
+        linkedResource.source.markdown.frontmatter._links["schools"] = sortBy(
           [...linkedResourceSchoolLinks, { href: school.href }],
           l => l.href
         )
@@ -110,14 +110,14 @@ function fixBackLinks() {
     for (const projectLink of projectLinks) {
       const project = findResource(projectLink, projects)
       const projectRelations = findRelations(project).filter(
-        pr => pr !== "jobs" // TODO - aka skills
+        pr => pr !== "jobs"
       )
       for (const relation of projectRelations) {
         const projectRelationLinks = [].concat(
           findRelationLinks(project, relation)
         )
         const jobRelationLinks = [].concat(findRelationLinks(job, relation))
-        job.sourceMarkdown.data._links[relation] = sortBy(
+        job.source.markdown.frontmatter._links[relation] = sortBy(
           uniqBy([...jobRelationLinks, ...projectRelationLinks], l => l.href),
           l => l.href
         )
@@ -128,9 +128,9 @@ function fixBackLinks() {
   for (const resource of nonIndexResources) {
     sortRelations(resource)
     writeMarkdown(
-      resource.sourceMarkdown.path,
-      resource.sourceMarkdown.content,
-      resource.sourceMarkdown.data
+      resource.source.path,
+      resource.source.markdown.content,
+      resource.source.markdown.frontmatter
     )
   }
 }
@@ -144,7 +144,7 @@ function fixIndexLinks() {
     const filePath = `${directory}/index.md`
     const { content, data } = matter.read(filePath)
     data._links[directory] = directoryResources.map(
-      r => r.sourceMarkdown.data._links.self
+      r => r.source.markdown.frontmatter._links.self
     )
     writeMarkdown({ directory, name: "index" }, content, data)
   }
@@ -152,9 +152,9 @@ function fixIndexLinks() {
 
 function sortRelations(resource: Resource) {
   const order = ["self", "code", ...resourceDirectories]
-  resource.sourceMarkdown.data._links = {
+  resource.source.markdown.frontmatter._links = {
     ...Object.fromEntries(
-      Object.entries(resource.sourceMarkdown.data._links).sort(
+      Object.entries(resource.source.markdown.frontmatter._links).sort(
         ([keyA], [keyB]) => {
           const indexA = order.indexOf(keyA)
           const indexB = order.indexOf(keyB)

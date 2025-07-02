@@ -54,14 +54,14 @@ _embedded:
       _links:
         self:
           href: /projects/epic-ca-enrollment/
-        jobs:
-          - href: /jobs/fe/
         languages:
           - href: /languages/php/
         db:
           - href: /db/firebase/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/fe/
     - title: EpiCloud
       subtitle: Infinitely Scaling Bots on AWS
       desc: null
@@ -71,8 +71,6 @@ _embedded:
       _links:
         self:
           href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
         languages:
           - href: /languages/ts/
         db:
@@ -96,6 +94,8 @@ _embedded:
           - href: /tools/sikulix/
         os:
           - href: /os/linux/
+        jobs:
+          - href: /jobs/fe/
   languages:
     - title: Typescript
       desc: Typescript is a typed superset of JavaScript that compiles to plain

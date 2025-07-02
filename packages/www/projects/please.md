@@ -10,8 +10,6 @@ _links:
   code:
     title: github.com/ResourceDataInc/please
     href: "https://github.com/ResourceDataInc/please"
-  jobs:
-    - href: /jobs/rdi/
   languages:
     - href: /languages/cs/
     - href: /languages/rb/
@@ -20,4 +18,6 @@ _links:
     - href: /db/sqlite/
   os:
     - href: /os/windows/
+  jobs:
+    - href: /jobs/rdi/
 ---

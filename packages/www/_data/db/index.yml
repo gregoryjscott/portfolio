@@ -49,8 +49,6 @@ _embedded:
             _links:
               self:
                 href: /projects/nuggets/
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/ts/
               db:
@@ -71,6 +69,8 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
           - title: hazelandgreg.wedding
             desc: Wedding website for Hazel and Greg
             role: Author
@@ -79,8 +79,6 @@ _embedded:
             _links:
               self:
                 href: /projects/la-boda/
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/css/
                 - href: /languages/html/
@@ -91,6 +89,8 @@ _embedded:
                 - href: /tools/amplify/
               os:
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
           - title: EpiCloud
             subtitle: Infinitely Scaling Bots on AWS
             desc: null
@@ -100,8 +100,6 @@ _embedded:
             _links:
               self:
                 href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
               languages:
                 - href: /languages/ts/
               db:
@@ -125,6 +123,8 @@ _embedded:
                 - href: /tools/sikulix/
               os:
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/fe/
         jobs:
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -252,14 +252,14 @@ _embedded:
             _links:
               self:
                 href: /projects/epic-ca-enrollment/
-              jobs:
-                - href: /jobs/fe/
               languages:
                 - href: /languages/php/
               db:
                 - href: /db/firebase/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/fe/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -329,8 +329,6 @@ _embedded:
             _links:
               self:
                 href: /projects/epicloud/
-              jobs:
-                - href: /jobs/fe/
               languages:
                 - href: /languages/ts/
               db:
@@ -354,6 +352,8 @@ _embedded:
                 - href: /tools/sikulix/
               os:
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/fe/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
@@ -425,8 +425,6 @@ _embedded:
               code:
                 title: github.com/ResourceDataInc/please
                 href: https://github.com/ResourceDataInc/please
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/rb/
@@ -435,6 +433,8 @@ _embedded:
                 - href: /db/sqlite/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -529,8 +529,6 @@ _embedded:
               code:
                 title: github.com/codeforamerica/denver-schedules-api
                 href: https://github.com/codeforamerica/denver-schedules-api
-              jobs:
-                - href: /jobs/freelance/
               languages:
                 - href: /languages/cs/
                 - href: /languages/rb/
@@ -541,6 +539,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
           - title: ScrambleScore
             desc: Mobile web application that allows golfers participating in scramble golf
               tournaments to record their scores and monitor the tournament
@@ -551,8 +551,6 @@ _embedded:
             _links:
               self:
                 href: /projects/scramble-score/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/css/
                 - href: /languages/html/
@@ -564,6 +562,8 @@ _embedded:
                 - href: /os/windows/
                 - href: /os/macos/
                 - href: /os/linux/
+              jobs:
+                - href: /jobs/rdi/
         jobs:
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -711,8 +711,6 @@ _embedded:
             _links:
               self:
                 href: /projects/agdc/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/css/
@@ -726,6 +724,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: Systems Portal
             desc: Web application for tracking data used by systems administrators.
             role: Technical Lead
@@ -734,8 +734,6 @@ _embedded:
             _links:
               self:
                 href: /projects/systems-portal/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/css/
@@ -747,6 +745,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: AHFC Integration
             desc: Alaska Housing Finance Corporation Integration
             role: Technical Lead
@@ -755,8 +755,6 @@ _embedded:
             _links:
               self:
                 href: /projects/ahfc-integration/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/sql/
                 - href: /languages/tsql/
@@ -764,6 +762,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: Scrum Tools
             desc: null
             role: Technical Lead
@@ -772,8 +772,6 @@ _embedded:
             _links:
               self:
                 href: /projects/scrum-tools/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/css/
@@ -785,6 +783,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: Energy Efficiency Map
             desc: Web application that allows the Alaska Energy Authority to monitor and
               administer data from their statewide energy saving programs.
@@ -794,8 +794,6 @@ _embedded:
             _links:
               self:
                 href: /projects/energy-efficiency-map/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/css/
@@ -807,6 +805,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: Quality Bank
             subtitle: Invoicing $1 Billion/Month for Oil Pipeline
             desc: Web application that manages the workflow, pricing data, sampling data,
@@ -817,8 +817,6 @@ _embedded:
             _links:
               self:
                 href: /projects/qb/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/css/
@@ -832,6 +830,8 @@ _embedded:
                 - href: /tools/backbone/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: TrainBuilder
             desc: Windows Presentation Framework (WPF) application used by the Alaska
               Railroad to plan and schedule structure of their trains.
@@ -841,8 +841,6 @@ _embedded:
             _links:
               self:
                 href: /projects/train-builder/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/sql/
@@ -850,6 +848,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -947,8 +947,6 @@ _embedded:
             _links:
               self:
                 href: /projects/somd/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/css/
@@ -960,6 +958,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: Consumption Views
             desc: Set of database views that provides water consumption information that
               feed into reporting tools used by AWWU to make business decisions.
@@ -969,8 +969,6 @@ _embedded:
             _links:
               self:
                 href: /projects/consumption-views/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/plsql/
                 - href: /languages/sql/
@@ -978,6 +976,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: Database Synchronization (AWWU)
             desc: null
             role: Lead Developer
@@ -986,8 +986,6 @@ _embedded:
             _links:
               self:
                 href: /projects/database-sync-awwu/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/plsql/
@@ -996,6 +994,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: AWWU Intranet
             desc: Web application that contains AWWU's reporting and querying tools, systems
               status, and custom applications.
@@ -1005,8 +1005,6 @@ _embedded:
             _links:
               self:
                 href: /projects/awwu-intranet/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/css/
@@ -1018,6 +1016,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: SAR Reports
             desc: null
             role: Lead Developer
@@ -1026,8 +1026,6 @@ _embedded:
             _links:
               self:
                 href: /projects/sar-reports/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/sql/
@@ -1035,6 +1033,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: CIS Data Capture
             desc: Console application that captures monthly snapshots of AWWU's customer
               information system (CIS) data and loads it into a data warehouse.
@@ -1044,8 +1044,6 @@ _embedded:
             _links:
               self:
                 href: /projects/cis-data-capture/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/sql/
@@ -1053,6 +1051,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: AWWU Systems Integration
             desc: null
             role: Technical Lead
@@ -1061,8 +1061,6 @@ _embedded:
             _links:
               self:
                 href: /projects/awwu-systems-integration/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
                 - href: /languages/plsql/
@@ -1071,6 +1069,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: AWWU Job Scheduler
             desc: Framework for creating background processing jobs that migrate,
               synchronize, and transform data throughout AWWU's integrated
@@ -1081,14 +1081,14 @@ _embedded:
             _links:
               self:
                 href: /projects/awwu-job-scheduler/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
               db:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: Employees Suggestion
             desc: Oracle Forms application that allows AWWU employees to submit suggestions
               for improving the AWWU workplace.
@@ -1098,8 +1098,6 @@ _embedded:
             _links:
               self:
                 href: /projects/employee-suggestions/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/plsql/
                 - href: /languages/sql/
@@ -1107,6 +1105,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -1195,14 +1195,14 @@ _embedded:
             _links:
               self:
                 href: /projects/lasar-range-finder/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
               db:
                 - href: /db/access/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: FLIR Monitoring System
             desc: Software that reads the output from a FLIR laser mounted on a single
               engine plane used to fly over the Alaska North Slope and record
@@ -1213,14 +1213,14 @@ _embedded:
             _links:
               self:
                 href: /projects/flir-monitoring/
-              jobs:
-                - href: /jobs/rdi/
               languages:
                 - href: /languages/cs/
               db:
                 - href: /db/access/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -1314,8 +1314,6 @@ _embedded:
             _links:
               self:
                 href: /projects/sif-agent/
-              jobs:
-                - href: /jobs/mas/
               languages:
                 - href: /languages/cs/
                 - href: /languages/sql/
@@ -1323,6 +1321,8 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/mas/
           - title: Wen-GAGE Student Information
             desc: Desktop application that is used by schools in Oklahoma to manage their
               student information such as enrollment, attendance, and grades.
@@ -1332,8 +1332,6 @@ _embedded:
             _links:
               self:
                 href: /projects/wengage-si/
-              jobs:
-                - href: /jobs/mas/
               languages:
                 - href: /languages/delphi/
                 - href: /languages/sql/
@@ -1343,6 +1341,8 @@ _embedded:
               os:
                 - href: /os/windows/
                 - href: /os/netware/
+              jobs:
+                - href: /jobs/mas/
           - title: Wen-GAGE Accounting
             desc: Desktop application that is used by schools in Oklahoma to manage all
               their school accounting responsibilites.
@@ -1352,8 +1352,6 @@ _embedded:
             _links:
               self:
                 href: /projects/wengage-acct/
-              jobs:
-                - href: /jobs/mas/
               languages:
                 - href: /languages/delphi/
                 - href: /languages/sql/
@@ -1363,6 +1361,8 @@ _embedded:
               os:
                 - href: /os/windows/
                 - href: /os/netware/
+              jobs:
+                - href: /jobs/mas/
           - title: Class Scheduler
             desc: Process that takes student course requests along with the available
               courses, sections, and teachers and builds the class schedule.
@@ -1372,8 +1372,6 @@ _embedded:
             _links:
               self:
                 href: /projects/class-scheduler/
-              jobs:
-                - href: /jobs/mas/
               languages:
                 - href: /languages/delphi/
               db:
@@ -1382,6 +1380,8 @@ _embedded:
               os:
                 - href: /os/windows/
                 - href: /os/netware/
+              jobs:
+                - href: /jobs/mas/
         jobs:
           - title: Municipal Accounting Systems, Inc.
             desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
@@ -1441,8 +1441,6 @@ _embedded:
             _links:
               self:
                 href: /projects/wengage-si/
-              jobs:
-                - href: /jobs/mas/
               languages:
                 - href: /languages/delphi/
                 - href: /languages/sql/
@@ -1452,6 +1450,8 @@ _embedded:
               os:
                 - href: /os/windows/
                 - href: /os/netware/
+              jobs:
+                - href: /jobs/mas/
           - title: Wen-GAGE Accounting
             desc: Desktop application that is used by schools in Oklahoma to manage all
               their school accounting responsibilites.
@@ -1461,8 +1461,6 @@ _embedded:
             _links:
               self:
                 href: /projects/wengage-acct/
-              jobs:
-                - href: /jobs/mas/
               languages:
                 - href: /languages/delphi/
                 - href: /languages/sql/
@@ -1472,6 +1470,8 @@ _embedded:
               os:
                 - href: /os/windows/
                 - href: /os/netware/
+              jobs:
+                - href: /jobs/mas/
           - title: Class Scheduler
             desc: Process that takes student course requests along with the available
               courses, sections, and teachers and builds the class schedule.
@@ -1481,8 +1481,6 @@ _embedded:
             _links:
               self:
                 href: /projects/class-scheduler/
-              jobs:
-                - href: /jobs/mas/
               languages:
                 - href: /languages/delphi/
               db:
@@ -1491,6 +1489,8 @@ _embedded:
               os:
                 - href: /os/windows/
                 - href: /os/netware/
+              jobs:
+                - href: /jobs/mas/
         jobs:
           - title: Municipal Accounting Systems, Inc.
             desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
