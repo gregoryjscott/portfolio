@@ -1,8 +1,7 @@
 {% capture year_range -%}
   {{ include.resource.begin_year }}
   {%- unless include.resource.begin_year == include.resource.end_year -%}
-    &nbsp;–&nbsp;
-    {{ include.resource.end_year }}
+    &nbsp;–&nbsp;{{ include.resource.end_year }}
   {%- endunless -%}
 {%- endcapture %}
 
