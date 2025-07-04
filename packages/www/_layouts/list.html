@@ -20,5 +20,5 @@ layout: default
 {% endif %}
 
 {% for item in page._embedded[list_resource_key] %}
-  {% include summary.html resource=item heading_level=2 %}
+  {% include list-item.html resource=item %}
 {% endfor %}

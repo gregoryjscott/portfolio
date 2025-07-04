@@ -12,8 +12,8 @@ desc: >-
   other Firebase services (Cloud Functions, Analytics, etc.), the Realtime
   Database simplifies the creation of responsive, data-driven apps without the
   need to manage your own backend.
-begin_year: 2017
-end_year: 2021
+used_begin_year: 2017
+used_end_year: 2021
 _links:
   self:
     href: /db/firebase/

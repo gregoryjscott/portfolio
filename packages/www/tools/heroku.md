@@ -11,8 +11,8 @@ desc: >-
   (databases, caching, monitoring, logging, etc.), a web-based dashboard and a
   command-line interface, allowing teams to iterate quickly without managing
   underlying infrastructure.
-begin_year: 2015
-end_year: 2016
+used_begin_year: 2015
+used_end_year: 2016
 _links:
   self:
     href: /tools/heroku/

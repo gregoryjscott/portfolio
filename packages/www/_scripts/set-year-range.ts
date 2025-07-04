@@ -55,8 +55,8 @@ function setYearRange() {
     const { _links, ...rest } = skill.source.markdown.frontmatter
     const data = {
       ...rest,
-      begin_year: minYear,
-      end_year: maxYear === 9999 ? "present" : maxYear,
+      used_begin_year: minYear,
+      used_end_year: maxYear === 9999 ? "present" : maxYear,
       _links,
     }
 

@@ -28,8 +28,8 @@ _embedded:
         blocks, which allow for the creation of concise and powerful code. Ruby
         is also popular for its use of metaprogramming, which allows for the
         dynamic creation of code at runtime.
-      begin_year: 2010
-      end_year: present
+      used_begin_year: 2010
+      used_end_year: present
       _links:
         self:
           href: /languages/rb/
@@ -60,8 +60,8 @@ _embedded:
         produces only static pages—no databases or server-side processing—it
         delivers fast, secure sites that are easy to host (notably on GitHub
         Pages) and maintain via version control.
-      begin_year: 2014
-      end_year: present
+      used_begin_year: 2014
+      used_end_year: present
       _links:
         self:
           href: /tools/jekyll/
@@ -75,36 +75,6 @@ _embedded:
         jobs:
           - href: /jobs/freelance/
   os:
-    - title: macOS
-      desc: macOS is Apple’s Unix‐based desktop operating system, first released in
-        2001 as Mac OS X and built on the open‐source Darwin core and the
-        proprietary XNU kernel. Designed exclusively for Mac computers, it
-        combines a polished Aqua graphical interface with deep integration of
-        hardware and software, offering features like Spotlight search, Time
-        Machine backups, and Continuity for seamless work across Apple devices.
-        With strong emphasis on stability, security and performance, macOS
-        supports a rich ecosystem of native and third-party applications via the
-        Mac App Store and developer tools such as Xcode, making it a popular
-        choice for both creative professionals and everyday users.
-      begin_year: 2010
-      end_year: present
-      _links:
-        self:
-          href: /os/macos/
-        projects:
-          - href: /projects/aprender/
-          - href: /projects/centroid/
-          - href: /projects/denver-schedules-api/
-          - href: /projects/jekyll-api/
-          - href: /projects/jekyll-embed/
-          - href: /projects/jekyll-load/
-          - href: /projects/jekyll-prep/
-          - href: /projects/scramble-score/
-          - href: /projects/simpler/
-          - href: /projects/this-site/
-        jobs:
-          - href: /jobs/freelance/
-          - href: /jobs/rdi/
     - title: Linux
       desc: Linux is an open-source operating system that is based on the Linux
         kernel. It is a free and powerful operating system that is used in many
@@ -112,8 +82,8 @@ _embedded:
         supercomputers. It is highly customizable and can be used for a variety
         of tasks, from web hosting to software development. It is also highly
         secure and reliable, making it a popular choice for many users.
-      begin_year: 2010
-      end_year: present
+      used_begin_year: 2010
+      used_end_year: present
       _links:
         self:
           href: /os/linux/
@@ -133,6 +103,36 @@ _embedded:
           - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
+          - href: /jobs/rdi/
+    - title: macOS
+      desc: macOS is Apple’s Unix‐based desktop operating system, first released in
+        2001 as Mac OS X and built on the open‐source Darwin core and the
+        proprietary XNU kernel. Designed exclusively for Mac computers, it
+        combines a polished Aqua graphical interface with deep integration of
+        hardware and software, offering features like Spotlight search, Time
+        Machine backups, and Continuity for seamless work across Apple devices.
+        With strong emphasis on stability, security and performance, macOS
+        supports a rich ecosystem of native and third-party applications via the
+        Mac App Store and developer tools such as Xcode, making it a popular
+        choice for both creative professionals and everyday users.
+      used_begin_year: 2010
+      used_end_year: present
+      _links:
+        self:
+          href: /os/macos/
+        projects:
+          - href: /projects/aprender/
+          - href: /projects/centroid/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/scramble-score/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+        jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
   jobs:

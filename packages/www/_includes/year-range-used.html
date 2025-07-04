@@ -1,0 +1,10 @@
+{% capture year_range_used -%}
+  {{ include.resource.used_begin_year }}
+  {%- unless include.resource.used_begin_year == include.resource.used_end_year -%}
+    &nbsp;–&nbsp;{{ include.resource.used_end_year }}
+  {%- endunless -%}
+{%- endcapture %}
+
+<p>
+  <em>{{ year_range_used | strip }}</em>
+</p>

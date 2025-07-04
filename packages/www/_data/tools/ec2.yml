@@ -5,8 +5,8 @@ desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
   servers, called “instances”, which can be configured to their specific needs.
   EC2 also provides users with the ability to scale their computing resources up
   or down as needed, allowing them to pay only for the resources they use.
-begin_year: 2015
-end_year: present
+used_begin_year: 2015
+used_end_year: present
 _links:
   self:
     href: /tools/ec2/

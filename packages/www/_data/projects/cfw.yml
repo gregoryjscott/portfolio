@@ -25,8 +25,8 @@ _embedded:
         blocks, which allow for the creation of concise and powerful code. Ruby
         is also popular for its use of metaprogramming, which allows for the
         dynamic creation of code at runtime.
-      begin_year: 2010
-      end_year: present
+      used_begin_year: 2010
+      used_end_year: present
       _links:
         self:
           href: /languages/rb/
@@ -47,30 +47,6 @@ _embedded:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
   tools:
-    - title: Jekyll
-      desc: Jekyll is an open-source, Ruby-based static site generator that transforms
-        plain-text content (written in Markdown, Textile or HTML) and
-        Liquid-templated layouts into a complete, static website. By using
-        simple “front matter” at the top of each page or post to define metadata
-        (like title, date and categories), Jekyll assembles content with shared
-        layouts, includes and assets into fully rendered HTML files. Because it
-        produces only static pages—no databases or server-side processing—it
-        delivers fast, secure sites that are easy to host (notably on GitHub
-        Pages) and maintain via version control.
-      begin_year: 2014
-      end_year: present
-      _links:
-        self:
-          href: /tools/jekyll/
-        projects:
-          - href: /projects/cfw/
-          - href: /projects/jekyll-api/
-          - href: /projects/jekyll-embed/
-          - href: /projects/jekyll-load/
-          - href: /projects/jekyll-prep/
-          - href: /projects/this-site/
-        jobs:
-          - href: /jobs/freelance/
     - title: Heroku
       desc: Heroku is a cloud-based Platform as a Service (PaaS) that simplifies the
         deployment, management and scaling of modern web applications.
@@ -83,13 +59,37 @@ _embedded:
         logging, etc.), a web-based dashboard and a command-line interface,
         allowing teams to iterate quickly without managing underlying
         infrastructure.
-      begin_year: 2015
-      end_year: 2016
+      used_begin_year: 2015
+      used_end_year: 2016
       _links:
         self:
           href: /tools/heroku/
         projects:
           - href: /projects/cfw/
+        jobs:
+          - href: /jobs/freelance/
+    - title: Jekyll
+      desc: Jekyll is an open-source, Ruby-based static site generator that transforms
+        plain-text content (written in Markdown, Textile or HTML) and
+        Liquid-templated layouts into a complete, static website. By using
+        simple “front matter” at the top of each page or post to define metadata
+        (like title, date and categories), Jekyll assembles content with shared
+        layouts, includes and assets into fully rendered HTML files. Because it
+        produces only static pages—no databases or server-side processing—it
+        delivers fast, secure sites that are easy to host (notably on GitHub
+        Pages) and maintain via version control.
+      used_begin_year: 2014
+      used_end_year: present
+      _links:
+        self:
+          href: /tools/jekyll/
+        projects:
+          - href: /projects/cfw/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/this-site/
         jobs:
           - href: /jobs/freelance/
   os:
@@ -100,8 +100,8 @@ _embedded:
         supercomputers. It is highly customizable and can be used for a variety
         of tasks, from web hosting to software development. It is also highly
         secure and reliable, making it a popular choice for many users.
-      begin_year: 2010
-      end_year: present
+      used_begin_year: 2010
+      used_end_year: present
       _links:
         self:
           href: /os/linux/

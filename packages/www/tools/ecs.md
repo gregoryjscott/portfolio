@@ -7,8 +7,8 @@ desc: >-
   platform for running Docker containers, allowing users to quickly and easily
   deploy and manage applications in the cloud. ECS also provides features such
   as automated container scaling, service discovery, and resource management.
-begin_year: 2015
-end_year: present
+used_begin_year: 2015
+used_end_year: present
 _links:
   self:
     href: /tools/ecs/

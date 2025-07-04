@@ -40,8 +40,8 @@ _embedded:
         and interfaces that are not available in JavaScript. Typescript is
         designed to make it easier to write and maintain large-scale
         applications.
-      begin_year: 2014
-      end_year: present
+      used_begin_year: 2014
+      used_end_year: present
       _links:
         self:
           href: /languages/ts/
@@ -61,8 +61,8 @@ _embedded:
         reliable performance, and automatic scaling of throughput capacity. It
         also provides encryption at rest, point-in-time recovery, and other
         features to help protect your data.
-      begin_year: 2015
-      end_year: present
+      used_begin_year: 2015
+      used_end_year: present
       _links:
         self:
           href: /db/ddb/
@@ -74,23 +74,121 @@ _embedded:
           - href: /jobs/fe/
           - href: /jobs/freelance/
   tools:
-    - title: XState
-      desc: XState is a JavaScript/TypeScript library for modeling application logic
-        as finite state machines and hierarchical statecharts, enabling
-        developers to define states, transitions, guards, actions, and invoked
-        services declaratively. With built-in support for parallel and history
-        states, runtime interpreters, visualizers, and integrations for React,
-        Vue, Angular, and Node.js, XState delivers predictable, testable, and
-        maintainable state management for complex synchronous and asynchronous
-        workflows.
-      begin_year: 2024
-      end_year: present
+    - title: Amplify
+      desc: AWS Amplify is a comprehensive development platform from Amazon Web
+        Services that enables developers to quickly build, deploy, and manage
+        scalable full-stack web and mobile applications. It provides a set of
+        libraries, UI components and a command-line interface for integrating
+        popular front-end frameworks (React, Angular, Vue, iOS, Android,
+        Flutter) with cloud backends, including authentication, GraphQL and REST
+        APIs, storage, and serverless functions. Amplify Studio offers a visual
+        development environment for designing UI and data models, while built-in
+        hosting, CI/CD and environment management streamline the application
+        lifecycle so teams can focus on features instead of infrastructure.
+      used_begin_year: 2024
+      used_end_year: present
       _links:
         self:
-          href: /tools/xstate/
+          href: /tools/amplify/
         projects:
+          - href: /projects/la-boda/
           - href: /projects/nuggets/
         jobs:
+          - href: /jobs/freelance/
+    - title: EC2
+      desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
+        resizable compute capacity in the cloud. It is designed to make
+        web-scale cloud computing easier for developers. EC2 allows users to
+        launch virtual servers, called “instances”, which can be configured to
+        their specific needs. EC2 also provides users with the ability to scale
+        their computing resources up or down as needed, allowing them to pay
+        only for the resources they use.
+      used_begin_year: 2015
+      used_end_year: present
+      _links:
+        self:
+          href: /tools/ec2/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/freelance/
+    - title: ECR
+      desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
+        container registry that makes it easy to store, manage, and deploy
+        Docker container images. It is secure, highly available, and scales
+        automatically to meet the needs of your applications. ECR integrates
+        with Amazon Elastic Container Service (ECS) and AWS Fargate, simplifying
+        your development to production workflow. It also provides features such
+        as image scanning, lifecycle policies, and IAM authentication.
+      used_begin_year: 2015
+      used_end_year: present
+      _links:
+        self:
+          href: /tools/ecr/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/freelance/
+    - title: ECS
+      desc: Amazon Elastic Container Service (ECS) is a container orchestration
+        service from Amazon Web Services (AWS) that enables users to easily
+        deploy, manage, and scale containerized applications on AWS. It provides
+        a secure and scalable platform for running Docker containers, allowing
+        users to quickly and easily deploy and manage applications in the cloud.
+        ECS also provides features such as automated container scaling, service
+        discovery, and resource management.
+      used_begin_year: 2015
+      used_end_year: present
+      _links:
+        self:
+          href: /tools/ecs/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/freelance/
+    - title: Fargate
+      desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
+        deploy and manage containers without having to manage the underlying
+        infrastructure. It provides a serverless compute engine for containers
+        that eliminates the need to provision, configure, and scale clusters of
+        virtual machines. Fargate also provides a secure and reliable platform
+        for running containers, allowing users to focus on building and running
+        their applications, rather than managing the underlying infrastructure.
+      used_begin_year: 2015
+      used_end_year: present
+      _links:
+        self:
+          href: /tools/fargate/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/freelance/
+    - title: IAM
+      desc: AWS Identity and Access Management (IAM) is a web service that helps you
+        securely control access to AWS resources. With IAM, you can create and
+        manage AWS users and groups, and use permissions to allow and deny their
+        access to AWS resources. IAM also enables you to create and manage
+        security credentials such as access keys, passwords, and multi-factor
+        authentication devices. You can use IAM to manage access to AWS services
+        such as Amazon EC2, Amazon S3, and Amazon RDS.
+      used_begin_year: 2015
+      used_end_year: present
+      _links:
+        self:
+          href: /tools/iam/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
           - href: /jobs/freelance/
     - title: React Native
       desc: React Native is an open-source framework developed by Facebook that
@@ -107,8 +205,8 @@ _embedded:
         platform-specific code. By sharing logic and UI components across
         platforms, React Native significantly reduces development time and
         maintenance overhead compared to traditional native app development.
-      begin_year: 2024
-      end_year: present
+      used_begin_year: 2024
+      used_end_year: present
       _links:
         self:
           href: /tools/react-native/
@@ -116,42 +214,19 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/freelance/
-    - title: Amplify
-      desc: AWS Amplify is a comprehensive development platform from Amazon Web
-        Services that enables developers to quickly build, deploy, and manage
-        scalable full-stack web and mobile applications. It provides a set of
-        libraries, UI components and a command-line interface for integrating
-        popular front-end frameworks (React, Angular, Vue, iOS, Android,
-        Flutter) with cloud backends, including authentication, GraphQL and REST
-        APIs, storage, and serverless functions. Amplify Studio offers a visual
-        development environment for designing UI and data models, while built-in
-        hosting, CI/CD and environment management streamline the application
-        lifecycle so teams can focus on features instead of infrastructure.
-      begin_year: 2024
-      end_year: present
+    - title: S3
+      desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
+        Amazon Web Services (AWS). It provides object storage through a web
+        service interface and is designed to store and retrieve any amount of
+        data from anywhere on the web. It is highly scalable, secure, and
+        durable, and provides features such as data versioning, encryption, and
+        access control. S3 is used by many organizations for storing and backing
+        up data, hosting websites, and streaming media.
+      used_begin_year: 2015
+      used_end_year: present
       _links:
         self:
-          href: /tools/amplify/
-        projects:
-          - href: /projects/la-boda/
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/freelance/
-    - title: VPC
-      desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
-        provides users with a virtual private cloud, allowing them to provision
-        a logically isolated section of the Amazon Web Services (AWS) cloud. It
-        provides users with complete control over their virtual networking
-        environment, including selection of their own IP address range, creation
-        of subnets, and configuration of route tables and network gateways. It
-        also provides users with the ability to securely connect their VPC to
-        their existing IT infrastructure using industry-standard encrypted IPsec
-        VPN connections.
-      begin_year: 2015
-      end_year: present
-      _links:
-        self:
-          href: /tools/vpc/
+          href: /tools/s3/
         projects:
           - href: /projects/epicloud/
           - href: /projects/nuggets/
@@ -168,8 +243,8 @@ _embedded:
         highly-scalable, hosted queue for storing messages as they travel
         between computers. It also provides a simple web services interface that
         can be used to access queues, add, receive, and delete messages.
-      begin_year: 2015
-      end_year: present
+      used_begin_year: 2015
+      used_end_year: present
       _links:
         self:
           href: /tools/sqs/
@@ -179,139 +254,46 @@ _embedded:
         jobs:
           - href: /jobs/fe/
           - href: /jobs/freelance/
-    - title: S3
-      desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
-        Amazon Web Services (AWS). It provides object storage through a web
-        service interface and is designed to store and retrieve any amount of
-        data from anywhere on the web. It is highly scalable, secure, and
-        durable, and provides features such as data versioning, encryption, and
-        access control. S3 is used by many organizations for storing and backing
-        up data, hosting websites, and streaming media.
-      begin_year: 2015
-      end_year: present
+    - title: VPC
+      desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
+        provides users with a virtual private cloud, allowing them to provision
+        a logically isolated section of the Amazon Web Services (AWS) cloud. It
+        provides users with complete control over their virtual networking
+        environment, including selection of their own IP address range, creation
+        of subnets, and configuration of route tables and network gateways. It
+        also provides users with the ability to securely connect their VPC to
+        their existing IT infrastructure using industry-standard encrypted IPsec
+        VPN connections.
+      used_begin_year: 2015
+      used_end_year: present
       _links:
         self:
-          href: /tools/s3/
+          href: /tools/vpc/
         projects:
           - href: /projects/epicloud/
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/freelance/
-    - title: IAM
-      desc: AWS Identity and Access Management (IAM) is a web service that helps you
-        securely control access to AWS resources. With IAM, you can create and
-        manage AWS users and groups, and use permissions to allow and deny their
-        access to AWS resources. IAM also enables you to create and manage
-        security credentials such as access keys, passwords, and multi-factor
-        authentication devices. You can use IAM to manage access to AWS services
-        such as Amazon EC2, Amazon S3, and Amazon RDS.
-      begin_year: 2015
-      end_year: present
+    - title: XState
+      desc: XState is a JavaScript/TypeScript library for modeling application logic
+        as finite state machines and hierarchical statecharts, enabling
+        developers to define states, transitions, guards, actions, and invoked
+        services declaratively. With built-in support for parallel and history
+        states, runtime interpreters, visualizers, and integrations for React,
+        Vue, Angular, and Node.js, XState delivers predictable, testable, and
+        maintainable state management for complex synchronous and asynchronous
+        workflows.
+      used_begin_year: 2024
+      used_end_year: present
       _links:
         self:
-          href: /tools/iam/
+          href: /tools/xstate/
         projects:
-          - href: /projects/epicloud/
           - href: /projects/nuggets/
         jobs:
-          - href: /jobs/fe/
-          - href: /jobs/freelance/
-    - title: Fargate
-      desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
-        deploy and manage containers without having to manage the underlying
-        infrastructure. It provides a serverless compute engine for containers
-        that eliminates the need to provision, configure, and scale clusters of
-        virtual machines. Fargate also provides a secure and reliable platform
-        for running containers, allowing users to focus on building and running
-        their applications, rather than managing the underlying infrastructure.
-      begin_year: 2015
-      end_year: present
-      _links:
-        self:
-          href: /tools/fargate/
-        projects:
-          - href: /projects/epicloud/
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/fe/
-          - href: /jobs/freelance/
-    - title: ECS
-      desc: Amazon Elastic Container Service (ECS) is a container orchestration
-        service from Amazon Web Services (AWS) that enables users to easily
-        deploy, manage, and scale containerized applications on AWS. It provides
-        a secure and scalable platform for running Docker containers, allowing
-        users to quickly and easily deploy and manage applications in the cloud.
-        ECS also provides features such as automated container scaling, service
-        discovery, and resource management.
-      begin_year: 2015
-      end_year: present
-      _links:
-        self:
-          href: /tools/ecs/
-        projects:
-          - href: /projects/epicloud/
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/fe/
-          - href: /jobs/freelance/
-    - title: ECR
-      desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
-        container registry that makes it easy to store, manage, and deploy
-        Docker container images. It is secure, highly available, and scales
-        automatically to meet the needs of your applications. ECR integrates
-        with Amazon Elastic Container Service (ECS) and AWS Fargate, simplifying
-        your development to production workflow. It also provides features such
-        as image scanning, lifecycle policies, and IAM authentication.
-      begin_year: 2015
-      end_year: present
-      _links:
-        self:
-          href: /tools/ecr/
-        projects:
-          - href: /projects/epicloud/
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/fe/
-          - href: /jobs/freelance/
-    - title: EC2
-      desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
-        resizable compute capacity in the cloud. It is designed to make
-        web-scale cloud computing easier for developers. EC2 allows users to
-        launch virtual servers, called “instances”, which can be configured to
-        their specific needs. EC2 also provides users with the ability to scale
-        their computing resources up or down as needed, allowing them to pay
-        only for the resources they use.
-      begin_year: 2015
-      end_year: present
-      _links:
-        self:
-          href: /tools/ec2/
-        projects:
-          - href: /projects/epicloud/
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/fe/
           - href: /jobs/freelance/
   os:
-    - title: iOS
-      desc: iOS is a mobile operating system developed by Apple Inc. for its iPhone,
-        iPad, and iPod Touch devices. It is the second most popular mobile
-        operating system in the world, behind Android. iOS is based on the Mac
-        OS X operating system and provides a user interface based on direct
-        manipulation of the screen using multi-touch gestures. It includes
-        features such as a home screen with app icons, a notification center,
-        and access to the App Store for downloading apps. iOS also includes
-        features such as iCloud, AirPlay, and Apple Pay.
-      begin_year: 2024
-      end_year: present
-      _links:
-        self:
-          href: /os/ios/
-        projects:
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/freelance/
     - title: Android
       desc: Android is a mobile operating system developed by Google. It is based on a
         modified version of the Linux kernel and other open source software, and
@@ -321,11 +303,29 @@ _embedded:
         can be downloaded from third-party app stores or through online stores
         such as Google Play. Android has been the best-selling OS on tablets
         since 2013, and on smartphones it is dominant by any metric.
-      begin_year: 2024
-      end_year: present
+      used_begin_year: 2024
+      used_end_year: present
       _links:
         self:
           href: /os/android/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+    - title: iOS
+      desc: iOS is a mobile operating system developed by Apple Inc. for its iPhone,
+        iPad, and iPod Touch devices. It is the second most popular mobile
+        operating system in the world, behind Android. iOS is based on the Mac
+        OS X operating system and provides a user interface based on direct
+        manipulation of the screen using multi-touch gestures. It includes
+        features such as a home screen with app icons, a notification center,
+        and access to the App Store for downloading apps. iOS also includes
+        features such as iCloud, AirPlay, and Apple Pay.
+      used_begin_year: 2024
+      used_end_year: present
+      _links:
+        self:
+          href: /os/ios/
         projects:
           - href: /projects/nuggets/
         jobs:
@@ -337,8 +337,8 @@ _embedded:
         supercomputers. It is highly customizable and can be used for a variety
         of tasks, from web hosting to software development. It is also highly
         secure and reliable, making it a popular choice for many users.
-      begin_year: 2010
-      end_year: present
+      used_begin_year: 2010
+      used_end_year: present
       _links:
         self:
           href: /os/linux/

@@ -7,8 +7,8 @@ desc: >-
   allows students to submit assignments, view grades, and collaborate with their
   peers. Google Classroom integrates with other Google applications such as
   Google Drive, Google Docs, and Google Calendar.
-begin_year: 2015
-end_year: 2021
+used_begin_year: 2015
+used_end_year: 2021
 _links:
   self:
     href: /tools/classroom/

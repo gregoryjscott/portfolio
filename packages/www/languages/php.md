@@ -6,8 +6,8 @@ desc: >-
   It is an open-source language, meaning it is free to use and modify. PHP is
   easy to learn and is widely used for creating websites and web applications.
   It is also used to create database-driven websites and applications.
-begin_year: 2017
-end_year: 2021
+used_begin_year: 2017
+used_end_year: 2021
 _links:
   self:
     href: /languages/php/

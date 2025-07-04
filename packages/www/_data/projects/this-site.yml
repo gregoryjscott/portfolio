@@ -25,26 +25,63 @@ _links:
     - href: /jobs/freelance/
 _embedded:
   languages:
-    - title: Typescript
-      desc: Typescript is a typed superset of JavaScript that compiles to plain
-        JavaScript. It adds optional static typing to the language, allowing
-        developers to use type annotations to catch errors early in the
-        development process. It also provides features such as classes, modules,
-        and interfaces that are not available in JavaScript. Typescript is
-        designed to make it easier to write and maintain large-scale
-        applications.
-      begin_year: 2014
-      end_year: present
+    - title: CSS
+      desc: CSS (Cascading Style Sheets) is a style sheet language used for describing
+        the presentation of a document written in a markup language such as
+        HTML. CSS is designed to enable the separation of presentation and
+        content, including layout, colors, and fonts. This separation can
+        improve content accessibility, provide more flexibility and control in
+        the specification of presentation characteristics, enable multiple web
+        pages to share formatting by specifying the relevant CSS in a separate
+        .css file, and reduce complexity and repetition in the structural
+        content.
+      used_begin_year: 2005
+      used_end_year: present
       _links:
         self:
-          href: /languages/ts/
+          href: /languages/css/
         projects:
-          - href: /projects/epicloud/
-          - href: /projects/nuggets/
+          - href: /projects/agdc/
+          - href: /projects/awwu-intranet/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/la-boda/
+          - href: /projects/qb/
+          - href: /projects/scramble-score/
+          - href: /projects/scrum-tools/
+          - href: /projects/somd/
+          - href: /projects/systems-portal/
           - href: /projects/this-site/
         jobs:
-          - href: /jobs/fe/
           - href: /jobs/freelance/
+          - href: /jobs/rdi/
+    - title: HTML
+      desc: HTML (HyperText Markup Language) is a markup language used to create
+        webpages and web applications. It is the standard markup language used
+        to create webpages and web applications. HTML is written in the form of
+        HTML elements consisting of tags enclosed in angle brackets. These tags
+        describe the content and structure of webpages and web applications.
+        HTML also provides a means to create interactive webpages and web
+        applications with the use of HTML forms, which can be used to collect
+        user input.
+      used_begin_year: 2005
+      used_end_year: present
+      _links:
+        self:
+          href: /languages/html/
+        projects:
+          - href: /projects/agdc/
+          - href: /projects/awwu-intranet/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/la-boda/
+          - href: /projects/qb/
+          - href: /projects/scramble-score/
+          - href: /projects/scrum-tools/
+          - href: /projects/somd/
+          - href: /projects/systems-portal/
+          - href: /projects/this-site/
+        jobs:
+          - href: /jobs/freelance/
+          - href: /jobs/rdi/
     - title: Ruby
       desc: Ruby is an open-source, object-oriented programming language created by
         Yukihiro Matsumoto in 1995. It is designed to be simple and easy to use,
@@ -53,8 +90,8 @@ _embedded:
         blocks, which allow for the creation of concise and powerful code. Ruby
         is also popular for its use of metaprogramming, which allows for the
         dynamic creation of code at runtime.
-      begin_year: 2010
-      end_year: present
+      used_begin_year: 2010
+      used_end_year: present
       _links:
         self:
           href: /languages/rb/
@@ -74,88 +111,27 @@ _embedded:
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
-    - title: HTML
-      desc: HTML (HyperText Markup Language) is a markup language used to create
-        webpages and web applications. It is the standard markup language used
-        to create webpages and web applications. HTML is written in the form of
-        HTML elements consisting of tags enclosed in angle brackets. These tags
-        describe the content and structure of webpages and web applications.
-        HTML also provides a means to create interactive webpages and web
-        applications with the use of HTML forms, which can be used to collect
-        user input.
-      begin_year: 2005
-      end_year: present
+    - title: Typescript
+      desc: Typescript is a typed superset of JavaScript that compiles to plain
+        JavaScript. It adds optional static typing to the language, allowing
+        developers to use type annotations to catch errors early in the
+        development process. It also provides features such as classes, modules,
+        and interfaces that are not available in JavaScript. Typescript is
+        designed to make it easier to write and maintain large-scale
+        applications.
+      used_begin_year: 2014
+      used_end_year: present
       _links:
         self:
-          href: /languages/html/
+          href: /languages/ts/
         projects:
-          - href: /projects/agdc/
-          - href: /projects/awwu-intranet/
-          - href: /projects/energy-efficiency-map/
-          - href: /projects/la-boda/
-          - href: /projects/qb/
-          - href: /projects/scramble-score/
-          - href: /projects/scrum-tools/
-          - href: /projects/somd/
-          - href: /projects/systems-portal/
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
           - href: /projects/this-site/
         jobs:
+          - href: /jobs/fe/
           - href: /jobs/freelance/
-          - href: /jobs/rdi/
-    - title: CSS
-      desc: CSS (Cascading Style Sheets) is a style sheet language used for describing
-        the presentation of a document written in a markup language such as
-        HTML. CSS is designed to enable the separation of presentation and
-        content, including layout, colors, and fonts. This separation can
-        improve content accessibility, provide more flexibility and control in
-        the specification of presentation characteristics, enable multiple web
-        pages to share formatting by specifying the relevant CSS in a separate
-        .css file, and reduce complexity and repetition in the structural
-        content.
-      begin_year: 2005
-      end_year: present
-      _links:
-        self:
-          href: /languages/css/
-        projects:
-          - href: /projects/agdc/
-          - href: /projects/awwu-intranet/
-          - href: /projects/energy-efficiency-map/
-          - href: /projects/la-boda/
-          - href: /projects/qb/
-          - href: /projects/scramble-score/
-          - href: /projects/scrum-tools/
-          - href: /projects/somd/
-          - href: /projects/systems-portal/
-          - href: /projects/this-site/
-        jobs:
-          - href: /jobs/freelance/
-          - href: /jobs/rdi/
   tools:
-    - title: Jekyll
-      desc: Jekyll is an open-source, Ruby-based static site generator that transforms
-        plain-text content (written in Markdown, Textile or HTML) and
-        Liquid-templated layouts into a complete, static website. By using
-        simple “front matter” at the top of each page or post to define metadata
-        (like title, date and categories), Jekyll assembles content with shared
-        layouts, includes and assets into fully rendered HTML files. Because it
-        produces only static pages—no databases or server-side processing—it
-        delivers fast, secure sites that are easy to host (notably on GitHub
-        Pages) and maintain via version control.
-      begin_year: 2014
-      end_year: present
-      _links:
-        self:
-          href: /tools/jekyll/
-        projects:
-          - href: /projects/cfw/
-          - href: /projects/jekyll-api/
-          - href: /projects/jekyll-embed/
-          - href: /projects/jekyll-load/
-          - href: /projects/jekyll-prep/
-          - href: /projects/this-site/
-        jobs:
-          - href: /jobs/freelance/
     - title: HAL
       subtitle: Hypertext Application Language (HAL) is a a media type for
         representing resources with hyperlinks
@@ -169,8 +145,8 @@ _embedded:
         and embedding, HAL enables clients to follow HATEOAS
         principles—dynamically discovering available operations and
         transitions—without relying on out-of-band documentation.
-      begin_year: 2014
-      end_year: present
+      used_begin_year: 2014
+      used_end_year: present
       _links:
         self:
           href: /tools/hal/
@@ -179,37 +155,31 @@ _embedded:
           - href: /projects/this-site/
         jobs:
           - href: /jobs/freelance/
-  os:
-    - title: macOS
-      desc: macOS is Apple’s Unix‐based desktop operating system, first released in
-        2001 as Mac OS X and built on the open‐source Darwin core and the
-        proprietary XNU kernel. Designed exclusively for Mac computers, it
-        combines a polished Aqua graphical interface with deep integration of
-        hardware and software, offering features like Spotlight search, Time
-        Machine backups, and Continuity for seamless work across Apple devices.
-        With strong emphasis on stability, security and performance, macOS
-        supports a rich ecosystem of native and third-party applications via the
-        Mac App Store and developer tools such as Xcode, making it a popular
-        choice for both creative professionals and everyday users.
-      begin_year: 2010
-      end_year: present
+    - title: Jekyll
+      desc: Jekyll is an open-source, Ruby-based static site generator that transforms
+        plain-text content (written in Markdown, Textile or HTML) and
+        Liquid-templated layouts into a complete, static website. By using
+        simple “front matter” at the top of each page or post to define metadata
+        (like title, date and categories), Jekyll assembles content with shared
+        layouts, includes and assets into fully rendered HTML files. Because it
+        produces only static pages—no databases or server-side processing—it
+        delivers fast, secure sites that are easy to host (notably on GitHub
+        Pages) and maintain via version control.
+      used_begin_year: 2014
+      used_end_year: present
       _links:
         self:
-          href: /os/macos/
+          href: /tools/jekyll/
         projects:
-          - href: /projects/aprender/
-          - href: /projects/centroid/
-          - href: /projects/denver-schedules-api/
+          - href: /projects/cfw/
           - href: /projects/jekyll-api/
           - href: /projects/jekyll-embed/
           - href: /projects/jekyll-load/
           - href: /projects/jekyll-prep/
-          - href: /projects/scramble-score/
-          - href: /projects/simpler/
           - href: /projects/this-site/
         jobs:
           - href: /jobs/freelance/
-          - href: /jobs/rdi/
+  os:
     - title: Linux
       desc: Linux is an open-source operating system that is based on the Linux
         kernel. It is a free and powerful operating system that is used in many
@@ -217,8 +187,8 @@ _embedded:
         supercomputers. It is highly customizable and can be used for a variety
         of tasks, from web hosting to software development. It is also highly
         secure and reliable, making it a popular choice for many users.
-      begin_year: 2010
-      end_year: present
+      used_begin_year: 2010
+      used_end_year: present
       _links:
         self:
           href: /os/linux/
@@ -238,6 +208,36 @@ _embedded:
           - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
+          - href: /jobs/rdi/
+    - title: macOS
+      desc: macOS is Apple’s Unix‐based desktop operating system, first released in
+        2001 as Mac OS X and built on the open‐source Darwin core and the
+        proprietary XNU kernel. Designed exclusively for Mac computers, it
+        combines a polished Aqua graphical interface with deep integration of
+        hardware and software, offering features like Spotlight search, Time
+        Machine backups, and Continuity for seamless work across Apple devices.
+        With strong emphasis on stability, security and performance, macOS
+        supports a rich ecosystem of native and third-party applications via the
+        Mac App Store and developer tools such as Xcode, making it a popular
+        choice for both creative professionals and everyday users.
+      used_begin_year: 2010
+      used_end_year: present
+      _links:
+        self:
+          href: /os/macos/
+        projects:
+          - href: /projects/aprender/
+          - href: /projects/centroid/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/scramble-score/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+        jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
   jobs:

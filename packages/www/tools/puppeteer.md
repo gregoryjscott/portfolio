@@ -7,8 +7,8 @@ desc: >-
   browser, such as form submission, UI testing, keyboard input, or capturing a
   timeline trace to diagnose performance issues. Puppeteer can also be used to
   generate screenshots and PDFs of web pages.
-begin_year: 2015
-end_year: 2021
+used_begin_year: 2015
+used_end_year: 2021
 _links:
   self:
     href: /tools/puppeteer/

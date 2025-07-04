@@ -7,8 +7,8 @@ desc: >-
   designed to be user-friendly and can be used to create forms, reports, and
   queries. It also supports data import and export, as well as data validation
   and security.
-begin_year: 2007
-end_year: 2008
+used_begin_year: 2007
+used_end_year: 2008
 _links:
   self:
     href: /db/access/

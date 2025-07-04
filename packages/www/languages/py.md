@@ -8,8 +8,8 @@ desc: >-
   beginners. It also has a large standard library and a wide range of
   third-party libraries, making it a versatile language for experienced
   developers.
-begin_year: 2013
-end_year: 2014
+used_begin_year: 2013
+used_end_year: 2014
 _links:
   self:
     href: /languages/py/

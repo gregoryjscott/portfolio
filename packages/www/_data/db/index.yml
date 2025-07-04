@@ -25,8 +25,8 @@ _embedded:
         reliable performance, and automatic scaling of throughput capacity. It
         also provides encryption at rest, point-in-time recovery, and other
         features to help protect your data.
-      begin_year: 2015
-      end_year: present
+      used_begin_year: 2015
+      used_end_year: present
       _links:
         self:
           href: /db/ddb/
@@ -233,8 +233,8 @@ _embedded:
         (Cloud Functions, Analytics, etc.), the Realtime Database simplifies the
         creation of responsive, data-driven apps without the need to manage your
         own backend.
-      begin_year: 2017
-      end_year: 2021
+      used_begin_year: 2017
+      used_end_year: 2021
       _links:
         self:
           href: /db/firebase/
@@ -309,8 +309,8 @@ _embedded:
         users to easily access and analyze data from other Google services such
         as Google Ads, Google Analytics, and Google Cloud Storage. BigQuery also
         supports a wide range of data formats, including CSV, JSON, and Avro.
-      begin_year: 2015
-      end_year: 2021
+      used_begin_year: 2015
+      used_end_year: 2021
       _links:
         self:
           href: /db/bigquery/
@@ -394,105 +394,6 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/windows/
-    - title: SQLite
-      desc: SQLite is a lightweight, self-contained, serverless, zero-configuration,
-        transactional SQL database engine. It is the most widely deployed
-        database in the world with over 1 trillion installations. It is used in
-        countless applications, from web browsers to operating systems. It is
-        fast, reliable, and requires minimal setup and maintenance. It supports
-        most of the SQL standard, including transactions, triggers, and views.
-        It is also highly extensible, allowing developers to create custom
-        functions and extensions.
-      begin_year: 2012
-      end_year: 2014
-      _links:
-        self:
-          href: /db/sqlite/
-        projects:
-          - href: /projects/please/
-        jobs:
-          - href: /jobs/rdi/
-      _embedded:
-        projects:
-          - title: Please
-            desc: Please is a set of commands useful for maintaining software projects.
-            role: Author
-            begin_year: 2012
-            end_year: 2014
-            _links:
-              self:
-                href: /projects/please/
-              code:
-                title: github.com/ResourceDataInc/please
-                href: https://github.com/ResourceDataInc/please
-              languages:
-                - href: /languages/cs/
-                - href: /languages/rb/
-                - href: /languages/sql/
-              db:
-                - href: /db/sqlite/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-        jobs:
-          - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
-            role: Technical Lead
-            begin_year: 2005
-            end_year: 2014
-            time_desc: July 2005 - July 2014
-            _links:
-              self:
-                href: /jobs/rdi/
-              projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-job-scheduler/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/bit-proposal/
-                - href: /projects/centroid/
-                - href: /projects/cis-data-capture/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
-                - href: /projects/please/
-                - href: /projects/qb/
-                - href: /projects/report-engine/
-                - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
-                - href: /projects/scrum-tools/
-                - href: /projects/somd/
-                - href: /projects/systems-portal/
-                - href: /projects/train-builder/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/plsql/
-                - href: /languages/py/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/access/
-                - href: /db/oracle/
-                - href: /db/postgres/
-                - href: /db/sql-server/
-                - href: /db/sqlite/
-              tools:
-                - href: /tools/backbone/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
     - title: Postgres
       desc: Postgres is an open source object-relational database management system
         (ORDBMS) developed by the PostgreSQL Global Development Group. It is
@@ -504,8 +405,8 @@ _embedded:
         views. Postgres is highly scalable and can handle large amounts of data.
         It is also highly secure, with built-in authentication and access
         control.
-      begin_year: 2012
-      end_year: 2014
+      used_begin_year: 2012
+      used_end_year: 2014
       _links:
         self:
           href: /db/postgres/
@@ -677,6 +578,105 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+    - title: SQLite
+      desc: SQLite is a lightweight, self-contained, serverless, zero-configuration,
+        transactional SQL database engine. It is the most widely deployed
+        database in the world with over 1 trillion installations. It is used in
+        countless applications, from web browsers to operating systems. It is
+        fast, reliable, and requires minimal setup and maintenance. It supports
+        most of the SQL standard, including transactions, triggers, and views.
+        It is also highly extensible, allowing developers to create custom
+        functions and extensions.
+      used_begin_year: 2012
+      used_end_year: 2014
+      _links:
+        self:
+          href: /db/sqlite/
+        projects:
+          - href: /projects/please/
+        jobs:
+          - href: /jobs/rdi/
+      _embedded:
+        projects:
+          - title: Please
+            desc: Please is a set of commands useful for maintaining software projects.
+            role: Author
+            begin_year: 2012
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/please/
+              code:
+                title: github.com/ResourceDataInc/please
+                href: https://github.com/ResourceDataInc/please
+              languages:
+                - href: /languages/cs/
+                - href: /languages/rb/
+                - href: /languages/sql/
+              db:
+                - href: /db/sqlite/
+              os:
+                - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
+        jobs:
+          - title: Resource Data, Inc.
+            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
+              Texas, Idaho, Minnesota, and Oregon, that provides custom
+              database, web, and GIS programming services
+            role: Technical Lead
+            begin_year: 2005
+            end_year: 2014
+            time_desc: July 2005 - July 2014
+            _links:
+              self:
+                href: /jobs/rdi/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/bit-proposal/
+                - href: /projects/centroid/
+                - href: /projects/cis-data-capture/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/flir-monitoring/
+                - href: /projects/lasar-range-finder/
+                - href: /projects/please/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/train-builder/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/plsql/
+                - href: /languages/py/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/tsql/
+              db:
+                - href: /db/access/
+                - href: /db/oracle/
+                - href: /db/postgres/
+                - href: /db/sql-server/
+                - href: /db/sqlite/
+              tools:
+                - href: /tools/backbone/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
     - title: SQL Server
       desc: SQL Server is a relational database management system (RDBMS) developed by
         Microsoft. It is used to store and manage data in a structured format,
@@ -685,8 +685,8 @@ _embedded:
         and management, and is used by many organizations for mission-critical
         applications. It is highly scalable and supports a wide range of
         features, including data replication, security, and high availability.
-      begin_year: 2007
-      end_year: 2014
+      used_begin_year: 2007
+      used_end_year: 2014
       _links:
         self:
           href: /db/sql-server/
@@ -726,27 +726,6 @@ _embedded:
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
-          - title: Systems Portal
-            desc: Web application for tracking data used by systems administrators.
-            role: Technical Lead
-            begin_year: 2013
-            end_year: 2013
-            _links:
-              self:
-                href: /projects/systems-portal/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/sql-server/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
           - title: AHFC Integration
             desc: Alaska Housing Finance Corporation Integration
             role: Technical Lead
@@ -764,14 +743,14 @@ _embedded:
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
-          - title: Scrum Tools
-            desc: null
+          - title: Systems Portal
+            desc: Web application for tracking data used by systems administrators.
             role: Technical Lead
-            begin_year: 2012
+            begin_year: 2013
             end_year: 2013
             _links:
               self:
-                href: /projects/scrum-tools/
+                href: /projects/systems-portal/
               languages:
                 - href: /languages/cs/
                 - href: /languages/css/
@@ -794,6 +773,27 @@ _embedded:
             _links:
               self:
                 href: /projects/energy-efficiency-map/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/sql/
+                - href: /languages/tsql/
+              db:
+                - href: /db/sql-server/
+              os:
+                - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
+          - title: Scrum Tools
+            desc: null
+            role: Technical Lead
+            begin_year: 2012
+            end_year: 2013
+            _links:
+              self:
+                href: /projects/scrum-tools/
               languages:
                 - href: /languages/cs/
                 - href: /languages/css/
@@ -918,8 +918,8 @@ _embedded:
         manage, and analyze their data. Oracle Database is available in a
         variety of editions, including Enterprise Edition, Standard Edition, and
         Express Edition.
-      begin_year: 2005
-      end_year: 2009
+      used_begin_year: 2005
+      used_end_year: 2009
       _links:
         self:
           href: /db/oracle/
@@ -937,6 +937,24 @@ _embedded:
           - href: /jobs/rdi/
       _embedded:
         projects:
+          - title: Consumption Views
+            desc: Set of database views that provides water consumption information that
+              feed into reporting tools used by AWWU to make business decisions.
+            role: Lead Developer
+            begin_year: 2009
+            end_year: 2009
+            _links:
+              self:
+                href: /projects/consumption-views/
+              languages:
+                - href: /languages/plsql/
+                - href: /languages/sql/
+              db:
+                - href: /db/oracle/
+              os:
+                - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: Service Order Mobile Dispatch
             desc: Mobile web application that allows Anchorage Water & Wastewater Utility
               service workers to query and record service information while in
@@ -952,24 +970,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
-                - href: /languages/sql/
-              db:
-                - href: /db/oracle/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-          - title: Consumption Views
-            desc: Set of database views that provides water consumption information that
-              feed into reporting tools used by AWWU to make business decisions.
-            role: Lead Developer
-            begin_year: 2009
-            end_year: 2009
-            _links:
-              self:
-                href: /projects/consumption-views/
-              languages:
                 - href: /languages/plsql/
                 - href: /languages/sql/
               db:
@@ -1053,24 +1053,6 @@ _embedded:
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
-          - title: AWWU Systems Integration
-            desc: null
-            role: Technical Lead
-            begin_year: 2005
-            end_year: 2006
-            _links:
-              self:
-                href: /projects/awwu-systems-integration/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/plsql/
-                - href: /languages/sql/
-              db:
-                - href: /db/oracle/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
           - title: AWWU Job Scheduler
             desc: Framework for creating background processing jobs that migrate,
               synchronize, and transform data throughout AWWU's integrated
@@ -1083,6 +1065,24 @@ _embedded:
                 href: /projects/awwu-job-scheduler/
               languages:
                 - href: /languages/cs/
+              db:
+                - href: /db/oracle/
+              os:
+                - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
+          - title: AWWU Systems Integration
+            desc: null
+            role: Technical Lead
+            begin_year: 2005
+            end_year: 2006
+            _links:
+              self:
+                href: /projects/awwu-systems-integration/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/plsql/
+                - href: /languages/sql/
               db:
                 - href: /db/oracle/
               os:
@@ -1172,8 +1172,8 @@ _embedded:
         manipulate data. It is designed to be user-friendly and can be used to
         create forms, reports, and queries. It also supports data import and
         export, as well as data validation and security.
-      begin_year: 2007
-      end_year: 2008
+      used_begin_year: 2007
+      used_end_year: 2008
       _links:
         self:
           href: /db/access/
@@ -1289,8 +1289,8 @@ _embedded:
         applications, and is compatible with a variety of operating systems,
         including Windows, Linux, and Mac OS X. It also supports a wide range of
         programming languages, including SQL, Java, and C#.
-      begin_year: 1999
-      end_year: 2005
+      used_begin_year: 1999
+      used_end_year: 2005
       _links:
         self:
           href: /db/pervasive/
@@ -1323,15 +1323,15 @@ _embedded:
                 - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
-          - title: Wen-GAGE Student Information
-            desc: Desktop application that is used by schools in Oklahoma to manage their
-              student information such as enrollment, attendance, and grades.
+          - title: Wen-GAGE Accounting
+            desc: Desktop application that is used by schools in Oklahoma to manage all
+              their school accounting responsibilites.
             role: Lead Developer
             begin_year: 1999
             end_year: 2004
             _links:
               self:
-                href: /projects/wengage-si/
+                href: /projects/wengage-acct/
               languages:
                 - href: /languages/delphi/
                 - href: /languages/sql/
@@ -1343,15 +1343,15 @@ _embedded:
                 - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
-          - title: Wen-GAGE Accounting
-            desc: Desktop application that is used by schools in Oklahoma to manage all
-              their school accounting responsibilites.
+          - title: Wen-GAGE Student Information
+            desc: Desktop application that is used by schools in Oklahoma to manage their
+              student information such as enrollment, attendance, and grades.
             role: Lead Developer
             begin_year: 1999
             end_year: 2004
             _links:
               self:
-                href: /projects/wengage-acct/
+                href: /projects/wengage-si/
               languages:
                 - href: /languages/delphi/
                 - href: /languages/sql/
@@ -1419,8 +1419,8 @@ _embedded:
         and replication. Btrieve is also highly scalable, allowing it to be used
         in a variety of applications, from single-user systems to large
         enterprise networks.
-      begin_year: 1999
-      end_year: 2004
+      used_begin_year: 1999
+      used_end_year: 2004
       _links:
         self:
           href: /db/btrieve/
@@ -1432,15 +1432,15 @@ _embedded:
           - href: /jobs/mas/
       _embedded:
         projects:
-          - title: Wen-GAGE Student Information
-            desc: Desktop application that is used by schools in Oklahoma to manage their
-              student information such as enrollment, attendance, and grades.
+          - title: Wen-GAGE Accounting
+            desc: Desktop application that is used by schools in Oklahoma to manage all
+              their school accounting responsibilites.
             role: Lead Developer
             begin_year: 1999
             end_year: 2004
             _links:
               self:
-                href: /projects/wengage-si/
+                href: /projects/wengage-acct/
               languages:
                 - href: /languages/delphi/
                 - href: /languages/sql/
@@ -1452,15 +1452,15 @@ _embedded:
                 - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
-          - title: Wen-GAGE Accounting
-            desc: Desktop application that is used by schools in Oklahoma to manage all
-              their school accounting responsibilites.
+          - title: Wen-GAGE Student Information
+            desc: Desktop application that is used by schools in Oklahoma to manage their
+              student information such as enrollment, attendance, and grades.
             role: Lead Developer
             begin_year: 1999
             end_year: 2004
             _links:
               self:
-                href: /projects/wengage-acct/
+                href: /projects/wengage-si/
               languages:
                 - href: /languages/delphi/
                 - href: /languages/sql/

@@ -7,8 +7,8 @@ desc: >-
   process. It also provides features such as classes, modules, and interfaces
   that are not available in JavaScript. Typescript is designed to make it easier
   to write and maintain large-scale applications.
-begin_year: 2014
-end_year: present
+used_begin_year: 2014
+used_end_year: present
 _links:
   self:
     href: /languages/ts/

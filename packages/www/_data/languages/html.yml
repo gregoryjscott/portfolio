@@ -6,8 +6,8 @@ desc: HTML (HyperText Markup Language) is a markup language used to create
   the content and structure of webpages and web applications. HTML also provides
   a means to create interactive webpages and web applications with the use of
   HTML forms, which can be used to collect user input.
-begin_year: 2005
-end_year: present
+used_begin_year: 2005
+used_end_year: present
 _links:
   self:
     href: /languages/html/
@@ -117,14 +117,15 @@ _embedded:
           - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
-    - title: Scrum Tools
-      desc: null
+    - title: Energy Efficiency Map
+      desc: Web application that allows the Alaska Energy Authority to monitor and
+        administer data from their statewide energy saving programs.
       role: Technical Lead
       begin_year: 2012
       end_year: 2013
       _links:
         self:
-          href: /projects/scrum-tools/
+          href: /projects/energy-efficiency-map/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -161,15 +162,14 @@ _embedded:
           - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
-    - title: Energy Efficiency Map
-      desc: Web application that allows the Alaska Energy Authority to monitor and
-        administer data from their statewide energy saving programs.
+    - title: Scrum Tools
+      desc: null
       role: Technical Lead
       begin_year: 2012
       end_year: 2013
       _links:
         self:
-          href: /projects/energy-efficiency-map/
+          href: /projects/scrum-tools/
         languages:
           - href: /languages/cs/
           - href: /languages/css/

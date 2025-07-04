@@ -6,8 +6,8 @@ desc: Ruby is an open-source, object-oriented programming language created by
   for the creation of concise and powerful code. Ruby is also popular for its
   use of metaprogramming, which allows for the dynamic creation of code at
   runtime.
-begin_year: 2010
-end_year: present
+used_begin_year: 2010
+used_end_year: present
 _links:
   self:
     href: /languages/rb/
@@ -71,37 +71,63 @@ _embedded:
           - href: /os/linux/
         jobs:
           - href: /jobs/freelance/
-    - title: jekyll-prep
-      desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
-      role: Author
+    - title: Centroid
+      desc: Library for accessing environment based configuration from multiple
+        different programming languages.
+      role: Contributor
       begin_year: 2014
       end_year: 2014
       _links:
         self:
-          href: /projects/jekyll-prep/
+          href: /projects/centroid/
         code:
-          title: github.com/gregoryjscott/jekyll-prep
-          href: https://github.com/gregoryjscott/jekyll-prep
+          title: github.com/ResourceDataInc/Centroid
+          href: https://github.com/ResourceDataInc/Centroid
         languages:
+          - href: /languages/cs/
+          - href: /languages/py/
           - href: /languages/rb/
-        tools:
-          - href: /tools/jekyll/
         os:
           - href: /os/linux/
           - href: /os/macos/
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
+    - title: Denver Schedules API
+      desc: JSON API that provides access to Denver activities that impact the
+        residents of Denver.
+      role: Contributor
+      begin_year: 2014
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/denver-schedules-api/
+        code:
+          title: github.com/codeforamerica/denver-schedules-api
+          href: https://github.com/codeforamerica/denver-schedules-api
+        languages:
+          - href: /languages/cs/
+          - href: /languages/rb/
+          - href: /languages/sql/
+        db:
+          - href: /db/postgres/
+        os:
+          - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
         jobs:
           - href: /jobs/freelance/
-    - title: jekyll-load
-      desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
+    - title: jekyll-api
+      desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
       role: Author
       begin_year: 2014
       end_year: 2014
       _links:
         self:
-          href: /projects/jekyll-load/
+          href: /projects/jekyll-api/
         code:
-          title: github.com/gregoryjscott/jekyll-load
-          href: https://github.com/gregoryjscott/jekyll-load
+          title: github.com/gregoryjscott/jekyll-api
+          href: https://github.com/gregoryjscott/jekyll-api
         languages:
           - href: /languages/rb/
         tools:
@@ -133,17 +159,17 @@ _embedded:
           - href: /os/macos/
         jobs:
           - href: /jobs/freelance/
-    - title: jekyll-api
-      desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
+    - title: jekyll-load
+      desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
       role: Author
       begin_year: 2014
       end_year: 2014
       _links:
         self:
-          href: /projects/jekyll-api/
+          href: /projects/jekyll-load/
         code:
-          title: github.com/gregoryjscott/jekyll-api
-          href: https://github.com/gregoryjscott/jekyll-api
+          title: github.com/gregoryjscott/jekyll-load
+          href: https://github.com/gregoryjscott/jekyll-load
         languages:
           - href: /languages/rb/
         tools:
@@ -153,52 +179,26 @@ _embedded:
           - href: /os/macos/
         jobs:
           - href: /jobs/freelance/
-    - title: Denver Schedules API
-      desc: JSON API that provides access to Denver activities that impact the
-        residents of Denver.
-      role: Contributor
+    - title: jekyll-prep
+      desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
+      role: Author
       begin_year: 2014
       end_year: 2014
       _links:
         self:
-          href: /projects/denver-schedules-api/
+          href: /projects/jekyll-prep/
         code:
-          title: github.com/codeforamerica/denver-schedules-api
-          href: https://github.com/codeforamerica/denver-schedules-api
+          title: github.com/gregoryjscott/jekyll-prep
+          href: https://github.com/gregoryjscott/jekyll-prep
         languages:
-          - href: /languages/cs/
           - href: /languages/rb/
-          - href: /languages/sql/
-        db:
-          - href: /db/postgres/
+        tools:
+          - href: /tools/jekyll/
         os:
           - href: /os/linux/
           - href: /os/macos/
-          - href: /os/windows/
         jobs:
           - href: /jobs/freelance/
-    - title: Centroid
-      desc: Library for accessing environment based configuration from multiple
-        different programming languages.
-      role: Contributor
-      begin_year: 2014
-      end_year: 2014
-      _links:
-        self:
-          href: /projects/centroid/
-        code:
-          title: github.com/ResourceDataInc/Centroid
-          href: https://github.com/ResourceDataInc/Centroid
-        languages:
-          - href: /languages/cs/
-          - href: /languages/py/
-          - href: /languages/rb/
-        os:
-          - href: /os/linux/
-          - href: /os/macos/
-          - href: /os/windows/
-        jobs:
-          - href: /jobs/rdi/
     - title: Alaska Gasline Development Corporation
       desc: Web application that provides AGDC with documentation, reporting, and
         querying tools for their vast GIS data and infrastructure.

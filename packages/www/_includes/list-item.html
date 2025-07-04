@@ -1,0 +1,27 @@
+<section>
+  <header>
+    <h2>
+      <a href="{{ include.resource._links.self.href }}">{{ include.resource.title }}</a>
+    </h2>
+
+    {% if include.resource.begin_year and include.resource.end_year %}
+      {% include year-range-role.html resource=include.resource %}
+    {% endif %}
+
+    {% if include.resource.used_begin_year and include.resource.used_end_year %}
+      {% include year-range-used.html resource=include.resource %}
+    {% endif %}
+
+    {% if include.resource.subtitle %}
+      <p>{{ include.resource.subtitle }}</p>
+    {% endif %}
+  </header>
+
+  {% if include.resource.desc %}
+    <p>{{ include.resource.desc }}</p>
+  {% endif %}
+
+  {% if include.resource._embedded %}
+    {% include relations-ul.html resource=include.resource %}
+  {% endif %}
+</section>

@@ -10,8 +10,8 @@ desc: >-
   queue for storing messages as they travel between computers. It also provides
   a simple web services interface that can be used to access queues, add,
   receive, and delete messages.
-begin_year: 2015
-end_year: present
+used_begin_year: 2015
+used_end_year: present
 _links:
   self:
     href: /tools/sqs/

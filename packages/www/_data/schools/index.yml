@@ -35,20 +35,52 @@ _embedded:
           - href: /os/windows/
       _embedded:
         languages:
-          - title: Visual Basic
-            desc: Visual Basic is a high-level, object-oriented programming language
-              developed by Microsoft. It is used to create Windows applications,
-              web applications, and other software. Visual Basic is a powerful
-              language that allows developers to quickly create applications
-              with a graphical user interface (GUI). It is easy to learn and
-              use, and provides a wide range of features and capabilities.
-              Visual Basic is also compatible with other programming languages,
-              such as C# and Java.
-            begin_year: 1994
-            end_year: 1998
+          - title: C
+            desc: C is a general-purpose, procedural programming language developed in the
+              early 1970s by Dennis Ritchie. It is a low-level language, meaning
+              it can be used to control hardware and memory, and is often used
+              for system programming. C is a compiled language, meaning that it
+              is converted into machine code before being executed. It is also a
+              structured language, meaning that it is organized into functions,
+              which can be called from other parts of the program. C is widely
+              used in many applications, including operating systems, embedded
+              systems, and scientific computing.
+            used_begin_year: 1994
+            used_end_year: 1998
             _links:
               self:
-                href: /languages/vb/
+                href: /languages/c/
+              schools:
+                - href: /schools/uco/
+          - title: C++
+            desc: C++ is a general-purpose, object-oriented programming language developed
+              by Bjarne Stroustrup in 1985. It is an extension of the C language
+              and provides features such as classes, inheritance, polymorphism,
+              templates, and exception handling. C++ is used to develop a wide
+              range of applications, from system software to high-performance
+              server and client applications, and is one of the most popular
+              programming languages in the world.
+            used_begin_year: 1994
+            used_end_year: 1998
+            _links:
+              self:
+                href: /languages/cpp/
+              schools:
+                - href: /schools/uco/
+          - title: FORTRAN
+            desc: FORTRAN (Formula Translator) is a general-purpose, procedural, imperative
+              programming language that is especially suited to numeric
+              computation and scientific computing. It is a compiled language,
+              meaning that it is processed by a compiler program before being
+              run on a computer. It is one of the oldest programming languages
+              and is still used today for a variety of applications. It is known
+              for its efficiency and accuracy in numerical calculations, and is
+              often used in scientific and engineering applications.
+            used_begin_year: 1994
+            used_end_year: 1998
+            _links:
+              self:
+                href: /languages/fortran/
               schools:
                 - href: /schools/uco/
           - title: Pascal
@@ -61,62 +93,65 @@ _embedded:
               broken down into smaller, manageable parts. Pascal is widely used
               in education and is the basis for many other languages, such as
               Object Pascal and Delphi.
-            begin_year: 1994
-            end_year: 1998
+            used_begin_year: 1994
+            used_end_year: 1998
             _links:
               self:
                 href: /languages/pascal/
               schools:
                 - href: /schools/uco/
-          - title: FORTRAN
-            desc: FORTRAN (Formula Translator) is a general-purpose, procedural, imperative
-              programming language that is especially suited to numeric
-              computation and scientific computing. It is a compiled language,
-              meaning that it is processed by a compiler program before being
-              run on a computer. It is one of the oldest programming languages
-              and is still used today for a variety of applications. It is known
-              for its efficiency and accuracy in numerical calculations, and is
-              often used in scientific and engineering applications.
-            begin_year: 1994
-            end_year: 1998
+          - title: Visual Basic
+            desc: Visual Basic is a high-level, object-oriented programming language
+              developed by Microsoft. It is used to create Windows applications,
+              web applications, and other software. Visual Basic is a powerful
+              language that allows developers to quickly create applications
+              with a graphical user interface (GUI). It is easy to learn and
+              use, and provides a wide range of features and capabilities.
+              Visual Basic is also compatible with other programming languages,
+              such as C# and Java.
+            used_begin_year: 1994
+            used_end_year: 1998
             _links:
               self:
-                href: /languages/fortran/
-              schools:
-                - href: /schools/uco/
-          - title: C++
-            desc: C++ is a general-purpose, object-oriented programming language developed
-              by Bjarne Stroustrup in 1985. It is an extension of the C language
-              and provides features such as classes, inheritance, polymorphism,
-              templates, and exception handling. C++ is used to develop a wide
-              range of applications, from system software to high-performance
-              server and client applications, and is one of the most popular
-              programming languages in the world.
-            begin_year: 1994
-            end_year: 1998
-            _links:
-              self:
-                href: /languages/cpp/
-              schools:
-                - href: /schools/uco/
-          - title: C
-            desc: C is a general-purpose, procedural programming language developed in the
-              early 1970s by Dennis Ritchie. It is a low-level language, meaning
-              it can be used to control hardware and memory, and is often used
-              for system programming. C is a compiled language, meaning that it
-              is converted into machine code before being executed. It is also a
-              structured language, meaning that it is organized into functions,
-              which can be called from other parts of the program. C is widely
-              used in many applications, including operating systems, embedded
-              systems, and scientific computing.
-            begin_year: 1994
-            end_year: 1998
-            _links:
-              self:
-                href: /languages/c/
+                href: /languages/vb/
               schools:
                 - href: /schools/uco/
         os:
+          - title: AIX
+            desc: AIX (Advanced Interactive eXecutive) is an IBM proprietary Unix-based
+              operating system designed for enterprise-level computing. It is a
+              robust, secure, and reliable operating system that provides a high
+              level of scalability and performance. AIX is designed to run on
+              IBM's Power Systems hardware and is optimized for virtualization.
+              It includes a wide range of features such as high availability,
+              scalability, and security. AIX also provides a wide range of tools
+              and utilities for system administration, application development,
+              and system management.
+            used_begin_year: 1994
+            used_end_year: 1998
+            _links:
+              self:
+                href: /os/aix/
+              schools:
+                - href: /schools/uco/
+          - title: MS-DOS
+            desc: MS-DOS (Microsoft Disk Operating System) is an operating system developed
+              by Microsoft for IBM-compatible personal computers. It was the
+              most commonly used member of the DOS family of operating systems
+              and was the main operating system for IBM PC compatible personal
+              computers during the 1980s and the early 1990s. MS-DOS was
+              designed to provide a user-friendly environment for running
+              programs, managing files, and controlling peripheral devices such
+              as printers and disk drives. It also provided a command-line
+              interface for users to interact with the system. MS-DOS was
+              eventually replaced by Windows 95 and later versions of Windows.
+            used_begin_year: 1994
+            used_end_year: 1998
+            _links:
+              self:
+                href: /os/ms-dos/
+              schools:
+                - href: /schools/uco/
           - title: Windows
             desc: Windows is a series of operating systems developed by Microsoft. It is the
               most popular operating system for personal computers, and is used
@@ -127,8 +162,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -169,40 +204,5 @@ _embedded:
                 - href: /jobs/freelance/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
-              schools:
-                - href: /schools/uco/
-          - title: MS-DOS
-            desc: MS-DOS (Microsoft Disk Operating System) is an operating system developed
-              by Microsoft for IBM-compatible personal computers. It was the
-              most commonly used member of the DOS family of operating systems
-              and was the main operating system for IBM PC compatible personal
-              computers during the 1980s and the early 1990s. MS-DOS was
-              designed to provide a user-friendly environment for running
-              programs, managing files, and controlling peripheral devices such
-              as printers and disk drives. It also provided a command-line
-              interface for users to interact with the system. MS-DOS was
-              eventually replaced by Windows 95 and later versions of Windows.
-            begin_year: 1994
-            end_year: 1998
-            _links:
-              self:
-                href: /os/ms-dos/
-              schools:
-                - href: /schools/uco/
-          - title: AIX
-            desc: AIX (Advanced Interactive eXecutive) is an IBM proprietary Unix-based
-              operating system designed for enterprise-level computing. It is a
-              robust, secure, and reliable operating system that provides a high
-              level of scalability and performance. AIX is designed to run on
-              IBM's Power Systems hardware and is optimized for virtualization.
-              It includes a wide range of features such as high availability,
-              scalability, and security. AIX also provides a wide range of tools
-              and utilities for system administration, application development,
-              and system management.
-            begin_year: 1994
-            end_year: 1998
-            _links:
-              self:
-                href: /os/aix/
               schools:
                 - href: /schools/uco/

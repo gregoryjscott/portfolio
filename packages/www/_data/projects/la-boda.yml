@@ -20,20 +20,21 @@ _links:
     - href: /jobs/freelance/
 _embedded:
   languages:
-    - title: HTML
-      desc: HTML (HyperText Markup Language) is a markup language used to create
-        webpages and web applications. It is the standard markup language used
-        to create webpages and web applications. HTML is written in the form of
-        HTML elements consisting of tags enclosed in angle brackets. These tags
-        describe the content and structure of webpages and web applications.
-        HTML also provides a means to create interactive webpages and web
-        applications with the use of HTML forms, which can be used to collect
-        user input.
-      begin_year: 2005
-      end_year: present
+    - title: CSS
+      desc: CSS (Cascading Style Sheets) is a style sheet language used for describing
+        the presentation of a document written in a markup language such as
+        HTML. CSS is designed to enable the separation of presentation and
+        content, including layout, colors, and fonts. This separation can
+        improve content accessibility, provide more flexibility and control in
+        the specification of presentation characteristics, enable multiple web
+        pages to share formatting by specifying the relevant CSS in a separate
+        .css file, and reduce complexity and repetition in the structural
+        content.
+      used_begin_year: 2005
+      used_end_year: present
       _links:
         self:
-          href: /languages/html/
+          href: /languages/css/
         projects:
           - href: /projects/agdc/
           - href: /projects/awwu-intranet/
@@ -48,21 +49,20 @@ _embedded:
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
-    - title: CSS
-      desc: CSS (Cascading Style Sheets) is a style sheet language used for describing
-        the presentation of a document written in a markup language such as
-        HTML. CSS is designed to enable the separation of presentation and
-        content, including layout, colors, and fonts. This separation can
-        improve content accessibility, provide more flexibility and control in
-        the specification of presentation characteristics, enable multiple web
-        pages to share formatting by specifying the relevant CSS in a separate
-        .css file, and reduce complexity and repetition in the structural
-        content.
-      begin_year: 2005
-      end_year: present
+    - title: HTML
+      desc: HTML (HyperText Markup Language) is a markup language used to create
+        webpages and web applications. It is the standard markup language used
+        to create webpages and web applications. HTML is written in the form of
+        HTML elements consisting of tags enclosed in angle brackets. These tags
+        describe the content and structure of webpages and web applications.
+        HTML also provides a means to create interactive webpages and web
+        applications with the use of HTML forms, which can be used to collect
+        user input.
+      used_begin_year: 2005
+      used_end_year: present
       _links:
         self:
-          href: /languages/css/
+          href: /languages/html/
         projects:
           - href: /projects/agdc/
           - href: /projects/awwu-intranet/
@@ -84,8 +84,8 @@ _embedded:
         animations, interactive forms, and dynamic content. JavaScript is also
         used to create mobile applications and desktop applications. It is an
         object-oriented language that is used to create complex applications.
-      begin_year: 2005
-      end_year: 2025
+      used_begin_year: 2005
+      used_end_year: 2025
       _links:
         self:
           href: /languages/js/
@@ -112,8 +112,8 @@ _embedded:
         reliable performance, and automatic scaling of throughput capacity. It
         also provides encryption at rest, point-in-time recovery, and other
         features to help protect your data.
-      begin_year: 2015
-      end_year: present
+      used_begin_year: 2015
+      used_end_year: present
       _links:
         self:
           href: /db/ddb/
@@ -136,8 +136,8 @@ _embedded:
         development environment for designing UI and data models, while built-in
         hosting, CI/CD and environment management streamline the application
         lifecycle so teams can focus on features instead of infrastructure.
-      begin_year: 2024
-      end_year: present
+      used_begin_year: 2024
+      used_end_year: present
       _links:
         self:
           href: /tools/amplify/
@@ -154,8 +154,8 @@ _embedded:
         supercomputers. It is highly customizable and can be used for a variety
         of tasks, from web hosting to software development. It is also highly
         secure and reliable, making it a popular choice for many users.
-      begin_year: 2010
-      end_year: present
+      used_begin_year: 2010
+      used_end_year: present
       _links:
         self:
           href: /os/linux/

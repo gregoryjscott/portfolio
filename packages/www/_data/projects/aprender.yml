@@ -24,8 +24,8 @@ _embedded:
         animations, interactive forms, and dynamic content. JavaScript is also
         used to create mobile applications and desktop applications. It is an
         object-oriented language that is used to create complex applications.
-      begin_year: 2005
-      end_year: 2025
+      used_begin_year: 2005
+      used_end_year: 2025
       _links:
         self:
           href: /languages/js/
@@ -55,8 +55,8 @@ _embedded:
         supports a rich ecosystem of native and third-party applications via the
         Mac App Store and developer tools such as Xcode, making it a popular
         choice for both creative professionals and everyday users.
-      begin_year: 2010
-      end_year: present
+      used_begin_year: 2010
+      used_end_year: present
       _links:
         self:
           href: /os/macos/

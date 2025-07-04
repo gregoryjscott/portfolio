@@ -29,228 +29,6 @@ _links:
     - href: /tools/xstate/
 _embedded:
   tools:
-    - title: XState
-      desc: XState is a JavaScript/TypeScript library for modeling application logic
-        as finite state machines and hierarchical statecharts, enabling
-        developers to define states, transitions, guards, actions, and invoked
-        services declaratively. With built-in support for parallel and history
-        states, runtime interpreters, visualizers, and integrations for React,
-        Vue, Angular, and Node.js, XState delivers predictable, testable, and
-        maintainable state management for complex synchronous and asynchronous
-        workflows.
-      begin_year: 2024
-      end_year: present
-      _links:
-        self:
-          href: /tools/xstate/
-        projects:
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/freelance/
-      _embedded:
-        projects:
-          - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
-            role: Author
-            begin_year: 2024
-            end_year: null
-            _links:
-              self:
-                href: /projects/nuggets/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/iam/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-              jobs:
-                - href: /jobs/freelance/
-        jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
-            begin_year: 2014
-            end_year: present
-            time_desc: July 2014 - present
-            _links:
-              self:
-                href: /jobs/freelance/
-              projects:
-                - href: /projects/aprender/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/mvc-integration-test-framework/
-                - href: /projects/nuggets/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-                - href: /db/postgres/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/hal/
-                - href: /tools/heroku/
-                - href: /tools/iam/
-                - href: /tools/jekyll/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
-    - title: React Native
-      desc: React Native is an open-source framework developed by Facebook that
-        enables developers to build mobile apps for iOS and Android using
-        JavaScript and React. Instead of rendering web views, React Native
-        translates UI components into native platform widgets, delivering
-        near-native performance and look-and-feel. Its component-based
-        architecture and one-way data flow mirror React for the web, making it
-        easy for JavaScript developers to pick up. Features like hot reloading
-        accelerate the development cycle by instantly reflecting code changes on
-        the device. A rich ecosystem of libraries and a large community
-        contribute reusable modules and plugins, simplifying access to native
-        device features (camera, geolocation, sensors) without writing
-        platform-specific code. By sharing logic and UI components across
-        platforms, React Native significantly reduces development time and
-        maintenance overhead compared to traditional native app development.
-      begin_year: 2024
-      end_year: present
-      _links:
-        self:
-          href: /tools/react-native/
-        projects:
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/freelance/
-      _embedded:
-        projects:
-          - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
-            role: Author
-            begin_year: 2024
-            end_year: null
-            _links:
-              self:
-                href: /projects/nuggets/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/iam/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-              jobs:
-                - href: /jobs/freelance/
-        jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
-            begin_year: 2014
-            end_year: present
-            time_desc: July 2014 - present
-            _links:
-              self:
-                href: /jobs/freelance/
-              projects:
-                - href: /projects/aprender/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/mvc-integration-test-framework/
-                - href: /projects/nuggets/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-                - href: /db/postgres/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/hal/
-                - href: /tools/heroku/
-                - href: /tools/iam/
-                - href: /tools/jekyll/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
     - title: Amplify
       desc: AWS Amplify is a comprehensive development platform from Amazon Web
         Services that enables developers to quickly build, deploy, and manage
@@ -262,8 +40,8 @@ _embedded:
         development environment for designing UI and data models, while built-in
         hosting, CI/CD and environment management streamline the application
         lifecycle so teams can focus on features instead of infrastructure.
-      begin_year: 2024
-      end_year: present
+      used_begin_year: 2024
+      used_end_year: present
       _links:
         self:
           href: /tools/amplify/
@@ -382,21 +160,1151 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
-    - title: VPC
-      desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
-        provides users with a virtual private cloud, allowing them to provision
-        a logically isolated section of the Amazon Web Services (AWS) cloud. It
-        provides users with complete control over their virtual networking
-        environment, including selection of their own IP address range, creation
-        of subnets, and configuration of route tables and network gateways. It
-        also provides users with the ability to securely connect their VPC to
-        their existing IT infrastructure using industry-standard encrypted IPsec
-        VPN connections.
-      begin_year: 2015
-      end_year: present
+    - title: React Native
+      desc: React Native is an open-source framework developed by Facebook that
+        enables developers to build mobile apps for iOS and Android using
+        JavaScript and React. Instead of rendering web views, React Native
+        translates UI components into native platform widgets, delivering
+        near-native performance and look-and-feel. Its component-based
+        architecture and one-way data flow mirror React for the web, making it
+        easy for JavaScript developers to pick up. Features like hot reloading
+        accelerate the development cycle by instantly reflecting code changes on
+        the device. A rich ecosystem of libraries and a large community
+        contribute reusable modules and plugins, simplifying access to native
+        device features (camera, geolocation, sensors) without writing
+        platform-specific code. By sharing logic and UI components across
+        platforms, React Native significantly reduces development time and
+        maintenance overhead compared to traditional native app development.
+      used_begin_year: 2024
+      used_end_year: present
       _links:
         self:
-          href: /tools/vpc/
+          href: /tools/react-native/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: present
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/nuggets/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+                - href: /db/postgres/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/hal/
+                - href: /tools/heroku/
+                - href: /tools/iam/
+                - href: /tools/jekyll/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
+    - title: XState
+      desc: XState is a JavaScript/TypeScript library for modeling application logic
+        as finite state machines and hierarchical statecharts, enabling
+        developers to define states, transitions, guards, actions, and invoked
+        services declaratively. With built-in support for parallel and history
+        states, runtime interpreters, visualizers, and integrations for React,
+        Vue, Angular, and Node.js, XState delivers predictable, testable, and
+        maintainable state management for complex synchronous and asynchronous
+        workflows.
+      used_begin_year: 2024
+      used_end_year: present
+      _links:
+        self:
+          href: /tools/xstate/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: present
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/nuggets/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+                - href: /db/postgres/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/hal/
+                - href: /tools/heroku/
+                - href: /tools/iam/
+                - href: /tools/jekyll/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
+    - title: EC2
+      desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
+        resizable compute capacity in the cloud. It is designed to make
+        web-scale cloud computing easier for developers. EC2 allows users to
+        launch virtual servers, called “instances”, which can be configured to
+        their specific needs. EC2 also provides users with the ability to scale
+        their computing resources up or down as needed, allowing them to pay
+        only for the resources they use.
+      used_begin_year: 2015
+      used_end_year: present
+      _links:
+        self:
+          href: /tools/ec2/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
+          - title: EpiCloud
+            subtitle: Infinitely Scaling Bots on AWS
+            desc: null
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epicloud/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
+                - href: /os/linux/
+              jobs:
+                - href: /jobs/fe/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: present
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/nuggets/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+                - href: /db/postgres/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/hal/
+                - href: /tools/heroku/
+                - href: /tools/iam/
+                - href: /tools/jekyll/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: 2022
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/epicloud/
+              languages:
+                - href: /languages/php/
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
+                - href: /os/linux/
+                - href: /os/windows/
+    - title: ECR
+      desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
+        container registry that makes it easy to store, manage, and deploy
+        Docker container images. It is secure, highly available, and scales
+        automatically to meet the needs of your applications. ECR integrates
+        with Amazon Elastic Container Service (ECS) and AWS Fargate, simplifying
+        your development to production workflow. It also provides features such
+        as image scanning, lifecycle policies, and IAM authentication.
+      used_begin_year: 2015
+      used_end_year: present
+      _links:
+        self:
+          href: /tools/ecr/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
+          - title: EpiCloud
+            subtitle: Infinitely Scaling Bots on AWS
+            desc: null
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epicloud/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
+                - href: /os/linux/
+              jobs:
+                - href: /jobs/fe/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: present
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/nuggets/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+                - href: /db/postgres/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/hal/
+                - href: /tools/heroku/
+                - href: /tools/iam/
+                - href: /tools/jekyll/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: 2022
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/epicloud/
+              languages:
+                - href: /languages/php/
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
+                - href: /os/linux/
+                - href: /os/windows/
+    - title: ECS
+      desc: Amazon Elastic Container Service (ECS) is a container orchestration
+        service from Amazon Web Services (AWS) that enables users to easily
+        deploy, manage, and scale containerized applications on AWS. It provides
+        a secure and scalable platform for running Docker containers, allowing
+        users to quickly and easily deploy and manage applications in the cloud.
+        ECS also provides features such as automated container scaling, service
+        discovery, and resource management.
+      used_begin_year: 2015
+      used_end_year: present
+      _links:
+        self:
+          href: /tools/ecs/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
+          - title: EpiCloud
+            subtitle: Infinitely Scaling Bots on AWS
+            desc: null
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epicloud/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
+                - href: /os/linux/
+              jobs:
+                - href: /jobs/fe/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: present
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/nuggets/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+                - href: /db/postgres/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/hal/
+                - href: /tools/heroku/
+                - href: /tools/iam/
+                - href: /tools/jekyll/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: 2022
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/epicloud/
+              languages:
+                - href: /languages/php/
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
+                - href: /os/linux/
+                - href: /os/windows/
+    - title: Fargate
+      desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
+        deploy and manage containers without having to manage the underlying
+        infrastructure. It provides a serverless compute engine for containers
+        that eliminates the need to provision, configure, and scale clusters of
+        virtual machines. Fargate also provides a secure and reliable platform
+        for running containers, allowing users to focus on building and running
+        their applications, rather than managing the underlying infrastructure.
+      used_begin_year: 2015
+      used_end_year: present
+      _links:
+        self:
+          href: /tools/fargate/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
+          - title: EpiCloud
+            subtitle: Infinitely Scaling Bots on AWS
+            desc: null
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epicloud/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
+                - href: /os/linux/
+              jobs:
+                - href: /jobs/fe/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: present
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/nuggets/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+                - href: /db/postgres/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/hal/
+                - href: /tools/heroku/
+                - href: /tools/iam/
+                - href: /tools/jekyll/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: 2022
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/epicloud/
+              languages:
+                - href: /languages/php/
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
+                - href: /os/linux/
+                - href: /os/windows/
+    - title: IAM
+      desc: AWS Identity and Access Management (IAM) is a web service that helps you
+        securely control access to AWS resources. With IAM, you can create and
+        manage AWS users and groups, and use permissions to allow and deny their
+        access to AWS resources. IAM also enables you to create and manage
+        security credentials such as access keys, passwords, and multi-factor
+        authentication devices. You can use IAM to manage access to AWS services
+        such as Amazon EC2, Amazon S3, and Amazon RDS.
+      used_begin_year: 2015
+      used_end_year: present
+      _links:
+        self:
+          href: /tools/iam/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2024
+            end_year: null
+            _links:
+              self:
+                href: /projects/nuggets/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
+          - title: EpiCloud
+            subtitle: Infinitely Scaling Bots on AWS
+            desc: null
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epicloud/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
+                - href: /os/linux/
+              jobs:
+                - href: /jobs/fe/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: present
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/nuggets/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+                - href: /db/postgres/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/hal/
+                - href: /tools/heroku/
+                - href: /tools/iam/
+                - href: /tools/jekyll/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: 2022
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/epicloud/
+              languages:
+                - href: /languages/php/
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
+                - href: /os/linux/
+                - href: /os/windows/
+    - title: S3
+      desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
+        Amazon Web Services (AWS). It provides object storage through a web
+        service interface and is designed to store and retrieve any amount of
+        data from anywhere on the web. It is highly scalable, secure, and
+        durable, and provides features such as data versioning, encryption, and
+        access control. S3 is used by many organizations for storing and backing
+        up data, hosting websites, and streaming media.
+      used_begin_year: 2015
+      used_end_year: present
+      _links:
+        self:
+          href: /tools/s3/
         projects:
           - href: /projects/epicloud/
           - href: /projects/nuggets/
@@ -576,8 +1484,8 @@ _embedded:
         highly-scalable, hosted queue for storing messages as they travel
         between computers. It also provides a simple web services interface that
         can be used to access queues, add, receive, and delete messages.
-      begin_year: 2015
-      end_year: present
+      used_begin_year: 2015
+      used_end_year: present
       _links:
         self:
           href: /tools/sqs/
@@ -750,19 +1658,21 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/windows/
-    - title: S3
-      desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
-        Amazon Web Services (AWS). It provides object storage through a web
-        service interface and is designed to store and retrieve any amount of
-        data from anywhere on the web. It is highly scalable, secure, and
-        durable, and provides features such as data versioning, encryption, and
-        access control. S3 is used by many organizations for storing and backing
-        up data, hosting websites, and streaming media.
-      begin_year: 2015
-      end_year: present
+    - title: VPC
+      desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
+        provides users with a virtual private cloud, allowing them to provision
+        a logically isolated section of the Amazon Web Services (AWS) cloud. It
+        provides users with complete control over their virtual networking
+        environment, including selection of their own IP address range, creation
+        of subnets, and configuration of route tables and network gateways. It
+        also provides users with the ability to securely connect their VPC to
+        their existing IT infrastructure using industry-standard encrypted IPsec
+        VPN connections.
+      used_begin_year: 2015
+      used_end_year: present
       _links:
         self:
-          href: /tools/s3/
+          href: /tools/vpc/
         projects:
           - href: /projects/epicloud/
           - href: /projects/nuggets/
@@ -931,1122 +1841,6 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
-                - href: /os/windows/
-    - title: IAM
-      desc: AWS Identity and Access Management (IAM) is a web service that helps you
-        securely control access to AWS resources. With IAM, you can create and
-        manage AWS users and groups, and use permissions to allow and deny their
-        access to AWS resources. IAM also enables you to create and manage
-        security credentials such as access keys, passwords, and multi-factor
-        authentication devices. You can use IAM to manage access to AWS services
-        such as Amazon EC2, Amazon S3, and Amazon RDS.
-      begin_year: 2015
-      end_year: present
-      _links:
-        self:
-          href: /tools/iam/
-        projects:
-          - href: /projects/epicloud/
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/fe/
-          - href: /jobs/freelance/
-      _embedded:
-        projects:
-          - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
-            role: Author
-            begin_year: 2024
-            end_year: null
-            _links:
-              self:
-                href: /projects/nuggets/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/iam/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-              jobs:
-                - href: /jobs/freelance/
-          - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
-            begin_year: 2015
-            end_year: 2021
-            _links:
-              self:
-                href: /projects/epicloud/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sikulix/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-              os:
-                - href: /os/linux/
-              jobs:
-                - href: /jobs/fe/
-        jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
-            begin_year: 2014
-            end_year: present
-            time_desc: July 2014 - present
-            _links:
-              self:
-                href: /jobs/freelance/
-              projects:
-                - href: /projects/aprender/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/mvc-integration-test-framework/
-                - href: /projects/nuggets/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-                - href: /db/postgres/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/hal/
-                - href: /tools/heroku/
-                - href: /tools/iam/
-                - href: /tools/jekyll/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
-          - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
-            begin_year: 2018
-            end_year: 2022
-            time_desc: March 2018 - present
-            _links:
-              self:
-                href: /jobs/fe/
-              projects:
-                - href: /projects/epic-ca-enrollment/
-                - href: /projects/epicloud/
-              languages:
-                - href: /languages/php/
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-                - href: /db/firebase/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sikulix/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-              os:
-                - href: /os/linux/
-                - href: /os/windows/
-    - title: Fargate
-      desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
-        deploy and manage containers without having to manage the underlying
-        infrastructure. It provides a serverless compute engine for containers
-        that eliminates the need to provision, configure, and scale clusters of
-        virtual machines. Fargate also provides a secure and reliable platform
-        for running containers, allowing users to focus on building and running
-        their applications, rather than managing the underlying infrastructure.
-      begin_year: 2015
-      end_year: present
-      _links:
-        self:
-          href: /tools/fargate/
-        projects:
-          - href: /projects/epicloud/
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/fe/
-          - href: /jobs/freelance/
-      _embedded:
-        projects:
-          - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
-            role: Author
-            begin_year: 2024
-            end_year: null
-            _links:
-              self:
-                href: /projects/nuggets/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/iam/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-              jobs:
-                - href: /jobs/freelance/
-          - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
-            begin_year: 2015
-            end_year: 2021
-            _links:
-              self:
-                href: /projects/epicloud/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sikulix/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-              os:
-                - href: /os/linux/
-              jobs:
-                - href: /jobs/fe/
-        jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
-            begin_year: 2014
-            end_year: present
-            time_desc: July 2014 - present
-            _links:
-              self:
-                href: /jobs/freelance/
-              projects:
-                - href: /projects/aprender/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/mvc-integration-test-framework/
-                - href: /projects/nuggets/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-                - href: /db/postgres/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/hal/
-                - href: /tools/heroku/
-                - href: /tools/iam/
-                - href: /tools/jekyll/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
-          - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
-            begin_year: 2018
-            end_year: 2022
-            time_desc: March 2018 - present
-            _links:
-              self:
-                href: /jobs/fe/
-              projects:
-                - href: /projects/epic-ca-enrollment/
-                - href: /projects/epicloud/
-              languages:
-                - href: /languages/php/
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-                - href: /db/firebase/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sikulix/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-              os:
-                - href: /os/linux/
-                - href: /os/windows/
-    - title: ECS
-      desc: Amazon Elastic Container Service (ECS) is a container orchestration
-        service from Amazon Web Services (AWS) that enables users to easily
-        deploy, manage, and scale containerized applications on AWS. It provides
-        a secure and scalable platform for running Docker containers, allowing
-        users to quickly and easily deploy and manage applications in the cloud.
-        ECS also provides features such as automated container scaling, service
-        discovery, and resource management.
-      begin_year: 2015
-      end_year: present
-      _links:
-        self:
-          href: /tools/ecs/
-        projects:
-          - href: /projects/epicloud/
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/fe/
-          - href: /jobs/freelance/
-      _embedded:
-        projects:
-          - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
-            role: Author
-            begin_year: 2024
-            end_year: null
-            _links:
-              self:
-                href: /projects/nuggets/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/iam/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-              jobs:
-                - href: /jobs/freelance/
-          - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
-            begin_year: 2015
-            end_year: 2021
-            _links:
-              self:
-                href: /projects/epicloud/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sikulix/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-              os:
-                - href: /os/linux/
-              jobs:
-                - href: /jobs/fe/
-        jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
-            begin_year: 2014
-            end_year: present
-            time_desc: July 2014 - present
-            _links:
-              self:
-                href: /jobs/freelance/
-              projects:
-                - href: /projects/aprender/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/mvc-integration-test-framework/
-                - href: /projects/nuggets/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-                - href: /db/postgres/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/hal/
-                - href: /tools/heroku/
-                - href: /tools/iam/
-                - href: /tools/jekyll/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
-          - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
-            begin_year: 2018
-            end_year: 2022
-            time_desc: March 2018 - present
-            _links:
-              self:
-                href: /jobs/fe/
-              projects:
-                - href: /projects/epic-ca-enrollment/
-                - href: /projects/epicloud/
-              languages:
-                - href: /languages/php/
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-                - href: /db/firebase/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sikulix/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-              os:
-                - href: /os/linux/
-                - href: /os/windows/
-    - title: ECR
-      desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
-        container registry that makes it easy to store, manage, and deploy
-        Docker container images. It is secure, highly available, and scales
-        automatically to meet the needs of your applications. ECR integrates
-        with Amazon Elastic Container Service (ECS) and AWS Fargate, simplifying
-        your development to production workflow. It also provides features such
-        as image scanning, lifecycle policies, and IAM authentication.
-      begin_year: 2015
-      end_year: present
-      _links:
-        self:
-          href: /tools/ecr/
-        projects:
-          - href: /projects/epicloud/
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/fe/
-          - href: /jobs/freelance/
-      _embedded:
-        projects:
-          - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
-            role: Author
-            begin_year: 2024
-            end_year: null
-            _links:
-              self:
-                href: /projects/nuggets/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/iam/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-              jobs:
-                - href: /jobs/freelance/
-          - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
-            begin_year: 2015
-            end_year: 2021
-            _links:
-              self:
-                href: /projects/epicloud/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sikulix/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-              os:
-                - href: /os/linux/
-              jobs:
-                - href: /jobs/fe/
-        jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
-            begin_year: 2014
-            end_year: present
-            time_desc: July 2014 - present
-            _links:
-              self:
-                href: /jobs/freelance/
-              projects:
-                - href: /projects/aprender/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/mvc-integration-test-framework/
-                - href: /projects/nuggets/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-                - href: /db/postgres/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/hal/
-                - href: /tools/heroku/
-                - href: /tools/iam/
-                - href: /tools/jekyll/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
-          - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
-            begin_year: 2018
-            end_year: 2022
-            time_desc: March 2018 - present
-            _links:
-              self:
-                href: /jobs/fe/
-              projects:
-                - href: /projects/epic-ca-enrollment/
-                - href: /projects/epicloud/
-              languages:
-                - href: /languages/php/
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-                - href: /db/firebase/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sikulix/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-              os:
-                - href: /os/linux/
-                - href: /os/windows/
-    - title: EC2
-      desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
-        resizable compute capacity in the cloud. It is designed to make
-        web-scale cloud computing easier for developers. EC2 allows users to
-        launch virtual servers, called “instances”, which can be configured to
-        their specific needs. EC2 also provides users with the ability to scale
-        their computing resources up or down as needed, allowing them to pay
-        only for the resources they use.
-      begin_year: 2015
-      end_year: present
-      _links:
-        self:
-          href: /tools/ec2/
-        projects:
-          - href: /projects/epicloud/
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/fe/
-          - href: /jobs/freelance/
-      _embedded:
-        projects:
-          - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
-            role: Author
-            begin_year: 2024
-            end_year: null
-            _links:
-              self:
-                href: /projects/nuggets/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/iam/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-              jobs:
-                - href: /jobs/freelance/
-          - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
-            begin_year: 2015
-            end_year: 2021
-            _links:
-              self:
-                href: /projects/epicloud/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sikulix/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-              os:
-                - href: /os/linux/
-              jobs:
-                - href: /jobs/fe/
-        jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
-            begin_year: 2014
-            end_year: present
-            time_desc: July 2014 - present
-            _links:
-              self:
-                href: /jobs/freelance/
-              projects:
-                - href: /projects/aprender/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/mvc-integration-test-framework/
-                - href: /projects/nuggets/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-                - href: /db/postgres/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/hal/
-                - href: /tools/heroku/
-                - href: /tools/iam/
-                - href: /tools/jekyll/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
-          - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
-            begin_year: 2018
-            end_year: 2022
-            time_desc: March 2018 - present
-            _links:
-              self:
-                href: /jobs/fe/
-              projects:
-                - href: /projects/epic-ca-enrollment/
-                - href: /projects/epicloud/
-              languages:
-                - href: /languages/php/
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-                - href: /db/firebase/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sikulix/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-              os:
-                - href: /os/linux/
-                - href: /os/windows/
-    - title: Jekyll
-      desc: Jekyll is an open-source, Ruby-based static site generator that transforms
-        plain-text content (written in Markdown, Textile or HTML) and
-        Liquid-templated layouts into a complete, static website. By using
-        simple “front matter” at the top of each page or post to define metadata
-        (like title, date and categories), Jekyll assembles content with shared
-        layouts, includes and assets into fully rendered HTML files. Because it
-        produces only static pages—no databases or server-side processing—it
-        delivers fast, secure sites that are easy to host (notably on GitHub
-        Pages) and maintain via version control.
-      begin_year: 2014
-      end_year: present
-      _links:
-        self:
-          href: /tools/jekyll/
-        projects:
-          - href: /projects/cfw/
-          - href: /projects/jekyll-api/
-          - href: /projects/jekyll-embed/
-          - href: /projects/jekyll-load/
-          - href: /projects/jekyll-prep/
-          - href: /projects/this-site/
-        jobs:
-          - href: /jobs/freelance/
-      _embedded:
-        projects:
-          - title: gregoryjscott.com
-            desc: My portfolio website that uses Jekyll to create static HTML pages using
-              YAML, Markdown, and HAL-based hypermedia.
-            role: Author
-            begin_year: 2014
-            end_year: present
-            _links:
-              self:
-                href: /projects/this-site/
-              code:
-                title: github.com/gregoryjscott/me
-                href: https://github.com/gregoryjscott/me
-              languages:
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/rb/
-                - href: /languages/ts/
-              tools:
-                - href: /tools/hal/
-                - href: /tools/jekyll/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-              jobs:
-                - href: /jobs/freelance/
-          - title: fortworthtexas.gov
-            desc: Jekyll static site for the City of Fort Worth, Texas.
-            role: Technical Lead
-            begin_year: 2015
-            end_year: 2016
-            _links:
-              self:
-                href: /projects/cfw/
-              languages:
-                - href: /languages/rb/
-              tools:
-                - href: /tools/heroku/
-                - href: /tools/jekyll/
-              os:
-                - href: /os/linux/
-              jobs:
-                - href: /jobs/freelance/
-          - title: jekyll-prep
-            desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
-            role: Author
-            begin_year: 2014
-            end_year: 2014
-            _links:
-              self:
-                href: /projects/jekyll-prep/
-              code:
-                title: github.com/gregoryjscott/jekyll-prep
-                href: https://github.com/gregoryjscott/jekyll-prep
-              languages:
-                - href: /languages/rb/
-              tools:
-                - href: /tools/jekyll/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-              jobs:
-                - href: /jobs/freelance/
-          - title: jekyll-load
-            desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
-            role: Author
-            begin_year: 2014
-            end_year: 2014
-            _links:
-              self:
-                href: /projects/jekyll-load/
-              code:
-                title: github.com/gregoryjscott/jekyll-load
-                href: https://github.com/gregoryjscott/jekyll-load
-              languages:
-                - href: /languages/rb/
-              tools:
-                - href: /tools/jekyll/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-              jobs:
-                - href: /jobs/freelance/
-          - title: jekyll-embed
-            desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
-              frontmatter
-            role: Author
-            begin_year: 2014
-            end_year: 2014
-            _links:
-              self:
-                href: /projects/jekyll-embed/
-              code:
-                title: github.com/gregoryjscott/jekyll-embed
-                href: https://github.com/gregoryjscott/jekyll-embed
-              languages:
-                - href: /languages/rb/
-              tools:
-                - href: /tools/hal/
-                - href: /tools/jekyll/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-              jobs:
-                - href: /jobs/freelance/
-          - title: jekyll-api
-            desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
-            role: Author
-            begin_year: 2014
-            end_year: 2014
-            _links:
-              self:
-                href: /projects/jekyll-api/
-              code:
-                title: github.com/gregoryjscott/jekyll-api
-                href: https://github.com/gregoryjscott/jekyll-api
-              languages:
-                - href: /languages/rb/
-              tools:
-                - href: /tools/jekyll/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-              jobs:
-                - href: /jobs/freelance/
-        jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
-            begin_year: 2014
-            end_year: present
-            time_desc: July 2014 - present
-            _links:
-              self:
-                href: /jobs/freelance/
-              projects:
-                - href: /projects/aprender/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/mvc-integration-test-framework/
-                - href: /projects/nuggets/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/ts/
-              db:
-                - href: /db/ddb/
-                - href: /db/postgres/
-              tools:
-                - href: /tools/amplify/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/hal/
-                - href: /tools/heroku/
-                - href: /tools/iam/
-                - href: /tools/jekyll/
-                - href: /tools/react-native/
-                - href: /tools/s3/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-                - href: /tools/xstate/
-              os:
-                - href: /os/android/
-                - href: /os/ios/
-                - href: /os/linux/
-                - href: /os/macos/
                 - href: /os/windows/
     - title: HAL
       subtitle: Hypertext Application Language (HAL) is a a media type for
@@ -2061,8 +1855,8 @@ _embedded:
         and embedding, HAL enables clients to follow HATEOAS
         principles—dynamically discovering available operations and
         transitions—without relying on out-of-band documentation.
-      begin_year: 2014
-      end_year: present
+      used_begin_year: 2014
+      used_end_year: present
       _links:
         self:
           href: /tools/hal/
@@ -2176,206 +1970,224 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
-    - title: SikuliX
-      desc: SikuliX is an open-source GUI automation tool that uses image recognition
-        to interact with on-screen elements by matching screenshots. It lets you
-        write scripts in Python (via Jython), Java, and other JVM languages to
-        click, type, and verify UI states without needing native application
-        hooks. Built on OpenCV, SikuliX works across Windows, macOS, and Linux,
-        making it ideal for automating legacy or custom interfaces and
-        integrating with testing frameworks for end-to-end automation or
-        repetitive desktop task scripting.
-      begin_year: 2015
-      end_year: 2021
+    - title: Jekyll
+      desc: Jekyll is an open-source, Ruby-based static site generator that transforms
+        plain-text content (written in Markdown, Textile or HTML) and
+        Liquid-templated layouts into a complete, static website. By using
+        simple “front matter” at the top of each page or post to define metadata
+        (like title, date and categories), Jekyll assembles content with shared
+        layouts, includes and assets into fully rendered HTML files. Because it
+        produces only static pages—no databases or server-side processing—it
+        delivers fast, secure sites that are easy to host (notably on GitHub
+        Pages) and maintain via version control.
+      used_begin_year: 2014
+      used_end_year: present
       _links:
         self:
-          href: /tools/sikulix/
+          href: /tools/jekyll/
         projects:
-          - href: /projects/epicloud/
+          - href: /projects/cfw/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/this-site/
         jobs:
-          - href: /jobs/fe/
+          - href: /jobs/freelance/
       _embedded:
         projects:
-          - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
-            begin_year: 2015
-            end_year: 2021
+          - title: gregoryjscott.com
+            desc: My portfolio website that uses Jekyll to create static HTML pages using
+              YAML, Markdown, and HAL-based hypermedia.
+            role: Author
+            begin_year: 2014
+            end_year: present
             _links:
               self:
-                href: /projects/epicloud/
+                href: /projects/this-site/
+              code:
+                title: github.com/gregoryjscott/me
+                href: https://github.com/gregoryjscott/me
               languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/rb/
                 - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
               tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sikulix/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
+                - href: /tools/hal/
+                - href: /tools/jekyll/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
+              jobs:
+                - href: /jobs/freelance/
+          - title: fortworthtexas.gov
+            desc: Jekyll static site for the City of Fort Worth, Texas.
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2016
+            _links:
+              self:
+                href: /projects/cfw/
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/heroku/
+                - href: /tools/jekyll/
               os:
                 - href: /os/linux/
               jobs:
-                - href: /jobs/fe/
-        jobs:
-          - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
-            begin_year: 2018
-            end_year: 2022
-            time_desc: March 2018 - present
+                - href: /jobs/freelance/
+          - title: jekyll-api
+            desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
             _links:
               self:
-                href: /jobs/fe/
-              projects:
-                - href: /projects/epic-ca-enrollment/
-                - href: /projects/epicloud/
+                href: /projects/jekyll-api/
+              code:
+                title: github.com/gregoryjscott/jekyll-api
+                href: https://github.com/gregoryjscott/jekyll-api
               languages:
-                - href: /languages/php/
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-                - href: /db/firebase/
+                - href: /languages/rb/
               tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sikulix/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
+                - href: /tools/jekyll/
               os:
                 - href: /os/linux/
-                - href: /os/windows/
-    - title: Puppeteer
-      desc: Puppeteer is a Node library developed by Google that provides a high-level
-        API to control headless Chrome or Chromium over the DevTools Protocol.
-        It can be used to automate tasks that would normally be performed
-        manually in the browser, such as form submission, UI testing, keyboard
-        input, or capturing a timeline trace to diagnose performance issues.
-        Puppeteer can also be used to generate screenshots and PDFs of web
-        pages.
-      begin_year: 2015
-      end_year: 2021
-      _links:
-        self:
-          href: /tools/puppeteer/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-      _embedded:
-        projects:
-          - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
-            begin_year: 2015
-            end_year: 2021
-            _links:
-              self:
-                href: /projects/epicloud/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sikulix/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-              os:
-                - href: /os/linux/
+                - href: /os/macos/
               jobs:
-                - href: /jobs/fe/
-        jobs:
-          - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
-            begin_year: 2018
-            end_year: 2022
-            time_desc: March 2018 - present
+                - href: /jobs/freelance/
+          - title: jekyll-embed
+            desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
+              frontmatter
+            role: Author
+            begin_year: 2014
+            end_year: 2014
             _links:
               self:
-                href: /jobs/fe/
-              projects:
-                - href: /projects/epic-ca-enrollment/
-                - href: /projects/epicloud/
+                href: /projects/jekyll-embed/
+              code:
+                title: github.com/gregoryjscott/jekyll-embed
+                href: https://github.com/gregoryjscott/jekyll-embed
               languages:
-                - href: /languages/php/
+                - href: /languages/rb/
+              tools:
+                - href: /tools/hal/
+                - href: /tools/jekyll/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
+              jobs:
+                - href: /jobs/freelance/
+          - title: jekyll-load
+            desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-load/
+              code:
+                title: github.com/gregoryjscott/jekyll-load
+                href: https://github.com/gregoryjscott/jekyll-load
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
+              jobs:
+                - href: /jobs/freelance/
+          - title: jekyll-prep
+            desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
+            role: Author
+            begin_year: 2014
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/jekyll-prep/
+              code:
+                title: github.com/gregoryjscott/jekyll-prep
+                href: https://github.com/gregoryjscott/jekyll-prep
+              languages:
+                - href: /languages/rb/
+              tools:
+                - href: /tools/jekyll/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
+              jobs:
+                - href: /jobs/freelance/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: present
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/nuggets/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
                 - href: /languages/ts/
               db:
-                - href: /db/bigquery/
                 - href: /db/ddb/
-                - href: /db/firebase/
+                - href: /db/postgres/
               tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
+                - href: /tools/amplify/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
                 - href: /tools/fargate/
-                - href: /tools/firebase/
+                - href: /tools/hal/
+                - href: /tools/heroku/
                 - href: /tools/iam/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
+                - href: /tools/jekyll/
+                - href: /tools/react-native/
                 - href: /tools/s3/
-                - href: /tools/sikulix/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
+                - href: /tools/xstate/
               os:
+                - href: /os/android/
+                - href: /os/ios/
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
-    - title: Node
-      desc: Node.js is an open-source, cross-platform JavaScript runtime environment
-        that executes JavaScript code outside of a browser. It is used to create
-        server-side and networking applications. Node.js applications are
-        written in JavaScript and can be run within the Node.js runtime on OS X,
-        Microsoft Windows, and Linux. Node.js also provides a rich library of
-        various JavaScript modules which simplifies the development of web
-        applications using Node.js.
-      begin_year: 2015
-      end_year: 2021
+    - title: Docker
+      desc: Docker is an open-source platform for developing, shipping, and running
+        applications. It uses container technology to package applications into
+        isolated, lightweight, and portable containers that can be quickly
+        deployed and moved between different computing environments. Docker also
+        provides a set of tools and services to help developers build, ship, and
+        run applications in a more efficient and secure way.
+      used_begin_year: 2015
+      used_end_year: 2021
       _links:
         self:
-          href: /tools/node/
+          href: /tools/docker/
         projects:
           - href: /projects/epicloud/
         jobs:
@@ -2464,11 +2276,104 @@ _embedded:
         more. It also offers a range of SDKs for Android, iOS, and web
         development, allowing developers to quickly and easily integrate
         Firebase into their apps.
-      begin_year: 2015
-      end_year: 2021
+      used_begin_year: 2015
+      used_end_year: 2021
       _links:
         self:
           href: /tools/firebase/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+      _embedded:
+        projects:
+          - title: EpiCloud
+            subtitle: Infinitely Scaling Bots on AWS
+            desc: null
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epicloud/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
+                - href: /os/linux/
+              jobs:
+                - href: /jobs/fe/
+        jobs:
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: 2022
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/epicloud/
+              languages:
+                - href: /languages/php/
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
+                - href: /os/linux/
+                - href: /os/windows/
+    - title: Google Classroom
+      desc: Google Classroom is a free web-based platform that allows teachers to
+        create and manage virtual classrooms. It enables teachers to easily
+        create and organize assignments, provide feedback, and communicate with
+        students. It also allows students to submit assignments, view grades,
+        and collaborate with their peers. Google Classroom integrates with other
+        Google applications such as Google Drive, Google Docs, and Google
+        Calendar.
+      used_begin_year: 2015
+      used_end_year: 2021
+      _links:
+        self:
+          href: /tools/classroom/
         projects:
           - href: /projects/epicloud/
         jobs:
@@ -2558,8 +2463,8 @@ _embedded:
         collaborate on documents, spreadsheets, and presentations. Google Drive
         also offers a range of features, such as file sharing, version history,
         and real-time collaboration.
-      begin_year: 2015
-      end_year: 2021
+      used_begin_year: 2015
+      used_end_year: 2021
       _links:
         self:
           href: /tools/drive/
@@ -2643,18 +2548,19 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/windows/
-    - title: Docker
-      desc: Docker is an open-source platform for developing, shipping, and running
-        applications. It uses container technology to package applications into
-        isolated, lightweight, and portable containers that can be quickly
-        deployed and moved between different computing environments. Docker also
-        provides a set of tools and services to help developers build, ship, and
-        run applications in a more efficient and secure way.
-      begin_year: 2015
-      end_year: 2021
+    - title: Node
+      desc: Node.js is an open-source, cross-platform JavaScript runtime environment
+        that executes JavaScript code outside of a browser. It is used to create
+        server-side and networking applications. Node.js applications are
+        written in JavaScript and can be run within the Node.js runtime on OS X,
+        Microsoft Windows, and Linux. Node.js also provides a rich library of
+        various JavaScript modules which simplifies the development of web
+        applications using Node.js.
+      used_begin_year: 2015
+      used_end_year: 2021
       _links:
         self:
-          href: /tools/docker/
+          href: /tools/node/
         projects:
           - href: /projects/epicloud/
         jobs:
@@ -2735,19 +2641,113 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/windows/
-    - title: Google Classroom
-      desc: Google Classroom is a free web-based platform that allows teachers to
-        create and manage virtual classrooms. It enables teachers to easily
-        create and organize assignments, provide feedback, and communicate with
-        students. It also allows students to submit assignments, view grades,
-        and collaborate with their peers. Google Classroom integrates with other
-        Google applications such as Google Drive, Google Docs, and Google
-        Calendar.
-      begin_year: 2015
-      end_year: 2021
+    - title: Puppeteer
+      desc: Puppeteer is a Node library developed by Google that provides a high-level
+        API to control headless Chrome or Chromium over the DevTools Protocol.
+        It can be used to automate tasks that would normally be performed
+        manually in the browser, such as form submission, UI testing, keyboard
+        input, or capturing a timeline trace to diagnose performance issues.
+        Puppeteer can also be used to generate screenshots and PDFs of web
+        pages.
+      used_begin_year: 2015
+      used_end_year: 2021
       _links:
         self:
-          href: /tools/classroom/
+          href: /tools/puppeteer/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+      _embedded:
+        projects:
+          - title: EpiCloud
+            subtitle: Infinitely Scaling Bots on AWS
+            desc: null
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epicloud/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
+                - href: /os/linux/
+              jobs:
+                - href: /jobs/fe/
+        jobs:
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: 2022
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/epicloud/
+              languages:
+                - href: /languages/php/
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
+                - href: /os/linux/
+                - href: /os/windows/
+    - title: SikuliX
+      desc: SikuliX is an open-source GUI automation tool that uses image recognition
+        to interact with on-screen elements by matching screenshots. It lets you
+        write scripts in Python (via Jython), Java, and other JVM languages to
+        click, type, and verify UI states without needing native application
+        hooks. Built on OpenCV, SikuliX works across Windows, macOS, and Linux,
+        making it ideal for automating legacy or custom interfaces and
+        integrating with testing frameworks for end-to-end automation or
+        repetitive desktop task scripting.
+      used_begin_year: 2015
+      used_end_year: 2021
+      _links:
+        self:
+          href: /tools/sikulix/
         projects:
           - href: /projects/epicloud/
         jobs:
@@ -2840,8 +2840,8 @@ _embedded:
         logging, etc.), a web-based dashboard and a command-line interface,
         allowing teams to iterate quickly without managing underlying
         infrastructure.
-      begin_year: 2015
-      end_year: 2016
+      used_begin_year: 2015
+      used_end_year: 2016
       _links:
         self:
           href: /tools/heroku/
@@ -2938,8 +2938,8 @@ _embedded:
         components, and its simplicity has made it popular for developers who
         prefer to assemble their own toolchains rather than adopt more
         opinionated frameworks.
-      begin_year: 2010
-      end_year: 2012
+      used_begin_year: 2010
+      used_end_year: 2012
       _links:
         self:
           href: /tools/backbone/
