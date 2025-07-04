@@ -18,6 +18,7 @@ _links:
     - href: /languages/pascal/
     - href: /languages/php/
     - href: /languages/plsql/
+    - href: /languages/psql/
     - href: /languages/py/
     - href: /languages/rb/
     - href: /languages/sql/

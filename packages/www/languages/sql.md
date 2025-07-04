@@ -14,13 +14,11 @@ _links:
   self:
     href: /languages/sql/
   projects:
-    - href: /projects/denver-schedules-api/
     - href: /projects/please/
     - href: /projects/sif-agent/
     - href: /projects/wengage-acct/
     - href: /projects/wengage-si/
   jobs:
-    - href: /jobs/freelance/
     - href: /jobs/mas/
     - href: /jobs/rdi/
 ---

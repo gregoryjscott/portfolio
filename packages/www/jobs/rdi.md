@@ -41,6 +41,7 @@ _links:
     - href: /languages/html/
     - href: /languages/js/
     - href: /languages/plsql/
+    - href: /languages/psql/
     - href: /languages/py/
     - href: /languages/rb/
     - href: /languages/sql/

@@ -14,8 +14,8 @@ _links:
     href: "https://github.com/codeforamerica/denver-schedules-api"
   languages:
     - href: /languages/cs/
+    - href: /languages/psql/
     - href: /languages/rb/
-    - href: /languages/sql/
   db:
     - href: /db/postgres/
   os:
