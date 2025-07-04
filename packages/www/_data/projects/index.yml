@@ -56,8 +56,8 @@ _embedded:
       desc: React Native app built using AI and state machines for learning Spanish or
         English.
       role: Author
-      begin_year: 2024
-      end_year: null
+      begin_year: 2023
+      end_year: present
       _links:
         self:
           href: /projects/nuggets/
@@ -70,8 +70,10 @@ _embedded:
           - href: /tools/ec2/
           - href: /tools/ecr/
           - href: /tools/ecs/
+          - href: /tools/expo/
           - href: /tools/fargate/
           - href: /tools/iam/
+          - href: /tools/node/
           - href: /tools/react-native/
           - href: /tools/s3/
           - href: /tools/sqs/
@@ -141,7 +143,7 @@ _embedded:
               hosting, CI/CD and environment management streamline the
               application lifecycle so teams can focus on features instead of
               infrastructure.
-            used_begin_year: 2024
+            used_begin_year: 2023
             used_end_year: present
             _links:
               self:
@@ -210,6 +212,31 @@ _embedded:
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
+          - title: Expo
+            desc: Expo is an open-source platform and toolchain built around React Native
+              that lets developers write modern JavaScript or TypeScript to
+              produce fully native iOS, Android and web apps without configuring
+              Xcode or Android Studio. It provides a comprehensive SDK of
+              prebuilt, cross-platform APIs (camera, sensors, notifications,
+              maps, file system, etc.), a command-line interface for project
+              scaffolding and local testing, and cloud services for building
+              binaries, over-the-air updates, push-notification delivery and app
+              store publishing. By abstracting away much of the native
+              configuration—while still allowing “ejecting” to integrate custom
+              native modules—Expo accelerates development, simplifies
+              maintenance and lowers the barrier to entry for mobile-first
+              teams.
+            begin_year: 2023
+            end_year: present
+            used_begin_year: 2023
+            used_end_year: present
+            _links:
+              self:
+                href: /tools/expo/
+              projects:
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
           - title: Fargate
             desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
               deploy and manage containers without having to manage the
@@ -250,6 +277,25 @@ _embedded:
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
+          - title: Node
+            desc: Node.js is an open-source, cross-platform JavaScript runtime environment
+              that executes JavaScript code outside of a browser. It is used to
+              create server-side and networking applications. Node.js
+              applications are written in JavaScript and can be run within the
+              Node.js runtime on OS X, Microsoft Windows, and Linux. Node.js
+              also provides a rich library of various JavaScript modules which
+              simplifies the development of web applications using Node.js.
+            used_begin_year: 2015
+            used_end_year: present
+            _links:
+              self:
+                href: /tools/node/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/freelance/
           - title: React Native
             desc: React Native is an open-source framework developed by Facebook that
               enables developers to build mobile apps for iOS and Android using
@@ -266,7 +312,7 @@ _embedded:
               sharing logic and UI components across platforms, React Native
               significantly reduces development time and maintenance overhead
               compared to traditional native app development.
-            used_begin_year: 2024
+            used_begin_year: 2023
             used_end_year: present
             _links:
               self:
@@ -348,7 +394,7 @@ _embedded:
               integrations for React, Vue, Angular, and Node.js, XState delivers
               predictable, testable, and maintainable state management for
               complex synchronous and asynchronous workflows.
-            used_begin_year: 2024
+            used_begin_year: 2023
             used_end_year: present
             _links:
               self:
@@ -368,7 +414,7 @@ _embedded:
               third-party app stores or through online stores such as Google
               Play. Android has been the best-selling OS on tablets since 2013,
               and on smartphones it is dominant by any metric.
-            used_begin_year: 2024
+            used_begin_year: 2023
             used_end_year: present
             _links:
               self:
@@ -387,7 +433,7 @@ _embedded:
               notification center, and access to the App Store for downloading
               apps. iOS also includes features such as iCloud, AirPlay, and
               Apple Pay.
-            used_begin_year: 2024
+            used_begin_year: 2023
             used_end_year: present
             _links:
               self:
@@ -467,11 +513,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -770,11 +818,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -928,7 +978,7 @@ _embedded:
               hosting, CI/CD and environment management streamline the
               application lifecycle so teams can focus on features instead of
               infrastructure.
-            used_begin_year: 2024
+            used_begin_year: 2023
             used_end_year: present
             _links:
               self:
@@ -1010,11 +1060,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -1454,14 +1506,16 @@ _embedded:
               also provides a rich library of various JavaScript modules which
               simplifies the development of web applications using Node.js.
             used_begin_year: 2015
-            used_end_year: 2021
+            used_end_year: present
             _links:
               self:
                 href: /tools/node/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
+                - href: /jobs/freelance/
           - title: Puppeteer
             desc: Puppeteer is a Node library developed by Google that provides a high-level
               API to control headless Chrome or Chromium over the DevTools
@@ -1751,11 +1805,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -1935,11 +1991,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -2558,11 +2616,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -2755,11 +2815,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -2978,11 +3040,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -3175,11 +3239,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -3372,11 +3438,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -5910,11 +5978,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -6461,11 +6531,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
