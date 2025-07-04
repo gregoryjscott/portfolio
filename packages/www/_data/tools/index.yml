@@ -1,6 +1,7 @@
 layout: list
 title: Tools
-desc: List of tools.
+desc: Tools and technologies used to build my software, starting with the most
+  recent.
 _links:
   self:
     href: /tools/
