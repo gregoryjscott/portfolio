@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Languages
-desc: List of languages.
+desc: "Languages I've coded in, starting with the most recent."
 _links:
   self:
     href: /languages/

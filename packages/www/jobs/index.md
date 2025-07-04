@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Jobs
-desc: List of jobs.
+desc: "Jobs in software development, starting with the most recent."
 _links:
   self:
     href: /jobs/
