@@ -52,9 +52,7 @@ function setYearRange() {
       throw `${skill.href} has no projects or schools`
     }
 
-    // TODO - remove begin_year and end_year
-    const { _links, begin_year, end_year, ...rest } =
-      skill.source.markdown.frontmatter
+    const { _links, ...rest } = skill.source.markdown.frontmatter
     const data = {
       ...rest,
       used_begin_year: minYear,
