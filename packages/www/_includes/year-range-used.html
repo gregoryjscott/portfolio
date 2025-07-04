@@ -1,9 +1,8 @@
 {% capture year_range_used -%}
-  {% if include.resource.used_begin_year == include.resource.used_end_year %}
-    Used in {{ include.resource.used_begin_year }}
-  {% else %}
-    Used from {{ include.resource.used_begin_year }} to {{ include.resource.used_end_year }}
-  {% endif %}
+  {{ include.resource.used_begin_year }}
+  {%- unless include.resource.used_begin_year == include.resource.used_end_year -%}
+    &nbsp;–&nbsp;{{ include.resource.used_end_year }}
+  {%- endunless -%}
 {%- endcapture %}
 
 <p>
