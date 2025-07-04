@@ -14,10 +14,10 @@ const resources: Resource[] = getResources()
 const nonIndexResources = resources.filter(r => !r.isIndex)
 const projects = nonIndexResources.filter(r => r.relation === "projects")
 const schools = nonIndexResources.filter(r => r.relation === "schools")
-const targetResources = nonIndexResources.filter(
+const dependentResources = nonIndexResources.filter(
   r => r.relation !== "projects" && r.relation !== "schools"
 )
-const jobs = targetResources.filter(r => r.relation === "jobs")
+const jobs = dependentResources.filter(r => r.relation === "jobs")
 
 function fixSelfLinks() {
   for (const resource of resources) {
@@ -44,9 +44,9 @@ function fixSelfLinks() {
 }
 
 function fixBackLinks() {
-  for (const targetResource of targetResources) {
-    targetResource.source.markdown.frontmatter._links = {
-      self: targetResource.source.markdown.frontmatter._links.self,
+  for (const dependentResource of dependentResources) {
+    dependentResource.source.markdown.frontmatter._links = {
+      self: dependentResource.source.markdown.frontmatter._links.self,
     }
   }
 
@@ -59,7 +59,7 @@ function fixBackLinks() {
       for (const projectRelationLink of projectRelationLinks) {
         const linkedResource = findResource(
           projectRelationLink,
-          targetResources
+          dependentResources
         )
         const linkedResourceProjectLinks = [].concat(
           findRelationLinks(linkedResource, "projects")
@@ -93,7 +93,10 @@ function fixBackLinks() {
         findRelationLinks(school, schoolRelation)
       )
       for (const schoolRelationLink of schoolRelationLinks) {
-        const linkedResource = findResource(schoolRelationLink, targetResources)
+        const linkedResource = findResource(
+          schoolRelationLink,
+          dependentResources
+        )
         const linkedResourceSchoolLinks = [].concat(
           findRelationLinks(linkedResource, "schools")
         )
@@ -166,6 +169,24 @@ function sortRelations(resource: Resource) {
         }
       )
     ),
+  }
+
+  // Relation links on dependent resources are overwritten (and therefore sorted), so
+  // we only need to sort the relation links on non-dependent resources.
+  if (!dependentResources.includes(resource)) {
+    const resourceRelations = findRelations(resource).filter(
+      pr => pr !== "self"
+    )
+    for (const relation of resourceRelations) {
+      const projectRelationLinks = [].concat(
+        findRelationLinks(resource, relation)
+      )
+      const jobRelationLinks = [].concat(findRelationLinks(resource, relation))
+      resource.source.markdown.frontmatter._links[relation] = sortBy(
+        uniqBy([...jobRelationLinks, ...projectRelationLinks], l => l.href),
+        l => l.href
+      )
+    }
   }
 }
 

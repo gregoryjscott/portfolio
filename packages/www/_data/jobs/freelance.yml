@@ -112,11 +112,11 @@ _embedded:
           - href: /languages/rb/
           - href: /languages/ts/
         tools:
-          - href: /tools/jekyll/
           - href: /tools/hal/
+          - href: /tools/jekyll/
         os:
-          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/macos/
         jobs:
           - href: /jobs/freelance/
     - title: hazelandgreg.wedding
@@ -189,8 +189,8 @@ _embedded:
         tools:
           - href: /tools/jekyll/
         os:
-          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/macos/
         jobs:
           - href: /jobs/freelance/
     - title: jekyll-load
@@ -209,8 +209,8 @@ _embedded:
         tools:
           - href: /tools/jekyll/
         os:
-          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/macos/
         jobs:
           - href: /jobs/freelance/
     - title: jekyll-embed
@@ -228,11 +228,11 @@ _embedded:
         languages:
           - href: /languages/rb/
         tools:
-          - href: /tools/jekyll/
           - href: /tools/hal/
+          - href: /tools/jekyll/
         os:
-          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/macos/
         jobs:
           - href: /jobs/freelance/
     - title: jekyll-api
@@ -251,8 +251,8 @@ _embedded:
         tools:
           - href: /tools/jekyll/
         os:
-          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/macos/
         jobs:
           - href: /jobs/freelance/
     - title: Denver Schedules API
@@ -274,9 +274,9 @@ _embedded:
         db:
           - href: /db/postgres/
         os:
-          - href: /os/windows/
-          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
         jobs:
           - href: /jobs/freelance/
     - title: Simpler
@@ -294,9 +294,9 @@ _embedded:
           - href: /languages/cs/
           - href: /languages/rb/
         os:
-          - href: /os/windows/
-          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
         jobs:
           - href: /jobs/freelance/
     - title: MvcIntegrationTestFramework

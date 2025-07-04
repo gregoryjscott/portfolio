@@ -40,9 +40,9 @@ _embedded:
         db:
           - href: /db/postgres/
         os:
-          - href: /os/windows/
-          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
         jobs:
           - href: /jobs/freelance/
     - title: ScrambleScore
@@ -63,9 +63,9 @@ _embedded:
         db:
           - href: /db/postgres/
         os:
-          - href: /os/windows/
-          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
   jobs:

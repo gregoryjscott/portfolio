@@ -58,7 +58,7 @@ content: >-
   ## Skills
 
 
-  {% for resource in site.data.index.resources %}
+  {% for resource in site.data.resources %}
     {% include resume/skill.html site_resource=resource embedded=page._embedded %}
   {% endfor %}
 
@@ -541,9 +541,9 @@ _embedded:
           - href: /tools/node/
           - href: /tools/puppeteer/
           - href: /tools/s3/
+          - href: /tools/sikulix/
           - href: /tools/sqs/
           - href: /tools/vpc/
-          - href: /tools/sikulix/
         os:
           - href: /os/linux/
         jobs:
@@ -1709,11 +1709,11 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               tools:
-                - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: EpiCloud
@@ -1743,9 +1743,9 @@ _embedded:
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
+                - href: /tools/sikulix/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
-                - href: /tools/sikulix/
               os:
                 - href: /os/linux/
               jobs:
@@ -1894,11 +1894,11 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               tools:
-                - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: fortworthtexas.gov
@@ -1934,8 +1934,8 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-load
@@ -1954,8 +1954,8 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-embed
@@ -1973,11 +1973,11 @@ _embedded:
               languages:
                 - href: /languages/rb/
               tools:
-                - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-api
@@ -1996,8 +1996,8 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: Denver Schedules API
@@ -2019,9 +2019,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: Centroid
@@ -2041,9 +2041,9 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Alaska Gasline Development Corporation
@@ -2109,9 +2109,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Simpler
@@ -2129,9 +2129,9 @@ _embedded:
                 - href: /languages/cs/
                 - href: /languages/rb/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
         jobs:
@@ -2295,11 +2295,11 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               tools:
-                - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: hazelandgreg.wedding
@@ -2406,9 +2406,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Energy Efficiency Map
@@ -2665,11 +2665,11 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               tools:
-                - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: hazelandgreg.wedding
@@ -2776,9 +2776,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Energy Efficiency Map
@@ -3135,9 +3135,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Energy Efficiency Map
@@ -3456,9 +3456,9 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Alaska Gasline Development Corporation
@@ -3819,9 +3819,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: Centroid
@@ -3841,9 +3841,9 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Alaska Gasline Development Corporation
@@ -3970,9 +3970,9 @@ _embedded:
                 - href: /languages/cs/
                 - href: /languages/rb/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: Quality Bank
@@ -4453,9 +4453,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: Alaska Gasline Development Corporation
@@ -4815,8 +4815,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
           - title: Wen-GAGE Accounting
@@ -4835,8 +4835,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
         jobs:
@@ -5217,8 +5217,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
           - title: Wen-GAGE Accounting
@@ -5237,8 +5237,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
           - title: Class Scheduler
@@ -5256,8 +5256,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
         jobs:
@@ -5409,10 +5409,10 @@ _embedded:
               self:
                 href: /schools/uco/
               languages:
-                - href: /languages/fortran/
-                - href: /languages/pascal/
                 - href: /languages/c/
                 - href: /languages/cpp/
+                - href: /languages/fortran/
+                - href: /languages/pascal/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -5453,10 +5453,10 @@ _embedded:
               self:
                 href: /schools/uco/
               languages:
-                - href: /languages/fortran/
-                - href: /languages/pascal/
                 - href: /languages/c/
                 - href: /languages/cpp/
+                - href: /languages/fortran/
+                - href: /languages/pascal/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -5497,10 +5497,10 @@ _embedded:
               self:
                 href: /schools/uco/
               languages:
-                - href: /languages/fortran/
-                - href: /languages/pascal/
                 - href: /languages/c/
                 - href: /languages/cpp/
+                - href: /languages/fortran/
+                - href: /languages/pascal/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -5540,10 +5540,10 @@ _embedded:
               self:
                 href: /schools/uco/
               languages:
-                - href: /languages/fortran/
-                - href: /languages/pascal/
                 - href: /languages/c/
                 - href: /languages/cpp/
+                - href: /languages/fortran/
+                - href: /languages/pascal/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -5584,10 +5584,10 @@ _embedded:
               self:
                 href: /schools/uco/
               languages:
-                - href: /languages/fortran/
-                - href: /languages/pascal/
                 - href: /languages/c/
                 - href: /languages/cpp/
+                - href: /languages/fortran/
+                - href: /languages/pascal/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -5695,9 +5695,9 @@ _embedded:
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
+                - href: /tools/sikulix/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
-                - href: /tools/sikulix/
               os:
                 - href: /os/linux/
               jobs:
@@ -5924,9 +5924,9 @@ _embedded:
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
+                - href: /tools/sikulix/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
-                - href: /tools/sikulix/
               os:
                 - href: /os/linux/
               jobs:
@@ -6113,9 +6113,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: ScrambleScore
@@ -6136,9 +6136,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
         jobs:
@@ -6916,8 +6916,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
           - title: Wen-GAGE Accounting
@@ -6936,8 +6936,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
           - title: Class Scheduler
@@ -6955,8 +6955,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
         jobs:
@@ -7025,8 +7025,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
           - title: Wen-GAGE Accounting
@@ -7045,8 +7045,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
           - title: Class Scheduler
@@ -7064,8 +7064,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
         jobs:
@@ -7531,9 +7531,9 @@ _embedded:
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
+                - href: /tools/sikulix/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
-                - href: /tools/sikulix/
               os:
                 - href: /os/linux/
               jobs:
@@ -7715,9 +7715,9 @@ _embedded:
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
+                - href: /tools/sikulix/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
-                - href: /tools/sikulix/
               os:
                 - href: /os/linux/
               jobs:
@@ -7897,9 +7897,9 @@ _embedded:
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
+                - href: /tools/sikulix/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
-                - href: /tools/sikulix/
               os:
                 - href: /os/linux/
               jobs:
@@ -8079,9 +8079,9 @@ _embedded:
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
+                - href: /tools/sikulix/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
-                - href: /tools/sikulix/
               os:
                 - href: /os/linux/
               jobs:
@@ -8261,9 +8261,9 @@ _embedded:
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
+                - href: /tools/sikulix/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
-                - href: /tools/sikulix/
               os:
                 - href: /os/linux/
               jobs:
@@ -8443,9 +8443,9 @@ _embedded:
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
+                - href: /tools/sikulix/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
-                - href: /tools/sikulix/
               os:
                 - href: /os/linux/
               jobs:
@@ -8625,9 +8625,9 @@ _embedded:
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
+                - href: /tools/sikulix/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
-                - href: /tools/sikulix/
               os:
                 - href: /os/linux/
               jobs:
@@ -8807,9 +8807,9 @@ _embedded:
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
+                - href: /tools/sikulix/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
-                - href: /tools/sikulix/
               os:
                 - href: /os/linux/
               jobs:
@@ -8953,11 +8953,11 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               tools:
-                - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: fortworthtexas.gov
@@ -8993,8 +8993,8 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-load
@@ -9013,8 +9013,8 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-embed
@@ -9032,11 +9032,11 @@ _embedded:
               languages:
                 - href: /languages/rb/
               tools:
-                - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-api
@@ -9055,8 +9055,8 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
         jobs:
@@ -9158,11 +9158,11 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               tools:
-                - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-embed
@@ -9180,11 +9180,11 @@ _embedded:
               languages:
                 - href: /languages/rb/
               tools:
-                - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
         jobs:
@@ -9290,9 +9290,9 @@ _embedded:
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
+                - href: /tools/sikulix/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
-                - href: /tools/sikulix/
               os:
                 - href: /os/linux/
               jobs:
@@ -9383,9 +9383,9 @@ _embedded:
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
+                - href: /tools/sikulix/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
-                - href: /tools/sikulix/
               os:
                 - href: /os/linux/
               jobs:
@@ -9476,9 +9476,9 @@ _embedded:
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
+                - href: /tools/sikulix/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
-                - href: /tools/sikulix/
               os:
                 - href: /os/linux/
               jobs:
@@ -9569,9 +9569,9 @@ _embedded:
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
+                - href: /tools/sikulix/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
-                - href: /tools/sikulix/
               os:
                 - href: /os/linux/
               jobs:
@@ -9663,9 +9663,9 @@ _embedded:
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
+                - href: /tools/sikulix/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
-                - href: /tools/sikulix/
               os:
                 - href: /os/linux/
               jobs:
@@ -9755,9 +9755,9 @@ _embedded:
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
+                - href: /tools/sikulix/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
-                - href: /tools/sikulix/
               os:
                 - href: /os/linux/
               jobs:
@@ -9848,9 +9848,9 @@ _embedded:
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
+                - href: /tools/sikulix/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
-                - href: /tools/sikulix/
               os:
                 - href: /os/linux/
               jobs:
@@ -10366,11 +10366,11 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               tools:
-                - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: aprender
@@ -10406,8 +10406,8 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-load
@@ -10426,8 +10426,8 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-embed
@@ -10445,11 +10445,11 @@ _embedded:
               languages:
                 - href: /languages/rb/
               tools:
-                - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-api
@@ -10468,8 +10468,8 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: Denver Schedules API
@@ -10491,9 +10491,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: Centroid
@@ -10513,9 +10513,9 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: ScrambleScore
@@ -10536,9 +10536,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Simpler
@@ -10556,9 +10556,9 @@ _embedded:
                 - href: /languages/cs/
                 - href: /languages/rb/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
         jobs:
@@ -10756,11 +10756,11 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               tools:
-                - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: hazelandgreg.wedding
@@ -10810,9 +10810,9 @@ _embedded:
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
+                - href: /tools/sikulix/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
-                - href: /tools/sikulix/
               os:
                 - href: /os/linux/
               jobs:
@@ -10850,8 +10850,8 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-load
@@ -10870,8 +10870,8 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-embed
@@ -10889,11 +10889,11 @@ _embedded:
               languages:
                 - href: /languages/rb/
               tools:
-                - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-api
@@ -10912,8 +10912,8 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: Denver Schedules API
@@ -10935,9 +10935,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: Centroid
@@ -10957,9 +10957,9 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: ScrambleScore
@@ -10980,9 +10980,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Simpler
@@ -11000,9 +11000,9 @@ _embedded:
                 - href: /languages/cs/
                 - href: /languages/rb/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
         jobs:
@@ -11247,9 +11247,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: Centroid
@@ -11269,9 +11269,9 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Alaska Gasline Development Corporation
@@ -11396,9 +11396,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Energy Efficiency Map
@@ -11438,9 +11438,9 @@ _embedded:
                 - href: /languages/cs/
                 - href: /languages/rb/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: Quality Bank
@@ -11775,8 +11775,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
           - title: Wen-GAGE Accounting
@@ -11795,8 +11795,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
           - title: Class Scheduler
@@ -11814,8 +11814,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
         jobs:
@@ -12014,10 +12014,10 @@ _embedded:
               self:
                 href: /schools/uco/
               languages:
-                - href: /languages/fortran/
-                - href: /languages/pascal/
                 - href: /languages/c/
                 - href: /languages/cpp/
+                - href: /languages/fortran/
+                - href: /languages/pascal/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -12062,8 +12062,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
           - title: Wen-GAGE Accounting
@@ -12082,8 +12082,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
           - title: Class Scheduler
@@ -12101,8 +12101,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
         jobs:
@@ -12258,10 +12258,10 @@ _embedded:
               self:
                 href: /schools/uco/
               languages:
-                - href: /languages/fortran/
-                - href: /languages/pascal/
                 - href: /languages/c/
                 - href: /languages/cpp/
+                - href: /languages/fortran/
+                - href: /languages/pascal/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -12302,10 +12302,10 @@ _embedded:
               self:
                 href: /schools/uco/
               languages:
-                - href: /languages/fortran/
-                - href: /languages/pascal/
                 - href: /languages/c/
                 - href: /languages/cpp/
+                - href: /languages/fortran/
+                - href: /languages/pascal/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -12426,11 +12426,11 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               tools:
-                - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: hazelandgreg.wedding
@@ -12503,8 +12503,8 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-load
@@ -12523,8 +12523,8 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-embed
@@ -12542,11 +12542,11 @@ _embedded:
               languages:
                 - href: /languages/rb/
               tools:
-                - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-api
@@ -12565,8 +12565,8 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: Denver Schedules API
@@ -12588,9 +12588,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: Simpler
@@ -12608,9 +12608,9 @@ _embedded:
                 - href: /languages/cs/
                 - href: /languages/rb/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: MvcIntegrationTestFramework
@@ -13438,9 +13438,9 @@ _embedded:
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
+                - href: /tools/sikulix/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
-                - href: /tools/sikulix/
               os:
                 - href: /os/linux/
               jobs:
@@ -14010,9 +14010,9 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Alaska Gasline Development Corporation
@@ -14137,9 +14137,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Energy Efficiency Map
@@ -15027,8 +15027,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
           - title: Wen-GAGE Accounting
@@ -15047,8 +15047,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
           - title: Class Scheduler
@@ -15066,8 +15066,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
         languages:
@@ -15430,10 +15430,10 @@ _embedded:
         self:
           href: /schools/uco/
         languages:
-          - href: /languages/fortran/
-          - href: /languages/pascal/
           - href: /languages/c/
           - href: /languages/cpp/
+          - href: /languages/fortran/
+          - href: /languages/pascal/
           - href: /languages/vb/
         os:
           - href: /os/aix/
@@ -15455,38 +15455,6 @@ _embedded:
             _links:
               self:
                 href: /languages/vb/
-              schools:
-                - href: /schools/uco/
-          - title: C++
-            desc: C++ is a general-purpose, object-oriented programming language developed
-              by Bjarne Stroustrup in 1985. It is an extension of the C language
-              and provides features such as classes, inheritance, polymorphism,
-              templates, and exception handling. C++ is used to develop a wide
-              range of applications, from system software to high-performance
-              server and client applications, and is one of the most popular
-              programming languages in the world.
-            begin_year: 1994
-            end_year: 1998
-            _links:
-              self:
-                href: /languages/cpp/
-              schools:
-                - href: /schools/uco/
-          - title: C
-            desc: C is a general-purpose, procedural programming language developed in the
-              early 1970s by Dennis Ritchie. It is a low-level language, meaning
-              it can be used to control hardware and memory, and is often used
-              for system programming. C is a compiled language, meaning that it
-              is converted into machine code before being executed. It is also a
-              structured language, meaning that it is organized into functions,
-              which can be called from other parts of the program. C is widely
-              used in many applications, including operating systems, embedded
-              systems, and scientific computing.
-            begin_year: 1994
-            end_year: 1998
-            _links:
-              self:
-                href: /languages/c/
               schools:
                 - href: /schools/uco/
           - title: Pascal
@@ -15520,6 +15488,38 @@ _embedded:
             _links:
               self:
                 href: /languages/fortran/
+              schools:
+                - href: /schools/uco/
+          - title: C++
+            desc: C++ is a general-purpose, object-oriented programming language developed
+              by Bjarne Stroustrup in 1985. It is an extension of the C language
+              and provides features such as classes, inheritance, polymorphism,
+              templates, and exception handling. C++ is used to develop a wide
+              range of applications, from system software to high-performance
+              server and client applications, and is one of the most popular
+              programming languages in the world.
+            begin_year: 1994
+            end_year: 1998
+            _links:
+              self:
+                href: /languages/cpp/
+              schools:
+                - href: /schools/uco/
+          - title: C
+            desc: C is a general-purpose, procedural programming language developed in the
+              early 1970s by Dennis Ritchie. It is a low-level language, meaning
+              it can be used to control hardware and memory, and is often used
+              for system programming. C is a compiled language, meaning that it
+              is converted into machine code before being executed. It is also a
+              structured language, meaning that it is organized into functions,
+              which can be called from other parts of the program. C is widely
+              used in many applications, including operating systems, embedded
+              systems, and scientific computing.
+            begin_year: 1994
+            end_year: 1998
+            _links:
+              self:
+                href: /languages/c/
               schools:
                 - href: /schools/uco/
         os:

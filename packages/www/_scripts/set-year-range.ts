@@ -6,10 +6,10 @@ const resources: Resource[] = getResources()
 const nonIndexResources = resources.filter(r => !r.isIndex)
 const projects = nonIndexResources.filter(r => r.relation === "projects")
 const schools = nonIndexResources.filter(r => r.relation === "schools")
-const targetResources = nonIndexResources.filter(
+const dependentResources = nonIndexResources.filter(
   r => r.relation !== "projects" && r.relation !== "schools"
 )
-const skills = targetResources.filter(r => r.relation !== "jobs")
+const skills = dependentResources.filter(r => r.relation !== "jobs")
 
 function setYearRange() {
   for (const skill of skills) {

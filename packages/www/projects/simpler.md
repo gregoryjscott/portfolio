@@ -14,9 +14,9 @@ _links:
     - href: /languages/cs/
     - href: /languages/rb/
   os:
-    - href: /os/windows/
-    - href: /os/macos/
     - href: /os/linux/
+    - href: /os/macos/
+    - href: /os/windows/
   jobs:
     - href: /jobs/freelance/
 ---

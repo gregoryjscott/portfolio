@@ -24,10 +24,10 @@ _embedded:
         self:
           href: /schools/uco/
         languages:
-          - href: /languages/fortran/
-          - href: /languages/pascal/
           - href: /languages/c/
           - href: /languages/cpp/
+          - href: /languages/fortran/
+          - href: /languages/pascal/
           - href: /languages/vb/
         os:
           - href: /os/aix/
@@ -49,38 +49,6 @@ _embedded:
             _links:
               self:
                 href: /languages/vb/
-              schools:
-                - href: /schools/uco/
-          - title: C++
-            desc: C++ is a general-purpose, object-oriented programming language developed
-              by Bjarne Stroustrup in 1985. It is an extension of the C language
-              and provides features such as classes, inheritance, polymorphism,
-              templates, and exception handling. C++ is used to develop a wide
-              range of applications, from system software to high-performance
-              server and client applications, and is one of the most popular
-              programming languages in the world.
-            begin_year: 1994
-            end_year: 1998
-            _links:
-              self:
-                href: /languages/cpp/
-              schools:
-                - href: /schools/uco/
-          - title: C
-            desc: C is a general-purpose, procedural programming language developed in the
-              early 1970s by Dennis Ritchie. It is a low-level language, meaning
-              it can be used to control hardware and memory, and is often used
-              for system programming. C is a compiled language, meaning that it
-              is converted into machine code before being executed. It is also a
-              structured language, meaning that it is organized into functions,
-              which can be called from other parts of the program. C is widely
-              used in many applications, including operating systems, embedded
-              systems, and scientific computing.
-            begin_year: 1994
-            end_year: 1998
-            _links:
-              self:
-                href: /languages/c/
               schools:
                 - href: /schools/uco/
           - title: Pascal
@@ -114,6 +82,38 @@ _embedded:
             _links:
               self:
                 href: /languages/fortran/
+              schools:
+                - href: /schools/uco/
+          - title: C++
+            desc: C++ is a general-purpose, object-oriented programming language developed
+              by Bjarne Stroustrup in 1985. It is an extension of the C language
+              and provides features such as classes, inheritance, polymorphism,
+              templates, and exception handling. C++ is used to develop a wide
+              range of applications, from system software to high-performance
+              server and client applications, and is one of the most popular
+              programming languages in the world.
+            begin_year: 1994
+            end_year: 1998
+            _links:
+              self:
+                href: /languages/cpp/
+              schools:
+                - href: /schools/uco/
+          - title: C
+            desc: C is a general-purpose, procedural programming language developed in the
+              early 1970s by Dennis Ritchie. It is a low-level language, meaning
+              it can be used to control hardware and memory, and is often used
+              for system programming. C is a compiled language, meaning that it
+              is converted into machine code before being executed. It is also a
+              structured language, meaning that it is organized into functions,
+              which can be called from other parts of the program. C is widely
+              used in many applications, including operating systems, embedded
+              systems, and scientific computing.
+            begin_year: 1994
+            end_year: 1998
+            _links:
+              self:
+                href: /languages/c/
               schools:
                 - href: /schools/uco/
         os:

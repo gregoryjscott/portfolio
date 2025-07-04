@@ -17,9 +17,9 @@ _links:
     - href: /languages/py/
     - href: /languages/rb/
   os:
-    - href: /os/windows/
-    - href: /os/macos/
     - href: /os/linux/
+    - href: /os/macos/
+    - href: /os/windows/
   jobs:
     - href: /jobs/rdi/
 ---

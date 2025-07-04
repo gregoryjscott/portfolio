@@ -16,8 +16,8 @@ _links:
     - href: /db/btrieve/
     - href: /db/pervasive/
   os:
-    - href: /os/windows/
     - href: /os/netware/
+    - href: /os/windows/
   jobs:
     - href: /jobs/mas/
 ---
