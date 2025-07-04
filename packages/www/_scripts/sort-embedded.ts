@@ -1,24 +1,41 @@
-import { Relation, Sortable, Yaml } from "./types"
+import { Relation, Resource, Sortable, Yaml } from "./types"
 
-export function sortEmbedded<T extends Yaml>(data: T): T {
+export function sortEmbedded<T extends Yaml>(
+  resource: Resource,
+  isIndex: boolean,
+  data: T
+): T {
   if (!data._embedded) {
     return data
   }
 
   const relations = Object.keys(data._embedded) as Relation[]
   for (const relation of relations) {
-    data = sortEmbeddedResource(relation, data)
+    data = sortEmbeddedResource(resource, relation, isIndex, data)
   }
 
   return data
 }
 
-function sortEmbeddedResource<T extends Yaml>(relation: Relation, data: T): T {
+function sortEmbeddedResource<T extends Yaml>(
+  resource: Resource,
+  relation: Relation,
+  isIndex: boolean,
+  data: T
+): T {
+  const sortMethod =
+    (isIndex && resource.relation !== "resume") ||
+    relation === "projects" ||
+    relation === "jobs" ||
+    relation === "schools"
+      ? byRecent
+      : byTitle
+
   data = {
     ...data,
     _embedded: {
       ...data._embedded,
-      [relation]: byRecent(data._embedded[relation]),
+      [relation]: sortMethod(data._embedded[relation]),
     },
   }
 
@@ -26,7 +43,9 @@ function sortEmbeddedResource<T extends Yaml>(relation: Relation, data: T): T {
     ...data,
     _embedded: {
       ...data._embedded,
-      [relation]: data._embedded[relation].map(sortEmbedded),
+      [relation]: data._embedded[relation].map(item =>
+        sortEmbedded(resource, false, item)
+      ),
     },
   } as T
 }
@@ -47,6 +66,12 @@ function byRecent(items: Sortable[]): Sortable[] {
       return beginYearB - beginYearA
     }
 
-    return a.title.localeCompare(b.title)
+    return a.title.toLowerCase().localeCompare(b.title.toLowerCase())
+  })
+}
+
+function byTitle(items: Sortable[]): Sortable[] {
+  return items.sort((a, b) => {
+    return a.title.toLowerCase().localeCompare(b.title.toLowerCase())
   })
 }
