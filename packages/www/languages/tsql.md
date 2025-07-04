@@ -20,6 +20,7 @@ _links:
     - href: /projects/qb/
     - href: /projects/scrum-tools/
     - href: /projects/systems-portal/
+    - href: /projects/train-builder/
   jobs:
     - href: /jobs/rdi/
 ---

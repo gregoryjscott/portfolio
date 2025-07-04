@@ -11,7 +11,7 @@ _links:
     href: /projects/train-builder/
   languages:
     - href: /languages/cs/
-    - href: /languages/sql/
+    - href: /languages/tsql/
   db:
     - href: /db/sql-server/
   os:
