@@ -17,6 +17,7 @@ _links:
   db:
     - href: /db/sqlite/
   os:
+    - href: /os/macos/
     - href: /os/windows/
   jobs:
     - href: /jobs/rdi/

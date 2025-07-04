@@ -31,6 +31,7 @@ _links:
     - href: /tools/vpc/
   os:
     - href: /os/linux/
+    - href: /os/macos/
   jobs:
     - href: /jobs/fe/
 ---
