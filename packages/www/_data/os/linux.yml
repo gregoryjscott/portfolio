@@ -5,7 +5,7 @@ desc: Linux is an open-source operating system that is based on the Linux
   is highly customizable and can be used for a variety of tasks, from web
   hosting to software development. It is also highly secure and reliable, making
   it a popular choice for many users.
-used_begin_year: 2010
+used_begin_year: 2012
 used_end_year: present
 _links:
   self:
@@ -22,7 +22,6 @@ _links:
     - href: /projects/la-boda/
     - href: /projects/nuggets/
     - href: /projects/scramble-score/
-    - href: /projects/simpler/
     - href: /projects/this-site/
   jobs:
     - href: /jobs/fe/
@@ -141,6 +140,7 @@ _embedded:
           - href: /tools/vpc/
         os:
           - href: /os/linux/
+          - href: /os/macos/
         jobs:
           - href: /jobs/fe/
     - title: fortworthtexas.gov
@@ -202,8 +202,6 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/linux/
-          - href: /os/macos/
-          - href: /os/windows/
         jobs:
           - href: /jobs/freelance/
     - title: jekyll-api
@@ -308,30 +306,8 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/linux/
-          - href: /os/macos/
-          - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
-    - title: Simpler
-      desc: Library that provides a simpler approach to C# class design.
-      role: Author
-      begin_year: 2010
-      end_year: 2013
-      _links:
-        self:
-          href: /projects/simpler/
-        code:
-          title: github.com/gregoryjscott/Simpler
-          href: https://github.com/gregoryjscott/Simpler
-        languages:
-          - href: /languages/cs/
-          - href: /languages/rb/
-        os:
-          - href: /os/linux/
-          - href: /os/macos/
-          - href: /os/windows/
-        jobs:
-          - href: /jobs/freelance/
   jobs:
     - title: Freelance Programmer
       desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -428,6 +404,7 @@ _embedded:
           - href: /tools/vpc/
         os:
           - href: /os/linux/
+          - href: /os/macos/
           - href: /os/windows/
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,

@@ -113,8 +113,6 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/linux/
-          - href: /os/macos/
-          - href: /os/windows/
         jobs:
           - href: /jobs/freelance/
     - title: jekyll-api
@@ -240,6 +238,7 @@ _embedded:
         db:
           - href: /db/sqlite/
         os:
+          - href: /os/macos/
           - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
@@ -263,8 +262,6 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/linux/
-          - href: /os/macos/
-          - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
     - title: Simpler
@@ -282,8 +279,6 @@ _embedded:
           - href: /languages/cs/
           - href: /languages/rb/
         os:
-          - href: /os/linux/
-          - href: /os/macos/
           - href: /os/windows/
         jobs:
           - href: /jobs/freelance/

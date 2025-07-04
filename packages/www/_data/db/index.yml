@@ -125,6 +125,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -223,6 +224,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Firebase
       desc: Firebase’s Realtime Database is a cloud-hosted, NoSQL JSON data store that
@@ -303,6 +305,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: BigQuery
       desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
@@ -356,6 +359,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -397,6 +401,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Postgres
       desc: Postgres is an open source object-relational database management system
@@ -442,8 +447,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: ScrambleScore
@@ -466,8 +469,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
         jobs:
@@ -621,6 +622,7 @@ _embedded:
               db:
                 - href: /db/sqlite/
               os:
+                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/

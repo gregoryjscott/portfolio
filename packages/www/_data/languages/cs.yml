@@ -83,8 +83,6 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/linux/
-          - href: /os/macos/
-          - href: /os/windows/
         jobs:
           - href: /jobs/freelance/
     - title: Alaska Gasline Development Corporation
@@ -128,6 +126,7 @@ _embedded:
         db:
           - href: /db/sqlite/
         os:
+          - href: /os/macos/
           - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
@@ -207,8 +206,6 @@ _embedded:
           - href: /languages/cs/
           - href: /languages/rb/
         os:
-          - href: /os/linux/
-          - href: /os/macos/
           - href: /os/windows/
         jobs:
           - href: /jobs/freelance/

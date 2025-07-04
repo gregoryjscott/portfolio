@@ -136,6 +136,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -234,6 +235,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Ruby
       desc: Ruby is an open-source, object-oriented programming language created by
@@ -350,8 +352,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-api
@@ -477,6 +477,7 @@ _embedded:
               db:
                 - href: /db/sqlite/
               os:
+                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
@@ -500,8 +501,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Simpler
@@ -519,8 +518,6 @@ _embedded:
                 - href: /languages/cs/
                 - href: /languages/rb/
               os:
-                - href: /os/linux/
-                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
@@ -797,8 +794,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Scrum Tools
@@ -1160,8 +1155,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Scrum Tools
@@ -1513,8 +1506,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Scrum Tools
@@ -1790,6 +1781,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Python
       desc: Python is a high-level, interpreted, general-purpose programming language.
@@ -1998,8 +1990,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: Alaska Gasline Development Corporation
@@ -2043,6 +2033,7 @@ _embedded:
               db:
                 - href: /db/sqlite/
               os:
+                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
@@ -2122,8 +2113,6 @@ _embedded:
                 - href: /languages/cs/
                 - href: /languages/rb/
               os:
-                - href: /os/linux/
-                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
@@ -2604,8 +2593,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: Alaska Gasline Development Corporation
@@ -2649,6 +2636,7 @@ _embedded:
               db:
                 - href: /db/sqlite/
               os:
+                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
@@ -2729,8 +2717,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Scrum Tools

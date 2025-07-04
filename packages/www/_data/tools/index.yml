@@ -599,6 +599,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -697,6 +698,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: ECR
       desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
@@ -785,6 +787,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -883,6 +886,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: ECS
       desc: Amazon Elastic Container Service (ECS) is a container orchestration
@@ -971,6 +975,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -1069,6 +1074,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Fargate
       desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
@@ -1157,6 +1163,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -1255,6 +1262,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: IAM
       desc: AWS Identity and Access Management (IAM) is a web service that helps you
@@ -1343,6 +1351,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -1441,6 +1450,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Node
       desc: Node.js is an open-source, cross-platform JavaScript runtime environment
@@ -1529,6 +1539,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -1627,6 +1638,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: S3
       desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
@@ -1715,6 +1727,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -1813,6 +1826,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: SQS
       desc: Amazon Simple Queue Service (SQS) is a fully managed message queuing
@@ -1903,6 +1917,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -2001,6 +2016,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: VPC
       desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
@@ -2091,6 +2107,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -2189,6 +2206,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: HAL
       subtitle: Hypertext Application Language (HAL) is a a media type for
@@ -2578,6 +2596,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -2619,6 +2638,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Firebase
       desc: Google Firebase is a mobile and web application development platform that
@@ -2671,6 +2691,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -2712,6 +2733,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Google Classroom
       desc: Google Classroom is a free web-based platform that allows teachers to
@@ -2764,6 +2786,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -2805,6 +2828,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Google Drive
       desc: Google Drive is a cloud storage service that allows users to store and
@@ -2858,6 +2882,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -2899,6 +2924,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Puppeteer
       desc: Puppeteer is a Node library developed by Google that provides a high-level
@@ -2951,6 +2977,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -2992,6 +3019,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: SikuliX
       desc: SikuliX is an open-source GUI automation tool that uses image recognition
@@ -3045,6 +3073,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -3086,6 +3115,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Heroku
       desc: Heroku is a cloud-based Platform as a Service (PaaS) that simplifies the

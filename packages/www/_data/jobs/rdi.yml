@@ -135,6 +135,7 @@ _embedded:
         db:
           - href: /db/sqlite/
         os:
+          - href: /os/macos/
           - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
@@ -215,8 +216,6 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/linux/
-          - href: /os/macos/
-          - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
     - title: Scrum Tools
@@ -862,7 +861,7 @@ _embedded:
         supercomputers. It is highly customizable and can be used for a variety
         of tasks, from web hosting to software development. It is also highly
         secure and reliable, making it a popular choice for many users.
-      used_begin_year: 2010
+      used_begin_year: 2012
       used_end_year: present
       _links:
         self:
@@ -879,7 +878,6 @@ _embedded:
           - href: /projects/la-boda/
           - href: /projects/nuggets/
           - href: /projects/scramble-score/
-          - href: /projects/simpler/
           - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
@@ -896,7 +894,7 @@ _embedded:
         supports a rich ecosystem of native and third-party applications via the
         Mac App Store and developer tools such as Xcode, making it a popular
         choice for both creative professionals and everyday users.
-      used_begin_year: 2010
+      used_begin_year: 2012
       used_end_year: present
       _links:
         self:
@@ -904,15 +902,15 @@ _embedded:
         projects:
           - href: /projects/aprender/
           - href: /projects/centroid/
-          - href: /projects/denver-schedules-api/
+          - href: /projects/epicloud/
           - href: /projects/jekyll-api/
           - href: /projects/jekyll-embed/
           - href: /projects/jekyll-load/
           - href: /projects/jekyll-prep/
-          - href: /projects/scramble-score/
-          - href: /projects/simpler/
+          - href: /projects/please/
           - href: /projects/this-site/
         jobs:
+          - href: /jobs/fe/
           - href: /jobs/freelance/
           - href: /jobs/rdi/
     - title: Windows
@@ -941,7 +939,6 @@ _embedded:
           - href: /projects/class-scheduler/
           - href: /projects/consumption-views/
           - href: /projects/database-sync-awwu/
-          - href: /projects/denver-schedules-api/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
           - href: /projects/epic-ca-enrollment/
@@ -952,7 +949,6 @@ _embedded:
           - href: /projects/qb/
           - href: /projects/report-engine/
           - href: /projects/sar-reports/
-          - href: /projects/scramble-score/
           - href: /projects/scrum-tools/
           - href: /projects/sif-agent/
           - href: /projects/simpler/

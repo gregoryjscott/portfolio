@@ -110,6 +110,7 @@ _embedded:
           - href: /tools/vpc/
         os:
           - href: /os/linux/
+          - href: /os/macos/
         jobs:
           - href: /jobs/fe/
   jobs:
@@ -208,4 +209,5 @@ _embedded:
           - href: /tools/vpc/
         os:
           - href: /os/linux/
+          - href: /os/macos/
           - href: /os/windows/

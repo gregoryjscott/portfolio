@@ -450,7 +450,7 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -467,7 +467,6 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
                 - href: /projects/scramble-score/
-                - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
@@ -724,7 +723,7 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -741,7 +740,6 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
                 - href: /projects/scramble-score/
-                - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
@@ -759,7 +757,7 @@ _embedded:
               third-party applications via the Mac App Store and developer tools
               such as Xcode, making it a popular choice for both creative
               professionals and everyday users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -767,15 +765,15 @@ _embedded:
               projects:
                 - href: /projects/aprender/
                 - href: /projects/centroid/
-                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-load/
                 - href: /projects/jekyll-prep/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
+                - href: /projects/please/
                 - href: /projects/this-site/
               jobs:
+                - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
         jobs:
@@ -997,7 +995,7 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -1014,7 +1012,6 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
                 - href: /projects/scramble-score/
-                - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
@@ -1164,7 +1161,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -1175,7 +1171,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -1230,6 +1225,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: EpiCloud
       subtitle: Infinitely Scaling Bots on AWS
@@ -1263,6 +1259,7 @@ _embedded:
           - href: /tools/vpc/
         os:
           - href: /os/linux/
+          - href: /os/macos/
         jobs:
           - href: /jobs/fe/
       _embedded:
@@ -1624,7 +1621,7 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -1641,7 +1638,37 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
                 - href: /projects/scramble-score/
-                - href: /projects/simpler/
+                - href: /projects/this-site/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/freelance/
+                - href: /jobs/rdi/
+          - title: macOS
+            desc: macOS is Apple’s Unix‐based desktop operating system, first released in
+              2001 as Mac OS X and built on the open‐source Darwin core and the
+              proprietary XNU kernel. Designed exclusively for Mac computers, it
+              combines a polished Aqua graphical interface with deep integration
+              of hardware and software, offering features like Spotlight search,
+              Time Machine backups, and Continuity for seamless work across
+              Apple devices. With strong emphasis on stability, security and
+              performance, macOS supports a rich ecosystem of native and
+              third-party applications via the Mac App Store and developer tools
+              such as Xcode, making it a popular choice for both creative
+              professionals and everyday users.
+            used_begin_year: 2012
+            used_end_year: present
+            _links:
+              self:
+                href: /os/macos/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/centroid/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/please/
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
@@ -1686,6 +1713,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: aprender
       desc: CLI for learning Spanish
@@ -1746,7 +1774,7 @@ _embedded:
               third-party applications via the Mac App Store and developer tools
               such as Xcode, making it a popular choice for both creative
               professionals and everyday users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -1754,15 +1782,15 @@ _embedded:
               projects:
                 - href: /projects/aprender/
                 - href: /projects/centroid/
-                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-load/
                 - href: /projects/jekyll-prep/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
+                - href: /projects/please/
                 - href: /projects/this-site/
               jobs:
+                - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
         jobs:
@@ -1928,7 +1956,7 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -1945,7 +1973,6 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
                 - href: /projects/scramble-score/
-                - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
@@ -2132,7 +2159,7 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -2149,7 +2176,6 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
                 - href: /projects/scramble-score/
-                - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
@@ -2167,7 +2193,7 @@ _embedded:
               third-party applications via the Mac App Store and developer tools
               such as Xcode, making it a popular choice for both creative
               professionals and everyday users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -2175,15 +2201,15 @@ _embedded:
               projects:
                 - href: /projects/aprender/
                 - href: /projects/centroid/
-                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-load/
                 - href: /projects/jekyll-prep/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
+                - href: /projects/please/
                 - href: /projects/this-site/
               jobs:
+                - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
           - title: Windows
@@ -2213,7 +2239,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -2224,7 +2249,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -2316,8 +2340,6 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/linux/
-          - href: /os/macos/
-          - href: /os/windows/
         jobs:
           - href: /jobs/freelance/
       _embedded:
@@ -2468,7 +2490,7 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -2485,97 +2507,11 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
                 - href: /projects/scramble-score/
-                - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
-          - title: macOS
-            desc: macOS is Apple’s Unix‐based desktop operating system, first released in
-              2001 as Mac OS X and built on the open‐source Darwin core and the
-              proprietary XNU kernel. Designed exclusively for Mac computers, it
-              combines a polished Aqua graphical interface with deep integration
-              of hardware and software, offering features like Spotlight search,
-              Time Machine backups, and Continuity for seamless work across
-              Apple devices. With strong emphasis on stability, security and
-              performance, macOS supports a rich ecosystem of native and
-              third-party applications via the Mac App Store and developer tools
-              such as Xcode, making it a popular choice for both creative
-              professionals and everyday users.
-            used_begin_year: 2010
-            used_end_year: present
-            _links:
-              self:
-                href: /os/macos/
-              projects:
-                - href: /projects/aprender/
-                - href: /projects/centroid/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              jobs:
-                - href: /jobs/freelance/
-                - href: /jobs/rdi/
-          - title: Windows
-            desc: Windows is a series of operating systems developed by Microsoft. It is the
-              most popular operating system for personal computers, and is used
-              in a variety of devices, including desktop and laptop computers,
-              tablets, and smartphones. Windows provides a graphical user
-              interface, allowing users to interact with their computer using a
-              mouse and keyboard. It also includes a range of applications, such
-              as web browsers, media players, and office suites. Windows also
-              includes a range of security features, such as user accounts,
-              firewalls, and antivirus software.
-            used_begin_year: 1994
-            used_end_year: 2021
-            _links:
-              self:
-                href: /os/windows/
-              projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-job-scheduler/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/bit-proposal/
-                - href: /projects/centroid/
-                - href: /projects/cis-data-capture/
-                - href: /projects/class-scheduler/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/epic-ca-enrollment/
-                - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
-                - href: /projects/mvc-integration-test-framework/
-                - href: /projects/please/
-                - href: /projects/qb/
-                - href: /projects/report-engine/
-                - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
-                - href: /projects/scrum-tools/
-                - href: /projects/sif-agent/
-                - href: /projects/simpler/
-                - href: /projects/somd/
-                - href: /projects/systems-portal/
-                - href: /projects/train-builder/
-                - href: /projects/wengage-acct/
-                - href: /projects/wengage-si/
-              jobs:
-                - href: /jobs/fe/
-                - href: /jobs/freelance/
-                - href: /jobs/mas/
-                - href: /jobs/rdi/
-              schools:
-                - href: /schools/uco/
         jobs:
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -2721,7 +2657,7 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -2738,7 +2674,6 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
                 - href: /projects/scramble-score/
-                - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
@@ -2756,7 +2691,7 @@ _embedded:
               third-party applications via the Mac App Store and developer tools
               such as Xcode, making it a popular choice for both creative
               professionals and everyday users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -2764,15 +2699,15 @@ _embedded:
               projects:
                 - href: /projects/aprender/
                 - href: /projects/centroid/
-                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-load/
                 - href: /projects/jekyll-prep/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
+                - href: /projects/please/
                 - href: /projects/this-site/
               jobs:
+                - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
         jobs:
@@ -2946,7 +2881,7 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -2963,7 +2898,6 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
                 - href: /projects/scramble-score/
-                - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
@@ -2981,7 +2915,7 @@ _embedded:
               third-party applications via the Mac App Store and developer tools
               such as Xcode, making it a popular choice for both creative
               professionals and everyday users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -2989,15 +2923,15 @@ _embedded:
               projects:
                 - href: /projects/aprender/
                 - href: /projects/centroid/
-                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-load/
                 - href: /projects/jekyll-prep/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
+                - href: /projects/please/
                 - href: /projects/this-site/
               jobs:
+                - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
         jobs:
@@ -3145,7 +3079,7 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -3162,7 +3096,6 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
                 - href: /projects/scramble-score/
-                - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
@@ -3180,7 +3113,7 @@ _embedded:
               third-party applications via the Mac App Store and developer tools
               such as Xcode, making it a popular choice for both creative
               professionals and everyday users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -3188,15 +3121,15 @@ _embedded:
               projects:
                 - href: /projects/aprender/
                 - href: /projects/centroid/
-                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-load/
                 - href: /projects/jekyll-prep/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
+                - href: /projects/please/
                 - href: /projects/this-site/
               jobs:
+                - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
         jobs:
@@ -3344,7 +3277,7 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -3361,7 +3294,6 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
                 - href: /projects/scramble-score/
-                - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
@@ -3379,7 +3311,7 @@ _embedded:
               third-party applications via the Mac App Store and developer tools
               such as Xcode, making it a popular choice for both creative
               professionals and everyday users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -3387,15 +3319,15 @@ _embedded:
               projects:
                 - href: /projects/aprender/
                 - href: /projects/centroid/
-                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-load/
                 - href: /projects/jekyll-prep/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
+                - href: /projects/please/
                 - href: /projects/this-site/
               jobs:
+                - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
         jobs:
@@ -3749,7 +3681,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -3760,7 +3691,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -3850,6 +3780,7 @@ _embedded:
         db:
           - href: /db/sqlite/
         os:
+          - href: /os/macos/
           - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
@@ -3988,6 +3919,37 @@ _embedded:
               jobs:
                 - href: /jobs/rdi/
         os:
+          - title: macOS
+            desc: macOS is Apple’s Unix‐based desktop operating system, first released in
+              2001 as Mac OS X and built on the open‐source Darwin core and the
+              proprietary XNU kernel. Designed exclusively for Mac computers, it
+              combines a polished Aqua graphical interface with deep integration
+              of hardware and software, offering features like Spotlight search,
+              Time Machine backups, and Continuity for seamless work across
+              Apple devices. With strong emphasis on stability, security and
+              performance, macOS supports a rich ecosystem of native and
+              third-party applications via the Mac App Store and developer tools
+              such as Xcode, making it a popular choice for both creative
+              professionals and everyday users.
+            used_begin_year: 2012
+            used_end_year: present
+            _links:
+              self:
+                href: /os/macos/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/centroid/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/please/
+                - href: /projects/this-site/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/freelance/
+                - href: /jobs/rdi/
           - title: Windows
             desc: Windows is a series of operating systems developed by Microsoft. It is the
               most popular operating system for personal computers, and is used
@@ -4015,7 +3977,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -4026,7 +3987,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -4210,7 +4170,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -4221,7 +4180,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -4535,7 +4493,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -4546,7 +4503,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -4861,7 +4817,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -4872,7 +4827,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -4964,8 +4918,6 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/linux/
-          - href: /os/macos/
-          - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -5158,7 +5110,7 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -5175,97 +5127,11 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
                 - href: /projects/scramble-score/
-                - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
-          - title: macOS
-            desc: macOS is Apple’s Unix‐based desktop operating system, first released in
-              2001 as Mac OS X and built on the open‐source Darwin core and the
-              proprietary XNU kernel. Designed exclusively for Mac computers, it
-              combines a polished Aqua graphical interface with deep integration
-              of hardware and software, offering features like Spotlight search,
-              Time Machine backups, and Continuity for seamless work across
-              Apple devices. With strong emphasis on stability, security and
-              performance, macOS supports a rich ecosystem of native and
-              third-party applications via the Mac App Store and developer tools
-              such as Xcode, making it a popular choice for both creative
-              professionals and everyday users.
-            used_begin_year: 2010
-            used_end_year: present
-            _links:
-              self:
-                href: /os/macos/
-              projects:
-                - href: /projects/aprender/
-                - href: /projects/centroid/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              jobs:
-                - href: /jobs/freelance/
-                - href: /jobs/rdi/
-          - title: Windows
-            desc: Windows is a series of operating systems developed by Microsoft. It is the
-              most popular operating system for personal computers, and is used
-              in a variety of devices, including desktop and laptop computers,
-              tablets, and smartphones. Windows provides a graphical user
-              interface, allowing users to interact with their computer using a
-              mouse and keyboard. It also includes a range of applications, such
-              as web browsers, media players, and office suites. Windows also
-              includes a range of security features, such as user accounts,
-              firewalls, and antivirus software.
-            used_begin_year: 1994
-            used_end_year: 2021
-            _links:
-              self:
-                href: /os/windows/
-              projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-job-scheduler/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/bit-proposal/
-                - href: /projects/centroid/
-                - href: /projects/cis-data-capture/
-                - href: /projects/class-scheduler/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/epic-ca-enrollment/
-                - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
-                - href: /projects/mvc-integration-test-framework/
-                - href: /projects/please/
-                - href: /projects/qb/
-                - href: /projects/report-engine/
-                - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
-                - href: /projects/scrum-tools/
-                - href: /projects/sif-agent/
-                - href: /projects/simpler/
-                - href: /projects/somd/
-                - href: /projects/systems-portal/
-                - href: /projects/train-builder/
-                - href: /projects/wengage-acct/
-                - href: /projects/wengage-si/
-              jobs:
-                - href: /jobs/fe/
-                - href: /jobs/freelance/
-                - href: /jobs/mas/
-                - href: /jobs/rdi/
-              schools:
-                - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -5564,7 +5430,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -5575,7 +5440,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -5662,8 +5526,6 @@ _embedded:
           - href: /languages/cs/
           - href: /languages/rb/
         os:
-          - href: /os/linux/
-          - href: /os/macos/
           - href: /os/windows/
         jobs:
           - href: /jobs/freelance/
@@ -5742,68 +5604,6 @@ _embedded:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
         os:
-          - title: Linux
-            desc: Linux is an open-source operating system that is based on the Linux
-              kernel. It is a free and powerful operating system that is used in
-              many different types of computing devices, from smartphones to
-              supercomputers. It is highly customizable and can be used for a
-              variety of tasks, from web hosting to software development. It is
-              also highly secure and reliable, making it a popular choice for
-              many users.
-            used_begin_year: 2010
-            used_end_year: present
-            _links:
-              self:
-                href: /os/linux/
-              projects:
-                - href: /projects/centroid/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/epicloud/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/nuggets/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              jobs:
-                - href: /jobs/fe/
-                - href: /jobs/freelance/
-                - href: /jobs/rdi/
-          - title: macOS
-            desc: macOS is Apple’s Unix‐based desktop operating system, first released in
-              2001 as Mac OS X and built on the open‐source Darwin core and the
-              proprietary XNU kernel. Designed exclusively for Mac computers, it
-              combines a polished Aqua graphical interface with deep integration
-              of hardware and software, offering features like Spotlight search,
-              Time Machine backups, and Continuity for seamless work across
-              Apple devices. With strong emphasis on stability, security and
-              performance, macOS supports a rich ecosystem of native and
-              third-party applications via the Mac App Store and developer tools
-              such as Xcode, making it a popular choice for both creative
-              professionals and everyday users.
-            used_begin_year: 2010
-            used_end_year: present
-            _links:
-              self:
-                href: /os/macos/
-              projects:
-                - href: /projects/aprender/
-                - href: /projects/centroid/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              jobs:
-                - href: /jobs/freelance/
-                - href: /jobs/rdi/
           - title: Windows
             desc: Windows is a series of operating systems developed by Microsoft. It is the
               most popular operating system for personal computers, and is used
@@ -5831,7 +5631,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -5842,7 +5641,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -6187,7 +5985,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -6198,7 +5995,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -6360,7 +6156,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -6371,7 +6166,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -6561,7 +6355,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -6572,7 +6365,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -6891,7 +6683,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -6902,7 +6693,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -7060,7 +6850,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -7071,7 +6860,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -7301,7 +7089,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -7312,7 +7099,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -7492,7 +7278,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -7503,7 +7288,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -7821,7 +7605,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -7832,7 +7615,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -8012,7 +7794,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -8023,7 +7804,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -8253,7 +8033,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -8264,7 +8043,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -8492,7 +8270,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -8503,7 +8280,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -8734,7 +8510,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -8745,7 +8520,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -8976,7 +8750,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -8987,7 +8760,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -9217,7 +8989,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -9228,7 +8999,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -9416,7 +9186,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -9427,7 +9196,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -9585,7 +9353,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -9596,7 +9363,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -9825,7 +9591,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -9836,7 +9601,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -10057,7 +9821,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -10068,7 +9831,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -10289,7 +10051,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -10300,7 +10061,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -10479,7 +10239,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -10490,7 +10249,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/

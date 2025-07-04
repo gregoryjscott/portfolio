@@ -481,7 +481,7 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -498,7 +498,6 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
                 - href: /projects/scramble-score/
-                - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
@@ -594,6 +593,7 @@ _embedded:
           - href: /tools/vpc/
         os:
           - href: /os/linux/
+          - href: /os/macos/
         jobs:
           - href: /jobs/fe/
       _embedded:
@@ -955,7 +955,7 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -972,7 +972,37 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
                 - href: /projects/scramble-score/
-                - href: /projects/simpler/
+                - href: /projects/this-site/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/freelance/
+                - href: /jobs/rdi/
+          - title: macOS
+            desc: macOS is Apple’s Unix‐based desktop operating system, first released in
+              2001 as Mac OS X and built on the open‐source Darwin core and the
+              proprietary XNU kernel. Designed exclusively for Mac computers, it
+              combines a polished Aqua graphical interface with deep integration
+              of hardware and software, offering features like Spotlight search,
+              Time Machine backups, and Continuity for seamless work across
+              Apple devices. With strong emphasis on stability, security and
+              performance, macOS supports a rich ecosystem of native and
+              third-party applications via the Mac App Store and developer tools
+              such as Xcode, making it a popular choice for both creative
+              professionals and everyday users.
+            used_begin_year: 2012
+            used_end_year: present
+            _links:
+              self:
+                href: /os/macos/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/centroid/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/please/
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
@@ -1017,6 +1047,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Quality Bank
       subtitle: Invoicing $1 Billion/Month for Oil Pipeline
@@ -1289,7 +1320,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -1300,7 +1330,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -1529,7 +1558,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -1540,7 +1568,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -1883,8 +1910,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: Alaska Gasline Development Corporation
@@ -1928,6 +1953,7 @@ _embedded:
               db:
                 - href: /db/sqlite/
               os:
+                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
@@ -2007,8 +2033,6 @@ _embedded:
                 - href: /languages/cs/
                 - href: /languages/rb/
               os:
-                - href: /os/linux/
-                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
@@ -2630,8 +2654,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Scrum Tools
@@ -3146,8 +3168,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Scrum Tools
@@ -3499,8 +3519,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Scrum Tools
@@ -3820,6 +3838,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Python
       desc: Python is a high-level, interpreted, general-purpose programming language.
@@ -4057,8 +4076,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-api
@@ -4184,6 +4201,7 @@ _embedded:
               db:
                 - href: /db/sqlite/
               os:
+                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
@@ -4207,8 +4225,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Simpler
@@ -4226,8 +4242,6 @@ _embedded:
                 - href: /languages/cs/
                 - href: /languages/rb/
               os:
-                - href: /os/linux/
-                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
@@ -4406,8 +4420,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: Alaska Gasline Development Corporation
@@ -4451,6 +4463,7 @@ _embedded:
               db:
                 - href: /db/sqlite/
               os:
+                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
@@ -4531,8 +4544,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Scrum Tools
@@ -5074,6 +5085,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -5172,6 +5184,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Visual Basic
       desc: Visual Basic is a high-level, object-oriented programming language
@@ -5381,6 +5394,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -5422,6 +5436,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Btrieve
       desc: Btrieve is a database management system (DBMS) developed by Pervasive
@@ -5640,6 +5655,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -5738,6 +5754,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Firebase
       desc: Firebase’s Realtime Database is a cloud-hosted, NoSQL JSON data store that
@@ -5818,6 +5835,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Oracle
       desc: Oracle Database is a relational database management system (RDBMS)
@@ -6243,8 +6261,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: ScrambleScore
@@ -6267,8 +6283,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
         jobs:
@@ -6645,6 +6659,7 @@ _embedded:
               db:
                 - href: /db/sqlite/
               os:
+                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
@@ -6995,6 +7010,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -7036,6 +7052,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: EC2
       desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
@@ -7124,6 +7141,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -7222,6 +7240,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: ECR
       desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
@@ -7310,6 +7329,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -7408,6 +7428,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: ECS
       desc: Amazon Elastic Container Service (ECS) is a container orchestration
@@ -7496,6 +7517,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -7594,6 +7616,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Expo
       desc: Expo is an open-source platform and toolchain built around React Native
@@ -7799,6 +7822,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -7897,6 +7921,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Firebase
       desc: Google Firebase is a mobile and web application development platform that
@@ -7949,6 +7974,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -7990,6 +8016,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Google Classroom
       desc: Google Classroom is a free web-based platform that allows teachers to
@@ -8042,6 +8069,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -8083,6 +8111,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Google Drive
       desc: Google Drive is a cloud storage service that allows users to store and
@@ -8136,6 +8165,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -8177,6 +8207,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: HAL
       subtitle: Hypertext Application Language (HAL) is a a media type for
@@ -8493,6 +8524,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -8591,6 +8623,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Jekyll
       desc: Jekyll is an open-source, Ruby-based static site generator that transforms
@@ -8887,6 +8920,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -8985,6 +9019,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Puppeteer
       desc: Puppeteer is a Node library developed by Google that provides a high-level
@@ -9037,6 +9072,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -9078,6 +9114,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: React Native
       desc: React Native is an open-source framework developed by Facebook that
@@ -9284,6 +9321,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -9382,6 +9420,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: SikuliX
       desc: SikuliX is an open-source GUI automation tool that uses image recognition
@@ -9435,6 +9474,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -9476,6 +9516,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: SQS
       desc: Amazon Simple Queue Service (SQS) is a fully managed message queuing
@@ -9566,6 +9607,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -9664,6 +9706,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: VPC
       desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
@@ -9754,6 +9797,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -9852,6 +9896,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: XState
       desc: XState is a JavaScript/TypeScript library for modeling application logic
@@ -10241,7 +10286,7 @@ _embedded:
         supercomputers. It is highly customizable and can be used for a variety
         of tasks, from web hosting to software development. It is also highly
         secure and reliable, making it a popular choice for many users.
-      used_begin_year: 2010
+      used_begin_year: 2012
       used_end_year: present
       _links:
         self:
@@ -10258,7 +10303,6 @@ _embedded:
           - href: /projects/la-boda/
           - href: /projects/nuggets/
           - href: /projects/scramble-score/
-          - href: /projects/simpler/
           - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
@@ -10377,6 +10421,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
           - title: fortworthtexas.gov
@@ -10438,8 +10483,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-api
@@ -10544,30 +10587,8 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
-          - title: Simpler
-            desc: Library that provides a simpler approach to C# class design.
-            role: Author
-            begin_year: 2010
-            end_year: 2013
-            _links:
-              self:
-                href: /projects/simpler/
-              code:
-                title: github.com/gregoryjscott/Simpler
-                href: https://github.com/gregoryjscott/Simpler
-              languages:
-                - href: /languages/cs/
-                - href: /languages/rb/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/freelance/
         jobs:
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -10664,6 +10685,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -10731,7 +10753,7 @@ _embedded:
         supports a rich ecosystem of native and third-party applications via the
         Mac App Store and developer tools such as Xcode, making it a popular
         choice for both creative professionals and everyday users.
-      used_begin_year: 2010
+      used_begin_year: 2012
       used_end_year: present
       _links:
         self:
@@ -10739,15 +10761,15 @@ _embedded:
         projects:
           - href: /projects/aprender/
           - href: /projects/centroid/
-          - href: /projects/denver-schedules-api/
+          - href: /projects/epicloud/
           - href: /projects/jekyll-api/
           - href: /projects/jekyll-embed/
           - href: /projects/jekyll-load/
           - href: /projects/jekyll-prep/
-          - href: /projects/scramble-score/
-          - href: /projects/simpler/
+          - href: /projects/please/
           - href: /projects/this-site/
         jobs:
+          - href: /jobs/fe/
           - href: /jobs/freelance/
           - href: /jobs/rdi/
       _embedded:
@@ -10777,6 +10799,41 @@ _embedded:
                 - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
+          - title: EpiCloud
+            subtitle: Infinitely Scaling Bots on AWS
+            desc: null
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epicloud/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
+              jobs:
+                - href: /jobs/fe/
           - title: aprender
             desc: CLI for learning Spanish
             role: Author
@@ -10816,30 +10873,6 @@ _embedded:
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
-          - title: Denver Schedules API
-            desc: JSON API that provides access to Denver activities that impact the
-              residents of Denver.
-            role: Contributor
-            begin_year: 2014
-            end_year: 2014
-            _links:
-              self:
-                href: /projects/denver-schedules-api/
-              code:
-                title: github.com/codeforamerica/denver-schedules-api
-                href: https://github.com/codeforamerica/denver-schedules-api
-              languages:
-                - href: /languages/cs/
-                - href: /languages/rb/
-                - href: /languages/sql/
-              db:
-                - href: /db/postgres/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/freelance/
           - title: jekyll-api
             desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
             role: Author
@@ -10922,50 +10955,28 @@ _embedded:
                 - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
-          - title: ScrambleScore
-            desc: Mobile web application that allows golfers participating in scramble golf
-              tournaments to record their scores and monitor the tournament
-              leaderboard.
-            role: Project Manager
+          - title: Please
+            desc: Please is a set of commands useful for maintaining software projects.
+            role: Author
             begin_year: 2012
-            end_year: 2013
+            end_year: 2014
             _links:
               self:
-                href: /projects/scramble-score/
+                href: /projects/please/
+              code:
+                title: github.com/ResourceDataInc/please
+                href: https://github.com/ResourceDataInc/please
               languages:
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
+                - href: /languages/cs/
                 - href: /languages/rb/
                 - href: /languages/sql/
               db:
-                - href: /db/postgres/
+                - href: /db/sqlite/
               os:
-                - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
-          - title: Simpler
-            desc: Library that provides a simpler approach to C# class design.
-            role: Author
-            begin_year: 2010
-            end_year: 2013
-            _links:
-              self:
-                href: /projects/simpler/
-              code:
-                title: github.com/gregoryjscott/Simpler
-                href: https://github.com/gregoryjscott/Simpler
-              languages:
-                - href: /languages/cs/
-                - href: /languages/rb/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/freelance/
         jobs:
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -11021,6 +11032,46 @@ _embedded:
               os:
                 - href: /os/android/
                 - href: /os/ios/
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: 2022
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/epicloud/
+              languages:
+                - href: /languages/php/
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
@@ -11349,7 +11400,6 @@ _embedded:
           - href: /projects/class-scheduler/
           - href: /projects/consumption-views/
           - href: /projects/database-sync-awwu/
-          - href: /projects/denver-schedules-api/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
           - href: /projects/epic-ca-enrollment/
@@ -11360,7 +11410,6 @@ _embedded:
           - href: /projects/qb/
           - href: /projects/report-engine/
           - href: /projects/sar-reports/
-          - href: /projects/scramble-score/
           - href: /projects/scrum-tools/
           - href: /projects/sif-agent/
           - href: /projects/simpler/
@@ -11416,30 +11465,6 @@ _embedded:
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
-          - title: Denver Schedules API
-            desc: JSON API that provides access to Denver activities that impact the
-              residents of Denver.
-            role: Contributor
-            begin_year: 2014
-            end_year: 2014
-            _links:
-              self:
-                href: /projects/denver-schedules-api/
-              code:
-                title: github.com/codeforamerica/denver-schedules-api
-                href: https://github.com/codeforamerica/denver-schedules-api
-              languages:
-                - href: /languages/cs/
-                - href: /languages/rb/
-                - href: /languages/sql/
-              db:
-                - href: /db/postgres/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/freelance/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
               querying tools for their vast GIS data and infrastructure.
@@ -11481,6 +11506,7 @@ _embedded:
               db:
                 - href: /db/sqlite/
               os:
+                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
@@ -11541,30 +11567,6 @@ _embedded:
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
-          - title: ScrambleScore
-            desc: Mobile web application that allows golfers participating in scramble golf
-              tournaments to record their scores and monitor the tournament
-              leaderboard.
-            role: Project Manager
-            begin_year: 2012
-            end_year: 2013
-            _links:
-              self:
-                href: /projects/scramble-score/
-              languages:
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/rb/
-                - href: /languages/sql/
-              db:
-                - href: /db/postgres/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
           - title: Scrum Tools
             desc: null
             role: Technical Lead
@@ -11600,8 +11602,6 @@ _embedded:
                 - href: /languages/cs/
                 - href: /languages/rb/
               os:
-                - href: /os/linux/
-                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
@@ -12070,6 +12070,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -12379,8 +12380,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-api
@@ -12480,8 +12479,6 @@ _embedded:
                 - href: /languages/cs/
                 - href: /languages/rb/
               os:
-                - href: /os/linux/
-                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
@@ -13157,7 +13154,7 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -13174,7 +13171,6 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
                 - href: /projects/scramble-score/
-                - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
@@ -13192,7 +13188,7 @@ _embedded:
               third-party applications via the Mac App Store and developer tools
               such as Xcode, making it a popular choice for both creative
               professionals and everyday users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -13200,15 +13196,15 @@ _embedded:
               projects:
                 - href: /projects/aprender/
                 - href: /projects/centroid/
-                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-load/
                 - href: /projects/jekyll-prep/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
+                - href: /projects/please/
                 - href: /projects/this-site/
               jobs:
+                - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
           - title: Windows
@@ -13238,7 +13234,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -13249,7 +13244,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -13303,6 +13297,7 @@ _embedded:
           - href: /tools/vpc/
         os:
           - href: /os/linux/
+          - href: /os/macos/
           - href: /os/windows/
       content: >-
         - Built the cloud-based backend integration and automation services for
@@ -13361,6 +13356,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         languages:
@@ -13760,7 +13756,7 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -13777,7 +13773,37 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
                 - href: /projects/scramble-score/
-                - href: /projects/simpler/
+                - href: /projects/this-site/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/freelance/
+                - href: /jobs/rdi/
+          - title: macOS
+            desc: macOS is Apple’s Unix‐based desktop operating system, first released in
+              2001 as Mac OS X and built on the open‐source Darwin core and the
+              proprietary XNU kernel. Designed exclusively for Mac computers, it
+              combines a polished Aqua graphical interface with deep integration
+              of hardware and software, offering features like Spotlight search,
+              Time Machine backups, and Continuity for seamless work across
+              Apple devices. With strong emphasis on stability, security and
+              performance, macOS supports a rich ecosystem of native and
+              third-party applications via the Mac App Store and developer tools
+              such as Xcode, making it a popular choice for both creative
+              professionals and everyday users.
+            used_begin_year: 2012
+            used_end_year: present
+            _links:
+              self:
+                href: /os/macos/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/centroid/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/please/
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
@@ -13810,7 +13836,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -13821,7 +13846,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -13974,6 +13998,7 @@ _embedded:
               db:
                 - href: /db/sqlite/
               os:
+                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
@@ -14054,8 +14079,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Scrum Tools
@@ -14710,7 +14733,7 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -14727,7 +14750,6 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
                 - href: /projects/scramble-score/
-                - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
@@ -14745,7 +14767,7 @@ _embedded:
               third-party applications via the Mac App Store and developer tools
               such as Xcode, making it a popular choice for both creative
               professionals and everyday users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -14753,15 +14775,15 @@ _embedded:
               projects:
                 - href: /projects/aprender/
                 - href: /projects/centroid/
-                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-load/
                 - href: /projects/jekyll-prep/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
+                - href: /projects/please/
                 - href: /projects/this-site/
               jobs:
+                - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
           - title: Windows
@@ -14791,7 +14813,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -14802,7 +14823,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -15133,7 +15153,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -15144,7 +15163,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -15451,7 +15469,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -15462,7 +15479,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
