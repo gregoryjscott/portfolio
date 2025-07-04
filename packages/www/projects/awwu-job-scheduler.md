@@ -11,7 +11,7 @@ _links:
     href: /projects/awwu-job-scheduler/
   languages:
     - href: /languages/cs/
-    - href: /languages/plsql/
+    - href: /languages/sql/
   db:
     - href: /db/oracle/
   os:

@@ -9,7 +9,7 @@ _links:
     href: /projects/awwu-systems-integration/
   languages:
     - href: /languages/cs/
-    - href: /languages/plsql/
+    - href: /languages/sql/
   db:
     - href: /db/oracle/
   os:

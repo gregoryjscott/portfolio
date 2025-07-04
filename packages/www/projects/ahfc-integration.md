@@ -8,7 +8,7 @@ _links:
   self:
     href: /projects/ahfc-integration/
   languages:
-    - href: /languages/tsql/
+    - href: /languages/sql/
   db:
     - href: /db/sql-server/
   os:

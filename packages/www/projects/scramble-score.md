@@ -13,8 +13,8 @@ _links:
     - href: /languages/css/
     - href: /languages/html/
     - href: /languages/js/
-    - href: /languages/psql/
     - href: /languages/rb/
+    - href: /languages/sql/
   db:
     - href: /db/postgres/
   os:

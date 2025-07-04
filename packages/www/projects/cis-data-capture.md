@@ -11,7 +11,7 @@ _links:
     href: /projects/cis-data-capture/
   languages:
     - href: /languages/cs/
-    - href: /languages/plsql/
+    - href: /languages/sql/
   db:
     - href: /db/oracle/
   os:

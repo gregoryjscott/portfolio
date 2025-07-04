@@ -16,7 +16,7 @@ _links:
     - href: /languages/js/
     - href: /languages/py/
     - href: /languages/rb/
-    - href: /languages/tsql/
+    - href: /languages/sql/
   db:
     - href: /db/sql-server/
   os:

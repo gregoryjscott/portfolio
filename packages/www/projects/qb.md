@@ -15,7 +15,7 @@ _links:
     - href: /languages/css/
     - href: /languages/html/
     - href: /languages/js/
-    - href: /languages/tsql/
+    - href: /languages/sql/
   db:
     - href: /db/sql-server/
   tools:

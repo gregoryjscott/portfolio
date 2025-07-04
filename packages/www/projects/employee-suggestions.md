@@ -10,7 +10,7 @@ _links:
   self:
     href: /projects/employee-suggestions/
   languages:
-    - href: /languages/plsql/
+    - href: /languages/sql/
   db:
     - href: /db/oracle/
   os:

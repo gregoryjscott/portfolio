@@ -14,7 +14,7 @@ _links:
     - href: /languages/css/
     - href: /languages/html/
     - href: /languages/js/
-    - href: /languages/plsql/
+    - href: /languages/sql/
   db:
     - href: /db/oracle/
   os:

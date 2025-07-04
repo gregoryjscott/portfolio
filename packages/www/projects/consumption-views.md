@@ -10,7 +10,7 @@ _links:
   self:
     href: /projects/consumption-views/
   languages:
-    - href: /languages/plsql/
+    - href: /languages/sql/
   db:
     - href: /db/oracle/
   os:
