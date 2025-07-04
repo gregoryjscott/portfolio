@@ -52,16 +52,25 @@ function sortEmbeddedResource<T extends Yaml>(
 
 function byRecent(items: Sortable[]): Sortable[] {
   return items.sort((a, b) => {
+    const beginYearAValue = a.used_begin_year || a.begin_year
+    const beginYearBValue = b.used_begin_year || b.begin_year
+    const endYearAValue = a.used_end_year || a.end_year
+    const endYearBValue = b.used_end_year || b.end_year
+
     const endYearA =
-      !a.end_year || a.end_year === "present" ? 9999 : Number(a.end_year)
+      !endYearAValue || endYearAValue === "present"
+        ? 9999
+        : Number(endYearAValue)
     const endYearB =
-      !b.end_year || b.end_year === "present" ? 9999 : Number(b.end_year)
+      !endYearBValue || endYearBValue === "present"
+        ? 9999
+        : Number(endYearBValue)
     if (endYearA !== endYearB) {
       return endYearB - endYearA
     }
 
-    const beginYearA = a.begin_year ? Number(a.begin_year) : 0
-    const beginYearB = b.begin_year ? Number(b.begin_year) : 0
+    const beginYearA = beginYearAValue ? Number(beginYearAValue) : 0
+    const beginYearB = beginYearBValue ? Number(beginYearBValue) : 0
     if (beginYearA !== beginYearB) {
       return beginYearB - beginYearA
     }
