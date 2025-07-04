@@ -15,10 +15,10 @@ _links:
   self:
     href: /schools/uco/
   languages:
-    - href: /languages/fortran/
-    - href: /languages/pascal/
     - href: /languages/c/
     - href: /languages/cpp/
+    - href: /languages/fortran/
+    - href: /languages/pascal/
     - href: /languages/vb/
   os:
     - href: /os/aix/

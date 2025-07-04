@@ -18,11 +18,11 @@ _links:
     - href: /languages/rb/
     - href: /languages/ts/
   tools:
-    - href: /tools/jekyll/
     - href: /tools/hal/
+    - href: /tools/jekyll/
   os:
-    - href: /os/macos/
     - href: /os/linux/
+    - href: /os/macos/
   jobs:
     - href: /jobs/freelance/
 ---

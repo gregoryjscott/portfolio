@@ -15,11 +15,11 @@ _links:
   languages:
     - href: /languages/rb/
   tools:
-    - href: /tools/jekyll/
     - href: /tools/hal/
+    - href: /tools/jekyll/
   os:
-    - href: /os/macos/
     - href: /os/linux/
+    - href: /os/macos/
   jobs:
     - href: /jobs/freelance/
 ---

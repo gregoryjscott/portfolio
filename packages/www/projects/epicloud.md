@@ -26,9 +26,9 @@ _links:
     - href: /tools/node/
     - href: /tools/puppeteer/
     - href: /tools/s3/
+    - href: /tools/sikulix/
     - href: /tools/sqs/
     - href: /tools/vpc/
-    - href: /tools/sikulix/
   os:
     - href: /os/linux/
   jobs:
