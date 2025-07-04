@@ -91,9 +91,9 @@ _embedded:
           - href: /languages/py/
           - href: /languages/rb/
         os:
-          - href: /os/windows/
-          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
     - title: Alaska Gasline Development Corporation
@@ -218,9 +218,9 @@ _embedded:
         db:
           - href: /db/postgres/
         os:
-          - href: /os/windows/
-          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
     - title: Energy Efficiency Map

@@ -57,9 +57,9 @@ _embedded:
         db:
           - href: /db/postgres/
         os:
-          - href: /os/windows/
-          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
         jobs:
           - href: /jobs/freelance/
     - title: Alaska Gasline Development Corporation
@@ -419,8 +419,8 @@ _embedded:
           - href: /db/btrieve/
           - href: /db/pervasive/
         os:
-          - href: /os/windows/
           - href: /os/netware/
+          - href: /os/windows/
         jobs:
           - href: /jobs/mas/
     - title: Wen-GAGE Accounting
@@ -439,8 +439,8 @@ _embedded:
           - href: /db/btrieve/
           - href: /db/pervasive/
         os:
-          - href: /os/windows/
           - href: /os/netware/
+          - href: /os/windows/
         jobs:
           - href: /jobs/mas/
   jobs:

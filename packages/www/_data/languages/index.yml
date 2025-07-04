@@ -97,11 +97,11 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               tools:
-                - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: EpiCloud
@@ -131,9 +131,9 @@ _embedded:
                 - href: /tools/node/
                 - href: /tools/puppeteer/
                 - href: /tools/s3/
+                - href: /tools/sikulix/
                 - href: /tools/sqs/
                 - href: /tools/vpc/
-                - href: /tools/sikulix/
               os:
                 - href: /os/linux/
               jobs:
@@ -282,11 +282,11 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               tools:
-                - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: fortworthtexas.gov
@@ -322,8 +322,8 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-load
@@ -342,8 +342,8 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-embed
@@ -361,11 +361,11 @@ _embedded:
               languages:
                 - href: /languages/rb/
               tools:
-                - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-api
@@ -384,8 +384,8 @@ _embedded:
               tools:
                 - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: Denver Schedules API
@@ -407,9 +407,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: Centroid
@@ -429,9 +429,9 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Alaska Gasline Development Corporation
@@ -497,9 +497,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Simpler
@@ -517,9 +517,9 @@ _embedded:
                 - href: /languages/cs/
                 - href: /languages/rb/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
         jobs:
@@ -683,11 +683,11 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               tools:
-                - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: hazelandgreg.wedding
@@ -794,9 +794,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Energy Efficiency Map
@@ -1053,11 +1053,11 @@ _embedded:
                 - href: /languages/rb/
                 - href: /languages/ts/
               tools:
-                - href: /tools/jekyll/
                 - href: /tools/hal/
+                - href: /tools/jekyll/
               os:
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
           - title: hazelandgreg.wedding
@@ -1164,9 +1164,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Energy Efficiency Map
@@ -1523,9 +1523,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Energy Efficiency Map
@@ -1844,9 +1844,9 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Alaska Gasline Development Corporation
@@ -2207,9 +2207,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: Centroid
@@ -2229,9 +2229,9 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Alaska Gasline Development Corporation
@@ -2358,9 +2358,9 @@ _embedded:
                 - href: /languages/cs/
                 - href: /languages/rb/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: Quality Bank
@@ -2841,9 +2841,9 @@ _embedded:
               db:
                 - href: /db/postgres/
               os:
-                - href: /os/windows/
-                - href: /os/macos/
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: Alaska Gasline Development Corporation
@@ -3203,8 +3203,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
           - title: Wen-GAGE Accounting
@@ -3223,8 +3223,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
         jobs:
@@ -3605,8 +3605,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
           - title: Wen-GAGE Accounting
@@ -3625,8 +3625,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
           - title: Class Scheduler
@@ -3644,8 +3644,8 @@ _embedded:
                 - href: /db/btrieve/
                 - href: /db/pervasive/
               os:
-                - href: /os/windows/
                 - href: /os/netware/
+                - href: /os/windows/
               jobs:
                 - href: /jobs/mas/
         jobs:
@@ -3797,10 +3797,10 @@ _embedded:
               self:
                 href: /schools/uco/
               languages:
-                - href: /languages/fortran/
-                - href: /languages/pascal/
                 - href: /languages/c/
                 - href: /languages/cpp/
+                - href: /languages/fortran/
+                - href: /languages/pascal/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -3841,10 +3841,10 @@ _embedded:
               self:
                 href: /schools/uco/
               languages:
-                - href: /languages/fortran/
-                - href: /languages/pascal/
                 - href: /languages/c/
                 - href: /languages/cpp/
+                - href: /languages/fortran/
+                - href: /languages/pascal/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -3885,10 +3885,10 @@ _embedded:
               self:
                 href: /schools/uco/
               languages:
-                - href: /languages/fortran/
-                - href: /languages/pascal/
                 - href: /languages/c/
                 - href: /languages/cpp/
+                - href: /languages/fortran/
+                - href: /languages/pascal/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -3928,10 +3928,10 @@ _embedded:
               self:
                 href: /schools/uco/
               languages:
-                - href: /languages/fortran/
-                - href: /languages/pascal/
                 - href: /languages/c/
                 - href: /languages/cpp/
+                - href: /languages/fortran/
+                - href: /languages/pascal/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -3972,10 +3972,10 @@ _embedded:
               self:
                 href: /schools/uco/
               languages:
-                - href: /languages/fortran/
-                - href: /languages/pascal/
                 - href: /languages/c/
                 - href: /languages/cpp/
+                - href: /languages/fortran/
+                - href: /languages/pascal/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/

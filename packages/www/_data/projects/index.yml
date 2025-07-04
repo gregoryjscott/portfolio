@@ -501,11 +501,11 @@ _embedded:
           - href: /languages/rb/
           - href: /languages/ts/
         tools:
-          - href: /tools/jekyll/
           - href: /tools/hal/
+          - href: /tools/jekyll/
         os:
-          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/macos/
         jobs:
           - href: /jobs/freelance/
       _embedded:
@@ -618,30 +618,6 @@ _embedded:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
         tools:
-          - title: HAL
-            subtitle: Hypertext Application Language (HAL) is a a media type for
-              representing resources with hyperlinks
-            desc: The Hypertext Application Language (HAL) is a simple, vendor-neutral media
-              type for representing resources and their relationships in JSON or
-              XML, designed to make RESTful APIs more discoverable and
-              self-descriptive. In HAL, each resource’s state is represented by
-              its attributes, its hyperlinks by a standardized “_links” section
-              (allowing clients to navigate between related resources), and any
-              embedded sub‐resources by an “_embedded” section. By providing a
-              consistent convention for linking and embedding, HAL enables
-              clients to follow HATEOAS principles—dynamically discovering
-              available operations and transitions—without relying on
-              out-of-band documentation.
-            begin_year: 2014
-            end_year: present
-            _links:
-              self:
-                href: /tools/hal/
-              projects:
-                - href: /projects/jekyll-embed/
-                - href: /projects/this-site/
-              jobs:
-                - href: /jobs/freelance/
           - title: Jekyll
             desc: Jekyll is an open-source, Ruby-based static site generator that transforms
               plain-text content (written in Markdown, Textile or HTML) and
@@ -667,38 +643,31 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/freelance/
-        os:
-          - title: Linux
-            desc: Linux is an open-source operating system that is based on the Linux
-              kernel. It is a free and powerful operating system that is used in
-              many different types of computing devices, from smartphones to
-              supercomputers. It is highly customizable and can be used for a
-              variety of tasks, from web hosting to software development. It is
-              also highly secure and reliable, making it a popular choice for
-              many users.
-            begin_year: 2010
+          - title: HAL
+            subtitle: Hypertext Application Language (HAL) is a a media type for
+              representing resources with hyperlinks
+            desc: The Hypertext Application Language (HAL) is a simple, vendor-neutral media
+              type for representing resources and their relationships in JSON or
+              XML, designed to make RESTful APIs more discoverable and
+              self-descriptive. In HAL, each resource’s state is represented by
+              its attributes, its hyperlinks by a standardized “_links” section
+              (allowing clients to navigate between related resources), and any
+              embedded sub‐resources by an “_embedded” section. By providing a
+              consistent convention for linking and embedding, HAL enables
+              clients to follow HATEOAS principles—dynamically discovering
+              available operations and transitions—without relying on
+              out-of-band documentation.
+            begin_year: 2014
             end_year: present
             _links:
               self:
-                href: /os/linux/
+                href: /tools/hal/
               projects:
-                - href: /projects/centroid/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/epicloud/
-                - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/nuggets/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/fe/
                 - href: /jobs/freelance/
-                - href: /jobs/rdi/
+        os:
           - title: macOS
             desc: macOS is Apple’s Unix‐based desktop operating system, first released in
               2001 as Mac OS X and built on the open‐source Darwin core and the
@@ -728,6 +697,37 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
+                - href: /jobs/freelance/
+                - href: /jobs/rdi/
+          - title: Linux
+            desc: Linux is an open-source operating system that is based on the Linux
+              kernel. It is a free and powerful operating system that is used in
+              many different types of computing devices, from smartphones to
+              supercomputers. It is highly customizable and can be used for a
+              variety of tasks, from web hosting to software development. It is
+              also highly secure and reliable, making it a popular choice for
+              many users.
+            begin_year: 2010
+            end_year: present
+            _links:
+              self:
+                href: /os/linux/
+              projects:
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/nuggets/
+                - href: /projects/scramble-score/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              jobs:
+                - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
         jobs:
@@ -1206,9 +1206,9 @@ _embedded:
           - href: /tools/node/
           - href: /tools/puppeteer/
           - href: /tools/s3/
+          - href: /tools/sikulix/
           - href: /tools/sqs/
           - href: /tools/vpc/
-          - href: /tools/sikulix/
         os:
           - href: /os/linux/
         jobs:
@@ -1967,8 +1967,8 @@ _embedded:
         tools:
           - href: /tools/jekyll/
         os:
-          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/macos/
         jobs:
           - href: /jobs/freelance/
       _embedded:
@@ -2030,37 +2030,6 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
         os:
-          - title: Linux
-            desc: Linux is an open-source operating system that is based on the Linux
-              kernel. It is a free and powerful operating system that is used in
-              many different types of computing devices, from smartphones to
-              supercomputers. It is highly customizable and can be used for a
-              variety of tasks, from web hosting to software development. It is
-              also highly secure and reliable, making it a popular choice for
-              many users.
-            begin_year: 2010
-            end_year: present
-            _links:
-              self:
-                href: /os/linux/
-              projects:
-                - href: /projects/centroid/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/epicloud/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/nuggets/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              jobs:
-                - href: /jobs/fe/
-                - href: /jobs/freelance/
-                - href: /jobs/rdi/
           - title: macOS
             desc: macOS is Apple’s Unix‐based desktop operating system, first released in
               2001 as Mac OS X and built on the open‐source Darwin core and the
@@ -2090,6 +2059,37 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
+                - href: /jobs/freelance/
+                - href: /jobs/rdi/
+          - title: Linux
+            desc: Linux is an open-source operating system that is based on the Linux
+              kernel. It is a free and powerful operating system that is used in
+              many different types of computing devices, from smartphones to
+              supercomputers. It is highly customizable and can be used for a
+              variety of tasks, from web hosting to software development. It is
+              also highly secure and reliable, making it a popular choice for
+              many users.
+            begin_year: 2010
+            end_year: present
+            _links:
+              self:
+                href: /os/linux/
+              projects:
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/nuggets/
+                - href: /projects/scramble-score/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              jobs:
+                - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
         jobs:
@@ -2164,8 +2164,8 @@ _embedded:
         tools:
           - href: /tools/jekyll/
         os:
-          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/macos/
         jobs:
           - href: /jobs/freelance/
       _embedded:
@@ -2227,37 +2227,6 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
         os:
-          - title: Linux
-            desc: Linux is an open-source operating system that is based on the Linux
-              kernel. It is a free and powerful operating system that is used in
-              many different types of computing devices, from smartphones to
-              supercomputers. It is highly customizable and can be used for a
-              variety of tasks, from web hosting to software development. It is
-              also highly secure and reliable, making it a popular choice for
-              many users.
-            begin_year: 2010
-            end_year: present
-            _links:
-              self:
-                href: /os/linux/
-              projects:
-                - href: /projects/centroid/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/epicloud/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/nuggets/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              jobs:
-                - href: /jobs/fe/
-                - href: /jobs/freelance/
-                - href: /jobs/rdi/
           - title: macOS
             desc: macOS is Apple’s Unix‐based desktop operating system, first released in
               2001 as Mac OS X and built on the open‐source Darwin core and the
@@ -2287,6 +2256,37 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
+                - href: /jobs/freelance/
+                - href: /jobs/rdi/
+          - title: Linux
+            desc: Linux is an open-source operating system that is based on the Linux
+              kernel. It is a free and powerful operating system that is used in
+              many different types of computing devices, from smartphones to
+              supercomputers. It is highly customizable and can be used for a
+              variety of tasks, from web hosting to software development. It is
+              also highly secure and reliable, making it a popular choice for
+              many users.
+            begin_year: 2010
+            end_year: present
+            _links:
+              self:
+                href: /os/linux/
+              projects:
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/nuggets/
+                - href: /projects/scramble-score/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              jobs:
+                - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
         jobs:
@@ -2360,11 +2360,11 @@ _embedded:
         languages:
           - href: /languages/rb/
         tools:
-          - href: /tools/jekyll/
           - href: /tools/hal/
+          - href: /tools/jekyll/
         os:
-          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/macos/
         jobs:
           - href: /jobs/freelance/
       _embedded:
@@ -2400,30 +2400,6 @@ _embedded:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
         tools:
-          - title: HAL
-            subtitle: Hypertext Application Language (HAL) is a a media type for
-              representing resources with hyperlinks
-            desc: The Hypertext Application Language (HAL) is a simple, vendor-neutral media
-              type for representing resources and their relationships in JSON or
-              XML, designed to make RESTful APIs more discoverable and
-              self-descriptive. In HAL, each resource’s state is represented by
-              its attributes, its hyperlinks by a standardized “_links” section
-              (allowing clients to navigate between related resources), and any
-              embedded sub‐resources by an “_embedded” section. By providing a
-              consistent convention for linking and embedding, HAL enables
-              clients to follow HATEOAS principles—dynamically discovering
-              available operations and transitions—without relying on
-              out-of-band documentation.
-            begin_year: 2014
-            end_year: present
-            _links:
-              self:
-                href: /tools/hal/
-              projects:
-                - href: /projects/jekyll-embed/
-                - href: /projects/this-site/
-              jobs:
-                - href: /jobs/freelance/
           - title: Jekyll
             desc: Jekyll is an open-source, Ruby-based static site generator that transforms
               plain-text content (written in Markdown, Textile or HTML) and
@@ -2449,38 +2425,31 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/freelance/
-        os:
-          - title: Linux
-            desc: Linux is an open-source operating system that is based on the Linux
-              kernel. It is a free and powerful operating system that is used in
-              many different types of computing devices, from smartphones to
-              supercomputers. It is highly customizable and can be used for a
-              variety of tasks, from web hosting to software development. It is
-              also highly secure and reliable, making it a popular choice for
-              many users.
-            begin_year: 2010
+          - title: HAL
+            subtitle: Hypertext Application Language (HAL) is a a media type for
+              representing resources with hyperlinks
+            desc: The Hypertext Application Language (HAL) is a simple, vendor-neutral media
+              type for representing resources and their relationships in JSON or
+              XML, designed to make RESTful APIs more discoverable and
+              self-descriptive. In HAL, each resource’s state is represented by
+              its attributes, its hyperlinks by a standardized “_links” section
+              (allowing clients to navigate between related resources), and any
+              embedded sub‐resources by an “_embedded” section. By providing a
+              consistent convention for linking and embedding, HAL enables
+              clients to follow HATEOAS principles—dynamically discovering
+              available operations and transitions—without relying on
+              out-of-band documentation.
+            begin_year: 2014
             end_year: present
             _links:
               self:
-                href: /os/linux/
+                href: /tools/hal/
               projects:
-                - href: /projects/centroid/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/epicloud/
-                - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/nuggets/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/fe/
                 - href: /jobs/freelance/
-                - href: /jobs/rdi/
+        os:
           - title: macOS
             desc: macOS is Apple’s Unix‐based desktop operating system, first released in
               2001 as Mac OS X and built on the open‐source Darwin core and the
@@ -2510,6 +2479,37 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
+                - href: /jobs/freelance/
+                - href: /jobs/rdi/
+          - title: Linux
+            desc: Linux is an open-source operating system that is based on the Linux
+              kernel. It is a free and powerful operating system that is used in
+              many different types of computing devices, from smartphones to
+              supercomputers. It is highly customizable and can be used for a
+              variety of tasks, from web hosting to software development. It is
+              also highly secure and reliable, making it a popular choice for
+              many users.
+            begin_year: 2010
+            end_year: present
+            _links:
+              self:
+                href: /os/linux/
+              projects:
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/nuggets/
+                - href: /projects/scramble-score/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              jobs:
+                - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
         jobs:
@@ -2584,8 +2584,8 @@ _embedded:
         tools:
           - href: /tools/jekyll/
         os:
-          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/macos/
         jobs:
           - href: /jobs/freelance/
       _embedded:
@@ -2647,37 +2647,6 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
         os:
-          - title: Linux
-            desc: Linux is an open-source operating system that is based on the Linux
-              kernel. It is a free and powerful operating system that is used in
-              many different types of computing devices, from smartphones to
-              supercomputers. It is highly customizable and can be used for a
-              variety of tasks, from web hosting to software development. It is
-              also highly secure and reliable, making it a popular choice for
-              many users.
-            begin_year: 2010
-            end_year: present
-            _links:
-              self:
-                href: /os/linux/
-              projects:
-                - href: /projects/centroid/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/epicloud/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/nuggets/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              jobs:
-                - href: /jobs/fe/
-                - href: /jobs/freelance/
-                - href: /jobs/rdi/
           - title: macOS
             desc: macOS is Apple’s Unix‐based desktop operating system, first released in
               2001 as Mac OS X and built on the open‐source Darwin core and the
@@ -2707,6 +2676,37 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
+                - href: /jobs/freelance/
+                - href: /jobs/rdi/
+          - title: Linux
+            desc: Linux is an open-source operating system that is based on the Linux
+              kernel. It is a free and powerful operating system that is used in
+              many different types of computing devices, from smartphones to
+              supercomputers. It is highly customizable and can be used for a
+              variety of tasks, from web hosting to software development. It is
+              also highly secure and reliable, making it a popular choice for
+              many users.
+            begin_year: 2010
+            end_year: present
+            _links:
+              self:
+                href: /os/linux/
+              projects:
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/nuggets/
+                - href: /projects/scramble-score/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              jobs:
+                - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
         jobs:
@@ -2784,9 +2784,9 @@ _embedded:
         db:
           - href: /db/postgres/
         os:
-          - href: /os/windows/
-          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
         jobs:
           - href: /jobs/freelance/
       _embedded:
@@ -2927,37 +2927,6 @@ _embedded:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
         os:
-          - title: Linux
-            desc: Linux is an open-source operating system that is based on the Linux
-              kernel. It is a free and powerful operating system that is used in
-              many different types of computing devices, from smartphones to
-              supercomputers. It is highly customizable and can be used for a
-              variety of tasks, from web hosting to software development. It is
-              also highly secure and reliable, making it a popular choice for
-              many users.
-            begin_year: 2010
-            end_year: present
-            _links:
-              self:
-                href: /os/linux/
-              projects:
-                - href: /projects/centroid/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/epicloud/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/nuggets/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              jobs:
-                - href: /jobs/fe/
-                - href: /jobs/freelance/
-                - href: /jobs/rdi/
           - title: macOS
             desc: macOS is Apple’s Unix‐based desktop operating system, first released in
               2001 as Mac OS X and built on the open‐source Darwin core and the
@@ -2987,6 +2956,37 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
+                - href: /jobs/freelance/
+                - href: /jobs/rdi/
+          - title: Linux
+            desc: Linux is an open-source operating system that is based on the Linux
+              kernel. It is a free and powerful operating system that is used in
+              many different types of computing devices, from smartphones to
+              supercomputers. It is highly customizable and can be used for a
+              variety of tasks, from web hosting to software development. It is
+              also highly secure and reliable, making it a popular choice for
+              many users.
+            begin_year: 2010
+            end_year: present
+            _links:
+              self:
+                href: /os/linux/
+              projects:
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/nuggets/
+                - href: /projects/scramble-score/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              jobs:
+                - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
           - title: Windows
@@ -3116,9 +3116,9 @@ _embedded:
           - href: /languages/py/
           - href: /languages/rb/
         os:
-          - href: /os/windows/
-          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -3214,37 +3214,6 @@ _embedded:
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         os:
-          - title: Linux
-            desc: Linux is an open-source operating system that is based on the Linux
-              kernel. It is a free and powerful operating system that is used in
-              many different types of computing devices, from smartphones to
-              supercomputers. It is highly customizable and can be used for a
-              variety of tasks, from web hosting to software development. It is
-              also highly secure and reliable, making it a popular choice for
-              many users.
-            begin_year: 2010
-            end_year: present
-            _links:
-              self:
-                href: /os/linux/
-              projects:
-                - href: /projects/centroid/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/epicloud/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/nuggets/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              jobs:
-                - href: /jobs/fe/
-                - href: /jobs/freelance/
-                - href: /jobs/rdi/
           - title: macOS
             desc: macOS is Apple’s Unix‐based desktop operating system, first released in
               2001 as Mac OS X and built on the open‐source Darwin core and the
@@ -3274,6 +3243,37 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
+                - href: /jobs/freelance/
+                - href: /jobs/rdi/
+          - title: Linux
+            desc: Linux is an open-source operating system that is based on the Linux
+              kernel. It is a free and powerful operating system that is used in
+              many different types of computing devices, from smartphones to
+              supercomputers. It is highly customizable and can be used for a
+              variety of tasks, from web hosting to software development. It is
+              also highly secure and reliable, making it a popular choice for
+              many users.
+            begin_year: 2010
+            end_year: present
+            _links:
+              self:
+                href: /os/linux/
+              projects:
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/nuggets/
+                - href: /projects/scramble-score/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              jobs:
+                - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
           - title: Windows
@@ -4989,9 +4989,9 @@ _embedded:
         db:
           - href: /db/postgres/
         os:
-          - href: /os/windows/
-          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -5135,37 +5135,6 @@ _embedded:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
         os:
-          - title: Linux
-            desc: Linux is an open-source operating system that is based on the Linux
-              kernel. It is a free and powerful operating system that is used in
-              many different types of computing devices, from smartphones to
-              supercomputers. It is highly customizable and can be used for a
-              variety of tasks, from web hosting to software development. It is
-              also highly secure and reliable, making it a popular choice for
-              many users.
-            begin_year: 2010
-            end_year: present
-            _links:
-              self:
-                href: /os/linux/
-              projects:
-                - href: /projects/centroid/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/epicloud/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/nuggets/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              jobs:
-                - href: /jobs/fe/
-                - href: /jobs/freelance/
-                - href: /jobs/rdi/
           - title: macOS
             desc: macOS is Apple’s Unix‐based desktop operating system, first released in
               2001 as Mac OS X and built on the open‐source Darwin core and the
@@ -5195,6 +5164,37 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
+                - href: /jobs/freelance/
+                - href: /jobs/rdi/
+          - title: Linux
+            desc: Linux is an open-source operating system that is based on the Linux
+              kernel. It is a free and powerful operating system that is used in
+              many different types of computing devices, from smartphones to
+              supercomputers. It is highly customizable and can be used for a
+              variety of tasks, from web hosting to software development. It is
+              also highly secure and reliable, making it a popular choice for
+              many users.
+            begin_year: 2010
+            end_year: present
+            _links:
+              self:
+                href: /os/linux/
+              projects:
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/nuggets/
+                - href: /projects/scramble-score/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              jobs:
+                - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
           - title: Windows
@@ -5674,9 +5674,9 @@ _embedded:
           - href: /languages/cs/
           - href: /languages/rb/
         os:
-          - href: /os/windows/
-          - href: /os/macos/
           - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
         jobs:
           - href: /jobs/freelance/
       _embedded:
@@ -5754,37 +5754,6 @@ _embedded:
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         os:
-          - title: Linux
-            desc: Linux is an open-source operating system that is based on the Linux
-              kernel. It is a free and powerful operating system that is used in
-              many different types of computing devices, from smartphones to
-              supercomputers. It is highly customizable and can be used for a
-              variety of tasks, from web hosting to software development. It is
-              also highly secure and reliable, making it a popular choice for
-              many users.
-            begin_year: 2010
-            end_year: present
-            _links:
-              self:
-                href: /os/linux/
-              projects:
-                - href: /projects/centroid/
-                - href: /projects/cfw/
-                - href: /projects/denver-schedules-api/
-                - href: /projects/epicloud/
-                - href: /projects/jekyll-api/
-                - href: /projects/jekyll-embed/
-                - href: /projects/jekyll-load/
-                - href: /projects/jekyll-prep/
-                - href: /projects/la-boda/
-                - href: /projects/nuggets/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
-                - href: /projects/this-site/
-              jobs:
-                - href: /jobs/fe/
-                - href: /jobs/freelance/
-                - href: /jobs/rdi/
           - title: macOS
             desc: macOS is Apple’s Unix‐based desktop operating system, first released in
               2001 as Mac OS X and built on the open‐source Darwin core and the
@@ -5814,6 +5783,37 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
+                - href: /jobs/freelance/
+                - href: /jobs/rdi/
+          - title: Linux
+            desc: Linux is an open-source operating system that is based on the Linux
+              kernel. It is a free and powerful operating system that is used in
+              many different types of computing devices, from smartphones to
+              supercomputers. It is highly customizable and can be used for a
+              variety of tasks, from web hosting to software development. It is
+              also highly secure and reliable, making it a popular choice for
+              many users.
+            begin_year: 2010
+            end_year: present
+            _links:
+              self:
+                href: /os/linux/
+              projects:
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/nuggets/
+                - href: /projects/scramble-score/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              jobs:
+                - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
           - title: Windows
@@ -10037,8 +10037,8 @@ _embedded:
           - href: /db/btrieve/
           - href: /db/pervasive/
         os:
-          - href: /os/windows/
           - href: /os/netware/
+          - href: /os/windows/
         jobs:
           - href: /jobs/mas/
       _embedded:
@@ -10267,8 +10267,8 @@ _embedded:
           - href: /db/btrieve/
           - href: /db/pervasive/
         os:
-          - href: /os/windows/
           - href: /os/netware/
+          - href: /os/windows/
         jobs:
           - href: /jobs/mas/
       _embedded:
@@ -10496,8 +10496,8 @@ _embedded:
           - href: /db/btrieve/
           - href: /db/pervasive/
         os:
-          - href: /os/windows/
           - href: /os/netware/
+          - href: /os/windows/
         jobs:
           - href: /jobs/mas/
       _embedded:

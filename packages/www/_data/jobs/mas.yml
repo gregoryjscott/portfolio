@@ -71,8 +71,8 @@ _embedded:
           - href: /db/btrieve/
           - href: /db/pervasive/
         os:
-          - href: /os/windows/
           - href: /os/netware/
+          - href: /os/windows/
         jobs:
           - href: /jobs/mas/
     - title: Wen-GAGE Accounting
@@ -91,8 +91,8 @@ _embedded:
           - href: /db/btrieve/
           - href: /db/pervasive/
         os:
-          - href: /os/windows/
           - href: /os/netware/
+          - href: /os/windows/
         jobs:
           - href: /jobs/mas/
     - title: Class Scheduler
@@ -110,8 +110,8 @@ _embedded:
           - href: /db/btrieve/
           - href: /db/pervasive/
         os:
-          - href: /os/windows/
           - href: /os/netware/
+          - href: /os/windows/
         jobs:
           - href: /jobs/mas/
   languages:
