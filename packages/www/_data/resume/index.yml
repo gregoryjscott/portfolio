@@ -1819,6 +1819,7 @@ _embedded:
                 - href: /languages/cpp/
                 - href: /languages/fortran/
                 - href: /languages/pascal/
+                - href: /languages/ti-basic/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -2489,6 +2490,7 @@ _embedded:
                 - href: /languages/cpp/
                 - href: /languages/fortran/
                 - href: /languages/pascal/
+                - href: /languages/ti-basic/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -3004,6 +3006,7 @@ _embedded:
                 - href: /languages/cpp/
                 - href: /languages/fortran/
                 - href: /languages/pascal/
+                - href: /languages/ti-basic/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -3760,6 +3763,7 @@ _embedded:
                 - href: /languages/cpp/
                 - href: /languages/fortran/
                 - href: /languages/pascal/
+                - href: /languages/ti-basic/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -4972,6 +4976,53 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+    - title: TI-BASIC
+      desc: TI-BASIC is the built-in, interpreted programming language used on Texas
+        Instruments graphing calculators. It features a token‐based syntax
+        resembling BASIC, with commands for arithmetic, control structures
+        (If/Then, For, While), list and matrix operations, and direct access to
+        the calculator’s display, menus, and graphing features. Although it’s
+        easy to learn and deploy—making it popular among students for custom
+        routines and games—its execution speed and memory are limited compared
+        to compiled or desktop languages, so programmers often optimize code by
+        minimizing loops, using built-in functions, or writing critical routines
+        in assembly.
+      used_begin_year: 1994
+      used_end_year: 1998
+      _links:
+        self:
+          href: /languages/ti-basic/
+        schools:
+          - href: /schools/uco/
+      _embedded:
+        schools:
+          - title: University of Central Oklahoma
+            subtitle: Bachelor of Science in Mathematics, 1998
+            desc: The University of Central Oklahoma (UCO), located in Edmond, Oklahoma, is
+              a public university known for its strong emphasis on
+              transformative learning and leadership development. As one of the
+              state's oldest institutions of higher education, UCO offers a
+              diverse range of undergraduate and graduate programs across fields
+              such as business, education, liberal arts, and the sciences. The
+              university fosters a student-centered environment focused on
+              academic excellence, community engagement, and real-world
+              experience.
+            begin_year: 1994
+            end_year: 1998
+            _links:
+              self:
+                href: /schools/uco/
+              languages:
+                - href: /languages/c/
+                - href: /languages/cpp/
+                - href: /languages/fortran/
+                - href: /languages/pascal/
+                - href: /languages/ti-basic/
+                - href: /languages/vb/
+              os:
+                - href: /os/aix/
+                - href: /os/ms-dos/
+                - href: /os/windows/
     - title: Typescript
       desc: Typescript is a typed superset of JavaScript that compiles to plain
         JavaScript. It adds optional static typing to the language, allowing
@@ -5224,6 +5275,7 @@ _embedded:
                 - href: /languages/cpp/
                 - href: /languages/fortran/
                 - href: /languages/pascal/
+                - href: /languages/ti-basic/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -10050,6 +10102,7 @@ _embedded:
                 - href: /languages/cpp/
                 - href: /languages/fortran/
                 - href: /languages/pascal/
+                - href: /languages/ti-basic/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -11171,6 +11224,7 @@ _embedded:
                 - href: /languages/cpp/
                 - href: /languages/fortran/
                 - href: /languages/pascal/
+                - href: /languages/ti-basic/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -12175,6 +12229,7 @@ _embedded:
                 - href: /languages/cpp/
                 - href: /languages/fortran/
                 - href: /languages/pascal/
+                - href: /languages/ti-basic/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -15318,6 +15373,7 @@ _embedded:
           - href: /languages/cpp/
           - href: /languages/fortran/
           - href: /languages/pascal/
+          - href: /languages/ti-basic/
           - href: /languages/vb/
         os:
           - href: /os/aix/
@@ -15388,6 +15444,24 @@ _embedded:
             _links:
               self:
                 href: /languages/pascal/
+              schools:
+                - href: /schools/uco/
+          - title: TI-BASIC
+            desc: TI-BASIC is the built-in, interpreted programming language used on Texas
+              Instruments graphing calculators. It features a token‐based syntax
+              resembling BASIC, with commands for arithmetic, control structures
+              (If/Then, For, While), list and matrix operations, and direct
+              access to the calculator’s display, menus, and graphing features.
+              Although it’s easy to learn and deploy—making it popular among
+              students for custom routines and games—its execution speed and
+              memory are limited compared to compiled or desktop languages, so
+              programmers often optimize code by minimizing loops, using
+              built-in functions, or writing critical routines in assembly.
+            used_begin_year: 1994
+            used_end_year: 1998
+            _links:
+              self:
+                href: /languages/ti-basic/
               schools:
                 - href: /schools/uco/
           - title: Visual Basic
