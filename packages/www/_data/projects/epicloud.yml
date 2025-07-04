@@ -55,6 +55,24 @@ _embedded:
           - href: /jobs/fe/
           - href: /jobs/freelance/
   db:
+    - title: BigQuery
+      desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
+        enables businesses to store, query, and analyze large datasets. It is a
+        petabyte-scale data warehouse that can process up to 20,000 queries per
+        second and is designed to scale with the growth of your business.
+        BigQuery is integrated with Google Cloud Platform services, allowing
+        users to easily access and analyze data from other Google services such
+        as Google Ads, Google Analytics, and Google Cloud Storage. BigQuery also
+        supports a wide range of data formats, including CSV, JSON, and Avro.
+      begin_year: 2015
+      end_year: 2021
+      _links:
+        self:
+          href: /db/bigquery/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
     - title: DynamoDB
       desc: Amazon DynamoDB is a fully managed NoSQL database service that provides
         fast and predictable performance with seamless scalability. It is a
@@ -75,137 +93,36 @@ _embedded:
         jobs:
           - href: /jobs/fe/
           - href: /jobs/freelance/
-    - title: BigQuery
-      desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
-        enables businesses to store, query, and analyze large datasets. It is a
-        petabyte-scale data warehouse that can process up to 20,000 queries per
-        second and is designed to scale with the growth of your business.
-        BigQuery is integrated with Google Cloud Platform services, allowing
-        users to easily access and analyze data from other Google services such
-        as Google Ads, Google Analytics, and Google Cloud Storage. BigQuery also
-        supports a wide range of data formats, including CSV, JSON, and Avro.
+  tools:
+    - title: Docker
+      desc: Docker is an open-source platform for developing, shipping, and running
+        applications. It uses container technology to package applications into
+        isolated, lightweight, and portable containers that can be quickly
+        deployed and moved between different computing environments. Docker also
+        provides a set of tools and services to help developers build, ship, and
+        run applications in a more efficient and secure way.
       begin_year: 2015
       end_year: 2021
       _links:
         self:
-          href: /db/bigquery/
+          href: /tools/docker/
         projects:
           - href: /projects/epicloud/
         jobs:
           - href: /jobs/fe/
-  tools:
-    - title: VPC
-      desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
-        provides users with a virtual private cloud, allowing them to provision
-        a logically isolated section of the Amazon Web Services (AWS) cloud. It
-        provides users with complete control over their virtual networking
-        environment, including selection of their own IP address range, creation
-        of subnets, and configuration of route tables and network gateways. It
-        also provides users with the ability to securely connect their VPC to
-        their existing IT infrastructure using industry-standard encrypted IPsec
-        VPN connections.
+    - title: EC2
+      desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
+        resizable compute capacity in the cloud. It is designed to make
+        web-scale cloud computing easier for developers. EC2 allows users to
+        launch virtual servers, called “instances”, which can be configured to
+        their specific needs. EC2 also provides users with the ability to scale
+        their computing resources up or down as needed, allowing them to pay
+        only for the resources they use.
       begin_year: 2015
       end_year: present
       _links:
         self:
-          href: /tools/vpc/
-        projects:
-          - href: /projects/epicloud/
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/fe/
-          - href: /jobs/freelance/
-    - title: SQS
-      desc: Amazon Simple Queue Service (SQS) is a fully managed message queuing
-        service that enables applications to quickly and reliably queue messages
-        that one component of an application can later process. SQS eliminates
-        the complexity and overhead associated with managing and operating
-        message-oriented middleware, and provides a simple and cost-effective
-        way to decouple the components of an application. SQS offers a reliable,
-        highly-scalable, hosted queue for storing messages as they travel
-        between computers. It also provides a simple web services interface that
-        can be used to access queues, add, receive, and delete messages.
-      begin_year: 2015
-      end_year: present
-      _links:
-        self:
-          href: /tools/sqs/
-        projects:
-          - href: /projects/epicloud/
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/fe/
-          - href: /jobs/freelance/
-    - title: S3
-      desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
-        Amazon Web Services (AWS). It provides object storage through a web
-        service interface and is designed to store and retrieve any amount of
-        data from anywhere on the web. It is highly scalable, secure, and
-        durable, and provides features such as data versioning, encryption, and
-        access control. S3 is used by many organizations for storing and backing
-        up data, hosting websites, and streaming media.
-      begin_year: 2015
-      end_year: present
-      _links:
-        self:
-          href: /tools/s3/
-        projects:
-          - href: /projects/epicloud/
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/fe/
-          - href: /jobs/freelance/
-    - title: IAM
-      desc: AWS Identity and Access Management (IAM) is a web service that helps you
-        securely control access to AWS resources. With IAM, you can create and
-        manage AWS users and groups, and use permissions to allow and deny their
-        access to AWS resources. IAM also enables you to create and manage
-        security credentials such as access keys, passwords, and multi-factor
-        authentication devices. You can use IAM to manage access to AWS services
-        such as Amazon EC2, Amazon S3, and Amazon RDS.
-      begin_year: 2015
-      end_year: present
-      _links:
-        self:
-          href: /tools/iam/
-        projects:
-          - href: /projects/epicloud/
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/fe/
-          - href: /jobs/freelance/
-    - title: Fargate
-      desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
-        deploy and manage containers without having to manage the underlying
-        infrastructure. It provides a serverless compute engine for containers
-        that eliminates the need to provision, configure, and scale clusters of
-        virtual machines. Fargate also provides a secure and reliable platform
-        for running containers, allowing users to focus on building and running
-        their applications, rather than managing the underlying infrastructure.
-      begin_year: 2015
-      end_year: present
-      _links:
-        self:
-          href: /tools/fargate/
-        projects:
-          - href: /projects/epicloud/
-          - href: /projects/nuggets/
-        jobs:
-          - href: /jobs/fe/
-          - href: /jobs/freelance/
-    - title: ECS
-      desc: Amazon Elastic Container Service (ECS) is a container orchestration
-        service from Amazon Web Services (AWS) that enables users to easily
-        deploy, manage, and scale containerized applications on AWS. It provides
-        a secure and scalable platform for running Docker containers, allowing
-        users to quickly and easily deploy and manage applications in the cloud.
-        ECS also provides features such as automated container scaling, service
-        discovery, and resource management.
-      begin_year: 2015
-      end_year: present
-      _links:
-        self:
-          href: /tools/ecs/
+          href: /tools/ec2/
         projects:
           - href: /projects/epicloud/
           - href: /projects/nuggets/
@@ -231,19 +148,162 @@ _embedded:
         jobs:
           - href: /jobs/fe/
           - href: /jobs/freelance/
-    - title: EC2
-      desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
-        resizable compute capacity in the cloud. It is designed to make
-        web-scale cloud computing easier for developers. EC2 allows users to
-        launch virtual servers, called “instances”, which can be configured to
-        their specific needs. EC2 also provides users with the ability to scale
-        their computing resources up or down as needed, allowing them to pay
-        only for the resources they use.
+    - title: ECS
+      desc: Amazon Elastic Container Service (ECS) is a container orchestration
+        service from Amazon Web Services (AWS) that enables users to easily
+        deploy, manage, and scale containerized applications on AWS. It provides
+        a secure and scalable platform for running Docker containers, allowing
+        users to quickly and easily deploy and manage applications in the cloud.
+        ECS also provides features such as automated container scaling, service
+        discovery, and resource management.
       begin_year: 2015
       end_year: present
       _links:
         self:
-          href: /tools/ec2/
+          href: /tools/ecs/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/freelance/
+    - title: Fargate
+      desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
+        deploy and manage containers without having to manage the underlying
+        infrastructure. It provides a serverless compute engine for containers
+        that eliminates the need to provision, configure, and scale clusters of
+        virtual machines. Fargate also provides a secure and reliable platform
+        for running containers, allowing users to focus on building and running
+        their applications, rather than managing the underlying infrastructure.
+      begin_year: 2015
+      end_year: present
+      _links:
+        self:
+          href: /tools/fargate/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/freelance/
+    - title: Firebase
+      desc: Google Firebase is a mobile and web application development platform that
+        provides developers with a variety of tools and services to help them
+        quickly and easily build high-quality apps. Firebase provides a
+        real-time database, authentication, storage, hosting, analytics, and
+        more. It also offers a range of SDKs for Android, iOS, and web
+        development, allowing developers to quickly and easily integrate
+        Firebase into their apps.
+      begin_year: 2015
+      end_year: 2021
+      _links:
+        self:
+          href: /tools/firebase/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: Google Classroom
+      desc: Google Classroom is a free web-based platform that allows teachers to
+        create and manage virtual classrooms. It enables teachers to easily
+        create and organize assignments, provide feedback, and communicate with
+        students. It also allows students to submit assignments, view grades,
+        and collaborate with their peers. Google Classroom integrates with other
+        Google applications such as Google Drive, Google Docs, and Google
+        Calendar.
+      begin_year: 2015
+      end_year: 2021
+      _links:
+        self:
+          href: /tools/classroom/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: Google Drive
+      desc: Google Drive is a cloud storage service that allows users to store and
+        access their files from any device with an internet connection. It
+        provides users with 15GB of free storage, and additional storage can be
+        purchased. It also offers a suite of office applications, including
+        Google Docs, Sheets, and Slides, which allow users to create and
+        collaborate on documents, spreadsheets, and presentations. Google Drive
+        also offers a range of features, such as file sharing, version history,
+        and real-time collaboration.
+      begin_year: 2015
+      end_year: 2021
+      _links:
+        self:
+          href: /tools/drive/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: IAM
+      desc: AWS Identity and Access Management (IAM) is a web service that helps you
+        securely control access to AWS resources. With IAM, you can create and
+        manage AWS users and groups, and use permissions to allow and deny their
+        access to AWS resources. IAM also enables you to create and manage
+        security credentials such as access keys, passwords, and multi-factor
+        authentication devices. You can use IAM to manage access to AWS services
+        such as Amazon EC2, Amazon S3, and Amazon RDS.
+      begin_year: 2015
+      end_year: present
+      _links:
+        self:
+          href: /tools/iam/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/freelance/
+    - title: Node
+      desc: Node.js is an open-source, cross-platform JavaScript runtime environment
+        that executes JavaScript code outside of a browser. It is used to create
+        server-side and networking applications. Node.js applications are
+        written in JavaScript and can be run within the Node.js runtime on OS X,
+        Microsoft Windows, and Linux. Node.js also provides a rich library of
+        various JavaScript modules which simplifies the development of web
+        applications using Node.js.
+      begin_year: 2015
+      end_year: 2021
+      _links:
+        self:
+          href: /tools/node/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: Puppeteer
+      desc: Puppeteer is a Node library developed by Google that provides a high-level
+        API to control headless Chrome or Chromium over the DevTools Protocol.
+        It can be used to automate tasks that would normally be performed
+        manually in the browser, such as form submission, UI testing, keyboard
+        input, or capturing a timeline trace to diagnose performance issues.
+        Puppeteer can also be used to generate screenshots and PDFs of web
+        pages.
+      begin_year: 2015
+      end_year: 2021
+      _links:
+        self:
+          href: /tools/puppeteer/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: S3
+      desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
+        Amazon Web Services (AWS). It provides object storage through a web
+        service interface and is designed to store and retrieve any amount of
+        data from anywhere on the web. It is highly scalable, secure, and
+        durable, and provides features such as data versioning, encryption, and
+        access control. S3 is used by many organizations for storing and backing
+        up data, hosting websites, and streaming media.
+      begin_year: 2015
+      end_year: present
+      _links:
+        self:
+          href: /tools/s3/
         projects:
           - href: /projects/epicloud/
           - href: /projects/nuggets/
@@ -268,108 +328,48 @@ _embedded:
           - href: /projects/epicloud/
         jobs:
           - href: /jobs/fe/
-    - title: Puppeteer
-      desc: Puppeteer is a Node library developed by Google that provides a high-level
-        API to control headless Chrome or Chromium over the DevTools Protocol.
-        It can be used to automate tasks that would normally be performed
-        manually in the browser, such as form submission, UI testing, keyboard
-        input, or capturing a timeline trace to diagnose performance issues.
-        Puppeteer can also be used to generate screenshots and PDFs of web
-        pages.
+    - title: SQS
+      desc: Amazon Simple Queue Service (SQS) is a fully managed message queuing
+        service that enables applications to quickly and reliably queue messages
+        that one component of an application can later process. SQS eliminates
+        the complexity and overhead associated with managing and operating
+        message-oriented middleware, and provides a simple and cost-effective
+        way to decouple the components of an application. SQS offers a reliable,
+        highly-scalable, hosted queue for storing messages as they travel
+        between computers. It also provides a simple web services interface that
+        can be used to access queues, add, receive, and delete messages.
       begin_year: 2015
-      end_year: 2021
+      end_year: present
       _links:
         self:
-          href: /tools/puppeteer/
+          href: /tools/sqs/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-    - title: Node
-      desc: Node.js is an open-source, cross-platform JavaScript runtime environment
-        that executes JavaScript code outside of a browser. It is used to create
-        server-side and networking applications. Node.js applications are
-        written in JavaScript and can be run within the Node.js runtime on OS X,
-        Microsoft Windows, and Linux. Node.js also provides a rich library of
-        various JavaScript modules which simplifies the development of web
-        applications using Node.js.
+          - href: /jobs/freelance/
+    - title: VPC
+      desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
+        provides users with a virtual private cloud, allowing them to provision
+        a logically isolated section of the Amazon Web Services (AWS) cloud. It
+        provides users with complete control over their virtual networking
+        environment, including selection of their own IP address range, creation
+        of subnets, and configuration of route tables and network gateways. It
+        also provides users with the ability to securely connect their VPC to
+        their existing IT infrastructure using industry-standard encrypted IPsec
+        VPN connections.
       begin_year: 2015
-      end_year: 2021
+      end_year: present
       _links:
         self:
-          href: /tools/node/
+          href: /tools/vpc/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-    - title: Firebase
-      desc: Google Firebase is a mobile and web application development platform that
-        provides developers with a variety of tools and services to help them
-        quickly and easily build high-quality apps. Firebase provides a
-        real-time database, authentication, storage, hosting, analytics, and
-        more. It also offers a range of SDKs for Android, iOS, and web
-        development, allowing developers to quickly and easily integrate
-        Firebase into their apps.
-      begin_year: 2015
-      end_year: 2021
-      _links:
-        self:
-          href: /tools/firebase/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-    - title: Google Drive
-      desc: Google Drive is a cloud storage service that allows users to store and
-        access their files from any device with an internet connection. It
-        provides users with 15GB of free storage, and additional storage can be
-        purchased. It also offers a suite of office applications, including
-        Google Docs, Sheets, and Slides, which allow users to create and
-        collaborate on documents, spreadsheets, and presentations. Google Drive
-        also offers a range of features, such as file sharing, version history,
-        and real-time collaboration.
-      begin_year: 2015
-      end_year: 2021
-      _links:
-        self:
-          href: /tools/drive/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-    - title: Docker
-      desc: Docker is an open-source platform for developing, shipping, and running
-        applications. It uses container technology to package applications into
-        isolated, lightweight, and portable containers that can be quickly
-        deployed and moved between different computing environments. Docker also
-        provides a set of tools and services to help developers build, ship, and
-        run applications in a more efficient and secure way.
-      begin_year: 2015
-      end_year: 2021
-      _links:
-        self:
-          href: /tools/docker/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-    - title: Google Classroom
-      desc: Google Classroom is a free web-based platform that allows teachers to
-        create and manage virtual classrooms. It enables teachers to easily
-        create and organize assignments, provide feedback, and communicate with
-        students. It also allows students to submit assignments, view grades,
-        and collaborate with their peers. Google Classroom integrates with other
-        Google applications such as Google Drive, Google Docs, and Google
-        Calendar.
-      begin_year: 2015
-      end_year: 2021
-      _links:
-        self:
-          href: /tools/classroom/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
+          - href: /jobs/freelance/
   os:
     - title: Linux
       desc: Linux is an open-source operating system that is based on the Linux

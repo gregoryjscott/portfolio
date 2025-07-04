@@ -20,15 +20,15 @@ _links:
     - href: /jobs/mas/
 _embedded:
   projects:
-    - title: Wen-GAGE Student Information
-      desc: Desktop application that is used by schools in Oklahoma to manage their
-        student information such as enrollment, attendance, and grades.
+    - title: Wen-GAGE Accounting
+      desc: Desktop application that is used by schools in Oklahoma to manage all
+        their school accounting responsibilites.
       role: Lead Developer
       begin_year: 1999
       end_year: 2004
       _links:
         self:
-          href: /projects/wengage-si/
+          href: /projects/wengage-acct/
         languages:
           - href: /languages/delphi/
           - href: /languages/sql/
@@ -40,15 +40,15 @@ _embedded:
           - href: /os/windows/
         jobs:
           - href: /jobs/mas/
-    - title: Wen-GAGE Accounting
-      desc: Desktop application that is used by schools in Oklahoma to manage all
-        their school accounting responsibilites.
+    - title: Wen-GAGE Student Information
+      desc: Desktop application that is used by schools in Oklahoma to manage their
+        student information such as enrollment, attendance, and grades.
       role: Lead Developer
       begin_year: 1999
       end_year: 2004
       _links:
         self:
-          href: /projects/wengage-acct/
+          href: /projects/wengage-si/
         languages:
           - href: /languages/delphi/
           - href: /languages/sql/

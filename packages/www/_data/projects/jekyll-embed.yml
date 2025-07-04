@@ -52,6 +52,29 @@ _embedded:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
   tools:
+    - title: HAL
+      subtitle: Hypertext Application Language (HAL) is a a media type for
+        representing resources with hyperlinks
+      desc: The Hypertext Application Language (HAL) is a simple, vendor-neutral media
+        type for representing resources and their relationships in JSON or XML,
+        designed to make RESTful APIs more discoverable and self-descriptive. In
+        HAL, each resource’s state is represented by its attributes, its
+        hyperlinks by a standardized “_links” section (allowing clients to
+        navigate between related resources), and any embedded sub‐resources by
+        an “_embedded” section. By providing a consistent convention for linking
+        and embedding, HAL enables clients to follow HATEOAS
+        principles—dynamically discovering available operations and
+        transitions—without relying on out-of-band documentation.
+      begin_year: 2014
+      end_year: present
+      _links:
+        self:
+          href: /tools/hal/
+        projects:
+          - href: /projects/jekyll-embed/
+          - href: /projects/this-site/
+        jobs:
+          - href: /jobs/freelance/
     - title: Jekyll
       desc: Jekyll is an open-source, Ruby-based static site generator that transforms
         plain-text content (written in Markdown, Textile or HTML) and
@@ -76,60 +99,7 @@ _embedded:
           - href: /projects/this-site/
         jobs:
           - href: /jobs/freelance/
-    - title: HAL
-      subtitle: Hypertext Application Language (HAL) is a a media type for
-        representing resources with hyperlinks
-      desc: The Hypertext Application Language (HAL) is a simple, vendor-neutral media
-        type for representing resources and their relationships in JSON or XML,
-        designed to make RESTful APIs more discoverable and self-descriptive. In
-        HAL, each resource’s state is represented by its attributes, its
-        hyperlinks by a standardized “_links” section (allowing clients to
-        navigate between related resources), and any embedded sub‐resources by
-        an “_embedded” section. By providing a consistent convention for linking
-        and embedding, HAL enables clients to follow HATEOAS
-        principles—dynamically discovering available operations and
-        transitions—without relying on out-of-band documentation.
-      begin_year: 2014
-      end_year: present
-      _links:
-        self:
-          href: /tools/hal/
-        projects:
-          - href: /projects/jekyll-embed/
-          - href: /projects/this-site/
-        jobs:
-          - href: /jobs/freelance/
   os:
-    - title: macOS
-      desc: macOS is Apple’s Unix‐based desktop operating system, first released in
-        2001 as Mac OS X and built on the open‐source Darwin core and the
-        proprietary XNU kernel. Designed exclusively for Mac computers, it
-        combines a polished Aqua graphical interface with deep integration of
-        hardware and software, offering features like Spotlight search, Time
-        Machine backups, and Continuity for seamless work across Apple devices.
-        With strong emphasis on stability, security and performance, macOS
-        supports a rich ecosystem of native and third-party applications via the
-        Mac App Store and developer tools such as Xcode, making it a popular
-        choice for both creative professionals and everyday users.
-      begin_year: 2010
-      end_year: present
-      _links:
-        self:
-          href: /os/macos/
-        projects:
-          - href: /projects/aprender/
-          - href: /projects/centroid/
-          - href: /projects/denver-schedules-api/
-          - href: /projects/jekyll-api/
-          - href: /projects/jekyll-embed/
-          - href: /projects/jekyll-load/
-          - href: /projects/jekyll-prep/
-          - href: /projects/scramble-score/
-          - href: /projects/simpler/
-          - href: /projects/this-site/
-        jobs:
-          - href: /jobs/freelance/
-          - href: /jobs/rdi/
     - title: Linux
       desc: Linux is an open-source operating system that is based on the Linux
         kernel. It is a free and powerful operating system that is used in many
@@ -158,6 +128,36 @@ _embedded:
           - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
+          - href: /jobs/rdi/
+    - title: macOS
+      desc: macOS is Apple’s Unix‐based desktop operating system, first released in
+        2001 as Mac OS X and built on the open‐source Darwin core and the
+        proprietary XNU kernel. Designed exclusively for Mac computers, it
+        combines a polished Aqua graphical interface with deep integration of
+        hardware and software, offering features like Spotlight search, Time
+        Machine backups, and Continuity for seamless work across Apple devices.
+        With strong emphasis on stability, security and performance, macOS
+        supports a rich ecosystem of native and third-party applications via the
+        Mac App Store and developer tools such as Xcode, making it a popular
+        choice for both creative professionals and everyday users.
+      begin_year: 2010
+      end_year: present
+      _links:
+        self:
+          href: /os/macos/
+        projects:
+          - href: /projects/aprender/
+          - href: /projects/centroid/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/scramble-score/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+        jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
   jobs:

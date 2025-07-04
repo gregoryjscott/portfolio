@@ -22,31 +22,31 @@ _links:
     - href: /jobs/rdi/
 _embedded:
   languages:
-    - title: Ruby
-      desc: Ruby is an open-source, object-oriented programming language created by
-        Yukihiro Matsumoto in 1995. It is designed to be simple and easy to use,
-        yet powerful and flexible. Ruby is often used for web development,
-        scripting, and general-purpose programming. It is known for its use of
-        blocks, which allow for the creation of concise and powerful code. Ruby
-        is also popular for its use of metaprogramming, which allows for the
-        dynamic creation of code at runtime.
-      begin_year: 2010
+    - title: CSS
+      desc: CSS (Cascading Style Sheets) is a style sheet language used for describing
+        the presentation of a document written in a markup language such as
+        HTML. CSS is designed to enable the separation of presentation and
+        content, including layout, colors, and fonts. This separation can
+        improve content accessibility, provide more flexibility and control in
+        the specification of presentation characteristics, enable multiple web
+        pages to share formatting by specifying the relevant CSS in a separate
+        .css file, and reduce complexity and repetition in the structural
+        content.
+      begin_year: 2005
       end_year: present
       _links:
         self:
-          href: /languages/rb/
+          href: /languages/css/
         projects:
           - href: /projects/agdc/
-          - href: /projects/centroid/
-          - href: /projects/cfw/
-          - href: /projects/denver-schedules-api/
-          - href: /projects/jekyll-api/
-          - href: /projects/jekyll-embed/
-          - href: /projects/jekyll-load/
-          - href: /projects/jekyll-prep/
-          - href: /projects/please/
+          - href: /projects/awwu-intranet/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/la-boda/
+          - href: /projects/qb/
           - href: /projects/scramble-score/
-          - href: /projects/simpler/
+          - href: /projects/scrum-tools/
+          - href: /projects/somd/
+          - href: /projects/systems-portal/
           - href: /projects/this-site/
         jobs:
           - href: /jobs/freelance/
@@ -65,35 +65,6 @@ _embedded:
       _links:
         self:
           href: /languages/html/
-        projects:
-          - href: /projects/agdc/
-          - href: /projects/awwu-intranet/
-          - href: /projects/energy-efficiency-map/
-          - href: /projects/la-boda/
-          - href: /projects/qb/
-          - href: /projects/scramble-score/
-          - href: /projects/scrum-tools/
-          - href: /projects/somd/
-          - href: /projects/systems-portal/
-          - href: /projects/this-site/
-        jobs:
-          - href: /jobs/freelance/
-          - href: /jobs/rdi/
-    - title: CSS
-      desc: CSS (Cascading Style Sheets) is a style sheet language used for describing
-        the presentation of a document written in a markup language such as
-        HTML. CSS is designed to enable the separation of presentation and
-        content, including layout, colors, and fonts. This separation can
-        improve content accessibility, provide more flexibility and control in
-        the specification of presentation characteristics, enable multiple web
-        pages to share formatting by specifying the relevant CSS in a separate
-        .css file, and reduce complexity and repetition in the structural
-        content.
-      begin_year: 2005
-      end_year: present
-      _links:
-        self:
-          href: /languages/css/
         projects:
           - href: /projects/agdc/
           - href: /projects/awwu-intranet/
@@ -134,6 +105,35 @@ _embedded:
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
+    - title: Ruby
+      desc: Ruby is an open-source, object-oriented programming language created by
+        Yukihiro Matsumoto in 1995. It is designed to be simple and easy to use,
+        yet powerful and flexible. Ruby is often used for web development,
+        scripting, and general-purpose programming. It is known for its use of
+        blocks, which allow for the creation of concise and powerful code. Ruby
+        is also popular for its use of metaprogramming, which allows for the
+        dynamic creation of code at runtime.
+      begin_year: 2010
+      end_year: present
+      _links:
+        self:
+          href: /languages/rb/
+        projects:
+          - href: /projects/agdc/
+          - href: /projects/centroid/
+          - href: /projects/cfw/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/please/
+          - href: /projects/scramble-score/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+        jobs:
+          - href: /jobs/freelance/
+          - href: /jobs/rdi/
   db:
     - title: Postgres
       desc: Postgres is an open source object-relational database management system
@@ -158,36 +158,6 @@ _embedded:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
   os:
-    - title: macOS
-      desc: macOS is Apple’s Unix‐based desktop operating system, first released in
-        2001 as Mac OS X and built on the open‐source Darwin core and the
-        proprietary XNU kernel. Designed exclusively for Mac computers, it
-        combines a polished Aqua graphical interface with deep integration of
-        hardware and software, offering features like Spotlight search, Time
-        Machine backups, and Continuity for seamless work across Apple devices.
-        With strong emphasis on stability, security and performance, macOS
-        supports a rich ecosystem of native and third-party applications via the
-        Mac App Store and developer tools such as Xcode, making it a popular
-        choice for both creative professionals and everyday users.
-      begin_year: 2010
-      end_year: present
-      _links:
-        self:
-          href: /os/macos/
-        projects:
-          - href: /projects/aprender/
-          - href: /projects/centroid/
-          - href: /projects/denver-schedules-api/
-          - href: /projects/jekyll-api/
-          - href: /projects/jekyll-embed/
-          - href: /projects/jekyll-load/
-          - href: /projects/jekyll-prep/
-          - href: /projects/scramble-score/
-          - href: /projects/simpler/
-          - href: /projects/this-site/
-        jobs:
-          - href: /jobs/freelance/
-          - href: /jobs/rdi/
     - title: Linux
       desc: Linux is an open-source operating system that is based on the Linux
         kernel. It is a free and powerful operating system that is used in many
@@ -216,6 +186,36 @@ _embedded:
           - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
+          - href: /jobs/rdi/
+    - title: macOS
+      desc: macOS is Apple’s Unix‐based desktop operating system, first released in
+        2001 as Mac OS X and built on the open‐source Darwin core and the
+        proprietary XNU kernel. Designed exclusively for Mac computers, it
+        combines a polished Aqua graphical interface with deep integration of
+        hardware and software, offering features like Spotlight search, Time
+        Machine backups, and Continuity for seamless work across Apple devices.
+        With strong emphasis on stability, security and performance, macOS
+        supports a rich ecosystem of native and third-party applications via the
+        Mac App Store and developer tools such as Xcode, making it a popular
+        choice for both creative professionals and everyday users.
+      begin_year: 2010
+      end_year: present
+      _links:
+        self:
+          href: /os/macos/
+        projects:
+          - href: /projects/aprender/
+          - href: /projects/centroid/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/scramble-score/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+        jobs:
           - href: /jobs/freelance/
           - href: /jobs/rdi/
     - title: Windows

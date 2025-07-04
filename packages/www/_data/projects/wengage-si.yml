@@ -20,6 +20,27 @@ _links:
     - href: /jobs/mas/
 _embedded:
   languages:
+    - title: Delphi
+      desc: Delphi is an object-oriented programming language developed by Embarcadero
+        Technologies. It is based on the Object Pascal language and is used to
+        create Windows, macOS, iOS, and Android applications. Delphi is a rapid
+        application development (RAD) tool that allows developers to quickly
+        create applications with a graphical user interface (GUI). It also
+        includes a visual component library (VCL) and an integrated development
+        environment (IDE). Delphi is used by developers to create applications
+        for a variety of industries, including finance, healthcare, and
+        manufacturing.
+      begin_year: 1999
+      end_year: 2004
+      _links:
+        self:
+          href: /languages/delphi/
+        projects:
+          - href: /projects/class-scheduler/
+          - href: /projects/wengage-acct/
+          - href: /projects/wengage-si/
+        jobs:
+          - href: /jobs/mas/
     - title: SQL
       desc: SQL (Structured Query Language) is a domain-specific language used in
         programming and designed for managing data held in a relational database
@@ -58,28 +79,28 @@ _embedded:
           - href: /jobs/freelance/
           - href: /jobs/mas/
           - href: /jobs/rdi/
-    - title: Delphi
-      desc: Delphi is an object-oriented programming language developed by Embarcadero
-        Technologies. It is based on the Object Pascal language and is used to
-        create Windows, macOS, iOS, and Android applications. Delphi is a rapid
-        application development (RAD) tool that allows developers to quickly
-        create applications with a graphical user interface (GUI). It also
-        includes a visual component library (VCL) and an integrated development
-        environment (IDE). Delphi is used by developers to create applications
-        for a variety of industries, including finance, healthcare, and
-        manufacturing.
+  db:
+    - title: Btrieve
+      desc: Btrieve is a database management system (DBMS) developed by Pervasive
+        Software. It is a high-performance, reliable, and cost-effective
+        database solution for small to medium-sized businesses. Btrieve is a
+        relational database that supports multiple data types, including text,
+        numeric, and binary. It is designed to be easy to use and provides a
+        wide range of features, including data encryption, transaction logging,
+        and replication. Btrieve is also highly scalable, allowing it to be used
+        in a variety of applications, from single-user systems to large
+        enterprise networks.
       begin_year: 1999
       end_year: 2004
       _links:
         self:
-          href: /languages/delphi/
+          href: /db/btrieve/
         projects:
           - href: /projects/class-scheduler/
           - href: /projects/wengage-acct/
           - href: /projects/wengage-si/
         jobs:
           - href: /jobs/mas/
-  db:
     - title: Pervasive
       desc: Pervasive is a relational database management system (RDBMS) that is
         designed to provide high performance, scalability, and reliability for
@@ -102,28 +123,28 @@ _embedded:
           - href: /projects/wengage-si/
         jobs:
           - href: /jobs/mas/
-    - title: Btrieve
-      desc: Btrieve is a database management system (DBMS) developed by Pervasive
-        Software. It is a high-performance, reliable, and cost-effective
-        database solution for small to medium-sized businesses. Btrieve is a
-        relational database that supports multiple data types, including text,
-        numeric, and binary. It is designed to be easy to use and provides a
-        wide range of features, including data encryption, transaction logging,
-        and replication. Btrieve is also highly scalable, allowing it to be used
-        in a variety of applications, from single-user systems to large
-        enterprise networks.
+  os:
+    - title: NetWare
+      desc: NetWare is a network operating system developed by Novell, Inc. It was one
+        of the first network operating systems to be widely used in business
+        networks. It provides a distributed file system, print services, and
+        other network services. It also provides a graphical user interface,
+        allowing users to access and manage network resources. NetWare also
+        supports a wide range of network protocols, including IPX/SPX, TCP/IP,
+        and AppleTalk. It is also compatible with a variety of hardware
+        platforms, including Intel-based PCs, Macintosh computers, and UNIX
+        systems.
       begin_year: 1999
       end_year: 2004
       _links:
         self:
-          href: /db/btrieve/
+          href: /os/netware/
         projects:
           - href: /projects/class-scheduler/
           - href: /projects/wengage-acct/
           - href: /projects/wengage-si/
         jobs:
           - href: /jobs/mas/
-  os:
     - title: Windows
       desc: Windows is a series of operating systems developed by Microsoft. It is the
         most popular operating system for personal computers, and is used in a
@@ -177,27 +198,6 @@ _embedded:
           - href: /jobs/rdi/
         schools:
           - href: /schools/uco/
-    - title: NetWare
-      desc: NetWare is a network operating system developed by Novell, Inc. It was one
-        of the first network operating systems to be widely used in business
-        networks. It provides a distributed file system, print services, and
-        other network services. It also provides a graphical user interface,
-        allowing users to access and manage network resources. NetWare also
-        supports a wide range of network protocols, including IPX/SPX, TCP/IP,
-        and AppleTalk. It is also compatible with a variety of hardware
-        platforms, including Intel-based PCs, Macintosh computers, and UNIX
-        systems.
-      begin_year: 1999
-      end_year: 2004
-      _links:
-        self:
-          href: /os/netware/
-        projects:
-          - href: /projects/class-scheduler/
-          - href: /projects/wengage-acct/
-          - href: /projects/wengage-si/
-        jobs:
-          - href: /jobs/mas/
   jobs:
     - title: Municipal Accounting Systems, Inc.
       desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in

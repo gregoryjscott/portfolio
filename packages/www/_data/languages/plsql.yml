@@ -22,6 +22,24 @@ _links:
     - href: /jobs/rdi/
 _embedded:
   projects:
+    - title: Consumption Views
+      desc: Set of database views that provides water consumption information that
+        feed into reporting tools used by AWWU to make business decisions.
+      role: Lead Developer
+      begin_year: 2009
+      end_year: 2009
+      _links:
+        self:
+          href: /projects/consumption-views/
+        languages:
+          - href: /languages/plsql/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: Service Order Mobile Dispatch
       desc: Mobile web application that allows Anchorage Water & Wastewater Utility
         service workers to query and record service information while in the
@@ -37,24 +55,6 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
-          - href: /languages/plsql/
-          - href: /languages/sql/
-        db:
-          - href: /db/oracle/
-        os:
-          - href: /os/windows/
-        jobs:
-          - href: /jobs/rdi/
-    - title: Consumption Views
-      desc: Set of database views that provides water consumption information that
-        feed into reporting tools used by AWWU to make business decisions.
-      role: Lead Developer
-      begin_year: 2009
-      end_year: 2009
-      _links:
-        self:
-          href: /projects/consumption-views/
-        languages:
           - href: /languages/plsql/
           - href: /languages/sql/
         db:

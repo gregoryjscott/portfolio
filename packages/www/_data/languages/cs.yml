@@ -41,6 +41,28 @@ _links:
     - href: /jobs/rdi/
 _embedded:
   projects:
+    - title: Centroid
+      desc: Library for accessing environment based configuration from multiple
+        different programming languages.
+      role: Contributor
+      begin_year: 2014
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/centroid/
+        code:
+          title: github.com/ResourceDataInc/Centroid
+          href: https://github.com/ResourceDataInc/Centroid
+        languages:
+          - href: /languages/cs/
+          - href: /languages/py/
+          - href: /languages/rb/
+        os:
+          - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: Denver Schedules API
       desc: JSON API that provides access to Denver activities that impact the
         residents of Denver.
@@ -65,28 +87,6 @@ _embedded:
           - href: /os/windows/
         jobs:
           - href: /jobs/freelance/
-    - title: Centroid
-      desc: Library for accessing environment based configuration from multiple
-        different programming languages.
-      role: Contributor
-      begin_year: 2014
-      end_year: 2014
-      _links:
-        self:
-          href: /projects/centroid/
-        code:
-          title: github.com/ResourceDataInc/Centroid
-          href: https://github.com/ResourceDataInc/Centroid
-        languages:
-          - href: /languages/cs/
-          - href: /languages/py/
-          - href: /languages/rb/
-        os:
-          - href: /os/linux/
-          - href: /os/macos/
-          - href: /os/windows/
-        jobs:
-          - href: /jobs/rdi/
     - title: Alaska Gasline Development Corporation
       desc: Web application that provides AGDC with documentation, reporting, and
         querying tools for their vast GIS data and infrastructure.
@@ -153,14 +153,15 @@ _embedded:
           - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
-    - title: Scrum Tools
-      desc: null
+    - title: Energy Efficiency Map
+      desc: Web application that allows the Alaska Energy Authority to monitor and
+        administer data from their statewide energy saving programs.
       role: Technical Lead
       begin_year: 2012
       end_year: 2013
       _links:
         self:
-          href: /projects/scrum-tools/
+          href: /projects/energy-efficiency-map/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -174,15 +175,14 @@ _embedded:
           - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
-    - title: Energy Efficiency Map
-      desc: Web application that allows the Alaska Energy Authority to monitor and
-        administer data from their statewide energy saving programs.
+    - title: Scrum Tools
+      desc: null
       role: Technical Lead
       begin_year: 2012
       end_year: 2013
       _links:
         self:
-          href: /projects/energy-efficiency-map/
+          href: /projects/scrum-tools/
         languages:
           - href: /languages/cs/
           - href: /languages/css/
@@ -282,20 +282,16 @@ _embedded:
           - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
-    - title: Lasar Range Finder
-      desc: Software that records output from a handheld lasar range finder and
-        combines it with records from a GPS unit which allows field workers to
-        record the locations of objects that aren't assessible otherwise.
+    - title: Bit Proposal
+      desc: null
       role: Lead Developer
       begin_year: 2008
       end_year: 2008
       _links:
         self:
-          href: /projects/lasar-range-finder/
+          href: /projects/bit-proposal/
         languages:
           - href: /languages/cs/
-        db:
-          - href: /db/access/
         os:
           - href: /os/windows/
         jobs:
@@ -318,16 +314,20 @@ _embedded:
           - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
-    - title: Bit Proposal
-      desc: null
+    - title: Lasar Range Finder
+      desc: Software that records output from a handheld lasar range finder and
+        combines it with records from a GPS unit which allows field workers to
+        record the locations of objects that aren't assessible otherwise.
       role: Lead Developer
       begin_year: 2008
       end_year: 2008
       _links:
         self:
-          href: /projects/bit-proposal/
+          href: /projects/lasar-range-finder/
         languages:
           - href: /languages/cs/
+        db:
+          - href: /db/access/
         os:
           - href: /os/windows/
         jobs:
@@ -354,20 +354,20 @@ _embedded:
           - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
-    - title: TrainBuilder
-      desc: Windows Presentation Framework (WPF) application used by the Alaska
-        Railroad to plan and schedule structure of their trains.
+    - title: FLIR Monitoring System
+      desc: Software that reads the output from a FLIR laser mounted on a single
+        engine plane used to fly over the Alaska North Slope and record land
+        information.
       role: Developer
       begin_year: 2007
       end_year: 2007
       _links:
         self:
-          href: /projects/train-builder/
+          href: /projects/flir-monitoring/
         languages:
           - href: /languages/cs/
-          - href: /languages/sql/
         db:
-          - href: /db/sql-server/
+          - href: /db/access/
         os:
           - href: /os/windows/
         jobs:
@@ -389,20 +389,20 @@ _embedded:
           - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
-    - title: FLIR Monitoring System
-      desc: Software that reads the output from a FLIR laser mounted on a single
-        engine plane used to fly over the Alaska North Slope and record land
-        information.
+    - title: TrainBuilder
+      desc: Windows Presentation Framework (WPF) application used by the Alaska
+        Railroad to plan and schedule structure of their trains.
       role: Developer
       begin_year: 2007
       end_year: 2007
       _links:
         self:
-          href: /projects/flir-monitoring/
+          href: /projects/train-builder/
         languages:
           - href: /languages/cs/
+          - href: /languages/sql/
         db:
-          - href: /db/access/
+          - href: /db/sql-server/
         os:
           - href: /os/windows/
         jobs:
@@ -425,6 +425,23 @@ _embedded:
           - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
+    - title: AWWU Job Scheduler
+      desc: Framework for creating background processing jobs that migrate,
+        synchronize, and transform data throughout AWWU's integrated systems.
+      role: Technical Lead
+      begin_year: 2005
+      end_year: 2006
+      _links:
+        self:
+          href: /projects/awwu-job-scheduler/
+        languages:
+          - href: /languages/cs/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: AWWU Systems Integration
       desc: null
       role: Technical Lead
@@ -437,23 +454,6 @@ _embedded:
           - href: /languages/cs/
           - href: /languages/plsql/
           - href: /languages/sql/
-        db:
-          - href: /db/oracle/
-        os:
-          - href: /os/windows/
-        jobs:
-          - href: /jobs/rdi/
-    - title: AWWU Job Scheduler
-      desc: Framework for creating background processing jobs that migrate,
-        synchronize, and transform data throughout AWWU's integrated systems.
-      role: Technical Lead
-      begin_year: 2005
-      end_year: 2006
-      _links:
-        self:
-          href: /projects/awwu-job-scheduler/
-        languages:
-          - href: /languages/cs/
         db:
           - href: /db/oracle/
         os:
