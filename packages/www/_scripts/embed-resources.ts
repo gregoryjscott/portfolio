@@ -41,9 +41,7 @@ function embedLinkedResources(
       } else if (version === "target") {
         // Must be an "index" relation (e.g. /languages/), so embed __its__ embedded resource.
         const linkedResource = findResource(links, resources)
-        linkedResources = {
-          ...linkedResource[version].yaml._embedded[relation],
-        }
+        linkedResources = [...linkedResource[version].yaml._embedded[relation]]
       } else {
         throw `Embedding index relations using version: ${version} doesn't make sense.`
       }
