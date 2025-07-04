@@ -7,8 +7,8 @@ desc: Pervasive is a relational database management system (RDBMS) that is
   and online analytical processing (OLAP) applications, and is compatible with a
   variety of operating systems, including Windows, Linux, and Mac OS X. It also
   supports a wide range of programming languages, including SQL, Java, and C#.
-begin_year: 1999
-end_year: 2005
+used_begin_year: 1999
+used_end_year: 2005
 _links:
   self:
     href: /db/pervasive/

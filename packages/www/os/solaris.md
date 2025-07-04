@@ -9,8 +9,8 @@ desc: >-
   networking capabilities, and a wide range of system management tools. Solaris
   is available in both server and desktop versions, and is used by many
   organizations around the world.
-begin_year: 1998
-end_year: 1999
+used_begin_year: 1998
+used_end_year: 1999
 _links:
   self:
     href: /os/solaris/

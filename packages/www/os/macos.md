@@ -11,8 +11,8 @@ desc: >-
   third-party applications via the Mac App Store and developer tools such as
   Xcode, making it a popular choice for both creative professionals and everyday
   users.
-begin_year: 2010
-end_year: present
+used_begin_year: 2010
+used_end_year: present
 _links:
   self:
     href: /os/macos/

@@ -33,8 +33,8 @@ _embedded:
         meaning that it is organized into functions, which can be called from
         other parts of the program. C is widely used in many applications,
         including operating systems, embedded systems, and scientific computing.
-      begin_year: 1994
-      end_year: 1998
+      used_begin_year: 1994
+      used_end_year: 1998
       _links:
         self:
           href: /languages/c/
@@ -48,8 +48,8 @@ _embedded:
         applications, from system software to high-performance server and client
         applications, and is one of the most popular programming languages in
         the world.
-      begin_year: 1994
-      end_year: 1998
+      used_begin_year: 1994
+      used_end_year: 1998
       _links:
         self:
           href: /languages/cpp/
@@ -64,8 +64,8 @@ _embedded:
         variety of applications. It is known for its efficiency and accuracy in
         numerical calculations, and is often used in scientific and engineering
         applications.
-      begin_year: 1994
-      end_year: 1998
+      used_begin_year: 1994
+      used_end_year: 1998
       _links:
         self:
           href: /languages/fortran/
@@ -80,8 +80,8 @@ _embedded:
         structured language, meaning that programs are broken down into smaller,
         manageable parts. Pascal is widely used in education and is the basis
         for many other languages, such as Object Pascal and Delphi.
-      begin_year: 1994
-      end_year: 1998
+      used_begin_year: 1994
+      used_end_year: 1998
       _links:
         self:
           href: /languages/pascal/
@@ -95,8 +95,8 @@ _embedded:
         user interface (GUI). It is easy to learn and use, and provides a wide
         range of features and capabilities. Visual Basic is also compatible with
         other programming languages, such as C# and Java.
-      begin_year: 1994
-      end_year: 1998
+      used_begin_year: 1994
+      used_end_year: 1998
       _links:
         self:
           href: /languages/vb/
@@ -112,8 +112,8 @@ _embedded:
         range of features such as high availability, scalability, and security.
         AIX also provides a wide range of tools and utilities for system
         administration, application development, and system management.
-      begin_year: 1994
-      end_year: 1998
+      used_begin_year: 1994
+      used_end_year: 1998
       _links:
         self:
           href: /os/aix/
@@ -130,8 +130,8 @@ _embedded:
         provided a command-line interface for users to interact with the system.
         MS-DOS was eventually replaced by Windows 95 and later versions of
         Windows.
-      begin_year: 1994
-      end_year: 1998
+      used_begin_year: 1994
+      used_end_year: 1998
       _links:
         self:
           href: /os/ms-dos/
@@ -146,8 +146,8 @@ _embedded:
         includes a range of applications, such as web browsers, media players,
         and office suites. Windows also includes a range of security features,
         such as user accounts, firewalls, and antivirus software.
-      begin_year: 1994
-      end_year: 2021
+      used_begin_year: 1994
+      used_end_year: 2021
       _links:
         self:
           href: /os/windows/

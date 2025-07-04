@@ -104,8 +104,8 @@ _embedded:
         and modify. PHP is easy to learn and is widely used for creating
         websites and web applications. It is also used to create database-driven
         websites and applications.
-      begin_year: 2017
-      end_year: 2021
+      used_begin_year: 2017
+      used_end_year: 2021
       _links:
         self:
           href: /languages/php/
@@ -121,8 +121,8 @@ _embedded:
         and interfaces that are not available in JavaScript. Typescript is
         designed to make it easier to write and maintain large-scale
         applications.
-      begin_year: 2014
-      end_year: present
+      used_begin_year: 2014
+      used_end_year: present
       _links:
         self:
           href: /languages/ts/
@@ -143,8 +143,8 @@ _embedded:
         users to easily access and analyze data from other Google services such
         as Google Ads, Google Analytics, and Google Cloud Storage. BigQuery also
         supports a wide range of data formats, including CSV, JSON, and Avro.
-      begin_year: 2015
-      end_year: 2021
+      used_begin_year: 2015
+      used_end_year: 2021
       _links:
         self:
           href: /db/bigquery/
@@ -160,8 +160,8 @@ _embedded:
         reliable performance, and automatic scaling of throughput capacity. It
         also provides encryption at rest, point-in-time recovery, and other
         features to help protect your data.
-      begin_year: 2015
-      end_year: present
+      used_begin_year: 2015
+      used_end_year: present
       _links:
         self:
           href: /db/ddb/
@@ -185,8 +185,8 @@ _embedded:
         (Cloud Functions, Analytics, etc.), the Realtime Database simplifies the
         creation of responsive, data-driven apps without the need to manage your
         own backend.
-      begin_year: 2017
-      end_year: 2021
+      used_begin_year: 2017
+      used_end_year: 2021
       _links:
         self:
           href: /db/firebase/
@@ -202,8 +202,8 @@ _embedded:
         deployed and moved between different computing environments. Docker also
         provides a set of tools and services to help developers build, ship, and
         run applications in a more efficient and secure way.
-      begin_year: 2015
-      end_year: 2021
+      used_begin_year: 2015
+      used_end_year: 2021
       _links:
         self:
           href: /tools/docker/
@@ -219,8 +219,8 @@ _embedded:
         their specific needs. EC2 also provides users with the ability to scale
         their computing resources up or down as needed, allowing them to pay
         only for the resources they use.
-      begin_year: 2015
-      end_year: present
+      used_begin_year: 2015
+      used_end_year: present
       _links:
         self:
           href: /tools/ec2/
@@ -238,8 +238,8 @@ _embedded:
         with Amazon Elastic Container Service (ECS) and AWS Fargate, simplifying
         your development to production workflow. It also provides features such
         as image scanning, lifecycle policies, and IAM authentication.
-      begin_year: 2015
-      end_year: present
+      used_begin_year: 2015
+      used_end_year: present
       _links:
         self:
           href: /tools/ecr/
@@ -257,8 +257,8 @@ _embedded:
         users to quickly and easily deploy and manage applications in the cloud.
         ECS also provides features such as automated container scaling, service
         discovery, and resource management.
-      begin_year: 2015
-      end_year: present
+      used_begin_year: 2015
+      used_end_year: present
       _links:
         self:
           href: /tools/ecs/
@@ -276,8 +276,8 @@ _embedded:
         virtual machines. Fargate also provides a secure and reliable platform
         for running containers, allowing users to focus on building and running
         their applications, rather than managing the underlying infrastructure.
-      begin_year: 2015
-      end_year: present
+      used_begin_year: 2015
+      used_end_year: present
       _links:
         self:
           href: /tools/fargate/
@@ -295,8 +295,8 @@ _embedded:
         more. It also offers a range of SDKs for Android, iOS, and web
         development, allowing developers to quickly and easily integrate
         Firebase into their apps.
-      begin_year: 2015
-      end_year: 2021
+      used_begin_year: 2015
+      used_end_year: 2021
       _links:
         self:
           href: /tools/firebase/
@@ -312,8 +312,8 @@ _embedded:
         and collaborate with their peers. Google Classroom integrates with other
         Google applications such as Google Drive, Google Docs, and Google
         Calendar.
-      begin_year: 2015
-      end_year: 2021
+      used_begin_year: 2015
+      used_end_year: 2021
       _links:
         self:
           href: /tools/classroom/
@@ -330,8 +330,8 @@ _embedded:
         collaborate on documents, spreadsheets, and presentations. Google Drive
         also offers a range of features, such as file sharing, version history,
         and real-time collaboration.
-      begin_year: 2015
-      end_year: 2021
+      used_begin_year: 2015
+      used_end_year: 2021
       _links:
         self:
           href: /tools/drive/
@@ -347,8 +347,8 @@ _embedded:
         security credentials such as access keys, passwords, and multi-factor
         authentication devices. You can use IAM to manage access to AWS services
         such as Amazon EC2, Amazon S3, and Amazon RDS.
-      begin_year: 2015
-      end_year: present
+      used_begin_year: 2015
+      used_end_year: present
       _links:
         self:
           href: /tools/iam/
@@ -366,8 +366,8 @@ _embedded:
         Microsoft Windows, and Linux. Node.js also provides a rich library of
         various JavaScript modules which simplifies the development of web
         applications using Node.js.
-      begin_year: 2015
-      end_year: 2021
+      used_begin_year: 2015
+      used_end_year: 2021
       _links:
         self:
           href: /tools/node/
@@ -383,8 +383,8 @@ _embedded:
         input, or capturing a timeline trace to diagnose performance issues.
         Puppeteer can also be used to generate screenshots and PDFs of web
         pages.
-      begin_year: 2015
-      end_year: 2021
+      used_begin_year: 2015
+      used_end_year: 2021
       _links:
         self:
           href: /tools/puppeteer/
@@ -400,8 +400,8 @@ _embedded:
         durable, and provides features such as data versioning, encryption, and
         access control. S3 is used by many organizations for storing and backing
         up data, hosting websites, and streaming media.
-      begin_year: 2015
-      end_year: present
+      used_begin_year: 2015
+      used_end_year: present
       _links:
         self:
           href: /tools/s3/
@@ -420,8 +420,8 @@ _embedded:
         making it ideal for automating legacy or custom interfaces and
         integrating with testing frameworks for end-to-end automation or
         repetitive desktop task scripting.
-      begin_year: 2015
-      end_year: 2021
+      used_begin_year: 2015
+      used_end_year: 2021
       _links:
         self:
           href: /tools/sikulix/
@@ -439,8 +439,8 @@ _embedded:
         highly-scalable, hosted queue for storing messages as they travel
         between computers. It also provides a simple web services interface that
         can be used to access queues, add, receive, and delete messages.
-      begin_year: 2015
-      end_year: present
+      used_begin_year: 2015
+      used_end_year: present
       _links:
         self:
           href: /tools/sqs/
@@ -460,8 +460,8 @@ _embedded:
         also provides users with the ability to securely connect their VPC to
         their existing IT infrastructure using industry-standard encrypted IPsec
         VPN connections.
-      begin_year: 2015
-      end_year: present
+      used_begin_year: 2015
+      used_end_year: present
       _links:
         self:
           href: /tools/vpc/
@@ -479,8 +479,8 @@ _embedded:
         supercomputers. It is highly customizable and can be used for a variety
         of tasks, from web hosting to software development. It is also highly
         secure and reliable, making it a popular choice for many users.
-      begin_year: 2010
-      end_year: present
+      used_begin_year: 2010
+      used_end_year: present
       _links:
         self:
           href: /os/linux/
@@ -511,8 +511,8 @@ _embedded:
         includes a range of applications, such as web browsers, media players,
         and office suites. Windows also includes a range of security features,
         such as user accounts, firewalls, and antivirus software.
-      begin_year: 1994
-      end_year: 2021
+      used_begin_year: 1994
+      used_end_year: 2021
       _links:
         self:
           href: /os/windows/

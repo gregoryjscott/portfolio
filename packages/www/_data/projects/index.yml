@@ -93,8 +93,8 @@ _embedded:
               classes, modules, and interfaces that are not available in
               JavaScript. Typescript is designed to make it easier to write and
               maintain large-scale applications.
-            begin_year: 2014
-            end_year: present
+            used_begin_year: 2014
+            used_end_year: present
             _links:
               self:
                 href: /languages/ts/
@@ -115,8 +115,8 @@ _embedded:
               throughput capacity. It also provides encryption at rest,
               point-in-time recovery, and other features to help protect your
               data.
-            begin_year: 2015
-            end_year: present
+            used_begin_year: 2015
+            used_end_year: present
             _links:
               self:
                 href: /db/ddb/
@@ -141,8 +141,8 @@ _embedded:
               hosting, CI/CD and environment management streamline the
               application lifecycle so teams can focus on features instead of
               infrastructure.
-            begin_year: 2024
-            end_year: present
+            used_begin_year: 2024
+            used_end_year: present
             _links:
               self:
                 href: /tools/amplify/
@@ -159,8 +159,8 @@ _embedded:
               configured to their specific needs. EC2 also provides users with
               the ability to scale their computing resources up or down as
               needed, allowing them to pay only for the resources they use.
-            begin_year: 2015
-            end_year: present
+            used_begin_year: 2015
+            used_end_year: present
             _links:
               self:
                 href: /tools/ec2/
@@ -179,8 +179,8 @@ _embedded:
               Fargate, simplifying your development to production workflow. It
               also provides features such as image scanning, lifecycle policies,
               and IAM authentication.
-            begin_year: 2015
-            end_year: present
+            used_begin_year: 2015
+            used_end_year: present
             _links:
               self:
                 href: /tools/ecr/
@@ -199,8 +199,8 @@ _embedded:
               applications in the cloud. ECS also provides features such as
               automated container scaling, service discovery, and resource
               management.
-            begin_year: 2015
-            end_year: present
+            used_begin_year: 2015
+            used_end_year: present
             _links:
               self:
                 href: /tools/ecs/
@@ -219,8 +219,8 @@ _embedded:
               secure and reliable platform for running containers, allowing
               users to focus on building and running their applications, rather
               than managing the underlying infrastructure.
-            begin_year: 2015
-            end_year: present
+            used_begin_year: 2015
+            used_end_year: present
             _links:
               self:
                 href: /tools/fargate/
@@ -239,8 +239,8 @@ _embedded:
               and multi-factor authentication devices. You can use IAM to manage
               access to AWS services such as Amazon EC2, Amazon S3, and Amazon
               RDS.
-            begin_year: 2015
-            end_year: present
+            used_begin_year: 2015
+            used_end_year: present
             _links:
               self:
                 href: /tools/iam/
@@ -266,8 +266,8 @@ _embedded:
               sharing logic and UI components across platforms, React Native
               significantly reduces development time and maintenance overhead
               compared to traditional native app development.
-            begin_year: 2024
-            end_year: present
+            used_begin_year: 2024
+            used_end_year: present
             _links:
               self:
                 href: /tools/react-native/
@@ -284,8 +284,8 @@ _embedded:
               versioning, encryption, and access control. S3 is used by many
               organizations for storing and backing up data, hosting websites,
               and streaming media.
-            begin_year: 2015
-            end_year: present
+            used_begin_year: 2015
+            used_end_year: present
             _links:
               self:
                 href: /tools/s3/
@@ -306,8 +306,8 @@ _embedded:
               for storing messages as they travel between computers. It also
               provides a simple web services interface that can be used to
               access queues, add, receive, and delete messages.
-            begin_year: 2015
-            end_year: present
+            used_begin_year: 2015
+            used_end_year: present
             _links:
               self:
                 href: /tools/sqs/
@@ -328,8 +328,8 @@ _embedded:
               ability to securely connect their VPC to their existing IT
               infrastructure using industry-standard encrypted IPsec VPN
               connections.
-            begin_year: 2015
-            end_year: present
+            used_begin_year: 2015
+            used_end_year: present
             _links:
               self:
                 href: /tools/vpc/
@@ -348,8 +348,8 @@ _embedded:
               integrations for React, Vue, Angular, and Node.js, XState delivers
               predictable, testable, and maintainable state management for
               complex synchronous and asynchronous workflows.
-            begin_year: 2024
-            end_year: present
+            used_begin_year: 2024
+            used_end_year: present
             _links:
               self:
                 href: /tools/xstate/
@@ -368,8 +368,8 @@ _embedded:
               third-party app stores or through online stores such as Google
               Play. Android has been the best-selling OS on tablets since 2013,
               and on smartphones it is dominant by any metric.
-            begin_year: 2024
-            end_year: present
+            used_begin_year: 2024
+            used_end_year: present
             _links:
               self:
                 href: /os/android/
@@ -387,8 +387,8 @@ _embedded:
               notification center, and access to the App Store for downloading
               apps. iOS also includes features such as iCloud, AirPlay, and
               Apple Pay.
-            begin_year: 2024
-            end_year: present
+            used_begin_year: 2024
+            used_end_year: present
             _links:
               self:
                 href: /os/ios/
@@ -404,8 +404,8 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/linux/
@@ -520,8 +520,8 @@ _embedded:
               enable multiple web pages to share formatting by specifying the
               relevant CSS in a separate .css file, and reduce complexity and
               repetition in the structural content.
-            begin_year: 2005
-            end_year: present
+            used_begin_year: 2005
+            used_end_year: present
             _links:
               self:
                 href: /languages/css/
@@ -548,8 +548,8 @@ _embedded:
               webpages and web applications. HTML also provides a means to
               create interactive webpages and web applications with the use of
               HTML forms, which can be used to collect user input.
-            begin_year: 2005
-            end_year: present
+            used_begin_year: 2005
+            used_end_year: present
             _links:
               self:
                 href: /languages/html/
@@ -576,8 +576,8 @@ _embedded:
               concise and powerful code. Ruby is also popular for its use of
               metaprogramming, which allows for the dynamic creation of code at
               runtime.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /languages/rb/
@@ -605,8 +605,8 @@ _embedded:
               classes, modules, and interfaces that are not available in
               JavaScript. Typescript is designed to make it easier to write and
               maintain large-scale applications.
-            begin_year: 2014
-            end_year: present
+            used_begin_year: 2014
+            used_end_year: present
             _links:
               self:
                 href: /languages/ts/
@@ -632,8 +632,8 @@ _embedded:
               clients to follow HATEOAS principles—dynamically discovering
               available operations and transitions—without relying on
               out-of-band documentation.
-            begin_year: 2014
-            end_year: present
+            used_begin_year: 2014
+            used_end_year: present
             _links:
               self:
                 href: /tools/hal/
@@ -653,8 +653,8 @@ _embedded:
               databases or server-side processing—it delivers fast, secure sites
               that are easy to host (notably on GitHub Pages) and maintain via
               version control.
-            begin_year: 2014
-            end_year: present
+            used_begin_year: 2014
+            used_end_year: present
             _links:
               self:
                 href: /tools/jekyll/
@@ -676,8 +676,8 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/linux/
@@ -711,8 +711,8 @@ _embedded:
               third-party applications via the Mac App Store and developer tools
               such as Xcode, making it a popular choice for both creative
               professionals and everyday users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/macos/
@@ -818,8 +818,8 @@ _embedded:
               enable multiple web pages to share formatting by specifying the
               relevant CSS in a separate .css file, and reduce complexity and
               repetition in the structural content.
-            begin_year: 2005
-            end_year: present
+            used_begin_year: 2005
+            used_end_year: present
             _links:
               self:
                 href: /languages/css/
@@ -846,8 +846,8 @@ _embedded:
               webpages and web applications. HTML also provides a means to
               create interactive webpages and web applications with the use of
               HTML forms, which can be used to collect user input.
-            begin_year: 2005
-            end_year: present
+            used_begin_year: 2005
+            used_end_year: present
             _links:
               self:
                 href: /languages/html/
@@ -873,8 +873,8 @@ _embedded:
               JavaScript is also used to create mobile applications and desktop
               applications. It is an object-oriented language that is used to
               create complex applications.
-            begin_year: 2005
-            end_year: 2025
+            used_begin_year: 2005
+            used_end_year: 2025
             _links:
               self:
                 href: /languages/js/
@@ -902,8 +902,8 @@ _embedded:
               throughput capacity. It also provides encryption at rest,
               point-in-time recovery, and other features to help protect your
               data.
-            begin_year: 2015
-            end_year: present
+            used_begin_year: 2015
+            used_end_year: present
             _links:
               self:
                 href: /db/ddb/
@@ -928,8 +928,8 @@ _embedded:
               hosting, CI/CD and environment management streamline the
               application lifecycle so teams can focus on features instead of
               infrastructure.
-            begin_year: 2024
-            end_year: present
+            used_begin_year: 2024
+            used_end_year: present
             _links:
               self:
                 href: /tools/amplify/
@@ -947,8 +947,8 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/linux/
@@ -1051,8 +1051,8 @@ _embedded:
               use and modify. PHP is easy to learn and is widely used for
               creating websites and web applications. It is also used to create
               database-driven websites and applications.
-            begin_year: 2017
-            end_year: 2021
+            used_begin_year: 2017
+            used_end_year: 2021
             _links:
               self:
                 href: /languages/php/
@@ -1075,8 +1075,8 @@ _embedded:
               Analytics, etc.), the Realtime Database simplifies the creation of
               responsive, data-driven apps without the need to manage your own
               backend.
-            begin_year: 2017
-            end_year: 2021
+            used_begin_year: 2017
+            used_end_year: 2021
             _links:
               self:
                 href: /db/firebase/
@@ -1095,8 +1095,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -1223,8 +1223,8 @@ _embedded:
               classes, modules, and interfaces that are not available in
               JavaScript. Typescript is designed to make it easier to write and
               maintain large-scale applications.
-            begin_year: 2014
-            end_year: present
+            used_begin_year: 2014
+            used_end_year: present
             _links:
               self:
                 href: /languages/ts/
@@ -1246,8 +1246,8 @@ _embedded:
               other Google services such as Google Ads, Google Analytics, and
               Google Cloud Storage. BigQuery also supports a wide range of data
               formats, including CSV, JSON, and Avro.
-            begin_year: 2015
-            end_year: 2021
+            used_begin_year: 2015
+            used_end_year: 2021
             _links:
               self:
                 href: /db/bigquery/
@@ -1264,8 +1264,8 @@ _embedded:
               throughput capacity. It also provides encryption at rest,
               point-in-time recovery, and other features to help protect your
               data.
-            begin_year: 2015
-            end_year: present
+            used_begin_year: 2015
+            used_end_year: present
             _links:
               self:
                 href: /db/ddb/
@@ -1285,8 +1285,8 @@ _embedded:
               environments. Docker also provides a set of tools and services to
               help developers build, ship, and run applications in a more
               efficient and secure way.
-            begin_year: 2015
-            end_year: 2021
+            used_begin_year: 2015
+            used_end_year: 2021
             _links:
               self:
                 href: /tools/docker/
@@ -1302,8 +1302,8 @@ _embedded:
               configured to their specific needs. EC2 also provides users with
               the ability to scale their computing resources up or down as
               needed, allowing them to pay only for the resources they use.
-            begin_year: 2015
-            end_year: present
+            used_begin_year: 2015
+            used_end_year: present
             _links:
               self:
                 href: /tools/ec2/
@@ -1322,8 +1322,8 @@ _embedded:
               Fargate, simplifying your development to production workflow. It
               also provides features such as image scanning, lifecycle policies,
               and IAM authentication.
-            begin_year: 2015
-            end_year: present
+            used_begin_year: 2015
+            used_end_year: present
             _links:
               self:
                 href: /tools/ecr/
@@ -1342,8 +1342,8 @@ _embedded:
               applications in the cloud. ECS also provides features such as
               automated container scaling, service discovery, and resource
               management.
-            begin_year: 2015
-            end_year: present
+            used_begin_year: 2015
+            used_end_year: present
             _links:
               self:
                 href: /tools/ecs/
@@ -1362,8 +1362,8 @@ _embedded:
               secure and reliable platform for running containers, allowing
               users to focus on building and running their applications, rather
               than managing the underlying infrastructure.
-            begin_year: 2015
-            end_year: present
+            used_begin_year: 2015
+            used_end_year: present
             _links:
               self:
                 href: /tools/fargate/
@@ -1381,8 +1381,8 @@ _embedded:
               and more. It also offers a range of SDKs for Android, iOS, and web
               development, allowing developers to quickly and easily integrate
               Firebase into their apps.
-            begin_year: 2015
-            end_year: 2021
+            used_begin_year: 2015
+            used_end_year: 2021
             _links:
               self:
                 href: /tools/firebase/
@@ -1398,8 +1398,8 @@ _embedded:
               assignments, view grades, and collaborate with their peers. Google
               Classroom integrates with other Google applications such as Google
               Drive, Google Docs, and Google Calendar.
-            begin_year: 2015
-            end_year: 2021
+            used_begin_year: 2015
+            used_end_year: 2021
             _links:
               self:
                 href: /tools/classroom/
@@ -1416,8 +1416,8 @@ _embedded:
               create and collaborate on documents, spreadsheets, and
               presentations. Google Drive also offers a range of features, such
               as file sharing, version history, and real-time collaboration.
-            begin_year: 2015
-            end_year: 2021
+            used_begin_year: 2015
+            used_end_year: 2021
             _links:
               self:
                 href: /tools/drive/
@@ -1434,8 +1434,8 @@ _embedded:
               and multi-factor authentication devices. You can use IAM to manage
               access to AWS services such as Amazon EC2, Amazon S3, and Amazon
               RDS.
-            begin_year: 2015
-            end_year: present
+            used_begin_year: 2015
+            used_end_year: present
             _links:
               self:
                 href: /tools/iam/
@@ -1453,8 +1453,8 @@ _embedded:
               Node.js runtime on OS X, Microsoft Windows, and Linux. Node.js
               also provides a rich library of various JavaScript modules which
               simplifies the development of web applications using Node.js.
-            begin_year: 2015
-            end_year: 2021
+            used_begin_year: 2015
+            used_end_year: 2021
             _links:
               self:
                 href: /tools/node/
@@ -1470,8 +1470,8 @@ _embedded:
               testing, keyboard input, or capturing a timeline trace to diagnose
               performance issues. Puppeteer can also be used to generate
               screenshots and PDFs of web pages.
-            begin_year: 2015
-            end_year: 2021
+            used_begin_year: 2015
+            used_end_year: 2021
             _links:
               self:
                 href: /tools/puppeteer/
@@ -1488,8 +1488,8 @@ _embedded:
               versioning, encryption, and access control. S3 is used by many
               organizations for storing and backing up data, hosting websites,
               and streaming media.
-            begin_year: 2015
-            end_year: present
+            used_begin_year: 2015
+            used_end_year: present
             _links:
               self:
                 href: /tools/s3/
@@ -1508,8 +1508,8 @@ _embedded:
               Windows, macOS, and Linux, making it ideal for automating legacy
               or custom interfaces and integrating with testing frameworks for
               end-to-end automation or repetitive desktop task scripting.
-            begin_year: 2015
-            end_year: 2021
+            used_begin_year: 2015
+            used_end_year: 2021
             _links:
               self:
                 href: /tools/sikulix/
@@ -1528,8 +1528,8 @@ _embedded:
               for storing messages as they travel between computers. It also
               provides a simple web services interface that can be used to
               access queues, add, receive, and delete messages.
-            begin_year: 2015
-            end_year: present
+            used_begin_year: 2015
+            used_end_year: present
             _links:
               self:
                 href: /tools/sqs/
@@ -1550,8 +1550,8 @@ _embedded:
               ability to securely connect their VPC to their existing IT
               infrastructure using industry-standard encrypted IPsec VPN
               connections.
-            begin_year: 2015
-            end_year: present
+            used_begin_year: 2015
+            used_end_year: present
             _links:
               self:
                 href: /tools/vpc/
@@ -1570,8 +1570,8 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/linux/
@@ -1660,8 +1660,8 @@ _embedded:
               JavaScript is also used to create mobile applications and desktop
               applications. It is an object-oriented language that is used to
               create complex applications.
-            begin_year: 2005
-            end_year: 2025
+            used_begin_year: 2005
+            used_end_year: 2025
             _links:
               self:
                 href: /languages/js/
@@ -1692,8 +1692,8 @@ _embedded:
               third-party applications via the Mac App Store and developer tools
               such as Xcode, making it a popular choice for both creative
               professionals and everyday users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/macos/
@@ -1795,8 +1795,8 @@ _embedded:
               concise and powerful code. Ruby is also popular for its use of
               metaprogramming, which allows for the dynamic creation of code at
               runtime.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /languages/rb/
@@ -1829,8 +1829,8 @@ _embedded:
               add-ons (databases, caching, monitoring, logging, etc.), a
               web-based dashboard and a command-line interface, allowing teams
               to iterate quickly without managing underlying infrastructure.
-            begin_year: 2015
-            end_year: 2016
+            used_begin_year: 2015
+            used_end_year: 2016
             _links:
               self:
                 href: /tools/heroku/
@@ -1849,8 +1849,8 @@ _embedded:
               databases or server-side processing—it delivers fast, secure sites
               that are easy to host (notably on GitHub Pages) and maintain via
               version control.
-            begin_year: 2014
-            end_year: present
+            used_begin_year: 2014
+            used_end_year: present
             _links:
               self:
                 href: /tools/jekyll/
@@ -1872,8 +1872,8 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/linux/
@@ -1984,8 +1984,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -2025,8 +2025,8 @@ _embedded:
               making it a great language for beginners. It also has a large
               standard library and a wide range of third-party libraries, making
               it a versatile language for experienced developers.
-            begin_year: 2013
-            end_year: 2014
+            used_begin_year: 2013
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/py/
@@ -2044,8 +2044,8 @@ _embedded:
               concise and powerful code. Ruby is also popular for its use of
               metaprogramming, which allows for the dynamic creation of code at
               runtime.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /languages/rb/
@@ -2074,8 +2074,8 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/linux/
@@ -2109,8 +2109,8 @@ _embedded:
               third-party applications via the Mac App Store and developer tools
               such as Xcode, making it a popular choice for both creative
               professionals and everyday users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/macos/
@@ -2138,8 +2138,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -2275,8 +2275,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -2317,8 +2317,8 @@ _embedded:
               concise and powerful code. Ruby is also popular for its use of
               metaprogramming, which allows for the dynamic creation of code at
               runtime.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /languages/rb/
@@ -2347,8 +2347,8 @@ _embedded:
               structures, such as tables, views, and stored procedures. It is a
               powerful language that can be used to query, analyze, and
               manipulate data.
-            begin_year: 1999
-            end_year: 2014
+            used_begin_year: 1999
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/sql/
@@ -2390,8 +2390,8 @@ _embedded:
               Postgres is highly scalable and can handle large amounts of data.
               It is also highly secure, with built-in authentication and access
               control.
-            begin_year: 2012
-            end_year: 2014
+            used_begin_year: 2012
+            used_end_year: 2014
             _links:
               self:
                 href: /db/postgres/
@@ -2410,8 +2410,8 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/linux/
@@ -2445,8 +2445,8 @@ _embedded:
               third-party applications via the Mac App Store and developer tools
               such as Xcode, making it a popular choice for both creative
               professionals and everyday users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/macos/
@@ -2474,8 +2474,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -2605,8 +2605,8 @@ _embedded:
               concise and powerful code. Ruby is also popular for its use of
               metaprogramming, which allows for the dynamic creation of code at
               runtime.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /languages/rb/
@@ -2638,8 +2638,8 @@ _embedded:
               databases or server-side processing—it delivers fast, secure sites
               that are easy to host (notably on GitHub Pages) and maintain via
               version control.
-            begin_year: 2014
-            end_year: present
+            used_begin_year: 2014
+            used_end_year: present
             _links:
               self:
                 href: /tools/jekyll/
@@ -2661,8 +2661,8 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/linux/
@@ -2696,8 +2696,8 @@ _embedded:
               third-party applications via the Mac App Store and developer tools
               such as Xcode, making it a popular choice for both creative
               professionals and everyday users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/macos/
@@ -2804,8 +2804,8 @@ _embedded:
               concise and powerful code. Ruby is also popular for its use of
               metaprogramming, which allows for the dynamic creation of code at
               runtime.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /languages/rb/
@@ -2840,8 +2840,8 @@ _embedded:
               clients to follow HATEOAS principles—dynamically discovering
               available operations and transitions—without relying on
               out-of-band documentation.
-            begin_year: 2014
-            end_year: present
+            used_begin_year: 2014
+            used_end_year: present
             _links:
               self:
                 href: /tools/hal/
@@ -2861,8 +2861,8 @@ _embedded:
               databases or server-side processing—it delivers fast, secure sites
               that are easy to host (notably on GitHub Pages) and maintain via
               version control.
-            begin_year: 2014
-            end_year: present
+            used_begin_year: 2014
+            used_end_year: present
             _links:
               self:
                 href: /tools/jekyll/
@@ -2884,8 +2884,8 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/linux/
@@ -2919,8 +2919,8 @@ _embedded:
               third-party applications via the Mac App Store and developer tools
               such as Xcode, making it a popular choice for both creative
               professionals and everyday users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/macos/
@@ -3025,8 +3025,8 @@ _embedded:
               concise and powerful code. Ruby is also popular for its use of
               metaprogramming, which allows for the dynamic creation of code at
               runtime.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /languages/rb/
@@ -3058,8 +3058,8 @@ _embedded:
               databases or server-side processing—it delivers fast, secure sites
               that are easy to host (notably on GitHub Pages) and maintain via
               version control.
-            begin_year: 2014
-            end_year: present
+            used_begin_year: 2014
+            used_end_year: present
             _links:
               self:
                 href: /tools/jekyll/
@@ -3081,8 +3081,8 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/linux/
@@ -3116,8 +3116,8 @@ _embedded:
               third-party applications via the Mac App Store and developer tools
               such as Xcode, making it a popular choice for both creative
               professionals and everyday users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/macos/
@@ -3222,8 +3222,8 @@ _embedded:
               concise and powerful code. Ruby is also popular for its use of
               metaprogramming, which allows for the dynamic creation of code at
               runtime.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /languages/rb/
@@ -3255,8 +3255,8 @@ _embedded:
               databases or server-side processing—it delivers fast, secure sites
               that are easy to host (notably on GitHub Pages) and maintain via
               version control.
-            begin_year: 2014
-            end_year: present
+            used_begin_year: 2014
+            used_end_year: present
             _links:
               self:
                 href: /tools/jekyll/
@@ -3278,8 +3278,8 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/linux/
@@ -3313,8 +3313,8 @@ _embedded:
               third-party applications via the Mac App Store and developer tools
               such as Xcode, making it a popular choice for both creative
               professionals and everyday users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/macos/
@@ -3423,8 +3423,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -3466,8 +3466,8 @@ _embedded:
               enable multiple web pages to share formatting by specifying the
               relevant CSS in a separate .css file, and reduce complexity and
               repetition in the structural content.
-            begin_year: 2005
-            end_year: present
+            used_begin_year: 2005
+            used_end_year: present
             _links:
               self:
                 href: /languages/css/
@@ -3494,8 +3494,8 @@ _embedded:
               webpages and web applications. HTML also provides a means to
               create interactive webpages and web applications with the use of
               HTML forms, which can be used to collect user input.
-            begin_year: 2005
-            end_year: present
+            used_begin_year: 2005
+            used_end_year: present
             _links:
               self:
                 href: /languages/html/
@@ -3521,8 +3521,8 @@ _embedded:
               JavaScript is also used to create mobile applications and desktop
               applications. It is an object-oriented language that is used to
               create complex applications.
-            begin_year: 2005
-            end_year: 2025
+            used_begin_year: 2005
+            used_end_year: 2025
             _links:
               self:
                 href: /languages/js/
@@ -3548,8 +3548,8 @@ _embedded:
               making it a great language for beginners. It also has a large
               standard library and a wide range of third-party libraries, making
               it a versatile language for experienced developers.
-            begin_year: 2013
-            end_year: 2014
+            used_begin_year: 2013
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/py/
@@ -3567,8 +3567,8 @@ _embedded:
               concise and powerful code. Ruby is also popular for its use of
               metaprogramming, which allows for the dynamic creation of code at
               runtime.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /languages/rb/
@@ -3597,8 +3597,8 @@ _embedded:
               structures, such as tables, views, and stored procedures. It is a
               powerful language that can be used to query, analyze, and
               manipulate data.
-            begin_year: 1999
-            end_year: 2014
+            used_begin_year: 1999
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/sql/
@@ -3636,8 +3636,8 @@ _embedded:
               also provides control of transactions and error handling. T-SQL is
               a powerful language that allows developers to write complex
               queries and stored procedures to access and manipulate data.
-            begin_year: 2010
-            end_year: 2014
+            used_begin_year: 2010
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/tsql/
@@ -3660,8 +3660,8 @@ _embedded:
               organizations for mission-critical applications. It is highly
               scalable and supports a wide range of features, including data
               replication, security, and high availability.
-            begin_year: 2007
-            end_year: 2014
+            used_begin_year: 2007
+            used_end_year: 2014
             _links:
               self:
                 href: /db/sql-server/
@@ -3686,8 +3686,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -3820,8 +3820,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -3862,8 +3862,8 @@ _embedded:
               concise and powerful code. Ruby is also popular for its use of
               metaprogramming, which allows for the dynamic creation of code at
               runtime.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /languages/rb/
@@ -3892,8 +3892,8 @@ _embedded:
               structures, such as tables, views, and stored procedures. It is a
               powerful language that can be used to query, analyze, and
               manipulate data.
-            begin_year: 1999
-            end_year: 2014
+            used_begin_year: 1999
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/sql/
@@ -3932,8 +3932,8 @@ _embedded:
               maintenance. It supports most of the SQL standard, including
               transactions, triggers, and views. It is also highly extensible,
               allowing developers to create custom functions and extensions.
-            begin_year: 2012
-            end_year: 2014
+            used_begin_year: 2012
+            used_end_year: 2014
             _links:
               self:
                 href: /db/sqlite/
@@ -3952,8 +3952,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -4082,8 +4082,8 @@ _embedded:
               structures, such as tables, views, and stored procedures. It is a
               powerful language that can be used to query, analyze, and
               manipulate data.
-            begin_year: 1999
-            end_year: 2014
+            used_begin_year: 1999
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/sql/
@@ -4121,8 +4121,8 @@ _embedded:
               also provides control of transactions and error handling. T-SQL is
               a powerful language that allows developers to write complex
               queries and stored procedures to access and manipulate data.
-            begin_year: 2010
-            end_year: 2014
+            used_begin_year: 2010
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/tsql/
@@ -4145,8 +4145,8 @@ _embedded:
               organizations for mission-critical applications. It is highly
               scalable and supports a wide range of features, including data
               replication, security, and high availability.
-            begin_year: 2007
-            end_year: 2014
+            used_begin_year: 2007
+            used_end_year: 2014
             _links:
               self:
                 href: /db/sql-server/
@@ -4171,8 +4171,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -4305,8 +4305,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -4348,8 +4348,8 @@ _embedded:
               enable multiple web pages to share formatting by specifying the
               relevant CSS in a separate .css file, and reduce complexity and
               repetition in the structural content.
-            begin_year: 2005
-            end_year: present
+            used_begin_year: 2005
+            used_end_year: present
             _links:
               self:
                 href: /languages/css/
@@ -4376,8 +4376,8 @@ _embedded:
               webpages and web applications. HTML also provides a means to
               create interactive webpages and web applications with the use of
               HTML forms, which can be used to collect user input.
-            begin_year: 2005
-            end_year: present
+            used_begin_year: 2005
+            used_end_year: present
             _links:
               self:
                 href: /languages/html/
@@ -4403,8 +4403,8 @@ _embedded:
               JavaScript is also used to create mobile applications and desktop
               applications. It is an object-oriented language that is used to
               create complex applications.
-            begin_year: 2005
-            end_year: 2025
+            used_begin_year: 2005
+            used_end_year: 2025
             _links:
               self:
                 href: /languages/js/
@@ -4431,8 +4431,8 @@ _embedded:
               structures, such as tables, views, and stored procedures. It is a
               powerful language that can be used to query, analyze, and
               manipulate data.
-            begin_year: 1999
-            end_year: 2014
+            used_begin_year: 1999
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/sql/
@@ -4470,8 +4470,8 @@ _embedded:
               also provides control of transactions and error handling. T-SQL is
               a powerful language that allows developers to write complex
               queries and stored procedures to access and manipulate data.
-            begin_year: 2010
-            end_year: 2014
+            used_begin_year: 2010
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/tsql/
@@ -4494,8 +4494,8 @@ _embedded:
               organizations for mission-critical applications. It is highly
               scalable and supports a wide range of features, including data
               replication, security, and high availability.
-            begin_year: 2007
-            end_year: 2014
+            used_begin_year: 2007
+            used_end_year: 2014
             _links:
               self:
                 href: /db/sql-server/
@@ -4520,8 +4520,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -4655,8 +4655,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -4698,8 +4698,8 @@ _embedded:
               enable multiple web pages to share formatting by specifying the
               relevant CSS in a separate .css file, and reduce complexity and
               repetition in the structural content.
-            begin_year: 2005
-            end_year: present
+            used_begin_year: 2005
+            used_end_year: present
             _links:
               self:
                 href: /languages/css/
@@ -4726,8 +4726,8 @@ _embedded:
               webpages and web applications. HTML also provides a means to
               create interactive webpages and web applications with the use of
               HTML forms, which can be used to collect user input.
-            begin_year: 2005
-            end_year: present
+            used_begin_year: 2005
+            used_end_year: present
             _links:
               self:
                 href: /languages/html/
@@ -4753,8 +4753,8 @@ _embedded:
               JavaScript is also used to create mobile applications and desktop
               applications. It is an object-oriented language that is used to
               create complex applications.
-            begin_year: 2005
-            end_year: 2025
+            used_begin_year: 2005
+            used_end_year: 2025
             _links:
               self:
                 href: /languages/js/
@@ -4781,8 +4781,8 @@ _embedded:
               structures, such as tables, views, and stored procedures. It is a
               powerful language that can be used to query, analyze, and
               manipulate data.
-            begin_year: 1999
-            end_year: 2014
+            used_begin_year: 1999
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/sql/
@@ -4820,8 +4820,8 @@ _embedded:
               also provides control of transactions and error handling. T-SQL is
               a powerful language that allows developers to write complex
               queries and stored procedures to access and manipulate data.
-            begin_year: 2010
-            end_year: 2014
+            used_begin_year: 2010
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/tsql/
@@ -4844,8 +4844,8 @@ _embedded:
               organizations for mission-critical applications. It is highly
               scalable and supports a wide range of features, including data
               replication, security, and high availability.
-            begin_year: 2007
-            end_year: 2014
+            used_begin_year: 2007
+            used_end_year: 2014
             _links:
               self:
                 href: /db/sql-server/
@@ -4870,8 +4870,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -5007,8 +5007,8 @@ _embedded:
               enable multiple web pages to share formatting by specifying the
               relevant CSS in a separate .css file, and reduce complexity and
               repetition in the structural content.
-            begin_year: 2005
-            end_year: present
+            used_begin_year: 2005
+            used_end_year: present
             _links:
               self:
                 href: /languages/css/
@@ -5035,8 +5035,8 @@ _embedded:
               webpages and web applications. HTML also provides a means to
               create interactive webpages and web applications with the use of
               HTML forms, which can be used to collect user input.
-            begin_year: 2005
-            end_year: present
+            used_begin_year: 2005
+            used_end_year: present
             _links:
               self:
                 href: /languages/html/
@@ -5062,8 +5062,8 @@ _embedded:
               JavaScript is also used to create mobile applications and desktop
               applications. It is an object-oriented language that is used to
               create complex applications.
-            begin_year: 2005
-            end_year: 2025
+            used_begin_year: 2005
+            used_end_year: 2025
             _links:
               self:
                 href: /languages/js/
@@ -5090,8 +5090,8 @@ _embedded:
               concise and powerful code. Ruby is also popular for its use of
               metaprogramming, which allows for the dynamic creation of code at
               runtime.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /languages/rb/
@@ -5124,8 +5124,8 @@ _embedded:
               Postgres is highly scalable and can handle large amounts of data.
               It is also highly secure, with built-in authentication and access
               control.
-            begin_year: 2012
-            end_year: 2014
+            used_begin_year: 2012
+            used_end_year: 2014
             _links:
               self:
                 href: /db/postgres/
@@ -5144,8 +5144,8 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/linux/
@@ -5179,8 +5179,8 @@ _embedded:
               third-party applications via the Mac App Store and developer tools
               such as Xcode, making it a popular choice for both creative
               professionals and everyday users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/macos/
@@ -5208,8 +5208,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -5342,8 +5342,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -5385,8 +5385,8 @@ _embedded:
               enable multiple web pages to share formatting by specifying the
               relevant CSS in a separate .css file, and reduce complexity and
               repetition in the structural content.
-            begin_year: 2005
-            end_year: present
+            used_begin_year: 2005
+            used_end_year: present
             _links:
               self:
                 href: /languages/css/
@@ -5413,8 +5413,8 @@ _embedded:
               webpages and web applications. HTML also provides a means to
               create interactive webpages and web applications with the use of
               HTML forms, which can be used to collect user input.
-            begin_year: 2005
-            end_year: present
+            used_begin_year: 2005
+            used_end_year: present
             _links:
               self:
                 href: /languages/html/
@@ -5440,8 +5440,8 @@ _embedded:
               JavaScript is also used to create mobile applications and desktop
               applications. It is an object-oriented language that is used to
               create complex applications.
-            begin_year: 2005
-            end_year: 2025
+            used_begin_year: 2005
+            used_end_year: 2025
             _links:
               self:
                 href: /languages/js/
@@ -5468,8 +5468,8 @@ _embedded:
               structures, such as tables, views, and stored procedures. It is a
               powerful language that can be used to query, analyze, and
               manipulate data.
-            begin_year: 1999
-            end_year: 2014
+            used_begin_year: 1999
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/sql/
@@ -5507,8 +5507,8 @@ _embedded:
               also provides control of transactions and error handling. T-SQL is
               a powerful language that allows developers to write complex
               queries and stored procedures to access and manipulate data.
-            begin_year: 2010
-            end_year: 2014
+            used_begin_year: 2010
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/tsql/
@@ -5531,8 +5531,8 @@ _embedded:
               organizations for mission-critical applications. It is highly
               scalable and supports a wide range of features, including data
               replication, security, and high availability.
-            begin_year: 2007
-            end_year: 2014
+            used_begin_year: 2007
+            used_end_year: 2014
             _links:
               self:
                 href: /db/sql-server/
@@ -5557,8 +5557,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -5690,8 +5690,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -5732,8 +5732,8 @@ _embedded:
               concise and powerful code. Ruby is also popular for its use of
               metaprogramming, which allows for the dynamic creation of code at
               runtime.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /languages/rb/
@@ -5762,8 +5762,8 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/linux/
@@ -5797,8 +5797,8 @@ _embedded:
               third-party applications via the Mac App Store and developer tools
               such as Xcode, making it a popular choice for both creative
               professionals and everyday users.
-            begin_year: 2010
-            end_year: present
+            used_begin_year: 2010
+            used_end_year: present
             _links:
               self:
                 href: /os/macos/
@@ -5826,8 +5826,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -5962,8 +5962,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -6005,8 +6005,8 @@ _embedded:
               enable multiple web pages to share formatting by specifying the
               relevant CSS in a separate .css file, and reduce complexity and
               repetition in the structural content.
-            begin_year: 2005
-            end_year: present
+            used_begin_year: 2005
+            used_end_year: present
             _links:
               self:
                 href: /languages/css/
@@ -6033,8 +6033,8 @@ _embedded:
               webpages and web applications. HTML also provides a means to
               create interactive webpages and web applications with the use of
               HTML forms, which can be used to collect user input.
-            begin_year: 2005
-            end_year: present
+            used_begin_year: 2005
+            used_end_year: present
             _links:
               self:
                 href: /languages/html/
@@ -6060,8 +6060,8 @@ _embedded:
               JavaScript is also used to create mobile applications and desktop
               applications. It is an object-oriented language that is used to
               create complex applications.
-            begin_year: 2005
-            end_year: 2025
+            used_begin_year: 2005
+            used_end_year: 2025
             _links:
               self:
                 href: /languages/js/
@@ -6088,8 +6088,8 @@ _embedded:
               structures, such as tables, views, and stored procedures. It is a
               powerful language that can be used to query, analyze, and
               manipulate data.
-            begin_year: 1999
-            end_year: 2014
+            used_begin_year: 1999
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/sql/
@@ -6127,8 +6127,8 @@ _embedded:
               also provides control of transactions and error handling. T-SQL is
               a powerful language that allows developers to write complex
               queries and stored procedures to access and manipulate data.
-            begin_year: 2010
-            end_year: 2014
+            used_begin_year: 2010
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/tsql/
@@ -6151,8 +6151,8 @@ _embedded:
               organizations for mission-critical applications. It is highly
               scalable and supports a wide range of features, including data
               replication, security, and high availability.
-            begin_year: 2007
-            end_year: 2014
+            used_begin_year: 2007
+            used_end_year: 2014
             _links:
               self:
                 href: /db/sql-server/
@@ -6182,8 +6182,8 @@ _embedded:
               decoupled components, and its simplicity has made it popular for
               developers who prefer to assemble their own toolchains rather than
               adopt more opinionated frameworks.
-            begin_year: 2010
-            end_year: 2012
+            used_begin_year: 2010
+            used_end_year: 2012
             _links:
               self:
                 href: /tools/backbone/
@@ -6202,8 +6202,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -6333,8 +6333,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -6377,8 +6377,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -6506,8 +6506,8 @@ _embedded:
               well as to execute SQL statements. PL/SQL is a powerful language
               that allows developers to create complex applications and to
               interact with the Oracle database.
-            begin_year: 2005
-            end_year: 2009
+            used_begin_year: 2005
+            used_end_year: 2009
             _links:
               self:
                 href: /languages/plsql/
@@ -6529,8 +6529,8 @@ _embedded:
               structures, such as tables, views, and stored procedures. It is a
               powerful language that can be used to query, analyze, and
               manipulate data.
-            begin_year: 1999
-            end_year: 2014
+            used_begin_year: 1999
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/sql/
@@ -6570,8 +6570,8 @@ _embedded:
               tools to help organizations store, manage, and analyze their data.
               Oracle Database is available in a variety of editions, including
               Enterprise Edition, Standard Edition, and Express Edition.
-            begin_year: 2005
-            end_year: 2009
+            used_begin_year: 2005
+            used_end_year: 2009
             _links:
               self:
                 href: /db/oracle/
@@ -6598,8 +6598,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -6734,8 +6734,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -6777,8 +6777,8 @@ _embedded:
               enable multiple web pages to share formatting by specifying the
               relevant CSS in a separate .css file, and reduce complexity and
               repetition in the structural content.
-            begin_year: 2005
-            end_year: present
+            used_begin_year: 2005
+            used_end_year: present
             _links:
               self:
                 href: /languages/css/
@@ -6805,8 +6805,8 @@ _embedded:
               webpages and web applications. HTML also provides a means to
               create interactive webpages and web applications with the use of
               HTML forms, which can be used to collect user input.
-            begin_year: 2005
-            end_year: present
+            used_begin_year: 2005
+            used_end_year: present
             _links:
               self:
                 href: /languages/html/
@@ -6832,8 +6832,8 @@ _embedded:
               JavaScript is also used to create mobile applications and desktop
               applications. It is an object-oriented language that is used to
               create complex applications.
-            begin_year: 2005
-            end_year: 2025
+            used_begin_year: 2005
+            used_end_year: 2025
             _links:
               self:
                 href: /languages/js/
@@ -6860,8 +6860,8 @@ _embedded:
               well as to execute SQL statements. PL/SQL is a powerful language
               that allows developers to create complex applications and to
               interact with the Oracle database.
-            begin_year: 2005
-            end_year: 2009
+            used_begin_year: 2005
+            used_end_year: 2009
             _links:
               self:
                 href: /languages/plsql/
@@ -6883,8 +6883,8 @@ _embedded:
               structures, such as tables, views, and stored procedures. It is a
               powerful language that can be used to query, analyze, and
               manipulate data.
-            begin_year: 1999
-            end_year: 2014
+            used_begin_year: 1999
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/sql/
@@ -6924,8 +6924,8 @@ _embedded:
               tools to help organizations store, manage, and analyze their data.
               Oracle Database is available in a variety of editions, including
               Enterprise Edition, Standard Edition, and Express Edition.
-            begin_year: 2005
-            end_year: 2009
+            used_begin_year: 2005
+            used_end_year: 2009
             _links:
               self:
                 href: /db/oracle/
@@ -6952,8 +6952,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -7079,8 +7079,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -7123,8 +7123,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -7254,8 +7254,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -7296,8 +7296,8 @@ _embedded:
               well as to execute SQL statements. PL/SQL is a powerful language
               that allows developers to create complex applications and to
               interact with the Oracle database.
-            begin_year: 2005
-            end_year: 2009
+            used_begin_year: 2005
+            used_end_year: 2009
             _links:
               self:
                 href: /languages/plsql/
@@ -7319,8 +7319,8 @@ _embedded:
               structures, such as tables, views, and stored procedures. It is a
               powerful language that can be used to query, analyze, and
               manipulate data.
-            begin_year: 1999
-            end_year: 2014
+            used_begin_year: 1999
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/sql/
@@ -7360,8 +7360,8 @@ _embedded:
               tools to help organizations store, manage, and analyze their data.
               Oracle Database is available in a variety of editions, including
               Enterprise Edition, Standard Edition, and Express Edition.
-            begin_year: 2005
-            end_year: 2009
+            used_begin_year: 2005
+            used_end_year: 2009
             _links:
               self:
                 href: /db/oracle/
@@ -7388,8 +7388,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -7519,8 +7519,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -7560,8 +7560,8 @@ _embedded:
               manipulate data. It is designed to be user-friendly and can be
               used to create forms, reports, and queries. It also supports data
               import and export, as well as data validation and security.
-            begin_year: 2007
-            end_year: 2008
+            used_begin_year: 2007
+            used_end_year: 2008
             _links:
               self:
                 href: /db/access/
@@ -7581,8 +7581,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -7716,8 +7716,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -7759,8 +7759,8 @@ _embedded:
               enable multiple web pages to share formatting by specifying the
               relevant CSS in a separate .css file, and reduce complexity and
               repetition in the structural content.
-            begin_year: 2005
-            end_year: present
+            used_begin_year: 2005
+            used_end_year: present
             _links:
               self:
                 href: /languages/css/
@@ -7787,8 +7787,8 @@ _embedded:
               webpages and web applications. HTML also provides a means to
               create interactive webpages and web applications with the use of
               HTML forms, which can be used to collect user input.
-            begin_year: 2005
-            end_year: present
+            used_begin_year: 2005
+            used_end_year: present
             _links:
               self:
                 href: /languages/html/
@@ -7814,8 +7814,8 @@ _embedded:
               JavaScript is also used to create mobile applications and desktop
               applications. It is an object-oriented language that is used to
               create complex applications.
-            begin_year: 2005
-            end_year: 2025
+            used_begin_year: 2005
+            used_end_year: 2025
             _links:
               self:
                 href: /languages/js/
@@ -7842,8 +7842,8 @@ _embedded:
               well as to execute SQL statements. PL/SQL is a powerful language
               that allows developers to create complex applications and to
               interact with the Oracle database.
-            begin_year: 2005
-            end_year: 2009
+            used_begin_year: 2005
+            used_end_year: 2009
             _links:
               self:
                 href: /languages/plsql/
@@ -7865,8 +7865,8 @@ _embedded:
               structures, such as tables, views, and stored procedures. It is a
               powerful language that can be used to query, analyze, and
               manipulate data.
-            begin_year: 1999
-            end_year: 2014
+            used_begin_year: 1999
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/sql/
@@ -7906,8 +7906,8 @@ _embedded:
               tools to help organizations store, manage, and analyze their data.
               Oracle Database is available in a variety of editions, including
               Enterprise Edition, Standard Edition, and Express Edition.
-            begin_year: 2005
-            end_year: 2009
+            used_begin_year: 2005
+            used_end_year: 2009
             _links:
               self:
                 href: /db/oracle/
@@ -7934,8 +7934,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -8065,8 +8065,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -8106,8 +8106,8 @@ _embedded:
               manipulate data. It is designed to be user-friendly and can be
               used to create forms, reports, and queries. It also supports data
               import and export, as well as data validation and security.
-            begin_year: 2007
-            end_year: 2008
+            used_begin_year: 2007
+            used_end_year: 2008
             _links:
               self:
                 href: /db/access/
@@ -8127,8 +8127,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -8257,8 +8257,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -8299,8 +8299,8 @@ _embedded:
               structures, such as tables, views, and stored procedures. It is a
               powerful language that can be used to query, analyze, and
               manipulate data.
-            begin_year: 1999
-            end_year: 2014
+            used_begin_year: 1999
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/sql/
@@ -8340,8 +8340,8 @@ _embedded:
               tools to help organizations store, manage, and analyze their data.
               Oracle Database is available in a variety of editions, including
               Enterprise Edition, Standard Edition, and Express Edition.
-            begin_year: 2005
-            end_year: 2009
+            used_begin_year: 2005
+            used_end_year: 2009
             _links:
               self:
                 href: /db/oracle/
@@ -8368,8 +8368,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -8499,8 +8499,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -8541,8 +8541,8 @@ _embedded:
               structures, such as tables, views, and stored procedures. It is a
               powerful language that can be used to query, analyze, and
               manipulate data.
-            begin_year: 1999
-            end_year: 2014
+            used_begin_year: 1999
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/sql/
@@ -8581,8 +8581,8 @@ _embedded:
               organizations for mission-critical applications. It is highly
               scalable and supports a wide range of features, including data
               replication, security, and high availability.
-            begin_year: 2007
-            end_year: 2014
+            used_begin_year: 2007
+            used_end_year: 2014
             _links:
               self:
                 href: /db/sql-server/
@@ -8607,8 +8607,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -8738,8 +8738,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -8780,8 +8780,8 @@ _embedded:
               structures, such as tables, views, and stored procedures. It is a
               powerful language that can be used to query, analyze, and
               manipulate data.
-            begin_year: 1999
-            end_year: 2014
+            used_begin_year: 1999
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/sql/
@@ -8821,8 +8821,8 @@ _embedded:
               tools to help organizations store, manage, and analyze their data.
               Oracle Database is available in a variety of editions, including
               Enterprise Edition, Standard Edition, and Express Edition.
-            begin_year: 2005
-            end_year: 2009
+            used_begin_year: 2005
+            used_end_year: 2009
             _links:
               self:
                 href: /db/oracle/
@@ -8849,8 +8849,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -8979,8 +8979,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -9023,8 +9023,8 @@ _embedded:
               tools to help organizations store, manage, and analyze their data.
               Oracle Database is available in a variety of editions, including
               Enterprise Edition, Standard Edition, and Express Edition.
-            begin_year: 2005
-            end_year: 2009
+            used_begin_year: 2005
+            used_end_year: 2009
             _links:
               self:
                 href: /db/oracle/
@@ -9051,8 +9051,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -9182,8 +9182,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -9224,8 +9224,8 @@ _embedded:
               well as to execute SQL statements. PL/SQL is a powerful language
               that allows developers to create complex applications and to
               interact with the Oracle database.
-            begin_year: 2005
-            end_year: 2009
+            used_begin_year: 2005
+            used_end_year: 2009
             _links:
               self:
                 href: /languages/plsql/
@@ -9247,8 +9247,8 @@ _embedded:
               structures, such as tables, views, and stored procedures. It is a
               powerful language that can be used to query, analyze, and
               manipulate data.
-            begin_year: 1999
-            end_year: 2014
+            used_begin_year: 1999
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/sql/
@@ -9288,8 +9288,8 @@ _embedded:
               tools to help organizations store, manage, and analyze their data.
               Oracle Database is available in a variety of editions, including
               Enterprise Edition, Standard Edition, and Express Edition.
-            begin_year: 2005
-            end_year: 2009
+            used_begin_year: 2005
+            used_end_year: 2009
             _links:
               self:
                 href: /db/oracle/
@@ -9316,8 +9316,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -9447,8 +9447,8 @@ _embedded:
               well as to execute SQL statements. PL/SQL is a powerful language
               that allows developers to create complex applications and to
               interact with the Oracle database.
-            begin_year: 2005
-            end_year: 2009
+            used_begin_year: 2005
+            used_end_year: 2009
             _links:
               self:
                 href: /languages/plsql/
@@ -9470,8 +9470,8 @@ _embedded:
               structures, such as tables, views, and stored procedures. It is a
               powerful language that can be used to query, analyze, and
               manipulate data.
-            begin_year: 1999
-            end_year: 2014
+            used_begin_year: 1999
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/sql/
@@ -9511,8 +9511,8 @@ _embedded:
               tools to help organizations store, manage, and analyze their data.
               Oracle Database is available in a variety of editions, including
               Enterprise Edition, Standard Edition, and Express Edition.
-            begin_year: 2005
-            end_year: 2009
+            used_begin_year: 2005
+            used_end_year: 2009
             _links:
               self:
                 href: /db/oracle/
@@ -9539,8 +9539,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -9666,8 +9666,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -9710,8 +9710,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -9843,8 +9843,8 @@ _embedded:
               and object-oriented programming paradigms, and it is used to
               create applications for the .NET framework. C# is a versatile
               language that can be used to create a wide range of applications.
-            begin_year: 2004
-            end_year: 2014
+            used_begin_year: 2004
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/cs/
@@ -9885,8 +9885,8 @@ _embedded:
               structures, such as tables, views, and stored procedures. It is a
               powerful language that can be used to query, analyze, and
               manipulate data.
-            begin_year: 1999
-            end_year: 2014
+            used_begin_year: 1999
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/sql/
@@ -9927,8 +9927,8 @@ _embedded:
               of operating systems, including Windows, Linux, and Mac OS X. It
               also supports a wide range of programming languages, including
               SQL, Java, and C#.
-            begin_year: 1999
-            end_year: 2005
+            used_begin_year: 1999
+            used_end_year: 2005
             _links:
               self:
                 href: /db/pervasive/
@@ -9950,8 +9950,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -10053,8 +10053,8 @@ _embedded:
               and an integrated development environment (IDE). Delphi is used by
               developers to create applications for a variety of industries,
               including finance, healthcare, and manufacturing.
-            begin_year: 1999
-            end_year: 2004
+            used_begin_year: 1999
+            used_end_year: 2004
             _links:
               self:
                 href: /languages/delphi/
@@ -10073,8 +10073,8 @@ _embedded:
               structures, such as tables, views, and stored procedures. It is a
               powerful language that can be used to query, analyze, and
               manipulate data.
-            begin_year: 1999
-            end_year: 2014
+            used_begin_year: 1999
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/sql/
@@ -10114,8 +10114,8 @@ _embedded:
               transaction logging, and replication. Btrieve is also highly
               scalable, allowing it to be used in a variety of applications,
               from single-user systems to large enterprise networks.
-            begin_year: 1999
-            end_year: 2004
+            used_begin_year: 1999
+            used_end_year: 2004
             _links:
               self:
                 href: /db/btrieve/
@@ -10136,8 +10136,8 @@ _embedded:
               of operating systems, including Windows, Linux, and Mac OS X. It
               also supports a wide range of programming languages, including
               SQL, Java, and C#.
-            begin_year: 1999
-            end_year: 2005
+            used_begin_year: 1999
+            used_end_year: 2005
             _links:
               self:
                 href: /db/pervasive/
@@ -10159,8 +10159,8 @@ _embedded:
               protocols, including IPX/SPX, TCP/IP, and AppleTalk. It is also
               compatible with a variety of hardware platforms, including
               Intel-based PCs, Macintosh computers, and UNIX systems.
-            begin_year: 1999
-            end_year: 2004
+            used_begin_year: 1999
+            used_end_year: 2004
             _links:
               self:
                 href: /os/netware/
@@ -10180,8 +10180,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -10283,8 +10283,8 @@ _embedded:
               and an integrated development environment (IDE). Delphi is used by
               developers to create applications for a variety of industries,
               including finance, healthcare, and manufacturing.
-            begin_year: 1999
-            end_year: 2004
+            used_begin_year: 1999
+            used_end_year: 2004
             _links:
               self:
                 href: /languages/delphi/
@@ -10303,8 +10303,8 @@ _embedded:
               structures, such as tables, views, and stored procedures. It is a
               powerful language that can be used to query, analyze, and
               manipulate data.
-            begin_year: 1999
-            end_year: 2014
+            used_begin_year: 1999
+            used_end_year: 2014
             _links:
               self:
                 href: /languages/sql/
@@ -10344,8 +10344,8 @@ _embedded:
               transaction logging, and replication. Btrieve is also highly
               scalable, allowing it to be used in a variety of applications,
               from single-user systems to large enterprise networks.
-            begin_year: 1999
-            end_year: 2004
+            used_begin_year: 1999
+            used_end_year: 2004
             _links:
               self:
                 href: /db/btrieve/
@@ -10366,8 +10366,8 @@ _embedded:
               of operating systems, including Windows, Linux, and Mac OS X. It
               also supports a wide range of programming languages, including
               SQL, Java, and C#.
-            begin_year: 1999
-            end_year: 2005
+            used_begin_year: 1999
+            used_end_year: 2005
             _links:
               self:
                 href: /db/pervasive/
@@ -10389,8 +10389,8 @@ _embedded:
               protocols, including IPX/SPX, TCP/IP, and AppleTalk. It is also
               compatible with a variety of hardware platforms, including
               Intel-based PCs, Macintosh computers, and UNIX systems.
-            begin_year: 1999
-            end_year: 2004
+            used_begin_year: 1999
+            used_end_year: 2004
             _links:
               self:
                 href: /os/netware/
@@ -10410,8 +10410,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -10512,8 +10512,8 @@ _embedded:
               and an integrated development environment (IDE). Delphi is used by
               developers to create applications for a variety of industries,
               including finance, healthcare, and manufacturing.
-            begin_year: 1999
-            end_year: 2004
+            used_begin_year: 1999
+            used_end_year: 2004
             _links:
               self:
                 href: /languages/delphi/
@@ -10534,8 +10534,8 @@ _embedded:
               transaction logging, and replication. Btrieve is also highly
               scalable, allowing it to be used in a variety of applications,
               from single-user systems to large enterprise networks.
-            begin_year: 1999
-            end_year: 2004
+            used_begin_year: 1999
+            used_end_year: 2004
             _links:
               self:
                 href: /db/btrieve/
@@ -10556,8 +10556,8 @@ _embedded:
               of operating systems, including Windows, Linux, and Mac OS X. It
               also supports a wide range of programming languages, including
               SQL, Java, and C#.
-            begin_year: 1999
-            end_year: 2005
+            used_begin_year: 1999
+            used_end_year: 2005
             _links:
               self:
                 href: /db/pervasive/
@@ -10579,8 +10579,8 @@ _embedded:
               protocols, including IPX/SPX, TCP/IP, and AppleTalk. It is also
               compatible with a variety of hardware platforms, including
               Intel-based PCs, Macintosh computers, and UNIX systems.
-            begin_year: 1999
-            end_year: 2004
+            used_begin_year: 1999
+            used_end_year: 2004
             _links:
               self:
                 href: /os/netware/
@@ -10600,8 +10600,8 @@ _embedded:
               as web browsers, media players, and office suites. Windows also
               includes a range of security features, such as user accounts,
               firewalls, and antivirus software.
-            begin_year: 1994
-            end_year: 2021
+            used_begin_year: 1994
+            used_end_year: 2021
             _links:
               self:
                 href: /os/windows/
@@ -10698,8 +10698,8 @@ _embedded:
               generics, exception handling, and object-oriented programming. It
               also has a wide range of libraries and tools for development,
               debugging, and testing.
-            begin_year: 1998
-            end_year: 1999
+            used_begin_year: 1998
+            used_end_year: 1999
             _links:
               self:
                 href: /languages/ada/
@@ -10720,8 +10720,8 @@ _embedded:
               capabilities, and a wide range of system management tools. Solaris
               is available in both server and desktop versions, and is used by
               many organizations around the world.
-            begin_year: 1998
-            end_year: 1999
+            used_begin_year: 1998
+            used_end_year: 1999
             _links:
               self:
                 href: /os/solaris/
@@ -10779,8 +10779,8 @@ _embedded:
               generics, exception handling, and object-oriented programming. It
               also has a wide range of libraries and tools for development,
               debugging, and testing.
-            begin_year: 1998
-            end_year: 1999
+            used_begin_year: 1998
+            used_end_year: 1999
             _links:
               self:
                 href: /languages/ada/
@@ -10801,8 +10801,8 @@ _embedded:
               capabilities, and a wide range of system management tools. Solaris
               is available in both server and desktop versions, and is used by
               many organizations around the world.
-            begin_year: 1998
-            end_year: 1999
+            used_begin_year: 1998
+            used_end_year: 1999
             _links:
               self:
                 href: /os/solaris/
@@ -10858,8 +10858,8 @@ _embedded:
               generics, exception handling, and object-oriented programming. It
               also has a wide range of libraries and tools for development,
               debugging, and testing.
-            begin_year: 1998
-            end_year: 1999
+            used_begin_year: 1998
+            used_end_year: 1999
             _links:
               self:
                 href: /languages/ada/
@@ -10880,8 +10880,8 @@ _embedded:
               capabilities, and a wide range of system management tools. Solaris
               is available in both server and desktop versions, and is used by
               many organizations around the world.
-            begin_year: 1998
-            end_year: 1999
+            used_begin_year: 1998
+            used_end_year: 1999
             _links:
               self:
                 href: /os/solaris/

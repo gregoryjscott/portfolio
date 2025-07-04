@@ -8,8 +8,8 @@ desc: >-
   multi-touch gestures. It includes features such as a home screen with app
   icons, a notification center, and access to the App Store for downloading
   apps. iOS also includes features such as iCloud, AirPlay, and Apple Pay.
-begin_year: 2024
-end_year: present
+used_begin_year: 2024
+used_end_year: present
 _links:
   self:
     href: /os/ios/

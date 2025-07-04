@@ -8,8 +8,8 @@ desc: >-
   for the creation of concise and powerful code. Ruby is also popular for its
   use of metaprogramming, which allows for the dynamic creation of code at
   runtime.
-begin_year: 2010
-end_year: present
+used_begin_year: 2010
+used_end_year: present
 _links:
   self:
     href: /languages/rb/

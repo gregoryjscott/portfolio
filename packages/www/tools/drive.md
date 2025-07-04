@@ -8,8 +8,8 @@ desc: >-
   Slides, which allow users to create and collaborate on documents,
   spreadsheets, and presentations. Google Drive also offers a range of features,
   such as file sharing, version history, and real-time collaboration.
-begin_year: 2015
-end_year: 2021
+used_begin_year: 2015
+used_end_year: 2021
 _links:
   self:
     href: /tools/drive/

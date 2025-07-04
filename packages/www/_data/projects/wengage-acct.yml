@@ -30,8 +30,8 @@ _embedded:
         environment (IDE). Delphi is used by developers to create applications
         for a variety of industries, including finance, healthcare, and
         manufacturing.
-      begin_year: 1999
-      end_year: 2004
+      used_begin_year: 1999
+      used_end_year: 2004
       _links:
         self:
           href: /languages/delphi/
@@ -49,8 +49,8 @@ _embedded:
         is also used to create and modify database structures, such as tables,
         views, and stored procedures. It is a powerful language that can be used
         to query, analyze, and manipulate data.
-      begin_year: 1999
-      end_year: 2014
+      used_begin_year: 1999
+      used_end_year: 2014
       _links:
         self:
           href: /languages/sql/
@@ -90,8 +90,8 @@ _embedded:
         and replication. Btrieve is also highly scalable, allowing it to be used
         in a variety of applications, from single-user systems to large
         enterprise networks.
-      begin_year: 1999
-      end_year: 2004
+      used_begin_year: 1999
+      used_end_year: 2004
       _links:
         self:
           href: /db/btrieve/
@@ -111,8 +111,8 @@ _embedded:
         applications, and is compatible with a variety of operating systems,
         including Windows, Linux, and Mac OS X. It also supports a wide range of
         programming languages, including SQL, Java, and C#.
-      begin_year: 1999
-      end_year: 2005
+      used_begin_year: 1999
+      used_end_year: 2005
       _links:
         self:
           href: /db/pervasive/
@@ -134,8 +134,8 @@ _embedded:
         and AppleTalk. It is also compatible with a variety of hardware
         platforms, including Intel-based PCs, Macintosh computers, and UNIX
         systems.
-      begin_year: 1999
-      end_year: 2004
+      used_begin_year: 1999
+      used_end_year: 2004
       _links:
         self:
           href: /os/netware/
@@ -154,8 +154,8 @@ _embedded:
         includes a range of applications, such as web browsers, media players,
         and office suites. Windows also includes a range of security features,
         such as user accounts, firewalls, and antivirus software.
-      begin_year: 1994
-      end_year: 2021
+      used_begin_year: 1994
+      used_end_year: 2021
       _links:
         self:
           href: /os/windows/

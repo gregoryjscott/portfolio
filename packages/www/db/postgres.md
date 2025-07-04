@@ -10,8 +10,8 @@ desc: >-
   triggers, stored procedures, and views. Postgres is highly scalable and can
   handle large amounts of data. It is also highly secure, with built-in
   authentication and access control.
-begin_year: 2012
-end_year: 2014
+used_begin_year: 2012
+used_end_year: 2014
 _links:
   self:
     href: /db/postgres/

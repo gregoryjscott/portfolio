@@ -5,8 +5,8 @@ desc: Linux is an open-source operating system that is based on the Linux
   is highly customizable and can be used for a variety of tasks, from web
   hosting to software development. It is also highly secure and reliable, making
   it a popular choice for many users.
-begin_year: 2010
-end_year: present
+used_begin_year: 2010
+used_end_year: present
 _links:
   self:
     href: /os/linux/

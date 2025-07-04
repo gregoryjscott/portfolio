@@ -8,8 +8,8 @@ desc: >-
   interpreters, visualizers, and integrations for React, Vue, Angular, and
   Node.js, XState delivers predictable, testable, and maintainable state
   management for complex synchronous and asynchronous workflows.
-begin_year: 2024
-end_year: present
+used_begin_year: 2024
+used_end_year: present
 _links:
   self:
     href: /tools/xstate/

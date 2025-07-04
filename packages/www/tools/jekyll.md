@@ -9,8 +9,8 @@ desc: >-
   rendered HTML files. Because it produces only static pages—no databases or
   server-side processing—it delivers fast, secure sites that are easy to host
   (notably on GitHub Pages) and maintain via version control.
-begin_year: 2014
-end_year: present
+used_begin_year: 2014
+used_end_year: present
 _links:
   self:
     href: /tools/jekyll/

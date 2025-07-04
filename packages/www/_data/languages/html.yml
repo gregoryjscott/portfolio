@@ -6,8 +6,8 @@ desc: HTML (HyperText Markup Language) is a markup language used to create
   the content and structure of webpages and web applications. HTML also provides
   a means to create interactive webpages and web applications with the use of
   HTML forms, which can be used to collect user input.
-begin_year: 2005
-end_year: present
+used_begin_year: 2005
+used_end_year: present
 _links:
   self:
     href: /languages/html/

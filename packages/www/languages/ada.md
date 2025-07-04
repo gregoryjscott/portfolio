@@ -9,8 +9,8 @@ desc: >-
   strong typing, modularity, generics, exception handling, and object-oriented
   programming. It also has a wide range of libraries and tools for development,
   debugging, and testing.
-begin_year: 1998
-end_year: 1999
+used_begin_year: 1998
+used_end_year: 1999
 _links:
   self:
     href: /languages/ada/

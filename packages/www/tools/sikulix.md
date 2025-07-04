@@ -8,8 +8,8 @@ desc: >-
   OpenCV, SikuliX works across Windows, macOS, and Linux, making it ideal for
   automating legacy or custom interfaces and integrating with testing frameworks
   for end-to-end automation or repetitive desktop task scripting.
-begin_year: 2015
-end_year: 2021
+used_begin_year: 2015
+used_end_year: 2021
 _links:
   self:
     href: /tools/sikulix/

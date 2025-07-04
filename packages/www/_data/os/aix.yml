@@ -7,8 +7,8 @@ desc: AIX (Advanced Interactive eXecutive) is an IBM proprietary Unix-based
   features such as high availability, scalability, and security. AIX also
   provides a wide range of tools and utilities for system administration,
   application development, and system management.
-begin_year: 1994
-end_year: 1998
+used_begin_year: 1994
+used_end_year: 1998
 _links:
   self:
     href: /os/aix/

@@ -30,8 +30,8 @@ _embedded:
         pages to share formatting by specifying the relevant CSS in a separate
         .css file, and reduce complexity and repetition in the structural
         content.
-      begin_year: 2005
-      end_year: present
+      used_begin_year: 2005
+      used_end_year: present
       _links:
         self:
           href: /languages/css/
@@ -58,8 +58,8 @@ _embedded:
         HTML also provides a means to create interactive webpages and web
         applications with the use of HTML forms, which can be used to collect
         user input.
-      begin_year: 2005
-      end_year: present
+      used_begin_year: 2005
+      used_end_year: present
       _links:
         self:
           href: /languages/html/
@@ -84,8 +84,8 @@ _embedded:
         animations, interactive forms, and dynamic content. JavaScript is also
         used to create mobile applications and desktop applications. It is an
         object-oriented language that is used to create complex applications.
-      begin_year: 2005
-      end_year: 2025
+      used_begin_year: 2005
+      used_end_year: 2025
       _links:
         self:
           href: /languages/js/
@@ -112,8 +112,8 @@ _embedded:
         reliable performance, and automatic scaling of throughput capacity. It
         also provides encryption at rest, point-in-time recovery, and other
         features to help protect your data.
-      begin_year: 2015
-      end_year: present
+      used_begin_year: 2015
+      used_end_year: present
       _links:
         self:
           href: /db/ddb/
@@ -136,8 +136,8 @@ _embedded:
         development environment for designing UI and data models, while built-in
         hosting, CI/CD and environment management streamline the application
         lifecycle so teams can focus on features instead of infrastructure.
-      begin_year: 2024
-      end_year: present
+      used_begin_year: 2024
+      used_end_year: present
       _links:
         self:
           href: /tools/amplify/
@@ -154,8 +154,8 @@ _embedded:
         supercomputers. It is highly customizable and can be used for a variety
         of tasks, from web hosting to software development. It is also highly
         secure and reliable, making it a popular choice for many users.
-      begin_year: 2010
-      end_year: present
+      used_begin_year: 2010
+      used_end_year: present
       _links:
         self:
           href: /os/linux/

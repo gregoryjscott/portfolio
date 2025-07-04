@@ -9,8 +9,8 @@ desc: >-
   network protocols, including IPX/SPX, TCP/IP, and AppleTalk. It is also
   compatible with a variety of hardware platforms, including Intel-based PCs,
   Macintosh computers, and UNIX systems.
-begin_year: 1999
-end_year: 2004
+used_begin_year: 1999
+used_end_year: 2004
 _links:
   self:
     href: /os/netware/

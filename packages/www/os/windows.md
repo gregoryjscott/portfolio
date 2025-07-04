@@ -9,8 +9,8 @@ desc: >-
   applications, such as web browsers, media players, and office suites. Windows
   also includes a range of security features, such as user accounts, firewalls,
   and antivirus software.
-begin_year: 1994
-end_year: 2021
+used_begin_year: 1994
+used_end_year: 2021
 _links:
   self:
     href: /os/windows/

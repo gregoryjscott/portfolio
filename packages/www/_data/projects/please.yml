@@ -30,8 +30,8 @@ _embedded:
         programming paradigms, and it is used to create applications for the
         .NET framework. C# is a versatile language that can be used to create a
         wide range of applications.
-      begin_year: 2004
-      end_year: 2014
+      used_begin_year: 2004
+      used_end_year: 2014
       _links:
         self:
           href: /languages/cs/
@@ -71,8 +71,8 @@ _embedded:
         blocks, which allow for the creation of concise and powerful code. Ruby
         is also popular for its use of metaprogramming, which allows for the
         dynamic creation of code at runtime.
-      begin_year: 2010
-      end_year: present
+      used_begin_year: 2010
+      used_end_year: present
       _links:
         self:
           href: /languages/rb/
@@ -100,8 +100,8 @@ _embedded:
         is also used to create and modify database structures, such as tables,
         views, and stored procedures. It is a powerful language that can be used
         to query, analyze, and manipulate data.
-      begin_year: 1999
-      end_year: 2014
+      used_begin_year: 1999
+      used_end_year: 2014
       _links:
         self:
           href: /languages/sql/
@@ -140,8 +140,8 @@ _embedded:
         most of the SQL standard, including transactions, triggers, and views.
         It is also highly extensible, allowing developers to create custom
         functions and extensions.
-      begin_year: 2012
-      end_year: 2014
+      used_begin_year: 2012
+      used_end_year: 2014
       _links:
         self:
           href: /db/sqlite/
@@ -159,8 +159,8 @@ _embedded:
         includes a range of applications, such as web browsers, media players,
         and office suites. Windows also includes a range of security features,
         such as user accounts, firewalls, and antivirus software.
-      begin_year: 1994
-      end_year: 2021
+      used_begin_year: 1994
+      used_end_year: 2021
       _links:
         self:
           href: /os/windows/

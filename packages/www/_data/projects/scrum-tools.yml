@@ -30,8 +30,8 @@ _embedded:
         programming paradigms, and it is used to create applications for the
         .NET framework. C# is a versatile language that can be used to create a
         wide range of applications.
-      begin_year: 2004
-      end_year: 2014
+      used_begin_year: 2004
+      used_end_year: 2014
       _links:
         self:
           href: /languages/cs/
@@ -73,8 +73,8 @@ _embedded:
         pages to share formatting by specifying the relevant CSS in a separate
         .css file, and reduce complexity and repetition in the structural
         content.
-      begin_year: 2005
-      end_year: present
+      used_begin_year: 2005
+      used_end_year: present
       _links:
         self:
           href: /languages/css/
@@ -101,8 +101,8 @@ _embedded:
         HTML also provides a means to create interactive webpages and web
         applications with the use of HTML forms, which can be used to collect
         user input.
-      begin_year: 2005
-      end_year: present
+      used_begin_year: 2005
+      used_end_year: present
       _links:
         self:
           href: /languages/html/
@@ -127,8 +127,8 @@ _embedded:
         animations, interactive forms, and dynamic content. JavaScript is also
         used to create mobile applications and desktop applications. It is an
         object-oriented language that is used to create complex applications.
-      begin_year: 2005
-      end_year: 2025
+      used_begin_year: 2005
+      used_end_year: 2025
       _links:
         self:
           href: /languages/js/
@@ -154,8 +154,8 @@ _embedded:
         is also used to create and modify database structures, such as tables,
         views, and stored procedures. It is a powerful language that can be used
         to query, analyze, and manipulate data.
-      begin_year: 1999
-      end_year: 2014
+      used_begin_year: 1999
+      used_end_year: 2014
       _links:
         self:
           href: /languages/sql/
@@ -193,8 +193,8 @@ _embedded:
         transactions and error handling. T-SQL is a powerful language that
         allows developers to write complex queries and stored procedures to
         access and manipulate data.
-      begin_year: 2010
-      end_year: 2014
+      used_begin_year: 2010
+      used_end_year: 2014
       _links:
         self:
           href: /languages/tsql/
@@ -216,8 +216,8 @@ _embedded:
         and management, and is used by many organizations for mission-critical
         applications. It is highly scalable and supports a wide range of
         features, including data replication, security, and high availability.
-      begin_year: 2007
-      end_year: 2014
+      used_begin_year: 2007
+      used_end_year: 2014
       _links:
         self:
           href: /db/sql-server/
@@ -241,8 +241,8 @@ _embedded:
         includes a range of applications, such as web browsers, media players,
         and office suites. Windows also includes a range of security features,
         such as user accounts, firewalls, and antivirus software.
-      begin_year: 1994
-      end_year: 2021
+      used_begin_year: 1994
+      used_end_year: 2021
       _links:
         self:
           href: /os/windows/

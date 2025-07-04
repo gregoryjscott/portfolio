@@ -25,8 +25,8 @@ _embedded:
         can be downloaded from third-party app stores or through online stores
         such as Google Play. Android has been the best-selling OS on tablets
         since 2013, and on smartphones it is dominant by any metric.
-      begin_year: 2024
-      end_year: present
+      used_begin_year: 2024
+      used_end_year: present
       _links:
         self:
           href: /os/android/
@@ -133,8 +133,8 @@ _embedded:
         features such as a home screen with app icons, a notification center,
         and access to the App Store for downloading apps. iOS also includes
         features such as iCloud, AirPlay, and Apple Pay.
-      begin_year: 2024
-      end_year: present
+      used_begin_year: 2024
+      used_end_year: present
       _links:
         self:
           href: /os/ios/
@@ -239,8 +239,8 @@ _embedded:
         supercomputers. It is highly customizable and can be used for a variety
         of tasks, from web hosting to software development. It is also highly
         secure and reliable, making it a popular choice for many users.
-      begin_year: 2010
-      end_year: present
+      used_begin_year: 2010
+      used_end_year: present
       _links:
         self:
           href: /os/linux/
@@ -726,8 +726,8 @@ _embedded:
         supports a rich ecosystem of native and third-party applications via the
         Mac App Store and developer tools such as Xcode, making it a popular
         choice for both creative professionals and everyday users.
-      begin_year: 2010
-      end_year: present
+      used_begin_year: 2010
+      used_end_year: present
       _links:
         self:
           href: /os/macos/
@@ -1082,8 +1082,8 @@ _embedded:
         includes a range of applications, such as web browsers, media players,
         and office suites. Windows also includes a range of security features,
         such as user accounts, firewalls, and antivirus software.
-      begin_year: 1994
-      end_year: 2021
+      used_begin_year: 1994
+      used_end_year: 2021
       _links:
         self:
           href: /os/windows/
@@ -1949,8 +1949,8 @@ _embedded:
         and AppleTalk. It is also compatible with a variety of hardware
         platforms, including Intel-based PCs, Macintosh computers, and UNIX
         systems.
-      begin_year: 1999
-      end_year: 2004
+      used_begin_year: 1999
+      used_end_year: 2004
       _links:
         self:
           href: /os/netware/
@@ -2058,8 +2058,8 @@ _embedded:
         range of system management tools. Solaris is available in both server
         and desktop versions, and is used by many organizations around the
         world.
-      begin_year: 1998
-      end_year: 1999
+      used_begin_year: 1998
+      used_end_year: 1999
       _links:
         self:
           href: /os/solaris/
@@ -2146,8 +2146,8 @@ _embedded:
         range of features such as high availability, scalability, and security.
         AIX also provides a wide range of tools and utilities for system
         administration, application development, and system management.
-      begin_year: 1994
-      end_year: 1998
+      used_begin_year: 1994
+      used_end_year: 1998
       _links:
         self:
           href: /os/aix/
@@ -2192,8 +2192,8 @@ _embedded:
         provided a command-line interface for users to interact with the system.
         MS-DOS was eventually replaced by Windows 95 and later versions of
         Windows.
-      begin_year: 1994
-      end_year: 1998
+      used_begin_year: 1994
+      used_end_year: 1998
       _links:
         self:
           href: /os/ms-dos/
