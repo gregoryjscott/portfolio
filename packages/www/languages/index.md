@@ -20,6 +20,7 @@ _links:
     - href: /languages/py/
     - href: /languages/rb/
     - href: /languages/sql/
+    - href: /languages/ti-basic/
     - href: /languages/ts/
     - href: /languages/vb/
 ---
