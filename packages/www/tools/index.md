@@ -14,6 +14,7 @@ _links:
     - href: /tools/ec2/
     - href: /tools/ecr/
     - href: /tools/ecs/
+    - href: /tools/expo/
     - href: /tools/fargate/
     - href: /tools/firebase/
     - href: /tools/hal/

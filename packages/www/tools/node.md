@@ -8,12 +8,14 @@ desc: >-
   Windows, and Linux. Node.js also provides a rich library of various JavaScript
   modules which simplifies the development of web applications using Node.js.
 used_begin_year: 2015
-used_end_year: 2021
+used_end_year: present
 _links:
   self:
     href: /tools/node/
   projects:
     - href: /projects/epicloud/
+    - href: /projects/nuggets/
   jobs:
     - href: /jobs/fe/
+    - href: /jobs/freelance/
 ---

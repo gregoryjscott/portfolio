@@ -5,8 +5,8 @@ desc: >-
   React Native app built using AI and state machines for learning Spanish or
   English.
 role: Author
-begin_year: 2024
-end_year: null
+begin_year: 2023
+end_year: present
 _links:
   self:
     href: /projects/nuggets/
@@ -19,8 +19,10 @@ _links:
     - href: /tools/ec2/
     - href: /tools/ecr/
     - href: /tools/ecs/
+    - href: /tools/expo/
     - href: /tools/fargate/
     - href: /tools/iam/
+    - href: /tools/node/
     - href: /tools/react-native/
     - href: /tools/s3/
     - href: /tools/sqs/

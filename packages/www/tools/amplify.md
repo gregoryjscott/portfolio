@@ -11,7 +11,7 @@ desc: >-
   designing UI and data models, while built-in hosting, CI/CD and environment
   management streamline the application lifecycle so teams can focus on features
   instead of infrastructure.
-used_begin_year: 2024
+used_begin_year: 2023
 used_end_year: present
 _links:
   self:
