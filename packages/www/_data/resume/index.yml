@@ -1034,7 +1034,6 @@ _embedded:
           - href: /languages/html/
           - href: /languages/js/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/sql-server/
         tools:
@@ -1189,6 +1188,7 @@ _embedded:
                 - href: /projects/agdc/
                 - href: /projects/ahfc-integration/
                 - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
                 - href: /projects/awwu-systems-integration/
                 - href: /projects/cis-data-capture/
                 - href: /projects/consumption-views/
@@ -1199,6 +1199,7 @@ _embedded:
                 - href: /projects/please/
                 - href: /projects/qb/
                 - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/somd/
@@ -1209,29 +1210,6 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/mas/
-                - href: /jobs/rdi/
-          - title: Transact-SQL
-            desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
-              with relational databases. It is a set-based, declarative
-              programming language used to query, modify, and manage data in
-              Microsoft SQL Server. T-SQL is used to create and modify database
-              objects such as tables, views, stored procedures, and triggers. It
-              also provides control of transactions and error handling. T-SQL is
-              a powerful language that allows developers to write complex
-              queries and stored procedures to access and manipulate data.
-            used_begin_year: 2010
-            used_end_year: 2014
-            _links:
-              self:
-                href: /languages/tsql/
-              projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/qb/
-                - href: /projects/scrum-tools/
-                - href: /projects/systems-portal/
-              jobs:
                 - href: /jobs/rdi/
         db:
           - title: SQL Server
@@ -1379,11 +1357,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -1478,6 +1454,7 @@ _embedded:
                 - href: /projects/agdc/
                 - href: /projects/ahfc-integration/
                 - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
                 - href: /projects/awwu-systems-integration/
                 - href: /projects/cis-data-capture/
                 - href: /projects/consumption-views/
@@ -1488,6 +1465,7 @@ _embedded:
                 - href: /projects/please/
                 - href: /projects/qb/
                 - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/somd/
@@ -1926,7 +1904,6 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -1968,7 +1945,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -1990,7 +1966,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -2011,7 +1986,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -2054,7 +2028,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               tools:
@@ -2096,7 +2069,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -2128,7 +2100,6 @@ _embedded:
                 href: /projects/database-sync-awwu/
               languages:
                 - href: /languages/cs/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -2169,7 +2140,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -2260,6 +2230,7 @@ _embedded:
                 href: /projects/awwu-job-scheduler/
               languages:
                 - href: /languages/cs/
+                - href: /languages/sql/
               db:
                 - href: /db/oracle/
               os:
@@ -2276,7 +2247,6 @@ _embedded:
                 href: /projects/awwu-systems-integration/
               languages:
                 - href: /languages/cs/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -2416,11 +2386,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -2595,7 +2563,6 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -2616,7 +2583,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -2638,7 +2604,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -2660,6 +2625,7 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/rb/
+                - href: /languages/sql/
               db:
                 - href: /db/postgres/
               os:
@@ -2682,7 +2648,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -2705,7 +2670,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               tools:
@@ -2729,7 +2693,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -2751,7 +2714,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -2857,11 +2819,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -3119,7 +3079,6 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -3140,7 +3099,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -3162,7 +3120,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -3184,6 +3141,7 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/rb/
+                - href: /languages/sql/
               db:
                 - href: /db/postgres/
               os:
@@ -3206,7 +3164,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -3229,7 +3186,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               tools:
@@ -3253,7 +3209,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -3275,7 +3230,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -3381,11 +3335,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -3480,7 +3432,6 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -3501,7 +3452,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -3523,7 +3473,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -3545,6 +3494,7 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/rb/
+                - href: /languages/sql/
               db:
                 - href: /db/postgres/
               os:
@@ -3567,7 +3517,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -3590,7 +3539,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               tools:
@@ -3614,7 +3562,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -3636,7 +3583,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -3742,11 +3688,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -3877,206 +3821,6 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/windows/
-    - title: PL/SQL
-      desc: PL/SQL (Procedural Language/Structured Query Language) is a procedural
-        language used in Oracle databases. It is a combination of SQL and
-        procedural programming language, allowing developers to write code to
-        manipulate data in an Oracle database. PL/SQL code can be used to create
-        stored procedures, functions, packages, and triggers, as well as to
-        execute SQL statements. PL/SQL is a powerful language that allows
-        developers to create complex applications and to interact with the
-        Oracle database.
-      used_begin_year: 2005
-      used_end_year: 2009
-      _links:
-        self:
-          href: /languages/plsql/
-        projects:
-          - href: /projects/awwu-intranet/
-          - href: /projects/awwu-systems-integration/
-          - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
-          - href: /projects/employee-suggestions/
-          - href: /projects/somd/
-        jobs:
-          - href: /jobs/rdi/
-      _embedded:
-        projects:
-          - title: Consumption Views
-            desc: Set of database views that provides water consumption information that
-              feed into reporting tools used by AWWU to make business decisions.
-            role: Lead Developer
-            begin_year: 2009
-            end_year: 2009
-            _links:
-              self:
-                href: /projects/consumption-views/
-              languages:
-                - href: /languages/plsql/
-                - href: /languages/sql/
-              db:
-                - href: /db/oracle/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-          - title: Service Order Mobile Dispatch
-            desc: Mobile web application that allows Anchorage Water & Wastewater Utility
-              service workers to query and record service information while in
-              the field.
-            role: Technical Lead
-            begin_year: 2009
-            end_year: 2009
-            _links:
-              self:
-                href: /projects/somd/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/plsql/
-                - href: /languages/sql/
-              db:
-                - href: /db/oracle/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-          - title: Database Synchronization (AWWU)
-            desc: null
-            role: Lead Developer
-            begin_year: 2008
-            end_year: 2008
-            _links:
-              self:
-                href: /projects/database-sync-awwu/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/plsql/
-                - href: /languages/sql/
-              db:
-                - href: /db/oracle/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-          - title: AWWU Intranet
-            desc: Web application that contains AWWU's reporting and querying tools, systems
-              status, and custom applications.
-            role: Technical Lead
-            begin_year: 2005
-            end_year: 2008
-            _links:
-              self:
-                href: /projects/awwu-intranet/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/plsql/
-                - href: /languages/sql/
-              db:
-                - href: /db/oracle/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-          - title: AWWU Systems Integration
-            desc: null
-            role: Technical Lead
-            begin_year: 2005
-            end_year: 2006
-            _links:
-              self:
-                href: /projects/awwu-systems-integration/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/plsql/
-                - href: /languages/sql/
-              db:
-                - href: /db/oracle/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-          - title: Employees Suggestion
-            desc: Oracle Forms application that allows AWWU employees to submit suggestions
-              for improving the AWWU workplace.
-            role: Lead Developer
-            begin_year: 2005
-            end_year: 2005
-            _links:
-              self:
-                href: /projects/employee-suggestions/
-              languages:
-                - href: /languages/plsql/
-                - href: /languages/sql/
-              db:
-                - href: /db/oracle/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-        jobs:
-          - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
-            role: Technical Lead
-            begin_year: 2005
-            end_year: 2014
-            time_desc: July 2005 - July 2014
-            _links:
-              self:
-                href: /jobs/rdi/
-              projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-job-scheduler/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/bit-proposal/
-                - href: /projects/centroid/
-                - href: /projects/cis-data-capture/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
-                - href: /projects/please/
-                - href: /projects/qb/
-                - href: /projects/report-engine/
-                - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
-                - href: /projects/scrum-tools/
-                - href: /projects/somd/
-                - href: /projects/systems-portal/
-                - href: /projects/train-builder/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/plsql/
-                - href: /languages/py/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/access/
-                - href: /db/oracle/
-                - href: /db/postgres/
-                - href: /db/sql-server/
-                - href: /db/sqlite/
-              tools:
-                - href: /tools/backbone/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
     - title: Python
       desc: Python is a high-level, interpreted, general-purpose programming language.
         It is an easy-to-learn, powerful language that is used for web
@@ -4136,7 +3880,6 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -4184,11 +3927,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -4419,7 +4160,6 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -4462,6 +4202,7 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/rb/
+                - href: /languages/sql/
               db:
                 - href: /db/postgres/
               os:
@@ -4588,11 +4329,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -4622,6 +4361,7 @@ _embedded:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
           - href: /projects/awwu-intranet/
+          - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
           - href: /projects/cis-data-capture/
           - href: /projects/consumption-views/
@@ -4632,6 +4372,7 @@ _embedded:
           - href: /projects/please/
           - href: /projects/qb/
           - href: /projects/sar-reports/
+          - href: /projects/scramble-score/
           - href: /projects/scrum-tools/
           - href: /projects/sif-agent/
           - href: /projects/somd/
@@ -4686,7 +4427,6 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -4724,7 +4464,6 @@ _embedded:
                 href: /projects/ahfc-integration/
               languages:
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -4745,7 +4484,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -4767,10 +4505,33 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
+                - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
+          - title: ScrambleScore
+            desc: Mobile web application that allows golfers participating in scramble golf
+              tournaments to record their scores and monitor the tournament
+              leaderboard.
+            role: Project Manager
+            begin_year: 2012
+            end_year: 2013
+            _links:
+              self:
+                href: /projects/scramble-score/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+              db:
+                - href: /db/postgres/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
@@ -4788,7 +4549,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -4811,7 +4571,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               tools:
@@ -4830,7 +4589,6 @@ _embedded:
               self:
                 href: /projects/consumption-views/
               languages:
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -4853,7 +4611,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -4871,7 +4628,6 @@ _embedded:
                 href: /projects/database-sync-awwu/
               languages:
                 - href: /languages/cs/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -4893,7 +4649,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -4954,6 +4709,25 @@ _embedded:
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
+          - title: AWWU Job Scheduler
+            desc: Framework for creating background processing jobs that migrate,
+              synchronize, and transform data throughout AWWU's integrated
+              systems.
+            role: Technical Lead
+            begin_year: 2005
+            end_year: 2006
+            _links:
+              self:
+                href: /projects/awwu-job-scheduler/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/sql/
+              db:
+                - href: /db/oracle/
+              os:
+                - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: AWWU Systems Integration
             desc: null
             role: Technical Lead
@@ -4964,7 +4738,6 @@ _embedded:
                 href: /projects/awwu-systems-integration/
               languages:
                 - href: /languages/cs/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -4982,7 +4755,6 @@ _embedded:
               self:
                 href: /projects/employee-suggestions/
               languages:
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -5148,11 +4920,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -5190,219 +4960,6 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/netware/
-                - href: /os/windows/
-    - title: Transact-SQL
-      desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
-        with relational databases. It is a set-based, declarative programming
-        language used to query, modify, and manage data in Microsoft SQL Server.
-        T-SQL is used to create and modify database objects such as tables,
-        views, stored procedures, and triggers. It also provides control of
-        transactions and error handling. T-SQL is a powerful language that
-        allows developers to write complex queries and stored procedures to
-        access and manipulate data.
-      used_begin_year: 2010
-      used_end_year: 2014
-      _links:
-        self:
-          href: /languages/tsql/
-        projects:
-          - href: /projects/agdc/
-          - href: /projects/ahfc-integration/
-          - href: /projects/energy-efficiency-map/
-          - href: /projects/qb/
-          - href: /projects/scrum-tools/
-          - href: /projects/systems-portal/
-        jobs:
-          - href: /jobs/rdi/
-      _embedded:
-        projects:
-          - title: Alaska Gasline Development Corporation
-            desc: Web application that provides AGDC with documentation, reporting, and
-              querying tools for their vast GIS data and infrastructure.
-            role: Technical Lead
-            begin_year: 2013
-            end_year: 2014
-            _links:
-              self:
-                href: /projects/agdc/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/py/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/sql-server/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-          - title: AHFC Integration
-            desc: Alaska Housing Finance Corporation Integration
-            role: Technical Lead
-            begin_year: 2013
-            end_year: 2013
-            _links:
-              self:
-                href: /projects/ahfc-integration/
-              languages:
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/sql-server/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-          - title: Systems Portal
-            desc: Web application for tracking data used by systems administrators.
-            role: Technical Lead
-            begin_year: 2013
-            end_year: 2013
-            _links:
-              self:
-                href: /projects/systems-portal/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/sql-server/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-          - title: Energy Efficiency Map
-            desc: Web application that allows the Alaska Energy Authority to monitor and
-              administer data from their statewide energy saving programs.
-            role: Technical Lead
-            begin_year: 2012
-            end_year: 2013
-            _links:
-              self:
-                href: /projects/energy-efficiency-map/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/sql-server/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-          - title: Scrum Tools
-            desc: null
-            role: Technical Lead
-            begin_year: 2012
-            end_year: 2013
-            _links:
-              self:
-                href: /projects/scrum-tools/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/sql-server/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-          - title: Quality Bank
-            subtitle: Invoicing $1 Billion/Month for Oil Pipeline
-            desc: Web application that manages the workflow, pricing data, sampling data,
-              volume data, and invoicing for the Trans-Alaska Pipeline System.
-            role: Technical Lead
-            begin_year: 2010
-            end_year: 2012
-            _links:
-              self:
-                href: /projects/qb/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/sql-server/
-              tools:
-                - href: /tools/backbone/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-        jobs:
-          - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
-            role: Technical Lead
-            begin_year: 2005
-            end_year: 2014
-            time_desc: July 2005 - July 2014
-            _links:
-              self:
-                href: /jobs/rdi/
-              projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-job-scheduler/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/bit-proposal/
-                - href: /projects/centroid/
-                - href: /projects/cis-data-capture/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
-                - href: /projects/please/
-                - href: /projects/qb/
-                - href: /projects/report-engine/
-                - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
-                - href: /projects/scrum-tools/
-                - href: /projects/somd/
-                - href: /projects/systems-portal/
-                - href: /projects/train-builder/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/plsql/
-                - href: /languages/py/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/access/
-                - href: /db/oracle/
-                - href: /db/postgres/
-                - href: /db/sql-server/
-                - href: /db/sqlite/
-              tools:
-                - href: /tools/backbone/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
                 - href: /os/windows/
     - title: Typescript
       desc: Typescript is a typed superset of JavaScript that compiles to plain
@@ -5757,11 +5314,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -6303,7 +5858,6 @@ _embedded:
               self:
                 href: /projects/consumption-views/
               languages:
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -6326,7 +5880,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -6344,7 +5897,6 @@ _embedded:
                 href: /projects/database-sync-awwu/
               languages:
                 - href: /languages/cs/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -6366,7 +5918,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -6421,6 +5972,7 @@ _embedded:
                 href: /projects/awwu-job-scheduler/
               languages:
                 - href: /languages/cs/
+                - href: /languages/sql/
               db:
                 - href: /db/oracle/
               os:
@@ -6437,7 +5989,6 @@ _embedded:
                 href: /projects/awwu-systems-integration/
               languages:
                 - href: /languages/cs/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -6455,7 +6006,6 @@ _embedded:
               self:
                 href: /projects/employee-suggestions/
               languages:
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -6504,11 +6054,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -6714,6 +6262,7 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/rb/
+                - href: /languages/sql/
               db:
                 - href: /db/postgres/
               os:
@@ -6820,11 +6369,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -6879,7 +6426,6 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -6896,7 +6442,6 @@ _embedded:
                 href: /projects/ahfc-integration/
               languages:
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -6917,7 +6462,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -6939,7 +6483,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -6960,7 +6503,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -6983,7 +6525,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               tools:
@@ -7051,11 +6592,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -7150,11 +6689,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -7344,7 +6881,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               tools:
@@ -7394,11 +6930,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -11005,6 +10539,7 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/rb/
+                - href: /languages/sql/
               db:
                 - href: /db/postgres/
               os:
@@ -11170,11 +10705,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -11404,6 +10937,7 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/rb/
+                - href: /languages/sql/
               db:
                 - href: /db/postgres/
               os:
@@ -11530,11 +11064,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -11925,7 +11457,6 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -11963,7 +11494,6 @@ _embedded:
                 href: /projects/ahfc-integration/
               languages:
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -11984,7 +11514,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -12006,7 +11535,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -12028,6 +11556,7 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/rb/
+                - href: /languages/sql/
               db:
                 - href: /db/postgres/
               os:
@@ -12050,7 +11579,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -12093,7 +11621,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               tools:
@@ -12130,7 +11657,6 @@ _embedded:
               self:
                 href: /projects/consumption-views/
               languages:
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -12153,7 +11679,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -12185,7 +11710,6 @@ _embedded:
                 href: /projects/database-sync-awwu/
               languages:
                 - href: /languages/cs/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -12226,7 +11750,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -12317,6 +11840,7 @@ _embedded:
                 href: /projects/awwu-job-scheduler/
               languages:
                 - href: /languages/cs/
+                - href: /languages/sql/
               db:
                 - href: /db/oracle/
               os:
@@ -12333,7 +11857,6 @@ _embedded:
                 href: /projects/awwu-systems-integration/
               languages:
                 - href: /languages/cs/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -12351,7 +11874,6 @@ _embedded:
               self:
                 href: /projects/employee-suggestions/
               languages:
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -12589,11 +12111,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -13158,6 +12678,7 @@ _embedded:
                 - href: /projects/agdc/
                 - href: /projects/ahfc-integration/
                 - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
                 - href: /projects/awwu-systems-integration/
                 - href: /projects/cis-data-capture/
                 - href: /projects/consumption-views/
@@ -13168,6 +12689,7 @@ _embedded:
                 - href: /projects/please/
                 - href: /projects/qb/
                 - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/somd/
@@ -14355,11 +13877,9 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
-          - href: /languages/plsql/
           - href: /languages/py/
           - href: /languages/rb/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/access/
           - href: /db/oracle/
@@ -14430,7 +13950,6 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -14468,7 +13987,6 @@ _embedded:
                 href: /projects/ahfc-integration/
               languages:
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -14489,7 +14007,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -14511,7 +14028,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -14533,6 +14049,7 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/rb/
+                - href: /languages/sql/
               db:
                 - href: /db/postgres/
               os:
@@ -14555,7 +14072,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -14578,7 +14094,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               tools:
@@ -14597,7 +14112,6 @@ _embedded:
               self:
                 href: /projects/consumption-views/
               languages:
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -14620,7 +14134,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -14652,7 +14165,6 @@ _embedded:
                 href: /projects/database-sync-awwu/
               languages:
                 - href: /languages/cs/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -14693,7 +14205,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -14784,6 +14295,7 @@ _embedded:
                 href: /projects/awwu-job-scheduler/
               languages:
                 - href: /languages/cs/
+                - href: /languages/sql/
               db:
                 - href: /db/oracle/
               os:
@@ -14800,7 +14312,6 @@ _embedded:
                 href: /projects/awwu-systems-integration/
               languages:
                 - href: /languages/cs/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -14818,7 +14329,6 @@ _embedded:
               self:
                 href: /projects/employee-suggestions/
               languages:
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -14967,29 +14477,6 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
-          - title: PL/SQL
-            desc: PL/SQL (Procedural Language/Structured Query Language) is a procedural
-              language used in Oracle databases. It is a combination of SQL and
-              procedural programming language, allowing developers to write code
-              to manipulate data in an Oracle database. PL/SQL code can be used
-              to create stored procedures, functions, packages, and triggers, as
-              well as to execute SQL statements. PL/SQL is a powerful language
-              that allows developers to create complex applications and to
-              interact with the Oracle database.
-            used_begin_year: 2005
-            used_end_year: 2009
-            _links:
-              self:
-                href: /languages/plsql/
-              projects:
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/employee-suggestions/
-                - href: /projects/somd/
-              jobs:
-                - href: /jobs/rdi/
           - title: Python
             desc: Python is a high-level, interpreted, general-purpose programming language.
               It is an easy-to-learn, powerful language that is used for web
@@ -15056,6 +14543,7 @@ _embedded:
                 - href: /projects/agdc/
                 - href: /projects/ahfc-integration/
                 - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
                 - href: /projects/awwu-systems-integration/
                 - href: /projects/cis-data-capture/
                 - href: /projects/consumption-views/
@@ -15066,6 +14554,7 @@ _embedded:
                 - href: /projects/please/
                 - href: /projects/qb/
                 - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/somd/
@@ -15076,29 +14565,6 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/mas/
-                - href: /jobs/rdi/
-          - title: Transact-SQL
-            desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
-              with relational databases. It is a set-based, declarative
-              programming language used to query, modify, and manage data in
-              Microsoft SQL Server. T-SQL is used to create and modify database
-              objects such as tables, views, stored procedures, and triggers. It
-              also provides control of transactions and error handling. T-SQL is
-              a powerful language that allows developers to write complex
-              queries and stored procedures to access and manipulate data.
-            used_begin_year: 2010
-            used_end_year: 2014
-            _links:
-              self:
-                href: /languages/tsql/
-              projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/qb/
-                - href: /projects/scrum-tools/
-                - href: /projects/systems-portal/
-              jobs:
                 - href: /jobs/rdi/
         db:
           - title: Access
@@ -15550,6 +15016,7 @@ _embedded:
                 - href: /projects/agdc/
                 - href: /projects/ahfc-integration/
                 - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
                 - href: /projects/awwu-systems-integration/
                 - href: /projects/cis-data-capture/
                 - href: /projects/consumption-views/
@@ -15560,6 +15027,7 @@ _embedded:
                 - href: /projects/please/
                 - href: /projects/qb/
                 - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/somd/

@@ -13,7 +13,6 @@ _links:
     - href: /languages/html/
     - href: /languages/js/
     - href: /languages/sql/
-    - href: /languages/tsql/
   db:
     - href: /db/sql-server/
   os:
@@ -164,6 +163,7 @@ _embedded:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
           - href: /projects/awwu-intranet/
+          - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
           - href: /projects/cis-data-capture/
           - href: /projects/consumption-views/
@@ -174,6 +174,7 @@ _embedded:
           - href: /projects/please/
           - href: /projects/qb/
           - href: /projects/sar-reports/
+          - href: /projects/scramble-score/
           - href: /projects/scrum-tools/
           - href: /projects/sif-agent/
           - href: /projects/somd/
@@ -184,29 +185,6 @@ _embedded:
         jobs:
           - href: /jobs/freelance/
           - href: /jobs/mas/
-          - href: /jobs/rdi/
-    - title: Transact-SQL
-      desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
-        with relational databases. It is a set-based, declarative programming
-        language used to query, modify, and manage data in Microsoft SQL Server.
-        T-SQL is used to create and modify database objects such as tables,
-        views, stored procedures, and triggers. It also provides control of
-        transactions and error handling. T-SQL is a powerful language that
-        allows developers to write complex queries and stored procedures to
-        access and manipulate data.
-      used_begin_year: 2010
-      used_end_year: 2014
-      _links:
-        self:
-          href: /languages/tsql/
-        projects:
-          - href: /projects/agdc/
-          - href: /projects/ahfc-integration/
-          - href: /projects/energy-efficiency-map/
-          - href: /projects/qb/
-          - href: /projects/scrum-tools/
-          - href: /projects/systems-portal/
-        jobs:
           - href: /jobs/rdi/
   db:
     - title: SQL Server
@@ -327,11 +305,9 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
-          - href: /languages/plsql/
           - href: /languages/py/
           - href: /languages/rb/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/access/
           - href: /db/oracle/
