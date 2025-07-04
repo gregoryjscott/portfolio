@@ -14,17 +14,9 @@ _links:
   self:
     href: /languages/sql/
   projects:
-    - href: /projects/awwu-intranet/
-    - href: /projects/awwu-systems-integration/
-    - href: /projects/cis-data-capture/
-    - href: /projects/consumption-views/
-    - href: /projects/database-sync-awwu/
     - href: /projects/denver-schedules-api/
-    - href: /projects/employee-suggestions/
     - href: /projects/please/
-    - href: /projects/sar-reports/
     - href: /projects/sif-agent/
-    - href: /projects/somd/
     - href: /projects/wengage-acct/
     - href: /projects/wengage-si/
   jobs:

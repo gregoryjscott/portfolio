@@ -9,7 +9,7 @@ _links:
     href: /projects/sar-reports/
   languages:
     - href: /languages/cs/
-    - href: /languages/sql/
+    - href: /languages/plsql/
   db:
     - href: /db/oracle/
   os:
