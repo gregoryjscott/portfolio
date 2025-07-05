@@ -1,6 +1,6 @@
 layout: list
 title: Databases
-desc: List of databases.
+desc: Databases behind my applications, starting with the most recent.
 _links:
   self:
     href: /db/
@@ -44,8 +44,8 @@ _embedded:
             desc: React Native app built using AI and state machines for learning Spanish or
               English.
             role: Author
-            begin_year: 2024
-            end_year: null
+            begin_year: 2023
+            end_year: present
             _links:
               self:
                 href: /projects/nuggets/
@@ -58,8 +58,10 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/iam/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -123,6 +125,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -165,11 +168,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -219,6 +224,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Firebase
       desc: Firebase’s Realtime Database is a cloud-hosted, NoSQL JSON data store that
@@ -299,6 +305,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: BigQuery
       desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
@@ -352,6 +359,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -393,6 +401,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Postgres
       desc: Postgres is an open source object-relational database management system
@@ -438,8 +447,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: ScrambleScore
@@ -457,12 +464,11 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/rb/
+                - href: /languages/sql/
               db:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
         jobs:
@@ -505,11 +511,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -561,11 +569,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -616,6 +622,7 @@ _embedded:
               db:
                 - href: /db/sqlite/
               os:
+                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
@@ -660,11 +667,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -719,7 +724,6 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -736,7 +740,6 @@ _embedded:
                 href: /projects/ahfc-integration/
               languages:
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -757,7 +760,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -779,7 +781,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -800,7 +801,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -823,7 +823,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               tools:
@@ -891,11 +890,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -947,7 +944,6 @@ _embedded:
               self:
                 href: /projects/consumption-views/
               languages:
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -970,7 +966,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -988,7 +983,6 @@ _embedded:
                 href: /projects/database-sync-awwu/
               languages:
                 - href: /languages/cs/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -1010,7 +1004,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -1065,6 +1058,7 @@ _embedded:
                 href: /projects/awwu-job-scheduler/
               languages:
                 - href: /languages/cs/
+                - href: /languages/sql/
               db:
                 - href: /db/oracle/
               os:
@@ -1081,7 +1075,6 @@ _embedded:
                 href: /projects/awwu-systems-integration/
               languages:
                 - href: /languages/cs/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -1099,7 +1092,6 @@ _embedded:
               self:
                 href: /projects/employee-suggestions/
               languages:
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -1148,11 +1140,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -1262,11 +1252,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/

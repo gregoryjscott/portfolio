@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Projects
-desc: List of projects.
+desc: "Projects I've developed, starting with the most recent."
 _links:
   self:
     href: /projects/

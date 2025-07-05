@@ -1,7 +1,9 @@
 ---
 layout: list
 title: Tools
-desc: List of tools.
+desc: >-
+  Tools and technologies used to build my software, starting with the most
+  recent.
 _links:
   self:
     href: /tools/
@@ -14,6 +16,7 @@ _links:
     - href: /tools/ec2/
     - href: /tools/ecr/
     - href: /tools/ecs/
+    - href: /tools/expo/
     - href: /tools/fargate/
     - href: /tools/firebase/
     - href: /tools/hal/

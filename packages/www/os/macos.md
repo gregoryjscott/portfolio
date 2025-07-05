@@ -11,7 +11,7 @@ desc: >-
   third-party applications via the Mac App Store and developer tools such as
   Xcode, making it a popular choice for both creative professionals and everyday
   users.
-used_begin_year: 2010
+used_begin_year: 2012
 used_end_year: present
 _links:
   self:
@@ -19,15 +19,15 @@ _links:
   projects:
     - href: /projects/aprender/
     - href: /projects/centroid/
-    - href: /projects/denver-schedules-api/
+    - href: /projects/epicloud/
     - href: /projects/jekyll-api/
     - href: /projects/jekyll-embed/
     - href: /projects/jekyll-load/
     - href: /projects/jekyll-prep/
-    - href: /projects/scramble-score/
-    - href: /projects/simpler/
+    - href: /projects/please/
     - href: /projects/this-site/
   jobs:
+    - href: /jobs/fe/
     - href: /jobs/freelance/
     - href: /jobs/rdi/
 ---

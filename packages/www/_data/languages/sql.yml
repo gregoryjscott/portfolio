@@ -15,6 +15,7 @@ _links:
     - href: /projects/agdc/
     - href: /projects/ahfc-integration/
     - href: /projects/awwu-intranet/
+    - href: /projects/awwu-job-scheduler/
     - href: /projects/awwu-systems-integration/
     - href: /projects/cis-data-capture/
     - href: /projects/consumption-views/
@@ -25,6 +26,7 @@ _links:
     - href: /projects/please/
     - href: /projects/qb/
     - href: /projects/sar-reports/
+    - href: /projects/scramble-score/
     - href: /projects/scrum-tools/
     - href: /projects/sif-agent/
     - href: /projects/somd/
@@ -58,8 +60,6 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/linux/
-          - href: /os/macos/
-          - href: /os/windows/
         jobs:
           - href: /jobs/freelance/
     - title: Alaska Gasline Development Corporation
@@ -79,7 +79,6 @@ _embedded:
           - href: /languages/py/
           - href: /languages/rb/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/sql-server/
         os:
@@ -104,6 +103,7 @@ _embedded:
         db:
           - href: /db/sqlite/
         os:
+          - href: /os/macos/
           - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
@@ -117,7 +117,6 @@ _embedded:
           href: /projects/ahfc-integration/
         languages:
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/sql-server/
         os:
@@ -138,7 +137,6 @@ _embedded:
           - href: /languages/html/
           - href: /languages/js/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/sql-server/
         os:
@@ -160,11 +158,32 @@ _embedded:
           - href: /languages/html/
           - href: /languages/js/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
+    - title: ScrambleScore
+      desc: Mobile web application that allows golfers participating in scramble golf
+        tournaments to record their scores and monitor the tournament
+        leaderboard.
+      role: Project Manager
+      begin_year: 2012
+      end_year: 2013
+      _links:
+        self:
+          href: /projects/scramble-score/
+        languages:
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/rb/
+          - href: /languages/sql/
+        db:
+          - href: /db/postgres/
+        os:
+          - href: /os/linux/
         jobs:
           - href: /jobs/rdi/
     - title: Scrum Tools
@@ -181,7 +200,6 @@ _embedded:
           - href: /languages/html/
           - href: /languages/js/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/sql-server/
         os:
@@ -204,7 +222,6 @@ _embedded:
           - href: /languages/html/
           - href: /languages/js/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/sql-server/
         tools:
@@ -223,7 +240,6 @@ _embedded:
         self:
           href: /projects/consumption-views/
         languages:
-          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -246,7 +262,6 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
-          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -264,7 +279,6 @@ _embedded:
           href: /projects/database-sync-awwu/
         languages:
           - href: /languages/cs/
-          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -286,7 +300,6 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
-          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -347,6 +360,24 @@ _embedded:
           - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
+    - title: AWWU Job Scheduler
+      desc: Framework for creating background processing jobs that migrate,
+        synchronize, and transform data throughout AWWU's integrated systems.
+      role: Technical Lead
+      begin_year: 2005
+      end_year: 2006
+      _links:
+        self:
+          href: /projects/awwu-job-scheduler/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/rdi/
     - title: AWWU Systems Integration
       desc: null
       role: Technical Lead
@@ -357,7 +388,6 @@ _embedded:
           href: /projects/awwu-systems-integration/
         languages:
           - href: /languages/cs/
-          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -375,7 +405,6 @@ _embedded:
         self:
           href: /projects/employee-suggestions/
         languages:
-          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -483,11 +512,13 @@ _embedded:
           - href: /tools/ec2/
           - href: /tools/ecr/
           - href: /tools/ecs/
+          - href: /tools/expo/
           - href: /tools/fargate/
           - href: /tools/hal/
           - href: /tools/heroku/
           - href: /tools/iam/
           - href: /tools/jekyll/
+          - href: /tools/node/
           - href: /tools/react-native/
           - href: /tools/s3/
           - href: /tools/sqs/
@@ -539,11 +570,9 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
-          - href: /languages/plsql/
           - href: /languages/py/
           - href: /languages/rb/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/access/
           - href: /db/oracle/

@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Operating Systems
-desc: List of operating systems.
+desc: "Operating systems running my programs, starting with the most recent."
 _links:
   self:
     href: /os/

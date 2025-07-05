@@ -40,11 +40,9 @@ _links:
     - href: /languages/css/
     - href: /languages/html/
     - href: /languages/js/
-    - href: /languages/plsql/
     - href: /languages/py/
     - href: /languages/rb/
     - href: /languages/sql/
-    - href: /languages/tsql/
   db:
     - href: /db/access/
     - href: /db/oracle/

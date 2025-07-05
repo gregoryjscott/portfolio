@@ -17,6 +17,7 @@ _links:
     - href: /projects/agdc/
     - href: /projects/ahfc-integration/
     - href: /projects/awwu-intranet/
+    - href: /projects/awwu-job-scheduler/
     - href: /projects/awwu-systems-integration/
     - href: /projects/cis-data-capture/
     - href: /projects/consumption-views/
@@ -27,6 +28,7 @@ _links:
     - href: /projects/please/
     - href: /projects/qb/
     - href: /projects/sar-reports/
+    - href: /projects/scramble-score/
     - href: /projects/scrum-tools/
     - href: /projects/sif-agent/
     - href: /projects/somd/

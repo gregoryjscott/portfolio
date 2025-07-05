@@ -87,8 +87,8 @@ _embedded:
       desc: React Native app built using AI and state machines for learning Spanish or
         English.
       role: Author
-      begin_year: 2024
-      end_year: null
+      begin_year: 2023
+      end_year: present
       _links:
         self:
           href: /projects/nuggets/
@@ -101,8 +101,10 @@ _embedded:
           - href: /tools/ec2/
           - href: /tools/ecr/
           - href: /tools/ecs/
+          - href: /tools/expo/
           - href: /tools/fargate/
           - href: /tools/iam/
+          - href: /tools/node/
           - href: /tools/react-native/
           - href: /tools/s3/
           - href: /tools/sqs/
@@ -172,7 +174,7 @@ _embedded:
               hosting, CI/CD and environment management streamline the
               application lifecycle so teams can focus on features instead of
               infrastructure.
-            used_begin_year: 2024
+            used_begin_year: 2023
             used_end_year: present
             _links:
               self:
@@ -241,6 +243,31 @@ _embedded:
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
+          - title: Expo
+            desc: Expo is an open-source platform and toolchain built around React Native
+              that lets developers write modern JavaScript or TypeScript to
+              produce fully native iOS, Android and web apps without configuring
+              Xcode or Android Studio. It provides a comprehensive SDK of
+              prebuilt, cross-platform APIs (camera, sensors, notifications,
+              maps, file system, etc.), a command-line interface for project
+              scaffolding and local testing, and cloud services for building
+              binaries, over-the-air updates, push-notification delivery and app
+              store publishing. By abstracting away much of the native
+              configuration—while still allowing “ejecting” to integrate custom
+              native modules—Expo accelerates development, simplifies
+              maintenance and lowers the barrier to entry for mobile-first
+              teams.
+            begin_year: 2023
+            end_year: present
+            used_begin_year: 2023
+            used_end_year: present
+            _links:
+              self:
+                href: /tools/expo/
+              projects:
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
           - title: Fargate
             desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
               deploy and manage containers without having to manage the
@@ -281,6 +308,25 @@ _embedded:
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/freelance/
+          - title: Node
+            desc: Node.js is an open-source, cross-platform JavaScript runtime environment
+              that executes JavaScript code outside of a browser. It is used to
+              create server-side and networking applications. Node.js
+              applications are written in JavaScript and can be run within the
+              Node.js runtime on OS X, Microsoft Windows, and Linux. Node.js
+              also provides a rich library of various JavaScript modules which
+              simplifies the development of web applications using Node.js.
+            used_begin_year: 2015
+            used_end_year: present
+            _links:
+              self:
+                href: /tools/node/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/freelance/
           - title: React Native
             desc: React Native is an open-source framework developed by Facebook that
               enables developers to build mobile apps for iOS and Android using
@@ -297,7 +343,7 @@ _embedded:
               sharing logic and UI components across platforms, React Native
               significantly reduces development time and maintenance overhead
               compared to traditional native app development.
-            used_begin_year: 2024
+            used_begin_year: 2023
             used_end_year: present
             _links:
               self:
@@ -379,7 +425,7 @@ _embedded:
               integrations for React, Vue, Angular, and Node.js, XState delivers
               predictable, testable, and maintainable state management for
               complex synchronous and asynchronous workflows.
-            used_begin_year: 2024
+            used_begin_year: 2023
             used_end_year: present
             _links:
               self:
@@ -399,7 +445,7 @@ _embedded:
               third-party app stores or through online stores such as Google
               Play. Android has been the best-selling OS on tablets since 2013,
               and on smartphones it is dominant by any metric.
-            used_begin_year: 2024
+            used_begin_year: 2023
             used_end_year: present
             _links:
               self:
@@ -418,7 +464,7 @@ _embedded:
               notification center, and access to the App Store for downloading
               apps. iOS also includes features such as iCloud, AirPlay, and
               Apple Pay.
-            used_begin_year: 2024
+            used_begin_year: 2023
             used_end_year: present
             _links:
               self:
@@ -435,7 +481,7 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -452,7 +498,6 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
                 - href: /projects/scramble-score/
-                - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
@@ -498,11 +543,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -546,6 +593,7 @@ _embedded:
           - href: /tools/vpc/
         os:
           - href: /os/linux/
+          - href: /os/macos/
         jobs:
           - href: /jobs/fe/
       _embedded:
@@ -789,14 +837,16 @@ _embedded:
               also provides a rich library of various JavaScript modules which
               simplifies the development of web applications using Node.js.
             used_begin_year: 2015
-            used_end_year: 2021
+            used_end_year: present
             _links:
               self:
                 href: /tools/node/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
+                - href: /jobs/freelance/
           - title: Puppeteer
             desc: Puppeteer is a Node library developed by Google that provides a high-level
               API to control headless Chrome or Chromium over the DevTools
@@ -905,7 +955,7 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -922,7 +972,37 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
                 - href: /projects/scramble-score/
-                - href: /projects/simpler/
+                - href: /projects/this-site/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/freelance/
+                - href: /jobs/rdi/
+          - title: macOS
+            desc: macOS is Apple’s Unix‐based desktop operating system, first released in
+              2001 as Mac OS X and built on the open‐source Darwin core and the
+              proprietary XNU kernel. Designed exclusively for Mac computers, it
+              combines a polished Aqua graphical interface with deep integration
+              of hardware and software, offering features like Spotlight search,
+              Time Machine backups, and Continuity for seamless work across
+              Apple devices. With strong emphasis on stability, security and
+              performance, macOS supports a rich ecosystem of native and
+              third-party applications via the Mac App Store and developer tools
+              such as Xcode, making it a popular choice for both creative
+              professionals and everyday users.
+            used_begin_year: 2012
+            used_end_year: present
+            _links:
+              self:
+                href: /os/macos/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/centroid/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/please/
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
@@ -967,6 +1047,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Quality Bank
       subtitle: Invoicing $1 Billion/Month for Oil Pipeline
@@ -984,7 +1065,6 @@ _embedded:
           - href: /languages/html/
           - href: /languages/js/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/sql-server/
         tools:
@@ -1139,6 +1219,7 @@ _embedded:
                 - href: /projects/agdc/
                 - href: /projects/ahfc-integration/
                 - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
                 - href: /projects/awwu-systems-integration/
                 - href: /projects/cis-data-capture/
                 - href: /projects/consumption-views/
@@ -1149,6 +1230,7 @@ _embedded:
                 - href: /projects/please/
                 - href: /projects/qb/
                 - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/somd/
@@ -1159,29 +1241,6 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/mas/
-                - href: /jobs/rdi/
-          - title: Transact-SQL
-            desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
-              with relational databases. It is a set-based, declarative
-              programming language used to query, modify, and manage data in
-              Microsoft SQL Server. T-SQL is used to create and modify database
-              objects such as tables, views, stored procedures, and triggers. It
-              also provides control of transactions and error handling. T-SQL is
-              a powerful language that allows developers to write complex
-              queries and stored procedures to access and manipulate data.
-            used_begin_year: 2010
-            used_end_year: 2014
-            _links:
-              self:
-                href: /languages/tsql/
-              projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/qb/
-                - href: /projects/scrum-tools/
-                - href: /projects/systems-portal/
-              jobs:
                 - href: /jobs/rdi/
         db:
           - title: SQL Server
@@ -1261,7 +1320,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -1272,7 +1330,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -1329,11 +1386,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -1428,6 +1483,7 @@ _embedded:
                 - href: /projects/agdc/
                 - href: /projects/ahfc-integration/
                 - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
                 - href: /projects/awwu-systems-integration/
                 - href: /projects/cis-data-capture/
                 - href: /projects/consumption-views/
@@ -1438,6 +1494,7 @@ _embedded:
                 - href: /projects/please/
                 - href: /projects/qb/
                 - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/somd/
@@ -1501,7 +1558,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -1512,7 +1568,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -1764,6 +1819,7 @@ _embedded:
                 - href: /languages/cpp/
                 - href: /languages/fortran/
                 - href: /languages/pascal/
+                - href: /languages/ti-basic/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -1855,8 +1911,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: Alaska Gasline Development Corporation
@@ -1876,7 +1930,6 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -1901,6 +1954,7 @@ _embedded:
               db:
                 - href: /db/sqlite/
               os:
+                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
@@ -1918,7 +1972,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -1940,7 +1993,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -1961,7 +2013,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -1983,8 +2034,6 @@ _embedded:
                 - href: /languages/cs/
                 - href: /languages/rb/
               os:
-                - href: /os/linux/
-                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
@@ -2004,7 +2053,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               tools:
@@ -2046,7 +2094,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -2078,7 +2125,6 @@ _embedded:
                 href: /projects/database-sync-awwu/
               languages:
                 - href: /languages/cs/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -2119,7 +2165,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -2210,6 +2255,7 @@ _embedded:
                 href: /projects/awwu-job-scheduler/
               languages:
                 - href: /languages/cs/
+                - href: /languages/sql/
               db:
                 - href: /db/oracle/
               os:
@@ -2226,7 +2272,6 @@ _embedded:
                 href: /projects/awwu-systems-integration/
               languages:
                 - href: /languages/cs/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -2308,11 +2353,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -2364,11 +2411,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -2445,6 +2490,7 @@ _embedded:
                 - href: /languages/cpp/
                 - href: /languages/fortran/
                 - href: /languages/pascal/
+                - href: /languages/ti-basic/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -2543,7 +2589,6 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -2564,7 +2609,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -2586,7 +2630,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -2608,12 +2651,11 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/rb/
+                - href: /languages/sql/
               db:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Scrum Tools
@@ -2630,7 +2672,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -2653,7 +2694,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               tools:
@@ -2677,7 +2717,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -2699,7 +2738,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -2747,11 +2785,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -2803,11 +2843,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -2968,6 +3006,7 @@ _embedded:
                 - href: /languages/cpp/
                 - href: /languages/fortran/
                 - href: /languages/pascal/
+                - href: /languages/ti-basic/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -3065,7 +3104,6 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -3086,7 +3124,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -3108,7 +3145,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -3130,12 +3166,11 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/rb/
+                - href: /languages/sql/
               db:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Scrum Tools
@@ -3152,7 +3187,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -3175,7 +3209,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               tools:
@@ -3199,7 +3232,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -3221,7 +3253,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -3269,11 +3300,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -3325,11 +3358,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -3424,7 +3455,6 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -3445,7 +3475,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -3467,7 +3496,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -3489,12 +3517,11 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/rb/
+                - href: /languages/sql/
               db:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Scrum Tools
@@ -3511,7 +3538,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -3534,7 +3560,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               tools:
@@ -3558,7 +3583,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -3580,7 +3604,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -3628,11 +3651,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -3684,11 +3709,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -3740,6 +3763,7 @@ _embedded:
                 - href: /languages/cpp/
                 - href: /languages/fortran/
                 - href: /languages/pascal/
+                - href: /languages/ti-basic/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -3818,205 +3842,6 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
-                - href: /os/windows/
-    - title: PL/SQL
-      desc: PL/SQL (Procedural Language/Structured Query Language) is a procedural
-        language used in Oracle databases. It is a combination of SQL and
-        procedural programming language, allowing developers to write code to
-        manipulate data in an Oracle database. PL/SQL code can be used to create
-        stored procedures, functions, packages, and triggers, as well as to
-        execute SQL statements. PL/SQL is a powerful language that allows
-        developers to create complex applications and to interact with the
-        Oracle database.
-      used_begin_year: 2005
-      used_end_year: 2009
-      _links:
-        self:
-          href: /languages/plsql/
-        projects:
-          - href: /projects/awwu-intranet/
-          - href: /projects/awwu-systems-integration/
-          - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
-          - href: /projects/employee-suggestions/
-          - href: /projects/somd/
-        jobs:
-          - href: /jobs/rdi/
-      _embedded:
-        projects:
-          - title: Consumption Views
-            desc: Set of database views that provides water consumption information that
-              feed into reporting tools used by AWWU to make business decisions.
-            role: Lead Developer
-            begin_year: 2009
-            end_year: 2009
-            _links:
-              self:
-                href: /projects/consumption-views/
-              languages:
-                - href: /languages/plsql/
-                - href: /languages/sql/
-              db:
-                - href: /db/oracle/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-          - title: Service Order Mobile Dispatch
-            desc: Mobile web application that allows Anchorage Water & Wastewater Utility
-              service workers to query and record service information while in
-              the field.
-            role: Technical Lead
-            begin_year: 2009
-            end_year: 2009
-            _links:
-              self:
-                href: /projects/somd/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/plsql/
-                - href: /languages/sql/
-              db:
-                - href: /db/oracle/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-          - title: Database Synchronization (AWWU)
-            desc: null
-            role: Lead Developer
-            begin_year: 2008
-            end_year: 2008
-            _links:
-              self:
-                href: /projects/database-sync-awwu/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/plsql/
-                - href: /languages/sql/
-              db:
-                - href: /db/oracle/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-          - title: AWWU Intranet
-            desc: Web application that contains AWWU's reporting and querying tools, systems
-              status, and custom applications.
-            role: Technical Lead
-            begin_year: 2005
-            end_year: 2008
-            _links:
-              self:
-                href: /projects/awwu-intranet/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/plsql/
-                - href: /languages/sql/
-              db:
-                - href: /db/oracle/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-          - title: AWWU Systems Integration
-            desc: null
-            role: Technical Lead
-            begin_year: 2005
-            end_year: 2006
-            _links:
-              self:
-                href: /projects/awwu-systems-integration/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/plsql/
-                - href: /languages/sql/
-              db:
-                - href: /db/oracle/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-          - title: Employees Suggestion
-            desc: Oracle Forms application that allows AWWU employees to submit suggestions
-              for improving the AWWU workplace.
-            role: Lead Developer
-            begin_year: 2005
-            end_year: 2005
-            _links:
-              self:
-                href: /projects/employee-suggestions/
-              languages:
-                - href: /languages/plsql/
-                - href: /languages/sql/
-              db:
-                - href: /db/oracle/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-        jobs:
-          - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
-            role: Technical Lead
-            begin_year: 2005
-            end_year: 2014
-            time_desc: July 2005 - July 2014
-            _links:
-              self:
-                href: /jobs/rdi/
-              projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-job-scheduler/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/bit-proposal/
-                - href: /projects/centroid/
-                - href: /projects/cis-data-capture/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
-                - href: /projects/please/
-                - href: /projects/qb/
-                - href: /projects/report-engine/
-                - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
-                - href: /projects/scrum-tools/
-                - href: /projects/somd/
-                - href: /projects/systems-portal/
-                - href: /projects/train-builder/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/plsql/
-                - href: /languages/py/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/access/
-                - href: /db/oracle/
-                - href: /db/postgres/
-                - href: /db/sql-server/
-                - href: /db/sqlite/
-              tools:
-                - href: /tools/backbone/
-              os:
-                - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
     - title: Python
@@ -4078,7 +3903,6 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -4126,11 +3950,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -4258,8 +4080,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-api
@@ -4361,7 +4181,6 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -4386,6 +4205,7 @@ _embedded:
               db:
                 - href: /db/sqlite/
               os:
+                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
@@ -4404,12 +4224,11 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/rb/
+                - href: /languages/sql/
               db:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Simpler
@@ -4427,8 +4246,6 @@ _embedded:
                 - href: /languages/cs/
                 - href: /languages/rb/
               os:
-                - href: /os/linux/
-                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
@@ -4472,11 +4289,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -4528,11 +4347,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -4562,6 +4379,7 @@ _embedded:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
           - href: /projects/awwu-intranet/
+          - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
           - href: /projects/cis-data-capture/
           - href: /projects/consumption-views/
@@ -4572,6 +4390,7 @@ _embedded:
           - href: /projects/please/
           - href: /projects/qb/
           - href: /projects/sar-reports/
+          - href: /projects/scramble-score/
           - href: /projects/scrum-tools/
           - href: /projects/sif-agent/
           - href: /projects/somd/
@@ -4605,8 +4424,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: Alaska Gasline Development Corporation
@@ -4626,7 +4443,6 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -4651,6 +4467,7 @@ _embedded:
               db:
                 - href: /db/sqlite/
               os:
+                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
@@ -4664,7 +4481,6 @@ _embedded:
                 href: /projects/ahfc-integration/
               languages:
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -4685,7 +4501,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -4707,11 +4522,32 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
+          - title: ScrambleScore
+            desc: Mobile web application that allows golfers participating in scramble golf
+              tournaments to record their scores and monitor the tournament
+              leaderboard.
+            role: Project Manager
+            begin_year: 2012
+            end_year: 2013
+            _links:
+              self:
+                href: /projects/scramble-score/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+              db:
+                - href: /db/postgres/
+              os:
+                - href: /os/linux/
               jobs:
                 - href: /jobs/rdi/
           - title: Scrum Tools
@@ -4728,7 +4564,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -4751,7 +4586,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               tools:
@@ -4770,7 +4604,6 @@ _embedded:
               self:
                 href: /projects/consumption-views/
               languages:
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -4793,7 +4626,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -4811,7 +4643,6 @@ _embedded:
                 href: /projects/database-sync-awwu/
               languages:
                 - href: /languages/cs/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -4833,7 +4664,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -4894,6 +4724,25 @@ _embedded:
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
+          - title: AWWU Job Scheduler
+            desc: Framework for creating background processing jobs that migrate,
+              synchronize, and transform data throughout AWWU's integrated
+              systems.
+            role: Technical Lead
+            begin_year: 2005
+            end_year: 2006
+            _links:
+              self:
+                href: /projects/awwu-job-scheduler/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/sql/
+              db:
+                - href: /db/oracle/
+              os:
+                - href: /os/windows/
+              jobs:
+                - href: /jobs/rdi/
           - title: AWWU Systems Integration
             desc: null
             role: Technical Lead
@@ -4904,7 +4753,6 @@ _embedded:
                 href: /projects/awwu-systems-integration/
               languages:
                 - href: /languages/cs/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -4922,7 +4770,6 @@ _embedded:
               self:
                 href: /projects/employee-suggestions/
               languages:
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -5030,11 +4877,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -5086,11 +4935,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -5129,218 +4976,52 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
-    - title: Transact-SQL
-      desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
-        with relational databases. It is a set-based, declarative programming
-        language used to query, modify, and manage data in Microsoft SQL Server.
-        T-SQL is used to create and modify database objects such as tables,
-        views, stored procedures, and triggers. It also provides control of
-        transactions and error handling. T-SQL is a powerful language that
-        allows developers to write complex queries and stored procedures to
-        access and manipulate data.
-      used_begin_year: 2010
-      used_end_year: 2014
+    - title: TI-BASIC
+      desc: TI-BASIC is the built-in, interpreted programming language used on Texas
+        Instruments graphing calculators. It features a token‐based syntax
+        resembling BASIC, with commands for arithmetic, control structures
+        (If/Then, For, While), list and matrix operations, and direct access to
+        the calculator’s display, menus, and graphing features. Although it’s
+        easy to learn and deploy—making it popular among students for custom
+        routines and games—its execution speed and memory are limited compared
+        to compiled or desktop languages, so programmers often optimize code by
+        minimizing loops, using built-in functions, or writing critical routines
+        in assembly.
+      used_begin_year: 1994
+      used_end_year: 1998
       _links:
         self:
-          href: /languages/tsql/
-        projects:
-          - href: /projects/agdc/
-          - href: /projects/ahfc-integration/
-          - href: /projects/energy-efficiency-map/
-          - href: /projects/qb/
-          - href: /projects/scrum-tools/
-          - href: /projects/systems-portal/
-        jobs:
-          - href: /jobs/rdi/
+          href: /languages/ti-basic/
+        schools:
+          - href: /schools/uco/
       _embedded:
-        projects:
-          - title: Alaska Gasline Development Corporation
-            desc: Web application that provides AGDC with documentation, reporting, and
-              querying tools for their vast GIS data and infrastructure.
-            role: Technical Lead
-            begin_year: 2013
-            end_year: 2014
+        schools:
+          - title: University of Central Oklahoma
+            subtitle: Bachelor of Science in Mathematics, 1998
+            desc: The University of Central Oklahoma (UCO), located in Edmond, Oklahoma, is
+              a public university known for its strong emphasis on
+              transformative learning and leadership development. As one of the
+              state's oldest institutions of higher education, UCO offers a
+              diverse range of undergraduate and graduate programs across fields
+              such as business, education, liberal arts, and the sciences. The
+              university fosters a student-centered environment focused on
+              academic excellence, community engagement, and real-world
+              experience.
+            begin_year: 1994
+            end_year: 1998
             _links:
               self:
-                href: /projects/agdc/
+                href: /schools/uco/
               languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/py/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/sql-server/
+                - href: /languages/c/
+                - href: /languages/cpp/
+                - href: /languages/fortran/
+                - href: /languages/pascal/
+                - href: /languages/ti-basic/
+                - href: /languages/vb/
               os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-          - title: AHFC Integration
-            desc: Alaska Housing Finance Corporation Integration
-            role: Technical Lead
-            begin_year: 2013
-            end_year: 2013
-            _links:
-              self:
-                href: /projects/ahfc-integration/
-              languages:
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/sql-server/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-          - title: Systems Portal
-            desc: Web application for tracking data used by systems administrators.
-            role: Technical Lead
-            begin_year: 2013
-            end_year: 2013
-            _links:
-              self:
-                href: /projects/systems-portal/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/sql-server/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-          - title: Energy Efficiency Map
-            desc: Web application that allows the Alaska Energy Authority to monitor and
-              administer data from their statewide energy saving programs.
-            role: Technical Lead
-            begin_year: 2012
-            end_year: 2013
-            _links:
-              self:
-                href: /projects/energy-efficiency-map/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/sql-server/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-          - title: Scrum Tools
-            desc: null
-            role: Technical Lead
-            begin_year: 2012
-            end_year: 2013
-            _links:
-              self:
-                href: /projects/scrum-tools/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/sql-server/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-          - title: Quality Bank
-            subtitle: Invoicing $1 Billion/Month for Oil Pipeline
-            desc: Web application that manages the workflow, pricing data, sampling data,
-              volume data, and invoicing for the Trans-Alaska Pipeline System.
-            role: Technical Lead
-            begin_year: 2010
-            end_year: 2012
-            _links:
-              self:
-                href: /projects/qb/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/sql-server/
-              tools:
-                - href: /tools/backbone/
-              os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-        jobs:
-          - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
-            role: Technical Lead
-            begin_year: 2005
-            end_year: 2014
-            time_desc: July 2005 - July 2014
-            _links:
-              self:
-                href: /jobs/rdi/
-              projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-job-scheduler/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/bit-proposal/
-                - href: /projects/centroid/
-                - href: /projects/cis-data-capture/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/employee-suggestions/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
-                - href: /projects/please/
-                - href: /projects/qb/
-                - href: /projects/report-engine/
-                - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
-                - href: /projects/scrum-tools/
-                - href: /projects/somd/
-                - href: /projects/systems-portal/
-                - href: /projects/train-builder/
-              languages:
-                - href: /languages/cs/
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/plsql/
-                - href: /languages/py/
-                - href: /languages/rb/
-                - href: /languages/sql/
-                - href: /languages/tsql/
-              db:
-                - href: /db/access/
-                - href: /db/oracle/
-                - href: /db/postgres/
-                - href: /db/sql-server/
-                - href: /db/sqlite/
-              tools:
-                - href: /tools/backbone/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
+                - href: /os/aix/
+                - href: /os/ms-dos/
                 - href: /os/windows/
     - title: Typescript
       desc: Typescript is a typed superset of JavaScript that compiles to plain
@@ -5369,8 +5050,8 @@ _embedded:
             desc: React Native app built using AI and state machines for learning Spanish or
               English.
             role: Author
-            begin_year: 2024
-            end_year: null
+            begin_year: 2023
+            end_year: present
             _links:
               self:
                 href: /projects/nuggets/
@@ -5383,8 +5064,10 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/iam/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -5453,6 +5136,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -5495,11 +5179,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -5549,6 +5235,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Visual Basic
       desc: Visual Basic is a high-level, object-oriented programming language
@@ -5588,6 +5275,7 @@ _embedded:
                 - href: /languages/cpp/
                 - href: /languages/fortran/
                 - href: /languages/pascal/
+                - href: /languages/ti-basic/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -5691,11 +5379,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -5760,6 +5446,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -5801,6 +5488,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Btrieve
       desc: Btrieve is a database management system (DBMS) developed by Pervasive
@@ -5938,8 +5626,8 @@ _embedded:
             desc: React Native app built using AI and state machines for learning Spanish or
               English.
             role: Author
-            begin_year: 2024
-            end_year: null
+            begin_year: 2023
+            end_year: present
             _links:
               self:
                 href: /projects/nuggets/
@@ -5952,8 +5640,10 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/iam/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -6017,6 +5707,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -6059,11 +5750,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -6113,6 +5806,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Firebase
       desc: Firebase’s Realtime Database is a cloud-hosted, NoSQL JSON data store that
@@ -6193,6 +5887,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Oracle
       desc: Oracle Database is a relational database management system (RDBMS)
@@ -6233,7 +5928,6 @@ _embedded:
               self:
                 href: /projects/consumption-views/
               languages:
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -6256,7 +5950,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -6274,7 +5967,6 @@ _embedded:
                 href: /projects/database-sync-awwu/
               languages:
                 - href: /languages/cs/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -6296,7 +5988,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -6351,6 +6042,7 @@ _embedded:
                 href: /projects/awwu-job-scheduler/
               languages:
                 - href: /languages/cs/
+                - href: /languages/sql/
               db:
                 - href: /db/oracle/
               os:
@@ -6367,7 +6059,6 @@ _embedded:
                 href: /projects/awwu-systems-integration/
               languages:
                 - href: /languages/cs/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -6385,7 +6076,6 @@ _embedded:
               self:
                 href: /projects/employee-suggestions/
               languages:
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -6434,11 +6124,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -6625,8 +6313,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: ScrambleScore
@@ -6644,12 +6330,11 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/rb/
+                - href: /languages/sql/
               db:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
         jobs:
@@ -6692,11 +6377,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -6748,11 +6435,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -6807,7 +6492,6 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -6824,7 +6508,6 @@ _embedded:
                 href: /projects/ahfc-integration/
               languages:
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -6845,7 +6528,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -6867,7 +6549,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -6888,7 +6569,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -6911,7 +6591,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               tools:
@@ -6979,11 +6658,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -7034,6 +6711,7 @@ _embedded:
               db:
                 - href: /db/sqlite/
               os:
+                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
@@ -7078,11 +6756,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -7107,7 +6783,7 @@ _embedded:
         development environment for designing UI and data models, while built-in
         hosting, CI/CD and environment management streamline the application
         lifecycle so teams can focus on features instead of infrastructure.
-      used_begin_year: 2024
+      used_begin_year: 2023
       used_end_year: present
       _links:
         self:
@@ -7124,8 +6800,8 @@ _embedded:
             desc: React Native app built using AI and state machines for learning Spanish or
               English.
             role: Author
-            begin_year: 2024
-            end_year: null
+            begin_year: 2023
+            end_year: present
             _links:
               self:
                 href: /projects/nuggets/
@@ -7138,8 +6814,10 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/iam/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -7211,11 +6889,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -7268,7 +6948,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               tools:
@@ -7318,11 +6997,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -7385,6 +7062,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -7426,6 +7104,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: EC2
       desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
@@ -7453,8 +7132,8 @@ _embedded:
             desc: React Native app built using AI and state machines for learning Spanish or
               English.
             role: Author
-            begin_year: 2024
-            end_year: null
+            begin_year: 2023
+            end_year: present
             _links:
               self:
                 href: /projects/nuggets/
@@ -7467,8 +7146,10 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/iam/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -7512,6 +7193,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -7554,11 +7236,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -7608,6 +7292,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: ECR
       desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
@@ -7635,8 +7320,8 @@ _embedded:
             desc: React Native app built using AI and state machines for learning Spanish or
               English.
             role: Author
-            begin_year: 2024
-            end_year: null
+            begin_year: 2023
+            end_year: present
             _links:
               self:
                 href: /projects/nuggets/
@@ -7649,8 +7334,10 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/iam/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -7694,6 +7381,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -7736,11 +7424,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -7790,6 +7480,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: ECS
       desc: Amazon Elastic Container Service (ECS) is a container orchestration
@@ -7817,8 +7508,8 @@ _embedded:
             desc: React Native app built using AI and state machines for learning Spanish or
               English.
             role: Author
-            begin_year: 2024
-            end_year: null
+            begin_year: 2023
+            end_year: present
             _links:
               self:
                 href: /projects/nuggets/
@@ -7831,8 +7522,10 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/iam/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -7876,6 +7569,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -7918,11 +7612,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -7972,6 +7668,124 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
+    - title: Expo
+      desc: Expo is an open-source platform and toolchain built around React Native
+        that lets developers write modern JavaScript or TypeScript to produce
+        fully native iOS, Android and web apps without configuring Xcode or
+        Android Studio. It provides a comprehensive SDK of prebuilt,
+        cross-platform APIs (camera, sensors, notifications, maps, file system,
+        etc.), a command-line interface for project scaffolding and local
+        testing, and cloud services for building binaries, over-the-air updates,
+        push-notification delivery and app store publishing. By abstracting away
+        much of the native configuration—while still allowing “ejecting” to
+        integrate custom native modules—Expo accelerates development, simplifies
+        maintenance and lowers the barrier to entry for mobile-first teams.
+      begin_year: 2023
+      end_year: present
+      used_begin_year: 2023
+      used_end_year: present
+      _links:
+        self:
+          href: /tools/expo/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2023
+            end_year: present
+            _links:
+              self:
+                href: /projects/nuggets/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/expo/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: present
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/nuggets/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+                - href: /db/postgres/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/expo/
+                - href: /tools/fargate/
+                - href: /tools/hal/
+                - href: /tools/heroku/
+                - href: /tools/iam/
+                - href: /tools/jekyll/
+                - href: /tools/node/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Fargate
       desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
@@ -7999,8 +7813,8 @@ _embedded:
             desc: React Native app built using AI and state machines for learning Spanish or
               English.
             role: Author
-            begin_year: 2024
-            end_year: null
+            begin_year: 2023
+            end_year: present
             _links:
               self:
                 href: /projects/nuggets/
@@ -8013,8 +7827,10 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/iam/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -8058,6 +7874,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -8100,11 +7917,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -8154,6 +7973,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Firebase
       desc: Google Firebase is a mobile and web application development platform that
@@ -8206,6 +8026,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -8247,6 +8068,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Google Classroom
       desc: Google Classroom is a free web-based platform that allows teachers to
@@ -8299,6 +8121,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -8340,6 +8163,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Google Drive
       desc: Google Drive is a cloud storage service that allows users to store and
@@ -8393,6 +8217,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -8434,6 +8259,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: HAL
       subtitle: Hypertext Application Language (HAL) is a a media type for
@@ -8547,11 +8373,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -8643,11 +8471,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -8685,8 +8515,8 @@ _embedded:
             desc: React Native app built using AI and state machines for learning Spanish or
               English.
             role: Author
-            begin_year: 2024
-            end_year: null
+            begin_year: 2023
+            end_year: present
             _links:
               self:
                 href: /projects/nuggets/
@@ -8699,8 +8529,10 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/iam/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -8744,6 +8576,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -8786,11 +8619,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -8840,6 +8675,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Jekyll
       desc: Jekyll is an open-source, Ruby-based static site generator that transforms
@@ -9031,11 +8867,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -9056,16 +8894,52 @@ _embedded:
         various JavaScript modules which simplifies the development of web
         applications using Node.js.
       used_begin_year: 2015
-      used_end_year: 2021
+      used_end_year: present
       _links:
         self:
           href: /tools/node/
         projects:
           - href: /projects/epicloud/
+          - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
       _embedded:
         projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2023
+            end_year: present
+            _links:
+              self:
+                href: /projects/nuggets/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/expo/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
           - title: EpiCloud
             subtitle: Infinitely Scaling Bots on AWS
             desc: null
@@ -9098,9 +8972,67 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: present
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/nuggets/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+                - href: /db/postgres/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/expo/
+                - href: /tools/fargate/
+                - href: /tools/hal/
+                - href: /tools/heroku/
+                - href: /tools/iam/
+                - href: /tools/jekyll/
+                - href: /tools/node/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
           - title: Futuristic Education
             desc: Co-Founder/Programmer of Futuristic Education, building custom technology
               for schools and educators
@@ -9139,6 +9071,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: Puppeteer
       desc: Puppeteer is a Node library developed by Google that provides a high-level
@@ -9191,6 +9124,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -9232,6 +9166,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: React Native
       desc: React Native is an open-source framework developed by Facebook that
@@ -9248,7 +9183,7 @@ _embedded:
         platform-specific code. By sharing logic and UI components across
         platforms, React Native significantly reduces development time and
         maintenance overhead compared to traditional native app development.
-      used_begin_year: 2024
+      used_begin_year: 2023
       used_end_year: present
       _links:
         self:
@@ -9264,8 +9199,8 @@ _embedded:
             desc: React Native app built using AI and state machines for learning Spanish or
               English.
             role: Author
-            begin_year: 2024
-            end_year: null
+            begin_year: 2023
+            end_year: present
             _links:
               self:
                 href: /projects/nuggets/
@@ -9278,8 +9213,10 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/iam/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -9331,11 +9268,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -9373,8 +9312,8 @@ _embedded:
             desc: React Native app built using AI and state machines for learning Spanish or
               English.
             role: Author
-            begin_year: 2024
-            end_year: null
+            begin_year: 2023
+            end_year: present
             _links:
               self:
                 href: /projects/nuggets/
@@ -9387,8 +9326,10 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/iam/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -9432,6 +9373,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -9474,11 +9416,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -9528,6 +9472,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: SikuliX
       desc: SikuliX is an open-source GUI automation tool that uses image recognition
@@ -9581,6 +9526,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -9622,6 +9568,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: SQS
       desc: Amazon Simple Queue Service (SQS) is a fully managed message queuing
@@ -9651,8 +9598,8 @@ _embedded:
             desc: React Native app built using AI and state machines for learning Spanish or
               English.
             role: Author
-            begin_year: 2024
-            end_year: null
+            begin_year: 2023
+            end_year: present
             _links:
               self:
                 href: /projects/nuggets/
@@ -9665,8 +9612,10 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/iam/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -9710,6 +9659,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -9752,11 +9702,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -9806,6 +9758,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: VPC
       desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
@@ -9835,8 +9788,8 @@ _embedded:
             desc: React Native app built using AI and state machines for learning Spanish or
               English.
             role: Author
-            begin_year: 2024
-            end_year: null
+            begin_year: 2023
+            end_year: present
             _links:
               self:
                 href: /projects/nuggets/
@@ -9849,8 +9802,10 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/iam/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -9894,6 +9849,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -9936,11 +9892,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -9990,6 +9948,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
     - title: XState
       desc: XState is a JavaScript/TypeScript library for modeling application logic
@@ -10000,7 +9959,7 @@ _embedded:
         Vue, Angular, and Node.js, XState delivers predictable, testable, and
         maintainable state management for complex synchronous and asynchronous
         workflows.
-      used_begin_year: 2024
+      used_begin_year: 2023
       used_end_year: present
       _links:
         self:
@@ -10016,8 +9975,8 @@ _embedded:
             desc: React Native app built using AI and state machines for learning Spanish or
               English.
             role: Author
-            begin_year: 2024
-            end_year: null
+            begin_year: 2023
+            end_year: present
             _links:
               self:
                 href: /projects/nuggets/
@@ -10030,8 +9989,10 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/iam/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -10083,11 +10044,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -10139,6 +10102,7 @@ _embedded:
                 - href: /languages/cpp/
                 - href: /languages/fortran/
                 - href: /languages/pascal/
+                - href: /languages/ti-basic/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -10153,7 +10117,7 @@ _embedded:
         can be downloaded from third-party app stores or through online stores
         such as Google Play. Android has been the best-selling OS on tablets
         since 2013, and on smartphones it is dominant by any metric.
-      used_begin_year: 2024
+      used_begin_year: 2023
       used_end_year: present
       _links:
         self:
@@ -10169,8 +10133,8 @@ _embedded:
             desc: React Native app built using AI and state machines for learning Spanish or
               English.
             role: Author
-            begin_year: 2024
-            end_year: null
+            begin_year: 2023
+            end_year: present
             _links:
               self:
                 href: /projects/nuggets/
@@ -10183,8 +10147,10 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/iam/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -10236,11 +10202,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -10261,7 +10229,7 @@ _embedded:
         features such as a home screen with app icons, a notification center,
         and access to the App Store for downloading apps. iOS also includes
         features such as iCloud, AirPlay, and Apple Pay.
-      used_begin_year: 2024
+      used_begin_year: 2023
       used_end_year: present
       _links:
         self:
@@ -10277,8 +10245,8 @@ _embedded:
             desc: React Native app built using AI and state machines for learning Spanish or
               English.
             role: Author
-            begin_year: 2024
-            end_year: null
+            begin_year: 2023
+            end_year: present
             _links:
               self:
                 href: /projects/nuggets/
@@ -10291,8 +10259,10 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/iam/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -10344,11 +10314,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -10367,7 +10339,7 @@ _embedded:
         supercomputers. It is highly customizable and can be used for a variety
         of tasks, from web hosting to software development. It is also highly
         secure and reliable, making it a popular choice for many users.
-      used_begin_year: 2010
+      used_begin_year: 2012
       used_end_year: present
       _links:
         self:
@@ -10384,7 +10356,6 @@ _embedded:
           - href: /projects/la-boda/
           - href: /projects/nuggets/
           - href: /projects/scramble-score/
-          - href: /projects/simpler/
           - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
@@ -10397,8 +10368,8 @@ _embedded:
             desc: React Native app built using AI and state machines for learning Spanish or
               English.
             role: Author
-            begin_year: 2024
-            end_year: null
+            begin_year: 2023
+            end_year: present
             _links:
               self:
                 href: /projects/nuggets/
@@ -10411,8 +10382,10 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/iam/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -10501,6 +10474,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
           - title: fortworthtexas.gov
@@ -10562,8 +10536,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-api
@@ -10663,34 +10635,13 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/rb/
+                - href: /languages/sql/
               db:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
-          - title: Simpler
-            desc: Library that provides a simpler approach to C# class design.
-            role: Author
-            begin_year: 2010
-            end_year: 2013
-            _links:
-              self:
-                href: /projects/simpler/
-              code:
-                title: github.com/gregoryjscott/Simpler
-                href: https://github.com/gregoryjscott/Simpler
-              languages:
-                - href: /languages/cs/
-                - href: /languages/rb/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/freelance/
         jobs:
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -10731,11 +10682,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -10785,6 +10738,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -10826,11 +10780,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -10854,7 +10806,7 @@ _embedded:
         supports a rich ecosystem of native and third-party applications via the
         Mac App Store and developer tools such as Xcode, making it a popular
         choice for both creative professionals and everyday users.
-      used_begin_year: 2010
+      used_begin_year: 2012
       used_end_year: present
       _links:
         self:
@@ -10862,15 +10814,15 @@ _embedded:
         projects:
           - href: /projects/aprender/
           - href: /projects/centroid/
-          - href: /projects/denver-schedules-api/
+          - href: /projects/epicloud/
           - href: /projects/jekyll-api/
           - href: /projects/jekyll-embed/
           - href: /projects/jekyll-load/
           - href: /projects/jekyll-prep/
-          - href: /projects/scramble-score/
-          - href: /projects/simpler/
+          - href: /projects/please/
           - href: /projects/this-site/
         jobs:
+          - href: /jobs/fe/
           - href: /jobs/freelance/
           - href: /jobs/rdi/
       _embedded:
@@ -10900,6 +10852,41 @@ _embedded:
                 - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
+          - title: EpiCloud
+            subtitle: Infinitely Scaling Bots on AWS
+            desc: null
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epicloud/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
+              jobs:
+                - href: /jobs/fe/
           - title: aprender
             desc: CLI for learning Spanish
             role: Author
@@ -10939,30 +10926,6 @@ _embedded:
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
-          - title: Denver Schedules API
-            desc: JSON API that provides access to Denver activities that impact the
-              residents of Denver.
-            role: Contributor
-            begin_year: 2014
-            end_year: 2014
-            _links:
-              self:
-                href: /projects/denver-schedules-api/
-              code:
-                title: github.com/codeforamerica/denver-schedules-api
-                href: https://github.com/codeforamerica/denver-schedules-api
-              languages:
-                - href: /languages/cs/
-                - href: /languages/rb/
-                - href: /languages/sql/
-              db:
-                - href: /db/postgres/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/freelance/
           - title: jekyll-api
             desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
             role: Author
@@ -11045,49 +11008,28 @@ _embedded:
                 - href: /os/macos/
               jobs:
                 - href: /jobs/freelance/
-          - title: ScrambleScore
-            desc: Mobile web application that allows golfers participating in scramble golf
-              tournaments to record their scores and monitor the tournament
-              leaderboard.
-            role: Project Manager
+          - title: Please
+            desc: Please is a set of commands useful for maintaining software projects.
+            role: Author
             begin_year: 2012
-            end_year: 2013
+            end_year: 2014
             _links:
               self:
-                href: /projects/scramble-score/
+                href: /projects/please/
+              code:
+                title: github.com/ResourceDataInc/please
+                href: https://github.com/ResourceDataInc/please
               languages:
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
+                - href: /languages/cs/
                 - href: /languages/rb/
+                - href: /languages/sql/
               db:
-                - href: /db/postgres/
+                - href: /db/sqlite/
               os:
-                - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
-          - title: Simpler
-            desc: Library that provides a simpler approach to C# class design.
-            role: Author
-            begin_year: 2010
-            end_year: 2013
-            _links:
-              self:
-                href: /projects/simpler/
-              code:
-                title: github.com/gregoryjscott/Simpler
-                href: https://github.com/gregoryjscott/Simpler
-              languages:
-                - href: /languages/cs/
-                - href: /languages/rb/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/freelance/
         jobs:
           - title: Freelance Programmer
             desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -11128,11 +11070,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -11141,6 +11085,46 @@ _embedded:
               os:
                 - href: /os/android/
                 - href: /os/ios/
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: 2022
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/epicloud/
+              languages:
+                - href: /languages/php/
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
@@ -11184,11 +11168,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -11242,6 +11224,7 @@ _embedded:
                 - href: /languages/cpp/
                 - href: /languages/fortran/
                 - href: /languages/pascal/
+                - href: /languages/ti-basic/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -11471,7 +11454,6 @@ _embedded:
           - href: /projects/class-scheduler/
           - href: /projects/consumption-views/
           - href: /projects/database-sync-awwu/
-          - href: /projects/denver-schedules-api/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
           - href: /projects/epic-ca-enrollment/
@@ -11482,7 +11464,6 @@ _embedded:
           - href: /projects/qb/
           - href: /projects/report-engine/
           - href: /projects/sar-reports/
-          - href: /projects/scramble-score/
           - href: /projects/scrum-tools/
           - href: /projects/sif-agent/
           - href: /projects/simpler/
@@ -11538,30 +11519,6 @@ _embedded:
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
-          - title: Denver Schedules API
-            desc: JSON API that provides access to Denver activities that impact the
-              residents of Denver.
-            role: Contributor
-            begin_year: 2014
-            end_year: 2014
-            _links:
-              self:
-                href: /projects/denver-schedules-api/
-              code:
-                title: github.com/codeforamerica/denver-schedules-api
-                href: https://github.com/codeforamerica/denver-schedules-api
-              languages:
-                - href: /languages/cs/
-                - href: /languages/rb/
-                - href: /languages/sql/
-              db:
-                - href: /db/postgres/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/freelance/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
               querying tools for their vast GIS data and infrastructure.
@@ -11579,7 +11536,6 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -11604,6 +11560,7 @@ _embedded:
               db:
                 - href: /db/sqlite/
               os:
+                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
@@ -11617,7 +11574,6 @@ _embedded:
                 href: /projects/ahfc-integration/
               languages:
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -11638,7 +11594,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -11660,33 +11615,9 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
-                - href: /os/windows/
-              jobs:
-                - href: /jobs/rdi/
-          - title: ScrambleScore
-            desc: Mobile web application that allows golfers participating in scramble golf
-              tournaments to record their scores and monitor the tournament
-              leaderboard.
-            role: Project Manager
-            begin_year: 2012
-            end_year: 2013
-            _links:
-              self:
-                href: /projects/scramble-score/
-              languages:
-                - href: /languages/css/
-                - href: /languages/html/
-                - href: /languages/js/
-                - href: /languages/rb/
-              db:
-                - href: /db/postgres/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
@@ -11704,7 +11635,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -11726,8 +11656,6 @@ _embedded:
                 - href: /languages/cs/
                 - href: /languages/rb/
               os:
-                - href: /os/linux/
-                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
@@ -11747,7 +11675,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               tools:
@@ -11784,7 +11711,6 @@ _embedded:
               self:
                 href: /projects/consumption-views/
               languages:
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -11807,7 +11733,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -11839,7 +11764,6 @@ _embedded:
                 href: /projects/database-sync-awwu/
               languages:
                 - href: /languages/cs/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -11880,7 +11804,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -11971,6 +11894,7 @@ _embedded:
                 href: /projects/awwu-job-scheduler/
               languages:
                 - href: /languages/cs/
+                - href: /languages/sql/
               db:
                 - href: /db/oracle/
               os:
@@ -11987,7 +11911,6 @@ _embedded:
                 href: /projects/awwu-systems-integration/
               languages:
                 - href: /languages/cs/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -12005,7 +11928,6 @@ _embedded:
               self:
                 href: /projects/employee-suggestions/
               languages:
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -12146,11 +12068,13 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/hal/
                 - href: /tools/heroku/
                 - href: /tools/iam/
                 - href: /tools/jekyll/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -12200,6 +12124,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
                 - href: /os/windows/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -12241,11 +12166,9 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/access/
                 - href: /db/oracle/
@@ -12306,6 +12229,7 @@ _embedded:
                 - href: /languages/cpp/
                 - href: /languages/fortran/
                 - href: /languages/pascal/
+                - href: /languages/ti-basic/
                 - href: /languages/vb/
               os:
                 - href: /os/aix/
@@ -12351,11 +12275,13 @@ _embedded:
           - href: /tools/ec2/
           - href: /tools/ecr/
           - href: /tools/ecs/
+          - href: /tools/expo/
           - href: /tools/fargate/
           - href: /tools/hal/
           - href: /tools/heroku/
           - href: /tools/iam/
           - href: /tools/jekyll/
+          - href: /tools/node/
           - href: /tools/react-native/
           - href: /tools/s3/
           - href: /tools/sqs/
@@ -12381,8 +12307,8 @@ _embedded:
             desc: React Native app built using AI and state machines for learning Spanish or
               English.
             role: Author
-            begin_year: 2024
-            end_year: null
+            begin_year: 2023
+            end_year: present
             _links:
               self:
                 href: /projects/nuggets/
@@ -12395,8 +12321,10 @@ _embedded:
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
+                - href: /tools/expo/
                 - href: /tools/fargate/
                 - href: /tools/iam/
+                - href: /tools/node/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -12507,8 +12435,6 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
           - title: jekyll-api
@@ -12608,8 +12534,6 @@ _embedded:
                 - href: /languages/cs/
                 - href: /languages/rb/
               os:
-                - href: /os/linux/
-                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/freelance/
@@ -12806,6 +12730,7 @@ _embedded:
                 - href: /projects/agdc/
                 - href: /projects/ahfc-integration/
                 - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
                 - href: /projects/awwu-systems-integration/
                 - href: /projects/cis-data-capture/
                 - href: /projects/consumption-views/
@@ -12816,6 +12741,7 @@ _embedded:
                 - href: /projects/please/
                 - href: /projects/qb/
                 - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/somd/
@@ -12906,7 +12832,7 @@ _embedded:
               hosting, CI/CD and environment management streamline the
               application lifecycle so teams can focus on features instead of
               infrastructure.
-            used_begin_year: 2024
+            used_begin_year: 2023
             used_end_year: present
             _links:
               self:
@@ -12974,6 +12900,31 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
+                - href: /jobs/freelance/
+          - title: Expo
+            desc: Expo is an open-source platform and toolchain built around React Native
+              that lets developers write modern JavaScript or TypeScript to
+              produce fully native iOS, Android and web apps without configuring
+              Xcode or Android Studio. It provides a comprehensive SDK of
+              prebuilt, cross-platform APIs (camera, sensors, notifications,
+              maps, file system, etc.), a command-line interface for project
+              scaffolding and local testing, and cloud services for building
+              binaries, over-the-air updates, push-notification delivery and app
+              store publishing. By abstracting away much of the native
+              configuration—while still allowing “ejecting” to integrate custom
+              native modules—Expo accelerates development, simplifies
+              maintenance and lowers the barrier to entry for mobile-first
+              teams.
+            begin_year: 2023
+            end_year: present
+            used_begin_year: 2023
+            used_end_year: present
+            _links:
+              self:
+                href: /tools/expo/
+              projects:
+                - href: /projects/nuggets/
+              jobs:
                 - href: /jobs/freelance/
           - title: Fargate
             desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
@@ -13085,6 +13036,25 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/freelance/
+          - title: Node
+            desc: Node.js is an open-source, cross-platform JavaScript runtime environment
+              that executes JavaScript code outside of a browser. It is used to
+              create server-side and networking applications. Node.js
+              applications are written in JavaScript and can be run within the
+              Node.js runtime on OS X, Microsoft Windows, and Linux. Node.js
+              also provides a rich library of various JavaScript modules which
+              simplifies the development of web applications using Node.js.
+            used_begin_year: 2015
+            used_end_year: present
+            _links:
+              self:
+                href: /tools/node/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/freelance/
           - title: React Native
             desc: React Native is an open-source framework developed by Facebook that
               enables developers to build mobile apps for iOS and Android using
@@ -13101,7 +13071,7 @@ _embedded:
               sharing logic and UI components across platforms, React Native
               significantly reduces development time and maintenance overhead
               compared to traditional native app development.
-            used_begin_year: 2024
+            used_begin_year: 2023
             used_end_year: present
             _links:
               self:
@@ -13183,7 +13153,7 @@ _embedded:
               integrations for React, Vue, Angular, and Node.js, XState delivers
               predictable, testable, and maintainable state management for
               complex synchronous and asynchronous workflows.
-            used_begin_year: 2024
+            used_begin_year: 2023
             used_end_year: present
             _links:
               self:
@@ -13203,7 +13173,7 @@ _embedded:
               third-party app stores or through online stores such as Google
               Play. Android has been the best-selling OS on tablets since 2013,
               and on smartphones it is dominant by any metric.
-            used_begin_year: 2024
+            used_begin_year: 2023
             used_end_year: present
             _links:
               self:
@@ -13222,7 +13192,7 @@ _embedded:
               notification center, and access to the App Store for downloading
               apps. iOS also includes features such as iCloud, AirPlay, and
               Apple Pay.
-            used_begin_year: 2024
+            used_begin_year: 2023
             used_end_year: present
             _links:
               self:
@@ -13239,7 +13209,7 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -13256,7 +13226,6 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
                 - href: /projects/scramble-score/
-                - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
@@ -13274,7 +13243,7 @@ _embedded:
               third-party applications via the Mac App Store and developer tools
               such as Xcode, making it a popular choice for both creative
               professionals and everyday users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -13282,15 +13251,15 @@ _embedded:
               projects:
                 - href: /projects/aprender/
                 - href: /projects/centroid/
-                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-load/
                 - href: /projects/jekyll-prep/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
+                - href: /projects/please/
                 - href: /projects/this-site/
               jobs:
+                - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
           - title: Windows
@@ -13320,7 +13289,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -13331,7 +13299,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -13385,6 +13352,7 @@ _embedded:
           - href: /tools/vpc/
         os:
           - href: /os/linux/
+          - href: /os/macos/
           - href: /os/windows/
       content: >-
         - Built the cloud-based backend integration and automation services for
@@ -13443,6 +13411,7 @@ _embedded:
                 - href: /tools/vpc/
               os:
                 - href: /os/linux/
+                - href: /os/macos/
               jobs:
                 - href: /jobs/fe/
         languages:
@@ -13724,14 +13693,16 @@ _embedded:
               also provides a rich library of various JavaScript modules which
               simplifies the development of web applications using Node.js.
             used_begin_year: 2015
-            used_end_year: 2021
+            used_end_year: present
             _links:
               self:
                 href: /tools/node/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
+                - href: /jobs/freelance/
           - title: Puppeteer
             desc: Puppeteer is a Node library developed by Google that provides a high-level
               API to control headless Chrome or Chromium over the DevTools
@@ -13840,7 +13811,7 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -13857,7 +13828,37 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
                 - href: /projects/scramble-score/
-                - href: /projects/simpler/
+                - href: /projects/this-site/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/freelance/
+                - href: /jobs/rdi/
+          - title: macOS
+            desc: macOS is Apple’s Unix‐based desktop operating system, first released in
+              2001 as Mac OS X and built on the open‐source Darwin core and the
+              proprietary XNU kernel. Designed exclusively for Mac computers, it
+              combines a polished Aqua graphical interface with deep integration
+              of hardware and software, offering features like Spotlight search,
+              Time Machine backups, and Continuity for seamless work across
+              Apple devices. With strong emphasis on stability, security and
+              performance, macOS supports a rich ecosystem of native and
+              third-party applications via the Mac App Store and developer tools
+              such as Xcode, making it a popular choice for both creative
+              professionals and everyday users.
+            used_begin_year: 2012
+            used_end_year: present
+            _links:
+              self:
+                href: /os/macos/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/centroid/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/please/
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
@@ -13890,7 +13891,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -13901,7 +13901,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -13957,11 +13956,9 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
-          - href: /languages/plsql/
           - href: /languages/py/
           - href: /languages/rb/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/access/
           - href: /db/oracle/
@@ -14032,7 +14029,6 @@ _embedded:
                 - href: /languages/py/
                 - href: /languages/rb/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -14057,6 +14053,7 @@ _embedded:
               db:
                 - href: /db/sqlite/
               os:
+                - href: /os/macos/
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
@@ -14070,7 +14067,6 @@ _embedded:
                 href: /projects/ahfc-integration/
               languages:
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -14091,7 +14087,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -14113,7 +14108,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -14135,12 +14129,11 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/rb/
+                - href: /languages/sql/
               db:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
           - title: Scrum Tools
@@ -14157,7 +14150,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               os:
@@ -14180,7 +14172,6 @@ _embedded:
                 - href: /languages/html/
                 - href: /languages/js/
                 - href: /languages/sql/
-                - href: /languages/tsql/
               db:
                 - href: /db/sql-server/
               tools:
@@ -14199,7 +14190,6 @@ _embedded:
               self:
                 href: /projects/consumption-views/
               languages:
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -14222,7 +14212,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -14254,7 +14243,6 @@ _embedded:
                 href: /projects/database-sync-awwu/
               languages:
                 - href: /languages/cs/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -14295,7 +14283,6 @@ _embedded:
                 - href: /languages/css/
                 - href: /languages/html/
                 - href: /languages/js/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -14386,6 +14373,7 @@ _embedded:
                 href: /projects/awwu-job-scheduler/
               languages:
                 - href: /languages/cs/
+                - href: /languages/sql/
               db:
                 - href: /db/oracle/
               os:
@@ -14402,7 +14390,6 @@ _embedded:
                 href: /projects/awwu-systems-integration/
               languages:
                 - href: /languages/cs/
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -14420,7 +14407,6 @@ _embedded:
               self:
                 href: /projects/employee-suggestions/
               languages:
-                - href: /languages/plsql/
                 - href: /languages/sql/
               db:
                 - href: /db/oracle/
@@ -14569,29 +14555,6 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
-          - title: PL/SQL
-            desc: PL/SQL (Procedural Language/Structured Query Language) is a procedural
-              language used in Oracle databases. It is a combination of SQL and
-              procedural programming language, allowing developers to write code
-              to manipulate data in an Oracle database. PL/SQL code can be used
-              to create stored procedures, functions, packages, and triggers, as
-              well as to execute SQL statements. PL/SQL is a powerful language
-              that allows developers to create complex applications and to
-              interact with the Oracle database.
-            used_begin_year: 2005
-            used_end_year: 2009
-            _links:
-              self:
-                href: /languages/plsql/
-              projects:
-                - href: /projects/awwu-intranet/
-                - href: /projects/awwu-systems-integration/
-                - href: /projects/consumption-views/
-                - href: /projects/database-sync-awwu/
-                - href: /projects/employee-suggestions/
-                - href: /projects/somd/
-              jobs:
-                - href: /jobs/rdi/
           - title: Python
             desc: Python is a high-level, interpreted, general-purpose programming language.
               It is an easy-to-learn, powerful language that is used for web
@@ -14658,6 +14621,7 @@ _embedded:
                 - href: /projects/agdc/
                 - href: /projects/ahfc-integration/
                 - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
                 - href: /projects/awwu-systems-integration/
                 - href: /projects/cis-data-capture/
                 - href: /projects/consumption-views/
@@ -14668,6 +14632,7 @@ _embedded:
                 - href: /projects/please/
                 - href: /projects/qb/
                 - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/somd/
@@ -14678,29 +14643,6 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
                 - href: /jobs/mas/
-                - href: /jobs/rdi/
-          - title: Transact-SQL
-            desc: Transact-SQL (T-SQL) is a proprietary procedural language used to interact
-              with relational databases. It is a set-based, declarative
-              programming language used to query, modify, and manage data in
-              Microsoft SQL Server. T-SQL is used to create and modify database
-              objects such as tables, views, stored procedures, and triggers. It
-              also provides control of transactions and error handling. T-SQL is
-              a powerful language that allows developers to write complex
-              queries and stored procedures to access and manipulate data.
-            used_begin_year: 2010
-            used_end_year: 2014
-            _links:
-              self:
-                href: /languages/tsql/
-              projects:
-                - href: /projects/agdc/
-                - href: /projects/ahfc-integration/
-                - href: /projects/energy-efficiency-map/
-                - href: /projects/qb/
-                - href: /projects/scrum-tools/
-                - href: /projects/systems-portal/
-              jobs:
                 - href: /jobs/rdi/
         db:
           - title: Access
@@ -14846,7 +14788,7 @@ _embedded:
               variety of tasks, from web hosting to software development. It is
               also highly secure and reliable, making it a popular choice for
               many users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -14863,7 +14805,6 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
                 - href: /projects/scramble-score/
-                - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
@@ -14881,7 +14822,7 @@ _embedded:
               third-party applications via the Mac App Store and developer tools
               such as Xcode, making it a popular choice for both creative
               professionals and everyday users.
-            used_begin_year: 2010
+            used_begin_year: 2012
             used_end_year: present
             _links:
               self:
@@ -14889,15 +14830,15 @@ _embedded:
               projects:
                 - href: /projects/aprender/
                 - href: /projects/centroid/
-                - href: /projects/denver-schedules-api/
+                - href: /projects/epicloud/
                 - href: /projects/jekyll-api/
                 - href: /projects/jekyll-embed/
                 - href: /projects/jekyll-load/
                 - href: /projects/jekyll-prep/
-                - href: /projects/scramble-score/
-                - href: /projects/simpler/
+                - href: /projects/please/
                 - href: /projects/this-site/
               jobs:
+                - href: /jobs/fe/
                 - href: /jobs/freelance/
                 - href: /jobs/rdi/
           - title: Windows
@@ -14927,7 +14868,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -14938,7 +14878,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -15152,6 +15091,7 @@ _embedded:
                 - href: /projects/agdc/
                 - href: /projects/ahfc-integration/
                 - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
                 - href: /projects/awwu-systems-integration/
                 - href: /projects/cis-data-capture/
                 - href: /projects/consumption-views/
@@ -15162,6 +15102,7 @@ _embedded:
                 - href: /projects/please/
                 - href: /projects/qb/
                 - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/somd/
@@ -15267,7 +15208,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -15278,7 +15218,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/
@@ -15434,6 +15373,7 @@ _embedded:
           - href: /languages/cpp/
           - href: /languages/fortran/
           - href: /languages/pascal/
+          - href: /languages/ti-basic/
           - href: /languages/vb/
         os:
           - href: /os/aix/
@@ -15504,6 +15444,24 @@ _embedded:
             _links:
               self:
                 href: /languages/pascal/
+              schools:
+                - href: /schools/uco/
+          - title: TI-BASIC
+            desc: TI-BASIC is the built-in, interpreted programming language used on Texas
+              Instruments graphing calculators. It features a token‐based syntax
+              resembling BASIC, with commands for arithmetic, control structures
+              (If/Then, For, While), list and matrix operations, and direct
+              access to the calculator’s display, menus, and graphing features.
+              Although it’s easy to learn and deploy—making it popular among
+              students for custom routines and games—its execution speed and
+              memory are limited compared to compiled or desktop languages, so
+              programmers often optimize code by minimizing loops, using
+              built-in functions, or writing critical routines in assembly.
+            used_begin_year: 1994
+            used_end_year: 1998
+            _links:
+              self:
+                href: /languages/ti-basic/
               schools:
                 - href: /schools/uco/
           - title: Visual Basic
@@ -15585,7 +15543,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -15596,7 +15553,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/

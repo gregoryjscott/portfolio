@@ -17,7 +17,6 @@ _links:
     - href: /languages/py/
     - href: /languages/rb/
     - href: /languages/sql/
-    - href: /languages/tsql/
   db:
     - href: /db/sql-server/
   os:

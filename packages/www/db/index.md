@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Databases
-desc: List of databases.
+desc: "Databases behind my applications, starting with the most recent."
 _links:
   self:
     href: /db/

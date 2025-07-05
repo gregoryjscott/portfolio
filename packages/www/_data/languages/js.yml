@@ -80,7 +80,6 @@ _embedded:
           - href: /languages/py/
           - href: /languages/rb/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/sql-server/
         os:
@@ -101,7 +100,6 @@ _embedded:
           - href: /languages/html/
           - href: /languages/js/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/sql-server/
         os:
@@ -123,7 +121,6 @@ _embedded:
           - href: /languages/html/
           - href: /languages/js/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/sql-server/
         os:
@@ -145,12 +142,11 @@ _embedded:
           - href: /languages/html/
           - href: /languages/js/
           - href: /languages/rb/
+          - href: /languages/sql/
         db:
           - href: /db/postgres/
         os:
           - href: /os/linux/
-          - href: /os/macos/
-          - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
     - title: Scrum Tools
@@ -167,7 +163,6 @@ _embedded:
           - href: /languages/html/
           - href: /languages/js/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/sql-server/
         os:
@@ -190,7 +185,6 @@ _embedded:
           - href: /languages/html/
           - href: /languages/js/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/sql-server/
         tools:
@@ -214,7 +208,6 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
-          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -236,7 +229,6 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
-          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -284,11 +276,13 @@ _embedded:
           - href: /tools/ec2/
           - href: /tools/ecr/
           - href: /tools/ecs/
+          - href: /tools/expo/
           - href: /tools/fargate/
           - href: /tools/hal/
           - href: /tools/heroku/
           - href: /tools/iam/
           - href: /tools/jekyll/
+          - href: /tools/node/
           - href: /tools/react-native/
           - href: /tools/s3/
           - href: /tools/sqs/
@@ -340,11 +334,9 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
-          - href: /languages/plsql/
           - href: /languages/py/
           - href: /languages/rb/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/access/
           - href: /db/oracle/

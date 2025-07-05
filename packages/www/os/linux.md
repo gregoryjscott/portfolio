@@ -7,7 +7,7 @@ desc: >-
   customizable and can be used for a variety of tasks, from web hosting to
   software development. It is also highly secure and reliable, making it a
   popular choice for many users.
-used_begin_year: 2010
+used_begin_year: 2012
 used_end_year: present
 _links:
   self:
@@ -24,7 +24,6 @@ _links:
     - href: /projects/la-boda/
     - href: /projects/nuggets/
     - href: /projects/scramble-score/
-    - href: /projects/simpler/
     - href: /projects/this-site/
   jobs:
     - href: /jobs/fe/

@@ -19,6 +19,7 @@ _links:
     - href: /languages/cpp/
     - href: /languages/fortran/
     - href: /languages/pascal/
+    - href: /languages/ti-basic/
     - href: /languages/vb/
   os:
     - href: /os/aix/

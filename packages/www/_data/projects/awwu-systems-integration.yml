@@ -8,7 +8,6 @@ _links:
     href: /projects/awwu-systems-integration/
   languages:
     - href: /languages/cs/
-    - href: /languages/plsql/
     - href: /languages/sql/
   db:
     - href: /db/oracle/
@@ -60,29 +59,6 @@ _embedded:
           - href: /jobs/freelance/
           - href: /jobs/mas/
           - href: /jobs/rdi/
-    - title: PL/SQL
-      desc: PL/SQL (Procedural Language/Structured Query Language) is a procedural
-        language used in Oracle databases. It is a combination of SQL and
-        procedural programming language, allowing developers to write code to
-        manipulate data in an Oracle database. PL/SQL code can be used to create
-        stored procedures, functions, packages, and triggers, as well as to
-        execute SQL statements. PL/SQL is a powerful language that allows
-        developers to create complex applications and to interact with the
-        Oracle database.
-      used_begin_year: 2005
-      used_end_year: 2009
-      _links:
-        self:
-          href: /languages/plsql/
-        projects:
-          - href: /projects/awwu-intranet/
-          - href: /projects/awwu-systems-integration/
-          - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
-          - href: /projects/employee-suggestions/
-          - href: /projects/somd/
-        jobs:
-          - href: /jobs/rdi/
     - title: SQL
       desc: SQL (Structured Query Language) is a domain-specific language used in
         programming and designed for managing data held in a relational database
@@ -100,6 +76,7 @@ _embedded:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
           - href: /projects/awwu-intranet/
+          - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
           - href: /projects/cis-data-capture/
           - href: /projects/consumption-views/
@@ -110,6 +87,7 @@ _embedded:
           - href: /projects/please/
           - href: /projects/qb/
           - href: /projects/sar-reports/
+          - href: /projects/scramble-score/
           - href: /projects/scrum-tools/
           - href: /projects/sif-agent/
           - href: /projects/somd/
@@ -176,7 +154,6 @@ _embedded:
           - href: /projects/class-scheduler/
           - href: /projects/consumption-views/
           - href: /projects/database-sync-awwu/
-          - href: /projects/denver-schedules-api/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
           - href: /projects/epic-ca-enrollment/
@@ -187,7 +164,6 @@ _embedded:
           - href: /projects/qb/
           - href: /projects/report-engine/
           - href: /projects/sar-reports/
-          - href: /projects/scramble-score/
           - href: /projects/scrum-tools/
           - href: /projects/sif-agent/
           - href: /projects/simpler/
@@ -244,11 +220,9 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
-          - href: /languages/plsql/
           - href: /languages/py/
           - href: /languages/rb/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/access/
           - href: /db/oracle/

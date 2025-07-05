@@ -11,10 +11,6 @@
     {% if include.resource.used_begin_year and include.resource.used_end_year %}
       {% include year-range-used.html resource=include.resource %}
     {% endif %}
-
-    {% if include.resource.subtitle %}
-      <p>{{ include.resource.subtitle }}</p>
-    {% endif %}
   </header>
 
   {% if include.resource.desc %}

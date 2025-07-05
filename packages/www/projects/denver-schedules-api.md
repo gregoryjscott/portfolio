@@ -20,8 +20,6 @@ _links:
     - href: /db/postgres/
   os:
     - href: /os/linux/
-    - href: /os/macos/
-    - href: /os/windows/
   jobs:
     - href: /jobs/freelance/
 ---

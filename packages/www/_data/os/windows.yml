@@ -24,7 +24,6 @@ _links:
     - href: /projects/class-scheduler/
     - href: /projects/consumption-views/
     - href: /projects/database-sync-awwu/
-    - href: /projects/denver-schedules-api/
     - href: /projects/employee-suggestions/
     - href: /projects/energy-efficiency-map/
     - href: /projects/epic-ca-enrollment/
@@ -35,7 +34,6 @@ _links:
     - href: /projects/qb/
     - href: /projects/report-engine/
     - href: /projects/sar-reports/
-    - href: /projects/scramble-score/
     - href: /projects/scrum-tools/
     - href: /projects/sif-agent/
     - href: /projects/simpler/
@@ -91,30 +89,6 @@ _embedded:
           - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
-    - title: Denver Schedules API
-      desc: JSON API that provides access to Denver activities that impact the
-        residents of Denver.
-      role: Contributor
-      begin_year: 2014
-      end_year: 2014
-      _links:
-        self:
-          href: /projects/denver-schedules-api/
-        code:
-          title: github.com/codeforamerica/denver-schedules-api
-          href: https://github.com/codeforamerica/denver-schedules-api
-        languages:
-          - href: /languages/cs/
-          - href: /languages/rb/
-          - href: /languages/sql/
-        db:
-          - href: /db/postgres/
-        os:
-          - href: /os/linux/
-          - href: /os/macos/
-          - href: /os/windows/
-        jobs:
-          - href: /jobs/freelance/
     - title: Alaska Gasline Development Corporation
       desc: Web application that provides AGDC with documentation, reporting, and
         querying tools for their vast GIS data and infrastructure.
@@ -132,7 +106,6 @@ _embedded:
           - href: /languages/py/
           - href: /languages/rb/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/sql-server/
         os:
@@ -157,6 +130,7 @@ _embedded:
         db:
           - href: /db/sqlite/
         os:
+          - href: /os/macos/
           - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
@@ -170,7 +144,6 @@ _embedded:
           href: /projects/ahfc-integration/
         languages:
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/sql-server/
         os:
@@ -191,7 +164,6 @@ _embedded:
           - href: /languages/html/
           - href: /languages/js/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/sql-server/
         os:
@@ -213,33 +185,9 @@ _embedded:
           - href: /languages/html/
           - href: /languages/js/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/sql-server/
         os:
-          - href: /os/windows/
-        jobs:
-          - href: /jobs/rdi/
-    - title: ScrambleScore
-      desc: Mobile web application that allows golfers participating in scramble golf
-        tournaments to record their scores and monitor the tournament
-        leaderboard.
-      role: Project Manager
-      begin_year: 2012
-      end_year: 2013
-      _links:
-        self:
-          href: /projects/scramble-score/
-        languages:
-          - href: /languages/css/
-          - href: /languages/html/
-          - href: /languages/js/
-          - href: /languages/rb/
-        db:
-          - href: /db/postgres/
-        os:
-          - href: /os/linux/
-          - href: /os/macos/
           - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
@@ -257,7 +205,6 @@ _embedded:
           - href: /languages/html/
           - href: /languages/js/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/sql-server/
         os:
@@ -279,8 +226,6 @@ _embedded:
           - href: /languages/cs/
           - href: /languages/rb/
         os:
-          - href: /os/linux/
-          - href: /os/macos/
           - href: /os/windows/
         jobs:
           - href: /jobs/freelance/
@@ -300,7 +245,6 @@ _embedded:
           - href: /languages/html/
           - href: /languages/js/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/sql-server/
         tools:
@@ -337,7 +281,6 @@ _embedded:
         self:
           href: /projects/consumption-views/
         languages:
-          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -360,7 +303,6 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
-          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -392,7 +334,6 @@ _embedded:
           href: /projects/database-sync-awwu/
         languages:
           - href: /languages/cs/
-          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -432,7 +373,6 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
-          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -522,6 +462,7 @@ _embedded:
           href: /projects/awwu-job-scheduler/
         languages:
           - href: /languages/cs/
+          - href: /languages/sql/
         db:
           - href: /db/oracle/
         os:
@@ -538,7 +479,6 @@ _embedded:
           href: /projects/awwu-systems-integration/
         languages:
           - href: /languages/cs/
-          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -556,7 +496,6 @@ _embedded:
         self:
           href: /projects/employee-suggestions/
         languages:
-          - href: /languages/plsql/
           - href: /languages/sql/
         db:
           - href: /db/oracle/
@@ -697,11 +636,13 @@ _embedded:
           - href: /tools/ec2/
           - href: /tools/ecr/
           - href: /tools/ecs/
+          - href: /tools/expo/
           - href: /tools/fargate/
           - href: /tools/hal/
           - href: /tools/heroku/
           - href: /tools/iam/
           - href: /tools/jekyll/
+          - href: /tools/node/
           - href: /tools/react-native/
           - href: /tools/s3/
           - href: /tools/sqs/
@@ -751,6 +692,7 @@ _embedded:
           - href: /tools/vpc/
         os:
           - href: /os/linux/
+          - href: /os/macos/
           - href: /os/windows/
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
@@ -792,11 +734,9 @@ _embedded:
           - href: /languages/css/
           - href: /languages/html/
           - href: /languages/js/
-          - href: /languages/plsql/
           - href: /languages/py/
           - href: /languages/rb/
           - href: /languages/sql/
-          - href: /languages/tsql/
         db:
           - href: /db/access/
           - href: /db/oracle/
@@ -856,6 +796,7 @@ _embedded:
           - href: /languages/cpp/
           - href: /languages/fortran/
           - href: /languages/pascal/
+          - href: /languages/ti-basic/
           - href: /languages/vb/
         os:
           - href: /os/aix/

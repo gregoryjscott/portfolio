@@ -195,6 +195,7 @@ _embedded:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
           - href: /projects/awwu-intranet/
+          - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
           - href: /projects/cis-data-capture/
           - href: /projects/consumption-views/
@@ -205,6 +206,7 @@ _embedded:
           - href: /projects/please/
           - href: /projects/qb/
           - href: /projects/sar-reports/
+          - href: /projects/scramble-score/
           - href: /projects/scrum-tools/
           - href: /projects/sif-agent/
           - href: /projects/somd/
@@ -308,7 +310,6 @@ _embedded:
           - href: /projects/class-scheduler/
           - href: /projects/consumption-views/
           - href: /projects/database-sync-awwu/
-          - href: /projects/denver-schedules-api/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
           - href: /projects/epic-ca-enrollment/
@@ -319,7 +320,6 @@ _embedded:
           - href: /projects/qb/
           - href: /projects/report-engine/
           - href: /projects/sar-reports/
-          - href: /projects/scramble-score/
           - href: /projects/scrum-tools/
           - href: /projects/sif-agent/
           - href: /projects/simpler/

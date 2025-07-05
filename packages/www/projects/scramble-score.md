@@ -14,12 +14,11 @@ _links:
     - href: /languages/html/
     - href: /languages/js/
     - href: /languages/rb/
+    - href: /languages/sql/
   db:
     - href: /db/postgres/
   os:
     - href: /os/linux/
-    - href: /os/macos/
-    - href: /os/windows/
   jobs:
     - href: /jobs/rdi/
 ---

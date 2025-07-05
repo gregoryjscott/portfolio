@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Languages
-desc: List of languages.
+desc: "Languages I've coded in, starting with the most recent."
 _links:
   self:
     href: /languages/
@@ -17,11 +17,10 @@ _links:
     - href: /languages/js/
     - href: /languages/pascal/
     - href: /languages/php/
-    - href: /languages/plsql/
     - href: /languages/py/
     - href: /languages/rb/
     - href: /languages/sql/
+    - href: /languages/ti-basic/
     - href: /languages/ts/
-    - href: /languages/tsql/
     - href: /languages/vb/
 ---

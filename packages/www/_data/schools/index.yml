@@ -1,6 +1,5 @@
 layout: list
 title: Schools
-desc: List of schools.
 _links:
   self:
     href: /schools/
@@ -28,6 +27,7 @@ _embedded:
           - href: /languages/cpp/
           - href: /languages/fortran/
           - href: /languages/pascal/
+          - href: /languages/ti-basic/
           - href: /languages/vb/
         os:
           - href: /os/aix/
@@ -98,6 +98,24 @@ _embedded:
             _links:
               self:
                 href: /languages/pascal/
+              schools:
+                - href: /schools/uco/
+          - title: TI-BASIC
+            desc: TI-BASIC is the built-in, interpreted programming language used on Texas
+              Instruments graphing calculators. It features a token‐based syntax
+              resembling BASIC, with commands for arithmetic, control structures
+              (If/Then, For, While), list and matrix operations, and direct
+              access to the calculator’s display, menus, and graphing features.
+              Although it’s easy to learn and deploy—making it popular among
+              students for custom routines and games—its execution speed and
+              memory are limited compared to compiled or desktop languages, so
+              programmers often optimize code by minimizing loops, using
+              built-in functions, or writing critical routines in assembly.
+            used_begin_year: 1994
+            used_end_year: 1998
+            _links:
+              self:
+                href: /languages/ti-basic/
               schools:
                 - href: /schools/uco/
           - title: Visual Basic
@@ -179,7 +197,6 @@ _embedded:
                 - href: /projects/class-scheduler/
                 - href: /projects/consumption-views/
                 - href: /projects/database-sync-awwu/
-                - href: /projects/denver-schedules-api/
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/epic-ca-enrollment/
@@ -190,7 +207,6 @@ _embedded:
                 - href: /projects/qb/
                 - href: /projects/report-engine/
                 - href: /projects/sar-reports/
-                - href: /projects/scramble-score/
                 - href: /projects/scrum-tools/
                 - href: /projects/sif-agent/
                 - href: /projects/simpler/

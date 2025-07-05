@@ -9,7 +9,6 @@ _links:
     href: /projects/ahfc-integration/
   languages:
     - href: /languages/sql/
-    - href: /languages/tsql/
   db:
     - href: /db/sql-server/
   os:

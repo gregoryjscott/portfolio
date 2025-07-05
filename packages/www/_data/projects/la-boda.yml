@@ -136,7 +136,7 @@ _embedded:
         development environment for designing UI and data models, while built-in
         hosting, CI/CD and environment management streamline the application
         lifecycle so teams can focus on features instead of infrastructure.
-      used_begin_year: 2024
+      used_begin_year: 2023
       used_end_year: present
       _links:
         self:
@@ -154,7 +154,7 @@ _embedded:
         supercomputers. It is highly customizable and can be used for a variety
         of tasks, from web hosting to software development. It is also highly
         secure and reliable, making it a popular choice for many users.
-      used_begin_year: 2010
+      used_begin_year: 2012
       used_end_year: present
       _links:
         self:
@@ -171,7 +171,6 @@ _embedded:
           - href: /projects/la-boda/
           - href: /projects/nuggets/
           - href: /projects/scramble-score/
-          - href: /projects/simpler/
           - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
@@ -217,11 +216,13 @@ _embedded:
           - href: /tools/ec2/
           - href: /tools/ecr/
           - href: /tools/ecs/
+          - href: /tools/expo/
           - href: /tools/fargate/
           - href: /tools/hal/
           - href: /tools/heroku/
           - href: /tools/iam/
           - href: /tools/jekyll/
+          - href: /tools/node/
           - href: /tools/react-native/
           - href: /tools/s3/
           - href: /tools/sqs/
