@@ -41,6 +41,8 @@ _links:
     - href: /os/linux/
     - href: /os/macos/
     - href: /os/windows/
+  devices:
+    - href: /devices/mac/
 ---
 
 - Architected and built the entire cloud infrastructure for one of the nation's largest charter schools, enabling growth from 1,500 to over 60,000 students through a scalable network of bots that automated 95% of data entry tasks.

@@ -18,6 +18,8 @@ _links:
     href: /tools/
   os:
     href: /os/
+  devices:
+    href: /devices/
   jobs:
     href: /jobs/
   schools:

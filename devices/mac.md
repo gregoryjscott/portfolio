@@ -1,0 +1,19 @@
+---
+layout: details
+title: Mac
+desc: >-
+  The Mac is a line of personal computers from Apple Inc. running macOS, a
+  Unix-based operating system with POSIX compliance and native support for
+  development tools. Its integrated hardware-software design delivers stable
+  performance and efficient resource management. Macs are widely used for
+  software development, graphic design, and multimedia production.
+used_begin_year: 2015
+used_end_year: 2021
+_links:
+  self:
+    href: /devices/mac/
+  projects:
+    - href: /projects/epicloud/
+  jobs:
+    - href: /jobs/fe/
+---
