@@ -1,3 +1,13 @@
-exclude: [LICENSE, README.md, Gemfile, Gemfile.lock, Gruntfile.coffee, package.json, package-lock.json, Rakefile, node_modules, tsconfig.json]
+exclude:
+  [
+    LICENSE,
+    README.md,
+    Gemfile,
+    Gemfile.lock,
+    package.json,
+    package-lock.json,
+    node_modules,
+    tsconfig.json,
+  ]
 markdown: kramdown
 permalink: pretty
