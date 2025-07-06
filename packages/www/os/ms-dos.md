@@ -1,4 +1,5 @@
 ---
+layout: details
 title: MS-DOS
 desc: >-
   MS-DOS (Microsoft Disk Operating System) is an operating system developed by

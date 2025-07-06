@@ -1,4 +1,5 @@
 ---
+layout: details
 title: "Boeing, Defense & Space Group"
 desc: >-
   Embedded Software Engineer for Boeing, Defense and Space Group, based in

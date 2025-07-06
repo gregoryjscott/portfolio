@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Python
 desc: >-
   Python is a high-level, interpreted, general-purpose programming language. It

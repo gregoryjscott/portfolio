@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Futuristic Education
 desc: >-
   Co-Founder/Programmer of Futuristic Education, building custom technology for

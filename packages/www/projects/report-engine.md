@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Report Engine
 desc: C# library for producing HTML reports based on database queries.
 role: Lead Developer

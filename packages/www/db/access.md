@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Access
 desc: >-
   The Access database is a relational database management system (RDBMS)

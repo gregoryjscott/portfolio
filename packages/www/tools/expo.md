@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Expo
 desc: >-
   Expo is an open-source platform and toolchain built around React Native that

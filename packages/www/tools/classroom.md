@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Google Classroom
 desc: >-
   Google Classroom is a free web-based platform that allows teachers to create

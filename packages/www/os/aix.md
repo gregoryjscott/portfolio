@@ -1,4 +1,5 @@
 ---
+layout: details
 title: AIX
 desc: >-
   AIX (Advanced Interactive eXecutive) is an IBM proprietary Unix-based

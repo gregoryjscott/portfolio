@@ -1,4 +1,5 @@
 ---
+layout: details
 title: SQLite
 desc: >-
   SQLite is a lightweight, self-contained, serverless, zero-configuration,

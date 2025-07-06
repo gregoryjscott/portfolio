@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Backbone.js
 desc: >-
   Backbone.js is a lightweight JavaScript library that brings structure to

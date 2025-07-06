@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Please
 desc: Please is a set of commands useful for maintaining software projects.
 role: Author

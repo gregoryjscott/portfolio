@@ -1,4 +1,5 @@
 ---
+layout: details
 title: TI-BASIC
 desc: >-
   TI-BASIC is the built-in, interpreted programming language used on Texas

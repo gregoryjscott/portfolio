@@ -1,4 +1,5 @@
 ---
+layout: details
 title: PHP
 desc: >-
   PHP is a server-side scripting language used for web development. It is a

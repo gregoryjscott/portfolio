@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Scrum Tools
 desc: null
 role: Technical Lead

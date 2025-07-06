@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Firebase
 desc: >-
   Google Firebase is a mobile and web application development platform that

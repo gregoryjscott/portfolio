@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Lasar Range Finder
 desc: >-
   Software that records output from a handheld lasar range finder and combines

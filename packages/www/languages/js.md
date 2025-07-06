@@ -1,4 +1,5 @@
 ---
+layout: details
 title: JavaScript
 desc: >-
   JavaScript is a high-level, interpreted programming language that is used to

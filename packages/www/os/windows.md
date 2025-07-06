@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Windows
 desc: >-
   Windows is a series of operating systems developed by Microsoft. It is the

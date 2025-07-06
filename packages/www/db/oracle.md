@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Oracle
 desc: >-
   Oracle Database is a relational database management system (RDBMS) developed

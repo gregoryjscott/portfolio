@@ -1,4 +1,5 @@
 ---
+layout: details
 title: jekyll-embed
 desc: >-
   RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.

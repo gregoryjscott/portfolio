@@ -1,4 +1,5 @@
 ---
+layout: details
 title: SIF Agent
 subtitle: Integrating Schools with State of Oklahoma
 desc: >-

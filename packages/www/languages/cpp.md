@@ -1,4 +1,5 @@
 ---
+layout: details
 title: C++
 desc: >-
   C++ is a general-purpose, object-oriented programming language developed by

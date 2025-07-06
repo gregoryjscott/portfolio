@@ -1,4 +1,5 @@
 ---
+layout: details
 title: AWWU Job Scheduler
 desc: >-
   Framework for creating background processing jobs that migrate, synchronize,

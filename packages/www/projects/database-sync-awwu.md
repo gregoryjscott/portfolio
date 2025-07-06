@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Database Synchronization (AWWU)
 desc: null
 role: Lead Developer

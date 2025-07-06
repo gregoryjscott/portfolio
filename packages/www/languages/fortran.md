@@ -1,4 +1,5 @@
 ---
+layout: details
 title: FORTRAN
 desc: >-
   FORTRAN (Formula Translator) is a general-purpose, procedural, imperative

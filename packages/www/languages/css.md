@@ -1,4 +1,5 @@
 ---
+layout: details
 title: CSS
 desc: >-
   CSS (Cascading Style Sheets) is a style sheet language used for describing the

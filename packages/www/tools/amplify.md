@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Amplify
 desc: >-
   AWS Amplify is a comprehensive development platform from Amazon Web Services

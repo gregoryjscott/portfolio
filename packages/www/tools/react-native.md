@@ -1,4 +1,5 @@
 ---
+layout: details
 title: React Native
 desc: >-
   React Native is an open-source framework developed by Facebook that enables

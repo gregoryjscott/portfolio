@@ -1,4 +1,5 @@
 ---
+layout: details
 title: SQL
 desc: >-
   SQL (Structured Query Language) is a domain-specific language used in

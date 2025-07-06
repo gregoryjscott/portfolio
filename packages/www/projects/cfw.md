@@ -1,4 +1,5 @@
 ---
+layout: details
 title: fortworthtexas.gov
 desc: "Jekyll static site for the City of Fort Worth, Texas."
 role: Technical Lead

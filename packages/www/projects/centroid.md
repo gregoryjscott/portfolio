@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Centroid
 desc: >-
   Library for accessing environment based configuration from multiple different

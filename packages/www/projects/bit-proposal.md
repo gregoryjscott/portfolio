@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Bit Proposal
 desc: null
 role: Lead Developer

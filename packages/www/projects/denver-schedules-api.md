@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Denver Schedules API
 desc: >-
   JSON API that provides access to Denver activities that impact the residents

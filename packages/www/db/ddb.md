@@ -1,4 +1,5 @@
 ---
+layout: details
 title: DynamoDB
 desc: >-
   Amazon DynamoDB is a fully managed NoSQL database service that provides fast

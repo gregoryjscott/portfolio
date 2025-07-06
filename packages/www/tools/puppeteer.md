@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Puppeteer
 desc: >-
   Puppeteer is a Node library developed by Google that provides a high-level API

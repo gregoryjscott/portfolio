@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Ruby
 desc: >-
   Ruby is an open-source, object-oriented programming language created by

@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Energy Efficiency Map
 desc: >-
   Web application that allows the Alaska Energy Authority to monitor and

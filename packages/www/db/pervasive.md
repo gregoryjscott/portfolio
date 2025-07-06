@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Pervasive
 desc: >-
   Pervasive is a relational database management system (RDBMS) that is designed

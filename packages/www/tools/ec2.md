@@ -1,4 +1,5 @@
 ---
+layout: details
 title: EC2
 desc: >-
   Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,

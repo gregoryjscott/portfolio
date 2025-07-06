@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Consumption Views
 desc: >-
   Set of database views that provides water consumption information that feed

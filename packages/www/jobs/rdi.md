@@ -1,4 +1,5 @@
 ---
+layout: details
 title: "Resource Data, Inc."
 desc: >-
   Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska, Texas,

@@ -1,4 +1,5 @@
 ---
+layout: details
 title: NetWare
 desc: >-
   NetWare is a network operating system developed by Novell, Inc. It was one of

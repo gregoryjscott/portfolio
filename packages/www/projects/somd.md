@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Service Order Mobile Dispatch
 desc: >-
   Mobile web application that allows Anchorage Water & Wastewater Utility

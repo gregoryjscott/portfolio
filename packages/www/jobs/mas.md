@@ -1,4 +1,5 @@
 ---
+layout: details
 title: "Municipal Accounting Systems, Inc."
 desc: >-
   Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in Shawnee,

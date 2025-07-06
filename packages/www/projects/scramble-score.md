@@ -1,4 +1,5 @@
 ---
+layout: details
 title: ScrambleScore
 desc: >-
   Mobile web application that allows golfers participating in scramble golf

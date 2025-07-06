@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Class Scheduler
 desc: >-
   Process that takes student course requests along with the available courses,

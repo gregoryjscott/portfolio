@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Pascal
 desc: >-
   Pascal is a procedural programming language developed in the late 1960s by

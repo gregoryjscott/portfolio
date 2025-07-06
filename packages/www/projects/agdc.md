@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Alaska Gasline Development Corporation
 desc: >-
   Web application that provides AGDC with documentation, reporting, and querying

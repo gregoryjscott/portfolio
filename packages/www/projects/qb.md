@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Quality Bank
 subtitle: Invoicing $1 Billion/Month for Oil Pipeline
 desc: >-

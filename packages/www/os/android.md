@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Android
 desc: >-
   Android is a mobile operating system developed by Google. It is based on a

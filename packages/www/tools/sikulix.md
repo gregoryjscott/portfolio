@@ -1,4 +1,5 @@
 ---
+layout: details
 title: SikuliX
 desc: >-
   SikuliX is an open-source GUI automation tool that uses image recognition to

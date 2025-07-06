@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Typescript
 desc: >-
   Typescript is a typed superset of JavaScript that compiles to plain

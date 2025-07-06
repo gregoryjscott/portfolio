@@ -1,4 +1,5 @@
 ---
+layout: details
 title: iOS
 desc: >-
   iOS is a mobile operating system developed by Apple Inc. for its iPhone, iPad,

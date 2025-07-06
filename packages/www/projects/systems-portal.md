@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Systems Portal
 desc: Web application for tracking data used by systems administrators.
 role: Technical Lead

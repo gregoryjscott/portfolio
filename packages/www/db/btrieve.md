@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Btrieve
 desc: >-
   Btrieve is a database management system (DBMS) developed by Pervasive

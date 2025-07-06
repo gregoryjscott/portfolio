@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Linux
 desc: >-
   Linux is an open-source operating system that is based on the Linux kernel. It

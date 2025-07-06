@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Ada 95
 desc: >-
   Ada 95 is a high-level, structured, statically typed, object-oriented

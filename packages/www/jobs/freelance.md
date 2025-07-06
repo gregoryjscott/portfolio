@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Freelance Programmer
 desc: >-
   Freelance Programmer/Consultant, partnering with clients to architect and

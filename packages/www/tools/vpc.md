@@ -1,4 +1,5 @@
 ---
+layout: details
 title: VPC
 desc: >-
   Amazon Virtual Private Cloud (VPC) is a cloud computing service that provides
