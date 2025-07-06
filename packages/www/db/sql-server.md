@@ -1,4 +1,5 @@
 ---
+layout: details
 title: SQL Server
 desc: >-
   SQL Server is a relational database management system (RDBMS) developed by

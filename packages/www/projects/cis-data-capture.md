@@ -1,4 +1,5 @@
 ---
+layout: details
 title: CIS Data Capture
 desc: >-
   Console application that captures monthly snapshots of AWWU's customer

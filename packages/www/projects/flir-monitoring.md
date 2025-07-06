@@ -1,4 +1,5 @@
 ---
+layout: details
 title: FLIR Monitoring System
 desc: >-
   Software that reads the output from a FLIR laser mounted on a single engine

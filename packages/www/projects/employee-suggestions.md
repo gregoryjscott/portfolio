@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Employees Suggestion
 desc: >-
   Oracle Forms application that allows AWWU employees to submit suggestions for

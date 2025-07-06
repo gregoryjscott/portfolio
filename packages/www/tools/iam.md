@@ -1,4 +1,5 @@
 ---
+layout: details
 title: IAM
 desc: >-
   AWS Identity and Access Management (IAM) is a web service that helps you

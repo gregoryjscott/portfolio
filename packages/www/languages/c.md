@@ -1,4 +1,5 @@
 ---
+layout: details
 title: C
 desc: >-
   C is a general-purpose, procedural programming language developed in the early

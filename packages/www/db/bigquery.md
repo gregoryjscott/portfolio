@@ -1,4 +1,5 @@
 ---
+layout: details
 title: BigQuery
 desc: >-
   BigQuery is a cloud-based, fully managed, serverless data warehouse that

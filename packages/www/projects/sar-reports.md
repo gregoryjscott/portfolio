@@ -1,4 +1,5 @@
 ---
+layout: details
 title: SAR Reports
 desc: null
 role: Lead Developer

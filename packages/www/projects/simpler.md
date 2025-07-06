@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Simpler
 desc: Library that provides a simpler approach to C# class design.
 role: Author

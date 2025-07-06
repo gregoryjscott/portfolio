@@ -1,4 +1,5 @@
 ---
+layout: details
 title: EpiCloud
 subtitle: Infinitely Scaling Bots on AWS
 desc: null

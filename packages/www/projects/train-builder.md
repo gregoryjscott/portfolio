@@ -1,4 +1,5 @@
 ---
+layout: details
 title: TrainBuilder
 desc: >-
   Windows Presentation Framework (WPF) application used by the Alaska Railroad

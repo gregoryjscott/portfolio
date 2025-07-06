@@ -1,4 +1,5 @@
 ---
+layout: details
 title: HTML
 desc: >-
   HTML (HyperText Markup Language) is a markup language used to create webpages

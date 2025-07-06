@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Docker
 desc: >-
   Docker is an open-source platform for developing, shipping, and running

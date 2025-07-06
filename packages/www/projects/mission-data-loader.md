@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Mission Data Loader
 subtitle: Distributing Mission Data to B-1 Bombers
 desc: >-

@@ -1,4 +1,5 @@
 ---
+layout: details
 title: AHFC Integration
 desc: Alaska Housing Finance Corporation Integration
 role: Technical Lead

@@ -1,4 +1,5 @@
 ---
+layout: details
 title: jekyll-prep
 desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
 role: Author

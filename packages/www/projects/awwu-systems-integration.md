@@ -1,4 +1,5 @@
 ---
+layout: details
 title: AWWU Systems Integration
 desc: null
 role: Technical Lead

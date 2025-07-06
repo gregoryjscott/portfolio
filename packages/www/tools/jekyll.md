@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Jekyll
 desc: >-
   Jekyll is an open-source, Ruby-based static site generator that transforms

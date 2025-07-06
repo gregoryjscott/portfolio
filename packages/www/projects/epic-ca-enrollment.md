@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Epic California Academy Enrollment
 desc: null
 role: Technical Lead

@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Solaris
 desc: >-
   Solaris is a Unix-based operating system developed by Sun Microsystems. It is

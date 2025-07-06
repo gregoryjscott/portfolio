@@ -1,4 +1,5 @@
 ---
+layout: details
 title: MvcIntegrationTestFramework
 desc: >-
   Framework that can be used to perform integration tests on a ASP.NET MVC

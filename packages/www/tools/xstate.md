@@ -1,4 +1,5 @@
 ---
+layout: details
 title: XState
 desc: >-
   XState is a JavaScript/TypeScript library for modeling application logic as

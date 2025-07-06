@@ -1,4 +1,5 @@
 ---
+layout: details
 title: SMF Controls and Displays
 desc: null
 role: Embedded Software Engineer

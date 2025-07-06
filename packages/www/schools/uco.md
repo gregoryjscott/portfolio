@@ -1,4 +1,5 @@
 ---
+layout: details
 title: University of Central Oklahoma
 subtitle: "Bachelor of Science in Mathematics, 1998"
 desc: >-

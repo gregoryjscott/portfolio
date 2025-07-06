@@ -1,4 +1,5 @@
 ---
+layout: details
 title: jekyll-api
 desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
 role: Author

@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Wen-GAGE Student Information
 desc: >-
   Desktop application that is used by schools in Oklahoma to manage their

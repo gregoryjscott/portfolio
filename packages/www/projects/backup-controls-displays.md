@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Backup Controls and Displays
 desc: >-
   Screens used to emulate hardware such as switch boards and displays in the

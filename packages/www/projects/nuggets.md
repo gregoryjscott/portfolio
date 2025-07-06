@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Nuggets
 subtitle: Customizing Curriculum for Students using AI
 desc: >-

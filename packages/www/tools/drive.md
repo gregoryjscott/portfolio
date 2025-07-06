@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Google Drive
 desc: >-
   Google Drive is a cloud storage service that allows users to store and access

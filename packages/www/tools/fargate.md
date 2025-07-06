@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Fargate
 desc: >-
   Fargate is an Amazon Web Services (AWS) technology that allows users to deploy

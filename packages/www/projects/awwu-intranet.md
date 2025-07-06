@@ -1,4 +1,5 @@
 ---
+layout: details
 title: AWWU Intranet
 desc: >-
   Web application that contains AWWU's reporting and querying tools, systems

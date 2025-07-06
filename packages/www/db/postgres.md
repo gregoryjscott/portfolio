@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Postgres
 desc: >-
   Postgres is an open source object-relational database management system

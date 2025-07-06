@@ -1,4 +1,5 @@
 ---
+layout: details
 title: macOS
 desc: >-
   macOS is Apple’s Unix‐based desktop operating system, first released in 2001

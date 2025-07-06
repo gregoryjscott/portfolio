@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Heroku
 desc: >-
   Heroku is a cloud-based Platform as a Service (PaaS) that simplifies the

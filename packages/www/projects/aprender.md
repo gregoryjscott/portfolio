@@ -1,4 +1,5 @@
 ---
+layout: details
 title: aprender
 desc: CLI for learning Spanish
 role: Author

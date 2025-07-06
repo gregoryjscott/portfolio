@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Visual Basic
 desc: >-
   Visual Basic is a high-level, object-oriented programming language developed

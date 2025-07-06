@@ -1,4 +1,5 @@
 ---
+layout: details
 title: hazelandgreg.wedding
 desc: Wedding website for Hazel and Greg
 role: Author

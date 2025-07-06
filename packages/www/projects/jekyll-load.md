@@ -1,4 +1,5 @@
 ---
+layout: details
 title: jekyll-load
 desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
 role: Author

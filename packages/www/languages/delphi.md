@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Delphi
 desc: >-
   Delphi is an object-oriented programming language developed by Embarcadero

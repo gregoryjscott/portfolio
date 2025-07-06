@@ -1,4 +1,5 @@
 ---
+layout: details
 title: Firebase
 desc: >-
   Firebase’s Realtime Database is a cloud-hosted, NoSQL JSON data store that

@@ -1,4 +1,5 @@
 ---
+layout: details
 title: HAL
 subtitle: >-
   Hypertext Application Language (HAL) is a a media type for representing

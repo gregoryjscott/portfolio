@@ -1,4 +1,5 @@
 ---
+layout: details
 title: gregoryjscott.com
 desc: >-
   My portfolio website that uses Jekyll to create static HTML pages using YAML,
