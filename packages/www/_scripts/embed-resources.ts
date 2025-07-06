@@ -20,7 +20,9 @@ function embedLinkedResources(
   version: "source" | "target"
 ) {
   for (const resource of resourcesToUpdate) {
-    resource.target.yaml = { ...resource.source.markdown.frontmatter }
+    resource.target.yaml = {
+      ...excludeLayout(resource.source.markdown.frontmatter),
+    }
     if (resource.source.markdown.content) {
       resource.target.yaml.content = resource.source.markdown.content.trim()
     }
@@ -34,7 +36,11 @@ function embedLinkedResources(
           .map((link: Link) => {
             const linkedResource = findResource(link, resources)
             return version === "source"
-              ? { ...linkedResource[version].markdown.frontmatter }
+              ? {
+                  ...excludeLayout(
+                    linkedResource[version].markdown.frontmatter
+                  ),
+                }
               : { ...linkedResource[version].yaml }
           })
           .filter(Boolean)
@@ -68,6 +74,11 @@ function sortEmbeddedResources(resources: Resource[]) {
       writeYAML(resource.target.path, resource.target.yaml)
     }
   }
+}
+
+function excludeLayout(frontmatter: any) {
+  const { layout, ...rest } = frontmatter
+  return rest
 }
 
 process.on("unhandledRejection", err => {
