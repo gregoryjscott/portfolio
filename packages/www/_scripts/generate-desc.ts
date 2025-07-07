@@ -19,7 +19,8 @@ async function generateDesc() {
       resource.source.markdown.frontmatter.desc.length > 0
     if (hasDesc) continue
 
-    const prompt = buildPrompt(resource.relationTitle, resource.resourceTitle)
+    const prompt = buildPrompt(resource.resourceTitle, resource.relationTitle)
+    console.log(prompt)
     const promptOutput = (await runPrompt(prompt)).trim()
     resource.source.markdown.frontmatter.desc = promptOutput
     writeMarkdown(
