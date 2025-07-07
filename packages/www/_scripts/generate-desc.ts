@@ -4,16 +4,23 @@ import { getResources } from "./get-resources"
 import { Resource } from "./types"
 
 const resources: Resource[] = getResources()
-const resourcesWithPrompts = resources.filter(r => r.prompt && !r.isIndex)
+const skills = resources.filter(r => r.isSkill && !r.isIndex)
+const buildPrompt = (technologyName: string, technologyType: string) => `
+Write a concise and professional 2–3 sentence description suitable for a software
+developer’s portfolio website. Describe what ${technologyName} is and what it's 
+commonly used for. The general category of the technology is ${technologyType}.
+Focus on the specific technology, avoid promotional language, and assume the reader
+has general technical knowledge.`
 
 async function generateDesc() {
-  for (const resource of resourcesWithPrompts) {
+  for (const resource of skills) {
     const hasDesc =
       resource.source.markdown.frontmatter.desc &&
       resource.source.markdown.frontmatter.desc.length > 0
     if (hasDesc) continue
 
-    const promptOutput = (await runPrompt(resource.prompt)).trim()
+    const prompt = buildPrompt(resource.relationTitle, resource.resourceTitle)
+    const promptOutput = (await runPrompt(prompt)).trim()
     resource.source.markdown.frontmatter.desc = promptOutput
     writeMarkdown(
       resource.source.path,
