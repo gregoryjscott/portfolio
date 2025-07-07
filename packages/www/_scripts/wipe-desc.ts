@@ -3,10 +3,10 @@ import { getResources } from "./get-resources"
 import { Resource } from "./types"
 
 const resources: Resource[] = getResources()
-const resourcesWithPrompts = resources.filter(r => r.prompt && !r.isIndex)
+const skills = resources.filter(r => r.isSkill && !r.isIndex)
 
 async function wipeDesc() {
-  for (const resource of resourcesWithPrompts) {
+  for (const resource of skills) {
     resource.source.markdown.frontmatter.desc = null
     writeMarkdown(
       resource.source.path,

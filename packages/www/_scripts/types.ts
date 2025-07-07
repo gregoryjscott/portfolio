@@ -2,9 +2,11 @@ import resources from "../_data/resources.json"
 
 export type Resource = {
   relation: Relation
+  relationTitle: string
+  resourceTitle: string
   href: string
   isIndex: boolean
-  prompt: string | null
+  isSkill: boolean
   source: {
     path: {
       directory: string

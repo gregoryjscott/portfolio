@@ -2,24 +2,14 @@ import * as fs from "fs"
 import * as path from "path"
 import * as matter from "gray-matter"
 import { Link, Relation, Resource } from "./types"
-import resources from "../_data/resources.json"
+import rawResources from "../_data/resources.json"
 
 const yamlDirectory = "_data"
-export const resourceDirectories = Object.keys(resources) as Exclude<
+export const resourceDirectories = Object.keys(rawResources) as Exclude<
   Relation,
   "self"
 >[]
 
-const prompts = {
-  db: title =>
-    `Provide a brief one-paragraph summary of the ${title} database.`,
-  languages: title =>
-    `Provide a brief one-paragraph summary of the ${title} programming language.`,
-  os: title =>
-    `Provide a brief one-paragraph summary of the ${title} operating system.`,
-  tools: title =>
-    `Provide a brief one-paragraph summary of the ${title} technology.`,
-}
 export function getResources(): Resource[] {
   if (!fs.existsSync(yamlDirectory)) fs.mkdirSync(yamlDirectory)
   const resources: Resource[] = []
@@ -33,9 +23,11 @@ export function getResources(): Resource[] {
 
       resources.push({
         relation: directory,
+        relationTitle: rawResources[directory].title,
+        resourceTitle: data.title,
         href: isIndex ? `/${directory}/` : `/${directory}/${parsedPath.name}/`,
         isIndex,
-        prompt: prompts[directory] ? prompts[directory](data.title) : null,
+        isSkill: rawResources[directory].is_skill,
         source: {
           path: {
             directory,
