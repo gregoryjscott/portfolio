@@ -13,8 +13,6 @@ desc: >-
   allowing “ejecting” to integrate custom native modules—Expo accelerates
   development, simplifies maintenance and lowers the barrier to entry for
   mobile-first teams.
-begin_year: 2023
-end_year: present
 used_begin_year: 2023
 used_end_year: present
 _links:
