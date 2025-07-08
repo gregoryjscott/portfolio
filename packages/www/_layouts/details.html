@@ -11,18 +11,27 @@ layout: default
   {{ page.title }}
 </nav>
 
-{% include header.html resource=page heading_level=1 %}
+<header>
+  <h1>{{ page.title }}</h1>
 
-{% if page.desc %}
+  {% if page.begin_year and page.end_year %}
+    {% include year-range-role.html resource=page %}
+  {% endif %}
+
+  {% if page.subtitle %}
+    <p class="subtitle">{{ page.subtitle }}</p>
+  {% endif %}
+</header>
+
+{% assign stripped_content_size = page.content | strip | size %}
+{% if stripped_content_size > 0 %}
+  <div class="content">{{ page.content | markdownify }}</div>
+{% elsif page.desc %}
   <p>{{ page.desc }}</p>
 {% endif %}
 
 {% if page._links.code %}
 Source code is available at: <a href="{{ page._links.code.href }}">{{ page._links.code.title }}</a>
-{% endif %}
-
-{% if page.content %}
-  <div class="content">{{ page.content | markdownify }}</div>
 {% endif %}
 
 {% include relations-sections.html resource=page %}
