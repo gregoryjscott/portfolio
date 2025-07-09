@@ -17,6 +17,7 @@ _links:
     - href: /db/ddb/
   tools:
     - href: /tools/amplify/
+    - href: /tools/docker/
     - href: /tools/ec2/
     - href: /tools/ecr/
     - href: /tools/ecs/

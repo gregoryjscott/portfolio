@@ -35,6 +35,7 @@ _embedded:
           - href: /db/ddb/
         tools:
           - href: /tools/amplify/
+          - href: /tools/docker/
           - href: /tools/ec2/
           - href: /tools/ecr/
           - href: /tools/ecs/
@@ -145,6 +146,7 @@ _embedded:
           - href: /db/postgres/
         tools:
           - href: /tools/amplify/
+          - href: /tools/docker/
           - href: /tools/ec2/
           - href: /tools/ecr/
           - href: /tools/ecs/
