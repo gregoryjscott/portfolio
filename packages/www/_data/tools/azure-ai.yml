@@ -1,21 +1,18 @@
-title: ECS
-desc: Amazon Elastic Container Service (ECS) is a container orchestration
-  service from Amazon Web Services (AWS) that enables users to easily deploy,
-  manage, and scale containerized applications on AWS. It provides a secure and
-  scalable platform for running Docker containers, allowing users to quickly and
-  easily deploy and manage applications in the cloud. ECS also provides features
-  such as automated container scaling, service discovery, and resource
-  management.
-used_begin_year: 2015
+title: Azure AI
+desc: Azure AI is a suite of cloud-based services and APIs for integrating AI
+  capabilities—such as computer vision, speech processing, natural language
+  understanding and decision-making—into applications. It’s commonly used for
+  image and text analysis, speech-to-text and translation, and building
+  conversational agents, with seamless integration into Azure’s infrastructure
+  for scalable deployment and management.
+used_begin_year: 2023
 used_end_year: present
 _links:
   self:
-    href: /tools/ecs/
+    href: /tools/azure-ai/
   projects:
-    - href: /projects/epicloud/
     - href: /projects/nuggets/
   jobs:
-    - href: /jobs/fe/
     - href: /jobs/freelance/
 _embedded:
   projects:
@@ -56,41 +53,6 @@ _embedded:
           - href: /os/linux/
         jobs:
           - href: /jobs/freelance/
-    - title: EpiCloud
-      subtitle: Infinitely Scaling Bots on AWS
-      desc: null
-      role: Technical Lead
-      begin_year: 2015
-      end_year: 2021
-      _links:
-        self:
-          href: /projects/epicloud/
-        languages:
-          - href: /languages/ts/
-        db:
-          - href: /db/bigquery/
-          - href: /db/ddb/
-        tools:
-          - href: /tools/classroom/
-          - href: /tools/docker/
-          - href: /tools/drive/
-          - href: /tools/ec2/
-          - href: /tools/ecr/
-          - href: /tools/ecs/
-          - href: /tools/fargate/
-          - href: /tools/firebase/
-          - href: /tools/iam/
-          - href: /tools/node/
-          - href: /tools/puppeteer/
-          - href: /tools/s3/
-          - href: /tools/sikulix/
-          - href: /tools/sqs/
-          - href: /tools/vpc/
-        os:
-          - href: /os/linux/
-          - href: /os/macos/
-        jobs:
-          - href: /jobs/fe/
   jobs:
     - title: Freelance Programmer
       desc: Freelance Programmer/Consultant, partnering with clients to architect and
@@ -149,46 +111,6 @@ _embedded:
         os:
           - href: /os/android/
           - href: /os/ios/
-          - href: /os/linux/
-          - href: /os/macos/
-          - href: /os/windows/
-    - title: Futuristic Education
-      desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-        for schools and educators
-      role: Co-Founder/Programmer
-      begin_year: 2018
-      end_year: 2022
-      time_desc: March 2018 - present
-      _links:
-        self:
-          href: /jobs/fe/
-        projects:
-          - href: /projects/epic-ca-enrollment/
-          - href: /projects/epicloud/
-        languages:
-          - href: /languages/php/
-          - href: /languages/ts/
-        db:
-          - href: /db/bigquery/
-          - href: /db/ddb/
-          - href: /db/firebase/
-        tools:
-          - href: /tools/classroom/
-          - href: /tools/docker/
-          - href: /tools/drive/
-          - href: /tools/ec2/
-          - href: /tools/ecr/
-          - href: /tools/ecs/
-          - href: /tools/fargate/
-          - href: /tools/firebase/
-          - href: /tools/iam/
-          - href: /tools/node/
-          - href: /tools/puppeteer/
-          - href: /tools/s3/
-          - href: /tools/sikulix/
-          - href: /tools/sqs/
-          - href: /tools/vpc/
-        os:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/

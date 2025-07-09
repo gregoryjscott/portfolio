@@ -37,6 +37,7 @@ _links:
     - href: /db/postgres/
   tools:
     - href: /tools/amplify/
+    - href: /tools/azure-ai/
     - href: /tools/docker/
     - href: /tools/ec2/
     - href: /tools/ecr/
@@ -48,6 +49,7 @@ _links:
     - href: /tools/iam/
     - href: /tools/jekyll/
     - href: /tools/node/
+    - href: /tools/openai/
     - href: /tools/react-native/
     - href: /tools/s3/
     - href: /tools/sqs/
