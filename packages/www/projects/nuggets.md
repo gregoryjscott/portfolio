@@ -52,4 +52,4 @@ The next evolution of the app will use AI to create a truly personalized learnin
 
 Every application contains a state machine - either an explicit, well-defined one, or an ad-hoc, implicit one scattered across the codebase.
 
-My initial choice for state management, Zustand, worked well for managing state but provided no structure for organizing event logic and business rules. Adopting XState has allowed for modeling all the application logic as finite state machines — an approach that has completely changed how I build apps.
+My initial choice for state management, Zustand, worked well for managing state but provided no structure for organizing event logic and business rules. Adopting XState has allowed for modeling all the application logic as finite state machines. This approach has completely changed how I build apps.
