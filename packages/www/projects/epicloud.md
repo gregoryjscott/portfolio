@@ -43,4 +43,4 @@ As technical lead, I spearheaded the development of a network of bots, a suite o
 
 ## Key Takeaway
 
-The key to the project's widespread adoption lay in a simple change in language. Technical terms like 'workflows' or 'background tasks' were met with confusion. The moment we reframed the automation as 'bots', everyone understood. This provided a simple mental model — a bot could perform a human's task, just faster and without errors — which empowered the non-technical staff to become active partners in identifying new automation opportunities.
+The key to the project's widespread adoption lay in a simple change in language. Technical terms like 'workflows' or 'background tasks' were met with confusion. The moment we reframed the automation as 'bots', everyone understood. This provided a simple mental model. The idea that a bot could perform a human's task, just faster and without errors, empowered the non-technical staff to become active partners in identifying new automation opportunities.
