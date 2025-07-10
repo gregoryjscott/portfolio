@@ -27,30 +27,12 @@ _links:
     - href: /jobs/rdi/
 ---
 
-I remember walking away from my first face-to-face meeting with the client thinking to myself that the solution they wanted sounded impossible. Two plus years later, we delivered that exact solution. We put together amazing team of engineers with a wide variety of skills, our point of contact with the client was impressive and cooperative, our business analyst rocked, and everything came together like no other project I've been apart of before or since.
+In 2010, I was tasked with leading the replacement of the Quality Bank for the Trans-Alaska Pipeline System (TAPS) — the critical accounting system responsible for invoicing close to a billion dollars of crude oil each month. The system's core challenge was its volatility. Due to constant litigation, the complex formulas for calculating oil quality were frequently changed retroactively, requiring months or even years of past invoices to be reissued with interest. The legacy system was not designed for this reality; it was a brittle application littered with one-off patches, requiring developer intervention for every court-ordered revision and shaking the client's confidence in its accuracy.
 
-## The Problem
+Our solution was to re-architect the system around a new philosophy: business rules should be treated as versioned data, not as static code. We designed a sophisticated database-centric system where every variable affecting the calculations — from quality factors to pipeline configurations — could be versioned. This empowered the client's team of accountants and lawyers to independently manage revisions by creating new versions of the underlying datasets, without writing a single line of code. To guarantee the perfect accuracy required for a high-stakes financial system, this architecture was supported by the most rigorous, test-driven development process I have ever been a part of.
 
-- describe the structure of the Trans-Alaska Pipeline System (TAPS), like a tree with the trunk being the port of Valdez
-- oil of differing quality, owned by different companies, all mized together
-- at the port, companies receive the volume they put in and either compensate others for lower quality oil or are compensated for higher quality oil
-- many datasets are used to determine oil quality
-- the methodology for calculating quality is constantly being litigated, leading to past invoices being revised and reissued with new money amounts with interest
-  - E.g., a lawsuit would declare that one of the quality factors used between this date and that date was incorrectly calculated and therefore all the invoices during that time period would need to be revised, including interest
-  - every month had 2 - 3 different revisions
-- the legacy system was not built to handle that, and was littered with one-off if statements to handle each specific revision
-  - meaning programmers had to make code updates every time a new revision was ordered
-- also, quite often, parts of the tree are taken are shutdown temporarily, changing the formula
-
-## The Solution
-
-- we migrated the previous database, but threw away the code
-- past months were still be versioned, over and over again
-- new system allowed for capturing all the variables that could possibly affect the quality measurements as versioned datasets
-- the client can now handle revisions without code changes by creating a new version of one of the versioned datasets
-- as a test, we reissued every past invoice and matched everything to the penny
-- was probably the hardest project of my career, we had a great team, the client was great to work with, everybody worked their tail off
+The result was a transformative success. The new Quality Bank became the single source of truth, giving the client the autonomy and confidence to manage their own revisions. This eliminated their reliance on a patchwork of spreadsheets and manual checks, which our primary contact had masterfully developed out of necessity. As a final validation, we re-ran every invoice from the system's history, matching the legacy output to the penny.
 
 ## Key Takeaway
 
-A great team can build the impossible, and have fun doing it at the same time.
+A great team can build the impossible. For this project, that meant more than just technical skill; it was a combination of a disciplined, test-driven development process and a truly collaborative partnership with a client who was as committed to the outcome as we were.
