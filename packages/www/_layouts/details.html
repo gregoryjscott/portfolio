@@ -25,7 +25,7 @@ layout: default
 
 {% assign stripped_content_size = page.content | strip | size %}
 {% if stripped_content_size > 0 %}
-  <div class="content">{{ page.content | markdownify }}</div>
+  <article class="content">{{ page.content | markdownify }}</article>
 {% elsif page.desc %}
   <p>{{ page.desc }}</p>
 {% endif %}
