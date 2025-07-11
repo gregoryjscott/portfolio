@@ -40,14 +40,14 @@ _links:
     - href: /jobs/freelance/
 ---
 
-This project began as a proof-of-concept to validate the use of AI for generating dynamic language-learning exercises. While an initial version was built with Swift, I transitioned to React Native to enable support for a wider range of platforms.
+This project began as a proof of concept to validate the use of AI for generating dynamic language-learning exercises. While the initial version was built with Swift, I transitioned to React Native to support a wider range of platforms.
 
-In 2024, the project pivoted from a personal tool to a formal research project. In collaboration with my fiancée, the app was rebuilt for a master's degree capstone study on the effectiveness of micro-learning for adult Spanish learners. This research version is available in the [App Store](https://apps.apple.com/us/app/nuggets-language-learning/id6477367353) and [Play Store](https://play.google.com/store/apps/details?id=education.futuristic.nuggets).
+In 2024, the project evolved from a personal tool into a formal research initiative. In collaboration with my fiancée, the app was rebuilt for a master’s degree capstone study on the effectiveness of microlearning for adult Spanish learners. This research version is available in the [App Store](https://apps.apple.com/us/app/nuggets-language-learning/id6477367353) and [Play Store](https://play.google.com/store/apps/details?id=education.futuristic.nuggets).
 
-More recently, we added English lessons to help learners study for the U.S. Naturalization Test and obtain their citizenship. This addition marks the first step in the app's next evolution, which will use AI to create a truly personalized learning journey. It will dynamically generate curriculum tailored to each learner's unique goals and interests, continuously assess their fluency, and adapt to their progress.
+More recently, we added English lessons to help learners study for the U.S. Naturalization Test and obtain their citizenship. This marks the first step in the app’s next evolution, using AI to create a truly personalized learning journey. It will dynamically generate a curriculum tailored to each learner’s unique goals and interests, continuously assess fluency, and adapt to their progress.
 
 ## Key Takeaway
 
-Every application contains a state machine - either an explicit, well-defined one, or an ad-hoc, implicit one scattered across the codebase.
+Every application contains a state machine—either an explicit, well-defined one, or an ad hoc, implicit one scattered across the codebase.
 
-My initial choice for state management, Zustand, worked well for managing state but provided no structure for organizing event logic and business rules. Adopting XState has allowed for modeling all the application logic as finite state machines. This approach has completely changed how I build apps.
+My initial choice for state management, Zustand, worked well for managing state but offered no structure for organizing event logic and business rules. Adopting XState allowed me to model all application logic as finite state machines. This approach has completely changed how I build apps.
