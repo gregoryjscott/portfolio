@@ -5,7 +5,7 @@ subtitle: Scaling School Operations with Bots
 desc: >-
   AWS-based bot network that automates operations of a virtual charter school,
   enabling the school to scale seamlessly from 1,500 to over 60,000 students.
-role: Technical Lead
+role: Programmer/Consultant
 begin_year: 2015
 end_year: 2021
 _links:
@@ -39,9 +39,11 @@ _links:
     - href: /jobs/fe/
 ---
 
-By 2014, Epic Charter Schools was on the verge of exponential growth and had already outgrown its initial, manual-based operations. With 1,500 students, the reliance on temporary staff for data entry created a constant backlog, forcing newly enrolled students to wait weeks for curriculum access and exposing the school to unacceptable security risks.
+In 2014, Epic Charter Schools was on the verge of exponential growth and had already outgrown its initial, manual-based operations. With 1,500 students, the reliance on temporary staff for data entry created a constant backlog, forcing newly enrolled students to wait weeks for curriculum access and exposing the school to unacceptable security risks.
 
-As technical lead, I spearheaded the development of a network of bots, a suite of automated services built on Amazon Web Services (AWS), referred to collectively as EpiCloud. These bots automated over 95% of data entry tasks and were implemented alongside a new, secure, school-wide single sign-on solution. This automation enabled the school to scale seamlessly, supporting an explosive growth to over 60,000 students while providing teachers with immediate, secure access to the critical digital tools required to educate their students.
+To solve the data backlog and enable growth, I designed and built EpiCloud, a network of automated bots on Amazon Web Services (AWS). The system's core architecture was engineered for scalability, enabling the school to grow seamlessly to over 60,000 students. As word of the bots' success spread and requests for more automation multiplied, I assembled a team of developers to write the bots that automated over 95% of the school's data entry tasks.
+
+In parallel, I addressed the security risks by implementing a new, school-wide single sign-on solution. This replaced the insecure and cumbersome practice of managing separate credentials and dramatically improved the user experience. For the first time, teachers, students, and staff could securely access all school systems with their single Google account.
 
 ## Key Takeaway
 
