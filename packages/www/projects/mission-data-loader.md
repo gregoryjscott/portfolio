@@ -3,8 +3,9 @@ layout: details
 title: Mission Data Loader
 subtitle: Delivering Mission Data to B-1 Bombers
 desc: >-
-  Mission Data Loader for the B-1 Bomber's avionics software upgrade, implemented as a
-  publish-subscribe interface for distributing critical flight and targeting data across the system.
+  Mission Data Loader for the B-1 Bomber's avionics software upgrade,
+  implemented as a publish-subscribe interface for distributing critical flight
+  and targeting data across the system.
 role: Embedded Software Engineer
 begin_year: 1998
 end_year: 1999

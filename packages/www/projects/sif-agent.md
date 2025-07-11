@@ -3,8 +3,9 @@ layout: details
 title: SIF Agent
 subtitle: Automating State Reporting for 500+ Schools
 desc: >-
-  State of Oklahoma's first Schools Interoperability Framework (SIF) compliant reporting agent, securing our company's position as the dominant
-  market provider for over 500 school districts.
+  State of Oklahoma's first Schools Interoperability Framework (SIF) compliant
+  reporting agent, securing our company's position as the dominant market
+  provider for over 500 school districts.
 role: Lead Developer
 begin_year: 2004
 end_year: 2005

@@ -3,7 +3,8 @@ layout: details
 title: Nuggets
 subtitle: Dynamic Curriculum Generation with AI
 desc: >-
-  React Native app for iOS and Android that uses AI and finite state machines to generate personalized learning curriculum.
+  React Native app for iOS and Android that uses AI and finite state machines to
+  generate personalized learning curriculum.
 role: Author
 begin_year: 2023
 end_year: present
