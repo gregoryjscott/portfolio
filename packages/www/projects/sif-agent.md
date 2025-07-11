@@ -23,7 +23,7 @@ _links:
     - href: /jobs/mas/
 ---
 
-In 2004, the State of Oklahoma mandated that all Student Information Systems become compliant with the Schools Interoperability Framework (SIF), a complex, XML-based messaging protocol. At the time, I was the lead developer for MAS, a small company whose software was used by over 85% of the state's school districts. The mandate was widely seen as an existential threat, a move by large, national competitors to legislate us out of the market by requiring a technology they believed we were incapable of delivering.
+In 2004, the State of Oklahoma mandated that all Student Information Systems become compliant with the Schools Interoperability Framework (SIF), a complex, XML-based messaging protocol. At the time, I was the lead developer for [MAS](/jobs/mas/), a small company whose software was used by over 85% of the state's school districts. The mandate was widely seen as an existential threat, a move by large, national competitors to legislate us out of the market by requiring a technology they believed we were incapable of delivering.
 
 I designed and built the SIF Agent from the ground up, learning C# on the fly to implement a robust data transformation engine that mapped our Pervasive SQL database to the rigid SIF XML standard. The agent was architected for extensibility, allowing new data objects to be added through simple configuration and a set of SQL statements. The process culminated in managing the certification with the state, where our agent was so reliable that we helped debug their own certification test harness.
 

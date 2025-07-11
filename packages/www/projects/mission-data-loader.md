@@ -20,7 +20,7 @@ _links:
     - href: /jobs/boeing/
 ---
 
-After graduating with a degree in Mathematics from [UCO](/schools/uco/), I was hired as an Embedded Software Engineer at Boeing's Defense and Space Group in Oklahoma City. I joined the Controls and Displays team for the B-1 Bomber's Block E software upgrade, a complete rewrite of the avionics system. My primary responsibility was to implement the Mission Data Loader, the core component responsible for distributing mission-critical data (including flight plans, target coordinates, and weapon configurations) to all other subsystems.
+After graduating with a degree in Mathematics from [UCO](/schools/uco/), I was hired as an Embedded Software Engineer at [Boeing's Defense and Space Group](/jobs/boeing/) in Oklahoma City. I joined the Controls and Displays team for the B-1 Bomber's Block E software upgrade, a complete rewrite of the avionics system. My primary responsibility was to implement the Mission Data Loader, the core component responsible for distributing mission-critical data (including flight plans, target coordinates, and weapon configurations) to all other subsystems.
 
 The central nature of this module required constant interaction with every other team on the 100+ person project. This forced me to quickly develop the professional communication and collaboration skills essential to a large-scale engineering effort. I designed and implemented a publish-subscribe interface for data distribution and became the go-to expert for debugging the system’s complex, multi-threaded codebase. As a result of this cross-cutting role, my work became highly visible, and my contributions were known throughout the project.
 
