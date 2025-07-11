@@ -32,7 +32,7 @@ In 2010, I was tasked with leading the replacement of the Quality Bank for the T
 
 Our solution was to re-architect the system around a new philosophy: business rules should be treated as versioned data, not as static code. We designed a sophisticated database-centric system where every variable affecting the calculations (from quality factors to pipeline configurations) could be versioned. This empowered the client's team of accountants and lawyers to independently manage revisions by creating new versions of the underlying datasets, without writing a single line of code. To guarantee the perfect accuracy required for a high-stakes financial system, the architecture was supported by a rigorous, test-driven development process.
 
-The result was a transformative success. The new Quality Bank became the single source of truth, giving the client the autonomy and confidence to manage their own revisions. This eliminated their reliance on a patchwork of spreadsheets and manual checks, which our primary contact had masterfully developed out of necessity. As a final validation, we re-ran every invoice from the system's history, matching the legacy output to the penny.
+The result was a transformative success. The new Quality Bank became the single source of truth, giving the client the autonomy and confidence to manage their own revisions. As a final validation, we re-ran every invoice from the system's history, matching the legacy output to the penny.
 
 ## Key Takeaway
 
