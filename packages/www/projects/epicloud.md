@@ -2,7 +2,9 @@
 layout: details
 title: EpiCloud
 subtitle: Scaling School Operations with Bots
-desc: null
+desc: >-
+  AWS-based bot network that automates operations of a virtual charter school, enabling the school to scale seamlessly from 1,500
+  to over 60,000 students.
 role: Technical Lead
 begin_year: 2015
 end_year: 2021
