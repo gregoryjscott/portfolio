@@ -1,7 +1,7 @@
 ---
 layout: details
 title: Mission Data Loader
-subtitle: Distributing Mission Data to B-1 Bombers
+subtitle: Delivering Mission Data to B-1 Bombers
 desc: >-
   Thread responsible for reading the contents of a cartridge containing mission
   data and distributing it throughout the avionic flight software.
