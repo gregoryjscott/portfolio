@@ -74,6 +74,17 @@ p {
   margin: 2rem 0;
 }
 
+p.subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--color-text-accent);
+}
+
+article h2 {
+  font-size: 1.25rem;
+  margin: 2rem 0;
+}
+
 ul {
   list-style: none;
   padding-left: 2rem;

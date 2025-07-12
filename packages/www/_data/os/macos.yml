@@ -56,9 +56,11 @@ _embedded:
         jobs:
           - href: /jobs/freelance/
     - title: EpiCloud
-      subtitle: Infinitely Scaling Bots on AWS
-      desc: null
-      role: Technical Lead
+      subtitle: Scaling School Operations with Bots
+      desc: AWS-based bot network that automates operations of a virtual charter
+        school, enabling the school to scale seamlessly from 1,500 to over
+        60,000 students.
+      role: Programmer/Consultant
       begin_year: 2015
       end_year: 2021
       _links:
