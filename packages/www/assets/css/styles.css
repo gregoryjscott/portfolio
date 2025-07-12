@@ -21,7 +21,7 @@ body {
 
 main {
   margin: 0 auto 2rem auto;
-  max-width: 1060px;
+  max-width: 960px;
   padding: 0 2rem;
   flex: 1;
 }
