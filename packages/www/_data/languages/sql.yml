@@ -208,8 +208,9 @@ _embedded:
           - href: /jobs/rdi/
     - title: Quality Bank
       subtitle: Invoicing $1 Billion/Month for Oil Pipeline
-      desc: Web application that manages the workflow, pricing data, sampling data,
-        volume data, and invoicing for the Trans-Alaska Pipeline System.
+      desc: Rewrite of the Trans-Alaska Pipeline's $1B/month invoicing system,
+        treating business rules as versioned data to give the client full
+        control over constant, retroactive changes.
       role: Technical Lead
       begin_year: 2010
       end_year: 2012
@@ -413,10 +414,10 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
     - title: SIF Agent
-      subtitle: Integrating Schools with State of Oklahoma
-      desc: Schools Interoperability Framework (SIF) compliant agent that allows the
-        Oklahoma State Department of Education to submit queries and receive
-        real-time student data changes from schools in Oklahoma.
+      subtitle: Automating State Reporting for 500+ Schools
+      desc: State of Oklahoma's first Schools Interoperability Framework (SIF)
+        compliant reporting agent, securing our company's position as the
+        dominant market provider for over 500 school districts.
       role: Lead Developer
       begin_year: 2004
       end_year: 2005

@@ -56,9 +56,9 @@ _embedded:
       _embedded:
         projects:
           - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
+            subtitle: Dynamic Curriculum Generation with AI
+            desc: React Native app for iOS and Android that uses AI and finite state
+              machines to generate personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -193,9 +193,9 @@ _embedded:
       _embedded:
         projects:
           - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
+            subtitle: Dynamic Curriculum Generation with AI
+            desc: React Native app for iOS and Android that uses AI and finite state
+              machines to generate personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -314,9 +314,9 @@ _embedded:
       _embedded:
         projects:
           - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
+            subtitle: Dynamic Curriculum Generation with AI
+            desc: React Native app for iOS and Android that uses AI and finite state
+              machines to generate personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -429,9 +429,9 @@ _embedded:
       _embedded:
         projects:
           - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
+            subtitle: Dynamic Curriculum Generation with AI
+            desc: React Native app for iOS and Android that uses AI and finite state
+              machines to generate personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -553,9 +553,9 @@ _embedded:
       _embedded:
         projects:
           - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
+            subtitle: Dynamic Curriculum Generation with AI
+            desc: React Native app for iOS and Android that uses AI and finite state
+              machines to generate personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -671,9 +671,9 @@ _embedded:
       _embedded:
         projects:
           - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
+            subtitle: Dynamic Curriculum Generation with AI
+            desc: React Native app for iOS and Android that uses AI and finite state
+              machines to generate personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -789,9 +789,9 @@ _embedded:
       _embedded:
         projects:
           - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
+            subtitle: Dynamic Curriculum Generation with AI
+            desc: React Native app for iOS and Android that uses AI and finite state
+              machines to generate personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -826,9 +826,11 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
+            subtitle: Scaling School Operations with Bots
+            desc: AWS-based bot network that automates operations of a virtual charter
+              school, enabling the school to scale seamlessly from 1,500 to over
+              60,000 students.
+            role: Programmer/Consultant
             begin_year: 2015
             end_year: 2021
             _links:
@@ -983,9 +985,9 @@ _embedded:
       _embedded:
         projects:
           - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
+            subtitle: Dynamic Curriculum Generation with AI
+            desc: React Native app for iOS and Android that uses AI and finite state
+              machines to generate personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -1020,9 +1022,11 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
+            subtitle: Scaling School Operations with Bots
+            desc: AWS-based bot network that automates operations of a virtual charter
+              school, enabling the school to scale seamlessly from 1,500 to over
+              60,000 students.
+            role: Programmer/Consultant
             begin_year: 2015
             end_year: 2021
             _links:
@@ -1177,9 +1181,9 @@ _embedded:
       _embedded:
         projects:
           - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
+            subtitle: Dynamic Curriculum Generation with AI
+            desc: React Native app for iOS and Android that uses AI and finite state
+              machines to generate personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -1214,9 +1218,11 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
+            subtitle: Scaling School Operations with Bots
+            desc: AWS-based bot network that automates operations of a virtual charter
+              school, enabling the school to scale seamlessly from 1,500 to over
+              60,000 students.
+            role: Programmer/Consultant
             begin_year: 2015
             end_year: 2021
             _links:
@@ -1371,9 +1377,9 @@ _embedded:
       _embedded:
         projects:
           - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
+            subtitle: Dynamic Curriculum Generation with AI
+            desc: React Native app for iOS and Android that uses AI and finite state
+              machines to generate personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -1408,9 +1414,11 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
+            subtitle: Scaling School Operations with Bots
+            desc: AWS-based bot network that automates operations of a virtual charter
+              school, enabling the school to scale seamlessly from 1,500 to over
+              60,000 students.
+            role: Programmer/Consultant
             begin_year: 2015
             end_year: 2021
             _links:
@@ -1565,9 +1573,9 @@ _embedded:
       _embedded:
         projects:
           - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
+            subtitle: Dynamic Curriculum Generation with AI
+            desc: React Native app for iOS and Android that uses AI and finite state
+              machines to generate personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -1602,9 +1610,11 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
+            subtitle: Scaling School Operations with Bots
+            desc: AWS-based bot network that automates operations of a virtual charter
+              school, enabling the school to scale seamlessly from 1,500 to over
+              60,000 students.
+            role: Programmer/Consultant
             begin_year: 2015
             end_year: 2021
             _links:
@@ -1759,9 +1769,9 @@ _embedded:
       _embedded:
         projects:
           - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
+            subtitle: Dynamic Curriculum Generation with AI
+            desc: React Native app for iOS and Android that uses AI and finite state
+              machines to generate personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -1796,9 +1806,11 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
+            subtitle: Scaling School Operations with Bots
+            desc: AWS-based bot network that automates operations of a virtual charter
+              school, enabling the school to scale seamlessly from 1,500 to over
+              60,000 students.
+            role: Programmer/Consultant
             begin_year: 2015
             end_year: 2021
             _links:
@@ -1953,9 +1965,9 @@ _embedded:
       _embedded:
         projects:
           - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
+            subtitle: Dynamic Curriculum Generation with AI
+            desc: React Native app for iOS and Android that uses AI and finite state
+              machines to generate personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -1990,9 +2002,11 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
+            subtitle: Scaling School Operations with Bots
+            desc: AWS-based bot network that automates operations of a virtual charter
+              school, enabling the school to scale seamlessly from 1,500 to over
+              60,000 students.
+            role: Programmer/Consultant
             begin_year: 2015
             end_year: 2021
             _links:
@@ -2147,9 +2161,9 @@ _embedded:
       _embedded:
         projects:
           - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
+            subtitle: Dynamic Curriculum Generation with AI
+            desc: React Native app for iOS and Android that uses AI and finite state
+              machines to generate personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -2184,9 +2198,11 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
+            subtitle: Scaling School Operations with Bots
+            desc: AWS-based bot network that automates operations of a virtual charter
+              school, enabling the school to scale seamlessly from 1,500 to over
+              60,000 students.
+            role: Programmer/Consultant
             begin_year: 2015
             end_year: 2021
             _links:
@@ -2343,9 +2359,9 @@ _embedded:
       _embedded:
         projects:
           - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
+            subtitle: Dynamic Curriculum Generation with AI
+            desc: React Native app for iOS and Android that uses AI and finite state
+              machines to generate personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -2380,9 +2396,11 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
+            subtitle: Scaling School Operations with Bots
+            desc: AWS-based bot network that automates operations of a virtual charter
+              school, enabling the school to scale seamlessly from 1,500 to over
+              60,000 students.
+            role: Programmer/Consultant
             begin_year: 2015
             end_year: 2021
             _links:
@@ -2539,9 +2557,9 @@ _embedded:
       _embedded:
         projects:
           - title: Nuggets
-            subtitle: Customizing Curriculum for Students using AI
-            desc: React Native app built using AI and state machines for learning Spanish or
-              English.
+            subtitle: Dynamic Curriculum Generation with AI
+            desc: React Native app for iOS and Android that uses AI and finite state
+              machines to generate personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -2576,9 +2594,11 @@ _embedded:
               jobs:
                 - href: /jobs/freelance/
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
+            subtitle: Scaling School Operations with Bots
+            desc: AWS-based bot network that automates operations of a virtual charter
+              school, enabling the school to scale seamlessly from 1,500 to over
+              60,000 students.
+            role: Programmer/Consultant
             begin_year: 2015
             end_year: 2021
             _links:
@@ -3075,9 +3095,11 @@ _embedded:
       _embedded:
         projects:
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
+            subtitle: Scaling School Operations with Bots
+            desc: AWS-based bot network that automates operations of a virtual charter
+              school, enabling the school to scale seamlessly from 1,500 to over
+              60,000 students.
+            role: Programmer/Consultant
             begin_year: 2015
             end_year: 2021
             _links:
@@ -3170,9 +3192,11 @@ _embedded:
       _embedded:
         projects:
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
+            subtitle: Scaling School Operations with Bots
+            desc: AWS-based bot network that automates operations of a virtual charter
+              school, enabling the school to scale seamlessly from 1,500 to over
+              60,000 students.
+            role: Programmer/Consultant
             begin_year: 2015
             end_year: 2021
             _links:
@@ -3266,9 +3290,11 @@ _embedded:
       _embedded:
         projects:
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
+            subtitle: Scaling School Operations with Bots
+            desc: AWS-based bot network that automates operations of a virtual charter
+              school, enabling the school to scale seamlessly from 1,500 to over
+              60,000 students.
+            role: Programmer/Consultant
             begin_year: 2015
             end_year: 2021
             _links:
@@ -3361,9 +3387,11 @@ _embedded:
       _embedded:
         projects:
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
+            subtitle: Scaling School Operations with Bots
+            desc: AWS-based bot network that automates operations of a virtual charter
+              school, enabling the school to scale seamlessly from 1,500 to over
+              60,000 students.
+            role: Programmer/Consultant
             begin_year: 2015
             end_year: 2021
             _links:
@@ -3457,9 +3485,11 @@ _embedded:
       _embedded:
         projects:
           - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
+            subtitle: Scaling School Operations with Bots
+            desc: AWS-based bot network that automates operations of a virtual charter
+              school, enabling the school to scale seamlessly from 1,500 to over
+              60,000 students.
+            role: Programmer/Consultant
             begin_year: 2015
             end_year: 2021
             _links:
@@ -3660,8 +3690,9 @@ _embedded:
         projects:
           - title: Quality Bank
             subtitle: Invoicing $1 Billion/Month for Oil Pipeline
-            desc: Web application that manages the workflow, pricing data, sampling data,
-              volume data, and invoicing for the Trans-Alaska Pipeline System.
+            desc: Rewrite of the Trans-Alaska Pipeline's $1B/month invoicing system,
+              treating business rules as versioned data to give the client full
+              control over constant, retroactive changes.
             role: Technical Lead
             begin_year: 2010
             end_year: 2012

@@ -51,9 +51,9 @@ _links:
 _embedded:
   projects:
     - title: Nuggets
-      subtitle: Customizing Curriculum for Students using AI
-      desc: React Native app built using AI and state machines for learning Spanish or
-        English.
+      subtitle: Dynamic Curriculum Generation with AI
+      desc: React Native app for iOS and Android that uses AI and finite state
+        machines to generate personalized learning curriculum.
       role: Author
       begin_year: 2023
       end_year: present
@@ -87,6 +87,26 @@ _embedded:
           - href: /os/linux/
         jobs:
           - href: /jobs/freelance/
+      content: >-
+        This project began as a proof of concept to validate the use of AI for
+        generating dynamic language-learning exercises. While the initial
+        version was built with Swift, I transitioned to React Native to support
+        a wider range of platforms.
+
+
+        In 2024, the project evolved from a personal tool into a formal research initiative. In collaboration with my fiancée, the app was rebuilt for a master’s degree capstone study on the effectiveness of microlearning for adult Spanish learners. This research version is available in the [App Store](https://apps.apple.com/us/app/nuggets-language-learning/id6477367353) and [Play Store](https://play.google.com/store/apps/details?id=education.futuristic.nuggets).
+
+
+        More recently, we added English lessons to help learners study for the U.S. Naturalization Test and obtain their citizenship. This marks the first step in the app’s next evolution: using AI to create a truly personalized learning journey. The upcoming version generates a curriculum tailored to each learner’s unique goals and interests, continuously assesses fluency, and adapts to their progress.
+
+
+        ## Key Takeaway
+
+
+        Every application contains a state machine—either an explicit, well-defined one, or an ad hoc, implicit one scattered across the codebase.
+
+
+        My initial choice for state management, Zustand, worked well for managing state but offered no structure for organizing event logic and business rules. Adopting XState allowed me to model all application logic as finite state machines. This approach has completely changed how I build apps.
       _embedded:
         languages:
           - title: Typescript
@@ -1289,9 +1309,11 @@ _embedded:
                 - href: /os/macos/
                 - href: /os/windows/
     - title: EpiCloud
-      subtitle: Infinitely Scaling Bots on AWS
-      desc: null
-      role: Technical Lead
+      subtitle: Scaling School Operations with Bots
+      desc: AWS-based bot network that automates operations of a virtual charter
+        school, enabling the school to scale seamlessly from 1,500 to over
+        60,000 students.
+      role: Programmer/Consultant
       begin_year: 2015
       end_year: 2021
       _links:
@@ -1323,6 +1345,25 @@ _embedded:
           - href: /os/macos/
         jobs:
           - href: /jobs/fe/
+      content: >-
+        In 2014, Epic Charter Schools was on the verge of exponential growth
+        and had already outgrown its initial, manual-based operations. With
+        1,500 students, the reliance on temporary staff for data entry created a
+        constant backlog, forcing newly enrolled students to wait weeks for
+        curriculum access and exposing the school to unacceptable security
+        risks.
+
+
+        To eliminate the backlog and enable growth, I designed and built EpiCloud, a network of automated bots on Amazon Web Services (AWS). The system’s architecture was engineered for scalability, allowing the school to grow seamlessly to over 60,000 students. As word of the bots’ success spread and requests for additional automation multiplied, I assembled a team of developers to build bots that ultimately automated over 95% of the school’s data entry tasks. I built a custom command-line interface (CLI) to manage and monitor this complex network, which proved critical to its operational success.
+
+
+        In parallel, I addressed the security risks by implementing a new, school-wide single sign-on solution. This replaced the insecure practice of managing separate credentials, allowing teachers, students, and staff to securely access all school systems with just their single Google account.
+
+
+        ## Key Takeaway
+
+
+        The key to the project’s widespread adoption lay in a simple shift in language. Technical terms like 'workflows' or 'background tasks' were met with confusion. But the moment we framed the automation as 'bots', everyone understood. It provided a clear mental model: a bot could perform a human’s task, just faster and without errors. This empowered non-technical staff to become active partners in identifying new automation opportunities.
       _embedded:
         languages:
           - title: Typescript
@@ -5803,8 +5844,9 @@ _embedded:
                 - href: /os/windows/
     - title: Quality Bank
       subtitle: Invoicing $1 Billion/Month for Oil Pipeline
-      desc: Web application that manages the workflow, pricing data, sampling data,
-        volume data, and invoicing for the Trans-Alaska Pipeline System.
+      desc: Rewrite of the Trans-Alaska Pipeline's $1B/month invoicing system,
+        treating business rules as versioned data to give the client full
+        control over constant, retroactive changes.
       role: Technical Lead
       begin_year: 2010
       end_year: 2012
@@ -5825,6 +5867,29 @@ _embedded:
           - href: /os/windows/
         jobs:
           - href: /jobs/rdi/
+      content: >-
+        In 2010, I was tasked with leading the replacement of the Quality Bank
+        for the Trans-Alaska Pipeline System (TAPS), the critical accounting
+        system responsible for invoicing close to a billion dollars of crude oil
+        each month. The system’s core challenge was its volatility. Due to
+        constant litigation, the complex formulas for calculating oil quality
+        were frequently changed retroactively, requiring months or even years of
+        past invoices to be reissued with interest. The legacy system wasn’t
+        designed for this reality; it was a brittle application riddled with
+        one-off patches, requiring developer intervention for every
+        court-ordered revision.
+
+
+        Our solution was to re-architect the system around a new philosophy: business rules should be treated as versioned data, not as static code. We designed a sophisticated database-centric system where every variable affecting the calculations (from quality factors to pipeline configurations) could be versioned. This empowered the client’s team of accountants and lawyers to manage revisions independently by creating new versions of the underlying datasets, without writing a single line of code. To ensure the perfect accuracy required for a high-stakes financial system, the architecture was backed by a rigorous, test-driven development process.
+
+
+        The result was a transformative success. The new Quality Bank became the single source of truth, giving the client the autonomy and confidence to manage their own revisions. As a final validation, we re-ran every invoice from the system's history, matching the legacy output to the penny.
+
+
+        ## Key Takeaway
+
+
+        A great team can build the impossible. For this project, that meant more than just technical skill; it was a combination of a disciplined, test-driven development process and a truly collaborative partnership with a client who was as committed to the outcome as we were.
       _embedded:
         languages:
           - title: C#
@@ -9525,10 +9590,10 @@ _embedded:
                 - href: /os/macos/
                 - href: /os/windows/
     - title: SIF Agent
-      subtitle: Integrating Schools with State of Oklahoma
-      desc: Schools Interoperability Framework (SIF) compliant agent that allows the
-        Oklahoma State Department of Education to submit queries and receive
-        real-time student data changes from schools in Oklahoma.
+      subtitle: Automating State Reporting for 500+ Schools
+      desc: State of Oklahoma's first Schools Interoperability Framework (SIF)
+        compliant reporting agent, securing our company's position as the
+        dominant market provider for over 500 school districts.
       role: Lead Developer
       begin_year: 2004
       end_year: 2005
@@ -9544,6 +9609,27 @@ _embedded:
           - href: /os/windows/
         jobs:
           - href: /jobs/mas/
+      content: >-
+        In 2004, the State of Oklahoma mandated that all Student Information
+        Systems become compliant with the Schools Interoperability Framework
+        (SIF), a complex, XML-based messaging protocol. At the time, I was the
+        lead developer for [MAS](/jobs/mas/), a small company whose software was
+        used by over 85% of the state's school districts. The mandate was widely
+        seen as an existential threat, a move by large, national competitors to
+        legislate us out of the market by requiring a technology they believed
+        we were incapable of delivering.
+
+
+        I designed and built the SIF Agent from the ground up, learning C# on the fly to implement a robust data transformation engine that mapped our Pervasive SQL database to the rigid SIF XML standard. The agent was architected for extensibility, allowing new data objects to be added through simple configuration and a set of SQL statements. The process culminated in certification with the state, where our agent was so reliable that we helped debug their own certification test harness.
+
+
+        Against all expectations, we delivered the solution ahead of schedule, becoming the first and only SIS vendor in Oklahoma to meet the state's deadline. This decisive victory turned a perceived threat into a market-defining triumph. The state officially recommended MAS as their preferred choice, cementing our position as the dominant provider and creating a legendary success story in the company’s history.
+
+
+        ## Key Takeaway
+
+
+        Even the most intimidating enterprise challenges are just code. The key is to deconstruct the complexity, break the problem down into its logical parts, and have the confidence to execute. For this project, that meant turning an inch-thick specification into a series of solvable coding challenges.
       _embedded:
         languages:
           - title: C#
@@ -10462,9 +10548,10 @@ _embedded:
               os:
                 - href: /os/solaris/
     - title: Mission Data Loader
-      subtitle: Distributing Mission Data to B-1 Bombers
-      desc: Thread responsible for reading the contents of a cartridge containing
-        mission data and distributing it throughout the avionic flight software.
+      subtitle: Delivering Mission Data to B-1 Bombers
+      desc: Mission Data Loader for the B-1 Bomber's avionics software upgrade,
+        implemented as a publish-subscribe interface for distributing critical
+        flight and targeting data across the system.
       role: Embedded Software Engineer
       begin_year: 1998
       end_year: 1999
@@ -10477,6 +10564,28 @@ _embedded:
           - href: /os/solaris/
         jobs:
           - href: /jobs/boeing/
+      content: >-
+        After graduating with a degree in Mathematics from
+        [UCO](/schools/uco/), I was hired as an Embedded Software Engineer at
+        [Boeing's Defense and Space Group](/jobs/boeing/) in Oklahoma City. I
+        joined the Controls and Displays team for the B-1 Bomber's Block E
+        software upgrade, a complete rewrite of the avionics system. My primary
+        responsibility was to implement the Mission Data Loader, the core
+        component responsible for distributing mission-critical data (including
+        flight plans, target coordinates, and weapon configurations) to all
+        other subsystems.
+
+
+        The central nature of this module required constant interaction with every other team on the 100+ person project. This forced me to quickly develop the professional communication and collaboration skills essential to a large-scale engineering effort. I designed and implemented a publish-subscribe interface for data distribution and became the go-to expert for debugging the system’s complex, multi-threaded codebase. As a result of this cross-cutting role, my work became highly visible, and my contributions were known throughout the project.
+
+
+        To this day, it’s a source of pride knowing that, for a time, every B-1 mission began with a crew member inserting a cartridge and running my code.
+
+
+        ## Key Takeaway
+
+
+        I learned how to be a professional programmer on this project. I was given a critical task, delivered on it, and earned my place as a core member of a high-performing team.
       _embedded:
         languages:
           - title: Ada 95
