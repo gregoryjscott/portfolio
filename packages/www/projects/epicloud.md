@@ -43,7 +43,7 @@ In 2014, Epic Charter Schools was on the verge of exponential growth and had alr
 
 To eliminate the backlog and enable growth, I designed and built EpiCloud, a network of automated bots on Amazon Web Services (AWS). The system’s architecture was engineered for scalability, allowing the school to grow seamlessly to over 60,000 students. As word of the bots’ success spread and requests for additional automation multiplied, I assembled a team of developers to build bots that ultimately automated over 95% of the school’s data entry tasks. I built a custom command-line interface (CLI) to manage and monitor this complex network, which proved critical to its operational success.
 
-In parallel, I addressed the security risks by implementing a new, school-wide single sign-on solution. This replaced the insecure, cumbersome practice of managing separate credentials and dramatically improved the user experience. For the first time, teachers, students, and staff could securely access all school systems using their single Google account.
+In parallel, I addressed the security risks by implementing a new, school-wide single sign-on solution. This replaced the insecure practice of managing separate credentials, allowing teachers, students, and staff to securely access all school systems with just their single Google account.
 
 ## Key Takeaway
 
