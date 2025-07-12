@@ -47,4 +47,4 @@ In parallel, I addressed the security risks by implementing a new, school-wide s
 
 ## Key Takeaway
 
-The key to the project’s widespread adoption lay in a simple shift in language. Technical terms like workflows or background tasks were met with confusion. But the moment we framed the automation as bots, everyone understood. It provided a clear mental model: a bot could perform a human’s task, just faster and without errors. This empowered non-technical staff to become active partners in identifying new automation opportunities.
+The key to the project’s widespread adoption lay in a simple shift in language. Technical terms like 'workflows' or 'background tasks' were met with confusion. But the moment we framed the automation as 'bots', everyone understood. It provided a clear mental model: a bot could perform a human’s task, just faster and without errors. This empowered non-technical staff to become active partners in identifying new automation opportunities.
