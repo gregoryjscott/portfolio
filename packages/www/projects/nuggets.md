@@ -17,6 +17,8 @@ _links:
     - href: /db/ddb/
   tools:
     - href: /tools/amplify/
+    - href: /tools/azure-ai/
+    - href: /tools/docker/
     - href: /tools/ec2/
     - href: /tools/ecr/
     - href: /tools/ecs/
@@ -24,6 +26,7 @@ _links:
     - href: /tools/fargate/
     - href: /tools/iam/
     - href: /tools/node/
+    - href: /tools/openai/
     - href: /tools/react-native/
     - href: /tools/s3/
     - href: /tools/sqs/

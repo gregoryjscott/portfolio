@@ -34,6 +34,8 @@ _links:
     - href: /db/postgres/
   tools:
     - href: /tools/amplify/
+    - href: /tools/azure-ai/
+    - href: /tools/docker/
     - href: /tools/ec2/
     - href: /tools/ecr/
     - href: /tools/ecs/
@@ -44,6 +46,7 @@ _links:
     - href: /tools/iam/
     - href: /tools/jekyll/
     - href: /tools/node/
+    - href: /tools/openai/
     - href: /tools/react-native/
     - href: /tools/s3/
     - href: /tools/sqs/
@@ -80,6 +83,8 @@ _embedded:
           - href: /db/ddb/
         tools:
           - href: /tools/amplify/
+          - href: /tools/azure-ai/
+          - href: /tools/docker/
           - href: /tools/ec2/
           - href: /tools/ecr/
           - href: /tools/ecs/
@@ -87,6 +92,7 @@ _embedded:
           - href: /tools/fargate/
           - href: /tools/iam/
           - href: /tools/node/
+          - href: /tools/openai/
           - href: /tools/react-native/
           - href: /tools/s3/
           - href: /tools/sqs/
@@ -597,6 +603,41 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/freelance/
+    - title: Azure AI
+      desc: Azure AI is a suite of cloud-based services and APIs for integrating AI
+        capabilities—such as computer vision, speech processing, natural
+        language understanding and decision-making—into applications. It’s
+        commonly used for image and text analysis, speech-to-text and
+        translation, and building conversational agents, with seamless
+        integration into Azure’s infrastructure for scalable deployment and
+        management.
+      used_begin_year: 2023
+      used_end_year: present
+      _links:
+        self:
+          href: /tools/azure-ai/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+    - title: Docker
+      desc: Docker is an open-source platform for developing, shipping, and running
+        applications. It uses container technology to package applications into
+        isolated, lightweight, and portable containers that can be quickly
+        deployed and moved between different computing environments. Docker also
+        provides a set of tools and services to help developers build, ship, and
+        run applications in a more efficient and secure way.
+      used_begin_year: 2015
+      used_end_year: present
+      _links:
+        self:
+          href: /tools/docker/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/freelance/
     - title: EC2
       desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
         resizable compute capacity in the cloud. It is designed to make
@@ -799,6 +840,21 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
+          - href: /jobs/freelance/
+    - title: OpenAI
+      desc: OpenAI provides a suite of AI development tools and APIs built on
+        large-scale machine learning models for natural language understanding,
+        generation and reinforcement learning. It’s commonly used to integrate
+        text generation, code completion, summarization, translation and
+        conversational agents into applications.
+      used_begin_year: 2023
+      used_end_year: present
+      _links:
+        self:
+          href: /tools/openai/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
           - href: /jobs/freelance/
     - title: React Native
       desc: React Native is an open-source framework developed by Facebook that

@@ -6,16 +6,55 @@ desc: Docker is an open-source platform for developing, shipping, and running
   of tools and services to help developers build, ship, and run applications in
   a more efficient and secure way.
 used_begin_year: 2015
-used_end_year: 2021
+used_end_year: present
 _links:
   self:
     href: /tools/docker/
   projects:
     - href: /projects/epicloud/
+    - href: /projects/nuggets/
   jobs:
     - href: /jobs/fe/
+    - href: /jobs/freelance/
 _embedded:
   projects:
+    - title: Nuggets
+      subtitle: Customizing Curriculum for Students using AI
+      desc: React Native app built using AI and state machines for learning Spanish or
+        English.
+      role: Author
+      begin_year: 2023
+      end_year: present
+      _links:
+        self:
+          href: /projects/nuggets/
+        languages:
+          - href: /languages/ts/
+        db:
+          - href: /db/ddb/
+        tools:
+          - href: /tools/amplify/
+          - href: /tools/azure-ai/
+          - href: /tools/docker/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/expo/
+          - href: /tools/fargate/
+          - href: /tools/iam/
+          - href: /tools/node/
+          - href: /tools/openai/
+          - href: /tools/react-native/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+          - href: /tools/xstate/
+        os:
+          - href: /os/android/
+          - href: /os/ios/
+          - href: /os/linux/
+        jobs:
+          - href: /jobs/freelance/
     - title: EpiCloud
       subtitle: Infinitely Scaling Bots on AWS
       desc: null
@@ -52,6 +91,66 @@ _embedded:
         jobs:
           - href: /jobs/fe/
   jobs:
+    - title: Freelance Programmer
+      desc: Freelance Programmer/Consultant, partnering with clients to architect and
+        implement technology solutions
+      role: Freelance Programmer
+      begin_year: 2014
+      end_year: present
+      time_desc: July 2014 - present
+      _links:
+        self:
+          href: /jobs/freelance/
+        projects:
+          - href: /projects/aprender/
+          - href: /projects/cfw/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/la-boda/
+          - href: /projects/mvc-integration-test-framework/
+          - href: /projects/nuggets/
+          - href: /projects/simpler/
+          - href: /projects/this-site/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/rb/
+          - href: /languages/sql/
+          - href: /languages/ts/
+        db:
+          - href: /db/ddb/
+          - href: /db/postgres/
+        tools:
+          - href: /tools/amplify/
+          - href: /tools/azure-ai/
+          - href: /tools/docker/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/expo/
+          - href: /tools/fargate/
+          - href: /tools/hal/
+          - href: /tools/heroku/
+          - href: /tools/iam/
+          - href: /tools/jekyll/
+          - href: /tools/node/
+          - href: /tools/openai/
+          - href: /tools/react-native/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+          - href: /tools/xstate/
+        os:
+          - href: /os/android/
+          - href: /os/ios/
+          - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
     - title: Futuristic Education
       desc: Co-Founder/Programmer of Futuristic Education, building custom technology
         for schools and educators

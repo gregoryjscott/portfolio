@@ -97,6 +97,8 @@ _embedded:
           - href: /db/ddb/
         tools:
           - href: /tools/amplify/
+          - href: /tools/azure-ai/
+          - href: /tools/docker/
           - href: /tools/ec2/
           - href: /tools/ecr/
           - href: /tools/ecs/
@@ -104,6 +106,7 @@ _embedded:
           - href: /tools/fargate/
           - href: /tools/iam/
           - href: /tools/node/
+          - href: /tools/openai/
           - href: /tools/react-native/
           - href: /tools/s3/
           - href: /tools/sqs/
@@ -182,6 +185,42 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
               jobs:
+                - href: /jobs/freelance/
+          - title: Azure AI
+            desc: Azure AI is a suite of cloud-based services and APIs for integrating AI
+              capabilities—such as computer vision, speech processing, natural
+              language understanding and decision-making—into applications. It’s
+              commonly used for image and text analysis, speech-to-text and
+              translation, and building conversational agents, with seamless
+              integration into Azure’s infrastructure for scalable deployment
+              and management.
+            used_begin_year: 2023
+            used_end_year: present
+            _links:
+              self:
+                href: /tools/azure-ai/
+              projects:
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+          - title: Docker
+            desc: Docker is an open-source platform for developing, shipping, and running
+              applications. It uses container technology to package applications
+              into isolated, lightweight, and portable containers that can be
+              quickly deployed and moved between different computing
+              environments. Docker also provides a set of tools and services to
+              help developers build, ship, and run applications in a more
+              efficient and secure way.
+            used_begin_year: 2015
+            used_end_year: present
+            _links:
+              self:
+                href: /tools/docker/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
                 - href: /jobs/freelance/
           - title: EC2
             desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
@@ -323,6 +362,22 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
+                - href: /jobs/freelance/
+          - title: OpenAI
+            desc: OpenAI provides a suite of AI development tools and APIs built on
+              large-scale machine learning models for natural language
+              understanding, generation and reinforcement learning. It’s
+              commonly used to integrate text generation, code completion,
+              summarization, translation and conversational agents into
+              applications.
+            used_begin_year: 2023
+            used_end_year: present
+            _links:
+              self:
+                href: /tools/openai/
+              projects:
+                - href: /projects/nuggets/
+              jobs:
                 - href: /jobs/freelance/
           - title: React Native
             desc: React Native is an open-source framework developed by Facebook that
@@ -537,6 +592,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -547,6 +604,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -666,14 +724,16 @@ _embedded:
               help developers build, ship, and run applications in a more
               efficient and secure way.
             used_begin_year: 2015
-            used_end_year: 2021
+            used_end_year: present
             _links:
               self:
                 href: /tools/docker/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
+                - href: /jobs/freelance/
           - title: EC2
             desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
               resizable compute capacity in the cloud. It is designed to make
@@ -2347,6 +2407,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -2357,6 +2419,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -2779,6 +2842,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -2789,6 +2854,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -3294,6 +3360,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -3304,6 +3372,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -3645,6 +3714,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -3655,6 +3726,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -4283,6 +4355,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -4293,6 +4367,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -4871,6 +4946,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -4881,6 +4958,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -5058,6 +5136,8 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -5065,6 +5145,7 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/iam/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -5173,6 +5254,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -5183,6 +5266,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -5634,6 +5718,8 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -5641,6 +5727,7 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/iam/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -5744,6 +5831,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -5754,6 +5843,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -6371,6 +6461,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -6381,6 +6473,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -6808,6 +6901,8 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -6815,6 +6910,7 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/iam/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -6883,6 +6979,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -6893,6 +6991,124 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
+    - title: Azure AI
+      desc: Azure AI is a suite of cloud-based services and APIs for integrating AI
+        capabilities—such as computer vision, speech processing, natural
+        language understanding and decision-making—into applications. It’s
+        commonly used for image and text analysis, speech-to-text and
+        translation, and building conversational agents, with seamless
+        integration into Azure’s infrastructure for scalable deployment and
+        management.
+      used_begin_year: 2023
+      used_end_year: present
+      _links:
+        self:
+          href: /tools/azure-ai/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2023
+            end_year: present
+            _links:
+              self:
+                href: /projects/nuggets/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/expo/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/openai/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: present
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/nuggets/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+                - href: /db/postgres/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/expo/
+                - href: /tools/fargate/
+                - href: /tools/hal/
+                - href: /tools/heroku/
+                - href: /tools/iam/
+                - href: /tools/jekyll/
+                - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -7017,105 +7233,10 @@ _embedded:
         provides a set of tools and services to help developers build, ship, and
         run applications in a more efficient and secure way.
       used_begin_year: 2015
-      used_end_year: 2021
-      _links:
-        self:
-          href: /tools/docker/
-        projects:
-          - href: /projects/epicloud/
-        jobs:
-          - href: /jobs/fe/
-      _embedded:
-        projects:
-          - title: EpiCloud
-            subtitle: Infinitely Scaling Bots on AWS
-            desc: null
-            role: Technical Lead
-            begin_year: 2015
-            end_year: 2021
-            _links:
-              self:
-                href: /projects/epicloud/
-              languages:
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sikulix/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-              jobs:
-                - href: /jobs/fe/
-        jobs:
-          - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
-            begin_year: 2018
-            end_year: 2022
-            time_desc: March 2018 - present
-            _links:
-              self:
-                href: /jobs/fe/
-              projects:
-                - href: /projects/epic-ca-enrollment/
-                - href: /projects/epicloud/
-              languages:
-                - href: /languages/php/
-                - href: /languages/ts/
-              db:
-                - href: /db/bigquery/
-                - href: /db/ddb/
-                - href: /db/firebase/
-              tools:
-                - href: /tools/classroom/
-                - href: /tools/docker/
-                - href: /tools/drive/
-                - href: /tools/ec2/
-                - href: /tools/ecr/
-                - href: /tools/ecs/
-                - href: /tools/fargate/
-                - href: /tools/firebase/
-                - href: /tools/iam/
-                - href: /tools/node/
-                - href: /tools/puppeteer/
-                - href: /tools/s3/
-                - href: /tools/sikulix/
-                - href: /tools/sqs/
-                - href: /tools/vpc/
-              os:
-                - href: /os/linux/
-                - href: /os/macos/
-                - href: /os/windows/
-    - title: EC2
-      desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
-        resizable compute capacity in the cloud. It is designed to make
-        web-scale cloud computing easier for developers. EC2 allows users to
-        launch virtual servers, called “instances”, which can be configured to
-        their specific needs. EC2 also provides users with the ability to scale
-        their computing resources up or down as needed, allowing them to pay
-        only for the resources they use.
-      used_begin_year: 2015
       used_end_year: present
       _links:
         self:
-          href: /tools/ec2/
+          href: /tools/docker/
         projects:
           - href: /projects/epicloud/
           - href: /projects/nuggets/
@@ -7140,6 +7261,8 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -7147,6 +7270,7 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/iam/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -7230,6 +7354,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -7240,6 +7366,201 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
+          - title: Futuristic Education
+            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
+              for schools and educators
+            role: Co-Founder/Programmer
+            begin_year: 2018
+            end_year: 2022
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/epicloud/
+              languages:
+                - href: /languages/php/
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
+    - title: EC2
+      desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
+        resizable compute capacity in the cloud. It is designed to make
+        web-scale cloud computing easier for developers. EC2 allows users to
+        launch virtual servers, called “instances”, which can be configured to
+        their specific needs. EC2 also provides users with the ability to scale
+        their computing resources up or down as needed, allowing them to pay
+        only for the resources they use.
+      used_begin_year: 2015
+      used_end_year: present
+      _links:
+        self:
+          href: /tools/ec2/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2023
+            end_year: present
+            _links:
+              self:
+                href: /projects/nuggets/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/expo/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/openai/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
+          - title: EpiCloud
+            subtitle: Infinitely Scaling Bots on AWS
+            desc: null
+            role: Technical Lead
+            begin_year: 2015
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epicloud/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
+              jobs:
+                - href: /jobs/fe/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: present
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/nuggets/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+                - href: /db/postgres/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/expo/
+                - href: /tools/fargate/
+                - href: /tools/hal/
+                - href: /tools/heroku/
+                - href: /tools/iam/
+                - href: /tools/jekyll/
+                - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -7328,6 +7649,8 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -7335,6 +7658,7 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/iam/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -7418,6 +7742,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -7428,6 +7754,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -7516,6 +7843,8 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -7523,6 +7852,7 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/iam/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -7606,6 +7936,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -7616,6 +7948,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -7706,6 +8039,8 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -7713,6 +8048,7 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/iam/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -7761,6 +8097,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -7771,6 +8109,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -7819,6 +8158,8 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -7826,6 +8167,7 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/iam/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -7909,6 +8251,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -7919,6 +8263,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -8365,6 +8710,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -8375,6 +8722,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -8463,6 +8811,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -8473,6 +8823,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -8521,6 +8872,8 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -8528,6 +8881,7 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/iam/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -8611,6 +8965,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -8621,6 +8977,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -8859,6 +9216,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -8869,6 +9228,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -8917,6 +9277,8 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -8924,6 +9286,7 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/iam/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -9007,6 +9370,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -9017,6 +9382,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -9065,6 +9431,121 @@ _embedded:
                 - href: /tools/sqs/
                 - href: /tools/vpc/
               os:
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
+    - title: OpenAI
+      desc: OpenAI provides a suite of AI development tools and APIs built on
+        large-scale machine learning models for natural language understanding,
+        generation and reinforcement learning. It’s commonly used to integrate
+        text generation, code completion, summarization, translation and
+        conversational agents into applications.
+      used_begin_year: 2023
+      used_end_year: present
+      _links:
+        self:
+          href: /tools/openai/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/freelance/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Customizing Curriculum for Students using AI
+            desc: React Native app built using AI and state machines for learning Spanish or
+              English.
+            role: Author
+            begin_year: 2023
+            end_year: present
+            _links:
+              self:
+                href: /projects/nuggets/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/expo/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/openai/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              jobs:
+                - href: /jobs/freelance/
+        jobs:
+          - title: Freelance Programmer
+            desc: Freelance Programmer/Consultant, partnering with clients to architect and
+              implement technology solutions
+            role: Freelance Programmer
+            begin_year: 2014
+            end_year: present
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/freelance/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/nuggets/
+                - href: /projects/simpler/
+                - href: /projects/this-site/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+                - href: /db/postgres/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/expo/
+                - href: /tools/fargate/
+                - href: /tools/hal/
+                - href: /tools/heroku/
+                - href: /tools/iam/
+                - href: /tools/jekyll/
+                - href: /tools/node/
+                - href: /tools/openai/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
@@ -9205,6 +9686,8 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -9212,6 +9695,7 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/iam/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -9260,6 +9744,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -9270,6 +9756,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -9318,6 +9805,8 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -9325,6 +9814,7 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/iam/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -9408,6 +9898,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -9418,6 +9910,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -9604,6 +10097,8 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -9611,6 +10106,7 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/iam/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -9694,6 +10190,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -9704,6 +10202,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -9794,6 +10293,8 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -9801,6 +10302,7 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/iam/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -9884,6 +10386,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -9894,6 +10398,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -9981,6 +10486,8 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -9988,6 +10495,7 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/iam/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -10036,6 +10544,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -10046,6 +10556,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -10139,6 +10650,8 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -10146,6 +10659,7 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/iam/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -10194,6 +10708,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -10204,6 +10720,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -10251,6 +10768,8 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -10258,6 +10777,7 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/iam/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -10306,6 +10826,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -10316,6 +10838,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -10374,6 +10897,8 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -10381,6 +10906,7 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/iam/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -10674,6 +11200,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -10684,6 +11212,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -11062,6 +11591,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -11072,6 +11603,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -12060,6 +12592,8 @@ _embedded:
                 - href: /db/postgres/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -12070,6 +12604,7 @@ _embedded:
                 - href: /tools/iam/
                 - href: /tools/jekyll/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -12267,6 +12802,8 @@ _embedded:
           - href: /db/postgres/
         tools:
           - href: /tools/amplify/
+          - href: /tools/azure-ai/
+          - href: /tools/docker/
           - href: /tools/ec2/
           - href: /tools/ecr/
           - href: /tools/ecs/
@@ -12277,6 +12814,7 @@ _embedded:
           - href: /tools/iam/
           - href: /tools/jekyll/
           - href: /tools/node/
+          - href: /tools/openai/
           - href: /tools/react-native/
           - href: /tools/s3/
           - href: /tools/sqs/
@@ -12313,6 +12851,8 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
                 - href: /tools/ecs/
@@ -12320,6 +12860,7 @@ _embedded:
                 - href: /tools/fargate/
                 - href: /tools/iam/
                 - href: /tools/node/
+                - href: /tools/openai/
                 - href: /tools/react-native/
                 - href: /tools/s3/
                 - href: /tools/sqs/
@@ -12837,6 +13378,42 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/freelance/
+          - title: Azure AI
+            desc: Azure AI is a suite of cloud-based services and APIs for integrating AI
+              capabilities—such as computer vision, speech processing, natural
+              language understanding and decision-making—into applications. It’s
+              commonly used for image and text analysis, speech-to-text and
+              translation, and building conversational agents, with seamless
+              integration into Azure’s infrastructure for scalable deployment
+              and management.
+            used_begin_year: 2023
+            used_end_year: present
+            _links:
+              self:
+                href: /tools/azure-ai/
+              projects:
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/freelance/
+          - title: Docker
+            desc: Docker is an open-source platform for developing, shipping, and running
+              applications. It uses container technology to package applications
+              into isolated, lightweight, and portable containers that can be
+              quickly deployed and moved between different computing
+              environments. Docker also provides a set of tools and services to
+              help developers build, ship, and run applications in a more
+              efficient and secure way.
+            used_begin_year: 2015
+            used_end_year: present
+            _links:
+              self:
+                href: /tools/docker/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/freelance/
           - title: EC2
             desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
               resizable compute capacity in the cloud. It is designed to make
@@ -13047,6 +13624,22 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
+                - href: /jobs/freelance/
+          - title: OpenAI
+            desc: OpenAI provides a suite of AI development tools and APIs built on
+              large-scale machine learning models for natural language
+              understanding, generation and reinforcement learning. It’s
+              commonly used to integrate text generation, code completion,
+              summarization, translation and conversational agents into
+              applications.
+            used_begin_year: 2023
+            used_end_year: present
+            _links:
+              self:
+                href: /tools/openai/
+              projects:
+                - href: /projects/nuggets/
+              jobs:
                 - href: /jobs/freelance/
           - title: React Native
             desc: React Native is an open-source framework developed by Facebook that
@@ -13518,14 +14111,16 @@ _embedded:
               help developers build, ship, and run applications in a more
               efficient and secure way.
             used_begin_year: 2015
-            used_end_year: 2021
+            used_end_year: present
             _links:
               self:
                 href: /tools/docker/
               projects:
                 - href: /projects/epicloud/
+                - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
+                - href: /jobs/freelance/
           - title: EC2
             desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
               resizable compute capacity in the cloud. It is designed to make

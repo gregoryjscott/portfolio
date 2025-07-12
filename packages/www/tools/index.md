@@ -9,6 +9,7 @@ _links:
     href: /tools/
   tools:
     - href: /tools/amplify/
+    - href: /tools/azure-ai/
     - href: /tools/backbone/
     - href: /tools/classroom/
     - href: /tools/docker/
@@ -24,6 +25,7 @@ _links:
     - href: /tools/iam/
     - href: /tools/jekyll/
     - href: /tools/node/
+    - href: /tools/openai/
     - href: /tools/puppeteer/
     - href: /tools/react-native/
     - href: /tools/s3/
