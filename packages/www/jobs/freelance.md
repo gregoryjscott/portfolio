@@ -63,6 +63,7 @@ _links:
     - href: /os/windows/
 ---
 
-- Designed and built the software infrastructure that powers the sites and applications for the City of Fort Worth, Texas
-- Contributed to the Code for America's project that sends citizens of Denver, Colorado reminder text messages of street-sweeping dates to avoid parking tickets
-- Building open-source software for profit and fun
+- Developing an AI-powered language learning app for iOS and Android, taking it from a personal proof-of-concept to a formal research tool for a master's degree study on micro-learning.
+- Built an interactive mobile study tool for the U.S. Naturalization Test, featuring audio questions, practice exams, and bookmarking to help learners master the official USCIS curriculum.
+- Architected and built the unified software infrastructure for the City of Fort Worth's public websites, consolidating disparate CMSs, APIs, and datasets into a single, manageable Jekyll-based static site.
+- Established the core technical foundation for a Code for America civic tech project, implementing the project structure, building the automated testing suite, and debugging the core scheduling logic for a citizen reminder system.
