@@ -44,6 +44,6 @@ _links:
 ---
 
 - Architected and built the entire cloud infrastructure for one of the nation's largest charter schools, enabling growth from 1,500 to over 60,000 students through a scalable network of bots that automated 95% of data entry tasks.
-- Implemented a secure, school-wide single sign-on (SSO) solution that eliminated critical security risks and simplified access to all systems for over 60,000 users.
+- Implemented a secure, school-wide single sign-on (SSO) solution that eliminated critical security risks and simplified access to all systems for all users.
 - Developed a custom data warehouse with a complete time-series history of all student data, providing the school's data team with unprecedented insight and enabling rapid debugging and reporting.
 - Created a suite of student performance reports that translated raw data into actionable insights, empowering teachers to focus on instruction by automating the tracking of student strengths, weaknesses, and growth.
