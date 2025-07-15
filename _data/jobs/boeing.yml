@@ -21,9 +21,13 @@ content: >-
   interface that all other avionics teams depended on for distributing flight
   plans, target coordinates, and weapon configurations.
 
-  - Ensured mission continuity during hardware failures by developing a suite of backup displays that provided full redundancy for critical input devices like keypads and switch panels.
+  - Ensured mission continuity during hardware failures by developing a suite of
+  backup displays that provided full redundancy for critical input devices like
+  keypads and switch panels.
 
-  - Functioned as a key contributor to both the Controls & Displays and the core System Management Function teams, developing the displays used to monitor the B-1's custom-built avionics operating system.
+  - Functioned as a key contributor to both the Controls & Displays and the core
+  System Management Function teams, developing the displays used to monitor the
+  B-1's custom-built avionics operating system.
 _embedded:
   projects:
     - title: Backup Controls and Displays
