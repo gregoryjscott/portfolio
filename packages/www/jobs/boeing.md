@@ -2,9 +2,8 @@
 layout: details
 title: "Boeing, Defense & Space Group"
 desc: >-
-  Embedded Software Engineer for Boeing, Defense and Space Group, based in
-  Oklahoma City, Oklahoma that developed the B1-B Bomber Block E software
-  upgrade
+  Embedded Software Engineer at Boeing's Defense & Space Group in Oklahoma City, developing
+  avionics software for the B-1 Bomber's Block E upgrade
 role: Embedded Software Engineer
 begin_year: 1998
 end_year: 1999

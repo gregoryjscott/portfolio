@@ -1,10 +1,10 @@
 ---
 layout: details
-title: Freelance Programmer
+title: Independent Programmer and Consultant
 desc: >-
-  Freelance Programmer/Consultant, partnering with clients to architect and
-  implement technology solutions
-role: Freelance Programmer
+  Independent Programmer and Consultant, building next-generation education technology and
+  partnering with select clients to architect high-impact software solutions
+role: Independent Programmer and Consultant
 begin_year: 2014
 end_year: present
 time_desc: July 2014 - present
