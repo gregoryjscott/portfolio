@@ -30,7 +30,6 @@
     "openai": "^5.0.1",
     "prettier": "2.8.0",
     "ts-node": "^10.9.1",
-    "tsconfig": "*",
     "typescript": "^4.9.3",
     "yaml": "^2.1.3"
   }
