@@ -27,6 +27,6 @@ _links:
     - href: /projects/systems-portal/
     - href: /projects/this-site/
   jobs:
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
     - href: /jobs/rdi/
 ---

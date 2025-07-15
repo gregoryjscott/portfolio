@@ -74,7 +74,7 @@ _embedded:
           - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
   db:
     - title: BigQuery
       desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
@@ -113,7 +113,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
   tools:
     - title: Docker
       desc: Docker is an open-source platform for developing, shipping, and running
@@ -132,7 +132,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: EC2
       desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
         resizable compute capacity in the cloud. It is designed to make
@@ -151,7 +151,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: ECR
       desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
         container registry that makes it easy to store, manage, and deploy
@@ -170,7 +170,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: ECS
       desc: Amazon Elastic Container Service (ECS) is a container orchestration
         service from Amazon Web Services (AWS) that enables users to easily
@@ -189,7 +189,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: Fargate
       desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
         deploy and manage containers without having to manage the underlying
@@ -208,7 +208,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: Firebase
       desc: Google Firebase is a mobile and web application development platform that
         provides developers with a variety of tools and services to help them
@@ -279,7 +279,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: Node
       desc: Node.js is an open-source, cross-platform JavaScript runtime environment
         that executes JavaScript code outside of a browser. It is used to create
@@ -298,7 +298,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: Puppeteer
       desc: Puppeteer is a Node library developed by Google that provides a high-level
         API to control headless Chrome or Chromium over the DevTools Protocol.
@@ -334,7 +334,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: SikuliX
       desc: SikuliX is an open-source GUI automation tool that uses image recognition
         to interact with on-screen elements by matching screenshots. It lets you
@@ -373,7 +373,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: VPC
       desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
         provides users with a virtual private cloud, allowing them to provision
@@ -394,7 +394,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
   os:
     - title: Linux
       desc: Linux is an open-source operating system that is based on the Linux
@@ -423,7 +423,7 @@ _embedded:
           - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/rdi/
     - title: macOS
       desc: macOS is Apple’s Unix‐based desktop operating system, first released in
@@ -453,13 +453,13 @@ _embedded:
           - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/rdi/
   jobs:
     - title: Futuristic Education
-      desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-        for schools and educators
-      role: Co-Founder/Programmer
+      desc: Co-Founder and Programmer for Futuristic Education, a startup building
+        custom technology solutions for schools and educators
+      role: Co-Founder and Programmer
       begin_year: 2018
       end_year: 2022
       time_desc: March 2018 - present

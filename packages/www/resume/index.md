@@ -32,7 +32,7 @@ _links:
 
 # Gregory J. Scott
 
-Versatile full-stack programmer with 25+ years of experience, specializing in custom app development using React Native, AI, state machines, and AWS.
+Software architect with 25+ years of experience designing and building robust systems for mission-critical environments, from B-1 bomber avionics to scalable cloud platforms on AWS. Now developing the next generation of educational technology, leveraging AI to create personalized learning experiences delivered as universal apps.
 
 Online:
 - Web: [https://gregoryjscott.com](https://gregoryjscott.com)

@@ -28,6 +28,6 @@ _links:
     - href: /projects/simpler/
     - href: /projects/this-site/
   jobs:
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
     - href: /jobs/rdi/
 ---

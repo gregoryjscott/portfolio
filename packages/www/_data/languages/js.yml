@@ -22,7 +22,7 @@ _links:
     - href: /projects/somd/
     - href: /projects/systems-portal/
   jobs:
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
     - href: /jobs/rdi/
 _embedded:
   projects:
@@ -45,7 +45,7 @@ _embedded:
         os:
           - href: /os/linux/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: aprender
       desc: CLI for learning Spanish
       role: Author
@@ -62,7 +62,7 @@ _embedded:
         os:
           - href: /os/macos/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: Alaska Gasline Development Corporation
       desc: Web application that provides AGDC with documentation, reporting, and
         querying tools for their vast GIS data and infrastructure.
@@ -238,16 +238,17 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
   jobs:
-    - title: Freelance Programmer
-      desc: Freelance Programmer/Consultant, partnering with clients to architect and
-        implement technology solutions
-      role: Freelance Programmer
+    - title: Independent Programmer and Consultant
+      desc: Independent Programmer and Consultant, building next-generation education
+        technology and partnering with select clients to architect high-impact
+        software solutions
+      role: Independent Programmer and Consultant
       begin_year: 2014
       end_year: present
       time_desc: July 2014 - present
       _links:
         self:
-          href: /jobs/freelance/
+          href: /jobs/independent/
         projects:
           - href: /projects/aprender/
           - href: /projects/cfw/
@@ -299,9 +300,8 @@ _embedded:
           - href: /os/macos/
           - href: /os/windows/
     - title: Resource Data, Inc.
-      desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-        Texas, Idaho, Minnesota, and Oregon, that provides custom database, web,
-        and GIS programming services
+      desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+        in custom database, web, and GIS programming services
       role: Technical Lead
       begin_year: 2005
       end_year: 2014

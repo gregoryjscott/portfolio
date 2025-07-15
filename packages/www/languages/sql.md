@@ -38,7 +38,7 @@ _links:
     - href: /projects/wengage-acct/
     - href: /projects/wengage-si/
   jobs:
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
     - href: /jobs/mas/
     - href: /jobs/rdi/
 ---

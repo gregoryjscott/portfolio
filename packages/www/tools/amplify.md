@@ -21,5 +21,5 @@ _links:
     - href: /projects/la-boda/
     - href: /projects/nuggets/
   jobs:
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
 ---

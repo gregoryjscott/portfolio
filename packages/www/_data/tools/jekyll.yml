@@ -20,7 +20,7 @@ _links:
     - href: /projects/jekyll-prep/
     - href: /projects/this-site/
   jobs:
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
 _embedded:
   projects:
     - title: gregoryjscott.com
@@ -47,7 +47,7 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: fortworthtexas.gov
       desc: Jekyll static site for the City of Fort Worth, Texas.
       role: Technical Lead
@@ -64,7 +64,7 @@ _embedded:
         os:
           - href: /os/linux/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: jekyll-api
       desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
       role: Author
@@ -84,7 +84,7 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: jekyll-embed
       desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
         frontmatter
@@ -106,7 +106,7 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: jekyll-load
       desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
       role: Author
@@ -126,7 +126,7 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: jekyll-prep
       desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
       role: Author
@@ -146,18 +146,19 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
   jobs:
-    - title: Freelance Programmer
-      desc: Freelance Programmer/Consultant, partnering with clients to architect and
-        implement technology solutions
-      role: Freelance Programmer
+    - title: Independent Programmer and Consultant
+      desc: Independent Programmer and Consultant, building next-generation education
+        technology and partnering with select clients to architect high-impact
+        software solutions
+      role: Independent Programmer and Consultant
       begin_year: 2014
       end_year: present
       time_desc: July 2014 - present
       _links:
         self:
-          href: /jobs/freelance/
+          href: /jobs/independent/
         projects:
           - href: /projects/aprender/
           - href: /projects/cfw/

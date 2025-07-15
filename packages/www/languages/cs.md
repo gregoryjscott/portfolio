@@ -39,7 +39,7 @@ _links:
     - href: /projects/systems-portal/
     - href: /projects/train-builder/
   jobs:
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
     - href: /jobs/mas/
     - href: /jobs/rdi/
 ---

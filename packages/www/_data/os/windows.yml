@@ -44,7 +44,7 @@ _links:
     - href: /projects/wengage-si/
   jobs:
     - href: /jobs/fe/
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
     - href: /jobs/mas/
     - href: /jobs/rdi/
   schools:
@@ -228,7 +228,7 @@ _embedded:
         os:
           - href: /os/windows/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: Quality Bank
       subtitle: Invoicing $1 Billion/Month for Oil Pipeline
       desc: Rewrite of the Trans-Alaska Pipeline's $1B/month invoicing system,
@@ -271,7 +271,7 @@ _embedded:
         os:
           - href: /os/windows/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: Consumption Views
       desc: Set of database views that provides water consumption information that
         feed into reporting tools used by AWWU to make business decisions.
@@ -598,16 +598,17 @@ _embedded:
         jobs:
           - href: /jobs/mas/
   jobs:
-    - title: Freelance Programmer
-      desc: Freelance Programmer/Consultant, partnering with clients to architect and
-        implement technology solutions
-      role: Freelance Programmer
+    - title: Independent Programmer and Consultant
+      desc: Independent Programmer and Consultant, building next-generation education
+        technology and partnering with select clients to architect high-impact
+        software solutions
+      role: Independent Programmer and Consultant
       begin_year: 2014
       end_year: present
       time_desc: July 2014 - present
       _links:
         self:
-          href: /jobs/freelance/
+          href: /jobs/independent/
         projects:
           - href: /projects/aprender/
           - href: /projects/cfw/
@@ -659,9 +660,9 @@ _embedded:
           - href: /os/macos/
           - href: /os/windows/
     - title: Futuristic Education
-      desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-        for schools and educators
-      role: Co-Founder/Programmer
+      desc: Co-Founder and Programmer for Futuristic Education, a startup building
+        custom technology solutions for schools and educators
+      role: Co-Founder and Programmer
       begin_year: 2018
       end_year: 2022
       time_desc: March 2018 - present
@@ -699,9 +700,8 @@ _embedded:
           - href: /os/macos/
           - href: /os/windows/
     - title: Resource Data, Inc.
-      desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-        Texas, Idaho, Minnesota, and Oregon, that provides custom database, web,
-        and GIS programming services
+      desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+        in custom database, web, and GIS programming services
       role: Technical Lead
       begin_year: 2005
       end_year: 2014
@@ -754,9 +754,9 @@ _embedded:
           - href: /os/macos/
           - href: /os/windows/
     - title: Municipal Accounting Systems, Inc.
-      desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
-        Shawnee, Oklahoma that provides accounting and student information
-        software solutions to school districts in Oklahoma
+      desc: Lead Programmer for Municipal Accounting Systems (MAS), a leading provider
+        of student information and accounting software for school districts
+        throughout Oklahoma
       role: Lead Programmer
       begin_year: 1999
       end_year: 2005

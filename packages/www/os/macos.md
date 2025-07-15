@@ -29,6 +29,6 @@ _links:
     - href: /projects/this-site/
   jobs:
     - href: /jobs/fe/
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
     - href: /jobs/rdi/
 ---

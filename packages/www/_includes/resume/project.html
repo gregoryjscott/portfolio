@@ -5,6 +5,10 @@
     </h3>
   </header>
  
+  {% if include.resource.desc %}
+    <p>{{ include.resource.desc }}</p>
+  {% endif %}
+
   Technologies:
   {% if include.resource._embedded %}
     <ul>

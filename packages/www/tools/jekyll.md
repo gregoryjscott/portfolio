@@ -23,5 +23,5 @@ _links:
     - href: /projects/jekyll-prep/
     - href: /projects/this-site/
   jobs:
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
 ---

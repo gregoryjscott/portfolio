@@ -1,7 +1,7 @@
 title: Futuristic Education
-desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-  for schools and educators
-role: Co-Founder/Programmer
+desc: Co-Founder and Programmer for Futuristic Education, a startup building
+  custom technology solutions for schools and educators
+role: Co-Founder and Programmer
 begin_year: 2018
 end_year: 2022
 time_desc: March 2018 - present
@@ -39,12 +39,16 @@ _links:
     - href: /os/macos/
     - href: /os/windows/
 content: >-
-  - Built the cloud-based backend integration and automation services for
-  one of the largest online charter schools in the United States
+  - Architected and built the entire cloud infrastructure for one of the
+  nation's largest charter schools, enabling growth from 1,500 to over 60,000
+  students through a scalable network of bots that automated 95% of data entry
+  tasks.
 
-  - Implemented a custom data warehouse and reporting system for a school district
+  - Implemented a secure, school-wide single sign-on (SSO) solution that eliminated critical security risks and simplified access to all systems for over 60,000 students and 2,000 teachers.
 
-  - Developed student performance reports to help teachers and administrators make data-driven decisions to improve student outcomes
+  - Developed a custom data warehouse with a complete time-series history of all student data, providing the school's data team with unprecedented insight and enabling rapid debugging and reporting.
+
+  - Created a suite of student performance reports that translated raw data into actionable insights, empowering teachers to focus on instruction by automating the tracking of student strengths, weaknesses, and growth.
 _embedded:
   projects:
     - title: Epic California Academy Enrollment
@@ -136,7 +140,7 @@ _embedded:
           - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
   db:
     - title: BigQuery
       desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
@@ -175,7 +179,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: Firebase
       desc: Firebase’s Realtime Database is a cloud-hosted, NoSQL JSON data store that
         lets you build rich, collaborative applications by syncing data in
@@ -216,7 +220,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: EC2
       desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
         resizable compute capacity in the cloud. It is designed to make
@@ -235,7 +239,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: ECR
       desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
         container registry that makes it easy to store, manage, and deploy
@@ -254,7 +258,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: ECS
       desc: Amazon Elastic Container Service (ECS) is a container orchestration
         service from Amazon Web Services (AWS) that enables users to easily
@@ -273,7 +277,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: Fargate
       desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
         deploy and manage containers without having to manage the underlying
@@ -292,7 +296,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: Firebase
       desc: Google Firebase is a mobile and web application development platform that
         provides developers with a variety of tools and services to help them
@@ -363,7 +367,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: Node
       desc: Node.js is an open-source, cross-platform JavaScript runtime environment
         that executes JavaScript code outside of a browser. It is used to create
@@ -382,7 +386,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: Puppeteer
       desc: Puppeteer is a Node library developed by Google that provides a high-level
         API to control headless Chrome or Chromium over the DevTools Protocol.
@@ -418,7 +422,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: SikuliX
       desc: SikuliX is an open-source GUI automation tool that uses image recognition
         to interact with on-screen elements by matching screenshots. It lets you
@@ -457,7 +461,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: VPC
       desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
         provides users with a virtual private cloud, allowing them to provision
@@ -478,7 +482,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
   os:
     - title: Linux
       desc: Linux is an open-source operating system that is based on the Linux
@@ -507,7 +511,7 @@ _embedded:
           - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/rdi/
     - title: macOS
       desc: macOS is Apple’s Unix‐based desktop operating system, first released in
@@ -537,7 +541,7 @@ _embedded:
           - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/rdi/
     - title: Windows
       desc: Windows is a series of operating systems developed by Microsoft. It is the
@@ -585,7 +589,7 @@ _embedded:
           - href: /projects/wengage-si/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/mas/
           - href: /jobs/rdi/
         schools:

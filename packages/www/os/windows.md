@@ -47,7 +47,7 @@ _links:
     - href: /projects/wengage-si/
   jobs:
     - href: /jobs/fe/
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
     - href: /jobs/mas/
     - href: /jobs/rdi/
   schools:

@@ -20,6 +20,6 @@ _links:
     - href: /projects/denver-schedules-api/
     - href: /projects/scramble-score/
   jobs:
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
     - href: /jobs/rdi/
 ---

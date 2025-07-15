@@ -19,7 +19,7 @@ _links:
     - href: /os/linux/
     - href: /os/macos/
   jobs:
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
 _embedded:
   languages:
     - title: Ruby
@@ -49,7 +49,7 @@ _embedded:
           - href: /projects/simpler/
           - href: /projects/this-site/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/rdi/
   tools:
     - title: HAL
@@ -74,7 +74,7 @@ _embedded:
           - href: /projects/jekyll-embed/
           - href: /projects/this-site/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: Jekyll
       desc: Jekyll is an open-source, Ruby-based static site generator that transforms
         plain-text content (written in Markdown, Textile or HTML) and
@@ -98,7 +98,7 @@ _embedded:
           - href: /projects/jekyll-prep/
           - href: /projects/this-site/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
   os:
     - title: Linux
       desc: Linux is an open-source operating system that is based on the Linux
@@ -127,7 +127,7 @@ _embedded:
           - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/rdi/
     - title: macOS
       desc: macOS is Apple’s Unix‐based desktop operating system, first released in
@@ -157,19 +157,20 @@ _embedded:
           - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/rdi/
   jobs:
-    - title: Freelance Programmer
-      desc: Freelance Programmer/Consultant, partnering with clients to architect and
-        implement technology solutions
-      role: Freelance Programmer
+    - title: Independent Programmer and Consultant
+      desc: Independent Programmer and Consultant, building next-generation education
+        technology and partnering with select clients to architect high-impact
+        software solutions
+      role: Independent Programmer and Consultant
       begin_year: 2014
       end_year: present
       time_desc: July 2014 - present
       _links:
         self:
-          href: /jobs/freelance/
+          href: /jobs/independent/
         projects:
           - href: /projects/aprender/
           - href: /projects/cfw/

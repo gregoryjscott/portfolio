@@ -53,7 +53,7 @@ _embedded:
           - href: /projects/systems-portal/
           - href: /projects/train-builder/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/mas/
           - href: /jobs/rdi/
   os:
@@ -103,16 +103,15 @@ _embedded:
           - href: /projects/wengage-si/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/mas/
           - href: /jobs/rdi/
         schools:
           - href: /schools/uco/
   jobs:
     - title: Resource Data, Inc.
-      desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-        Texas, Idaho, Minnesota, and Oregon, that provides custom database, web,
-        and GIS programming services
+      desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+        in custom database, web, and GIS programming services
       role: Technical Lead
       begin_year: 2005
       end_year: 2014

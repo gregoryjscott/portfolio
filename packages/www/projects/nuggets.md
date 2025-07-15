@@ -37,7 +37,7 @@ _links:
     - href: /os/ios/
     - href: /os/linux/
   jobs:
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
 ---
 
 This project began as a proof of concept to validate the use of AI for generating dynamic language-learning exercises. While the initial version was built with Swift, I transitioned to React Native to support a wider range of platforms.

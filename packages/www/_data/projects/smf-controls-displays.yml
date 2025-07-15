@@ -1,5 +1,5 @@
-title: SMF Controls and Displays
-desc: null
+title: System Management Function (SMF) Controls and Displays
+desc: Screens used to monitor the B-1’s custom-built avionics operating system
 role: Embedded Software Engineer
 begin_year: 1998
 end_year: 1999
@@ -58,9 +58,8 @@ _embedded:
           - href: /jobs/boeing/
   jobs:
     - title: Boeing, Defense & Space Group
-      desc: Embedded Software Engineer for Boeing, Defense and Space Group, based in
-        Oklahoma City, Oklahoma that developed the B1-B Bomber Block E software
-        upgrade
+      desc: Embedded Software Engineer at Boeing's Defense & Space Group in Oklahoma
+        City, developing avionics software for the B-1 Bomber's Block E upgrade
       role: Embedded Software Engineer
       begin_year: 1998
       end_year: 1999

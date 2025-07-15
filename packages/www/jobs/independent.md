@@ -1,16 +1,17 @@
 ---
 layout: details
-title: Freelance Programmer
+title: Independent Programmer and Consultant
 desc: >-
-  Freelance Programmer/Consultant, partnering with clients to architect and
-  implement technology solutions
-role: Freelance Programmer
+  Independent Programmer and Consultant, building next-generation education
+  technology and partnering with select clients to architect high-impact
+  software solutions
+role: Independent Programmer and Consultant
 begin_year: 2014
 end_year: present
 time_desc: July 2014 - present
 _links:
   self:
-    href: /jobs/freelance/
+    href: /jobs/independent/
   projects:
     - href: /projects/aprender/
     - href: /projects/cfw/
@@ -63,6 +64,7 @@ _links:
     - href: /os/windows/
 ---
 
-- Designed and built the software infrastructure that powers the sites and applications for the City of Fort Worth, Texas
-- Contributed to the Code for America's project that sends citizens of Denver, Colorado reminder text messages of street-sweeping dates to avoid parking tickets
-- Building open-source software for profit and fun
+- Developing an AI-powered language learning app for iOS and Android, taking it from a personal proof-of-concept to a formal research tool for a master's degree study on micro-learning.
+- Built an interactive mobile study tool for the U.S. Naturalization Test, featuring audio questions, practice exams, and bookmarking to help learners master the official USCIS curriculum.
+- Architected and built the unified software infrastructure for the City of Fort Worth's public websites, consolidating disparate CMSs, APIs, and datasets into a single, manageable Jekyll-based static site.
+- Established the core technical foundation for a Code for America civic tech project, implementing the project structure, building the automated testing suite, and debugging the core scheduling logic for a citizen reminder system.

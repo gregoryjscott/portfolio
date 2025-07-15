@@ -2,9 +2,8 @@
 layout: details
 title: "Resource Data, Inc."
 desc: >-
-  Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska, Texas,
-  Idaho, Minnesota, and Oregon, that provides custom database, web, and GIS
-  programming services
+  Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing in
+  custom database, web, and GIS programming services
 role: Technical Lead
 begin_year: 2005
 end_year: 2014
@@ -58,11 +57,8 @@ _links:
     - href: /os/windows/
 ---
 
-- Worked directly with clients during on all phases of the software development lifecycle
-- Led the development of some of RDI's most challenging projects
-- Developed business intelligence reporting applications to help clients track their terabytes of data and use it to make better business decisions
-- Ensured my team of analysts, designers, and programmers were free of stress and enjoying their jobs
-- Mentored junior developers by hosting roundtable meetings, pair-programming, and being an active participant in chatroom discussions
-- Practiced agile and lean management and development techniques and led the effort of promoting them throughout RDI
-- Started RDI's open-source initiatives and remain the largest contributor
-- Impacted technology selection, project management, and people management across RDI
+- Led many of RDI's most challenging and high-stakes projects by partnering directly with clients from conception to delivery, ensuring solutions precisely met their business needs.
+- Championed and drove the company-wide adoption of modern development practices, introducing Agile/Lean methodologies, new technologies like Ruby and Node.js, and collaborative forums like developer roundtables.
+- Created a successful mentorship model that identified and elevated junior talent, consistently handing off project leadership to high-potential developers and creating a clear path for their promotion.
+- Cultivated a highly productive and focused development team by managing all client-facing communication and removing external pressures, allowing engineers to concentrate on execution and delivery.
+- Initiated and led RDI's first open-source projects, securing management buy-in to build reusable tools that increased developer productivity and fostered a culture of internal innovation.
