@@ -2,8 +2,8 @@
 layout: details
 title: "Resource Data, Inc."
 desc: >-
-  Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing in custom database,
-  web, and GIS programming services
+  Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing in
+  custom database, web, and GIS programming services
 role: Technical Lead
 begin_year: 2005
 end_year: 2014

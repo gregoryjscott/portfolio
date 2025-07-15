@@ -2,8 +2,9 @@
 layout: details
 title: "Municipal Accounting Systems, Inc."
 desc: >-
-  Lead Programmer for Municipal Accounting Systems (MAS), a leading provider of student
-  information and accounting software for school districts throughout Oklahoma
+  Lead Programmer for Municipal Accounting Systems (MAS), a leading provider of
+  student information and accounting software for school districts throughout
+  Oklahoma
 role: Lead Programmer
 begin_year: 1999
 end_year: 2005

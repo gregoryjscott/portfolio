@@ -16,5 +16,5 @@ _links:
   os:
     - href: /os/macos/
   jobs:
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
 ---

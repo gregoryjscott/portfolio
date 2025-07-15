@@ -18,5 +18,5 @@ _links:
   projects:
     - href: /projects/nuggets/
   jobs:
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
 ---

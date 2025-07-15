@@ -2,15 +2,16 @@
 layout: details
 title: Independent Programmer and Consultant
 desc: >-
-  Independent Programmer and Consultant, building next-generation education technology and
-  partnering with select clients to architect high-impact software solutions
+  Independent Programmer and Consultant, building next-generation education
+  technology and partnering with select clients to architect high-impact
+  software solutions
 role: Independent Programmer and Consultant
 begin_year: 2014
 end_year: present
 time_desc: July 2014 - present
 _links:
   self:
-    href: /jobs/freelance/
+    href: /jobs/independent/
   projects:
     - href: /projects/aprender/
     - href: /projects/cfw/

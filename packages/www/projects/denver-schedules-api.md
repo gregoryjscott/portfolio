@@ -22,5 +22,5 @@ _links:
   os:
     - href: /os/linux/
   jobs:
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
 ---

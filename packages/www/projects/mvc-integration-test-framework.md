@@ -18,5 +18,5 @@ _links:
   os:
     - href: /os/windows/
   jobs:
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
 ---

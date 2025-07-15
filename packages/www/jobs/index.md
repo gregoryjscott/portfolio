@@ -8,7 +8,7 @@ _links:
   jobs:
     - href: /jobs/boeing/
     - href: /jobs/fe/
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
     - href: /jobs/mas/
     - href: /jobs/rdi/
 ---

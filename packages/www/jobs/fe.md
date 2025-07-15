@@ -2,7 +2,8 @@
 layout: details
 title: Futuristic Education
 desc: >-
-  Co-Founder and Programmer for Futuristic Education, a startup building custom technology solutions for schools and educators
+  Co-Founder and Programmer for Futuristic Education, a startup building custom
+  technology solutions for schools and educators
 role: Co-Founder and Programmer
 begin_year: 2018
 end_year: 2022

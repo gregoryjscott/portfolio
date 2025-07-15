@@ -25,6 +25,6 @@ _links:
     - href: /projects/somd/
     - href: /projects/systems-portal/
   jobs:
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
     - href: /jobs/rdi/
 ---

@@ -20,5 +20,5 @@ _links:
   projects:
     - href: /projects/cfw/
   jobs:
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
 ---
