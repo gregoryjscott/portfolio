@@ -80,7 +80,7 @@ _embedded:
           - href: /projects/systems-portal/
           - href: /projects/train-builder/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/mas/
           - href: /jobs/rdi/
     - title: SQL
@@ -120,7 +120,7 @@ _embedded:
           - href: /projects/wengage-acct/
           - href: /projects/wengage-si/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/mas/
           - href: /jobs/rdi/
   db:
@@ -193,16 +193,16 @@ _embedded:
           - href: /projects/wengage-si/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/mas/
           - href: /jobs/rdi/
         schools:
           - href: /schools/uco/
   jobs:
     - title: Municipal Accounting Systems, Inc.
-      desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
-        Shawnee, Oklahoma that provides accounting and student information
-        software solutions to school districts in Oklahoma
+      desc: Lead Programmer for Municipal Accounting Systems (MAS), a leading provider
+        of student information and accounting software for school districts
+        throughout Oklahoma
       role: Lead Programmer
       begin_year: 1999
       end_year: 2005

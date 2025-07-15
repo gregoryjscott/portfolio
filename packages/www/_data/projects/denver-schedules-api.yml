@@ -19,7 +19,7 @@ _links:
   os:
     - href: /os/linux/
   jobs:
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
 _embedded:
   languages:
     - title: C#
@@ -61,7 +61,7 @@ _embedded:
           - href: /projects/systems-portal/
           - href: /projects/train-builder/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/mas/
           - href: /jobs/rdi/
     - title: Ruby
@@ -91,7 +91,7 @@ _embedded:
           - href: /projects/simpler/
           - href: /projects/this-site/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/rdi/
     - title: SQL
       desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -130,7 +130,7 @@ _embedded:
           - href: /projects/wengage-acct/
           - href: /projects/wengage-si/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/mas/
           - href: /jobs/rdi/
   db:
@@ -154,7 +154,7 @@ _embedded:
           - href: /projects/denver-schedules-api/
           - href: /projects/scramble-score/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/rdi/
   os:
     - title: Linux
@@ -184,19 +184,20 @@ _embedded:
           - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/rdi/
   jobs:
-    - title: Freelance Programmer
-      desc: Freelance Programmer/Consultant, partnering with clients to architect and
-        implement technology solutions
-      role: Freelance Programmer
+    - title: Independent Programmer and Consultant
+      desc: Independent Programmer and Consultant, building next-generation education
+        technology and partnering with select clients to architect high-impact
+        software solutions
+      role: Independent Programmer and Consultant
       begin_year: 2014
       end_year: present
       time_desc: July 2014 - present
       _links:
         self:
-          href: /jobs/freelance/
+          href: /jobs/independent/
         projects:
           - href: /projects/aprender/
           - href: /projects/cfw/

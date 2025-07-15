@@ -86,7 +86,7 @@ _embedded:
           - href: /os/ios/
           - href: /os/linux/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
       content: >-
         This project began as a proof of concept to validate the use of AI for
         generating dynamic language-learning exercises. While the initial
@@ -128,7 +128,7 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
         db:
           - title: DynamoDB
             desc: Amazon DynamoDB is a fully managed NoSQL database service that provides
@@ -150,7 +150,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
         tools:
           - title: Amplify
             desc: AWS Amplify is a comprehensive development platform from Amazon Web
@@ -174,7 +174,7 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: Azure AI
             desc: Azure AI is a suite of cloud-based services and APIs for integrating AI
               capabilities—such as computer vision, speech processing, natural
@@ -191,7 +191,7 @@ _embedded:
               projects:
                 - href: /projects/nuggets/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: Docker
             desc: Docker is an open-source platform for developing, shipping, and running
               applications. It uses container technology to package applications
@@ -210,7 +210,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: EC2
             desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
               resizable compute capacity in the cloud. It is designed to make
@@ -229,7 +229,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: ECR
             desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
               container registry that makes it easy to store, manage, and deploy
@@ -249,7 +249,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: ECS
             desc: Amazon Elastic Container Service (ECS) is a container orchestration
               service from Amazon Web Services (AWS) that enables users to
@@ -269,7 +269,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: Expo
             desc: Expo is an open-source platform and toolchain built around React Native
               that lets developers write modern JavaScript or TypeScript to
@@ -292,7 +292,7 @@ _embedded:
               projects:
                 - href: /projects/nuggets/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: Fargate
             desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
               deploy and manage containers without having to manage the
@@ -312,7 +312,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: IAM
             desc: AWS Identity and Access Management (IAM) is a web service that helps you
               securely control access to AWS resources. With IAM, you can create
@@ -332,7 +332,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: Node
             desc: Node.js is an open-source, cross-platform JavaScript runtime environment
               that executes JavaScript code outside of a browser. It is used to
@@ -351,7 +351,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: OpenAI
             desc: OpenAI provides a suite of AI development tools and APIs built on
               large-scale machine learning models for natural language
@@ -367,7 +367,7 @@ _embedded:
               projects:
                 - href: /projects/nuggets/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: React Native
             desc: React Native is an open-source framework developed by Facebook that
               enables developers to build mobile apps for iOS and Android using
@@ -392,7 +392,7 @@ _embedded:
               projects:
                 - href: /projects/nuggets/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: S3
             desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
               Amazon Web Services (AWS). It provides object storage through a
@@ -412,7 +412,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: SQS
             desc: Amazon Simple Queue Service (SQS) is a fully managed message queuing
               service that enables applications to quickly and reliably queue
@@ -434,7 +434,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: VPC
             desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
               provides users with a virtual private cloud, allowing them to
@@ -456,7 +456,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: XState
             desc: XState is a JavaScript/TypeScript library for modeling application logic
               as finite state machines and hierarchical statecharts, enabling
@@ -474,7 +474,7 @@ _embedded:
               projects:
                 - href: /projects/nuggets/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
         os:
           - title: Android
             desc: Android is a mobile operating system developed by Google. It is based on a
@@ -494,7 +494,7 @@ _embedded:
               projects:
                 - href: /projects/nuggets/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: iOS
             desc: iOS is a mobile operating system developed by Apple Inc. for its iPhone,
               iPad, and iPod Touch devices. It is the second most popular mobile
@@ -513,7 +513,7 @@ _embedded:
               projects:
                 - href: /projects/nuggets/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: Linux
             desc: Linux is an open-source operating system that is based on the Linux
               kernel. It is a free and powerful operating system that is used in
@@ -542,19 +542,20 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
+          - title: Independent Programmer and Consultant
+            desc: Independent Programmer and Consultant, building next-generation education
+              technology and partnering with select clients to architect
+              high-impact software solutions
+            role: Independent Programmer and Consultant
             begin_year: 2014
             end_year: present
             time_desc: July 2014 - present
             _links:
               self:
-                href: /jobs/freelance/
+                href: /jobs/independent/
               projects:
                 - href: /projects/aprender/
                 - href: /projects/cfw/
@@ -629,7 +630,7 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
       _embedded:
         languages:
           - title: CSS
@@ -659,7 +660,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: HTML
             desc: HTML (HyperText Markup Language) is a markup language used to create
@@ -687,7 +688,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: Ruby
             desc: Ruby is an open-source, object-oriented programming language created by
@@ -717,7 +718,7 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: Typescript
             desc: Typescript is a typed superset of JavaScript that compiles to plain
@@ -738,7 +739,7 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
         tools:
           - title: HAL
             subtitle: Hypertext Application Language (HAL) is a a media type for
@@ -763,7 +764,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: Jekyll
             desc: Jekyll is an open-source, Ruby-based static site generator that transforms
               plain-text content (written in Markdown, Textile or HTML) and
@@ -788,7 +789,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
         os:
           - title: Linux
             desc: Linux is an open-source operating system that is based on the Linux
@@ -818,7 +819,7 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: macOS
             desc: macOS is Apple’s Unix‐based desktop operating system, first released in
@@ -849,19 +850,20 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
+          - title: Independent Programmer and Consultant
+            desc: Independent Programmer and Consultant, building next-generation education
+              technology and partnering with select clients to architect
+              high-impact software solutions
+            role: Independent Programmer and Consultant
             begin_year: 2014
             end_year: present
             time_desc: July 2014 - present
             _links:
               self:
-                href: /jobs/freelance/
+                href: /jobs/independent/
               projects:
                 - href: /projects/aprender/
                 - href: /projects/cfw/
@@ -931,7 +933,7 @@ _embedded:
         os:
           - href: /os/linux/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
       _embedded:
         languages:
           - title: CSS
@@ -961,7 +963,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: HTML
             desc: HTML (HyperText Markup Language) is a markup language used to create
@@ -989,7 +991,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: JavaScript
             desc: JavaScript is a high-level, interpreted programming language that is used
@@ -1016,7 +1018,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         db:
           - title: DynamoDB
@@ -1039,7 +1041,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
         tools:
           - title: Amplify
             desc: AWS Amplify is a comprehensive development platform from Amazon Web
@@ -1063,7 +1065,7 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/nuggets/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
         os:
           - title: Linux
             desc: Linux is an open-source operating system that is based on the Linux
@@ -1093,19 +1095,20 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
+          - title: Independent Programmer and Consultant
+            desc: Independent Programmer and Consultant, building next-generation education
+              technology and partnering with select clients to architect
+              high-impact software solutions
+            role: Independent Programmer and Consultant
             begin_year: 2014
             end_year: present
             time_desc: July 2014 - present
             _links:
               self:
-                href: /jobs/freelance/
+                href: /jobs/independent/
               projects:
                 - href: /projects/aprender/
                 - href: /projects/cfw/
@@ -1262,16 +1265,16 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
+            desc: Co-Founder and Programmer for Futuristic Education, a startup building
+              custom technology solutions for schools and educators
+            role: Co-Founder and Programmer
             begin_year: 2018
             end_year: 2022
             time_desc: March 2018 - present
@@ -1385,7 +1388,7 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
         db:
           - title: BigQuery
             desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
@@ -1426,7 +1429,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
         tools:
           - title: Docker
             desc: Docker is an open-source platform for developing, shipping, and running
@@ -1446,7 +1449,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: EC2
             desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
               resizable compute capacity in the cloud. It is designed to make
@@ -1465,7 +1468,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: ECR
             desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
               container registry that makes it easy to store, manage, and deploy
@@ -1485,7 +1488,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: ECS
             desc: Amazon Elastic Container Service (ECS) is a container orchestration
               service from Amazon Web Services (AWS) that enables users to
@@ -1505,7 +1508,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: Fargate
             desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
               deploy and manage containers without having to manage the
@@ -1525,7 +1528,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: Firebase
             desc: Google Firebase is a mobile and web application development platform that
               provides developers with a variety of tools and services to help
@@ -1597,7 +1600,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: Node
             desc: Node.js is an open-source, cross-platform JavaScript runtime environment
               that executes JavaScript code outside of a browser. It is used to
@@ -1616,7 +1619,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: Puppeteer
             desc: Puppeteer is a Node library developed by Google that provides a high-level
               API to control headless Chrome or Chromium over the DevTools
@@ -1653,7 +1656,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: SikuliX
             desc: SikuliX is an open-source GUI automation tool that uses image recognition
               to interact with on-screen elements by matching screenshots. It
@@ -1693,7 +1696,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: VPC
             desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
               provides users with a virtual private cloud, allowing them to
@@ -1715,7 +1718,7 @@ _embedded:
                 - href: /projects/nuggets/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
         os:
           - title: Linux
             desc: Linux is an open-source operating system that is based on the Linux
@@ -1745,7 +1748,7 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: macOS
             desc: macOS is Apple’s Unix‐based desktop operating system, first released in
@@ -1776,13 +1779,13 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         jobs:
           - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
+            desc: Co-Founder and Programmer for Futuristic Education, a startup building
+              custom technology solutions for schools and educators
+            role: Co-Founder and Programmer
             begin_year: 2018
             end_year: 2022
             time_desc: March 2018 - present
@@ -1835,7 +1838,7 @@ _embedded:
         os:
           - href: /os/macos/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
       _embedded:
         languages:
           - title: JavaScript
@@ -1863,7 +1866,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         os:
           - title: macOS
@@ -1895,19 +1898,20 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
+          - title: Independent Programmer and Consultant
+            desc: Independent Programmer and Consultant, building next-generation education
+              technology and partnering with select clients to architect
+              high-impact software solutions
+            role: Independent Programmer and Consultant
             begin_year: 2014
             end_year: present
             time_desc: July 2014 - present
             _links:
               self:
-                href: /jobs/freelance/
+                href: /jobs/independent/
               projects:
                 - href: /projects/aprender/
                 - href: /projects/cfw/
@@ -1974,7 +1978,7 @@ _embedded:
         os:
           - href: /os/linux/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
       _embedded:
         languages:
           - title: Ruby
@@ -2005,7 +2009,7 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         tools:
           - title: Heroku
@@ -2028,7 +2032,7 @@ _embedded:
               projects:
                 - href: /projects/cfw/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: Jekyll
             desc: Jekyll is an open-source, Ruby-based static site generator that transforms
               plain-text content (written in Markdown, Textile or HTML) and
@@ -2053,7 +2057,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
         os:
           - title: Linux
             desc: Linux is an open-source operating system that is based on the Linux
@@ -2083,19 +2087,20 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
+          - title: Independent Programmer and Consultant
+            desc: Independent Programmer and Consultant, building next-generation education
+              technology and partnering with select clients to architect
+              high-impact software solutions
+            role: Independent Programmer and Consultant
             begin_year: 2014
             end_year: present
             time_desc: July 2014 - present
             _links:
               self:
-                href: /jobs/freelance/
+                href: /jobs/independent/
               projects:
                 - href: /projects/aprender/
                 - href: /projects/cfw/
@@ -2209,7 +2214,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
           - title: Python
@@ -2258,7 +2263,7 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         os:
           - title: Linux
@@ -2289,7 +2294,7 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: macOS
             desc: macOS is Apple’s Unix‐based desktop operating system, first released in
@@ -2320,7 +2325,7 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: Windows
             desc: Windows is a series of operating systems developed by Microsoft. It is the
@@ -2369,16 +2374,15 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -2451,7 +2455,7 @@ _embedded:
         os:
           - href: /os/linux/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
       _embedded:
         languages:
           - title: C#
@@ -2493,7 +2497,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
           - title: Ruby
@@ -2524,7 +2528,7 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -2564,7 +2568,7 @@ _embedded:
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -2589,7 +2593,7 @@ _embedded:
                 - href: /projects/denver-schedules-api/
                 - href: /projects/scramble-score/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         os:
           - title: Linux
@@ -2620,19 +2624,20 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
+          - title: Independent Programmer and Consultant
+            desc: Independent Programmer and Consultant, building next-generation education
+              technology and partnering with select clients to architect
+              high-impact software solutions
+            role: Independent Programmer and Consultant
             begin_year: 2014
             end_year: present
             time_desc: July 2014 - present
             _links:
               self:
-                href: /jobs/freelance/
+                href: /jobs/independent/
               projects:
                 - href: /projects/aprender/
                 - href: /projects/cfw/
@@ -2702,7 +2707,7 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
       _embedded:
         languages:
           - title: Ruby
@@ -2733,7 +2738,7 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         tools:
           - title: Jekyll
@@ -2760,7 +2765,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
         os:
           - title: Linux
             desc: Linux is an open-source operating system that is based on the Linux
@@ -2790,7 +2795,7 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: macOS
             desc: macOS is Apple’s Unix‐based desktop operating system, first released in
@@ -2821,19 +2826,20 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
+          - title: Independent Programmer and Consultant
+            desc: Independent Programmer and Consultant, building next-generation education
+              technology and partnering with select clients to architect
+              high-impact software solutions
+            role: Independent Programmer and Consultant
             begin_year: 2014
             end_year: present
             time_desc: July 2014 - present
             _links:
               self:
-                href: /jobs/freelance/
+                href: /jobs/independent/
               projects:
                 - href: /projects/aprender/
                 - href: /projects/cfw/
@@ -2905,7 +2911,7 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
       _embedded:
         languages:
           - title: Ruby
@@ -2936,7 +2942,7 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         tools:
           - title: HAL
@@ -2962,7 +2968,7 @@ _embedded:
                 - href: /projects/jekyll-embed/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: Jekyll
             desc: Jekyll is an open-source, Ruby-based static site generator that transforms
               plain-text content (written in Markdown, Textile or HTML) and
@@ -2987,7 +2993,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
         os:
           - title: Linux
             desc: Linux is an open-source operating system that is based on the Linux
@@ -3017,7 +3023,7 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: macOS
             desc: macOS is Apple’s Unix‐based desktop operating system, first released in
@@ -3048,19 +3054,20 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
+          - title: Independent Programmer and Consultant
+            desc: Independent Programmer and Consultant, building next-generation education
+              technology and partnering with select clients to architect
+              high-impact software solutions
+            role: Independent Programmer and Consultant
             begin_year: 2014
             end_year: present
             time_desc: July 2014 - present
             _links:
               self:
-                href: /jobs/freelance/
+                href: /jobs/independent/
               projects:
                 - href: /projects/aprender/
                 - href: /projects/cfw/
@@ -3130,7 +3137,7 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
       _embedded:
         languages:
           - title: Ruby
@@ -3161,7 +3168,7 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         tools:
           - title: Jekyll
@@ -3188,7 +3195,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
         os:
           - title: Linux
             desc: Linux is an open-source operating system that is based on the Linux
@@ -3218,7 +3225,7 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: macOS
             desc: macOS is Apple’s Unix‐based desktop operating system, first released in
@@ -3249,19 +3256,20 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
+          - title: Independent Programmer and Consultant
+            desc: Independent Programmer and Consultant, building next-generation education
+              technology and partnering with select clients to architect
+              high-impact software solutions
+            role: Independent Programmer and Consultant
             begin_year: 2014
             end_year: present
             time_desc: July 2014 - present
             _links:
               self:
-                href: /jobs/freelance/
+                href: /jobs/independent/
               projects:
                 - href: /projects/aprender/
                 - href: /projects/cfw/
@@ -3331,7 +3339,7 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
       _embedded:
         languages:
           - title: Ruby
@@ -3362,7 +3370,7 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         tools:
           - title: Jekyll
@@ -3389,7 +3397,7 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
         os:
           - title: Linux
             desc: Linux is an open-source operating system that is based on the Linux
@@ -3419,7 +3427,7 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: macOS
             desc: macOS is Apple’s Unix‐based desktop operating system, first released in
@@ -3450,19 +3458,20 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
+          - title: Independent Programmer and Consultant
+            desc: Independent Programmer and Consultant, building next-generation education
+              technology and partnering with select clients to architect
+              high-impact software solutions
+            role: Independent Programmer and Consultant
             begin_year: 2014
             end_year: present
             time_desc: July 2014 - present
             _links:
               self:
-                href: /jobs/freelance/
+                href: /jobs/independent/
               projects:
                 - href: /projects/aprender/
                 - href: /projects/cfw/
@@ -3577,7 +3586,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
           - title: CSS
@@ -3607,7 +3616,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: HTML
             desc: HTML (HyperText Markup Language) is a markup language used to create
@@ -3635,7 +3644,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: JavaScript
             desc: JavaScript is a high-level, interpreted programming language that is used
@@ -3662,7 +3671,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: Python
             desc: Python is a high-level, interpreted, general-purpose programming language.
@@ -3710,7 +3719,7 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -3750,7 +3759,7 @@ _embedded:
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -3826,16 +3835,15 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -3950,7 +3958,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
           - title: Ruby
@@ -3981,7 +3989,7 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -4021,7 +4029,7 @@ _embedded:
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -4073,7 +4081,7 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: Windows
             desc: Windows is a series of operating systems developed by Microsoft. It is the
@@ -4122,16 +4130,15 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -4239,7 +4246,7 @@ _embedded:
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -4315,16 +4322,15 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -4437,7 +4443,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
           - title: CSS
@@ -4467,7 +4473,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: HTML
             desc: HTML (HyperText Markup Language) is a markup language used to create
@@ -4495,7 +4501,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: JavaScript
             desc: JavaScript is a high-level, interpreted programming language that is used
@@ -4522,7 +4528,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -4562,7 +4568,7 @@ _embedded:
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -4638,16 +4644,15 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -4761,7 +4766,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
           - title: CSS
@@ -4791,7 +4796,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: HTML
             desc: HTML (HyperText Markup Language) is a markup language used to create
@@ -4819,7 +4824,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: JavaScript
             desc: JavaScript is a high-level, interpreted programming language that is used
@@ -4846,7 +4851,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -4886,7 +4891,7 @@ _embedded:
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -4962,16 +4967,15 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -5074,7 +5078,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: HTML
             desc: HTML (HyperText Markup Language) is a markup language used to create
@@ -5102,7 +5106,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: JavaScript
             desc: JavaScript is a high-level, interpreted programming language that is used
@@ -5129,7 +5133,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: Ruby
             desc: Ruby is an open-source, object-oriented programming language created by
@@ -5159,7 +5163,7 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -5199,7 +5203,7 @@ _embedded:
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -5224,7 +5228,7 @@ _embedded:
                 - href: /projects/denver-schedules-api/
                 - href: /projects/scramble-score/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         os:
           - title: Linux
@@ -5255,13 +5259,12 @@ _embedded:
                 - href: /projects/this-site/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -5374,7 +5377,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
           - title: CSS
@@ -5404,7 +5407,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: HTML
             desc: HTML (HyperText Markup Language) is a markup language used to create
@@ -5432,7 +5435,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: JavaScript
             desc: JavaScript is a high-level, interpreted programming language that is used
@@ -5459,7 +5462,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -5499,7 +5502,7 @@ _embedded:
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -5575,16 +5578,15 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -5653,7 +5655,7 @@ _embedded:
         os:
           - href: /os/windows/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
       _embedded:
         languages:
           - title: C#
@@ -5695,7 +5697,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
           - title: Ruby
@@ -5726,7 +5728,7 @@ _embedded:
                 - href: /projects/simpler/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
         os:
           - title: Windows
@@ -5776,22 +5778,23 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
+          - title: Independent Programmer and Consultant
+            desc: Independent Programmer and Consultant, building next-generation education
+              technology and partnering with select clients to architect
+              high-impact software solutions
+            role: Independent Programmer and Consultant
             begin_year: 2014
             end_year: present
             time_desc: July 2014 - present
             _links:
               self:
-                href: /jobs/freelance/
+                href: /jobs/independent/
               projects:
                 - href: /projects/aprender/
                 - href: /projects/cfw/
@@ -5931,7 +5934,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
           - title: CSS
@@ -5961,7 +5964,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: HTML
             desc: HTML (HyperText Markup Language) is a markup language used to create
@@ -5989,7 +5992,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: JavaScript
             desc: JavaScript is a high-level, interpreted programming language that is used
@@ -6016,7 +6019,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -6056,7 +6059,7 @@ _embedded:
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -6157,16 +6160,15 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -6235,7 +6237,7 @@ _embedded:
         os:
           - href: /os/windows/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
       _embedded:
         languages:
           - title: C#
@@ -6277,7 +6279,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         os:
@@ -6328,22 +6330,23 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
+          - title: Independent Programmer and Consultant
+            desc: Independent Programmer and Consultant, building next-generation education
+              technology and partnering with select clients to architect
+              high-impact software solutions
+            role: Independent Programmer and Consultant
             begin_year: 2014
             end_year: present
             time_desc: July 2014 - present
             _links:
               self:
-                href: /jobs/freelance/
+                href: /jobs/independent/
               projects:
                 - href: /projects/aprender/
                 - href: /projects/cfw/
@@ -6451,7 +6454,7 @@ _embedded:
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -6530,16 +6533,15 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -6654,7 +6656,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
           - title: CSS
@@ -6684,7 +6686,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: HTML
             desc: HTML (HyperText Markup Language) is a markup language used to create
@@ -6712,7 +6714,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: JavaScript
             desc: JavaScript is a high-level, interpreted programming language that is used
@@ -6739,7 +6741,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -6779,7 +6781,7 @@ _embedded:
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -6858,16 +6860,15 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -6974,7 +6975,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         os:
@@ -7025,16 +7026,15 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -7144,7 +7144,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
           - title: SQL
@@ -7185,7 +7185,7 @@ _embedded:
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -7264,16 +7264,15 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -7384,7 +7383,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -7453,16 +7452,15 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -7576,7 +7574,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
           - title: CSS
@@ -7606,7 +7604,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: HTML
             desc: HTML (HyperText Markup Language) is a markup language used to create
@@ -7634,7 +7632,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/this-site/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: JavaScript
             desc: JavaScript is a high-level, interpreted programming language that is used
@@ -7661,7 +7659,7 @@ _embedded:
                 - href: /projects/somd/
                 - href: /projects/systems-portal/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/rdi/
           - title: SQL
             desc: SQL (Structured Query Language) is a domain-specific language used in
@@ -7701,7 +7699,7 @@ _embedded:
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -7780,16 +7778,15 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -7900,7 +7897,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -7969,16 +7966,15 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -8088,7 +8084,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
           - title: SQL
@@ -8129,7 +8125,7 @@ _embedded:
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -8208,16 +8204,15 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -8328,7 +8323,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
           - title: SQL
@@ -8369,7 +8364,7 @@ _embedded:
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -8445,16 +8440,15 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -8565,7 +8559,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
           - title: SQL
@@ -8606,7 +8600,7 @@ _embedded:
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -8685,16 +8679,15 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -8805,7 +8798,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
           - title: SQL
@@ -8846,7 +8839,7 @@ _embedded:
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -8925,16 +8918,15 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -9044,7 +9036,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
           - title: SQL
@@ -9085,7 +9077,7 @@ _embedded:
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -9164,16 +9156,15 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -9282,7 +9273,7 @@ _embedded:
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -9361,16 +9352,15 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -9477,7 +9467,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         os:
@@ -9528,16 +9518,15 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -9671,7 +9660,7 @@ _embedded:
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
           - title: SQL
@@ -9712,7 +9701,7 @@ _embedded:
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -9787,16 +9776,16 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Municipal Accounting Systems, Inc.
-            desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
-              Shawnee, Oklahoma that provides accounting and student information
-              software solutions to school districts in Oklahoma
+            desc: Lead Programmer for Municipal Accounting Systems (MAS), a leading provider
+              of student information and accounting software for school
+              districts throughout Oklahoma
             role: Lead Programmer
             begin_year: 1999
             end_year: 2005
@@ -9900,7 +9889,7 @@ _embedded:
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -10017,16 +10006,16 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Municipal Accounting Systems, Inc.
-            desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
-              Shawnee, Oklahoma that provides accounting and student information
-              software solutions to school districts in Oklahoma
+            desc: Lead Programmer for Municipal Accounting Systems (MAS), a leading provider
+              of student information and accounting software for school
+              districts throughout Oklahoma
             role: Lead Programmer
             begin_year: 1999
             end_year: 2005
@@ -10130,7 +10119,7 @@ _embedded:
                 - href: /projects/wengage-acct/
                 - href: /projects/wengage-si/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
         db:
@@ -10247,16 +10236,16 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Municipal Accounting Systems, Inc.
-            desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
-              Shawnee, Oklahoma that provides accounting and student information
-              software solutions to school districts in Oklahoma
+            desc: Lead Programmer for Municipal Accounting Systems (MAS), a leading provider
+              of student information and accounting software for school
+              districts throughout Oklahoma
             role: Lead Programmer
             begin_year: 1999
             end_year: 2005
@@ -10435,16 +10424,16 @@ _embedded:
                 - href: /projects/wengage-si/
               jobs:
                 - href: /jobs/fe/
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
                 - href: /jobs/mas/
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
         jobs:
           - title: Municipal Accounting Systems, Inc.
-            desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
-              Shawnee, Oklahoma that provides accounting and student information
-              software solutions to school districts in Oklahoma
+            desc: Lead Programmer for Municipal Accounting Systems (MAS), a leading provider
+              of student information and accounting software for school
+              districts throughout Oklahoma
             role: Lead Programmer
             begin_year: 1999
             end_year: 2005
@@ -10529,9 +10518,9 @@ _embedded:
                 - href: /jobs/boeing/
         jobs:
           - title: Boeing, Defense & Space Group
-            desc: Embedded Software Engineer for Boeing, Defense and Space Group, based in
-              Oklahoma City, Oklahoma that developed the B1-B Bomber Block E
-              software upgrade
+            desc: Embedded Software Engineer at Boeing's Defense & Space Group in Oklahoma
+              City, developing avionics software for the B-1 Bomber's Block E
+              upgrade
             role: Embedded Software Engineer
             begin_year: 1998
             end_year: 1999
@@ -10633,9 +10622,9 @@ _embedded:
                 - href: /jobs/boeing/
         jobs:
           - title: Boeing, Defense & Space Group
-            desc: Embedded Software Engineer for Boeing, Defense and Space Group, based in
-              Oklahoma City, Oklahoma that developed the B1-B Bomber Block E
-              software upgrade
+            desc: Embedded Software Engineer at Boeing's Defense & Space Group in Oklahoma
+              City, developing avionics software for the B-1 Bomber's Block E
+              upgrade
             role: Embedded Software Engineer
             begin_year: 1998
             end_year: 1999
@@ -10651,8 +10640,8 @@ _embedded:
                 - href: /languages/ada/
               os:
                 - href: /os/solaris/
-    - title: SMF Controls and Displays
-      desc: null
+    - title: System Management Function (SMF) Controls and Displays
+      desc: Screens used to monitor the B-1’s custom-built avionics operating system
       role: Embedded Software Engineer
       begin_year: 1998
       end_year: 1999
@@ -10712,9 +10701,9 @@ _embedded:
                 - href: /jobs/boeing/
         jobs:
           - title: Boeing, Defense & Space Group
-            desc: Embedded Software Engineer for Boeing, Defense and Space Group, based in
-              Oklahoma City, Oklahoma that developed the B1-B Bomber Block E
-              software upgrade
+            desc: Embedded Software Engineer at Boeing's Defense & Space Group in Oklahoma
+              City, developing avionics software for the B-1 Bomber's Block E
+              upgrade
             role: Embedded Software Engineer
             begin_year: 1998
             end_year: 1999

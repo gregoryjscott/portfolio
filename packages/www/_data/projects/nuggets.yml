@@ -34,7 +34,7 @@ _links:
     - href: /os/ios/
     - href: /os/linux/
   jobs:
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
 content: >-
   This project began as a proof of concept to validate the use of AI for
   generating dynamic language-learning exercises. While the initial version was
@@ -76,7 +76,7 @@ _embedded:
           - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
   db:
     - title: DynamoDB
       desc: Amazon DynamoDB is a fully managed NoSQL database service that provides
@@ -97,7 +97,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
   tools:
     - title: Amplify
       desc: AWS Amplify is a comprehensive development platform from Amazon Web
@@ -119,7 +119,7 @@ _embedded:
           - href: /projects/la-boda/
           - href: /projects/nuggets/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: Azure AI
       desc: Azure AI is a suite of cloud-based services and APIs for integrating AI
         capabilities—such as computer vision, speech processing, natural
@@ -136,7 +136,7 @@ _embedded:
         projects:
           - href: /projects/nuggets/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: Docker
       desc: Docker is an open-source platform for developing, shipping, and running
         applications. It uses container technology to package applications into
@@ -154,7 +154,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: EC2
       desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
         resizable compute capacity in the cloud. It is designed to make
@@ -173,7 +173,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: ECR
       desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
         container registry that makes it easy to store, manage, and deploy
@@ -192,7 +192,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: ECS
       desc: Amazon Elastic Container Service (ECS) is a container orchestration
         service from Amazon Web Services (AWS) that enables users to easily
@@ -211,7 +211,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: Expo
       desc: Expo is an open-source platform and toolchain built around React Native
         that lets developers write modern JavaScript or TypeScript to produce
@@ -232,7 +232,7 @@ _embedded:
         projects:
           - href: /projects/nuggets/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: Fargate
       desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
         deploy and manage containers without having to manage the underlying
@@ -251,7 +251,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: IAM
       desc: AWS Identity and Access Management (IAM) is a web service that helps you
         securely control access to AWS resources. With IAM, you can create and
@@ -270,7 +270,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: Node
       desc: Node.js is an open-source, cross-platform JavaScript runtime environment
         that executes JavaScript code outside of a browser. It is used to create
@@ -289,7 +289,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: OpenAI
       desc: OpenAI provides a suite of AI development tools and APIs built on
         large-scale machine learning models for natural language understanding,
@@ -304,7 +304,7 @@ _embedded:
         projects:
           - href: /projects/nuggets/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: React Native
       desc: React Native is an open-source framework developed by Facebook that
         enables developers to build mobile apps for iOS and Android using
@@ -328,7 +328,7 @@ _embedded:
         projects:
           - href: /projects/nuggets/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: S3
       desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
         Amazon Web Services (AWS). It provides object storage through a web
@@ -347,7 +347,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: SQS
       desc: Amazon Simple Queue Service (SQS) is a fully managed message queuing
         service that enables applications to quickly and reliably queue messages
@@ -368,7 +368,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: VPC
       desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
         provides users with a virtual private cloud, allowing them to provision
@@ -389,7 +389,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: XState
       desc: XState is a JavaScript/TypeScript library for modeling application logic
         as finite state machines and hierarchical statecharts, enabling
@@ -407,7 +407,7 @@ _embedded:
         projects:
           - href: /projects/nuggets/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
   os:
     - title: Android
       desc: Android is a mobile operating system developed by Google. It is based on a
@@ -426,7 +426,7 @@ _embedded:
         projects:
           - href: /projects/nuggets/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: iOS
       desc: iOS is a mobile operating system developed by Apple Inc. for its iPhone,
         iPad, and iPod Touch devices. It is the second most popular mobile
@@ -444,7 +444,7 @@ _embedded:
         projects:
           - href: /projects/nuggets/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: Linux
       desc: Linux is an open-source operating system that is based on the Linux
         kernel. It is a free and powerful operating system that is used in many
@@ -472,19 +472,20 @@ _embedded:
           - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/rdi/
   jobs:
-    - title: Freelance Programmer
-      desc: Freelance Programmer/Consultant, partnering with clients to architect and
-        implement technology solutions
-      role: Freelance Programmer
+    - title: Independent Programmer and Consultant
+      desc: Independent Programmer and Consultant, building next-generation education
+        technology and partnering with select clients to architect high-impact
+        software solutions
+      role: Independent Programmer and Consultant
       begin_year: 2014
       end_year: present
       time_desc: July 2014 - present
       _links:
         self:
-          href: /jobs/freelance/
+          href: /jobs/independent/
         projects:
           - href: /projects/aprender/
           - href: /projects/cfw/

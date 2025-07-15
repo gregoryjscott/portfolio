@@ -15,7 +15,7 @@ _links:
     - href: /projects/nuggets/
   jobs:
     - href: /jobs/fe/
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
 _embedded:
   projects:
     - title: Nuggets
@@ -54,7 +54,7 @@ _embedded:
           - href: /os/ios/
           - href: /os/linux/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
     - title: EpiCloud
       subtitle: Scaling School Operations with Bots
       desc: AWS-based bot network that automates operations of a virtual charter
@@ -93,16 +93,17 @@ _embedded:
         jobs:
           - href: /jobs/fe/
   jobs:
-    - title: Freelance Programmer
-      desc: Freelance Programmer/Consultant, partnering with clients to architect and
-        implement technology solutions
-      role: Freelance Programmer
+    - title: Independent Programmer and Consultant
+      desc: Independent Programmer and Consultant, building next-generation education
+        technology and partnering with select clients to architect high-impact
+        software solutions
+      role: Independent Programmer and Consultant
       begin_year: 2014
       end_year: present
       time_desc: July 2014 - present
       _links:
         self:
-          href: /jobs/freelance/
+          href: /jobs/independent/
         projects:
           - href: /projects/aprender/
           - href: /projects/cfw/
@@ -154,9 +155,9 @@ _embedded:
           - href: /os/macos/
           - href: /os/windows/
     - title: Futuristic Education
-      desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-        for schools and educators
-      role: Co-Founder/Programmer
+      desc: Co-Founder and Programmer for Futuristic Education, a startup building
+        custom technology solutions for schools and educators
+      role: Co-Founder and Programmer
       begin_year: 2018
       end_year: 2022
       time_desc: March 2018 - present

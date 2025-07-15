@@ -42,7 +42,7 @@ _embedded:
           - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
       _embedded:
         projects:
           - title: Nuggets
@@ -81,7 +81,7 @@ _embedded:
                 - href: /os/ios/
                 - href: /os/linux/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: gregoryjscott.com
             desc: My portfolio website that uses Jekyll to create static HTML pages using
               YAML, Markdown, and HAL-based hypermedia.
@@ -106,7 +106,7 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: EpiCloud
             subtitle: Scaling School Operations with Bots
             desc: AWS-based bot network that automates operations of a virtual charter
@@ -145,16 +145,17 @@ _embedded:
               jobs:
                 - href: /jobs/fe/
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
+          - title: Independent Programmer and Consultant
+            desc: Independent Programmer and Consultant, building next-generation education
+              technology and partnering with select clients to architect
+              high-impact software solutions
+            role: Independent Programmer and Consultant
             begin_year: 2014
             end_year: present
             time_desc: July 2014 - present
             _links:
               self:
-                href: /jobs/freelance/
+                href: /jobs/independent/
               projects:
                 - href: /projects/aprender/
                 - href: /projects/cfw/
@@ -206,9 +207,9 @@ _embedded:
                 - href: /os/macos/
                 - href: /os/windows/
           - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
+            desc: Co-Founder and Programmer for Futuristic Education, a startup building
+              custom technology solutions for schools and educators
+            role: Co-Founder and Programmer
             begin_year: 2018
             end_year: 2022
             time_desc: March 2018 - present
@@ -272,7 +273,7 @@ _embedded:
           - href: /projects/simpler/
           - href: /projects/this-site/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/rdi/
       _embedded:
         projects:
@@ -300,7 +301,7 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: fortworthtexas.gov
             desc: Jekyll static site for the City of Fort Worth, Texas.
             role: Technical Lead
@@ -317,7 +318,7 @@ _embedded:
               os:
                 - href: /os/linux/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: Centroid
             desc: Library for accessing environment based configuration from multiple
               different programming languages.
@@ -361,7 +362,7 @@ _embedded:
               os:
                 - href: /os/linux/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: jekyll-api
             desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
             role: Author
@@ -381,7 +382,7 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: jekyll-embed
             desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
               frontmatter
@@ -403,7 +404,7 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: jekyll-load
             desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
             role: Author
@@ -423,7 +424,7 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: jekyll-prep
             desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
             role: Author
@@ -443,7 +444,7 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
               querying tools for their vast GIS data and infrastructure.
@@ -528,18 +529,19 @@ _embedded:
               os:
                 - href: /os/windows/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
+          - title: Independent Programmer and Consultant
+            desc: Independent Programmer and Consultant, building next-generation education
+              technology and partnering with select clients to architect
+              high-impact software solutions
+            role: Independent Programmer and Consultant
             begin_year: 2014
             end_year: present
             time_desc: July 2014 - present
             _links:
               self:
-                href: /jobs/freelance/
+                href: /jobs/independent/
               projects:
                 - href: /projects/aprender/
                 - href: /projects/cfw/
@@ -591,9 +593,8 @@ _embedded:
                 - href: /os/macos/
                 - href: /os/windows/
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -672,7 +673,7 @@ _embedded:
           - href: /projects/systems-portal/
           - href: /projects/this-site/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/rdi/
       _embedded:
         projects:
@@ -700,7 +701,7 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: hazelandgreg.wedding
             desc: Wedding website for Hazel and Greg
             role: Author
@@ -720,7 +721,7 @@ _embedded:
               os:
                 - href: /os/linux/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
               querying tools for their vast GIS data and infrastructure.
@@ -896,16 +897,17 @@ _embedded:
               jobs:
                 - href: /jobs/rdi/
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
+          - title: Independent Programmer and Consultant
+            desc: Independent Programmer and Consultant, building next-generation education
+              technology and partnering with select clients to architect
+              high-impact software solutions
+            role: Independent Programmer and Consultant
             begin_year: 2014
             end_year: present
             time_desc: July 2014 - present
             _links:
               self:
-                href: /jobs/freelance/
+                href: /jobs/independent/
               projects:
                 - href: /projects/aprender/
                 - href: /projects/cfw/
@@ -957,9 +959,8 @@ _embedded:
                 - href: /os/macos/
                 - href: /os/windows/
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -1037,7 +1038,7 @@ _embedded:
           - href: /projects/systems-portal/
           - href: /projects/this-site/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/rdi/
       _embedded:
         projects:
@@ -1065,7 +1066,7 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: hazelandgreg.wedding
             desc: Wedding website for Hazel and Greg
             role: Author
@@ -1085,7 +1086,7 @@ _embedded:
               os:
                 - href: /os/linux/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
               querying tools for their vast GIS data and infrastructure.
@@ -1261,16 +1262,17 @@ _embedded:
               jobs:
                 - href: /jobs/rdi/
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
+          - title: Independent Programmer and Consultant
+            desc: Independent Programmer and Consultant, building next-generation education
+              technology and partnering with select clients to architect
+              high-impact software solutions
+            role: Independent Programmer and Consultant
             begin_year: 2014
             end_year: present
             time_desc: July 2014 - present
             _links:
               self:
-                href: /jobs/freelance/
+                href: /jobs/independent/
               projects:
                 - href: /projects/aprender/
                 - href: /projects/cfw/
@@ -1322,9 +1324,8 @@ _embedded:
                 - href: /os/macos/
                 - href: /os/windows/
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -1400,7 +1401,7 @@ _embedded:
           - href: /projects/somd/
           - href: /projects/systems-portal/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/rdi/
       _embedded:
         projects:
@@ -1423,7 +1424,7 @@ _embedded:
               os:
                 - href: /os/linux/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: aprender
             desc: CLI for learning Spanish
             role: Author
@@ -1440,7 +1441,7 @@ _embedded:
               os:
                 - href: /os/macos/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
               querying tools for their vast GIS data and infrastructure.
@@ -1616,16 +1617,17 @@ _embedded:
               jobs:
                 - href: /jobs/rdi/
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
+          - title: Independent Programmer and Consultant
+            desc: Independent Programmer and Consultant, building next-generation education
+              technology and partnering with select clients to architect
+              high-impact software solutions
+            role: Independent Programmer and Consultant
             begin_year: 2014
             end_year: present
             time_desc: July 2014 - present
             _links:
               self:
-                href: /jobs/freelance/
+                href: /jobs/independent/
               projects:
                 - href: /projects/aprender/
                 - href: /projects/cfw/
@@ -1677,9 +1679,8 @@ _embedded:
                 - href: /os/macos/
                 - href: /os/windows/
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -1767,9 +1768,9 @@ _embedded:
                 - href: /jobs/fe/
         jobs:
           - title: Futuristic Education
-            desc: Co-Founder/Programmer of Futuristic Education, building custom technology
-              for schools and educators
-            role: Co-Founder/Programmer
+            desc: Co-Founder and Programmer for Futuristic Education, a startup building
+              custom technology solutions for schools and educators
+            role: Co-Founder and Programmer
             begin_year: 2018
             end_year: 2022
             time_desc: March 2018 - present
@@ -1873,9 +1874,8 @@ _embedded:
                 - href: /jobs/rdi/
         jobs:
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -1966,7 +1966,7 @@ _embedded:
           - href: /projects/systems-portal/
           - href: /projects/train-builder/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/mas/
           - href: /jobs/rdi/
       _embedded:
@@ -2014,7 +2014,7 @@ _embedded:
               os:
                 - href: /os/linux/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
               querying tools for their vast GIS data and infrastructure.
@@ -2138,7 +2138,7 @@ _embedded:
               os:
                 - href: /os/windows/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: Quality Bank
             subtitle: Invoicing $1 Billion/Month for Oil Pipeline
             desc: Rewrite of the Trans-Alaska Pipeline's $1B/month invoicing system,
@@ -2181,7 +2181,7 @@ _embedded:
               os:
                 - href: /os/windows/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: Service Order Mobile Dispatch
             desc: Mobile web application that allows Anchorage Water & Wastewater Utility
               service workers to query and record service information while in
@@ -2417,16 +2417,17 @@ _embedded:
               jobs:
                 - href: /jobs/mas/
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
+          - title: Independent Programmer and Consultant
+            desc: Independent Programmer and Consultant, building next-generation education
+              technology and partnering with select clients to architect
+              high-impact software solutions
+            role: Independent Programmer and Consultant
             begin_year: 2014
             end_year: present
             time_desc: July 2014 - present
             _links:
               self:
-                href: /jobs/freelance/
+                href: /jobs/independent/
               projects:
                 - href: /projects/aprender/
                 - href: /projects/cfw/
@@ -2478,9 +2479,8 @@ _embedded:
                 - href: /os/macos/
                 - href: /os/windows/
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -2533,9 +2533,9 @@ _embedded:
                 - href: /os/macos/
                 - href: /os/windows/
           - title: Municipal Accounting Systems, Inc.
-            desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
-              Shawnee, Oklahoma that provides accounting and student information
-              software solutions to school districts in Oklahoma
+            desc: Lead Programmer for Municipal Accounting Systems (MAS), a leading provider
+              of student information and accounting software for school
+              districts throughout Oklahoma
             role: Lead Programmer
             begin_year: 1999
             end_year: 2005
@@ -2595,7 +2595,7 @@ _embedded:
           - href: /projects/wengage-acct/
           - href: /projects/wengage-si/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/mas/
           - href: /jobs/rdi/
       _embedded:
@@ -2621,7 +2621,7 @@ _embedded:
               os:
                 - href: /os/linux/
               jobs:
-                - href: /jobs/freelance/
+                - href: /jobs/independent/
           - title: Alaska Gasline Development Corporation
             desc: Web application that provides AGDC with documentation, reporting, and
               querying tools for their vast GIS data and infrastructure.
@@ -3035,16 +3035,17 @@ _embedded:
               jobs:
                 - href: /jobs/mas/
         jobs:
-          - title: Freelance Programmer
-            desc: Freelance Programmer/Consultant, partnering with clients to architect and
-              implement technology solutions
-            role: Freelance Programmer
+          - title: Independent Programmer and Consultant
+            desc: Independent Programmer and Consultant, building next-generation education
+              technology and partnering with select clients to architect
+              high-impact software solutions
+            role: Independent Programmer and Consultant
             begin_year: 2014
             end_year: present
             time_desc: July 2014 - present
             _links:
               self:
-                href: /jobs/freelance/
+                href: /jobs/independent/
               projects:
                 - href: /projects/aprender/
                 - href: /projects/cfw/
@@ -3096,9 +3097,8 @@ _embedded:
                 - href: /os/macos/
                 - href: /os/windows/
           - title: Resource Data, Inc.
-            desc: Technical Lead for Resource Data, Inc. (RDI), with branches in Alaska,
-              Texas, Idaho, Minnesota, and Oregon, that provides custom
-              database, web, and GIS programming services
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
             role: Technical Lead
             begin_year: 2005
             end_year: 2014
@@ -3151,9 +3151,9 @@ _embedded:
                 - href: /os/macos/
                 - href: /os/windows/
           - title: Municipal Accounting Systems, Inc.
-            desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
-              Shawnee, Oklahoma that provides accounting and student information
-              software solutions to school districts in Oklahoma
+            desc: Lead Programmer for Municipal Accounting Systems (MAS), a leading provider
+              of student information and accounting software for school
+              districts throughout Oklahoma
             role: Lead Programmer
             begin_year: 1999
             end_year: 2005
@@ -3260,9 +3260,9 @@ _embedded:
                 - href: /jobs/mas/
         jobs:
           - title: Municipal Accounting Systems, Inc.
-            desc: Lead Programmer for Municipal Accounting Systems, Inc (MAS), based in
-              Shawnee, Oklahoma that provides accounting and student information
-              software solutions to school districts in Oklahoma
+            desc: Lead Programmer for Municipal Accounting Systems (MAS), a leading provider
+              of student information and accounting software for school
+              districts throughout Oklahoma
             role: Lead Programmer
             begin_year: 1999
             end_year: 2005
@@ -3339,8 +3339,8 @@ _embedded:
                 - href: /os/solaris/
               jobs:
                 - href: /jobs/boeing/
-          - title: SMF Controls and Displays
-            desc: null
+          - title: System Management Function (SMF) Controls and Displays
+            desc: Screens used to monitor the B-1’s custom-built avionics operating system
             role: Embedded Software Engineer
             begin_year: 1998
             end_year: 1999
@@ -3355,9 +3355,9 @@ _embedded:
                 - href: /jobs/boeing/
         jobs:
           - title: Boeing, Defense & Space Group
-            desc: Embedded Software Engineer for Boeing, Defense and Space Group, based in
-              Oklahoma City, Oklahoma that developed the B1-B Bomber Block E
-              software upgrade
+            desc: Embedded Software Engineer at Boeing's Defense & Space Group in Oklahoma
+              City, developing avionics software for the B-1 Bomber's Block E
+              upgrade
             role: Embedded Software Engineer
             begin_year: 1998
             end_year: 1999

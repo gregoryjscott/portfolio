@@ -17,7 +17,7 @@ _links:
   os:
     - href: /os/linux/
   jobs:
-    - href: /jobs/freelance/
+    - href: /jobs/independent/
 _embedded:
   languages:
     - title: CSS
@@ -47,7 +47,7 @@ _embedded:
           - href: /projects/systems-portal/
           - href: /projects/this-site/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/rdi/
     - title: HTML
       desc: HTML (HyperText Markup Language) is a markup language used to create
@@ -75,7 +75,7 @@ _embedded:
           - href: /projects/systems-portal/
           - href: /projects/this-site/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/rdi/
     - title: JavaScript
       desc: JavaScript is a high-level, interpreted programming language that is used
@@ -101,7 +101,7 @@ _embedded:
           - href: /projects/somd/
           - href: /projects/systems-portal/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/rdi/
   db:
     - title: DynamoDB
@@ -123,7 +123,7 @@ _embedded:
           - href: /projects/nuggets/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
   tools:
     - title: Amplify
       desc: AWS Amplify is a comprehensive development platform from Amazon Web
@@ -145,7 +145,7 @@ _embedded:
           - href: /projects/la-boda/
           - href: /projects/nuggets/
         jobs:
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
   os:
     - title: Linux
       desc: Linux is an open-source operating system that is based on the Linux
@@ -174,19 +174,20 @@ _embedded:
           - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
-          - href: /jobs/freelance/
+          - href: /jobs/independent/
           - href: /jobs/rdi/
   jobs:
-    - title: Freelance Programmer
-      desc: Freelance Programmer/Consultant, partnering with clients to architect and
-        implement technology solutions
-      role: Freelance Programmer
+    - title: Independent Programmer and Consultant
+      desc: Independent Programmer and Consultant, building next-generation education
+        technology and partnering with select clients to architect high-impact
+        software solutions
+      role: Independent Programmer and Consultant
       begin_year: 2014
       end_year: present
       time_desc: July 2014 - present
       _links:
         self:
-          href: /jobs/freelance/
+          href: /jobs/independent/
         projects:
           - href: /projects/aprender/
           - href: /projects/cfw/
