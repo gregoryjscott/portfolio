@@ -13,7 +13,9 @@ _links:
   self:
     href: /devices/mac/
   projects:
+    - href: /projects/centroid/
     - href: /projects/epicloud/
   jobs:
     - href: /jobs/fe/
+    - href: /jobs/rdi/
 ---

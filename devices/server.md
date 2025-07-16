@@ -10,7 +10,9 @@ _links:
   self:
     href: /devices/server/
   projects:
+    - href: /projects/centroid/
     - href: /projects/sif-agent/
   jobs:
     - href: /jobs/mas/
+    - href: /jobs/rdi/
 ---

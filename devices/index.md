@@ -9,5 +9,6 @@ _links:
     - href: /devices/b-1/
     - href: /devices/cloud/
     - href: /devices/mac/
+    - href: /devices/pc/
     - href: /devices/server/
 ---
