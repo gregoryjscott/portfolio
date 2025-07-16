@@ -616,7 +616,7 @@ _embedded:
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
+                - href: /projects/laser-range-finder/
                 - href: /projects/please/
                 - href: /projects/qb/
                 - href: /projects/report-engine/
@@ -982,7 +982,7 @@ _embedded:
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
+                - href: /projects/laser-range-finder/
                 - href: /projects/please/
                 - href: /projects/qb/
                 - href: /projects/report-engine/
@@ -1347,7 +1347,7 @@ _embedded:
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
+                - href: /projects/laser-range-finder/
                 - href: /projects/please/
                 - href: /projects/qb/
                 - href: /projects/report-engine/
@@ -1702,7 +1702,7 @@ _embedded:
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
+                - href: /projects/laser-range-finder/
                 - href: /projects/please/
                 - href: /projects/qb/
                 - href: /projects/report-engine/
@@ -1897,7 +1897,7 @@ _embedded:
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
+                - href: /projects/laser-range-finder/
                 - href: /projects/please/
                 - href: /projects/qb/
                 - href: /projects/report-engine/
@@ -1953,7 +1953,7 @@ _embedded:
           - href: /projects/denver-schedules-api/
           - href: /projects/energy-efficiency-map/
           - href: /projects/flir-monitoring/
-          - href: /projects/lasar-range-finder/
+          - href: /projects/laser-range-finder/
           - href: /projects/mvc-integration-test-framework/
           - href: /projects/please/
           - href: /projects/qb/
@@ -2235,8 +2235,8 @@ _embedded:
                 - href: /os/windows/
               jobs:
                 - href: /jobs/rdi/
-          - title: Lasar Range Finder
-            desc: Software that records output from a handheld lasar range finder and
+          - title: Laser Range Finder
+            desc: Software that records output from a handheld laser range finder and
               combines it with records from a GPS unit which allows field
               workers to record the locations of objects that aren't assessible
               otherwise.
@@ -2245,7 +2245,7 @@ _embedded:
             end_year: 2008
             _links:
               self:
-                href: /projects/lasar-range-finder/
+                href: /projects/laser-range-finder/
               languages:
                 - href: /languages/cs/
               db:
@@ -2502,7 +2502,7 @@ _embedded:
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
+                - href: /projects/laser-range-finder/
                 - href: /projects/please/
                 - href: /projects/qb/
                 - href: /projects/report-engine/
@@ -3120,7 +3120,7 @@ _embedded:
                 - href: /projects/employee-suggestions/
                 - href: /projects/energy-efficiency-map/
                 - href: /projects/flir-monitoring/
-                - href: /projects/lasar-range-finder/
+                - href: /projects/laser-range-finder/
                 - href: /projects/please/
                 - href: /projects/qb/
                 - href: /projects/report-engine/

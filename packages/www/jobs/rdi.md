@@ -25,7 +25,7 @@ _links:
     - href: /projects/employee-suggestions/
     - href: /projects/energy-efficiency-map/
     - href: /projects/flir-monitoring/
-    - href: /projects/lasar-range-finder/
+    - href: /projects/laser-range-finder/
     - href: /projects/please/
     - href: /projects/qb/
     - href: /projects/report-engine/

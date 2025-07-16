@@ -26,7 +26,7 @@ _links:
     - href: /projects/denver-schedules-api/
     - href: /projects/energy-efficiency-map/
     - href: /projects/flir-monitoring/
-    - href: /projects/lasar-range-finder/
+    - href: /projects/laser-range-finder/
     - href: /projects/mvc-integration-test-framework/
     - href: /projects/please/
     - href: /projects/qb/

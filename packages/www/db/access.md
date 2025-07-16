@@ -15,7 +15,7 @@ _links:
     href: /db/access/
   projects:
     - href: /projects/flir-monitoring/
-    - href: /projects/lasar-range-finder/
+    - href: /projects/laser-range-finder/
   jobs:
     - href: /jobs/rdi/
 ---
