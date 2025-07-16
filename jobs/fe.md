@@ -42,6 +42,7 @@ _links:
     - href: /os/macos/
     - href: /os/windows/
   devices:
+    - href: /devices/cloud/
     - href: /devices/mac/
 ---
 
