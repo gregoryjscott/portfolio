@@ -16,6 +16,7 @@ module.exports = {
       "error",
       {
         args: "none",
+        varsIgnorePattern: "^_",
       },
     ],
     "prefer-const": [

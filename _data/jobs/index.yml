@@ -77,11 +77,18 @@ _embedded:
         taking it from a personal proof-of-concept to a formal research tool for
         a master's degree study on micro-learning.
 
-        - Built an interactive mobile study tool for the U.S. Naturalization Test, featuring audio questions, practice exams, and bookmarking to help learners master the official USCIS curriculum.
+        - Built an interactive mobile study tool for the U.S. Naturalization
+        Test, featuring audio questions, practice exams, and bookmarking to help
+        learners master the official USCIS curriculum.
 
-        - Architected and built the unified software infrastructure for the City of Fort Worth's public websites, consolidating disparate CMSs, APIs, and datasets into a single, manageable Jekyll-based static site.
+        - Architected and built the unified software infrastructure for the City
+        of Fort Worth's public websites, consolidating disparate CMSs, APIs, and
+        datasets into a single, manageable Jekyll-based static site.
 
-        - Established the core technical foundation for a Code for America civic tech project, implementing the project structure, building the automated testing suite, and debugging the core scheduling logic for a citizen reminder system.
+        - Established the core technical foundation for a Code for America civic
+        tech project, implementing the project structure, building the automated
+        testing suite, and debugging the core scheduling logic for a citizen
+        reminder system.
       _embedded:
         projects:
           - title: Nuggets
@@ -1195,11 +1202,18 @@ _embedded:
         60,000 students through a scalable network of bots that automated 95% of
         data entry tasks.
 
-        - Implemented a secure, school-wide single sign-on (SSO) solution that eliminated critical security risks and simplified access to all systems for over 60,000 students and 2,000 teachers.
+        - Implemented a secure, school-wide single sign-on (SSO) solution that
+        eliminated critical security risks and simplified access to all systems
+        for over 60,000 students and 2,000 teachers.
 
-        - Developed a custom data warehouse with a complete time-series history of all student data, providing the school's data team with unprecedented insight and enabling rapid debugging and reporting.
+        - Developed a custom data warehouse with a complete time-series history
+        of all student data, providing the school's data team with unprecedented
+        insight and enabling rapid debugging and reporting.
 
-        - Created a suite of student performance reports that translated raw data into actionable insights, empowering teachers to focus on instruction by automating the tracking of student strengths, weaknesses, and growth.
+        - Created a suite of student performance reports that translated raw
+        data into actionable insights, empowering teachers to focus on
+        instruction by automating the tracking of student strengths, weaknesses,
+        and growth.
       _embedded:
         projects:
           - title: Epic California Academy Enrollment
@@ -1818,13 +1832,21 @@ _embedded:
         partnering directly with clients from conception to delivery, ensuring
         solutions precisely met their business needs.
 
-        - Championed and drove the company-wide adoption of modern development practices, introducing Agile/Lean methodologies, new technologies like Ruby and Node.js, and collaborative forums like developer roundtables.
+        - Championed and drove the company-wide adoption of modern development
+        practices, introducing Agile/Lean methodologies, new technologies like
+        Ruby and Node.js, and collaborative forums like developer roundtables.
 
-        - Created a successful mentorship model that identified and elevated junior talent, consistently handing off project leadership to high-potential developers and creating a clear path for their promotion.
+        - Created a successful mentorship model that identified and elevated
+        junior talent, consistently handing off project leadership to
+        high-potential developers and creating a clear path for their promotion.
 
-        - Cultivated a highly productive and focused development team by managing all client-facing communication and removing external pressures, allowing engineers to concentrate on execution and delivery.
+        - Cultivated a highly productive and focused development team by
+        managing all client-facing communication and removing external
+        pressures, allowing engineers to concentrate on execution and delivery.
 
-        - Initiated and led RDI's first open-source projects, securing management buy-in to build reusable tools that increased developer productivity and fostered a culture of internal innovation.
+        - Initiated and led RDI's first open-source projects, securing
+        management buy-in to build reusable tools that increased developer
+        productivity and fostered a culture of internal innovation.
       _embedded:
         projects:
           - title: Centroid
@@ -2763,11 +2785,17 @@ _embedded:
         applications to a unified suite of Windows desktop applications for
         every aspect of school administration.
 
-        - Delivered the state's first SIF-compliant reporting agent, turning an attempt to legislate MAS out of the market into a decisive victory that cemented the company's position as the state's recommended vendor.
+        - Delivered the state's first SIF-compliant reporting agent, turning an
+        attempt to legislate MAS out of the market into a decisive victory that
+        cemented the company's position as the state's recommended vendor.
 
-        - Drove internal efficiency by creating a suite of tools that automated critical backend tasks, including database migrations, data imports, and software deployments.
+        - Drove internal efficiency by creating a suite of tools that automated
+        critical backend tasks, including database migrations, data imports, and
+        software deployments.
 
-        - Solidified MAS's market dominance, growing its share to over 85% of Oklahoma school districts through key technology initiatives including the Windows migration and the state-mandated SIF agent.
+        - Solidified MAS's market dominance, growing its share to over 85% of
+        Oklahoma school districts through key technology initiatives including
+        the Windows migration and the state-mandated SIF agent.
       _embedded:
         projects:
           - title: SIF Agent
@@ -3096,9 +3124,13 @@ _embedded:
         interface that all other avionics teams depended on for distributing
         flight plans, target coordinates, and weapon configurations.
 
-        - Ensured mission continuity during hardware failures by developing a suite of backup displays that provided full redundancy for critical input devices like keypads and switch panels.
+        - Ensured mission continuity during hardware failures by developing a
+        suite of backup displays that provided full redundancy for critical
+        input devices like keypads and switch panels.
 
-        - Functioned as a key contributor to both the Controls & Displays and the core System Management Function teams, developing the displays used to monitor the B-1's custom-built avionics operating system.
+        - Functioned as a key contributor to both the Controls & Displays and
+        the core System Management Function teams, developing the displays used
+        to monitor the B-1's custom-built avionics operating system.
       _embedded:
         projects:
           - title: Backup Controls and Displays

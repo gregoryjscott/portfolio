@@ -77,7 +77,7 @@ function sortEmbeddedResources(resources: Resource[]) {
 }
 
 function excludeLayout(frontmatter: any) {
-  const { layout, ...rest } = frontmatter
+  const { layout: _, ...rest } = frontmatter
   return rest
 }
 

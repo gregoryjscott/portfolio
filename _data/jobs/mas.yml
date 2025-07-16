@@ -1,45 +1,127 @@
-title: SIF Agent
-subtitle: Automating State Reporting for 500+ Schools
-desc: State of Oklahoma's first Schools Interoperability Framework (SIF)
-  compliant reporting agent, securing our company's position as the dominant
-  market provider for over 500 school districts.
-role: Lead Developer
-begin_year: 2004
+title: Municipal Accounting Systems, Inc.
+desc: Lead Programmer for Municipal Accounting Systems (MAS), a leading provider
+  of student information and accounting software for school districts throughout
+  Oklahoma
+role: Lead Programmer
+begin_year: 1999
 end_year: 2005
+time_desc: November 1999 - June 2005
 _links:
   self:
-    href: /projects/sif-agent/
+    href: /jobs/mas/
+  projects:
+    - href: /projects/class-scheduler/
+    - href: /projects/sif-agent/
+    - href: /projects/wengage-acct/
+    - href: /projects/wengage-si/
   languages:
     - href: /languages/cs/
+    - href: /languages/delphi/
     - href: /languages/sql/
   db:
+    - href: /db/btrieve/
     - href: /db/pervasive/
   os:
+    - href: /os/netware/
     - href: /os/windows/
-  jobs:
-    - href: /jobs/mas/
 content: >-
-  In 2004, the State of Oklahoma mandated that all Student Information
-  Systems become compliant with the Schools Interoperability Framework (SIF), a
-  complex, XML-based messaging protocol. At the time, I was the lead developer
-  for [MAS](/jobs/mas/), a small company whose software was used by over 85% of
-  the state's school districts. The mandate was widely seen as an existential
-  threat, a move by large, national competitors to legislate us out of the
-  market by requiring a technology they believed we were incapable of
-  delivering.
+  - As Lead Programmer, directed the complete modernization of the company's
+  entire product line, migrating over 15 mission-critical DOS applications to a
+  unified suite of Windows desktop applications for every aspect of school
+  administration.
 
+  - Delivered the state's first SIF-compliant reporting agent, turning an
+  attempt to legislate MAS out of the market into a decisive victory that
+  cemented the company's position as the state's recommended vendor.
 
-  I designed and built the SIF Agent from the ground up, learning C# on the fly to implement a robust data transformation engine that mapped our Pervasive SQL database to the rigid SIF XML standard. The agent was architected for extensibility, allowing new data objects to be added through simple configuration and a set of SQL statements. The process culminated in certification with the state, where our agent was so reliable that we helped debug their own certification test harness.
+  - Drove internal efficiency by creating a suite of tools that automated
+  critical backend tasks, including database migrations, data imports, and
+  software deployments.
 
-
-  Against all expectations, we delivered the solution ahead of schedule, becoming the first and only SIS vendor in Oklahoma to meet the state's deadline. This decisive victory turned a perceived threat into a market-defining triumph. The state officially recommended MAS as their preferred choice, cementing our position as the dominant provider and creating a legendary success story in the company’s history.
-
-
-  ## Key Takeaway
-
-
-  Even the most intimidating enterprise challenges are just code. The key is to deconstruct the complexity, break the problem down into its logical parts, and have the confidence to execute. For this project, that meant turning an inch-thick specification into a series of solvable coding challenges.
+  - Solidified MAS's market dominance, growing its share to over 85% of Oklahoma
+  school districts through key technology initiatives including the Windows
+  migration and the state-mandated SIF agent.
 _embedded:
+  projects:
+    - title: SIF Agent
+      subtitle: Automating State Reporting for 500+ Schools
+      desc: State of Oklahoma's first Schools Interoperability Framework (SIF)
+        compliant reporting agent, securing our company's position as the
+        dominant market provider for over 500 school districts.
+      role: Lead Developer
+      begin_year: 2004
+      end_year: 2005
+      _links:
+        self:
+          href: /projects/sif-agent/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/sql/
+        db:
+          - href: /db/pervasive/
+        os:
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/mas/
+    - title: Wen-GAGE Accounting
+      desc: Desktop application that is used by schools in Oklahoma to manage all
+        their school accounting responsibilites.
+      role: Lead Developer
+      begin_year: 1999
+      end_year: 2004
+      _links:
+        self:
+          href: /projects/wengage-acct/
+        languages:
+          - href: /languages/delphi/
+          - href: /languages/sql/
+        db:
+          - href: /db/btrieve/
+          - href: /db/pervasive/
+        os:
+          - href: /os/netware/
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/mas/
+    - title: Wen-GAGE Student Information
+      desc: Desktop application that is used by schools in Oklahoma to manage their
+        student information such as enrollment, attendance, and grades.
+      role: Lead Developer
+      begin_year: 1999
+      end_year: 2004
+      _links:
+        self:
+          href: /projects/wengage-si/
+        languages:
+          - href: /languages/delphi/
+          - href: /languages/sql/
+        db:
+          - href: /db/btrieve/
+          - href: /db/pervasive/
+        os:
+          - href: /os/netware/
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/mas/
+    - title: Class Scheduler
+      desc: Process that takes student course requests along with the available
+        courses, sections, and teachers and builds the class schedule.
+      role: Lead Developer
+      begin_year: 1999
+      end_year: 1999
+      _links:
+        self:
+          href: /projects/class-scheduler/
+        languages:
+          - href: /languages/delphi/
+        db:
+          - href: /db/btrieve/
+          - href: /db/pervasive/
+        os:
+          - href: /os/netware/
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/mas/
   languages:
     - title: C#
       desc: C# is a general-purpose, object-oriented programming language developed by
@@ -83,6 +165,27 @@ _embedded:
           - href: /jobs/independent/
           - href: /jobs/mas/
           - href: /jobs/rdi/
+    - title: Delphi
+      desc: Delphi is an object-oriented programming language developed by Embarcadero
+        Technologies. It is based on the Object Pascal language and is used to
+        create Windows, macOS, iOS, and Android applications. Delphi is a rapid
+        application development (RAD) tool that allows developers to quickly
+        create applications with a graphical user interface (GUI). It also
+        includes a visual component library (VCL) and an integrated development
+        environment (IDE). Delphi is used by developers to create applications
+        for a variety of industries, including finance, healthcare, and
+        manufacturing.
+      used_begin_year: 1999
+      used_end_year: 2004
+      _links:
+        self:
+          href: /languages/delphi/
+        projects:
+          - href: /projects/class-scheduler/
+          - href: /projects/wengage-acct/
+          - href: /projects/wengage-si/
+        jobs:
+          - href: /jobs/mas/
     - title: SQL
       desc: SQL (Structured Query Language) is a domain-specific language used in
         programming and designed for managing data held in a relational database
@@ -124,6 +227,27 @@ _embedded:
           - href: /jobs/mas/
           - href: /jobs/rdi/
   db:
+    - title: Btrieve
+      desc: Btrieve is a database management system (DBMS) developed by Pervasive
+        Software. It is a high-performance, reliable, and cost-effective
+        database solution for small to medium-sized businesses. Btrieve is a
+        relational database that supports multiple data types, including text,
+        numeric, and binary. It is designed to be easy to use and provides a
+        wide range of features, including data encryption, transaction logging,
+        and replication. Btrieve is also highly scalable, allowing it to be used
+        in a variety of applications, from single-user systems to large
+        enterprise networks.
+      used_begin_year: 1999
+      used_end_year: 2004
+      _links:
+        self:
+          href: /db/btrieve/
+        projects:
+          - href: /projects/class-scheduler/
+          - href: /projects/wengage-acct/
+          - href: /projects/wengage-si/
+        jobs:
+          - href: /jobs/mas/
     - title: Pervasive
       desc: Pervasive is a relational database management system (RDBMS) that is
         designed to provide high performance, scalability, and reliability for
@@ -147,6 +271,27 @@ _embedded:
         jobs:
           - href: /jobs/mas/
   os:
+    - title: NetWare
+      desc: NetWare is a network operating system developed by Novell, Inc. It was one
+        of the first network operating systems to be widely used in business
+        networks. It provides a distributed file system, print services, and
+        other network services. It also provides a graphical user interface,
+        allowing users to access and manage network resources. NetWare also
+        supports a wide range of network protocols, including IPX/SPX, TCP/IP,
+        and AppleTalk. It is also compatible with a variety of hardware
+        platforms, including Intel-based PCs, Macintosh computers, and UNIX
+        systems.
+      used_begin_year: 1999
+      used_end_year: 2004
+      _links:
+        self:
+          href: /os/netware/
+        projects:
+          - href: /projects/class-scheduler/
+          - href: /projects/wengage-acct/
+          - href: /projects/wengage-si/
+        jobs:
+          - href: /jobs/mas/
     - title: Windows
       desc: Windows is a series of operating systems developed by Microsoft. It is the
         most popular operating system for personal computers, and is used in a
@@ -198,30 +343,3 @@ _embedded:
           - href: /jobs/rdi/
         schools:
           - href: /schools/uco/
-  jobs:
-    - title: Municipal Accounting Systems, Inc.
-      desc: Lead Programmer for Municipal Accounting Systems (MAS), a leading provider
-        of student information and accounting software for school districts
-        throughout Oklahoma
-      role: Lead Programmer
-      begin_year: 1999
-      end_year: 2005
-      time_desc: November 1999 - June 2005
-      _links:
-        self:
-          href: /jobs/mas/
-        projects:
-          - href: /projects/class-scheduler/
-          - href: /projects/sif-agent/
-          - href: /projects/wengage-acct/
-          - href: /projects/wengage-si/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/delphi/
-          - href: /languages/sql/
-        db:
-          - href: /db/btrieve/
-          - href: /db/pervasive/
-        os:
-          - href: /os/netware/
-          - href: /os/windows/

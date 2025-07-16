@@ -1,19 +1,23 @@
-title: EpiCloud
-subtitle: Scaling School Operations with Bots
-desc: AWS-based bot network that automates operations of a virtual charter
-  school, enabling the school to scale seamlessly from 1,500 to over 60,000
-  students.
-role: Programmer/Consultant
-begin_year: 2015
-end_year: 2021
+title: Futuristic Education
+desc: Co-Founder and Programmer for Futuristic Education, a startup building
+  custom technology solutions for schools and educators
+role: Co-Founder and Programmer
+begin_year: 2018
+end_year: 2022
+time_desc: March 2018 - present
 _links:
   self:
-    href: /projects/epicloud/
+    href: /jobs/fe/
+  projects:
+    - href: /projects/epic-ca-enrollment/
+    - href: /projects/epicloud/
   languages:
+    - href: /languages/php/
     - href: /languages/ts/
   db:
     - href: /db/bigquery/
     - href: /db/ddb/
+    - href: /db/firebase/
   tools:
     - href: /tools/classroom/
     - href: /tools/docker/
@@ -33,28 +37,96 @@ _links:
   os:
     - href: /os/linux/
     - href: /os/macos/
-  jobs:
-    - href: /jobs/fe/
+    - href: /os/windows/
 content: >-
-  In 2014, Epic Charter Schools was on the verge of exponential growth
-  and had already outgrown its initial, manual-based operations. With 1,500
-  students, the reliance on temporary staff for data entry created a constant
-  backlog, forcing newly enrolled students to wait weeks for curriculum access
-  and exposing the school to unacceptable security risks.
+  - Architected and built the entire cloud infrastructure for one of the
+  nation's largest charter schools, enabling growth from 1,500 to over 60,000
+  students through a scalable network of bots that automated 95% of data entry
+  tasks.
 
+  - Implemented a secure, school-wide single sign-on (SSO) solution that
+  eliminated critical security risks and simplified access to all systems for
+  over 60,000 students and 2,000 teachers.
 
-  To eliminate the backlog and enable growth, I designed and built EpiCloud, a network of automated bots on Amazon Web Services (AWS). The system’s architecture was engineered for scalability, allowing the school to grow seamlessly to over 60,000 students. As word of the bots’ success spread and requests for additional automation multiplied, I assembled a team of developers to build bots that ultimately automated over 95% of the school’s data entry tasks. I built a custom command-line interface (CLI) to manage and monitor this complex network, which proved critical to its operational success.
+  - Developed a custom data warehouse with a complete time-series history of all
+  student data, providing the school's data team with unprecedented insight and
+  enabling rapid debugging and reporting.
 
-
-  In parallel, I addressed the security risks by implementing a new, school-wide single sign-on solution. This replaced the insecure practice of managing separate credentials, allowing teachers, students, and staff to securely access all school systems with just their single Google account.
-
-
-  ## Key Takeaway
-
-
-  The key to the project’s widespread adoption lay in a simple shift in language. Technical terms like 'workflows' or 'background tasks' were met with confusion. But the moment we framed the automation as 'bots', everyone understood. It provided a clear mental model: a bot could perform a human’s task, just faster and without errors. This empowered non-technical staff to become active partners in identifying new automation opportunities.
+  - Created a suite of student performance reports that translated raw data into
+  actionable insights, empowering teachers to focus on instruction by automating
+  the tracking of student strengths, weaknesses, and growth.
 _embedded:
+  projects:
+    - title: Epic California Academy Enrollment
+      desc: null
+      role: Technical Lead
+      begin_year: 2017
+      end_year: 2021
+      _links:
+        self:
+          href: /projects/epic-ca-enrollment/
+        languages:
+          - href: /languages/php/
+        db:
+          - href: /db/firebase/
+        os:
+          - href: /os/windows/
+        jobs:
+          - href: /jobs/fe/
+    - title: EpiCloud
+      subtitle: Scaling School Operations with Bots
+      desc: AWS-based bot network that automates operations of a virtual charter
+        school, enabling the school to scale seamlessly from 1,500 to over
+        60,000 students.
+      role: Programmer/Consultant
+      begin_year: 2015
+      end_year: 2021
+      _links:
+        self:
+          href: /projects/epicloud/
+        languages:
+          - href: /languages/ts/
+        db:
+          - href: /db/bigquery/
+          - href: /db/ddb/
+        tools:
+          - href: /tools/classroom/
+          - href: /tools/docker/
+          - href: /tools/drive/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/firebase/
+          - href: /tools/iam/
+          - href: /tools/node/
+          - href: /tools/puppeteer/
+          - href: /tools/s3/
+          - href: /tools/sikulix/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+        os:
+          - href: /os/linux/
+          - href: /os/macos/
+        jobs:
+          - href: /jobs/fe/
   languages:
+    - title: PHP
+      desc: PHP is a server-side scripting language used for web development. It is a
+        powerful language that is used to create dynamic web pages and
+        applications. It is an open-source language, meaning it is free to use
+        and modify. PHP is easy to learn and is widely used for creating
+        websites and web applications. It is also used to create database-driven
+        websites and applications.
+      used_begin_year: 2017
+      used_end_year: 2021
+      _links:
+        self:
+          href: /languages/php/
+        projects:
+          - href: /projects/epic-ca-enrollment/
+        jobs:
+          - href: /jobs/fe/
     - title: Typescript
       desc: Typescript is a typed superset of JavaScript that compiles to plain
         JavaScript. It adds optional static typing to the language, allowing
@@ -114,6 +186,28 @@ _embedded:
         jobs:
           - href: /jobs/fe/
           - href: /jobs/independent/
+    - title: Firebase
+      desc: Firebase’s Realtime Database is a cloud-hosted, NoSQL JSON data store that
+        lets you build rich, collaborative applications by syncing data in
+        milliseconds across all connected clients. Data is stored as a single,
+        hierarchical JSON tree and updated in real time—any changes made by one
+        client are immediately pushed to every other. SDKs for iOS, Android and
+        web handle offline caching and automatic resynchronization, while
+        granular security rules and Firebase Authentication ensure data is
+        accessed and modified only by authorized users. With built-in
+        scalability, sharding and integration with other Firebase services
+        (Cloud Functions, Analytics, etc.), the Realtime Database simplifies the
+        creation of responsive, data-driven apps without the need to manage your
+        own backend.
+      used_begin_year: 2017
+      used_end_year: 2021
+      _links:
+        self:
+          href: /db/firebase/
+        projects:
+          - href: /projects/epic-ca-enrollment/
+        jobs:
+          - href: /jobs/fe/
   tools:
     - title: Docker
       desc: Docker is an open-source platform for developing, shipping, and running
@@ -455,44 +549,54 @@ _embedded:
           - href: /jobs/fe/
           - href: /jobs/independent/
           - href: /jobs/rdi/
-  jobs:
-    - title: Futuristic Education
-      desc: Co-Founder and Programmer for Futuristic Education, a startup building
-        custom technology solutions for schools and educators
-      role: Co-Founder and Programmer
-      begin_year: 2018
-      end_year: 2022
-      time_desc: March 2018 - present
+    - title: Windows
+      desc: Windows is a series of operating systems developed by Microsoft. It is the
+        most popular operating system for personal computers, and is used in a
+        variety of devices, including desktop and laptop computers, tablets, and
+        smartphones. Windows provides a graphical user interface, allowing users
+        to interact with their computer using a mouse and keyboard. It also
+        includes a range of applications, such as web browsers, media players,
+        and office suites. Windows also includes a range of security features,
+        such as user accounts, firewalls, and antivirus software.
+      used_begin_year: 1994
+      used_end_year: 2021
       _links:
         self:
-          href: /jobs/fe/
+          href: /os/windows/
         projects:
+          - href: /projects/agdc/
+          - href: /projects/ahfc-integration/
+          - href: /projects/awwu-intranet/
+          - href: /projects/awwu-job-scheduler/
+          - href: /projects/awwu-systems-integration/
+          - href: /projects/bit-proposal/
+          - href: /projects/centroid/
+          - href: /projects/cis-data-capture/
+          - href: /projects/class-scheduler/
+          - href: /projects/consumption-views/
+          - href: /projects/database-sync-awwu/
+          - href: /projects/employee-suggestions/
+          - href: /projects/energy-efficiency-map/
           - href: /projects/epic-ca-enrollment/
-          - href: /projects/epicloud/
-        languages:
-          - href: /languages/php/
-          - href: /languages/ts/
-        db:
-          - href: /db/bigquery/
-          - href: /db/ddb/
-          - href: /db/firebase/
-        tools:
-          - href: /tools/classroom/
-          - href: /tools/docker/
-          - href: /tools/drive/
-          - href: /tools/ec2/
-          - href: /tools/ecr/
-          - href: /tools/ecs/
-          - href: /tools/fargate/
-          - href: /tools/firebase/
-          - href: /tools/iam/
-          - href: /tools/node/
-          - href: /tools/puppeteer/
-          - href: /tools/s3/
-          - href: /tools/sikulix/
-          - href: /tools/sqs/
-          - href: /tools/vpc/
-        os:
-          - href: /os/linux/
-          - href: /os/macos/
-          - href: /os/windows/
+          - href: /projects/flir-monitoring/
+          - href: /projects/laser-range-finder/
+          - href: /projects/mvc-integration-test-framework/
+          - href: /projects/please/
+          - href: /projects/qb/
+          - href: /projects/report-engine/
+          - href: /projects/sar-reports/
+          - href: /projects/scrum-tools/
+          - href: /projects/sif-agent/
+          - href: /projects/simpler/
+          - href: /projects/somd/
+          - href: /projects/systems-portal/
+          - href: /projects/train-builder/
+          - href: /projects/wengage-acct/
+          - href: /projects/wengage-si/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/independent/
+          - href: /jobs/mas/
+          - href: /jobs/rdi/
+        schools:
+          - href: /schools/uco/
