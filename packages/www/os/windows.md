@@ -31,7 +31,7 @@ _links:
     - href: /projects/energy-efficiency-map/
     - href: /projects/epic-ca-enrollment/
     - href: /projects/flir-monitoring/
-    - href: /projects/lasar-range-finder/
+    - href: /projects/laser-range-finder/
     - href: /projects/mvc-integration-test-framework/
     - href: /projects/please/
     - href: /projects/qb/
