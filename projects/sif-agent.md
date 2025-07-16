@@ -19,6 +19,8 @@ _links:
     - href: /db/pervasive/
   os:
     - href: /os/windows/
+  devices:
+    - href: /devices/server/
   jobs:
     - href: /jobs/mas/
 ---

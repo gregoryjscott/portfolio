@@ -8,4 +8,5 @@ _links:
   devices:
     - href: /devices/cloud/
     - href: /devices/mac/
+    - href: /devices/server/
 ---
