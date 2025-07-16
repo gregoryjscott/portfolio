@@ -6,6 +6,7 @@ _links:
   self:
     href: /devices/
   devices:
+    - href: /devices/b-1/
     - href: /devices/cloud/
     - href: /devices/mac/
     - href: /devices/server/

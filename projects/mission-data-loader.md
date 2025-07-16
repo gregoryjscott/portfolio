@@ -16,6 +16,8 @@ _links:
     - href: /languages/ada/
   os:
     - href: /os/solaris/
+  devices:
+    - href: /devices/b-1/
   jobs:
     - href: /jobs/boeing/
 ---
