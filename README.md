@@ -20,7 +20,7 @@ In this portfolio, HAL is used to manage relationships between resources (e.g., 
 ## How does it work?
 
 1. **Markdown files** representing resources contain frontmatter with `_links` relationships.
-2. **TypeScript scripts** (`npm run prep`) process these relationships and generate corresponding YAML files containing `_embedded` resource data in `_data/`.
+2. **TypeScript scripts** (`npm run prep`) process these relationships and generate YAML files containing `_embedded` resource data.
 3. **Jekyll plugin** (`_plugins/load.rb`) merges the generated YAML into each page's (Markdown) frontmatter at build time, making the embedded resources available to Jekyll templates.
 
 ### Markdown files contain `_links`
@@ -28,9 +28,11 @@ In this portfolio, HAL is used to manage relationships between resources (e.g., 
 Resources maintain bidirectional relationships through `_links`.
 
 ```yaml
-# Example: /projects/this-site.md
+# Example: /projects/this-site.md that links to /languages/ts/
 ---
+
 # ... other frontmatter
+
 _links:
   self:
     href: /projects/this-site/
@@ -40,9 +42,11 @@ _links:
 ```
 
 ```yaml
-# Example: /languages/ts.md
+# Example: /languages/ts.md that links to /projects/this-site/
 ---
+
 # ... other frontmatter
+
 _links:
   self:
     href: /languages/ts/
@@ -53,11 +57,13 @@ _links:
 
 ### Typescript scripts generate YAML files containing `_embedded`
 
-Typescript scripts generate YAML files containing `_embedded` sections by following `_links` relationships and including full resource details from the linked resources.
+Typescript scripts generate YAML files containing `_embedded` sections by following `_links` relationships and embedding full resource details from the linked resources.
 
 ```yaml
-# Example: _data/projects/this-site.yml
-# ... data from frontmatter including _links
+# Example: _data/projects/this-site.yml that contains embedded /languages/ts/
+
+# ... data copied from Markdown frontmatter including _links
+
 _embedded:
   languages:
     - title: TypeScript
@@ -69,16 +75,17 @@ _embedded:
           href: /languages/ts/
         projects:
           - href: /projects/this-site/
-      # ... more embedded languages
 ```
 
 ```yaml
-# Example: _data/languages/ts.yml  
-# ... data from frontmatter including _links
+# Example: _data/languages/ts.yml that contains embedded /projects/this-site/
+
+# ... data copied from Markdown frontmatter including _links
+
 _embedded:
   projects:
     - title: gregoryjscott.com
-      desc: My portfolio website that uses Jekyll to create static HTML pages using YAML, Markdown, and HAL-based hypermedia.
+      desc: "My portfolio website that uses Jekyll to create static HTML pages using YAML..."
       role: Author
       begin_year: 2014
       end_year: present
@@ -87,8 +94,9 @@ _embedded:
           href: /projects/this-site/
         languages:
           - href: /languages/ts/
-      # ... more embedded projects
 ```
+
+The scripts also perform additional actions such as generating missing `desc` values using OpenAI, updating `**/index.md` files to include new resources, setting `used_begin_year` and `used_end_year` values based on the linked projects, and more.
 
 ### Jekyll merges YAML into Markdown frontmatter
 
@@ -143,85 +151,6 @@ _links:
 npm run prep
 ```
 
-**Markdown files:**
-
-1. **Description Generation**: OpenAI generates a professional description in `/tools/docker.md`
-2. **Bidirectional Links**: `/tools/docker.md` receives links back to `/projects/my-api/` 
-3. **Index Updates**: `/tools/index.md` includes `/tools/docker.md` in its list of `tools`
-4. **Used Year Range Calculation**: calculated year range is added to `/tools/docker.md` based on `/projects/my-api.md` (and potentially other projects)
-
-**YAML files:**
-
-5. **Embedding**: `_embedded` data is added to `_data/tools/docker.yml` and `/projects/my-api/` and is available to Jekyll templates at build time
-
-### Final Result
-
-The generated `_data/tools/docker.yml` file contains embedded data from `/projects/my-api.md`, an AI generated `desc` value, and calculated `used_begin_year` and `used_end_year` values.
-
-```yaml
-# Generated _data/tools/docker.yml
-title: Docker
-desc: "Docker is a containerization platform..."
-used_begin_year: 2020
-used_end_year: present
-_links:
-  self:
-    href: /tools/docker/
-  projects:
-    - href: /projects/my-api/
-_embedded:
-  projects:
-    - title: "My API Project"
-      desc: "RESTful API service for managing user data and authentication"
-      role: "Lead Developer"
-      begin_year: 2020
-      end_year: present
-      _links:
-        self:
-          href: /projects/my-api/
-        languages:
-          - href: /languages/ts/
-        tools:
-          - href: /tools/docker/
-          - href: /tools/node/
-        db:
-          - href: /db/postgres/
-```
-
-The generated `_data/projects/my-api.yml` file contains embedded data from `/tools/docker.md`.
-
-```yaml
-# Generated _data/projects/my-api.yml
-title: My API Project
-desc: "RESTful API service for managing user data and authentication"
-role: "Lead Developer"
-begin_year: 2020
-end_year: present
-_links:
-  self:
-    href: /projects/my-api/
-  languages:
-    - href: /languages/ts/
-  tools:
-    - href: /tools/docker/
-    - href: /tools/node/
-  db:
-    - href: /db/postgres/
-_embedded:
-  # ... other embedded resources
-  tools:
-    - title: Docker
-      desc: "Docker is a containerization platform..."
-      used_begin_year: 2020
-      used_end_year: present
-      _links:
-        self:
-          href: /tools/docker/
-        projects:
-          - href: /projects/my-api/
-  # ... other embedded resources
-```
-
 The same steps apply to adding any type of resource - languages, databases, tools, etc.
 
 ## OpenAI Integration
@@ -259,7 +188,7 @@ const response = await client.responses.create({
 ### Installation
 
 ```bash
-# Install Ruby and Node dependencies
+# Install Node and Ruby dependencies
 npm install && npm run bootstrap
 ```
 
@@ -289,25 +218,3 @@ npm run deploy
 ```
 
 This builds the site and pushes the `_site` directory to the `gregoryjscott.github.io` repository's master branch.
-
-## Key Files Reference
-
-### Manual Files (You Edit)
-- `*.md` - Content pages with minimal frontmatter
-- `_layouts/` - Jekyll page templates
-- `_includes/` - Reusable template components
-- `assets/css/` - Stylesheets
-
-### Generated Files (Scripts Create)
-- `_data/**/*.yml` - Rich resource data with relationships
-- `_site/` - Built Jekyll site (generated by `npm run build`)
-
-### Configuration
-- `_config.yml` - Jekyll configuration
-- `package.json` - Node scripts and dependencies
-- `Gemfile` - Ruby dependencies
-- `tsconfig.json` - TypeScript compiler settings
-
-### Scripts
-- `_scripts/*.ts` - TypeScript preprocessing
-- `_plugins/load.rb` - Jekyll plugin for data merging
