@@ -102,6 +102,36 @@ The scripts also perform additional actions such as generating missing `desc` va
 
 The `_plugins/load.rb` Jekyll plugin merges the generated YAML into each page's (Markdown) frontmatter at build time, making the embedded resources available to Jekyll templates.
 
+```liquid
+<!-- Example: Language page template displaying embedded projects -->
+
+{% if page._embedded.projects %}
+  <section>
+    <h2>Projects ({{ page._embedded.projects | size }})</h2>
+    {% for project in page._embedded.projects %}
+      <h3>{{ project.title }}</h3>
+      <p>{{ project.desc }}</p>
+      <p>{{ project.role }}, {{ project.begin_year }}-{{ project.end_year }}</p>
+    {% endfor %}
+  </section>
+{% endif %}
+```
+
+```liquid
+<!-- Example: Project page template displaying embedded languages -->
+
+{% if page._embedded.languages %}
+  <section>
+    <h2>Languages ({{ page._embedded.languages | size }})</h2>
+    {% for language in page._embedded.languages %}
+      <h3>{{ language.title }}</h3>
+      <p>{{ language.desc }}</p>
+      <p>Used {{ language.used_begin_year }}-{{ language.used_end_year }}</p>
+    {% endfor %}
+  </section>
+{% endif %}
+```
+
 ## Steps to add new content to the porfolio
 
 Below are the steps to add a new resource to the portfolio. In this example, we'll add "Docker" as a new tool resource.
