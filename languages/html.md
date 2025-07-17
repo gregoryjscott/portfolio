@@ -19,12 +19,12 @@ _links:
     - href: /projects/awwu-intranet/
     - href: /projects/energy-efficiency-map/
     - href: /projects/la-boda/
+    - href: /projects/portfolio/
     - href: /projects/qb/
     - href: /projects/scramble-score/
     - href: /projects/scrum-tools/
     - href: /projects/somd/
     - href: /projects/systems-portal/
-    - href: /projects/this-site/
   jobs:
     - href: /jobs/independent/
     - href: /jobs/rdi/

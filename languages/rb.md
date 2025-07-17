@@ -24,9 +24,9 @@ _links:
     - href: /projects/jekyll-load/
     - href: /projects/jekyll-prep/
     - href: /projects/please/
+    - href: /projects/portfolio/
     - href: /projects/scramble-score/
     - href: /projects/simpler/
-    - href: /projects/this-site/
   jobs:
     - href: /jobs/independent/
     - href: /jobs/rdi/

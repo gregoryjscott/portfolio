@@ -95,8 +95,8 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/mvc-integration-test-framework/
                 - href: /projects/nuggets/
+                - href: /projects/portfolio/
                 - href: /projects/simpler/
-                - href: /projects/this-site/
               languages:
                 - href: /languages/cs/
                 - href: /languages/css/
@@ -214,8 +214,8 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/mvc-integration-test-framework/
                 - href: /projects/nuggets/
+                - href: /projects/portfolio/
                 - href: /projects/simpler/
-                - href: /projects/this-site/
               languages:
                 - href: /languages/cs/
                 - href: /languages/css/
@@ -276,8 +276,8 @@ _embedded:
           - href: /projects/jekyll-prep/
           - href: /projects/la-boda/
           - href: /projects/nuggets/
+          - href: /projects/portfolio/
           - href: /projects/scramble-score/
-          - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/independent/
@@ -329,7 +329,7 @@ _embedded:
             end_year: present
             _links:
               self:
-                href: /projects/this-site/
+                href: /projects/portfolio/
               code:
                 title: github.com/gregoryjscott/me
                 href: https://github.com/gregoryjscott/me
@@ -591,8 +591,8 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/mvc-integration-test-framework/
                 - href: /projects/nuggets/
+                - href: /projects/portfolio/
                 - href: /projects/simpler/
-                - href: /projects/this-site/
               languages:
                 - href: /languages/cs/
                 - href: /languages/css/
@@ -749,7 +749,7 @@ _embedded:
           - href: /projects/jekyll-load/
           - href: /projects/jekyll-prep/
           - href: /projects/please/
-          - href: /projects/this-site/
+          - href: /projects/portfolio/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/independent/
@@ -764,7 +764,7 @@ _embedded:
             end_year: present
             _links:
               self:
-                href: /projects/this-site/
+                href: /projects/portfolio/
               code:
                 title: github.com/gregoryjscott/me
                 href: https://github.com/gregoryjscott/me
@@ -984,8 +984,8 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/mvc-integration-test-framework/
                 - href: /projects/nuggets/
+                - href: /projects/portfolio/
                 - href: /projects/simpler/
-                - href: /projects/this-site/
               languages:
                 - href: /languages/cs/
                 - href: /languages/css/
@@ -1741,8 +1741,8 @@ _embedded:
                 - href: /projects/la-boda/
                 - href: /projects/mvc-integration-test-framework/
                 - href: /projects/nuggets/
+                - href: /projects/portfolio/
                 - href: /projects/simpler/
-                - href: /projects/this-site/
               languages:
                 - href: /languages/cs/
                 - href: /languages/css/

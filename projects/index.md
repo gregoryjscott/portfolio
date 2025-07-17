@@ -36,6 +36,7 @@ _links:
     - href: /projects/mvc-integration-test-framework/
     - href: /projects/nuggets/
     - href: /projects/please/
+    - href: /projects/portfolio/
     - href: /projects/qb/
     - href: /projects/report-engine/
     - href: /projects/sar-reports/
@@ -46,7 +47,6 @@ _links:
     - href: /projects/smf-controls-displays/
     - href: /projects/somd/
     - href: /projects/systems-portal/
-    - href: /projects/this-site/
     - href: /projects/train-builder/
     - href: /projects/wengage-acct/
     - href: /projects/wengage-si/
