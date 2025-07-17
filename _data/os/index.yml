@@ -331,8 +331,8 @@ _embedded:
               self:
                 href: /projects/portfolio/
               code:
-                title: github.com/gregoryjscott/me
-                href: https://github.com/gregoryjscott/me
+                title: github.com/gregoryjscott/portfolio
+                href: https://github.com/gregoryjscott/portfolio
               languages:
                 - href: /languages/css/
                 - href: /languages/html/
@@ -766,8 +766,8 @@ _embedded:
               self:
                 href: /projects/portfolio/
               code:
-                title: github.com/gregoryjscott/me
-                href: https://github.com/gregoryjscott/me
+                title: github.com/gregoryjscott/portfolio
+                href: https://github.com/gregoryjscott/portfolio
               languages:
                 - href: /languages/css/
                 - href: /languages/html/
