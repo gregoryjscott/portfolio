@@ -24,8 +24,8 @@ _links:
     - href: /projects/jekyll-prep/
     - href: /projects/la-boda/
     - href: /projects/nuggets/
+    - href: /projects/portfolio/
     - href: /projects/scramble-score/
-    - href: /projects/this-site/
   jobs:
     - href: /jobs/fe/
     - href: /jobs/independent/

@@ -21,7 +21,7 @@ _links:
     - href: /projects/jekyll-embed/
     - href: /projects/jekyll-load/
     - href: /projects/jekyll-prep/
-    - href: /projects/this-site/
+    - href: /projects/portfolio/
   jobs:
     - href: /jobs/independent/
 ---

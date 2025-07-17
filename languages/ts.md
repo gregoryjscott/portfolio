@@ -16,7 +16,7 @@ _links:
   projects:
     - href: /projects/epicloud/
     - href: /projects/nuggets/
-    - href: /projects/this-site/
+    - href: /projects/portfolio/
   jobs:
     - href: /jobs/fe/
     - href: /jobs/independent/

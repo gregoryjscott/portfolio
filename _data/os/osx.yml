@@ -13,7 +13,7 @@ _links:
     - href: /projects/denver-schedules-api/
     - href: /projects/scramble-score/
     - href: /projects/simpler/
-    - href: /projects/this-site/
+    - href: /projects/portfolio/
     - href: /projects/jekyll-load/
     - href: /projects/jekyll-api/
     - href: /projects/jekyll-embed/
@@ -31,10 +31,10 @@ _embedded:
       end_year: null
       _links:
         self:
-          href: /projects/this-site/
+          href: /projects/portfolio/
         code:
-          title: github.com/gregoryjscott/me
-          href: https://github.com/gregoryjscott/me
+          title: github.com/gregoryjscott/portfolio
+          href: https://github.com/gregoryjscott/portfolio
         jobs:
           - href: /jobs/freelance/
         languages:
@@ -234,7 +234,7 @@ _embedded:
           - href: /projects/denver-schedules-api/
           - href: /projects/mvc-integration-test-framework/
           - href: /projects/simpler/
-          - href: /projects/this-site/
+          - href: /projects/portfolio/
           - href: /projects/cfw/
           - href: /projects/jekyll-load/
           - href: /projects/jekyll-api/

@@ -21,7 +21,7 @@ _links:
     href: /tools/hal/
   projects:
     - href: /projects/jekyll-embed/
-    - href: /projects/this-site/
+    - href: /projects/portfolio/
   jobs:
     - href: /jobs/independent/
 ---

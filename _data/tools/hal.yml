@@ -17,7 +17,7 @@ _links:
     href: /tools/hal/
   projects:
     - href: /projects/jekyll-embed/
-    - href: /projects/this-site/
+    - href: /projects/portfolio/
   jobs:
     - href: /jobs/independent/
 _embedded:
@@ -30,10 +30,10 @@ _embedded:
       end_year: present
       _links:
         self:
-          href: /projects/this-site/
+          href: /projects/portfolio/
         code:
-          title: github.com/gregoryjscott/me
-          href: https://github.com/gregoryjscott/me
+          title: github.com/gregoryjscott/portfolio
+          href: https://github.com/gregoryjscott/portfolio
         languages:
           - href: /languages/css/
           - href: /languages/html/
@@ -92,8 +92,8 @@ _embedded:
           - href: /projects/la-boda/
           - href: /projects/mvc-integration-test-framework/
           - href: /projects/nuggets/
+          - href: /projects/portfolio/
           - href: /projects/simpler/
-          - href: /projects/this-site/
         languages:
           - href: /languages/cs/
           - href: /languages/css/

@@ -6,10 +6,10 @@ begin_year: 2014
 end_year: present
 _links:
   self:
-    href: /projects/this-site/
+    href: /projects/portfolio/
   code:
-    title: github.com/gregoryjscott/me
-    href: https://github.com/gregoryjscott/me
+    title: github.com/gregoryjscott/portfolio
+    href: https://github.com/gregoryjscott/portfolio
   languages:
     - href: /languages/css/
     - href: /languages/html/
@@ -45,12 +45,12 @@ _embedded:
           - href: /projects/awwu-intranet/
           - href: /projects/energy-efficiency-map/
           - href: /projects/la-boda/
+          - href: /projects/portfolio/
           - href: /projects/qb/
           - href: /projects/scramble-score/
           - href: /projects/scrum-tools/
           - href: /projects/somd/
           - href: /projects/systems-portal/
-          - href: /projects/this-site/
         jobs:
           - href: /jobs/independent/
           - href: /jobs/rdi/
@@ -73,12 +73,12 @@ _embedded:
           - href: /projects/awwu-intranet/
           - href: /projects/energy-efficiency-map/
           - href: /projects/la-boda/
+          - href: /projects/portfolio/
           - href: /projects/qb/
           - href: /projects/scramble-score/
           - href: /projects/scrum-tools/
           - href: /projects/somd/
           - href: /projects/systems-portal/
-          - href: /projects/this-site/
         jobs:
           - href: /jobs/independent/
           - href: /jobs/rdi/
@@ -105,9 +105,9 @@ _embedded:
           - href: /projects/jekyll-load/
           - href: /projects/jekyll-prep/
           - href: /projects/please/
+          - href: /projects/portfolio/
           - href: /projects/scramble-score/
           - href: /projects/simpler/
-          - href: /projects/this-site/
         jobs:
           - href: /jobs/independent/
           - href: /jobs/rdi/
@@ -127,7 +127,7 @@ _embedded:
         projects:
           - href: /projects/epicloud/
           - href: /projects/nuggets/
-          - href: /projects/this-site/
+          - href: /projects/portfolio/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/independent/
@@ -152,7 +152,7 @@ _embedded:
           href: /tools/hal/
         projects:
           - href: /projects/jekyll-embed/
-          - href: /projects/this-site/
+          - href: /projects/portfolio/
         jobs:
           - href: /jobs/independent/
     - title: Jekyll
@@ -176,7 +176,7 @@ _embedded:
           - href: /projects/jekyll-embed/
           - href: /projects/jekyll-load/
           - href: /projects/jekyll-prep/
-          - href: /projects/this-site/
+          - href: /projects/portfolio/
         jobs:
           - href: /jobs/independent/
   os:
@@ -203,8 +203,8 @@ _embedded:
           - href: /projects/jekyll-prep/
           - href: /projects/la-boda/
           - href: /projects/nuggets/
+          - href: /projects/portfolio/
           - href: /projects/scramble-score/
-          - href: /projects/this-site/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/independent/
@@ -234,7 +234,7 @@ _embedded:
           - href: /projects/jekyll-load/
           - href: /projects/jekyll-prep/
           - href: /projects/please/
-          - href: /projects/this-site/
+          - href: /projects/portfolio/
         jobs:
           - href: /jobs/fe/
           - href: /jobs/independent/
@@ -262,8 +262,8 @@ _embedded:
           - href: /projects/la-boda/
           - href: /projects/mvc-integration-test-framework/
           - href: /projects/nuggets/
+          - href: /projects/portfolio/
           - href: /projects/simpler/
-          - href: /projects/this-site/
         languages:
           - href: /languages/cs/
           - href: /languages/css/

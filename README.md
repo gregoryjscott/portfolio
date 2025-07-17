@@ -24,21 +24,21 @@ In this portfolio, HAL is used to manage relationships between resources (e.g., 
 Markdown files representing resources (projects, languages, databases, tools, etc.) contain frontmatter with `_links` relationships that maintain bidirectional connections between resources.
 
 ```yaml
-# Example: /projects/this-site.md that links to /languages/ts/
+# Example: /projects/portfolio.md that links to /languages/ts/
 ---
 
 # ... other frontmatter
 
 _links:
   self:
-    href: /projects/this-site/
+    href: /projects/portfolio/
   languages:
     - href: /languages/ts/
 ---
 ```
 
 ```yaml
-# Example: /languages/ts.md that links back to /projects/this-site/
+# Example: /languages/ts.md that links back to /projects/portfolio/
 ---
 
 # ... other frontmatter
@@ -47,7 +47,7 @@ _links:
   self:
     href: /languages/ts/
   projects:
-    - href: /projects/this-site/
+    - href: /projects/portfolio/
 ---
 ```
 
@@ -56,9 +56,9 @@ _links:
 For each Markdown file, the TypeScript scripts (`npm run prep`) process the relationships found in `_links` and generate a corresponding YAML file in the `_data` directory that contains `_embedded` resource data for all linked resources.
 
 ```yaml
-# Example: /_data/projects/this-site.yml that contains embedded data from /languages/ts.md
+# Example: /_data/projects/portfolio.yml that contains embedded data from /languages/ts.md
 
-# ... data copied from /projects/this-site.md frontmatter including _links
+# ... data copied from /projects/portfolio.md frontmatter including _links
 
 _embedded:
   languages:
@@ -70,11 +70,11 @@ _embedded:
         self:
           href: /languages/ts/
         projects:
-          - href: /projects/this-site/
+          - href: /projects/portfolio/
 ```
 
 ```yaml
-# Example: /_data/languages/ts.yml that contains embedded data from /projects/this-site.md
+# Example: /_data/languages/ts.yml that contains embedded data from /projects/portfolio.md
 
 # ... data copied from /languages/ts.md frontmatter including _links
 
@@ -87,7 +87,7 @@ _embedded:
       end_year: present
       _links:
         self:
-          href: /projects/this-site/
+          href: /projects/portfolio/
         languages:
           - href: /languages/ts/
 ```

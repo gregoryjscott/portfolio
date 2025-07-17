@@ -23,8 +23,8 @@ _links:
     - href: /projects/la-boda/
     - href: /projects/mvc-integration-test-framework/
     - href: /projects/nuggets/
+    - href: /projects/portfolio/
     - href: /projects/simpler/
-    - href: /projects/this-site/
   languages:
     - href: /languages/cs/
     - href: /languages/css/

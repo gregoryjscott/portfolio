@@ -9,10 +9,10 @@ begin_year: 2014
 end_year: present
 _links:
   self:
-    href: /projects/this-site/
+    href: /projects/portfolio/
   code:
-    title: github.com/gregoryjscott/me
-    href: "https://github.com/gregoryjscott/me"
+    title: github.com/gregoryjscott/portfolio
+    href: "https://github.com/gregoryjscott/portfolio"
   languages:
     - href: /languages/css/
     - href: /languages/html/
