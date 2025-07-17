@@ -5,11 +5,11 @@
   </label>
   <div class="menu-overlay">
     <ul>
-      <li><a href="/">Home</a></li>
+      <li><a href="{{ site.url }}">Home</a></li>
       {% for resource in site.data.resources %}
         {% assign resource_key = resource[0] %}
         {% assign resource_data = resource[1] %}
-        <li><a href="/{{ resource_key }}/">{{ resource_data.title }}</a></li>
+        <li><a href="{{ site.url }}/{{ resource_key }}/">{{ resource_data.title }}</a></li>
       {% endfor %}
     </ul>
   </div>
