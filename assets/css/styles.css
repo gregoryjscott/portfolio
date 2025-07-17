@@ -32,10 +32,6 @@ nav {
   color: var(--color-text-accent);
 }
 
-section section {
-  margin-left: 2rem;
-}
-
 h1,
 h2,
 h3,
@@ -49,12 +45,12 @@ h6 {
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   margin-top: 9rem;
 }
 
 h2 {
-  font-size: 1.75rem;
+  font-size: 2rem;
   margin-top: 8rem;
 }
 
@@ -65,8 +61,13 @@ h2 {
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-top: 7rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  margin-top: 2.5rem;
 }
 
 p {
@@ -87,11 +88,11 @@ article h2 {
 
 ul {
   list-style: none;
-  padding-left: 2rem;
+  padding-left: 0;
 }
 
 .content ul {
-  list-style: outside;
+  list-style: inside;
 }
 
 li {
