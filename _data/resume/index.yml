@@ -102,6 +102,7 @@ _embedded:
         tools:
           - href: /tools/amplify/
           - href: /tools/azure-ai/
+          - href: /tools/cognito/
           - href: /tools/docker/
           - href: /tools/ec2/
           - href: /tools/ecr/
@@ -221,6 +222,24 @@ _embedded:
             _links:
               self:
                 href: /tools/azure-ai/
+              projects:
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/independent/
+          - title: Cognito
+            desc: Amazon Cognito is a managed user identity and access management tool that
+              provides authentication, authorization, and user directory
+              services for web and mobile applications. It supports standard
+              protocols (OAuth 2.0, OpenID Connect, SAML), social identity
+              providers, and customizable authentication flows. It’s commonly
+              used to implement sign-up/sign-in, token-based session management,
+              and multi-factor authentication without building custom identity
+              infrastructure.
+            used_begin_year: 2023
+            used_end_year: present
+            _links:
+              self:
+                href: /tools/cognito/
               projects:
                 - href: /projects/nuggets/
               jobs:
@@ -709,6 +728,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -2958,6 +2978,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -3441,6 +3462,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -4013,6 +4035,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -4409,6 +4432,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -5127,6 +5151,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -5785,6 +5810,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -5998,6 +6024,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -6131,6 +6158,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -6645,6 +6673,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -6773,6 +6802,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -7468,6 +7498,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -7961,6 +7992,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -8048,6 +8080,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -8115,6 +8148,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -8180,6 +8214,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -8328,6 +8363,140 @@ _embedded:
                 - href: /devices/pc/
                 - href: /devices/range-finder/
                 - href: /devices/server/
+    - title: Cognito
+      desc: Amazon Cognito is a managed user identity and access management tool that
+        provides authentication, authorization, and user directory services for
+        web and mobile applications. It supports standard protocols (OAuth 2.0,
+        OpenID Connect, SAML), social identity providers, and customizable
+        authentication flows. It’s commonly used to implement sign-up/sign-in,
+        token-based session management, and multi-factor authentication without
+        building custom identity infrastructure.
+      used_begin_year: 2023
+      used_end_year: present
+      _links:
+        self:
+          href: /tools/cognito/
+        projects:
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/independent/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Dynamic Curriculum Generation with AI
+            desc: React Native app for iOS and Android that uses AI and finite state
+              machines to generate personalized learning curriculum.
+            role: Author
+            begin_year: 2023
+            end_year: present
+            _links:
+              self:
+                href: /projects/nuggets/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/cognito/
+                - href: /tools/docker/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/expo/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/openai/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
+              jobs:
+                - href: /jobs/independent/
+        jobs:
+          - title: Independent Programmer and Consultant
+            desc: Independent Programmer and Consultant, building next-generation education
+              technology and partnering with select clients to architect
+              high-impact software solutions
+            role: Independent Programmer and Consultant
+            begin_year: 2014
+            end_year: present
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/independent/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/nuggets/
+                - href: /projects/portfolio/
+                - href: /projects/simpler/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+                - href: /db/postgres/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/cognito/
+                - href: /tools/docker/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/expo/
+                - href: /tools/fargate/
+                - href: /tools/hal/
+                - href: /tools/heroku/
+                - href: /tools/iam/
+                - href: /tools/jekyll/
+                - href: /tools/node/
+                - href: /tools/openai/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: Docker
       desc: Docker is an open-source platform for developing, shipping, and running
         applications. It uses container technology to package applications into
@@ -8365,6 +8534,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -8471,6 +8641,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -8585,6 +8756,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -8691,6 +8863,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -8805,6 +8978,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -8911,6 +9085,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -9025,6 +9200,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -9131,6 +9307,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -9247,6 +9424,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -9312,6 +9490,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -9381,6 +9560,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -9487,6 +9667,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -9998,6 +10179,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -10110,6 +10292,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -10179,6 +10362,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -10285,6 +10469,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -10566,6 +10751,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -10635,6 +10821,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -10741,6 +10928,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -10851,6 +11039,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -10916,6 +11105,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -11096,6 +11286,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -11161,6 +11352,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -11230,6 +11422,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -11336,6 +11529,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -11559,6 +11753,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -11665,6 +11860,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -11781,6 +11977,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -11887,6 +12084,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -12000,6 +12198,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -12065,6 +12264,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -12183,6 +12383,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -12248,6 +12449,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -12316,6 +12518,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -12381,6 +12584,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -12460,6 +12664,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -12804,6 +13009,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -13247,6 +13453,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -14355,6 +14562,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -14592,6 +14800,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -14683,6 +14892,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -15015,6 +15225,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -15169,6 +15380,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -15552,6 +15764,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -15617,6 +15830,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -15686,6 +15900,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -15777,6 +15992,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -16249,6 +16465,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -17384,6 +17601,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -17667,6 +17885,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -17732,6 +17951,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -17802,6 +18022,7 @@ _embedded:
         tools:
           - href: /tools/amplify/
           - href: /tools/azure-ai/
+          - href: /tools/cognito/
           - href: /tools/docker/
           - href: /tools/ec2/
           - href: /tools/ecr/
@@ -17869,6 +18090,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
                 - href: /tools/ecr/
@@ -18440,6 +18662,24 @@ _embedded:
             _links:
               self:
                 href: /tools/azure-ai/
+              projects:
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/independent/
+          - title: Cognito
+            desc: Amazon Cognito is a managed user identity and access management tool that
+              provides authentication, authorization, and user directory
+              services for web and mobile applications. It supports standard
+              protocols (OAuth 2.0, OpenID Connect, SAML), social identity
+              providers, and customizable authentication flows. It’s commonly
+              used to implement sign-up/sign-in, token-based session management,
+              and multi-factor authentication without building custom identity
+              infrastructure.
+            used_begin_year: 2023
+            used_end_year: present
+            _links:
+              self:
+                href: /tools/cognito/
               projects:
                 - href: /projects/nuggets/
               jobs:
