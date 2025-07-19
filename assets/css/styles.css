@@ -40,17 +40,17 @@ h5,
 h6 {
   font-weight: 500;
   margin: 0;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
   color: var(--color-text-accent);
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   margin-top: 9rem;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   margin-top: 8rem;
 }
 
@@ -68,11 +68,12 @@ h3 {
 h4 {
   font-size: 1.25rem;
   margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 p {
   line-height: 2rem;
-  margin: 3rem 0;
+  margin: 2.5rem 0;
 }
 
 p.subtitle {
@@ -81,8 +82,8 @@ p.subtitle {
   color: var(--color-text-accent);
 }
 
-div.year-range {
-  margin: 1.25rem 0;
+p.year-range {
+  margin: 1.5rem 0;
 }
 
 article h2 {
@@ -97,11 +98,12 @@ ul {
 
 .content ul {
   list-style: inside;
+  margin: 2.5rem 0;
 }
 
 li {
   line-height: 2rem;
-  margin-top: 1.25rem;
+  margin-top: 1rem;
 }
 
 a {

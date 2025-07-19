@@ -6,11 +6,11 @@
 {%- endcapture %}
 
 {% if include.resource.role %}
-  <div class="year-range">
+  <p class="year-range">
     <em>{{ year_range | strip }}, {{ include.resource.role }}</em>
-  </div>
+  </p>
 {% else %}
-  <div class="year-range">
+  <p class="year-range">
     <em>{{ year_range | strip }}</em>
-  </div>
+  </p>
 {% endif %}
