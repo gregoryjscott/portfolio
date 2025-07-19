@@ -32,10 +32,6 @@ nav {
   color: var(--color-text-accent);
 }
 
-section section {
-  margin-left: 2rem;
-}
-
 h1,
 h2,
 h3,
@@ -44,7 +40,7 @@ h5,
 h6 {
   font-weight: 500;
   margin: 0;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
   color: var(--color-text-accent);
 }
 
@@ -65,19 +61,29 @@ h2 {
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-top: 7rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 p {
   line-height: 2rem;
-  margin: 2rem 0;
+  margin: 2.5rem 0;
 }
 
 p.subtitle {
   font-size: 1.5rem;
   font-weight: 500;
   color: var(--color-text-accent);
+}
+
+p.year-range {
+  margin: 1.5rem 0;
 }
 
 article h2 {
@@ -87,16 +93,17 @@ article h2 {
 
 ul {
   list-style: none;
-  padding-left: 2rem;
+  padding-left: 0;
 }
 
 .content ul {
-  list-style: outside;
+  list-style: inside;
+  margin: 2.5rem 0;
 }
 
 li {
   line-height: 2rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 a {
