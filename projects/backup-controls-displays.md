@@ -2,8 +2,8 @@
 layout: details
 title: Backup Controls and Displays
 desc: >-
-  Screens used to emulate B-1 bomber hardware such as switch boards and displays in the
-  event of their failure.
+  Screens used to emulate B-1 Bomber hardware such as switch boards and displays
+  in the event of their failure.
 role: Embedded Software Engineer
 begin_year: 1998
 end_year: 1999
