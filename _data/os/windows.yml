@@ -65,6 +65,8 @@ _embedded:
           - href: /db/firebase/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/fe/
     - title: Centroid
@@ -87,6 +89,10 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/pc/
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Alaska Gasline Development Corporation
@@ -110,6 +116,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Please
@@ -132,6 +140,9 @@ _embedded:
         os:
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/pc/
         jobs:
           - href: /jobs/rdi/
     - title: AHFC Integration
@@ -148,6 +159,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Systems Portal
@@ -168,6 +181,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Energy Efficiency Map
@@ -189,6 +204,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Scrum Tools
@@ -209,6 +226,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Simpler
@@ -227,6 +246,8 @@ _embedded:
           - href: /languages/rb/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
     - title: Quality Bank
@@ -252,6 +273,8 @@ _embedded:
           - href: /tools/backbone/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: MvcIntegrationTestFramework
@@ -270,6 +293,8 @@ _embedded:
           - href: /languages/cs/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
     - title: Consumption Views
@@ -287,6 +312,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Service Order Mobile Dispatch
@@ -309,6 +336,9 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/pc/
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Bit Proposal
@@ -323,6 +353,8 @@ _embedded:
           - href: /languages/cs/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/pc/
         jobs:
           - href: /jobs/rdi/
     - title: Database Synchronization (AWWU)
@@ -340,6 +372,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Laser Range Finder
@@ -358,6 +392,9 @@ _embedded:
           - href: /db/access/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/gps/
+          - href: /devices/range-finder/
         jobs:
           - href: /jobs/rdi/
     - title: AWWU Intranet
@@ -379,6 +416,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: FLIR Monitoring System
@@ -397,6 +436,8 @@ _embedded:
           - href: /db/access/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/laser/
         jobs:
           - href: /jobs/rdi/
     - title: SAR Reports
@@ -414,6 +455,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: TrainBuilder
@@ -432,6 +475,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/pc/
         jobs:
           - href: /jobs/rdi/
     - title: CIS Data Capture
@@ -450,6 +495,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: AWWU Job Scheduler
@@ -468,6 +515,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: AWWU Systems Integration
@@ -485,6 +534,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Employees Suggestion
@@ -502,6 +553,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Report Engine
@@ -516,6 +569,8 @@ _embedded:
           - href: /languages/cs/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: SIF Agent
@@ -536,6 +591,8 @@ _embedded:
           - href: /db/pervasive/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/mas/
     - title: Wen-GAGE Accounting
@@ -556,6 +613,8 @@ _embedded:
         os:
           - href: /os/netware/
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/mas/
     - title: Wen-GAGE Student Information
@@ -576,6 +635,8 @@ _embedded:
         os:
           - href: /os/netware/
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/mas/
     - title: Class Scheduler
@@ -595,6 +656,8 @@ _embedded:
         os:
           - href: /os/netware/
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/mas/
   jobs:
@@ -659,6 +722,14 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/ipad/
+          - href: /devices/iphone/
+          - href: /devices/mac/
+          - href: /devices/server/
+          - href: /devices/tv/
     - title: Futuristic Education
       desc: Co-Founder and Programmer for Futuristic Education, a startup building
         custom technology solutions for schools and educators
@@ -699,6 +770,11 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/chromebook/
+          - href: /devices/cloud/
+          - href: /devices/mac/
+          - href: /devices/server/
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
         in custom database, web, and GIS programming services
@@ -753,6 +829,16 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/gps/
+          - href: /devices/iphone/
+          - href: /devices/laser/
+          - href: /devices/mac/
+          - href: /devices/pc/
+          - href: /devices/range-finder/
+          - href: /devices/server/
     - title: Municipal Accounting Systems, Inc.
       desc: Lead Programmer for Municipal Accounting Systems (MAS), a leading provider
         of student information and accounting software for school districts
@@ -779,6 +865,8 @@ _embedded:
         os:
           - href: /os/netware/
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
   schools:
     - title: University of Central Oklahoma
       subtitle: Bachelor of Science in Mathematics, 1998
@@ -806,3 +894,7 @@ _embedded:
           - href: /os/aix/
           - href: /os/ms-dos/
           - href: /os/windows/
+        devices:
+          - href: /devices/calculator/
+          - href: /devices/pc/
+          - href: /devices/server/

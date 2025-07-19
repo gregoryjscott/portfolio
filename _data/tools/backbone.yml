@@ -45,6 +45,8 @@ _embedded:
           - href: /tools/backbone/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
   jobs:
@@ -102,3 +104,13 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/gps/
+          - href: /devices/iphone/
+          - href: /devices/laser/
+          - href: /devices/mac/
+          - href: /devices/pc/
+          - href: /devices/range-finder/
+          - href: /devices/server/

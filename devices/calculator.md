@@ -7,6 +7,8 @@ desc: >-
   programmable environment for algebra, calculus and engineering tasks. Commonly
   used in high-school and college coursework, it enables on-the-spot analysis
   and quick prototyping without a desktop computer.
+used_begin_year: 1994
+used_end_year: 1998
 _links:
   self:
     href: /devices/calculator/

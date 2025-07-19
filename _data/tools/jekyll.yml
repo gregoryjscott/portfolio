@@ -46,6 +46,8 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
     - title: fortworthtexas.gov
@@ -63,6 +65,8 @@ _embedded:
           - href: /tools/jekyll/
         os:
           - href: /os/linux/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
     - title: jekyll-api
@@ -83,6 +87,9 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
     - title: jekyll-embed
@@ -105,6 +112,9 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
     - title: jekyll-load
@@ -125,6 +135,9 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
     - title: jekyll-prep
@@ -145,6 +158,9 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
   jobs:
@@ -209,3 +225,11 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/ipad/
+          - href: /devices/iphone/
+          - href: /devices/mac/
+          - href: /devices/server/
+          - href: /devices/tv/

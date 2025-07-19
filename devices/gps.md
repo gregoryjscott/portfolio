@@ -8,6 +8,8 @@ desc: >-
   mapping and turn-by-turn navigation, asset tracking, and location-based
   services, GPS delivers real-time positioning with meter-level accuracy across
   devices from smartphones to IoT sensors.
+used_begin_year: 2008
+used_end_year: 2008
 _links:
   self:
     href: /devices/gps/

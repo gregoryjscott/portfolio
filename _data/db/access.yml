@@ -33,6 +33,9 @@ _embedded:
           - href: /db/access/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/gps/
+          - href: /devices/range-finder/
         jobs:
           - href: /jobs/rdi/
     - title: FLIR Monitoring System
@@ -51,6 +54,8 @@ _embedded:
           - href: /db/access/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/laser/
         jobs:
           - href: /jobs/rdi/
   jobs:
@@ -108,3 +113,13 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/gps/
+          - href: /devices/iphone/
+          - href: /devices/laser/
+          - href: /devices/mac/
+          - href: /devices/pc/
+          - href: /devices/range-finder/
+          - href: /devices/server/

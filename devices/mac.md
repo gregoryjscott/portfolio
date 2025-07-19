@@ -7,7 +7,7 @@ desc: >-
   development tools. Its integrated hardware-software design delivers stable
   performance and efficient resource management. Macs are widely used for
   software development, graphic design, and multimedia production.
-used_begin_year: 2015
+used_begin_year: 2012
 used_end_year: 2021
 _links:
   self:

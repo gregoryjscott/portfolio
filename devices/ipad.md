@@ -7,6 +7,8 @@ desc: >-
   consumption, mobile productivity and creative tasks such as digital sketching
   with stylus support. Developers also leverage it for prototyping, testing
   touch-centric applications and exploring tablet-optimized workflows.
+used_begin_year: 2023
+used_end_year: present
 _links:
   self:
     href: /devices/ipad/

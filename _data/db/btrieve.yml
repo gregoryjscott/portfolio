@@ -38,6 +38,8 @@ _embedded:
         os:
           - href: /os/netware/
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/mas/
     - title: Wen-GAGE Student Information
@@ -58,6 +60,8 @@ _embedded:
         os:
           - href: /os/netware/
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/mas/
     - title: Class Scheduler
@@ -77,6 +81,8 @@ _embedded:
         os:
           - href: /os/netware/
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/mas/
   jobs:
@@ -106,3 +112,5 @@ _embedded:
         os:
           - href: /os/netware/
           - href: /os/windows/
+        devices:
+          - href: /devices/server/

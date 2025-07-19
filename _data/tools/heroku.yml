@@ -35,6 +35,8 @@ _embedded:
           - href: /tools/jekyll/
         os:
           - href: /os/linux/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
   jobs:
@@ -99,3 +101,11 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/ipad/
+          - href: /devices/iphone/
+          - href: /devices/mac/
+          - href: /devices/server/
+          - href: /devices/tv/

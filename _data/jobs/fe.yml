@@ -38,6 +38,11 @@ _links:
     - href: /os/linux/
     - href: /os/macos/
     - href: /os/windows/
+  devices:
+    - href: /devices/chromebook/
+    - href: /devices/cloud/
+    - href: /devices/mac/
+    - href: /devices/server/
 content: >-
   - Architected and built the entire cloud infrastructure for one of the
   nation's largest charter schools, enabling growth from 1,500 to over 60,000
@@ -71,6 +76,8 @@ _embedded:
           - href: /db/firebase/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/fe/
     - title: EpiCloud
@@ -108,6 +115,10 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/chromebook/
+          - href: /devices/cloud/
+          - href: /devices/mac/
         jobs:
           - href: /jobs/fe/
   languages:
@@ -591,6 +602,117 @@ _embedded:
           - href: /projects/somd/
           - href: /projects/systems-portal/
           - href: /projects/train-builder/
+          - href: /projects/wengage-acct/
+          - href: /projects/wengage-si/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/independent/
+          - href: /jobs/mas/
+          - href: /jobs/rdi/
+        schools:
+          - href: /schools/uco/
+  devices:
+    - title: Chromebook
+      desc: Chromebooks are laptop devices running Chrome OS, a Linux-based operating
+        system centered on the Chrome browser and web applications. They offer
+        fast boot-up, automatic updates and seamless integration with cloud
+        storage and collaboration services. Commonly deployed in educational and
+        enterprise environments, Chromebooks are used for web browsing, office
+        productivity, media streaming and lightweight development tasks.
+      used_begin_year: 2015
+      used_end_year: 2021
+      _links:
+        self:
+          href: /devices/chromebook/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: Cloud
+      desc: Cloud computing provides on-demand access to remote virtualized computing,
+        storage, and networking resources over the Internet. It’s commonly used
+        for scalable application hosting, data storage and backup, and automated
+        deployment pipelines, enabling teams to provision and manage
+        infrastructure without maintaining physical hardware.
+      used_begin_year: 2012
+      used_end_year: present
+      _links:
+        self:
+          href: /devices/cloud/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/la-boda/
+          - href: /projects/nuggets/
+          - href: /projects/scramble-score/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/independent/
+          - href: /jobs/rdi/
+    - title: Mac
+      desc: The Mac is a line of personal computers from Apple Inc. running macOS, a
+        Unix-based operating system with POSIX compliance and native support for
+        development tools. Its integrated hardware-software design delivers
+        stable performance and efficient resource management. Macs are widely
+        used for software development, graphic design, and multimedia
+        production.
+      used_begin_year: 2012
+      used_end_year: 2021
+      _links:
+        self:
+          href: /devices/mac/
+        projects:
+          - href: /projects/aprender/
+          - href: /projects/centroid/
+          - href: /projects/epicloud/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/please/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/independent/
+          - href: /jobs/rdi/
+    - title: Server
+      desc: A server is a hardware device or software application that listens for and
+        responds to requests from client systems over a network. It’s commonly
+        used to host web applications, manage databases, and provide file or
+        compute resources in data centers or cloud environments.
+      used_begin_year: 1994
+      used_end_year: present
+      _links:
+        self:
+          href: /devices/server/
+        projects:
+          - href: /projects/agdc/
+          - href: /projects/ahfc-integration/
+          - href: /projects/awwu-intranet/
+          - href: /projects/awwu-job-scheduler/
+          - href: /projects/awwu-systems-integration/
+          - href: /projects/centroid/
+          - href: /projects/cfw/
+          - href: /projects/cis-data-capture/
+          - href: /projects/class-scheduler/
+          - href: /projects/consumption-views/
+          - href: /projects/database-sync-awwu/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/employee-suggestions/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/epic-ca-enrollment/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/mvc-integration-test-framework/
+          - href: /projects/portfolio/
+          - href: /projects/qb/
+          - href: /projects/report-engine/
+          - href: /projects/sar-reports/
+          - href: /projects/scrum-tools/
+          - href: /projects/sif-agent/
+          - href: /projects/simpler/
+          - href: /projects/somd/
+          - href: /projects/systems-portal/
           - href: /projects/wengage-acct/
           - href: /projects/wengage-si/
         jobs:

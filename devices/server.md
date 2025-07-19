@@ -6,6 +6,8 @@ desc: >-
   responds to requests from client systems over a network. It’s commonly used to
   host web applications, manage databases, and provide file or compute resources
   in data centers or cloud environments.
+used_begin_year: 1994
+used_end_year: present
 _links:
   self:
     href: /devices/server/

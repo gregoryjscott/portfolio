@@ -9,6 +9,8 @@ desc: >-
   delivery, user interaction and remote control. Common use cases include home
   entertainment, news and information consumption, and interactive digital
   signage in commercial environments.
+used_begin_year: 2023
+used_end_year: present
 _links:
   self:
     href: /devices/tv/

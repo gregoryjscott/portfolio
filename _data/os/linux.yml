@@ -64,6 +64,12 @@ _embedded:
           - href: /os/android/
           - href: /os/ios/
           - href: /os/linux/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/ipad/
+          - href: /devices/iphone/
+          - href: /devices/tv/
         jobs:
           - href: /jobs/independent/
     - title: gregoryjscott.com
@@ -89,6 +95,8 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
     - title: hazelandgreg.wedding
@@ -109,6 +117,8 @@ _embedded:
           - href: /tools/amplify/
         os:
           - href: /os/linux/
+        devices:
+          - href: /devices/cloud/
         jobs:
           - href: /jobs/independent/
     - title: EpiCloud
@@ -146,6 +156,10 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/chromebook/
+          - href: /devices/cloud/
+          - href: /devices/mac/
         jobs:
           - href: /jobs/fe/
     - title: fortworthtexas.gov
@@ -163,6 +177,8 @@ _embedded:
           - href: /tools/jekyll/
         os:
           - href: /os/linux/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
     - title: Centroid
@@ -185,6 +201,10 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/pc/
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Denver Schedules API
@@ -207,6 +227,8 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/linux/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
     - title: jekyll-api
@@ -227,6 +249,9 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
     - title: jekyll-embed
@@ -249,6 +274,9 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
     - title: jekyll-load
@@ -269,6 +297,9 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
     - title: jekyll-prep
@@ -289,6 +320,9 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
     - title: ScrambleScore
@@ -311,6 +345,10 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/linux/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/iphone/
         jobs:
           - href: /jobs/rdi/
   jobs:
@@ -375,6 +413,14 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/ipad/
+          - href: /devices/iphone/
+          - href: /devices/mac/
+          - href: /devices/server/
+          - href: /devices/tv/
     - title: Futuristic Education
       desc: Co-Founder and Programmer for Futuristic Education, a startup building
         custom technology solutions for schools and educators
@@ -415,6 +461,11 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/chromebook/
+          - href: /devices/cloud/
+          - href: /devices/mac/
+          - href: /devices/server/
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
         in custom database, web, and GIS programming services
@@ -469,3 +520,13 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/gps/
+          - href: /devices/iphone/
+          - href: /devices/laser/
+          - href: /devices/mac/
+          - href: /devices/pc/
+          - href: /devices/range-finder/
+          - href: /devices/server/

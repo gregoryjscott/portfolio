@@ -33,6 +33,8 @@ _embedded:
           - href: /languages/ada/
         os:
           - href: /os/solaris/
+        devices:
+          - href: /devices/b-1/
         jobs:
           - href: /jobs/boeing/
     - title: Mission Data Loader
@@ -50,6 +52,8 @@ _embedded:
           - href: /languages/ada/
         os:
           - href: /os/solaris/
+        devices:
+          - href: /devices/b-1/
         jobs:
           - href: /jobs/boeing/
     - title: System Management Function (SMF) Controls and Displays
@@ -64,6 +68,8 @@ _embedded:
           - href: /languages/ada/
         os:
           - href: /os/solaris/
+        devices:
+          - href: /devices/b-1/
         jobs:
           - href: /jobs/boeing/
   jobs:
@@ -85,3 +91,5 @@ _embedded:
           - href: /languages/ada/
         os:
           - href: /os/solaris/
+        devices:
+          - href: /devices/b-1/

@@ -9,6 +9,8 @@ desc: >-
   platform for mobile app development and deployment. Its tight
   hardware-software integration and standardized app distribution model have
   shaped modern mobile ecosystems.
+used_begin_year: 2012
+used_end_year: present
 _links:
   self:
     href: /devices/iphone/

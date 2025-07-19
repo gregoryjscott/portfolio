@@ -1,0 +1,960 @@
+title: Server
+desc: A server is a hardware device or software application that listens for and
+  responds to requests from client systems over a network. It’s commonly used to
+  host web applications, manage databases, and provide file or compute resources
+  in data centers or cloud environments.
+used_begin_year: 1994
+used_end_year: present
+_links:
+  self:
+    href: /devices/server/
+  projects:
+    - href: /projects/agdc/
+    - href: /projects/ahfc-integration/
+    - href: /projects/awwu-intranet/
+    - href: /projects/awwu-job-scheduler/
+    - href: /projects/awwu-systems-integration/
+    - href: /projects/centroid/
+    - href: /projects/cfw/
+    - href: /projects/cis-data-capture/
+    - href: /projects/class-scheduler/
+    - href: /projects/consumption-views/
+    - href: /projects/database-sync-awwu/
+    - href: /projects/denver-schedules-api/
+    - href: /projects/employee-suggestions/
+    - href: /projects/energy-efficiency-map/
+    - href: /projects/epic-ca-enrollment/
+    - href: /projects/jekyll-api/
+    - href: /projects/jekyll-embed/
+    - href: /projects/jekyll-load/
+    - href: /projects/jekyll-prep/
+    - href: /projects/mvc-integration-test-framework/
+    - href: /projects/portfolio/
+    - href: /projects/qb/
+    - href: /projects/report-engine/
+    - href: /projects/sar-reports/
+    - href: /projects/scrum-tools/
+    - href: /projects/sif-agent/
+    - href: /projects/simpler/
+    - href: /projects/somd/
+    - href: /projects/systems-portal/
+    - href: /projects/wengage-acct/
+    - href: /projects/wengage-si/
+  jobs:
+    - href: /jobs/fe/
+    - href: /jobs/independent/
+    - href: /jobs/mas/
+    - href: /jobs/rdi/
+  schools:
+    - href: /schools/uco/
+_embedded:
+  projects:
+    - title: gregoryjscott.com
+      desc: My portfolio website that uses Jekyll to create static HTML pages using
+        YAML, Markdown, and HAL-based hypermedia.
+      role: Author
+      begin_year: 2014
+      end_year: present
+      _links:
+        self:
+          href: /projects/portfolio/
+        code:
+          title: github.com/gregoryjscott/portfolio
+          href: https://github.com/gregoryjscott/portfolio
+        languages:
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/rb/
+          - href: /languages/ts/
+        tools:
+          - href: /tools/hal/
+          - href: /tools/jekyll/
+        os:
+          - href: /os/linux/
+          - href: /os/macos/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/independent/
+    - title: Epic California Academy Enrollment
+      desc: null
+      role: Technical Lead
+      begin_year: 2017
+      end_year: 2021
+      _links:
+        self:
+          href: /projects/epic-ca-enrollment/
+        languages:
+          - href: /languages/php/
+        db:
+          - href: /db/firebase/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/fe/
+    - title: fortworthtexas.gov
+      desc: Jekyll static site for the City of Fort Worth, Texas.
+      role: Technical Lead
+      begin_year: 2015
+      end_year: 2016
+      _links:
+        self:
+          href: /projects/cfw/
+        languages:
+          - href: /languages/rb/
+        tools:
+          - href: /tools/heroku/
+          - href: /tools/jekyll/
+        os:
+          - href: /os/linux/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/independent/
+    - title: Centroid
+      desc: Library for accessing environment based configuration from multiple
+        different programming languages.
+      role: Contributor
+      begin_year: 2014
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/centroid/
+        code:
+          title: github.com/ResourceDataInc/Centroid
+          href: https://github.com/ResourceDataInc/Centroid
+        languages:
+          - href: /languages/cs/
+          - href: /languages/py/
+          - href: /languages/rb/
+        os:
+          - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/pc/
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/rdi/
+    - title: Denver Schedules API
+      desc: JSON API that provides access to Denver activities that impact the
+        residents of Denver.
+      role: Contributor
+      begin_year: 2014
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/denver-schedules-api/
+        code:
+          title: github.com/codeforamerica/denver-schedules-api
+          href: https://github.com/codeforamerica/denver-schedules-api
+        languages:
+          - href: /languages/cs/
+          - href: /languages/rb/
+          - href: /languages/sql/
+        db:
+          - href: /db/postgres/
+        os:
+          - href: /os/linux/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/independent/
+    - title: jekyll-api
+      desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
+      role: Author
+      begin_year: 2014
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/jekyll-api/
+        code:
+          title: github.com/gregoryjscott/jekyll-api
+          href: https://github.com/gregoryjscott/jekyll-api
+        languages:
+          - href: /languages/rb/
+        tools:
+          - href: /tools/jekyll/
+        os:
+          - href: /os/linux/
+          - href: /os/macos/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/independent/
+    - title: jekyll-embed
+      desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
+        frontmatter
+      role: Author
+      begin_year: 2014
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/jekyll-embed/
+        code:
+          title: github.com/gregoryjscott/jekyll-embed
+          href: https://github.com/gregoryjscott/jekyll-embed
+        languages:
+          - href: /languages/rb/
+        tools:
+          - href: /tools/hal/
+          - href: /tools/jekyll/
+        os:
+          - href: /os/linux/
+          - href: /os/macos/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/independent/
+    - title: jekyll-load
+      desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
+      role: Author
+      begin_year: 2014
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/jekyll-load/
+        code:
+          title: github.com/gregoryjscott/jekyll-load
+          href: https://github.com/gregoryjscott/jekyll-load
+        languages:
+          - href: /languages/rb/
+        tools:
+          - href: /tools/jekyll/
+        os:
+          - href: /os/linux/
+          - href: /os/macos/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/independent/
+    - title: jekyll-prep
+      desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
+      role: Author
+      begin_year: 2014
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/jekyll-prep/
+        code:
+          title: github.com/gregoryjscott/jekyll-prep
+          href: https://github.com/gregoryjscott/jekyll-prep
+        languages:
+          - href: /languages/rb/
+        tools:
+          - href: /tools/jekyll/
+        os:
+          - href: /os/linux/
+          - href: /os/macos/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/independent/
+    - title: Alaska Gasline Development Corporation
+      desc: Web application that provides AGDC with documentation, reporting, and
+        querying tools for their vast GIS data and infrastructure.
+      role: Technical Lead
+      begin_year: 2013
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/agdc/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/py/
+          - href: /languages/rb/
+          - href: /languages/sql/
+        db:
+          - href: /db/sql-server/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/rdi/
+    - title: AHFC Integration
+      desc: Alaska Housing Finance Corporation Integration
+      role: Technical Lead
+      begin_year: 2013
+      end_year: 2013
+      _links:
+        self:
+          href: /projects/ahfc-integration/
+        languages:
+          - href: /languages/sql/
+        db:
+          - href: /db/sql-server/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/rdi/
+    - title: Systems Portal
+      desc: Web application for tracking data used by systems administrators.
+      role: Technical Lead
+      begin_year: 2013
+      end_year: 2013
+      _links:
+        self:
+          href: /projects/systems-portal/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/sql/
+        db:
+          - href: /db/sql-server/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/rdi/
+    - title: Energy Efficiency Map
+      desc: Web application that allows the Alaska Energy Authority to monitor and
+        administer data from their statewide energy saving programs.
+      role: Technical Lead
+      begin_year: 2012
+      end_year: 2013
+      _links:
+        self:
+          href: /projects/energy-efficiency-map/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/sql/
+        db:
+          - href: /db/sql-server/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/rdi/
+    - title: Scrum Tools
+      desc: null
+      role: Technical Lead
+      begin_year: 2012
+      end_year: 2013
+      _links:
+        self:
+          href: /projects/scrum-tools/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/sql/
+        db:
+          - href: /db/sql-server/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/rdi/
+    - title: Simpler
+      desc: Library that provides a simpler approach to C# class design.
+      role: Author
+      begin_year: 2010
+      end_year: 2013
+      _links:
+        self:
+          href: /projects/simpler/
+        code:
+          title: github.com/gregoryjscott/Simpler
+          href: https://github.com/gregoryjscott/Simpler
+        languages:
+          - href: /languages/cs/
+          - href: /languages/rb/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/independent/
+    - title: Quality Bank
+      subtitle: Invoicing $1 Billion/Month for Oil Pipeline
+      desc: Rewrite of the Trans-Alaska Pipeline's $1B/month invoicing system,
+        treating business rules as versioned data to give the client full
+        control over constant, retroactive changes.
+      role: Technical Lead
+      begin_year: 2010
+      end_year: 2012
+      _links:
+        self:
+          href: /projects/qb/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/sql/
+        db:
+          - href: /db/sql-server/
+        tools:
+          - href: /tools/backbone/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/rdi/
+    - title: MvcIntegrationTestFramework
+      desc: Framework that can be used to perform integration tests on a ASP.NET MVC
+        application.
+      role: Author
+      begin_year: 2010
+      end_year: 2010
+      _links:
+        self:
+          href: /projects/mvc-integration-test-framework/
+        code:
+          title: github.com/gregoryjscott/MvcIntegrationTestFramework
+          href: https://github.com/gregoryjscott/MvcIntegrationTestFramework
+        languages:
+          - href: /languages/cs/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/independent/
+    - title: Consumption Views
+      desc: Set of database views that provides water consumption information that
+        feed into reporting tools used by AWWU to make business decisions.
+      role: Lead Developer
+      begin_year: 2009
+      end_year: 2009
+      _links:
+        self:
+          href: /projects/consumption-views/
+        languages:
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/rdi/
+    - title: Service Order Mobile Dispatch
+      desc: Mobile web application that allows Anchorage Water & Wastewater Utility
+        service workers to query and record service information while in the
+        field.
+      role: Technical Lead
+      begin_year: 2009
+      end_year: 2009
+      _links:
+        self:
+          href: /projects/somd/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/pc/
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/rdi/
+    - title: Database Synchronization (AWWU)
+      desc: null
+      role: Lead Developer
+      begin_year: 2008
+      end_year: 2008
+      _links:
+        self:
+          href: /projects/database-sync-awwu/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/rdi/
+    - title: AWWU Intranet
+      desc: Web application that contains AWWU's reporting and querying tools, systems
+        status, and custom applications.
+      role: Technical Lead
+      begin_year: 2005
+      end_year: 2008
+      _links:
+        self:
+          href: /projects/awwu-intranet/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/rdi/
+    - title: SAR Reports
+      desc: null
+      role: Lead Developer
+      begin_year: 2007
+      end_year: 2007
+      _links:
+        self:
+          href: /projects/sar-reports/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/rdi/
+    - title: CIS Data Capture
+      desc: Console application that captures monthly snapshots of AWWU's customer
+        information system (CIS) data and loads it into a data warehouse.
+      role: Technical Lead
+      begin_year: 2006
+      end_year: 2006
+      _links:
+        self:
+          href: /projects/cis-data-capture/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/rdi/
+    - title: AWWU Job Scheduler
+      desc: Framework for creating background processing jobs that migrate,
+        synchronize, and transform data throughout AWWU's integrated systems.
+      role: Technical Lead
+      begin_year: 2005
+      end_year: 2006
+      _links:
+        self:
+          href: /projects/awwu-job-scheduler/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/rdi/
+    - title: AWWU Systems Integration
+      desc: null
+      role: Technical Lead
+      begin_year: 2005
+      end_year: 2006
+      _links:
+        self:
+          href: /projects/awwu-systems-integration/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/rdi/
+    - title: Employees Suggestion
+      desc: Oracle Forms application that allows AWWU employees to submit suggestions
+        for improving the AWWU workplace.
+      role: Lead Developer
+      begin_year: 2005
+      end_year: 2005
+      _links:
+        self:
+          href: /projects/employee-suggestions/
+        languages:
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/rdi/
+    - title: Report Engine
+      desc: C# library for producing HTML reports based on database queries.
+      role: Lead Developer
+      begin_year: 2005
+      end_year: 2005
+      _links:
+        self:
+          href: /projects/report-engine/
+        languages:
+          - href: /languages/cs/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/rdi/
+    - title: SIF Agent
+      subtitle: Automating State Reporting for 500+ Schools
+      desc: State of Oklahoma's first Schools Interoperability Framework (SIF)
+        compliant reporting agent, securing our company's position as the
+        dominant market provider for over 500 school districts.
+      role: Lead Developer
+      begin_year: 2004
+      end_year: 2005
+      _links:
+        self:
+          href: /projects/sif-agent/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/sql/
+        db:
+          - href: /db/pervasive/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/mas/
+    - title: Wen-GAGE Accounting
+      desc: Desktop application that is used by schools in Oklahoma to manage all
+        their school accounting responsibilites.
+      role: Lead Developer
+      begin_year: 1999
+      end_year: 2004
+      _links:
+        self:
+          href: /projects/wengage-acct/
+        languages:
+          - href: /languages/delphi/
+          - href: /languages/sql/
+        db:
+          - href: /db/btrieve/
+          - href: /db/pervasive/
+        os:
+          - href: /os/netware/
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/mas/
+    - title: Wen-GAGE Student Information
+      desc: Desktop application that is used by schools in Oklahoma to manage their
+        student information such as enrollment, attendance, and grades.
+      role: Lead Developer
+      begin_year: 1999
+      end_year: 2004
+      _links:
+        self:
+          href: /projects/wengage-si/
+        languages:
+          - href: /languages/delphi/
+          - href: /languages/sql/
+        db:
+          - href: /db/btrieve/
+          - href: /db/pervasive/
+        os:
+          - href: /os/netware/
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/mas/
+    - title: Class Scheduler
+      desc: Process that takes student course requests along with the available
+        courses, sections, and teachers and builds the class schedule.
+      role: Lead Developer
+      begin_year: 1999
+      end_year: 1999
+      _links:
+        self:
+          href: /projects/class-scheduler/
+        languages:
+          - href: /languages/delphi/
+        db:
+          - href: /db/btrieve/
+          - href: /db/pervasive/
+        os:
+          - href: /os/netware/
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/mas/
+  jobs:
+    - title: Independent Programmer and Consultant
+      desc: Independent Programmer and Consultant, building next-generation education
+        technology and partnering with select clients to architect high-impact
+        software solutions
+      role: Independent Programmer and Consultant
+      begin_year: 2014
+      end_year: present
+      time_desc: July 2014 - present
+      _links:
+        self:
+          href: /jobs/independent/
+        projects:
+          - href: /projects/aprender/
+          - href: /projects/cfw/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/la-boda/
+          - href: /projects/mvc-integration-test-framework/
+          - href: /projects/nuggets/
+          - href: /projects/portfolio/
+          - href: /projects/simpler/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/rb/
+          - href: /languages/sql/
+          - href: /languages/ts/
+        db:
+          - href: /db/ddb/
+          - href: /db/postgres/
+        tools:
+          - href: /tools/amplify/
+          - href: /tools/azure-ai/
+          - href: /tools/docker/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/expo/
+          - href: /tools/fargate/
+          - href: /tools/hal/
+          - href: /tools/heroku/
+          - href: /tools/iam/
+          - href: /tools/jekyll/
+          - href: /tools/node/
+          - href: /tools/openai/
+          - href: /tools/react-native/
+          - href: /tools/s3/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+          - href: /tools/xstate/
+        os:
+          - href: /os/android/
+          - href: /os/ios/
+          - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/ipad/
+          - href: /devices/iphone/
+          - href: /devices/mac/
+          - href: /devices/server/
+          - href: /devices/tv/
+    - title: Futuristic Education
+      desc: Co-Founder and Programmer for Futuristic Education, a startup building
+        custom technology solutions for schools and educators
+      role: Co-Founder and Programmer
+      begin_year: 2018
+      end_year: 2022
+      time_desc: March 2018 - present
+      _links:
+        self:
+          href: /jobs/fe/
+        projects:
+          - href: /projects/epic-ca-enrollment/
+          - href: /projects/epicloud/
+        languages:
+          - href: /languages/php/
+          - href: /languages/ts/
+        db:
+          - href: /db/bigquery/
+          - href: /db/ddb/
+          - href: /db/firebase/
+        tools:
+          - href: /tools/classroom/
+          - href: /tools/docker/
+          - href: /tools/drive/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/firebase/
+          - href: /tools/iam/
+          - href: /tools/node/
+          - href: /tools/puppeteer/
+          - href: /tools/s3/
+          - href: /tools/sikulix/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+        os:
+          - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
+        devices:
+          - href: /devices/chromebook/
+          - href: /devices/cloud/
+          - href: /devices/mac/
+          - href: /devices/server/
+    - title: Resource Data, Inc.
+      desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+        in custom database, web, and GIS programming services
+      role: Technical Lead
+      begin_year: 2005
+      end_year: 2014
+      time_desc: July 2005 - July 2014
+      _links:
+        self:
+          href: /jobs/rdi/
+        projects:
+          - href: /projects/agdc/
+          - href: /projects/ahfc-integration/
+          - href: /projects/awwu-intranet/
+          - href: /projects/awwu-job-scheduler/
+          - href: /projects/awwu-systems-integration/
+          - href: /projects/bit-proposal/
+          - href: /projects/centroid/
+          - href: /projects/cis-data-capture/
+          - href: /projects/consumption-views/
+          - href: /projects/database-sync-awwu/
+          - href: /projects/employee-suggestions/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/flir-monitoring/
+          - href: /projects/laser-range-finder/
+          - href: /projects/please/
+          - href: /projects/qb/
+          - href: /projects/report-engine/
+          - href: /projects/sar-reports/
+          - href: /projects/scramble-score/
+          - href: /projects/scrum-tools/
+          - href: /projects/somd/
+          - href: /projects/systems-portal/
+          - href: /projects/train-builder/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/py/
+          - href: /languages/rb/
+          - href: /languages/sql/
+        db:
+          - href: /db/access/
+          - href: /db/oracle/
+          - href: /db/postgres/
+          - href: /db/sql-server/
+          - href: /db/sqlite/
+        tools:
+          - href: /tools/backbone/
+        os:
+          - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/gps/
+          - href: /devices/iphone/
+          - href: /devices/laser/
+          - href: /devices/mac/
+          - href: /devices/pc/
+          - href: /devices/range-finder/
+          - href: /devices/server/
+    - title: Municipal Accounting Systems, Inc.
+      desc: Lead Programmer for Municipal Accounting Systems (MAS), a leading provider
+        of student information and accounting software for school districts
+        throughout Oklahoma
+      role: Lead Programmer
+      begin_year: 1999
+      end_year: 2005
+      time_desc: November 1999 - June 2005
+      _links:
+        self:
+          href: /jobs/mas/
+        projects:
+          - href: /projects/class-scheduler/
+          - href: /projects/sif-agent/
+          - href: /projects/wengage-acct/
+          - href: /projects/wengage-si/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/delphi/
+          - href: /languages/sql/
+        db:
+          - href: /db/btrieve/
+          - href: /db/pervasive/
+        os:
+          - href: /os/netware/
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+  schools:
+    - title: University of Central Oklahoma
+      subtitle: Bachelor of Science in Mathematics, 1998
+      desc: The University of Central Oklahoma (UCO), located in Edmond, Oklahoma, is
+        a public university known for its strong emphasis on transformative
+        learning and leadership development. As one of the state's oldest
+        institutions of higher education, UCO offers a diverse range of
+        undergraduate and graduate programs across fields such as business,
+        education, liberal arts, and the sciences. The university fosters a
+        student-centered environment focused on academic excellence, community
+        engagement, and real-world experience.
+      begin_year: 1994
+      end_year: 1998
+      _links:
+        self:
+          href: /schools/uco/
+        languages:
+          - href: /languages/c/
+          - href: /languages/cpp/
+          - href: /languages/fortran/
+          - href: /languages/pascal/
+          - href: /languages/ti-basic/
+          - href: /languages/vb/
+        os:
+          - href: /os/aix/
+          - href: /os/ms-dos/
+          - href: /os/windows/
+        devices:
+          - href: /devices/calculator/
+          - href: /devices/pc/
+          - href: /devices/server/

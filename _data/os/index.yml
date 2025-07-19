@@ -70,6 +70,12 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
               jobs:
                 - href: /jobs/independent/
         jobs:
@@ -134,6 +140,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: iOS
       desc: iOS is a mobile operating system developed by Apple Inc. for its iPhone,
         iPad, and iPod Touch devices. It is the second most popular mobile
@@ -189,6 +203,12 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
               jobs:
                 - href: /jobs/independent/
         jobs:
@@ -253,6 +273,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: Linux
       desc: Linux is an open-source operating system that is based on the Linux
         kernel. It is a free and powerful operating system that is used in many
@@ -319,6 +347,12 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
               jobs:
                 - href: /jobs/independent/
           - title: gregoryjscott.com
@@ -344,6 +378,8 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: hazelandgreg.wedding
@@ -364,6 +400,8 @@ _embedded:
                 - href: /tools/amplify/
               os:
                 - href: /os/linux/
+              devices:
+                - href: /devices/cloud/
               jobs:
                 - href: /jobs/independent/
           - title: EpiCloud
@@ -401,6 +439,10 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
               jobs:
                 - href: /jobs/fe/
           - title: fortworthtexas.gov
@@ -418,6 +460,8 @@ _embedded:
                 - href: /tools/jekyll/
               os:
                 - href: /os/linux/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: Centroid
@@ -440,6 +484,10 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Denver Schedules API
@@ -462,6 +510,8 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: jekyll-api
@@ -482,6 +532,9 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: jekyll-embed
@@ -504,6 +557,9 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: jekyll-load
@@ -524,6 +580,9 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: jekyll-prep
@@ -544,6 +603,9 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: ScrambleScore
@@ -566,6 +628,10 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/iphone/
               jobs:
                 - href: /jobs/rdi/
         jobs:
@@ -630,6 +696,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
           - title: Futuristic Education
             desc: Co-Founder and Programmer for Futuristic Education, a startup building
               custom technology solutions for schools and educators
@@ -670,6 +744,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
               in custom database, web, and GIS programming services
@@ -724,6 +803,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: macOS
       desc: macOS is Apple’s Unix‐based desktop operating system, first released in
         2001 as Mac OS X and built on the open‐source Darwin core and the
@@ -779,6 +868,8 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: EpiCloud
@@ -816,6 +907,10 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
               jobs:
                 - href: /jobs/fe/
           - title: aprender
@@ -833,6 +928,8 @@ _embedded:
                 - href: /languages/js/
               os:
                 - href: /os/macos/
+              devices:
+                - href: /devices/mac/
               jobs:
                 - href: /jobs/independent/
           - title: Centroid
@@ -855,6 +952,10 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: jekyll-api
@@ -875,6 +976,9 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: jekyll-embed
@@ -897,6 +1001,9 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: jekyll-load
@@ -917,6 +1024,9 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: jekyll-prep
@@ -937,6 +1047,9 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: Please
@@ -959,6 +1072,9 @@ _embedded:
               os:
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/pc/
               jobs:
                 - href: /jobs/rdi/
         jobs:
@@ -1023,6 +1139,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
           - title: Futuristic Education
             desc: Co-Founder and Programmer for Futuristic Education, a startup building
               custom technology solutions for schools and educators
@@ -1063,6 +1187,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
               in custom database, web, and GIS programming services
@@ -1117,6 +1246,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: Windows
       desc: Windows is a series of operating systems developed by Microsoft. It is the
         most popular operating system for personal computers, and is used in a
@@ -1184,6 +1323,8 @@ _embedded:
                 - href: /db/firebase/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/fe/
           - title: Centroid
@@ -1206,6 +1347,10 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Alaska Gasline Development Corporation
@@ -1229,6 +1374,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Please
@@ -1251,6 +1398,9 @@ _embedded:
               os:
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/pc/
               jobs:
                 - href: /jobs/rdi/
           - title: AHFC Integration
@@ -1267,6 +1417,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Systems Portal
@@ -1287,6 +1439,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Energy Efficiency Map
@@ -1308,6 +1462,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Scrum Tools
@@ -1328,6 +1484,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Simpler
@@ -1346,6 +1504,8 @@ _embedded:
                 - href: /languages/rb/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: Quality Bank
@@ -1371,6 +1531,8 @@ _embedded:
                 - href: /tools/backbone/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: MvcIntegrationTestFramework
@@ -1389,6 +1551,8 @@ _embedded:
                 - href: /languages/cs/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: Consumption Views
@@ -1406,6 +1570,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Service Order Mobile Dispatch
@@ -1428,6 +1594,9 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/pc/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Bit Proposal
@@ -1442,6 +1611,8 @@ _embedded:
                 - href: /languages/cs/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/pc/
               jobs:
                 - href: /jobs/rdi/
           - title: Database Synchronization (AWWU)
@@ -1459,6 +1630,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Laser Range Finder
@@ -1478,6 +1651,9 @@ _embedded:
                 - href: /db/access/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/gps/
+                - href: /devices/range-finder/
               jobs:
                 - href: /jobs/rdi/
           - title: AWWU Intranet
@@ -1499,6 +1675,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: FLIR Monitoring System
@@ -1517,6 +1695,8 @@ _embedded:
                 - href: /db/access/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/laser/
               jobs:
                 - href: /jobs/rdi/
           - title: SAR Reports
@@ -1534,6 +1714,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: TrainBuilder
@@ -1552,6 +1734,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/pc/
               jobs:
                 - href: /jobs/rdi/
           - title: CIS Data Capture
@@ -1570,6 +1754,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: AWWU Job Scheduler
@@ -1589,6 +1775,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: AWWU Systems Integration
@@ -1606,6 +1794,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Employees Suggestion
@@ -1623,6 +1813,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Report Engine
@@ -1637,6 +1829,8 @@ _embedded:
                 - href: /languages/cs/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: SIF Agent
@@ -1657,6 +1851,8 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/mas/
           - title: Wen-GAGE Accounting
@@ -1677,6 +1873,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/mas/
           - title: Wen-GAGE Student Information
@@ -1697,6 +1895,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/mas/
           - title: Class Scheduler
@@ -1716,6 +1916,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/mas/
         jobs:
@@ -1780,6 +1982,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
           - title: Futuristic Education
             desc: Co-Founder and Programmer for Futuristic Education, a startup building
               custom technology solutions for schools and educators
@@ -1820,6 +2030,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
               in custom database, web, and GIS programming services
@@ -1874,6 +2089,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
           - title: Municipal Accounting Systems, Inc.
             desc: Lead Programmer for Municipal Accounting Systems (MAS), a leading provider
               of student information and accounting software for school
@@ -1900,6 +2125,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
         schools:
           - title: University of Central Oklahoma
             subtitle: Bachelor of Science in Mathematics, 1998
@@ -1928,6 +2155,10 @@ _embedded:
                 - href: /os/aix/
                 - href: /os/ms-dos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/calculator/
+                - href: /devices/pc/
+                - href: /devices/server/
     - title: NetWare
       desc: NetWare is a network operating system developed by Novell, Inc. It was one
         of the first network operating systems to be widely used in business
@@ -1969,6 +2200,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/mas/
           - title: Wen-GAGE Student Information
@@ -1989,6 +2222,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/mas/
           - title: Class Scheduler
@@ -2008,6 +2243,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/mas/
         jobs:
@@ -2037,6 +2274,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
     - title: Solaris
       desc: Solaris is a Unix-based operating system developed by Sun Microsystems. It
         is designed to provide a secure, reliable, and high-performance
@@ -2073,6 +2312,8 @@ _embedded:
                 - href: /languages/ada/
               os:
                 - href: /os/solaris/
+              devices:
+                - href: /devices/b-1/
               jobs:
                 - href: /jobs/boeing/
           - title: Mission Data Loader
@@ -2090,6 +2331,8 @@ _embedded:
                 - href: /languages/ada/
               os:
                 - href: /os/solaris/
+              devices:
+                - href: /devices/b-1/
               jobs:
                 - href: /jobs/boeing/
           - title: System Management Function (SMF) Controls and Displays
@@ -2104,6 +2347,8 @@ _embedded:
                 - href: /languages/ada/
               os:
                 - href: /os/solaris/
+              devices:
+                - href: /devices/b-1/
               jobs:
                 - href: /jobs/boeing/
         jobs:
@@ -2126,6 +2371,8 @@ _embedded:
                 - href: /languages/ada/
               os:
                 - href: /os/solaris/
+              devices:
+                - href: /devices/b-1/
     - title: AIX
       desc: AIX (Advanced Interactive eXecutive) is an IBM proprietary Unix-based
         operating system designed for enterprise-level computing. It is a
@@ -2171,6 +2418,10 @@ _embedded:
                 - href: /os/aix/
                 - href: /os/ms-dos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/calculator/
+                - href: /devices/pc/
+                - href: /devices/server/
     - title: MS-DOS
       desc: MS-DOS (Microsoft Disk Operating System) is an operating system developed
         by Microsoft for IBM-compatible personal computers. It was the most
@@ -2218,3 +2469,7 @@ _embedded:
                 - href: /os/aix/
                 - href: /os/ms-dos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/calculator/
+                - href: /devices/pc/
+                - href: /devices/server/

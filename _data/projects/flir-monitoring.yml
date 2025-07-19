@@ -14,6 +14,8 @@ _links:
     - href: /db/access/
   os:
     - href: /os/windows/
+  devices:
+    - href: /devices/laser/
   jobs:
     - href: /jobs/rdi/
 _embedded:
@@ -130,6 +132,23 @@ _embedded:
           - href: /jobs/rdi/
         schools:
           - href: /schools/uco/
+  devices:
+    - title: FLIR Laser
+      desc: FLIR Laser is a laser rangefinding module integrated into FLIR thermal
+        imaging devices that emits near-infrared pulses and measures their
+        time-of-flight to calculate precise target distances. It’s commonly used
+        in industrial inspection, surveying, search and rescue, and defense for
+        accurate target acquisition and scene analysis under low-visibility
+        conditions.
+      used_begin_year: 2007
+      used_end_year: 2007
+      _links:
+        self:
+          href: /devices/iphone/
+        projects:
+          - href: /projects/flir-monitoring/
+        jobs:
+          - href: /jobs/rdi/
   jobs:
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -185,3 +204,13 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/gps/
+          - href: /devices/iphone/
+          - href: /devices/laser/
+          - href: /devices/mac/
+          - href: /devices/pc/
+          - href: /devices/range-finder/
+          - href: /devices/server/

@@ -7,6 +7,8 @@ desc: >-
   smartphones, tablets and wearables, they enable mobile communication, internet
   access and multimedia playback. Their open architecture supports a broad
   ecosystem of third-party applications.
+used_begin_year: 2012
+used_end_year: present
 _links:
   self:
     href: /devices/android/

@@ -1,0 +1,105 @@
+title: Chromebook
+desc: Chromebooks are laptop devices running Chrome OS, a Linux-based operating
+  system centered on the Chrome browser and web applications. They offer fast
+  boot-up, automatic updates and seamless integration with cloud storage and
+  collaboration services. Commonly deployed in educational and enterprise
+  environments, Chromebooks are used for web browsing, office productivity,
+  media streaming and lightweight development tasks.
+used_begin_year: 2015
+used_end_year: 2021
+_links:
+  self:
+    href: /devices/chromebook/
+  projects:
+    - href: /projects/epicloud/
+  jobs:
+    - href: /jobs/fe/
+_embedded:
+  projects:
+    - title: EpiCloud
+      subtitle: Scaling School Operations with Bots
+      desc: AWS-based bot network that automates operations of a virtual charter
+        school, enabling the school to scale seamlessly from 1,500 to over
+        60,000 students.
+      role: Programmer/Consultant
+      begin_year: 2015
+      end_year: 2021
+      _links:
+        self:
+          href: /projects/epicloud/
+        languages:
+          - href: /languages/ts/
+        db:
+          - href: /db/bigquery/
+          - href: /db/ddb/
+        tools:
+          - href: /tools/classroom/
+          - href: /tools/docker/
+          - href: /tools/drive/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/firebase/
+          - href: /tools/iam/
+          - href: /tools/node/
+          - href: /tools/puppeteer/
+          - href: /tools/s3/
+          - href: /tools/sikulix/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+        os:
+          - href: /os/linux/
+          - href: /os/macos/
+        devices:
+          - href: /devices/chromebook/
+          - href: /devices/cloud/
+          - href: /devices/mac/
+        jobs:
+          - href: /jobs/fe/
+  jobs:
+    - title: Futuristic Education
+      desc: Co-Founder and Programmer for Futuristic Education, a startup building
+        custom technology solutions for schools and educators
+      role: Co-Founder and Programmer
+      begin_year: 2018
+      end_year: 2022
+      time_desc: March 2018 - present
+      _links:
+        self:
+          href: /jobs/fe/
+        projects:
+          - href: /projects/epic-ca-enrollment/
+          - href: /projects/epicloud/
+        languages:
+          - href: /languages/php/
+          - href: /languages/ts/
+        db:
+          - href: /db/bigquery/
+          - href: /db/ddb/
+          - href: /db/firebase/
+        tools:
+          - href: /tools/classroom/
+          - href: /tools/docker/
+          - href: /tools/drive/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/firebase/
+          - href: /tools/iam/
+          - href: /tools/node/
+          - href: /tools/puppeteer/
+          - href: /tools/s3/
+          - href: /tools/sikulix/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+        os:
+          - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
+        devices:
+          - href: /devices/chromebook/
+          - href: /devices/cloud/
+          - href: /devices/mac/
+          - href: /devices/server/

@@ -7,8 +7,8 @@ desc: >-
   scalable application hosting, data storage and backup, and automated
   deployment pipelines, enabling teams to provision and manage infrastructure
   without maintaining physical hardware.
-used_begin_year: 2015
-used_end_year: 2021
+used_begin_year: 2012
+used_end_year: present
 _links:
   self:
     href: /devices/cloud/

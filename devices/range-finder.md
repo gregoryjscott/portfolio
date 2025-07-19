@@ -8,6 +8,8 @@ desc: >-
   used in surveying, robotics, industrial inspection and mapping. Its compact
   design and real-time output facilitate integration into automated systems
   requiring accurate spatial information.
+used_begin_year: 2008
+used_end_year: 2008
 _links:
   self:
     href: /devices/range-finder/

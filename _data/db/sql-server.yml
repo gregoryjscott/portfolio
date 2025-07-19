@@ -44,6 +44,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: AHFC Integration
@@ -60,6 +62,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Systems Portal
@@ -80,6 +84,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Energy Efficiency Map
@@ -101,6 +107,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Scrum Tools
@@ -121,6 +129,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Quality Bank
@@ -146,6 +156,8 @@ _embedded:
           - href: /tools/backbone/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: TrainBuilder
@@ -164,6 +176,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/pc/
         jobs:
           - href: /jobs/rdi/
   jobs:
@@ -221,3 +235,13 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/gps/
+          - href: /devices/iphone/
+          - href: /devices/laser/
+          - href: /devices/mac/
+          - href: /devices/pc/
+          - href: /devices/range-finder/
+          - href: /devices/server/

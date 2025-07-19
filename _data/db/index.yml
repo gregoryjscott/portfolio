@@ -73,6 +73,12 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
               jobs:
                 - href: /jobs/independent/
           - title: hazelandgreg.wedding
@@ -93,6 +99,8 @@ _embedded:
                 - href: /tools/amplify/
               os:
                 - href: /os/linux/
+              devices:
+                - href: /devices/cloud/
               jobs:
                 - href: /jobs/independent/
           - title: EpiCloud
@@ -130,6 +138,10 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -194,6 +206,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
           - title: Futuristic Education
             desc: Co-Founder and Programmer for Futuristic Education, a startup building
               custom technology solutions for schools and educators
@@ -234,6 +254,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
     - title: Firebase
       desc: Firebase’s Realtime Database is a cloud-hosted, NoSQL JSON data store that
         lets you build rich, collaborative applications by syncing data in
@@ -272,6 +297,8 @@ _embedded:
                 - href: /db/firebase/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -315,6 +342,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
     - title: BigQuery
       desc: BigQuery is a cloud-based, fully managed, serverless data warehouse that
         enables businesses to store, query, and analyze large datasets. It is a
@@ -370,6 +402,10 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -413,6 +449,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
     - title: Postgres
       desc: Postgres is an open source object-relational database management system
         (ORDBMS) developed by the PostgreSQL Global Development Group. It is
@@ -457,6 +498,8 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: ScrambleScore
@@ -479,6 +522,10 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/iphone/
               jobs:
                 - href: /jobs/rdi/
         jobs:
@@ -543,6 +590,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
               in custom database, web, and GIS programming services
@@ -597,6 +652,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: SQLite
       desc: SQLite is a lightweight, self-contained, serverless, zero-configuration,
         transactional SQL database engine. It is the most widely deployed
@@ -637,6 +702,9 @@ _embedded:
               os:
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/pc/
               jobs:
                 - href: /jobs/rdi/
         jobs:
@@ -694,6 +762,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: SQL Server
       desc: SQL Server is a relational database management system (RDBMS) developed by
         Microsoft. It is used to store and manage data in a structured format,
@@ -740,6 +818,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: AHFC Integration
@@ -756,6 +836,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Systems Portal
@@ -776,6 +858,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Energy Efficiency Map
@@ -797,6 +881,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Scrum Tools
@@ -817,6 +903,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Quality Bank
@@ -842,6 +930,8 @@ _embedded:
                 - href: /tools/backbone/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: TrainBuilder
@@ -860,6 +950,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/pc/
               jobs:
                 - href: /jobs/rdi/
         jobs:
@@ -917,6 +1009,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: Oracle
       desc: Oracle Database is a relational database management system (RDBMS)
         developed by Oracle Corporation. It is the world's most popular database
@@ -961,6 +1063,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Service Order Mobile Dispatch
@@ -983,6 +1087,9 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/pc/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Database Synchronization (AWWU)
@@ -1000,6 +1107,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: AWWU Intranet
@@ -1021,6 +1130,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: SAR Reports
@@ -1038,6 +1149,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: CIS Data Capture
@@ -1056,6 +1169,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: AWWU Job Scheduler
@@ -1075,6 +1190,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: AWWU Systems Integration
@@ -1092,6 +1209,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Employees Suggestion
@@ -1109,6 +1228,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
         jobs:
@@ -1166,6 +1287,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: Access
       desc: The Access database is a relational database management system (RDBMS)
         developed by Microsoft. It is used to store and manage data in a
@@ -1202,6 +1333,9 @@ _embedded:
                 - href: /db/access/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/gps/
+                - href: /devices/range-finder/
               jobs:
                 - href: /jobs/rdi/
           - title: FLIR Monitoring System
@@ -1220,6 +1354,8 @@ _embedded:
                 - href: /db/access/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/laser/
               jobs:
                 - href: /jobs/rdi/
         jobs:
@@ -1277,6 +1413,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: Pervasive
       desc: Pervasive is a relational database management system (RDBMS) that is
         designed to provide high performance, scalability, and reliability for
@@ -1319,6 +1465,8 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/mas/
           - title: Wen-GAGE Accounting
@@ -1339,6 +1487,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/mas/
           - title: Wen-GAGE Student Information
@@ -1359,6 +1509,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/mas/
           - title: Class Scheduler
@@ -1378,6 +1530,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/mas/
         jobs:
@@ -1407,6 +1561,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
     - title: Btrieve
       desc: Btrieve is a database management system (DBMS) developed by Pervasive
         Software. It is a high-performance, reliable, and cost-effective
@@ -1448,6 +1604,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/mas/
           - title: Wen-GAGE Student Information
@@ -1468,6 +1626,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/mas/
           - title: Class Scheduler
@@ -1487,6 +1647,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/mas/
         jobs:
@@ -1516,3 +1678,5 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/

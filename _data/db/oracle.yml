@@ -41,6 +41,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Service Order Mobile Dispatch
@@ -63,6 +65,9 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/pc/
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Database Synchronization (AWWU)
@@ -80,6 +85,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: AWWU Intranet
@@ -101,6 +108,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: SAR Reports
@@ -118,6 +127,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: CIS Data Capture
@@ -136,6 +147,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: AWWU Job Scheduler
@@ -154,6 +167,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: AWWU Systems Integration
@@ -171,6 +186,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Employees Suggestion
@@ -188,6 +205,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
   jobs:
@@ -245,3 +264,13 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/gps/
+          - href: /devices/iphone/
+          - href: /devices/laser/
+          - href: /devices/mac/
+          - href: /devices/pc/
+          - href: /devices/range-finder/
+          - href: /devices/server/

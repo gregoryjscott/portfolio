@@ -52,6 +52,8 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
     - title: fortworthtexas.gov
@@ -69,6 +71,8 @@ _embedded:
           - href: /tools/jekyll/
         os:
           - href: /os/linux/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
     - title: Centroid
@@ -91,6 +95,10 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/pc/
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Denver Schedules API
@@ -113,6 +121,8 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/linux/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
     - title: jekyll-api
@@ -133,6 +143,9 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
     - title: jekyll-embed
@@ -155,6 +168,9 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
     - title: jekyll-load
@@ -175,6 +191,9 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
     - title: jekyll-prep
@@ -195,6 +214,9 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
     - title: Alaska Gasline Development Corporation
@@ -218,6 +240,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Please
@@ -240,6 +264,9 @@ _embedded:
         os:
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/pc/
         jobs:
           - href: /jobs/rdi/
     - title: ScrambleScore
@@ -262,6 +289,10 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/linux/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/iphone/
         jobs:
           - href: /jobs/rdi/
     - title: Simpler
@@ -280,6 +311,8 @@ _embedded:
           - href: /languages/rb/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
   jobs:
@@ -344,6 +377,14 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/ipad/
+          - href: /devices/iphone/
+          - href: /devices/mac/
+          - href: /devices/server/
+          - href: /devices/tv/
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
         in custom database, web, and GIS programming services
@@ -398,3 +439,13 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/gps/
+          - href: /devices/iphone/
+          - href: /devices/laser/
+          - href: /devices/mac/
+          - href: /devices/pc/
+          - href: /devices/range-finder/
+          - href: /devices/server/

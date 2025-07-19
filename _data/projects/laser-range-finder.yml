@@ -14,6 +14,9 @@ _links:
     - href: /db/access/
   os:
     - href: /os/windows/
+  devices:
+    - href: /devices/gps/
+    - href: /devices/range-finder/
   jobs:
     - href: /jobs/rdi/
 _embedded:
@@ -130,6 +133,40 @@ _embedded:
           - href: /jobs/rdi/
         schools:
           - href: /schools/uco/
+  devices:
+    - title: GPS
+      desc: Global Positioning System (GPS) is a satellite-based navigation technology
+        that calculates precise geographic coordinates by measuring signal
+        travel times from a constellation of Earth-orbiting satellites. Commonly
+        employed in mapping and turn-by-turn navigation, asset tracking, and
+        location-based services, GPS delivers real-time positioning with
+        meter-level accuracy across devices from smartphones to IoT sensors.
+      used_begin_year: 2008
+      used_end_year: 2008
+      _links:
+        self:
+          href: /devices/gps/
+        projects:
+          - href: /projects/laser-range-finder/
+        jobs:
+          - href: /jobs/rdi/
+    - title: Laser Range Finder
+      desc: A laser range finder is an optical device that measures distance by
+        emitting a laser pulse toward a target and calculating range from the
+        time-of-flight of the reflected signal. It delivers high-precision,
+        non-contact measurement data used in surveying, robotics, industrial
+        inspection and mapping. Its compact design and real-time output
+        facilitate integration into automated systems requiring accurate spatial
+        information.
+      used_begin_year: 2008
+      used_end_year: 2008
+      _links:
+        self:
+          href: /devices/range-finder/
+        projects:
+          - href: /projects/laser-range-finder/
+        jobs:
+          - href: /jobs/rdi/
   jobs:
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -185,3 +222,13 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/gps/
+          - href: /devices/iphone/
+          - href: /devices/laser/
+          - href: /devices/mac/
+          - href: /devices/pc/
+          - href: /devices/range-finder/
+          - href: /devices/server/

@@ -8,6 +8,8 @@ desc: >-
   development, office productivity, web browsing and multimedia consumption, PCs
   provide a flexible, modular platform for both professional workflows and
   everyday tasks.
+used_begin_year: 1994
+used_end_year: 2014
 _links:
   self:
     href: /devices/pc/

@@ -16,6 +16,8 @@ _links:
     - href: /languages/ada/
   os:
     - href: /os/solaris/
+  devices:
+    - href: /devices/b-1/
 content: >-
   - Architected and delivered the Mission Data Loader, a mission-critical
   interface that all other avionics teams depended on for distributing flight
@@ -43,6 +45,8 @@ _embedded:
           - href: /languages/ada/
         os:
           - href: /os/solaris/
+        devices:
+          - href: /devices/b-1/
         jobs:
           - href: /jobs/boeing/
     - title: Mission Data Loader
@@ -60,6 +64,8 @@ _embedded:
           - href: /languages/ada/
         os:
           - href: /os/solaris/
+        devices:
+          - href: /devices/b-1/
         jobs:
           - href: /jobs/boeing/
     - title: System Management Function (SMF) Controls and Displays
@@ -74,6 +80,8 @@ _embedded:
           - href: /languages/ada/
         os:
           - href: /os/solaris/
+        devices:
+          - href: /devices/b-1/
         jobs:
           - href: /jobs/boeing/
   languages:
@@ -113,6 +121,24 @@ _embedded:
       _links:
         self:
           href: /os/solaris/
+        projects:
+          - href: /projects/backup-controls-displays/
+          - href: /projects/mission-data-loader/
+          - href: /projects/smf-controls-displays/
+        jobs:
+          - href: /jobs/boeing/
+  devices:
+    - title: B-1 Bomber
+      desc: The Rockwell B-1 Lancer is a supersonic variable-sweep-wing heavy bomber
+        employed by the U.S. Air Force for long-range strategic and tactical
+        missions. It is commonly used for precision strike and conventional
+        payload delivery, leveraging its variable-geometry wings and integrated
+        avionics to adapt to diverse operational profiles.
+      used_begin_year: 1998
+      used_end_year: 1999
+      _links:
+        self:
+          href: /devices/b-1/
         projects:
           - href: /projects/backup-controls-displays/
           - href: /projects/mission-data-loader/

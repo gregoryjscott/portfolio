@@ -8,6 +8,8 @@ desc: >-
   collaboration services. Commonly deployed in educational and enterprise
   environments, Chromebooks are used for web browsing, office productivity,
   media streaming and lightweight development tasks.
+used_begin_year: 2015
+used_end_year: 2021
 _links:
   self:
     href: /devices/chromebook/
