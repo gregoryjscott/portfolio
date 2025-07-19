@@ -22,9 +22,9 @@ _links:
     - href: /projects/employee-suggestions/
     - href: /projects/energy-efficiency-map/
     - href: /projects/flir-monitoring/
-    - href: /projects/laser-range-finder/
     - href: /projects/please/
     - href: /projects/qb/
+    - href: /projects/range-finding/
     - href: /projects/report-engine/
     - href: /projects/sar-reports/
     - href: /projects/scramble-score/
@@ -377,7 +377,7 @@ _embedded:
           - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
-    - title: Laser Range Finder
+    - title: Range Finding
       desc: Software that records output from a handheld laser range finder and
         combines it with records from a GPS unit which allows field workers to
         record the locations of objects that aren't assessible otherwise.
@@ -386,7 +386,7 @@ _embedded:
       end_year: 2008
       _links:
         self:
-          href: /projects/laser-range-finder/
+          href: /projects/range-finding/
         languages:
           - href: /languages/cs/
         db:
@@ -601,10 +601,10 @@ _embedded:
           - href: /projects/denver-schedules-api/
           - href: /projects/energy-efficiency-map/
           - href: /projects/flir-monitoring/
-          - href: /projects/laser-range-finder/
           - href: /projects/mvc-integration-test-framework/
           - href: /projects/please/
           - href: /projects/qb/
+          - href: /projects/range-finding/
           - href: /projects/report-engine/
           - href: /projects/sar-reports/
           - href: /projects/scrum-tools/
@@ -802,7 +802,7 @@ _embedded:
           href: /db/access/
         projects:
           - href: /projects/flir-monitoring/
-          - href: /projects/laser-range-finder/
+          - href: /projects/range-finding/
         jobs:
           - href: /jobs/rdi/
     - title: Oracle
@@ -1009,10 +1009,10 @@ _embedded:
           - href: /projects/energy-efficiency-map/
           - href: /projects/epic-ca-enrollment/
           - href: /projects/flir-monitoring/
-          - href: /projects/laser-range-finder/
           - href: /projects/mvc-integration-test-framework/
           - href: /projects/please/
           - href: /projects/qb/
+          - href: /projects/range-finding/
           - href: /projects/report-engine/
           - href: /projects/sar-reports/
           - href: /projects/scrum-tools/
@@ -1097,7 +1097,7 @@ _embedded:
         self:
           href: /devices/gps/
         projects:
-          - href: /projects/laser-range-finder/
+          - href: /projects/range-finding/
         jobs:
           - href: /jobs/rdi/
     - title: iPhone
@@ -1133,7 +1133,7 @@ _embedded:
         self:
           href: /devices/range-finder/
         projects:
-          - href: /projects/laser-range-finder/
+          - href: /projects/range-finding/
         jobs:
           - href: /jobs/rdi/
     - title: Mac

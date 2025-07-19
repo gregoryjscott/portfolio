@@ -26,10 +26,10 @@ _links:
     - href: /projects/denver-schedules-api/
     - href: /projects/energy-efficiency-map/
     - href: /projects/flir-monitoring/
-    - href: /projects/laser-range-finder/
     - href: /projects/mvc-integration-test-framework/
     - href: /projects/please/
     - href: /projects/qb/
+    - href: /projects/range-finding/
     - href: /projects/report-engine/
     - href: /projects/sar-reports/
     - href: /projects/scrum-tools/

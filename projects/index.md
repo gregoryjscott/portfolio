@@ -31,13 +31,13 @@ _links:
     - href: /projects/jekyll-load/
     - href: /projects/jekyll-prep/
     - href: /projects/la-boda/
-    - href: /projects/laser-range-finder/
     - href: /projects/mission-data-loader/
     - href: /projects/mvc-integration-test-framework/
     - href: /projects/nuggets/
     - href: /projects/please/
     - href: /projects/portfolio/
     - href: /projects/qb/
+    - href: /projects/range-finding/
     - href: /projects/report-engine/
     - href: /projects/sar-reports/
     - href: /projects/scramble-score/
