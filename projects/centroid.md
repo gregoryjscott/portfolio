@@ -2,7 +2,7 @@
 layout: details
 title: Centroid
 desc: >-
-  Library for accessing environment based configuration from multiple different
+  Library for accessing environment-based configuration from multiple different
   programming languages.
 role: Contributor
 begin_year: 2014

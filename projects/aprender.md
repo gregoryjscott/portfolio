@@ -1,7 +1,7 @@
 ---
 layout: details
 title: aprender
-desc: CLI for learning Spanish
+desc: CLI for practicing beginner Spanish concepts.
 role: Author
 begin_year: 2017
 end_year: 2017

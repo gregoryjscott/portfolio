@@ -1,7 +1,9 @@
 ---
 layout: details
 title: Bit Proposal
-desc: null
+desc: >-
+  Desktop application for showcasing drill bits available for oil and gas
+  drilling.
 role: Lead Developer
 begin_year: 2008
 end_year: 2008

@@ -1,7 +1,7 @@
 ---
 layout: details
 title: SAR Reports
-desc: null
+desc: Custom reports built from synthetic aperture radar (SAR) datasets.
 role: Lead Developer
 begin_year: 2007
 end_year: 2007

@@ -1,7 +1,9 @@
 ---
 layout: details
 title: AWWU Systems Integration
-desc: null
+desc: >-
+  Backend services that integrate Anchorage Water & Wastewater Utility's (AWWU)
+  customer information system (CIS) with other internal systems.
 role: Technical Lead
 begin_year: 2005
 end_year: 2006

@@ -3,7 +3,8 @@ layout: details
 title: AWWU Job Scheduler
 desc: >-
   Framework for creating background processing jobs that migrate, synchronize,
-  and transform data throughout AWWU's integrated systems.
+  and transform data throughout Anchorage Water & Wastewater Utility's (AWWU)
+  integrated systems.
 role: Technical Lead
 begin_year: 2005
 end_year: 2006

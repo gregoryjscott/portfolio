@@ -1,7 +1,9 @@
 ---
 layout: details
 title: Scrum Tools
-desc: null
+desc: >-
+  Internal project management tool using iteration-based, story-driven agile
+  planning and tracking.
 role: Technical Lead
 begin_year: 2012
 end_year: 2013
