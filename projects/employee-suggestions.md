@@ -1,6 +1,6 @@
 ---
 layout: details
-title: Employees Suggestion
+title: Employee Suggestions
 desc: >-
   Oracle Forms application that allows Anchorage Water & Wastewater Utility's
   (AWWU) employees to submit suggestions for improving the AWWU workplace.

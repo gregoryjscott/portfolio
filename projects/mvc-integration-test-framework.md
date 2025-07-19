@@ -2,8 +2,8 @@
 layout: details
 title: MvcIntegrationTestFramework
 desc: >-
-  Framework that can be used to perform integration tests on a ASP.NET MVC
-  application.
+  Library for integration testing .NET MVC applications based on Steve
+  Sanderson's blog post.
 role: Author
 begin_year: 2010
 end_year: 2010

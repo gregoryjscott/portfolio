@@ -2,8 +2,9 @@
 layout: details
 title: Alaska Gasline Development Corporation
 desc: >-
-  Web application that provides AGDC with documentation, reporting, and querying
-  tools for their vast GIS data and infrastructure.
+  Web application that provides Alaska Gasline Development Corporation (AGDC)
+  with documentation, reporting, and querying tools for their vast GIS data and
+  infrastructure.
 role: Technical Lead
 begin_year: 2013
 end_year: 2014

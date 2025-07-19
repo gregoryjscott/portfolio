@@ -2,7 +2,7 @@
 layout: details
 title: Energy Efficiency Map
 desc: >-
-  Web application that allows the Alaska Energy Authority to monitor and
+  Web application that allows the Alaska Energy Authority (AEA) to monitor and
   administer data from their statewide energy saving programs.
 role: Technical Lead
 begin_year: 2012
