@@ -10,4 +10,8 @@ desc: >-
 _links:
   self:
     href: /devices/ipad/
+  projects:
+    - href: /projects/nuggets/
+  jobs:
+    - href: /jobs/independent/
 ---

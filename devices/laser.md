@@ -10,4 +10,8 @@ desc: >-
 _links:
   self:
     href: /devices/iphone/
+  projects:
+    - href: /projects/flir-monitoring/
+  jobs:
+    - href: /jobs/rdi/
 ---

@@ -13,9 +13,16 @@ _links:
   self:
     href: /devices/mac/
   projects:
+    - href: /projects/aprender/
     - href: /projects/centroid/
     - href: /projects/epicloud/
+    - href: /projects/jekyll-api/
+    - href: /projects/jekyll-embed/
+    - href: /projects/jekyll-load/
+    - href: /projects/jekyll-prep/
+    - href: /projects/please/
   jobs:
     - href: /jobs/fe/
+    - href: /jobs/independent/
     - href: /jobs/rdi/
 ---

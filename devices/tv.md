@@ -12,4 +12,8 @@ desc: >-
 _links:
   self:
     href: /devices/tv/
+  projects:
+    - href: /projects/nuggets/
+  jobs:
+    - href: /jobs/independent/
 ---

@@ -56,8 +56,14 @@ _links:
     - href: /os/macos/
     - href: /os/windows/
   devices:
+    - href: /devices/android/
+    - href: /devices/cloud/
+    - href: /devices/gps/
+    - href: /devices/iphone/
+    - href: /devices/laser/
     - href: /devices/mac/
     - href: /devices/pc/
+    - href: /devices/range-finder/
     - href: /devices/server/
 ---
 

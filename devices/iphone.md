@@ -12,4 +12,10 @@ desc: >-
 _links:
   self:
     href: /devices/iphone/
+  projects:
+    - href: /projects/nuggets/
+    - href: /projects/scramble-score/
+  jobs:
+    - href: /jobs/independent/
+    - href: /jobs/rdi/
 ---

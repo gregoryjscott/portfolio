@@ -10,4 +10,10 @@ desc: >-
 _links:
   self:
     href: /devices/android/
+  projects:
+    - href: /projects/nuggets/
+    - href: /projects/scramble-score/
+  jobs:
+    - href: /jobs/independent/
+    - href: /jobs/rdi/
 ---

@@ -14,6 +14,11 @@ _links:
     href: /devices/cloud/
   projects:
     - href: /projects/epicloud/
+    - href: /projects/la-boda/
+    - href: /projects/nuggets/
+    - href: /projects/scramble-score/
   jobs:
     - href: /jobs/fe/
+    - href: /jobs/independent/
+    - href: /jobs/rdi/
 ---

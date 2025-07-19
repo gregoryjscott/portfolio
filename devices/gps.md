@@ -11,4 +11,8 @@ desc: >-
 _links:
   self:
     href: /devices/gps/
+  projects:
+    - href: /projects/laser-range-finder/
+  jobs:
+    - href: /jobs/rdi/
 ---

@@ -10,4 +10,6 @@ desc: >-
 _links:
   self:
     href: /devices/calculator/
+  schools:
+    - href: /schools/uco/
 ---

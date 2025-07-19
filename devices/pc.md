@@ -12,7 +12,13 @@ _links:
   self:
     href: /devices/pc/
   projects:
+    - href: /projects/bit-proposal/
     - href: /projects/centroid/
+    - href: /projects/please/
+    - href: /projects/somd/
+    - href: /projects/train-builder/
   jobs:
     - href: /jobs/rdi/
+  schools:
+    - href: /schools/uco/
 ---

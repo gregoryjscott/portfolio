@@ -62,6 +62,14 @@ _links:
     - href: /os/linux/
     - href: /os/macos/
     - href: /os/windows/
+  devices:
+    - href: /devices/android/
+    - href: /devices/cloud/
+    - href: /devices/ipad/
+    - href: /devices/iphone/
+    - href: /devices/mac/
+    - href: /devices/server/
+    - href: /devices/tv/
 ---
 
 - Developing an AI-powered language learning app for iOS and Android, taking it from a personal proof-of-concept to a formal research tool for a master's degree study on micro-learning.

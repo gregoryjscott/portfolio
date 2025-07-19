@@ -11,4 +11,8 @@ desc: >-
 _links:
   self:
     href: /devices/chromebook/
+  projects:
+    - href: /projects/epicloud/
+  jobs:
+    - href: /jobs/fe/
 ---
