@@ -10,7 +10,7 @@ desc: >-
   requiring accurate spatial information.
 _links:
   self:
-    href: /devices/laser-range-finder/
+    href: /devices/range-finder/
   projects:
     - href: /projects/laser-range-finder/
   jobs:
