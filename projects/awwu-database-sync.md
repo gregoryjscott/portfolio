@@ -1,13 +1,15 @@
 ---
 layout: details
 title: AWWU Database Synchronization
-desc: Backend service that synchronizes Anchorage Water & Wastewater Utility's (AWWU) Oracle databases to provide redundant data for reporting and analysis.
+desc: >-
+  Backend service that synchronizes Anchorage Water & Wastewater Utility's
+  (AWWU) Oracle databases to provide redundant data for reporting and analysis.
 role: Technical Lead
 begin_year: 2008
 end_year: 2008
 _links:
   self:
-    href: /projects/database-sync-awwu/
+    href: /projects/awwu-database-sync/
   languages:
     - href: /languages/cs/
     - href: /languages/sql/

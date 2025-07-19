@@ -16,13 +16,13 @@ _links:
     href: /languages/cs/
   projects:
     - href: /projects/agdc/
+    - href: /projects/awwu-database-sync/
     - href: /projects/awwu-intranet/
     - href: /projects/awwu-job-scheduler/
     - href: /projects/awwu-systems-integration/
     - href: /projects/bit-proposal/
     - href: /projects/centroid/
     - href: /projects/cis-data-capture/
-    - href: /projects/database-sync-awwu/
     - href: /projects/denver-schedules-api/
     - href: /projects/energy-efficiency-map/
     - href: /projects/flir-monitoring/

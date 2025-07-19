@@ -14,6 +14,7 @@ _links:
   projects:
     - href: /projects/agdc/
     - href: /projects/ahfc-integration/
+    - href: /projects/awwu-database-sync/
     - href: /projects/awwu-intranet/
     - href: /projects/awwu-job-scheduler/
     - href: /projects/awwu-systems-integration/
@@ -21,7 +22,6 @@ _links:
     - href: /projects/centroid/
     - href: /projects/cis-data-capture/
     - href: /projects/consumption-views/
-    - href: /projects/database-sync-awwu/
     - href: /projects/employee-suggestions/
     - href: /projects/energy-efficiency-map/
     - href: /projects/flir-monitoring/
