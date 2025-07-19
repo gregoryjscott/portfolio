@@ -20,6 +20,10 @@ _links:
     - href: /db/postgres/
   os:
     - href: /os/linux/
+  devices:
+    - href: /devices/android/
+    - href: /devices/cloud/
+    - href: /devices/iphone/
   jobs:
     - href: /jobs/rdi/
 ---

@@ -26,4 +26,8 @@ _links:
     - href: /os/aix/
     - href: /os/ms-dos/
     - href: /os/windows/
+  devices:
+    - href: /devices/calculator/
+    - href: /devices/pc/
+    - href: /devices/server/
 ---

@@ -20,6 +20,9 @@ _links:
   os:
     - href: /os/macos/
     - href: /os/windows/
+  devices:
+    - href: /devices/mac/
+    - href: /devices/pc/
   jobs:
     - href: /jobs/rdi/
 ---

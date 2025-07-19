@@ -18,6 +18,8 @@ _links:
     - href: /tools/amplify/
   os:
     - href: /os/linux/
+  devices:
+    - href: /devices/cloud/
   jobs:
     - href: /jobs/independent/
 ---

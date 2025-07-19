@@ -16,6 +16,8 @@ _links:
     - href: /db/access/
   os:
     - href: /os/windows/
+  devices:
+    - href: /devices/laser/
   jobs:
     - href: /jobs/rdi/
 ---

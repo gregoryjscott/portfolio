@@ -14,6 +14,8 @@ _links:
     - href: /db/sql-server/
   os:
     - href: /os/windows/
+  devices:
+    - href: /devices/server/
   jobs:
     - href: /jobs/rdi/
 ---

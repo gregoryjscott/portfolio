@@ -17,6 +17,9 @@ _links:
     - href: /db/access/
   os:
     - href: /os/windows/
+  devices:
+    - href: /devices/gps/
+    - href: /devices/range-finder/
   jobs:
     - href: /jobs/rdi/
 ---

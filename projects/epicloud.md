@@ -36,6 +36,7 @@ _links:
     - href: /os/linux/
     - href: /os/macos/
   devices:
+    - href: /devices/chromebook/
     - href: /devices/cloud/
     - href: /devices/mac/
   jobs:

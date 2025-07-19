@@ -19,6 +19,8 @@ _links:
   os:
     - href: /os/netware/
     - href: /os/windows/
+  devices:
+    - href: /devices/server/
   jobs:
     - href: /jobs/mas/
 ---

@@ -20,6 +20,8 @@ _links:
     - href: /db/oracle/
   os:
     - href: /os/windows/
+  devices:
+    - href: /devices/server/
   jobs:
     - href: /jobs/rdi/
 ---

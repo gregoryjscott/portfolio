@@ -14,6 +14,8 @@ _links:
     - href: /db/firebase/
   os:
     - href: /os/windows/
+  devices:
+    - href: /devices/server/
   jobs:
     - href: /jobs/fe/
 ---

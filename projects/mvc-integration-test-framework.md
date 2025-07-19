@@ -17,6 +17,8 @@ _links:
     - href: /languages/cs/
   os:
     - href: /os/windows/
+  devices:
+    - href: /devices/server/
   jobs:
     - href: /jobs/independent/
 ---

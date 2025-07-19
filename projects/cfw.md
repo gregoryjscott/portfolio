@@ -15,6 +15,8 @@ _links:
     - href: /tools/jekyll/
   os:
     - href: /os/linux/
+  devices:
+    - href: /devices/server/
   jobs:
     - href: /jobs/independent/
 ---

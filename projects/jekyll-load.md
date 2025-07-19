@@ -18,6 +18,9 @@ _links:
   os:
     - href: /os/linux/
     - href: /os/macos/
+  devices:
+    - href: /devices/mac/
+    - href: /devices/server/
   jobs:
     - href: /jobs/independent/
 ---
