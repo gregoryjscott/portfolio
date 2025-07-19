@@ -41,6 +41,8 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/linux/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
     - title: ScrambleScore
@@ -63,6 +65,10 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/linux/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/iphone/
         jobs:
           - href: /jobs/rdi/
   jobs:
@@ -127,6 +133,14 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/ipad/
+          - href: /devices/iphone/
+          - href: /devices/mac/
+          - href: /devices/server/
+          - href: /devices/tv/
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
         in custom database, web, and GIS programming services
@@ -181,3 +195,13 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/gps/
+          - href: /devices/iphone/
+          - href: /devices/laser/
+          - href: /devices/mac/
+          - href: /devices/pc/
+          - href: /devices/range-finder/
+          - href: /devices/server/

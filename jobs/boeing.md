@@ -19,6 +19,8 @@ _links:
     - href: /languages/ada/
   os:
     - href: /os/solaris/
+  devices:
+    - href: /devices/b-1/
 ---
 
 - Architected and delivered the Mission Data Loader, a mission-critical interface that all other avionics teams depended on for distributing flight plans, target coordinates, and weapon configurations.

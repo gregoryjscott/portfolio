@@ -90,6 +90,12 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
               jobs:
                 - href: /jobs/independent/
           - title: hazelandgreg.wedding
@@ -110,6 +116,8 @@ _embedded:
                 - href: /tools/amplify/
               os:
                 - href: /os/linux/
+              devices:
+                - href: /devices/cloud/
               jobs:
                 - href: /jobs/independent/
         jobs:
@@ -174,6 +182,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: Azure AI
       desc: Azure AI is a suite of cloud-based services and APIs for integrating AI
         capabilities—such as computer vision, speech processing, natural
@@ -228,6 +244,12 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
               jobs:
                 - href: /jobs/independent/
         jobs:
@@ -292,6 +314,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: Expo
       desc: Expo is an open-source platform and toolchain built around React Native
         that lets developers write modern JavaScript or TypeScript to produce
@@ -350,6 +380,12 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
               jobs:
                 - href: /jobs/independent/
         jobs:
@@ -414,6 +450,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: OpenAI
       desc: OpenAI provides a suite of AI development tools and APIs built on
         large-scale machine learning models for natural language understanding,
@@ -466,6 +510,12 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
               jobs:
                 - href: /jobs/independent/
         jobs:
@@ -530,6 +580,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: React Native
       desc: React Native is an open-source framework developed by Facebook that
         enables developers to build mobile apps for iOS and Android using
@@ -591,6 +649,12 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
               jobs:
                 - href: /jobs/independent/
         jobs:
@@ -655,6 +719,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: XState
       desc: XState is a JavaScript/TypeScript library for modeling application logic
         as finite state machines and hierarchical statecharts, enabling
@@ -710,6 +782,12 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
               jobs:
                 - href: /jobs/independent/
         jobs:
@@ -774,6 +852,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: Docker
       desc: Docker is an open-source platform for developing, shipping, and running
         applications. It uses container technology to package applications into
@@ -829,6 +915,12 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
               jobs:
                 - href: /jobs/independent/
           - title: EpiCloud
@@ -866,6 +958,10 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -930,6 +1026,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
           - title: Futuristic Education
             desc: Co-Founder and Programmer for Futuristic Education, a startup building
               custom technology solutions for schools and educators
@@ -970,6 +1074,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
     - title: EC2
       desc: Amazon Elastic Compute Cloud (EC2) is a web service that provides secure,
         resizable compute capacity in the cloud. It is designed to make
@@ -1026,6 +1135,12 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
               jobs:
                 - href: /jobs/independent/
           - title: EpiCloud
@@ -1063,6 +1178,10 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -1127,6 +1246,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
           - title: Futuristic Education
             desc: Co-Founder and Programmer for Futuristic Education, a startup building
               custom technology solutions for schools and educators
@@ -1167,6 +1294,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
     - title: ECR
       desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
         container registry that makes it easy to store, manage, and deploy
@@ -1223,6 +1355,12 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
               jobs:
                 - href: /jobs/independent/
           - title: EpiCloud
@@ -1260,6 +1398,10 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -1324,6 +1466,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
           - title: Futuristic Education
             desc: Co-Founder and Programmer for Futuristic Education, a startup building
               custom technology solutions for schools and educators
@@ -1364,6 +1514,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
     - title: ECS
       desc: Amazon Elastic Container Service (ECS) is a container orchestration
         service from Amazon Web Services (AWS) that enables users to easily
@@ -1420,6 +1575,12 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
               jobs:
                 - href: /jobs/independent/
           - title: EpiCloud
@@ -1457,6 +1618,10 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -1521,6 +1686,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
           - title: Futuristic Education
             desc: Co-Founder and Programmer for Futuristic Education, a startup building
               custom technology solutions for schools and educators
@@ -1561,6 +1734,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
     - title: Fargate
       desc: Fargate is an Amazon Web Services (AWS) technology that allows users to
         deploy and manage containers without having to manage the underlying
@@ -1617,6 +1795,12 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
               jobs:
                 - href: /jobs/independent/
           - title: EpiCloud
@@ -1654,6 +1838,10 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -1718,6 +1906,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
           - title: Futuristic Education
             desc: Co-Founder and Programmer for Futuristic Education, a startup building
               custom technology solutions for schools and educators
@@ -1758,6 +1954,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
     - title: IAM
       desc: AWS Identity and Access Management (IAM) is a web service that helps you
         securely control access to AWS resources. With IAM, you can create and
@@ -1814,6 +2015,12 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
               jobs:
                 - href: /jobs/independent/
           - title: EpiCloud
@@ -1851,6 +2058,10 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -1915,6 +2126,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
           - title: Futuristic Education
             desc: Co-Founder and Programmer for Futuristic Education, a startup building
               custom technology solutions for schools and educators
@@ -1955,6 +2174,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
     - title: Node
       desc: Node.js is an open-source, cross-platform JavaScript runtime environment
         that executes JavaScript code outside of a browser. It is used to create
@@ -2011,6 +2235,12 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
               jobs:
                 - href: /jobs/independent/
           - title: EpiCloud
@@ -2048,6 +2278,10 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -2112,6 +2346,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
           - title: Futuristic Education
             desc: Co-Founder and Programmer for Futuristic Education, a startup building
               custom technology solutions for schools and educators
@@ -2152,6 +2394,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
     - title: S3
       desc: Amazon Simple Storage Service (S3) is a cloud storage service offered by
         Amazon Web Services (AWS). It provides object storage through a web
@@ -2208,6 +2455,12 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
               jobs:
                 - href: /jobs/independent/
           - title: EpiCloud
@@ -2245,6 +2498,10 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -2309,6 +2566,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
           - title: Futuristic Education
             desc: Co-Founder and Programmer for Futuristic Education, a startup building
               custom technology solutions for schools and educators
@@ -2349,6 +2614,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
     - title: SQS
       desc: Amazon Simple Queue Service (SQS) is a fully managed message queuing
         service that enables applications to quickly and reliably queue messages
@@ -2407,6 +2677,12 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
               jobs:
                 - href: /jobs/independent/
           - title: EpiCloud
@@ -2444,6 +2720,10 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -2508,6 +2788,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
           - title: Futuristic Education
             desc: Co-Founder and Programmer for Futuristic Education, a startup building
               custom technology solutions for schools and educators
@@ -2548,6 +2836,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
     - title: VPC
       desc: Amazon Virtual Private Cloud (VPC) is a cloud computing service that
         provides users with a virtual private cloud, allowing them to provision
@@ -2606,6 +2899,12 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
               jobs:
                 - href: /jobs/independent/
           - title: EpiCloud
@@ -2643,6 +2942,10 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -2707,6 +3010,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
           - title: Futuristic Education
             desc: Co-Founder and Programmer for Futuristic Education, a startup building
               custom technology solutions for schools and educators
@@ -2747,6 +3058,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
     - title: HAL
       subtitle: Hypertext Application Language (HAL) is a a media type for
         representing resources with hyperlinks
@@ -2795,6 +3111,8 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: jekyll-embed
@@ -2817,6 +3135,9 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
         jobs:
@@ -2881,6 +3202,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: Jekyll
       desc: Jekyll is an open-source, Ruby-based static site generator that transforms
         plain-text content (written in Markdown, Textile or HTML) and
@@ -2930,6 +3259,8 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: fortworthtexas.gov
@@ -2947,6 +3278,8 @@ _embedded:
                 - href: /tools/jekyll/
               os:
                 - href: /os/linux/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: jekyll-api
@@ -2967,6 +3300,9 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: jekyll-embed
@@ -2989,6 +3325,9 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: jekyll-load
@@ -3009,6 +3348,9 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: jekyll-prep
@@ -3029,6 +3371,9 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
         jobs:
@@ -3093,6 +3438,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: Firebase
       desc: Google Firebase is a mobile and web application development platform that
         provides developers with a variety of tools and services to help them
@@ -3147,6 +3500,10 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -3190,6 +3547,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
     - title: Google Classroom
       desc: Google Classroom is a free web-based platform that allows teachers to
         create and manage virtual classrooms. It enables teachers to easily
@@ -3244,6 +3606,10 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -3287,6 +3653,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
     - title: Google Drive
       desc: Google Drive is a cloud storage service that allows users to store and
         access their files from any device with an internet connection. It
@@ -3342,6 +3713,10 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -3385,6 +3760,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
     - title: Puppeteer
       desc: Puppeteer is a Node library developed by Google that provides a high-level
         API to control headless Chrome or Chromium over the DevTools Protocol.
@@ -3439,6 +3819,10 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -3482,6 +3866,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
     - title: SikuliX
       desc: SikuliX is an open-source GUI automation tool that uses image recognition
         to interact with on-screen elements by matching screenshots. It lets you
@@ -3537,6 +3926,10 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -3580,6 +3973,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
     - title: Heroku
       desc: Heroku is a cloud-based Platform as a Service (PaaS) that simplifies the
         deployment, management and scaling of modern web applications.
@@ -3618,6 +4016,8 @@ _embedded:
                 - href: /tools/jekyll/
               os:
                 - href: /os/linux/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
         jobs:
@@ -3682,6 +4082,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: Backbone.js
       desc: Backbone.js is a lightweight JavaScript library that brings structure to
         client‐side applications by providing models with key–value binding and
@@ -3730,6 +4138,8 @@ _embedded:
                 - href: /tools/backbone/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
         jobs:
@@ -3787,3 +4197,13 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/

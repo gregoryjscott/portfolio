@@ -15,6 +15,8 @@ _links:
     - href: /languages/js/
   os:
     - href: /os/macos/
+  devices:
+    - href: /devices/mac/
   jobs:
     - href: /jobs/independent/
 ---

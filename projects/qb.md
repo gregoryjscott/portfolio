@@ -24,6 +24,8 @@ _links:
     - href: /tools/backbone/
   os:
     - href: /os/windows/
+  devices:
+    - href: /devices/server/
   jobs:
     - href: /jobs/rdi/
 ---

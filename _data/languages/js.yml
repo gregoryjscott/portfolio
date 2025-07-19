@@ -44,6 +44,8 @@ _embedded:
           - href: /tools/amplify/
         os:
           - href: /os/linux/
+        devices:
+          - href: /devices/cloud/
         jobs:
           - href: /jobs/independent/
     - title: aprender
@@ -61,6 +63,8 @@ _embedded:
           - href: /languages/js/
         os:
           - href: /os/macos/
+        devices:
+          - href: /devices/mac/
         jobs:
           - href: /jobs/independent/
     - title: Alaska Gasline Development Corporation
@@ -84,6 +88,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Systems Portal
@@ -104,6 +110,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Energy Efficiency Map
@@ -125,6 +133,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: ScrambleScore
@@ -147,6 +157,10 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/linux/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/iphone/
         jobs:
           - href: /jobs/rdi/
     - title: Scrum Tools
@@ -167,6 +181,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Quality Bank
@@ -192,6 +208,8 @@ _embedded:
           - href: /tools/backbone/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Service Order Mobile Dispatch
@@ -214,6 +232,9 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/pc/
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: AWWU Intranet
@@ -235,6 +256,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
   jobs:
@@ -299,6 +322,14 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/ipad/
+          - href: /devices/iphone/
+          - href: /devices/mac/
+          - href: /devices/server/
+          - href: /devices/tv/
     - title: Resource Data, Inc.
       desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
         in custom database, web, and GIS programming services
@@ -353,3 +384,13 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/gps/
+          - href: /devices/iphone/
+          - href: /devices/laser/
+          - href: /devices/mac/
+          - href: /devices/pc/
+          - href: /devices/range-finder/
+          - href: /devices/server/

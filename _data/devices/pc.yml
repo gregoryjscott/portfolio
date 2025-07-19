@@ -1,0 +1,232 @@
+title: PC
+desc: A personal computer (PC) is a general-purpose computing device built
+  around a microprocessor, memory, storage and I/O interfaces, capable of
+  running a broad range of operating systems and applications. Commonly used for
+  software development, office productivity, web browsing and multimedia
+  consumption, PCs provide a flexible, modular platform for both professional
+  workflows and everyday tasks.
+used_begin_year: 1994
+used_end_year: 2014
+_links:
+  self:
+    href: /devices/pc/
+  projects:
+    - href: /projects/bit-proposal/
+    - href: /projects/centroid/
+    - href: /projects/please/
+    - href: /projects/somd/
+    - href: /projects/train-builder/
+  jobs:
+    - href: /jobs/rdi/
+  schools:
+    - href: /schools/uco/
+_embedded:
+  projects:
+    - title: Centroid
+      desc: Library for accessing environment based configuration from multiple
+        different programming languages.
+      role: Contributor
+      begin_year: 2014
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/centroid/
+        code:
+          title: github.com/ResourceDataInc/Centroid
+          href: https://github.com/ResourceDataInc/Centroid
+        languages:
+          - href: /languages/cs/
+          - href: /languages/py/
+          - href: /languages/rb/
+        os:
+          - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/pc/
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/rdi/
+    - title: Please
+      desc: Please is a set of commands useful for maintaining software projects.
+      role: Author
+      begin_year: 2012
+      end_year: 2014
+      _links:
+        self:
+          href: /projects/please/
+        code:
+          title: github.com/ResourceDataInc/please
+          href: https://github.com/ResourceDataInc/please
+        languages:
+          - href: /languages/cs/
+          - href: /languages/rb/
+          - href: /languages/sql/
+        db:
+          - href: /db/sqlite/
+        os:
+          - href: /os/macos/
+          - href: /os/windows/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/pc/
+        jobs:
+          - href: /jobs/rdi/
+    - title: Service Order Mobile Dispatch
+      desc: Mobile web application that allows Anchorage Water & Wastewater Utility
+        service workers to query and record service information while in the
+        field.
+      role: Technical Lead
+      begin_year: 2009
+      end_year: 2009
+      _links:
+        self:
+          href: /projects/somd/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/pc/
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/rdi/
+    - title: Bit Proposal
+      desc: null
+      role: Lead Developer
+      begin_year: 2008
+      end_year: 2008
+      _links:
+        self:
+          href: /projects/bit-proposal/
+        languages:
+          - href: /languages/cs/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/pc/
+        jobs:
+          - href: /jobs/rdi/
+    - title: TrainBuilder
+      desc: Windows Presentation Framework (WPF) application used by the Alaska
+        Railroad to plan and schedule structure of their trains.
+      role: Developer
+      begin_year: 2007
+      end_year: 2007
+      _links:
+        self:
+          href: /projects/train-builder/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/sql/
+        db:
+          - href: /db/sql-server/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/pc/
+        jobs:
+          - href: /jobs/rdi/
+  jobs:
+    - title: Resource Data, Inc.
+      desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+        in custom database, web, and GIS programming services
+      role: Technical Lead
+      begin_year: 2005
+      end_year: 2014
+      time_desc: July 2005 - July 2014
+      _links:
+        self:
+          href: /jobs/rdi/
+        projects:
+          - href: /projects/agdc/
+          - href: /projects/ahfc-integration/
+          - href: /projects/awwu-intranet/
+          - href: /projects/awwu-job-scheduler/
+          - href: /projects/awwu-systems-integration/
+          - href: /projects/bit-proposal/
+          - href: /projects/centroid/
+          - href: /projects/cis-data-capture/
+          - href: /projects/consumption-views/
+          - href: /projects/database-sync-awwu/
+          - href: /projects/employee-suggestions/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/flir-monitoring/
+          - href: /projects/laser-range-finder/
+          - href: /projects/please/
+          - href: /projects/qb/
+          - href: /projects/report-engine/
+          - href: /projects/sar-reports/
+          - href: /projects/scramble-score/
+          - href: /projects/scrum-tools/
+          - href: /projects/somd/
+          - href: /projects/systems-portal/
+          - href: /projects/train-builder/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/py/
+          - href: /languages/rb/
+          - href: /languages/sql/
+        db:
+          - href: /db/access/
+          - href: /db/oracle/
+          - href: /db/postgres/
+          - href: /db/sql-server/
+          - href: /db/sqlite/
+        tools:
+          - href: /tools/backbone/
+        os:
+          - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/gps/
+          - href: /devices/iphone/
+          - href: /devices/laser/
+          - href: /devices/mac/
+          - href: /devices/pc/
+          - href: /devices/range-finder/
+          - href: /devices/server/
+  schools:
+    - title: University of Central Oklahoma
+      subtitle: Bachelor of Science in Mathematics, 1998
+      desc: The University of Central Oklahoma (UCO), located in Edmond, Oklahoma, is
+        a public university known for its strong emphasis on transformative
+        learning and leadership development. As one of the state's oldest
+        institutions of higher education, UCO offers a diverse range of
+        undergraduate and graduate programs across fields such as business,
+        education, liberal arts, and the sciences. The university fosters a
+        student-centered environment focused on academic excellence, community
+        engagement, and real-world experience.
+      begin_year: 1994
+      end_year: 1998
+      _links:
+        self:
+          href: /schools/uco/
+        languages:
+          - href: /languages/c/
+          - href: /languages/cpp/
+          - href: /languages/fortran/
+          - href: /languages/pascal/
+          - href: /languages/ti-basic/
+          - href: /languages/vb/
+        os:
+          - href: /os/aix/
+          - href: /os/ms-dos/
+          - href: /os/windows/
+        devices:
+          - href: /devices/calculator/
+          - href: /devices/pc/
+          - href: /devices/server/

@@ -85,6 +85,12 @@ _embedded:
           - href: /os/android/
           - href: /os/ios/
           - href: /os/linux/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/ipad/
+          - href: /devices/iphone/
+          - href: /devices/tv/
         jobs:
           - href: /jobs/independent/
       content: |-
@@ -536,6 +542,99 @@ _embedded:
                 - href: /jobs/fe/
                 - href: /jobs/independent/
                 - href: /jobs/rdi/
+        devices:
+          - title: Android
+            desc: Android devices are consumer electronics running a Linux-based operating
+              system developed by Google and the Open Handset Alliance. Commonly
+              deployed in smartphones, tablets and wearables, they enable mobile
+              communication, internet access and multimedia playback. Their open
+              architecture supports a broad ecosystem of third-party
+              applications.
+            used_begin_year: 2012
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/android/
+              projects:
+                - href: /projects/nuggets/
+                - href: /projects/scramble-score/
+              jobs:
+                - href: /jobs/independent/
+                - href: /jobs/rdi/
+          - title: Cloud
+            desc: Cloud computing provides on-demand access to remote virtualized computing,
+              storage, and networking resources over the Internet. It’s commonly
+              used for scalable application hosting, data storage and backup,
+              and automated deployment pipelines, enabling teams to provision
+              and manage infrastructure without maintaining physical hardware.
+            used_begin_year: 2012
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/cloud/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/la-boda/
+                - href: /projects/nuggets/
+                - href: /projects/scramble-score/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/rdi/
+          - title: iPad
+            desc: Apple’s iPad is a touchscreen tablet computer powered by an ARM-based
+              system-on-chip and running the iPadOS platform. It is commonly
+              used for media consumption, mobile productivity and creative tasks
+              such as digital sketching with stylus support. Developers also
+              leverage it for prototyping, testing touch-centric applications
+              and exploring tablet-optimized workflows.
+            used_begin_year: 2023
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/ipad/
+              projects:
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/independent/
+          - title: iPhone
+            desc: The iPhone is a smartphone device by Apple that combines a multi-touch
+              display, sensors (e.g. accelerometer, GPS, camera) and the iOS
+              operating system to run native and web-based applications. It’s
+              commonly used for voice and video communication, messaging, web
+              browsing, photography and as a platform for mobile app development
+              and deployment. Its tight hardware-software integration and
+              standardized app distribution model have shaped modern mobile
+              ecosystems.
+            used_begin_year: 2012
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/iphone/
+              projects:
+                - href: /projects/nuggets/
+                - href: /projects/scramble-score/
+              jobs:
+                - href: /jobs/independent/
+                - href: /jobs/rdi/
+          - title: TV
+            desc: Television (TV) is an electronic device that receives and decodes
+              broadcast, cable or streaming video signals, rendering them on
+              flat-panel displays via digital signal processors and multimedia
+              codecs. It integrates networking protocols (e.g. Wi-Fi, Ethernet)
+              and application platforms to manage content delivery, user
+              interaction and remote control. Common use cases include home
+              entertainment, news and information consumption, and interactive
+              digital signage in commercial environments.
+            used_begin_year: 2023
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/tv/
+              projects:
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/independent/
         jobs:
           - title: Independent Programmer and Consultant
             desc: Independent Programmer and Consultant, building next-generation education
@@ -598,6 +697,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: gregoryjscott.com
       desc: My portfolio website that uses Jekyll to create static HTML pages using
         YAML, Markdown, and HAL-based hypermedia.
@@ -621,6 +728,8 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
       _embedded:
@@ -844,6 +953,57 @@ _embedded:
                 - href: /jobs/fe/
                 - href: /jobs/independent/
                 - href: /jobs/rdi/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Independent Programmer and Consultant
             desc: Independent Programmer and Consultant, building next-generation education
@@ -906,6 +1066,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: hazelandgreg.wedding
       desc: Wedding website for Hazel and Greg
       role: Author
@@ -924,6 +1092,8 @@ _embedded:
           - href: /tools/amplify/
         os:
           - href: /os/linux/
+        devices:
+          - href: /devices/cloud/
         jobs:
           - href: /jobs/independent/
       _embedded:
@@ -1089,6 +1259,27 @@ _embedded:
                 - href: /jobs/fe/
                 - href: /jobs/independent/
                 - href: /jobs/rdi/
+        devices:
+          - title: Cloud
+            desc: Cloud computing provides on-demand access to remote virtualized computing,
+              storage, and networking resources over the Internet. It’s commonly
+              used for scalable application hosting, data storage and backup,
+              and automated deployment pipelines, enabling teams to provision
+              and manage infrastructure without maintaining physical hardware.
+            used_begin_year: 2012
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/cloud/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/la-boda/
+                - href: /projects/nuggets/
+                - href: /projects/scramble-score/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/rdi/
         jobs:
           - title: Independent Programmer and Consultant
             desc: Independent Programmer and Consultant, building next-generation education
@@ -1151,6 +1342,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: Epic California Academy Enrollment
       desc: null
       role: Technical Lead
@@ -1165,6 +1364,8 @@ _embedded:
           - href: /db/firebase/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/fe/
       _embedded:
@@ -1262,6 +1463,57 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder and Programmer for Futuristic Education, a startup building
@@ -1303,6 +1555,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
     - title: EpiCloud
       subtitle: Scaling School Operations with Bots
       desc: AWS-based bot network that automates operations of a virtual charter
@@ -1338,6 +1595,10 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/chromebook/
+          - href: /devices/cloud/
+          - href: /devices/mac/
         jobs:
           - href: /jobs/fe/
       content: >-
@@ -1791,6 +2052,69 @@ _embedded:
                 - href: /jobs/fe/
                 - href: /jobs/independent/
                 - href: /jobs/rdi/
+        devices:
+          - title: Chromebook
+            desc: Chromebooks are laptop devices running Chrome OS, a Linux-based operating
+              system centered on the Chrome browser and web applications. They
+              offer fast boot-up, automatic updates and seamless integration
+              with cloud storage and collaboration services. Commonly deployed
+              in educational and enterprise environments, Chromebooks are used
+              for web browsing, office productivity, media streaming and
+              lightweight development tasks.
+            used_begin_year: 2015
+            used_end_year: 2021
+            _links:
+              self:
+                href: /devices/chromebook/
+              projects:
+                - href: /projects/epicloud/
+              jobs:
+                - href: /jobs/fe/
+          - title: Cloud
+            desc: Cloud computing provides on-demand access to remote virtualized computing,
+              storage, and networking resources over the Internet. It’s commonly
+              used for scalable application hosting, data storage and backup,
+              and automated deployment pipelines, enabling teams to provision
+              and manage infrastructure without maintaining physical hardware.
+            used_begin_year: 2012
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/cloud/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/la-boda/
+                - href: /projects/nuggets/
+                - href: /projects/scramble-score/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/rdi/
+          - title: Mac
+            desc: The Mac is a line of personal computers from Apple Inc. running macOS, a
+              Unix-based operating system with POSIX compliance and native
+              support for development tools. Its integrated hardware-software
+              design delivers stable performance and efficient resource
+              management. Macs are widely used for software development, graphic
+              design, and multimedia production.
+            used_begin_year: 2012
+            used_end_year: 2021
+            _links:
+              self:
+                href: /devices/mac/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/centroid/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/please/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/rdi/
         jobs:
           - title: Futuristic Education
             desc: Co-Founder and Programmer for Futuristic Education, a startup building
@@ -1832,6 +2156,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
     - title: aprender
       desc: CLI for learning Spanish
       role: Author
@@ -1847,6 +2176,8 @@ _embedded:
           - href: /languages/js/
         os:
           - href: /os/macos/
+        devices:
+          - href: /devices/mac/
         jobs:
           - href: /jobs/independent/
       _embedded:
@@ -1906,6 +2237,32 @@ _embedded:
                 - href: /projects/jekyll-prep/
                 - href: /projects/please/
                 - href: /projects/portfolio/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/rdi/
+        devices:
+          - title: Mac
+            desc: The Mac is a line of personal computers from Apple Inc. running macOS, a
+              Unix-based operating system with POSIX compliance and native
+              support for development tools. Its integrated hardware-software
+              design delivers stable performance and efficient resource
+              management. Macs are widely used for software development, graphic
+              design, and multimedia production.
+            used_begin_year: 2012
+            used_end_year: 2021
+            _links:
+              self:
+                href: /devices/mac/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/centroid/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/please/
               jobs:
                 - href: /jobs/fe/
                 - href: /jobs/independent/
@@ -1972,6 +2329,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: fortworthtexas.gov
       desc: Jekyll static site for the City of Fort Worth, Texas.
       role: Technical Lead
@@ -1987,6 +2352,8 @@ _embedded:
           - href: /tools/jekyll/
         os:
           - href: /os/linux/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
       _embedded:
@@ -2099,6 +2466,57 @@ _embedded:
                 - href: /jobs/fe/
                 - href: /jobs/independent/
                 - href: /jobs/rdi/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Independent Programmer and Consultant
             desc: Independent Programmer and Consultant, building next-generation education
@@ -2161,6 +2579,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: Centroid
       desc: Library for accessing environment based configuration from multiple
         different programming languages.
@@ -2181,6 +2607,10 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/pc/
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -2389,6 +2819,105 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Mac
+            desc: The Mac is a line of personal computers from Apple Inc. running macOS, a
+              Unix-based operating system with POSIX compliance and native
+              support for development tools. Its integrated hardware-software
+              design delivers stable performance and efficient resource
+              management. Macs are widely used for software development, graphic
+              design, and multimedia production.
+            used_begin_year: 2012
+            used_end_year: 2021
+            _links:
+              self:
+                href: /devices/mac/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/centroid/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/please/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/rdi/
+          - title: PC
+            desc: A personal computer (PC) is a general-purpose computing device built
+              around a microprocessor, memory, storage and I/O interfaces,
+              capable of running a broad range of operating systems and
+              applications. Commonly used for software development, office
+              productivity, web browsing and multimedia consumption, PCs provide
+              a flexible, modular platform for both professional workflows and
+              everyday tasks.
+            used_begin_year: 1994
+            used_end_year: 2014
+            _links:
+              self:
+                href: /devices/pc/
+              projects:
+                - href: /projects/bit-proposal/
+                - href: /projects/centroid/
+                - href: /projects/please/
+                - href: /projects/somd/
+                - href: /projects/train-builder/
+              jobs:
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -2444,6 +2973,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: Denver Schedules API
       desc: JSON API that provides access to Denver activities that impact the
         residents of Denver.
@@ -2464,6 +3003,8 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/linux/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
       _embedded:
@@ -2636,6 +3177,57 @@ _embedded:
                 - href: /jobs/fe/
                 - href: /jobs/independent/
                 - href: /jobs/rdi/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Independent Programmer and Consultant
             desc: Independent Programmer and Consultant, building next-generation education
@@ -2698,6 +3290,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: jekyll-api
       desc: RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.
       role: Author
@@ -2716,6 +3316,9 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
       _embedded:
@@ -2838,6 +3441,82 @@ _embedded:
                 - href: /jobs/fe/
                 - href: /jobs/independent/
                 - href: /jobs/rdi/
+        devices:
+          - title: Mac
+            desc: The Mac is a line of personal computers from Apple Inc. running macOS, a
+              Unix-based operating system with POSIX compliance and native
+              support for development tools. Its integrated hardware-software
+              design delivers stable performance and efficient resource
+              management. Macs are widely used for software development, graphic
+              design, and multimedia production.
+            used_begin_year: 2012
+            used_end_year: 2021
+            _links:
+              self:
+                href: /devices/mac/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/centroid/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/please/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/rdi/
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Independent Programmer and Consultant
             desc: Independent Programmer and Consultant, building next-generation education
@@ -2900,6 +3579,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: jekyll-embed
       desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
         frontmatter
@@ -2920,6 +3607,9 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
       _embedded:
@@ -3066,6 +3756,82 @@ _embedded:
                 - href: /jobs/fe/
                 - href: /jobs/independent/
                 - href: /jobs/rdi/
+        devices:
+          - title: Mac
+            desc: The Mac is a line of personal computers from Apple Inc. running macOS, a
+              Unix-based operating system with POSIX compliance and native
+              support for development tools. Its integrated hardware-software
+              design delivers stable performance and efficient resource
+              management. Macs are widely used for software development, graphic
+              design, and multimedia production.
+            used_begin_year: 2012
+            used_end_year: 2021
+            _links:
+              self:
+                href: /devices/mac/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/centroid/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/please/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/rdi/
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Independent Programmer and Consultant
             desc: Independent Programmer and Consultant, building next-generation education
@@ -3128,6 +3894,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: jekyll-load
       desc: RubyGem Jekyll plugin that merges YAML data files into Markdown pages.
       role: Author
@@ -3146,6 +3920,9 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
       _embedded:
@@ -3268,6 +4045,82 @@ _embedded:
                 - href: /jobs/fe/
                 - href: /jobs/independent/
                 - href: /jobs/rdi/
+        devices:
+          - title: Mac
+            desc: The Mac is a line of personal computers from Apple Inc. running macOS, a
+              Unix-based operating system with POSIX compliance and native
+              support for development tools. Its integrated hardware-software
+              design delivers stable performance and efficient resource
+              management. Macs are widely used for software development, graphic
+              design, and multimedia production.
+            used_begin_year: 2012
+            used_end_year: 2021
+            _links:
+              self:
+                href: /devices/mac/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/centroid/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/please/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/rdi/
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Independent Programmer and Consultant
             desc: Independent Programmer and Consultant, building next-generation education
@@ -3330,6 +4183,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: jekyll-prep
       desc: RubyGem Jekyll plugin for transforming Jekyll page data during builds.
       role: Author
@@ -3348,6 +4209,9 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
       _embedded:
@@ -3470,6 +4334,82 @@ _embedded:
                 - href: /jobs/fe/
                 - href: /jobs/independent/
                 - href: /jobs/rdi/
+        devices:
+          - title: Mac
+            desc: The Mac is a line of personal computers from Apple Inc. running macOS, a
+              Unix-based operating system with POSIX compliance and native
+              support for development tools. Its integrated hardware-software
+              design delivers stable performance and efficient resource
+              management. Macs are widely used for software development, graphic
+              design, and multimedia production.
+            used_begin_year: 2012
+            used_end_year: 2021
+            _links:
+              self:
+                href: /devices/mac/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/centroid/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/please/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/rdi/
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Independent Programmer and Consultant
             desc: Independent Programmer and Consultant, building next-generation education
@@ -3532,6 +4472,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: Alaska Gasline Development Corporation
       desc: Web application that provides AGDC with documentation, reporting, and
         querying tools for their vast GIS data and infrastructure.
@@ -3553,6 +4501,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -3850,6 +4800,57 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -3905,6 +4906,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: Please
       desc: Please is a set of commands useful for maintaining software projects.
       role: Author
@@ -3925,6 +4936,9 @@ _embedded:
         os:
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/pc/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -4145,6 +5159,55 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Mac
+            desc: The Mac is a line of personal computers from Apple Inc. running macOS, a
+              Unix-based operating system with POSIX compliance and native
+              support for development tools. Its integrated hardware-software
+              design delivers stable performance and efficient resource
+              management. Macs are widely used for software development, graphic
+              design, and multimedia production.
+            used_begin_year: 2012
+            used_end_year: 2021
+            _links:
+              self:
+                href: /devices/mac/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/centroid/
+                - href: /projects/epicloud/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/please/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/rdi/
+          - title: PC
+            desc: A personal computer (PC) is a general-purpose computing device built
+              around a microprocessor, memory, storage and I/O interfaces,
+              capable of running a broad range of operating systems and
+              applications. Commonly used for software development, office
+              productivity, web browsing and multimedia consumption, PCs provide
+              a flexible, modular platform for both professional workflows and
+              everyday tasks.
+            used_begin_year: 1994
+            used_end_year: 2014
+            _links:
+              self:
+                href: /devices/pc/
+              projects:
+                - href: /projects/bit-proposal/
+                - href: /projects/centroid/
+                - href: /projects/please/
+                - href: /projects/somd/
+                - href: /projects/train-builder/
+              jobs:
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -4200,6 +5263,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: AHFC Integration
       desc: Alaska Housing Finance Corporation Integration
       role: Technical Lead
@@ -4214,6 +5287,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -4337,6 +5412,57 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -4392,6 +5518,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: Systems Portal
       desc: Web application for tracking data used by systems administrators.
       role: Technical Lead
@@ -4410,6 +5546,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -4659,6 +5797,57 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -4714,6 +5903,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: Energy Efficiency Map
       desc: Web application that allows the Alaska Energy Authority to monitor and
         administer data from their statewide energy saving programs.
@@ -4733,6 +5932,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -4982,6 +6183,57 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -5037,6 +6289,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: ScrambleScore
       desc: Mobile web application that allows golfers participating in scramble golf
         tournaments to record their scores and monitor the tournament
@@ -5057,6 +6319,10 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/linux/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/iphone/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -5271,6 +6537,65 @@ _embedded:
                 - href: /jobs/fe/
                 - href: /jobs/independent/
                 - href: /jobs/rdi/
+        devices:
+          - title: Android
+            desc: Android devices are consumer electronics running a Linux-based operating
+              system developed by Google and the Open Handset Alliance. Commonly
+              deployed in smartphones, tablets and wearables, they enable mobile
+              communication, internet access and multimedia playback. Their open
+              architecture supports a broad ecosystem of third-party
+              applications.
+            used_begin_year: 2012
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/android/
+              projects:
+                - href: /projects/nuggets/
+                - href: /projects/scramble-score/
+              jobs:
+                - href: /jobs/independent/
+                - href: /jobs/rdi/
+          - title: Cloud
+            desc: Cloud computing provides on-demand access to remote virtualized computing,
+              storage, and networking resources over the Internet. It’s commonly
+              used for scalable application hosting, data storage and backup,
+              and automated deployment pipelines, enabling teams to provision
+              and manage infrastructure without maintaining physical hardware.
+            used_begin_year: 2012
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/cloud/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/la-boda/
+                - href: /projects/nuggets/
+                - href: /projects/scramble-score/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/rdi/
+          - title: iPhone
+            desc: The iPhone is a smartphone device by Apple that combines a multi-touch
+              display, sensors (e.g. accelerometer, GPS, camera) and the iOS
+              operating system to run native and web-based applications. It’s
+              commonly used for voice and video communication, messaging, web
+              browsing, photography and as a platform for mobile app development
+              and deployment. Its tight hardware-software integration and
+              standardized app distribution model have shaped modern mobile
+              ecosystems.
+            used_begin_year: 2012
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/iphone/
+              projects:
+                - href: /projects/nuggets/
+                - href: /projects/scramble-score/
+              jobs:
+                - href: /jobs/independent/
+                - href: /jobs/rdi/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -5326,6 +6651,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: Scrum Tools
       desc: null
       role: Technical Lead
@@ -5344,6 +6679,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -5593,6 +6930,57 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -5648,6 +7036,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: Simpler
       desc: Library that provides a simpler approach to C# class design.
       role: Author
@@ -5664,6 +7062,8 @@ _embedded:
           - href: /languages/rb/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
       _embedded:
@@ -5793,6 +7193,57 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Independent Programmer and Consultant
             desc: Independent Programmer and Consultant, building next-generation education
@@ -5855,6 +7306,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: Quality Bank
       subtitle: Invoicing $1 Billion/Month for Oil Pipeline
       desc: Rewrite of the Trans-Alaska Pipeline's $1B/month invoicing system,
@@ -5878,6 +7337,8 @@ _embedded:
           - href: /tools/backbone/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
       content: >-
@@ -6191,6 +7652,57 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -6246,6 +7758,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: MvcIntegrationTestFramework
       desc: Framework that can be used to perform integration tests on a ASP.NET MVC
         application.
@@ -6262,6 +7784,8 @@ _embedded:
           - href: /languages/cs/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/independent/
       _embedded:
@@ -6361,6 +7885,57 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Independent Programmer and Consultant
             desc: Independent Programmer and Consultant, building next-generation education
@@ -6423,6 +7998,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
     - title: Consumption Views
       desc: Set of database views that provides water consumption information that
         feed into reporting tools used by AWWU to make business decisions.
@@ -6438,6 +8021,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -6564,6 +8149,57 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -6619,6 +8255,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: Service Order Mobile Dispatch
       desc: Mobile web application that allows Anchorage Water & Wastewater Utility
         service workers to query and record service information while in the
@@ -6639,6 +8285,9 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/pc/
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -6891,6 +8540,80 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: PC
+            desc: A personal computer (PC) is a general-purpose computing device built
+              around a microprocessor, memory, storage and I/O interfaces,
+              capable of running a broad range of operating systems and
+              applications. Commonly used for software development, office
+              productivity, web browsing and multimedia consumption, PCs provide
+              a flexible, modular platform for both professional workflows and
+              everyday tasks.
+            used_begin_year: 1994
+            used_end_year: 2014
+            _links:
+              self:
+                href: /devices/pc/
+              projects:
+                - href: /projects/bit-proposal/
+                - href: /projects/centroid/
+                - href: /projects/please/
+                - href: /projects/somd/
+                - href: /projects/train-builder/
+              jobs:
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -6946,6 +8669,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: Bit Proposal
       desc: null
       role: Lead Developer
@@ -6958,6 +8691,8 @@ _embedded:
           - href: /languages/cs/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/pc/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -7057,6 +8792,30 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: PC
+            desc: A personal computer (PC) is a general-purpose computing device built
+              around a microprocessor, memory, storage and I/O interfaces,
+              capable of running a broad range of operating systems and
+              applications. Commonly used for software development, office
+              productivity, web browsing and multimedia consumption, PCs provide
+              a flexible, modular platform for both professional workflows and
+              everyday tasks.
+            used_begin_year: 1994
+            used_end_year: 2014
+            _links:
+              self:
+                href: /devices/pc/
+              projects:
+                - href: /projects/bit-proposal/
+                - href: /projects/centroid/
+                - href: /projects/please/
+                - href: /projects/somd/
+                - href: /projects/train-builder/
+              jobs:
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -7112,6 +8871,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: Database Synchronization (AWWU)
       desc: null
       role: Lead Developer
@@ -7127,6 +8896,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -7295,6 +9066,57 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -7350,6 +9172,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: Laser Range Finder
       desc: Software that records output from a handheld laser range finder and
         combines it with records from a GPS unit which allows field workers to
@@ -7366,6 +9198,9 @@ _embedded:
           - href: /db/access/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/gps/
+          - href: /devices/range-finder/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -7483,6 +9318,41 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: GPS
+            desc: Global Positioning System (GPS) is a satellite-based navigation technology
+              that calculates precise geographic coordinates by measuring signal
+              travel times from a constellation of Earth-orbiting satellites.
+              Commonly employed in mapping and turn-by-turn navigation, asset
+              tracking, and location-based services, GPS delivers real-time
+              positioning with meter-level accuracy across devices from
+              smartphones to IoT sensors.
+            used_begin_year: 2008
+            used_end_year: 2008
+            _links:
+              self:
+                href: /devices/gps/
+              projects:
+                - href: /projects/laser-range-finder/
+              jobs:
+                - href: /jobs/rdi/
+          - title: Laser Range Finder
+            desc: A laser range finder is an optical device that measures distance by
+              emitting a laser pulse toward a target and calculating range from
+              the time-of-flight of the reflected signal. It delivers
+              high-precision, non-contact measurement data used in surveying,
+              robotics, industrial inspection and mapping. Its compact design
+              and real-time output facilitate integration into automated systems
+              requiring accurate spatial information.
+            used_begin_year: 2008
+            used_end_year: 2008
+            _links:
+              self:
+                href: /devices/range-finder/
+              projects:
+                - href: /projects/laser-range-finder/
+              jobs:
+                - href: /jobs/rdi/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -7538,6 +9408,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: AWWU Intranet
       desc: Web application that contains AWWU's reporting and querying tools, systems
         status, and custom applications.
@@ -7557,6 +9437,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -7809,6 +9691,57 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -7864,6 +9797,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: FLIR Monitoring System
       desc: Software that reads the output from a FLIR laser mounted on a single
         engine plane used to fly over the Alaska North Slope and record land
@@ -7880,6 +9823,8 @@ _embedded:
           - href: /db/access/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/laser/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -7997,6 +9942,23 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: FLIR Laser
+            desc: FLIR Laser is a laser rangefinding module integrated into FLIR thermal
+              imaging devices that emits near-infrared pulses and measures their
+              time-of-flight to calculate precise target distances. It’s
+              commonly used in industrial inspection, surveying, search and
+              rescue, and defense for accurate target acquisition and scene
+              analysis under low-visibility conditions.
+            used_begin_year: 2007
+            used_end_year: 2007
+            _links:
+              self:
+                href: /devices/iphone/
+              projects:
+                - href: /projects/flir-monitoring/
+              jobs:
+                - href: /jobs/rdi/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -8052,6 +10014,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: SAR Reports
       desc: null
       role: Lead Developer
@@ -8067,6 +10039,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -8235,6 +10209,57 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -8290,6 +10315,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: TrainBuilder
       desc: Windows Presentation Framework (WPF) application used by the Alaska
         Railroad to plan and schedule structure of their trains.
@@ -8306,6 +10341,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/pc/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -8471,6 +10508,30 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: PC
+            desc: A personal computer (PC) is a general-purpose computing device built
+              around a microprocessor, memory, storage and I/O interfaces,
+              capable of running a broad range of operating systems and
+              applications. Commonly used for software development, office
+              productivity, web browsing and multimedia consumption, PCs provide
+              a flexible, modular platform for both professional workflows and
+              everyday tasks.
+            used_begin_year: 1994
+            used_end_year: 2014
+            _links:
+              self:
+                href: /devices/pc/
+              projects:
+                - href: /projects/bit-proposal/
+                - href: /projects/centroid/
+                - href: /projects/please/
+                - href: /projects/somd/
+                - href: /projects/train-builder/
+              jobs:
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -8526,6 +10587,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: CIS Data Capture
       desc: Console application that captures monthly snapshots of AWWU's customer
         information system (CIS) data and loads it into a data warehouse.
@@ -8542,6 +10613,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -8710,6 +10783,57 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -8765,6 +10889,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: AWWU Job Scheduler
       desc: Framework for creating background processing jobs that migrate,
         synchronize, and transform data throughout AWWU's integrated systems.
@@ -8781,6 +10915,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -8949,6 +11085,57 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -9004,6 +11191,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: AWWU Systems Integration
       desc: null
       role: Technical Lead
@@ -9019,6 +11216,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -9187,6 +11386,57 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -9242,6 +11492,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: Employees Suggestion
       desc: Oracle Forms application that allows AWWU employees to submit suggestions
         for improving the AWWU workplace.
@@ -9257,6 +11517,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -9383,6 +11645,57 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -9438,6 +11751,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: Report Engine
       desc: C# library for producing HTML reports based on database queries.
       role: Lead Developer
@@ -9450,6 +11773,8 @@ _embedded:
           - href: /languages/cs/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
       _embedded:
@@ -9549,6 +11874,57 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
@@ -9604,6 +11980,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: SIF Agent
       subtitle: Automating State Reporting for 500+ Schools
       desc: State of Oklahoma's first Schools Interoperability Framework (SIF)
@@ -9622,6 +12008,8 @@ _embedded:
           - href: /db/pervasive/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/mas/
       content: >-
@@ -9822,6 +12210,57 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Municipal Accounting Systems, Inc.
             desc: Lead Programmer for Municipal Accounting Systems (MAS), a leading provider
@@ -9849,6 +12288,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
     - title: Wen-GAGE Accounting
       desc: Desktop application that is used by schools in Oklahoma to manage all
         their school accounting responsibilites.
@@ -9867,6 +12308,8 @@ _embedded:
         os:
           - href: /os/netware/
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/mas/
       _embedded:
@@ -10052,6 +12495,57 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Municipal Accounting Systems, Inc.
             desc: Lead Programmer for Municipal Accounting Systems (MAS), a leading provider
@@ -10079,6 +12573,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
     - title: Wen-GAGE Student Information
       desc: Desktop application that is used by schools in Oklahoma to manage their
         student information such as enrollment, attendance, and grades.
@@ -10097,6 +12593,8 @@ _embedded:
         os:
           - href: /os/netware/
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/mas/
       _embedded:
@@ -10282,6 +12780,57 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Municipal Accounting Systems, Inc.
             desc: Lead Programmer for Municipal Accounting Systems (MAS), a leading provider
@@ -10309,6 +12858,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
     - title: Class Scheduler
       desc: Process that takes student course requests along with the available
         courses, sections, and teachers and builds the class schedule.
@@ -10326,6 +12877,8 @@ _embedded:
         os:
           - href: /os/netware/
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/mas/
       _embedded:
@@ -10470,6 +13023,57 @@ _embedded:
                 - href: /jobs/rdi/
               schools:
                 - href: /schools/uco/
+        devices:
+          - title: Server
+            desc: A server is a hardware device or software application that listens for and
+              responds to requests from client systems over a network. It’s
+              commonly used to host web applications, manage databases, and
+              provide file or compute resources in data centers or cloud
+              environments.
+            used_begin_year: 1994
+            used_end_year: present
+            _links:
+              self:
+                href: /devices/server/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/centroid/
+                - href: /projects/cfw/
+                - href: /projects/cis-data-capture/
+                - href: /projects/class-scheduler/
+                - href: /projects/consumption-views/
+                - href: /projects/database-sync-awwu/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/portfolio/
+                - href: /projects/qb/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scrum-tools/
+                - href: /projects/sif-agent/
+                - href: /projects/simpler/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/wengage-acct/
+                - href: /projects/wengage-si/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
+                - href: /jobs/mas/
+                - href: /jobs/rdi/
+              schools:
+                - href: /schools/uco/
         jobs:
           - title: Municipal Accounting Systems, Inc.
             desc: Lead Programmer for Municipal Accounting Systems (MAS), a leading provider
@@ -10497,6 +13101,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
     - title: Backup Controls and Displays
       desc: Screens used to emulate hardware such as switch boards and displays in the
         event of their failure.
@@ -10510,6 +13116,8 @@ _embedded:
           - href: /languages/ada/
         os:
           - href: /os/solaris/
+        devices:
+          - href: /devices/b-1/
         jobs:
           - href: /jobs/boeing/
       _embedded:
@@ -10557,6 +13165,25 @@ _embedded:
                 - href: /projects/smf-controls-displays/
               jobs:
                 - href: /jobs/boeing/
+        devices:
+          - title: B-1 Bomber
+            desc: The Rockwell B-1 Lancer is a supersonic variable-sweep-wing heavy bomber
+              employed by the U.S. Air Force for long-range strategic and
+              tactical missions. It is commonly used for precision strike and
+              conventional payload delivery, leveraging its variable-geometry
+              wings and integrated avionics to adapt to diverse operational
+              profiles.
+            used_begin_year: 1998
+            used_end_year: 1999
+            _links:
+              self:
+                href: /devices/b-1/
+              projects:
+                - href: /projects/backup-controls-displays/
+                - href: /projects/mission-data-loader/
+                - href: /projects/smf-controls-displays/
+              jobs:
+                - href: /jobs/boeing/
         jobs:
           - title: Boeing, Defense & Space Group
             desc: Embedded Software Engineer at Boeing's Defense & Space Group in Oklahoma
@@ -10577,6 +13204,8 @@ _embedded:
                 - href: /languages/ada/
               os:
                 - href: /os/solaris/
+              devices:
+                - href: /devices/b-1/
     - title: Mission Data Loader
       subtitle: Delivering Mission Data to B-1 Bombers
       desc: Mission Data Loader for the B-1 Bomber's avionics software upgrade,
@@ -10592,6 +13221,8 @@ _embedded:
           - href: /languages/ada/
         os:
           - href: /os/solaris/
+        devices:
+          - href: /devices/b-1/
         jobs:
           - href: /jobs/boeing/
       content: >-
@@ -10672,6 +13303,25 @@ _embedded:
                 - href: /projects/smf-controls-displays/
               jobs:
                 - href: /jobs/boeing/
+        devices:
+          - title: B-1 Bomber
+            desc: The Rockwell B-1 Lancer is a supersonic variable-sweep-wing heavy bomber
+              employed by the U.S. Air Force for long-range strategic and
+              tactical missions. It is commonly used for precision strike and
+              conventional payload delivery, leveraging its variable-geometry
+              wings and integrated avionics to adapt to diverse operational
+              profiles.
+            used_begin_year: 1998
+            used_end_year: 1999
+            _links:
+              self:
+                href: /devices/b-1/
+              projects:
+                - href: /projects/backup-controls-displays/
+                - href: /projects/mission-data-loader/
+                - href: /projects/smf-controls-displays/
+              jobs:
+                - href: /jobs/boeing/
         jobs:
           - title: Boeing, Defense & Space Group
             desc: Embedded Software Engineer at Boeing's Defense & Space Group in Oklahoma
@@ -10692,6 +13342,8 @@ _embedded:
                 - href: /languages/ada/
               os:
                 - href: /os/solaris/
+              devices:
+                - href: /devices/b-1/
     - title: System Management Function (SMF) Controls and Displays
       desc: Screens used to monitor the B-1’s custom-built avionics operating system
       role: Embedded Software Engineer
@@ -10704,6 +13356,8 @@ _embedded:
           - href: /languages/ada/
         os:
           - href: /os/solaris/
+        devices:
+          - href: /devices/b-1/
         jobs:
           - href: /jobs/boeing/
       _embedded:
@@ -10751,6 +13405,25 @@ _embedded:
                 - href: /projects/smf-controls-displays/
               jobs:
                 - href: /jobs/boeing/
+        devices:
+          - title: B-1 Bomber
+            desc: The Rockwell B-1 Lancer is a supersonic variable-sweep-wing heavy bomber
+              employed by the U.S. Air Force for long-range strategic and
+              tactical missions. It is commonly used for precision strike and
+              conventional payload delivery, leveraging its variable-geometry
+              wings and integrated avionics to adapt to diverse operational
+              profiles.
+            used_begin_year: 1998
+            used_end_year: 1999
+            _links:
+              self:
+                href: /devices/b-1/
+              projects:
+                - href: /projects/backup-controls-displays/
+                - href: /projects/mission-data-loader/
+                - href: /projects/smf-controls-displays/
+              jobs:
+                - href: /jobs/boeing/
         jobs:
           - title: Boeing, Defense & Space Group
             desc: Embedded Software Engineer at Boeing's Defense & Space Group in Oklahoma
@@ -10771,3 +13444,5 @@ _embedded:
                 - href: /languages/ada/
               os:
                 - href: /os/solaris/
+              devices:
+                - href: /devices/b-1/

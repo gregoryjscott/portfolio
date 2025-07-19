@@ -52,6 +52,16 @@ _links:
     - href: /os/linux/
     - href: /os/macos/
     - href: /os/windows/
+  devices:
+    - href: /devices/android/
+    - href: /devices/cloud/
+    - href: /devices/gps/
+    - href: /devices/iphone/
+    - href: /devices/laser/
+    - href: /devices/mac/
+    - href: /devices/pc/
+    - href: /devices/range-finder/
+    - href: /devices/server/
 content: >-
   - Led many of RDI's most challenging and high-stakes projects by partnering
   directly with clients from conception to delivery, ensuring solutions
@@ -94,6 +104,10 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/pc/
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Alaska Gasline Development Corporation
@@ -117,6 +131,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Please
@@ -139,6 +155,9 @@ _embedded:
         os:
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/mac/
+          - href: /devices/pc/
         jobs:
           - href: /jobs/rdi/
     - title: AHFC Integration
@@ -155,6 +174,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Systems Portal
@@ -175,6 +196,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Energy Efficiency Map
@@ -196,6 +219,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: ScrambleScore
@@ -218,6 +243,10 @@ _embedded:
           - href: /db/postgres/
         os:
           - href: /os/linux/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/iphone/
         jobs:
           - href: /jobs/rdi/
     - title: Scrum Tools
@@ -238,6 +267,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Quality Bank
@@ -263,6 +294,8 @@ _embedded:
           - href: /tools/backbone/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Consumption Views
@@ -280,6 +313,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Service Order Mobile Dispatch
@@ -302,6 +337,9 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/pc/
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Bit Proposal
@@ -316,6 +354,8 @@ _embedded:
           - href: /languages/cs/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/pc/
         jobs:
           - href: /jobs/rdi/
     - title: Database Synchronization (AWWU)
@@ -333,6 +373,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Laser Range Finder
@@ -351,6 +393,9 @@ _embedded:
           - href: /db/access/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/gps/
+          - href: /devices/range-finder/
         jobs:
           - href: /jobs/rdi/
     - title: AWWU Intranet
@@ -372,6 +417,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: FLIR Monitoring System
@@ -390,6 +437,8 @@ _embedded:
           - href: /db/access/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/laser/
         jobs:
           - href: /jobs/rdi/
     - title: SAR Reports
@@ -407,6 +456,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: TrainBuilder
@@ -425,6 +476,8 @@ _embedded:
           - href: /db/sql-server/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/pc/
         jobs:
           - href: /jobs/rdi/
     - title: CIS Data Capture
@@ -443,6 +496,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: AWWU Job Scheduler
@@ -461,6 +516,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: AWWU Systems Integration
@@ -478,6 +535,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Employees Suggestion
@@ -495,6 +554,8 @@ _embedded:
           - href: /db/oracle/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
     - title: Report Engine
@@ -509,6 +570,8 @@ _embedded:
           - href: /languages/cs/
         os:
           - href: /os/windows/
+        devices:
+          - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
   languages:
@@ -958,6 +1021,208 @@ _embedded:
           - href: /projects/somd/
           - href: /projects/systems-portal/
           - href: /projects/train-builder/
+          - href: /projects/wengage-acct/
+          - href: /projects/wengage-si/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/independent/
+          - href: /jobs/mas/
+          - href: /jobs/rdi/
+        schools:
+          - href: /schools/uco/
+  devices:
+    - title: Android
+      desc: Android devices are consumer electronics running a Linux-based operating
+        system developed by Google and the Open Handset Alliance. Commonly
+        deployed in smartphones, tablets and wearables, they enable mobile
+        communication, internet access and multimedia playback. Their open
+        architecture supports a broad ecosystem of third-party applications.
+      used_begin_year: 2012
+      used_end_year: present
+      _links:
+        self:
+          href: /devices/android/
+        projects:
+          - href: /projects/nuggets/
+          - href: /projects/scramble-score/
+        jobs:
+          - href: /jobs/independent/
+          - href: /jobs/rdi/
+    - title: Cloud
+      desc: Cloud computing provides on-demand access to remote virtualized computing,
+        storage, and networking resources over the Internet. It’s commonly used
+        for scalable application hosting, data storage and backup, and automated
+        deployment pipelines, enabling teams to provision and manage
+        infrastructure without maintaining physical hardware.
+      used_begin_year: 2012
+      used_end_year: present
+      _links:
+        self:
+          href: /devices/cloud/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/la-boda/
+          - href: /projects/nuggets/
+          - href: /projects/scramble-score/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/independent/
+          - href: /jobs/rdi/
+    - title: FLIR Laser
+      desc: FLIR Laser is a laser rangefinding module integrated into FLIR thermal
+        imaging devices that emits near-infrared pulses and measures their
+        time-of-flight to calculate precise target distances. It’s commonly used
+        in industrial inspection, surveying, search and rescue, and defense for
+        accurate target acquisition and scene analysis under low-visibility
+        conditions.
+      used_begin_year: 2007
+      used_end_year: 2007
+      _links:
+        self:
+          href: /devices/iphone/
+        projects:
+          - href: /projects/flir-monitoring/
+        jobs:
+          - href: /jobs/rdi/
+    - title: GPS
+      desc: Global Positioning System (GPS) is a satellite-based navigation technology
+        that calculates precise geographic coordinates by measuring signal
+        travel times from a constellation of Earth-orbiting satellites. Commonly
+        employed in mapping and turn-by-turn navigation, asset tracking, and
+        location-based services, GPS delivers real-time positioning with
+        meter-level accuracy across devices from smartphones to IoT sensors.
+      used_begin_year: 2008
+      used_end_year: 2008
+      _links:
+        self:
+          href: /devices/gps/
+        projects:
+          - href: /projects/laser-range-finder/
+        jobs:
+          - href: /jobs/rdi/
+    - title: iPhone
+      desc: The iPhone is a smartphone device by Apple that combines a multi-touch
+        display, sensors (e.g. accelerometer, GPS, camera) and the iOS operating
+        system to run native and web-based applications. It’s commonly used for
+        voice and video communication, messaging, web browsing, photography and
+        as a platform for mobile app development and deployment. Its tight
+        hardware-software integration and standardized app distribution model
+        have shaped modern mobile ecosystems.
+      used_begin_year: 2012
+      used_end_year: present
+      _links:
+        self:
+          href: /devices/iphone/
+        projects:
+          - href: /projects/nuggets/
+          - href: /projects/scramble-score/
+        jobs:
+          - href: /jobs/independent/
+          - href: /jobs/rdi/
+    - title: Laser Range Finder
+      desc: A laser range finder is an optical device that measures distance by
+        emitting a laser pulse toward a target and calculating range from the
+        time-of-flight of the reflected signal. It delivers high-precision,
+        non-contact measurement data used in surveying, robotics, industrial
+        inspection and mapping. Its compact design and real-time output
+        facilitate integration into automated systems requiring accurate spatial
+        information.
+      used_begin_year: 2008
+      used_end_year: 2008
+      _links:
+        self:
+          href: /devices/range-finder/
+        projects:
+          - href: /projects/laser-range-finder/
+        jobs:
+          - href: /jobs/rdi/
+    - title: Mac
+      desc: The Mac is a line of personal computers from Apple Inc. running macOS, a
+        Unix-based operating system with POSIX compliance and native support for
+        development tools. Its integrated hardware-software design delivers
+        stable performance and efficient resource management. Macs are widely
+        used for software development, graphic design, and multimedia
+        production.
+      used_begin_year: 2012
+      used_end_year: 2021
+      _links:
+        self:
+          href: /devices/mac/
+        projects:
+          - href: /projects/aprender/
+          - href: /projects/centroid/
+          - href: /projects/epicloud/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/please/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/independent/
+          - href: /jobs/rdi/
+    - title: PC
+      desc: A personal computer (PC) is a general-purpose computing device built
+        around a microprocessor, memory, storage and I/O interfaces, capable of
+        running a broad range of operating systems and applications. Commonly
+        used for software development, office productivity, web browsing and
+        multimedia consumption, PCs provide a flexible, modular platform for
+        both professional workflows and everyday tasks.
+      used_begin_year: 1994
+      used_end_year: 2014
+      _links:
+        self:
+          href: /devices/pc/
+        projects:
+          - href: /projects/bit-proposal/
+          - href: /projects/centroid/
+          - href: /projects/please/
+          - href: /projects/somd/
+          - href: /projects/train-builder/
+        jobs:
+          - href: /jobs/rdi/
+        schools:
+          - href: /schools/uco/
+    - title: Server
+      desc: A server is a hardware device or software application that listens for and
+        responds to requests from client systems over a network. It’s commonly
+        used to host web applications, manage databases, and provide file or
+        compute resources in data centers or cloud environments.
+      used_begin_year: 1994
+      used_end_year: present
+      _links:
+        self:
+          href: /devices/server/
+        projects:
+          - href: /projects/agdc/
+          - href: /projects/ahfc-integration/
+          - href: /projects/awwu-intranet/
+          - href: /projects/awwu-job-scheduler/
+          - href: /projects/awwu-systems-integration/
+          - href: /projects/centroid/
+          - href: /projects/cfw/
+          - href: /projects/cis-data-capture/
+          - href: /projects/class-scheduler/
+          - href: /projects/consumption-views/
+          - href: /projects/database-sync-awwu/
+          - href: /projects/denver-schedules-api/
+          - href: /projects/employee-suggestions/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/epic-ca-enrollment/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/mvc-integration-test-framework/
+          - href: /projects/portfolio/
+          - href: /projects/qb/
+          - href: /projects/report-engine/
+          - href: /projects/sar-reports/
+          - href: /projects/scrum-tools/
+          - href: /projects/sif-agent/
+          - href: /projects/simpler/
+          - href: /projects/somd/
+          - href: /projects/systems-portal/
           - href: /projects/wengage-acct/
           - href: /projects/wengage-si/
         jobs:

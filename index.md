@@ -20,7 +20,7 @@ Hello,
 
 Check out my [resume](/resume/)!
 
-I've programmed servers, clouds, PCs, Macs, iPhones, Androids, iPads, Chromebooks, TVs, mainframes, hand-held range finders, GPS devices, lasers mounted to planes, calculators, and B-1 Bombers.
+I've programmed [servers](/devices/server), [clouds](/devices/cloud), [PCs](/devices/pc), [Macs](/devices/mac), [iPhones](/devices/iphone), [Androids](/devices/android), [iPads](/devices/ipad), [Chromebooks](/devices/chromebook), [TVs](/devices/tv), [hand-held range finders](/devices/range-finder), [GPS devices](/devices/gps), [lasers mounted to planes](/devices/laser), [calculators](/devices/calculator), and [B-1 bombers](/devices/b-1).
 
 [Reach out](mailto:me@gregoryjscott.com) if you'd like to work together.
 

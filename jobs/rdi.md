@@ -55,6 +55,16 @@ _links:
     - href: /os/linux/
     - href: /os/macos/
     - href: /os/windows/
+  devices:
+    - href: /devices/android/
+    - href: /devices/cloud/
+    - href: /devices/gps/
+    - href: /devices/iphone/
+    - href: /devices/laser/
+    - href: /devices/mac/
+    - href: /devices/pc/
+    - href: /devices/range-finder/
+    - href: /devices/server/
 ---
 
 - Led many of RDI's most challenging and high-stakes projects by partnering directly with clients from conception to delivery, ensuring solutions precisely met their business needs.

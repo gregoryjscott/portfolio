@@ -23,6 +23,10 @@
     "title": "Operating Systems",
     "is_skill": true
   },
+  "devices": {
+    "title": "Devices",
+    "is_skill": true
+  },
   "jobs": {
     "title": "Jobs",
     "is_skill": false

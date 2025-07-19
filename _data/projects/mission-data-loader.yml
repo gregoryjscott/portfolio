@@ -13,6 +13,8 @@ _links:
     - href: /languages/ada/
   os:
     - href: /os/solaris/
+  devices:
+    - href: /devices/b-1/
   jobs:
     - href: /jobs/boeing/
 content: >-
@@ -90,6 +92,24 @@ _embedded:
           - href: /projects/smf-controls-displays/
         jobs:
           - href: /jobs/boeing/
+  devices:
+    - title: B-1 Bomber
+      desc: The Rockwell B-1 Lancer is a supersonic variable-sweep-wing heavy bomber
+        employed by the U.S. Air Force for long-range strategic and tactical
+        missions. It is commonly used for precision strike and conventional
+        payload delivery, leveraging its variable-geometry wings and integrated
+        avionics to adapt to diverse operational profiles.
+      used_begin_year: 1998
+      used_end_year: 1999
+      _links:
+        self:
+          href: /devices/b-1/
+        projects:
+          - href: /projects/backup-controls-displays/
+          - href: /projects/mission-data-loader/
+          - href: /projects/smf-controls-displays/
+        jobs:
+          - href: /jobs/boeing/
   jobs:
     - title: Boeing, Defense & Space Group
       desc: Embedded Software Engineer at Boeing's Defense & Space Group in Oklahoma
@@ -109,3 +129,5 @@ _embedded:
           - href: /languages/ada/
         os:
           - href: /os/solaris/
+        devices:
+          - href: /devices/b-1/

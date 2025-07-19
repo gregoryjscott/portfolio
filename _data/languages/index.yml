@@ -80,6 +80,12 @@ _embedded:
                 - href: /os/android/
                 - href: /os/ios/
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
               jobs:
                 - href: /jobs/independent/
           - title: gregoryjscott.com
@@ -105,6 +111,8 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: EpiCloud
@@ -142,6 +150,10 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -206,6 +218,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
           - title: Futuristic Education
             desc: Co-Founder and Programmer for Futuristic Education, a startup building
               custom technology solutions for schools and educators
@@ -246,6 +266,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
     - title: Ruby
       desc: Ruby is an open-source, object-oriented programming language created by
         Yukihiro Matsumoto in 1995. It is designed to be simple and easy to use,
@@ -300,6 +325,8 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: fortworthtexas.gov
@@ -317,6 +344,8 @@ _embedded:
                 - href: /tools/jekyll/
               os:
                 - href: /os/linux/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: Centroid
@@ -339,6 +368,10 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Denver Schedules API
@@ -361,6 +394,8 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: jekyll-api
@@ -381,6 +416,9 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: jekyll-embed
@@ -403,6 +441,9 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: jekyll-load
@@ -423,6 +464,9 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: jekyll-prep
@@ -443,6 +487,9 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: Alaska Gasline Development Corporation
@@ -466,6 +513,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Please
@@ -488,6 +537,9 @@ _embedded:
               os:
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/pc/
               jobs:
                 - href: /jobs/rdi/
           - title: ScrambleScore
@@ -510,6 +562,10 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/iphone/
               jobs:
                 - href: /jobs/rdi/
           - title: Simpler
@@ -528,6 +584,8 @@ _embedded:
                 - href: /languages/rb/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
         jobs:
@@ -592,6 +650,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
               in custom database, web, and GIS programming services
@@ -646,6 +712,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: CSS
       desc: CSS (Cascading Style Sheets) is a style sheet language used for describing
         the presentation of a document written in a markup language such as
@@ -700,6 +776,8 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: hazelandgreg.wedding
@@ -720,6 +798,8 @@ _embedded:
                 - href: /tools/amplify/
               os:
                 - href: /os/linux/
+              devices:
+                - href: /devices/cloud/
               jobs:
                 - href: /jobs/independent/
           - title: Alaska Gasline Development Corporation
@@ -743,6 +823,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Systems Portal
@@ -763,6 +845,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Energy Efficiency Map
@@ -784,6 +868,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: ScrambleScore
@@ -806,6 +892,10 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/iphone/
               jobs:
                 - href: /jobs/rdi/
           - title: Scrum Tools
@@ -826,6 +916,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Quality Bank
@@ -851,6 +943,8 @@ _embedded:
                 - href: /tools/backbone/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Service Order Mobile Dispatch
@@ -873,6 +967,9 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/pc/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: AWWU Intranet
@@ -894,6 +991,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
         jobs:
@@ -958,6 +1057,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
               in custom database, web, and GIS programming services
@@ -1012,6 +1119,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: HTML
       desc: HTML (HyperText Markup Language) is a markup language used to create
         webpages and web applications. It is the standard markup language used
@@ -1065,6 +1182,8 @@ _embedded:
               os:
                 - href: /os/linux/
                 - href: /os/macos/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: hazelandgreg.wedding
@@ -1085,6 +1204,8 @@ _embedded:
                 - href: /tools/amplify/
               os:
                 - href: /os/linux/
+              devices:
+                - href: /devices/cloud/
               jobs:
                 - href: /jobs/independent/
           - title: Alaska Gasline Development Corporation
@@ -1108,6 +1229,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Systems Portal
@@ -1128,6 +1251,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Energy Efficiency Map
@@ -1149,6 +1274,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: ScrambleScore
@@ -1171,6 +1298,10 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/iphone/
               jobs:
                 - href: /jobs/rdi/
           - title: Scrum Tools
@@ -1191,6 +1322,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Quality Bank
@@ -1216,6 +1349,8 @@ _embedded:
                 - href: /tools/backbone/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Service Order Mobile Dispatch
@@ -1238,6 +1373,9 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/pc/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: AWWU Intranet
@@ -1259,6 +1397,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
         jobs:
@@ -1323,6 +1463,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
               in custom database, web, and GIS programming services
@@ -1377,6 +1525,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: JavaScript
       desc: JavaScript is a high-level, interpreted programming language that is used
         to create interactive web pages and applications. It is a scripting
@@ -1423,6 +1581,8 @@ _embedded:
                 - href: /tools/amplify/
               os:
                 - href: /os/linux/
+              devices:
+                - href: /devices/cloud/
               jobs:
                 - href: /jobs/independent/
           - title: aprender
@@ -1440,6 +1600,8 @@ _embedded:
                 - href: /languages/js/
               os:
                 - href: /os/macos/
+              devices:
+                - href: /devices/mac/
               jobs:
                 - href: /jobs/independent/
           - title: Alaska Gasline Development Corporation
@@ -1463,6 +1625,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Systems Portal
@@ -1483,6 +1647,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Energy Efficiency Map
@@ -1504,6 +1670,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: ScrambleScore
@@ -1526,6 +1694,10 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/iphone/
               jobs:
                 - href: /jobs/rdi/
           - title: Scrum Tools
@@ -1546,6 +1718,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Quality Bank
@@ -1571,6 +1745,8 @@ _embedded:
                 - href: /tools/backbone/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Service Order Mobile Dispatch
@@ -1593,6 +1769,9 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/pc/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: AWWU Intranet
@@ -1614,6 +1793,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
         jobs:
@@ -1678,6 +1859,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
               in custom database, web, and GIS programming services
@@ -1732,6 +1921,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: PHP
       desc: PHP is a server-side scripting language used for web development. It is a
         powerful language that is used to create dynamic web pages and
@@ -1764,6 +1963,8 @@ _embedded:
                 - href: /db/firebase/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/fe/
         jobs:
@@ -1807,6 +2008,11 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+                - href: /devices/server/
     - title: Python
       desc: Python is a high-level, interpreted, general-purpose programming language.
         It is an easy-to-learn, powerful language that is used for web
@@ -1847,6 +2053,10 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Alaska Gasline Development Corporation
@@ -1870,6 +2080,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
         jobs:
@@ -1927,6 +2139,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: C#
       desc: C# is a general-purpose, object-oriented programming language developed by
         Microsoft. It is used to develop a variety of applications, including
@@ -1991,6 +2213,10 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Denver Schedules API
@@ -2013,6 +2239,8 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: Alaska Gasline Development Corporation
@@ -2036,6 +2264,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Please
@@ -2058,6 +2288,9 @@ _embedded:
               os:
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/pc/
               jobs:
                 - href: /jobs/rdi/
           - title: Systems Portal
@@ -2078,6 +2311,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Energy Efficiency Map
@@ -2099,6 +2334,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Scrum Tools
@@ -2119,6 +2356,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Simpler
@@ -2137,6 +2376,8 @@ _embedded:
                 - href: /languages/rb/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: Quality Bank
@@ -2162,6 +2403,8 @@ _embedded:
                 - href: /tools/backbone/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: MvcIntegrationTestFramework
@@ -2180,6 +2423,8 @@ _embedded:
                 - href: /languages/cs/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: Service Order Mobile Dispatch
@@ -2202,6 +2447,9 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/pc/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Bit Proposal
@@ -2216,6 +2464,8 @@ _embedded:
                 - href: /languages/cs/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/pc/
               jobs:
                 - href: /jobs/rdi/
           - title: Database Synchronization (AWWU)
@@ -2233,6 +2483,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Laser Range Finder
@@ -2252,6 +2504,9 @@ _embedded:
                 - href: /db/access/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/gps/
+                - href: /devices/range-finder/
               jobs:
                 - href: /jobs/rdi/
           - title: AWWU Intranet
@@ -2273,6 +2528,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: FLIR Monitoring System
@@ -2291,6 +2548,8 @@ _embedded:
                 - href: /db/access/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/laser/
               jobs:
                 - href: /jobs/rdi/
           - title: SAR Reports
@@ -2308,6 +2567,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: TrainBuilder
@@ -2326,6 +2587,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/pc/
               jobs:
                 - href: /jobs/rdi/
           - title: CIS Data Capture
@@ -2344,6 +2607,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: AWWU Job Scheduler
@@ -2363,6 +2628,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: AWWU Systems Integration
@@ -2380,6 +2647,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Report Engine
@@ -2394,6 +2663,8 @@ _embedded:
                 - href: /languages/cs/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: SIF Agent
@@ -2414,6 +2685,8 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/mas/
         jobs:
@@ -2478,6 +2751,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
               in custom database, web, and GIS programming services
@@ -2532,6 +2813,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
           - title: Municipal Accounting Systems, Inc.
             desc: Lead Programmer for Municipal Accounting Systems (MAS), a leading provider
               of student information and accounting software for school
@@ -2558,6 +2849,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
     - title: SQL
       desc: SQL (Structured Query Language) is a domain-specific language used in
         programming and designed for managing data held in a relational database
@@ -2620,6 +2913,8 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/independent/
           - title: Alaska Gasline Development Corporation
@@ -2643,6 +2938,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Please
@@ -2665,6 +2962,9 @@ _embedded:
               os:
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/mac/
+                - href: /devices/pc/
               jobs:
                 - href: /jobs/rdi/
           - title: AHFC Integration
@@ -2681,6 +2981,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Systems Portal
@@ -2701,6 +3003,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Energy Efficiency Map
@@ -2722,6 +3026,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: ScrambleScore
@@ -2744,6 +3050,10 @@ _embedded:
                 - href: /db/postgres/
               os:
                 - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/iphone/
               jobs:
                 - href: /jobs/rdi/
           - title: Scrum Tools
@@ -2764,6 +3074,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Quality Bank
@@ -2789,6 +3101,8 @@ _embedded:
                 - href: /tools/backbone/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Consumption Views
@@ -2806,6 +3120,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Service Order Mobile Dispatch
@@ -2828,6 +3144,9 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/pc/
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Database Synchronization (AWWU)
@@ -2845,6 +3164,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: AWWU Intranet
@@ -2866,6 +3187,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: SAR Reports
@@ -2883,6 +3206,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: TrainBuilder
@@ -2901,6 +3226,8 @@ _embedded:
                 - href: /db/sql-server/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/pc/
               jobs:
                 - href: /jobs/rdi/
           - title: CIS Data Capture
@@ -2919,6 +3246,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: AWWU Job Scheduler
@@ -2938,6 +3267,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: AWWU Systems Integration
@@ -2955,6 +3286,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: Employees Suggestion
@@ -2972,6 +3305,8 @@ _embedded:
                 - href: /db/oracle/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/rdi/
           - title: SIF Agent
@@ -2992,6 +3327,8 @@ _embedded:
                 - href: /db/pervasive/
               os:
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/mas/
           - title: Wen-GAGE Accounting
@@ -3012,6 +3349,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/mas/
           - title: Wen-GAGE Student Information
@@ -3032,6 +3371,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/mas/
         jobs:
@@ -3096,6 +3437,14 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
           - title: Resource Data, Inc.
             desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
               in custom database, web, and GIS programming services
@@ -3150,6 +3499,16 @@ _embedded:
                 - href: /os/linux/
                 - href: /os/macos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
           - title: Municipal Accounting Systems, Inc.
             desc: Lead Programmer for Municipal Accounting Systems (MAS), a leading provider
               of student information and accounting software for school
@@ -3176,6 +3535,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
     - title: Delphi
       desc: Delphi is an object-oriented programming language developed by Embarcadero
         Technologies. It is based on the Object Pascal language and is used to
@@ -3217,6 +3578,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/mas/
           - title: Wen-GAGE Student Information
@@ -3237,6 +3600,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/mas/
           - title: Class Scheduler
@@ -3256,6 +3621,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
               jobs:
                 - href: /jobs/mas/
         jobs:
@@ -3285,6 +3652,8 @@ _embedded:
               os:
                 - href: /os/netware/
                 - href: /os/windows/
+              devices:
+                - href: /devices/server/
     - title: Ada 95
       desc: Ada 95 is a high-level, structured, statically typed, object-oriented
         programming language designed for real-time, embedded, and distributed
@@ -3320,6 +3689,8 @@ _embedded:
                 - href: /languages/ada/
               os:
                 - href: /os/solaris/
+              devices:
+                - href: /devices/b-1/
               jobs:
                 - href: /jobs/boeing/
           - title: Mission Data Loader
@@ -3337,6 +3708,8 @@ _embedded:
                 - href: /languages/ada/
               os:
                 - href: /os/solaris/
+              devices:
+                - href: /devices/b-1/
               jobs:
                 - href: /jobs/boeing/
           - title: System Management Function (SMF) Controls and Displays
@@ -3351,6 +3724,8 @@ _embedded:
                 - href: /languages/ada/
               os:
                 - href: /os/solaris/
+              devices:
+                - href: /devices/b-1/
               jobs:
                 - href: /jobs/boeing/
         jobs:
@@ -3373,6 +3748,8 @@ _embedded:
                 - href: /languages/ada/
               os:
                 - href: /os/solaris/
+              devices:
+                - href: /devices/b-1/
     - title: C
       desc: C is a general-purpose, procedural programming language developed in the
         early 1970s by Dennis Ritchie. It is a low-level language, meaning it
@@ -3418,6 +3795,10 @@ _embedded:
                 - href: /os/aix/
                 - href: /os/ms-dos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/calculator/
+                - href: /devices/pc/
+                - href: /devices/server/
     - title: C++
       desc: C++ is a general-purpose, object-oriented programming language developed
         by Bjarne Stroustrup in 1985. It is an extension of the C language and
@@ -3462,6 +3843,10 @@ _embedded:
                 - href: /os/aix/
                 - href: /os/ms-dos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/calculator/
+                - href: /devices/pc/
+                - href: /devices/server/
     - title: FORTRAN
       desc: FORTRAN (Formula Translator) is a general-purpose, procedural, imperative
         programming language that is especially suited to numeric computation
@@ -3507,6 +3892,10 @@ _embedded:
                 - href: /os/aix/
                 - href: /os/ms-dos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/calculator/
+                - href: /devices/pc/
+                - href: /devices/server/
     - title: Pascal
       desc: Pascal is a procedural programming language developed in the late 1960s by
         Niklaus Wirth. It is a high-level language, meaning it is designed to be
@@ -3552,6 +3941,10 @@ _embedded:
                 - href: /os/aix/
                 - href: /os/ms-dos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/calculator/
+                - href: /devices/pc/
+                - href: /devices/server/
     - title: TI-BASIC
       desc: TI-BASIC is the built-in, interpreted programming language used on Texas
         Instruments graphing calculators. It features a token‐based syntax
@@ -3599,6 +3992,10 @@ _embedded:
                 - href: /os/aix/
                 - href: /os/ms-dos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/calculator/
+                - href: /devices/pc/
+                - href: /devices/server/
     - title: Visual Basic
       desc: Visual Basic is a high-level, object-oriented programming language
         developed by Microsoft. It is used to create Windows applications, web
@@ -3643,3 +4040,7 @@ _embedded:
                 - href: /os/aix/
                 - href: /os/ms-dos/
                 - href: /os/windows/
+              devices:
+                - href: /devices/calculator/
+                - href: /devices/pc/
+                - href: /devices/server/

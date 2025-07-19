@@ -53,6 +53,10 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/chromebook/
+          - href: /devices/cloud/
+          - href: /devices/mac/
         jobs:
           - href: /jobs/fe/
   jobs:
@@ -96,3 +100,8 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/chromebook/
+          - href: /devices/cloud/
+          - href: /devices/mac/
+          - href: /devices/server/

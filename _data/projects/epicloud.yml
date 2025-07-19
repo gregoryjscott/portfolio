@@ -33,6 +33,10 @@ _links:
   os:
     - href: /os/linux/
     - href: /os/macos/
+  devices:
+    - href: /devices/chromebook/
+    - href: /devices/cloud/
+    - href: /devices/mac/
   jobs:
     - href: /jobs/fe/
 content: >-
@@ -471,6 +475,68 @@ _embedded:
           - href: /jobs/fe/
           - href: /jobs/independent/
           - href: /jobs/rdi/
+  devices:
+    - title: Chromebook
+      desc: Chromebooks are laptop devices running Chrome OS, a Linux-based operating
+        system centered on the Chrome browser and web applications. They offer
+        fast boot-up, automatic updates and seamless integration with cloud
+        storage and collaboration services. Commonly deployed in educational and
+        enterprise environments, Chromebooks are used for web browsing, office
+        productivity, media streaming and lightweight development tasks.
+      used_begin_year: 2015
+      used_end_year: 2021
+      _links:
+        self:
+          href: /devices/chromebook/
+        projects:
+          - href: /projects/epicloud/
+        jobs:
+          - href: /jobs/fe/
+    - title: Cloud
+      desc: Cloud computing provides on-demand access to remote virtualized computing,
+        storage, and networking resources over the Internet. It’s commonly used
+        for scalable application hosting, data storage and backup, and automated
+        deployment pipelines, enabling teams to provision and manage
+        infrastructure without maintaining physical hardware.
+      used_begin_year: 2012
+      used_end_year: present
+      _links:
+        self:
+          href: /devices/cloud/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/la-boda/
+          - href: /projects/nuggets/
+          - href: /projects/scramble-score/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/independent/
+          - href: /jobs/rdi/
+    - title: Mac
+      desc: The Mac is a line of personal computers from Apple Inc. running macOS, a
+        Unix-based operating system with POSIX compliance and native support for
+        development tools. Its integrated hardware-software design delivers
+        stable performance and efficient resource management. Macs are widely
+        used for software development, graphic design, and multimedia
+        production.
+      used_begin_year: 2012
+      used_end_year: 2021
+      _links:
+        self:
+          href: /devices/mac/
+        projects:
+          - href: /projects/aprender/
+          - href: /projects/centroid/
+          - href: /projects/epicloud/
+          - href: /projects/jekyll-api/
+          - href: /projects/jekyll-embed/
+          - href: /projects/jekyll-load/
+          - href: /projects/jekyll-prep/
+          - href: /projects/please/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/independent/
+          - href: /jobs/rdi/
   jobs:
     - title: Futuristic Education
       desc: Co-Founder and Programmer for Futuristic Education, a startup building
@@ -512,3 +578,8 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/chromebook/
+          - href: /devices/cloud/
+          - href: /devices/mac/
+          - href: /devices/server/

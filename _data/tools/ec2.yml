@@ -53,6 +53,12 @@ _embedded:
           - href: /os/android/
           - href: /os/ios/
           - href: /os/linux/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/ipad/
+          - href: /devices/iphone/
+          - href: /devices/tv/
         jobs:
           - href: /jobs/independent/
     - title: EpiCloud
@@ -90,6 +96,10 @@ _embedded:
         os:
           - href: /os/linux/
           - href: /os/macos/
+        devices:
+          - href: /devices/chromebook/
+          - href: /devices/cloud/
+          - href: /devices/mac/
         jobs:
           - href: /jobs/fe/
   jobs:
@@ -154,6 +164,14 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/ipad/
+          - href: /devices/iphone/
+          - href: /devices/mac/
+          - href: /devices/server/
+          - href: /devices/tv/
     - title: Futuristic Education
       desc: Co-Founder and Programmer for Futuristic Education, a startup building
         custom technology solutions for schools and educators
@@ -194,3 +212,8 @@ _embedded:
           - href: /os/linux/
           - href: /os/macos/
           - href: /os/windows/
+        devices:
+          - href: /devices/chromebook/
+          - href: /devices/cloud/
+          - href: /devices/mac/
+          - href: /devices/server/

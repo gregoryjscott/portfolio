@@ -21,6 +21,10 @@ _links:
     - href: /os/linux/
     - href: /os/macos/
     - href: /os/windows/
+  devices:
+    - href: /devices/mac/
+    - href: /devices/pc/
+    - href: /devices/server/
   jobs:
     - href: /jobs/rdi/
 ---

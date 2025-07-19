@@ -27,6 +27,8 @@ _links:
   os:
     - href: /os/netware/
     - href: /os/windows/
+  devices:
+    - href: /devices/server/
 ---
 
 - As Lead Programmer, directed the complete modernization of the company's entire product line, migrating over 15 mission-critical DOS applications to a unified suite of Windows desktop applications for every aspect of school administration.

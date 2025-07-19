@@ -36,6 +36,12 @@ _links:
     - href: /os/android/
     - href: /os/ios/
     - href: /os/linux/
+  devices:
+    - href: /devices/android/
+    - href: /devices/cloud/
+    - href: /devices/ipad/
+    - href: /devices/iphone/
+    - href: /devices/tv/
   jobs:
     - href: /jobs/independent/
 ---

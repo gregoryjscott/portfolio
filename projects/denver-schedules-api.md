@@ -21,6 +21,8 @@ _links:
     - href: /db/postgres/
   os:
     - href: /os/linux/
+  devices:
+    - href: /devices/server/
   jobs:
     - href: /jobs/independent/
 ---
