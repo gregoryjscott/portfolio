@@ -2,6 +2,11 @@
 layout: details
 title: Android
 desc: >-
+  Android devices are consumer electronics running a Linux-based operating
+  system developed by Google and the Open Handset Alliance. Commonly deployed in
+  smartphones, tablets and wearables, they enable mobile communication, internet
+  access and multimedia playback. Their open architecture supports a broad
+  ecosystem of third-party applications.
 _links:
   self:
     href: /devices/android/
