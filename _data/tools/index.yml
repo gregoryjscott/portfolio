@@ -58,8 +58,8 @@ _embedded:
         projects:
           - title: Nuggets
             subtitle: Dynamic Curriculum Generation with AI
-            desc: React Native app for iOS and Android that uses AI and finite state
-              machines to generate personalized learning curriculum.
+            desc: Cross-platform React Native app that leverages AI and finite state
+              machines to generate dynamic, personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -214,8 +214,8 @@ _embedded:
         projects:
           - title: Nuggets
             subtitle: Dynamic Curriculum Generation with AI
-            desc: React Native app for iOS and Android that uses AI and finite state
-              machines to generate personalized learning curriculum.
+            desc: Cross-platform React Native app that leverages AI and finite state
+              machines to generate dynamic, personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -348,8 +348,8 @@ _embedded:
         projects:
           - title: Nuggets
             subtitle: Dynamic Curriculum Generation with AI
-            desc: React Native app for iOS and Android that uses AI and finite state
-              machines to generate personalized learning curriculum.
+            desc: Cross-platform React Native app that leverages AI and finite state
+              machines to generate dynamic, personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -486,8 +486,8 @@ _embedded:
         projects:
           - title: Nuggets
             subtitle: Dynamic Curriculum Generation with AI
-            desc: React Native app for iOS and Android that uses AI and finite state
-              machines to generate personalized learning curriculum.
+            desc: Cross-platform React Native app that leverages AI and finite state
+              machines to generate dynamic, personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -618,8 +618,8 @@ _embedded:
         projects:
           - title: Nuggets
             subtitle: Dynamic Curriculum Generation with AI
-            desc: React Native app for iOS and Android that uses AI and finite state
-              machines to generate personalized learning curriculum.
+            desc: Cross-platform React Native app that leverages AI and finite state
+              machines to generate dynamic, personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -733,16 +733,16 @@ _embedded:
                 - href: /devices/tv/
     - title: React Native
       desc: React Native is an open-source framework developed by Facebook that
-        enables developers to build mobile apps for iOS and Android using
-        JavaScript and React. Instead of rendering web views, React Native
-        translates UI components into native platform widgets, delivering
-        near-native performance and look-and-feel. Its component-based
-        architecture and one-way data flow mirror React for the web, making it
-        easy for JavaScript developers to pick up. Features like hot reloading
-        accelerate the development cycle by instantly reflecting code changes on
-        the device. A rich ecosystem of libraries and a large community
-        contribute reusable modules and plugins, simplifying access to native
-        device features (camera, geolocation, sensors) without writing
+        enables developers to build cross-platform apps using JavaScript and
+        React. Instead of rendering web views, React Native translates UI
+        components into native platform widgets, delivering near-native
+        performance and look-and-feel. Its component-based architecture and
+        one-way data flow mirror React for the web, making it easy for
+        JavaScript developers to pick up. Features like hot reloading accelerate
+        the development cycle by instantly reflecting code changes on the
+        device. A rich ecosystem of libraries and a large community contribute
+        reusable modules and plugins, simplifying access to native device
+        features (camera, geolocation, sensors) without writing
         platform-specific code. By sharing logic and UI components across
         platforms, React Native significantly reduces development time and
         maintenance overhead compared to traditional native app development.
@@ -759,8 +759,8 @@ _embedded:
         projects:
           - title: Nuggets
             subtitle: Dynamic Curriculum Generation with AI
-            desc: React Native app for iOS and Android that uses AI and finite state
-              machines to generate personalized learning curriculum.
+            desc: Cross-platform React Native app that leverages AI and finite state
+              machines to generate dynamic, personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -894,8 +894,8 @@ _embedded:
         projects:
           - title: Nuggets
             subtitle: Dynamic Curriculum Generation with AI
-            desc: React Native app for iOS and Android that uses AI and finite state
-              machines to generate personalized learning curriculum.
+            desc: Cross-platform React Native app that leverages AI and finite state
+              machines to generate dynamic, personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -1029,8 +1029,8 @@ _embedded:
         projects:
           - title: Nuggets
             subtitle: Dynamic Curriculum Generation with AI
-            desc: React Native app for iOS and Android that uses AI and finite state
-              machines to generate personalized learning curriculum.
+            desc: Cross-platform React Native app that leverages AI and finite state
+              machines to generate dynamic, personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -1251,8 +1251,8 @@ _embedded:
         projects:
           - title: Nuggets
             subtitle: Dynamic Curriculum Generation with AI
-            desc: React Native app for iOS and Android that uses AI and finite state
-              machines to generate personalized learning curriculum.
+            desc: Cross-platform React Native app that leverages AI and finite state
+              machines to generate dynamic, personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -1473,8 +1473,8 @@ _embedded:
         projects:
           - title: Nuggets
             subtitle: Dynamic Curriculum Generation with AI
-            desc: React Native app for iOS and Android that uses AI and finite state
-              machines to generate personalized learning curriculum.
+            desc: Cross-platform React Native app that leverages AI and finite state
+              machines to generate dynamic, personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -1695,8 +1695,8 @@ _embedded:
         projects:
           - title: Nuggets
             subtitle: Dynamic Curriculum Generation with AI
-            desc: React Native app for iOS and Android that uses AI and finite state
-              machines to generate personalized learning curriculum.
+            desc: Cross-platform React Native app that leverages AI and finite state
+              machines to generate dynamic, personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -1917,8 +1917,8 @@ _embedded:
         projects:
           - title: Nuggets
             subtitle: Dynamic Curriculum Generation with AI
-            desc: React Native app for iOS and Android that uses AI and finite state
-              machines to generate personalized learning curriculum.
+            desc: Cross-platform React Native app that leverages AI and finite state
+              machines to generate dynamic, personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -2139,8 +2139,8 @@ _embedded:
         projects:
           - title: Nuggets
             subtitle: Dynamic Curriculum Generation with AI
-            desc: React Native app for iOS and Android that uses AI and finite state
-              machines to generate personalized learning curriculum.
+            desc: Cross-platform React Native app that leverages AI and finite state
+              machines to generate dynamic, personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -2361,8 +2361,8 @@ _embedded:
         projects:
           - title: Nuggets
             subtitle: Dynamic Curriculum Generation with AI
-            desc: React Native app for iOS and Android that uses AI and finite state
-              machines to generate personalized learning curriculum.
+            desc: Cross-platform React Native app that leverages AI and finite state
+              machines to generate dynamic, personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -2583,8 +2583,8 @@ _embedded:
         projects:
           - title: Nuggets
             subtitle: Dynamic Curriculum Generation with AI
-            desc: React Native app for iOS and Android that uses AI and finite state
-              machines to generate personalized learning curriculum.
+            desc: Cross-platform React Native app that leverages AI and finite state
+              machines to generate dynamic, personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -2807,8 +2807,8 @@ _embedded:
         projects:
           - title: Nuggets
             subtitle: Dynamic Curriculum Generation with AI
-            desc: React Native app for iOS and Android that uses AI and finite state
-              machines to generate personalized learning curriculum.
+            desc: Cross-platform React Native app that leverages AI and finite state
+              machines to generate dynamic, personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present
@@ -3031,8 +3031,8 @@ _embedded:
         projects:
           - title: Nuggets
             subtitle: Dynamic Curriculum Generation with AI
-            desc: React Native app for iOS and Android that uses AI and finite state
-              machines to generate personalized learning curriculum.
+            desc: Cross-platform React Native app that leverages AI and finite state
+              machines to generate dynamic, personalized learning curriculum.
             role: Author
             begin_year: 2023
             end_year: present

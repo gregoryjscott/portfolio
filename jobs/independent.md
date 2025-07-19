@@ -73,7 +73,7 @@ _links:
     - href: /devices/tv/
 ---
 
-- Developing an AI-powered language learning app for iOS and Android, taking it from a personal proof-of-concept to a formal research tool for a master's degree study on micro-learning.
+- Developed an AI-driven, cross-platform React Native language learning app for a master’s degree study on microlearning.
 - Built an interactive mobile study tool for the U.S. Naturalization Test, featuring audio questions, practice exams, and bookmarking to help learners master the official USCIS curriculum.
 - Architected and built the unified software infrastructure for the City of Fort Worth's public websites, consolidating disparate CMSs, APIs, and datasets into a single, manageable Jekyll-based static site.
 - Established the core technical foundation for a Code for America civic tech project, implementing the project structure, building the automated testing suite, and debugging the core scheduling logic for a citizen reminder system.
