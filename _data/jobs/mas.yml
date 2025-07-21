@@ -68,7 +68,7 @@ _embedded:
         jobs:
           - href: /jobs/mas/
     - title: Wen-GAGE Accounting
-      desc: Desktop application that is used by schools in Oklahoma to manage all
+      desc: Suite of desktop applications used by schools in Oklahoma to manage all
         their school accounting responsibilites.
       role: Lead Developer
       begin_year: 1999
@@ -90,7 +90,7 @@ _embedded:
         jobs:
           - href: /jobs/mas/
     - title: Wen-GAGE Student Information
-      desc: Desktop application that is used by schools in Oklahoma to manage their
+      desc: Suite of desktop applications used by schools in Oklahoma to manage their
         student information such as enrollment, attendance, and grades.
       role: Lead Developer
       begin_year: 1999
@@ -149,13 +149,13 @@ _embedded:
           href: /languages/cs/
         projects:
           - href: /projects/agdc/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
           - href: /projects/bit-proposal/
           - href: /projects/centroid/
           - href: /projects/cis-data-capture/
-          - href: /projects/database-sync-awwu/
           - href: /projects/denver-schedules-api/
           - href: /projects/energy-efficiency-map/
           - href: /projects/flir-monitoring/
@@ -212,12 +212,12 @@ _embedded:
         projects:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
           - href: /projects/cis-data-capture/
           - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
           - href: /projects/denver-schedules-api/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
@@ -319,6 +319,7 @@ _embedded:
         projects:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
@@ -327,7 +328,6 @@ _embedded:
           - href: /projects/cis-data-capture/
           - href: /projects/class-scheduler/
           - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
           - href: /projects/epic-ca-enrollment/
@@ -367,6 +367,7 @@ _embedded:
         projects:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
@@ -375,7 +376,6 @@ _embedded:
           - href: /projects/cis-data-capture/
           - href: /projects/class-scheduler/
           - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
           - href: /projects/denver-schedules-api/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/

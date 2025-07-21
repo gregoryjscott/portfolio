@@ -11,6 +11,7 @@ _links:
   projects:
     - href: /projects/agdc/
     - href: /projects/ahfc-integration/
+    - href: /projects/awwu-database-sync/
     - href: /projects/awwu-intranet/
     - href: /projects/awwu-job-scheduler/
     - href: /projects/awwu-systems-integration/
@@ -18,7 +19,6 @@ _links:
     - href: /projects/centroid/
     - href: /projects/cis-data-capture/
     - href: /projects/consumption-views/
-    - href: /projects/database-sync-awwu/
     - href: /projects/employee-suggestions/
     - href: /projects/energy-efficiency-map/
     - href: /projects/flir-monitoring/
@@ -85,7 +85,7 @@ content: >-
 _embedded:
   projects:
     - title: Centroid
-      desc: Library for accessing environment based configuration from multiple
+      desc: Library for accessing environment-based configuration from multiple
         different programming languages.
       role: Contributor
       begin_year: 2014
@@ -111,8 +111,9 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
     - title: Alaska Gasline Development Corporation
-      desc: Web application that provides AGDC with documentation, reporting, and
-        querying tools for their vast GIS data and infrastructure.
+      desc: Web application that provides Alaska Gasline Development Corporation
+        (AGDC) with documentation, reporting, and querying tools for their vast
+        GIS data and infrastructure.
       role: Technical Lead
       begin_year: 2013
       end_year: 2014
@@ -161,7 +162,8 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
     - title: AHFC Integration
-      desc: Alaska Housing Finance Corporation Integration
+      desc: Backend services that integrate Alaska Housing Finance Corporation (AHFC)
+        datasets with the Alaska Energy Authority (AEA) datasets.
       role: Technical Lead
       begin_year: 2013
       end_year: 2013
@@ -179,7 +181,8 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
     - title: Systems Portal
-      desc: Web application for tracking data used by systems administrators.
+      desc: Internal web application for tracking data used by Resource Data, Inc.
+        (RDI) systems administrators.
       role: Technical Lead
       begin_year: 2013
       end_year: 2013
@@ -201,8 +204,8 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
     - title: Energy Efficiency Map
-      desc: Web application that allows the Alaska Energy Authority to monitor and
-        administer data from their statewide energy saving programs.
+      desc: Web application that allows the Alaska Energy Authority (AEA) to monitor
+        and administer data from their statewide energy saving programs.
       role: Technical Lead
       begin_year: 2012
       end_year: 2013
@@ -250,7 +253,8 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
     - title: Scrum Tools
-      desc: null
+      desc: Internal project management tool with iteration-based, story-driven agile
+        planning and tracking.
       role: Technical Lead
       begin_year: 2012
       end_year: 2013
@@ -299,8 +303,9 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
     - title: Consumption Views
-      desc: Set of database views that provides water consumption information that
-        feed into reporting tools used by AWWU to make business decisions.
+      desc: Comprehensive set of database views that provide water consumption
+        information that feeds into reporting tools used by Anchorage Water &
+        Wastewater Utility's (AWWU) to make business decisions.
       role: Lead Developer
       begin_year: 2009
       end_year: 2009
@@ -342,8 +347,30 @@ _embedded:
           - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
+    - title: AWWU Database Synchronization
+      desc: Backend service that synchronizes Anchorage Water & Wastewater Utility's
+        (AWWU) Oracle databases to provide redundant data for reporting and
+        analysis.
+      role: Technical Lead
+      begin_year: 2008
+      end_year: 2008
+      _links:
+        self:
+          href: /projects/awwu-database-sync/
+        languages:
+          - href: /languages/cs/
+          - href: /languages/sql/
+        db:
+          - href: /db/oracle/
+        os:
+          - href: /os/windows/
+        devices:
+          - href: /devices/server/
+        jobs:
+          - href: /jobs/rdi/
     - title: Bit Proposal
-      desc: null
+      desc: Desktop application for showcasing drill bits available for oil and gas
+        drilling.
       role: Lead Developer
       begin_year: 2008
       end_year: 2008
@@ -358,29 +385,10 @@ _embedded:
           - href: /devices/pc/
         jobs:
           - href: /jobs/rdi/
-    - title: Database Synchronization (AWWU)
-      desc: null
-      role: Lead Developer
-      begin_year: 2008
-      end_year: 2008
-      _links:
-        self:
-          href: /projects/database-sync-awwu/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/sql/
-        db:
-          - href: /db/oracle/
-        os:
-          - href: /os/windows/
-        devices:
-          - href: /devices/server/
-        jobs:
-          - href: /jobs/rdi/
     - title: Range Finding
       desc: Software that records output from a handheld laser range finder and
         combines it with records from a GPS unit which allows field workers to
-        record the locations of objects that aren't assessible otherwise.
+        record the locations of objects that aren't accessible otherwise.
       role: Lead Developer
       begin_year: 2008
       end_year: 2008
@@ -399,8 +407,9 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
     - title: AWWU Intranet
-      desc: Web application that contains AWWU's reporting and querying tools, systems
-        status, and custom applications.
+      desc: Web application that contains Anchorage Water & Wastewater Utility's
+        (AWWU) reporting and querying tools, systems status, and custom
+        applications.
       role: Technical Lead
       begin_year: 2005
       end_year: 2008
@@ -442,7 +451,7 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
     - title: SAR Reports
-      desc: null
+      desc: Custom reports built from synthetic aperture radar (SAR) datasets.
       role: Lead Developer
       begin_year: 2007
       end_year: 2007
@@ -481,8 +490,9 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
     - title: CIS Data Capture
-      desc: Console application that captures monthly snapshots of AWWU's customer
-        information system (CIS) data and loads it into a data warehouse.
+      desc: Console application that captures monthly snapshots of Anchorage Water &
+        Wastewater Utility's (AWWU) customer information system (CIS) data and
+        loads it into a data warehouse.
       role: Technical Lead
       begin_year: 2006
       end_year: 2006
@@ -502,7 +512,8 @@ _embedded:
           - href: /jobs/rdi/
     - title: AWWU Job Scheduler
       desc: Framework for creating background processing jobs that migrate,
-        synchronize, and transform data throughout AWWU's integrated systems.
+        synchronize, and transform data throughout Anchorage Water & Wastewater
+        Utility's (AWWU) integrated systems.
       role: Technical Lead
       begin_year: 2005
       end_year: 2006
@@ -521,7 +532,8 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
     - title: AWWU Systems Integration
-      desc: null
+      desc: Backend services that integrate Anchorage Water & Wastewater Utility's
+        (AWWU) customer information system (CIS) with other internal systems.
       role: Technical Lead
       begin_year: 2005
       end_year: 2006
@@ -539,9 +551,10 @@ _embedded:
           - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
-    - title: Employees Suggestion
-      desc: Oracle Forms application that allows AWWU employees to submit suggestions
-        for improving the AWWU workplace.
+    - title: Employee Suggestions
+      desc: Oracle Forms application that allows Anchorage Water & Wastewater
+        Utility's (AWWU) employees to submit suggestions for improving the AWWU
+        workplace.
       role: Lead Developer
       begin_year: 2005
       end_year: 2005
@@ -559,7 +572,7 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
     - title: Report Engine
-      desc: C# library for producing HTML reports based on database queries.
+      desc: C# library for generating HTML reports based on database queries.
       role: Lead Developer
       begin_year: 2005
       end_year: 2005
@@ -591,13 +604,13 @@ _embedded:
           href: /languages/cs/
         projects:
           - href: /projects/agdc/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
           - href: /projects/bit-proposal/
           - href: /projects/centroid/
           - href: /projects/cis-data-capture/
-          - href: /projects/database-sync-awwu/
           - href: /projects/denver-schedules-api/
           - href: /projects/energy-efficiency-map/
           - href: /projects/flir-monitoring/
@@ -763,12 +776,12 @@ _embedded:
         projects:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
           - href: /projects/cis-data-capture/
           - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
           - href: /projects/denver-schedules-api/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
@@ -821,12 +834,12 @@ _embedded:
         self:
           href: /db/oracle/
         projects:
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
           - href: /projects/cis-data-capture/
           - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
           - href: /projects/employee-suggestions/
           - href: /projects/sar-reports/
           - href: /projects/somd/
@@ -996,6 +1009,7 @@ _embedded:
         projects:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
@@ -1004,7 +1018,6 @@ _embedded:
           - href: /projects/cis-data-capture/
           - href: /projects/class-scheduler/
           - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
           - href: /projects/epic-ca-enrollment/
@@ -1196,6 +1209,7 @@ _embedded:
         projects:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
@@ -1204,7 +1218,6 @@ _embedded:
           - href: /projects/cis-data-capture/
           - href: /projects/class-scheduler/
           - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
           - href: /projects/denver-schedules-api/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/

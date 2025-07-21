@@ -1,5 +1,6 @@
 title: Systems Portal
-desc: Web application for tracking data used by systems administrators.
+desc: Internal web application for tracking data used by Resource Data, Inc.
+  (RDI) systems administrators.
 role: Technical Lead
 begin_year: 2013
 end_year: 2013
@@ -38,13 +39,13 @@ _embedded:
           href: /languages/cs/
         projects:
           - href: /projects/agdc/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
           - href: /projects/bit-proposal/
           - href: /projects/centroid/
           - href: /projects/cis-data-capture/
-          - href: /projects/database-sync-awwu/
           - href: /projects/denver-schedules-api/
           - href: /projects/energy-efficiency-map/
           - href: /projects/flir-monitoring/
@@ -163,12 +164,12 @@ _embedded:
         projects:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
           - href: /projects/cis-data-capture/
           - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
           - href: /projects/denver-schedules-api/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
@@ -229,6 +230,7 @@ _embedded:
         projects:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
@@ -237,7 +239,6 @@ _embedded:
           - href: /projects/cis-data-capture/
           - href: /projects/class-scheduler/
           - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
           - href: /projects/epic-ca-enrollment/
@@ -277,6 +278,7 @@ _embedded:
         projects:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
@@ -285,7 +287,6 @@ _embedded:
           - href: /projects/cis-data-capture/
           - href: /projects/class-scheduler/
           - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
           - href: /projects/denver-schedules-api/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
@@ -327,6 +328,7 @@ _embedded:
         projects:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
@@ -334,7 +336,6 @@ _embedded:
           - href: /projects/centroid/
           - href: /projects/cis-data-capture/
           - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
           - href: /projects/flir-monitoring/

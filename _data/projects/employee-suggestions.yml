@@ -1,6 +1,7 @@
-title: Employees Suggestion
-desc: Oracle Forms application that allows AWWU employees to submit suggestions
-  for improving the AWWU workplace.
+title: Employee Suggestions
+desc: Oracle Forms application that allows Anchorage Water & Wastewater
+  Utility's (AWWU) employees to submit suggestions for improving the AWWU
+  workplace.
 role: Lead Developer
 begin_year: 2005
 end_year: 2005
@@ -35,12 +36,12 @@ _embedded:
         projects:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
           - href: /projects/cis-data-capture/
           - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
           - href: /projects/denver-schedules-api/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
@@ -76,12 +77,12 @@ _embedded:
         self:
           href: /db/oracle/
         projects:
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
           - href: /projects/cis-data-capture/
           - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
           - href: /projects/employee-suggestions/
           - href: /projects/sar-reports/
           - href: /projects/somd/
@@ -105,6 +106,7 @@ _embedded:
         projects:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
@@ -113,7 +115,6 @@ _embedded:
           - href: /projects/cis-data-capture/
           - href: /projects/class-scheduler/
           - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
           - href: /projects/epic-ca-enrollment/
@@ -153,6 +154,7 @@ _embedded:
         projects:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
@@ -161,7 +163,6 @@ _embedded:
           - href: /projects/cis-data-capture/
           - href: /projects/class-scheduler/
           - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
           - href: /projects/denver-schedules-api/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
@@ -203,6 +204,7 @@ _embedded:
         projects:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
@@ -210,7 +212,6 @@ _embedded:
           - href: /projects/centroid/
           - href: /projects/cis-data-capture/
           - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
           - href: /projects/flir-monitoring/

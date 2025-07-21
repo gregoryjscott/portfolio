@@ -157,7 +157,7 @@ _embedded:
         jobs:
           - href: /jobs/independent/
     - title: hazelandgreg.wedding
-      desc: Wedding website for Hazel and Greg
+      desc: Website for Hazel and Greg's wedding.
       role: Author
       begin_year: 2025
       end_year: 2025
@@ -179,7 +179,7 @@ _embedded:
         jobs:
           - href: /jobs/independent/
     - title: aprender
-      desc: CLI for learning Spanish
+      desc: CLI for practicing beginner Spanish concepts.
       role: Author
       begin_year: 2017
       end_year: 2017
@@ -264,8 +264,8 @@ _embedded:
         jobs:
           - href: /jobs/independent/
     - title: jekyll-embed
-      desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
-        frontmatter
+      desc: RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown
+        frontmatter.
       role: Author
       begin_year: 2014
       end_year: 2014
@@ -355,8 +355,8 @@ _embedded:
         jobs:
           - href: /jobs/independent/
     - title: MvcIntegrationTestFramework
-      desc: Framework that can be used to perform integration tests on a ASP.NET MVC
-        application.
+      desc: Library for integration testing .NET MVC applications based on Steve
+        Sanderson's blog post.
       role: Author
       begin_year: 2010
       end_year: 2010
@@ -391,13 +391,13 @@ _embedded:
           href: /languages/cs/
         projects:
           - href: /projects/agdc/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
           - href: /projects/bit-proposal/
           - href: /projects/centroid/
           - href: /projects/cis-data-capture/
-          - href: /projects/database-sync-awwu/
           - href: /projects/denver-schedules-api/
           - href: /projects/energy-efficiency-map/
           - href: /projects/flir-monitoring/
@@ -545,12 +545,12 @@ _embedded:
         projects:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
           - href: /projects/cis-data-capture/
           - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
           - href: /projects/denver-schedules-api/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
@@ -1140,6 +1140,7 @@ _embedded:
         projects:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
@@ -1148,7 +1149,6 @@ _embedded:
           - href: /projects/cis-data-capture/
           - href: /projects/class-scheduler/
           - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
           - href: /projects/epic-ca-enrollment/
@@ -1285,6 +1285,7 @@ _embedded:
         projects:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
@@ -1293,7 +1294,6 @@ _embedded:
           - href: /projects/cis-data-capture/
           - href: /projects/class-scheduler/
           - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
           - href: /projects/denver-schedules-api/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
