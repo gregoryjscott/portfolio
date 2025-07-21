@@ -11,7 +11,7 @@ used_begin_year: 2007
 used_end_year: 2007
 _links:
   self:
-    href: /devices/iphone/
+    href: /devices/laser/
   projects:
     - href: /projects/flir-monitoring/
   jobs:

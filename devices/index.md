@@ -14,7 +14,7 @@ _links:
     - href: /devices/gps/
     - href: /devices/ipad/
     - href: /devices/iphone/
-    - href: /devices/iphone/
+    - href: /devices/laser/
     - href: /devices/mac/
     - href: /devices/pc/
     - href: /devices/range-finder/
