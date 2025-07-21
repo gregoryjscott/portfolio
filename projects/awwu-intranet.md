@@ -2,8 +2,8 @@
 layout: details
 title: AWWU Intranet
 desc: >-
-  Web application that contains AWWU's reporting and querying tools, systems
-  status, and custom applications.
+  Web application that contains Anchorage Water & Wastewater Utility's (AWWU)
+  reporting and querying tools, systems status, and custom applications.
 role: Technical Lead
 begin_year: 2005
 end_year: 2008

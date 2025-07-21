@@ -1,7 +1,9 @@
 ---
 layout: details
 title: AHFC Integration
-desc: Alaska Housing Finance Corporation Integration
+desc: >-
+  Backend services that integrate Alaska Housing Finance Corporation (AHFC)
+  datasets with the Alaska Energy Authority (AEA) datasets.
 role: Technical Lead
 begin_year: 2013
 end_year: 2013

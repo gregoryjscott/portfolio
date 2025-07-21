@@ -2,7 +2,7 @@
 layout: details
 title: Wen-GAGE Accounting
 desc: >-
-  Desktop application that is used by schools in Oklahoma to manage all their
+  Suite of desktop applications used by schools in Oklahoma to manage all their
   school accounting responsibilites.
 role: Lead Developer
 begin_year: 1999

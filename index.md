@@ -20,7 +20,7 @@ Hello,
 
 Check out my [resume](/resume/)!
 
-I've programmed [servers](/devices/server), [clouds](/devices/cloud), [PCs](/devices/pc), [Macs](/devices/mac), [iPhones](/devices/iphone), [Androids](/devices/android), [iPads](/devices/ipad), [Chromebooks](/devices/chromebook), [TVs](/devices/tv), [hand-held range finders](/devices/range-finder), [GPS devices](/devices/gps), [lasers mounted to planes](/devices/laser), [calculators](/devices/calculator), and [B-1 bombers](/devices/b-1).
+I've programmed [servers](/devices/server), [clouds](/devices/cloud), [PCs](/devices/pc), [Macs](/devices/mac), [iPhones](/devices/iphone), [Androids](/devices/android), [iPads](/devices/ipad), [Chromebooks](/devices/chromebook), [TVs](/devices/tv), [hand-held range finders](/devices/range-finder), [GPS devices](/devices/gps), [lasers mounted to planes](/devices/laser), [calculators](/devices/calculator), and [B-1 Bombers](/devices/b-1).
 
 [Reach out](mailto:me@gregoryjscott.com) if you'd like to work together.
 

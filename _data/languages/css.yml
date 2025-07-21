@@ -56,7 +56,7 @@ _embedded:
         jobs:
           - href: /jobs/independent/
     - title: hazelandgreg.wedding
-      desc: Wedding website for Hazel and Greg
+      desc: Website for Hazel and Greg's wedding.
       role: Author
       begin_year: 2025
       end_year: 2025
@@ -78,8 +78,9 @@ _embedded:
         jobs:
           - href: /jobs/independent/
     - title: Alaska Gasline Development Corporation
-      desc: Web application that provides AGDC with documentation, reporting, and
-        querying tools for their vast GIS data and infrastructure.
+      desc: Web application that provides Alaska Gasline Development Corporation
+        (AGDC) with documentation, reporting, and querying tools for their vast
+        GIS data and infrastructure.
       role: Technical Lead
       begin_year: 2013
       end_year: 2014
@@ -103,7 +104,8 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
     - title: Systems Portal
-      desc: Web application for tracking data used by systems administrators.
+      desc: Internal web application for tracking data used by Resource Data, Inc.
+        (RDI) systems administrators.
       role: Technical Lead
       begin_year: 2013
       end_year: 2013
@@ -125,8 +127,8 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
     - title: Energy Efficiency Map
-      desc: Web application that allows the Alaska Energy Authority to monitor and
-        administer data from their statewide energy saving programs.
+      desc: Web application that allows the Alaska Energy Authority (AEA) to monitor
+        and administer data from their statewide energy saving programs.
       role: Technical Lead
       begin_year: 2012
       end_year: 2013
@@ -174,7 +176,8 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
     - title: Scrum Tools
-      desc: null
+      desc: Internal project management tool with iteration-based, story-driven agile
+        planning and tracking.
       role: Technical Lead
       begin_year: 2012
       end_year: 2013
@@ -248,8 +251,9 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
     - title: AWWU Intranet
-      desc: Web application that contains AWWU's reporting and querying tools, systems
-        status, and custom applications.
+      desc: Web application that contains Anchorage Water & Wastewater Utility's
+        (AWWU) reporting and querying tools, systems status, and custom
+        applications.
       role: Technical Lead
       begin_year: 2005
       end_year: 2008
@@ -354,6 +358,7 @@ _embedded:
         projects:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
@@ -361,13 +366,12 @@ _embedded:
           - href: /projects/centroid/
           - href: /projects/cis-data-capture/
           - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
           - href: /projects/flir-monitoring/
-          - href: /projects/laser-range-finder/
           - href: /projects/please/
           - href: /projects/qb/
+          - href: /projects/range-finding/
           - href: /projects/report-engine/
           - href: /projects/sar-reports/
           - href: /projects/scramble-score/

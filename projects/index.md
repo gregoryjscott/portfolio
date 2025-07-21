@@ -9,6 +9,7 @@ _links:
     - href: /projects/agdc/
     - href: /projects/ahfc-integration/
     - href: /projects/aprender/
+    - href: /projects/awwu-database-sync/
     - href: /projects/awwu-intranet/
     - href: /projects/awwu-job-scheduler/
     - href: /projects/awwu-systems-integration/
@@ -19,7 +20,6 @@ _links:
     - href: /projects/cis-data-capture/
     - href: /projects/class-scheduler/
     - href: /projects/consumption-views/
-    - href: /projects/database-sync-awwu/
     - href: /projects/denver-schedules-api/
     - href: /projects/employee-suggestions/
     - href: /projects/energy-efficiency-map/
@@ -31,13 +31,13 @@ _links:
     - href: /projects/jekyll-load/
     - href: /projects/jekyll-prep/
     - href: /projects/la-boda/
-    - href: /projects/laser-range-finder/
     - href: /projects/mission-data-loader/
     - href: /projects/mvc-integration-test-framework/
     - href: /projects/nuggets/
     - href: /projects/please/
     - href: /projects/portfolio/
     - href: /projects/qb/
+    - href: /projects/range-finding/
     - href: /projects/report-engine/
     - href: /projects/sar-reports/
     - href: /projects/scramble-score/

@@ -1,7 +1,7 @@
 ---
 layout: details
 title: Epic California Academy Enrollment
-desc: null
+desc: Student enrollment application for the Epic California Academy.
 role: Technical Lead
 begin_year: 2017
 end_year: 2021

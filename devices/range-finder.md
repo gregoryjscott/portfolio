@@ -14,7 +14,7 @@ _links:
   self:
     href: /devices/range-finder/
   projects:
-    - href: /projects/laser-range-finder/
+    - href: /projects/range-finding/
   jobs:
     - href: /jobs/rdi/
 ---

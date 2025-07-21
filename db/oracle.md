@@ -16,12 +16,12 @@ _links:
   self:
     href: /db/oracle/
   projects:
+    - href: /projects/awwu-database-sync/
     - href: /projects/awwu-intranet/
     - href: /projects/awwu-job-scheduler/
     - href: /projects/awwu-systems-integration/
     - href: /projects/cis-data-capture/
     - href: /projects/consumption-views/
-    - href: /projects/database-sync-awwu/
     - href: /projects/employee-suggestions/
     - href: /projects/sar-reports/
     - href: /projects/somd/

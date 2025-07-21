@@ -34,7 +34,7 @@ _links:
 
 # Gregory J. Scott
 
-Software architect with 25+ years of experience designing and building robust systems for mission-critical environments, from B-1 bomber avionics to scalable cloud platforms on AWS. Now developing the next generation of educational technology, leveraging AI to create personalized learning experiences delivered as universal apps.
+Software architect with 25+ years of experience designing and building robust systems for mission-critical environments, from B-1 Bomber avionics to scalable cloud platforms on AWS. Now developing the next generation of educational technology, leveraging AI to create personalized learning experiences delivered as universal apps.
 
 - Web: [https://gregoryjscott.com](https://gregoryjscott.com)
 - Email: [me@gregoryjscott.com](mailto:me@gregoryjscott.com)

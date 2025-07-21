@@ -19,7 +19,7 @@ _links:
 _embedded:
   projects:
     - title: Centroid
-      desc: Library for accessing environment based configuration from multiple
+      desc: Library for accessing environment-based configuration from multiple
         different programming languages.
       role: Contributor
       begin_year: 2014
@@ -45,8 +45,9 @@ _embedded:
         jobs:
           - href: /jobs/rdi/
     - title: Alaska Gasline Development Corporation
-      desc: Web application that provides AGDC with documentation, reporting, and
-        querying tools for their vast GIS data and infrastructure.
+      desc: Web application that provides Alaska Gasline Development Corporation
+        (AGDC) with documentation, reporting, and querying tools for their vast
+        GIS data and infrastructure.
       role: Technical Lead
       begin_year: 2013
       end_year: 2014
@@ -83,6 +84,7 @@ _embedded:
         projects:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
@@ -90,13 +92,12 @@ _embedded:
           - href: /projects/centroid/
           - href: /projects/cis-data-capture/
           - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
           - href: /projects/flir-monitoring/
-          - href: /projects/laser-range-finder/
           - href: /projects/please/
           - href: /projects/qb/
+          - href: /projects/range-finding/
           - href: /projects/report-engine/
           - href: /projects/sar-reports/
           - href: /projects/scramble-score/

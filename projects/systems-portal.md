@@ -1,7 +1,9 @@
 ---
 layout: details
 title: Systems Portal
-desc: Web application for tracking data used by systems administrators.
+desc: >-
+  Internal web application for tracking data used by Resource Data, Inc. (RDI)
+  systems administrators.
 role: Technical Lead
 begin_year: 2013
 end_year: 2013

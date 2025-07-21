@@ -18,6 +18,7 @@ _links:
   projects:
     - href: /projects/agdc/
     - href: /projects/ahfc-integration/
+    - href: /projects/awwu-database-sync/
     - href: /projects/awwu-intranet/
     - href: /projects/awwu-job-scheduler/
     - href: /projects/awwu-systems-integration/
@@ -26,15 +27,14 @@ _links:
     - href: /projects/cis-data-capture/
     - href: /projects/class-scheduler/
     - href: /projects/consumption-views/
-    - href: /projects/database-sync-awwu/
     - href: /projects/employee-suggestions/
     - href: /projects/energy-efficiency-map/
     - href: /projects/epic-ca-enrollment/
     - href: /projects/flir-monitoring/
-    - href: /projects/laser-range-finder/
     - href: /projects/mvc-integration-test-framework/
     - href: /projects/please/
     - href: /projects/qb/
+    - href: /projects/range-finding/
     - href: /projects/report-engine/
     - href: /projects/sar-reports/
     - href: /projects/scrum-tools/

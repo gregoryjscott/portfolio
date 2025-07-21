@@ -17,12 +17,12 @@ _links:
   projects:
     - href: /projects/agdc/
     - href: /projects/ahfc-integration/
+    - href: /projects/awwu-database-sync/
     - href: /projects/awwu-intranet/
     - href: /projects/awwu-job-scheduler/
     - href: /projects/awwu-systems-integration/
     - href: /projects/cis-data-capture/
     - href: /projects/consumption-views/
-    - href: /projects/database-sync-awwu/
     - href: /projects/denver-schedules-api/
     - href: /projects/employee-suggestions/
     - href: /projects/energy-efficiency-map/

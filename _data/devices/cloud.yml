@@ -22,8 +22,8 @@ _embedded:
   projects:
     - title: Nuggets
       subtitle: Dynamic Curriculum Generation with AI
-      desc: React Native app for iOS and Android that uses AI and finite state
-        machines to generate personalized learning curriculum.
+      desc: Cross-platform React Native app that leverages AI and finite state
+        machines to generate dynamic, personalized learning curriculum.
       role: Author
       begin_year: 2023
       end_year: present
@@ -65,7 +65,7 @@ _embedded:
         jobs:
           - href: /jobs/independent/
     - title: hazelandgreg.wedding
-      desc: Wedding website for Hazel and Greg
+      desc: Website for Hazel and Greg's wedding.
       role: Author
       begin_year: 2025
       end_year: 2025
@@ -282,6 +282,7 @@ _embedded:
         projects:
           - href: /projects/agdc/
           - href: /projects/ahfc-integration/
+          - href: /projects/awwu-database-sync/
           - href: /projects/awwu-intranet/
           - href: /projects/awwu-job-scheduler/
           - href: /projects/awwu-systems-integration/
@@ -289,13 +290,12 @@ _embedded:
           - href: /projects/centroid/
           - href: /projects/cis-data-capture/
           - href: /projects/consumption-views/
-          - href: /projects/database-sync-awwu/
           - href: /projects/employee-suggestions/
           - href: /projects/energy-efficiency-map/
           - href: /projects/flir-monitoring/
-          - href: /projects/laser-range-finder/
           - href: /projects/please/
           - href: /projects/qb/
+          - href: /projects/range-finding/
           - href: /projects/report-engine/
           - href: /projects/sar-reports/
           - href: /projects/scramble-score/

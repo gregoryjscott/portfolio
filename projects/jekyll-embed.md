@@ -2,8 +2,8 @@
 layout: details
 title: jekyll-embed
 desc: >-
-  RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown.
-  frontmatter
+  RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown
+  frontmatter.
 role: Author
 begin_year: 2014
 end_year: 2014
