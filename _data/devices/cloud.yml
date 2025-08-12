@@ -37,6 +37,7 @@ _embedded:
         tools:
           - href: /tools/amplify/
           - href: /tools/azure-ai/
+          - href: /tools/codebuild/
           - href: /tools/cognito/
           - href: /tools/docker/
           - href: /tools/ec2/
@@ -104,6 +105,7 @@ _embedded:
           - href: /db/ddb/
         tools:
           - href: /tools/classroom/
+          - href: /tools/codebuild/
           - href: /tools/docker/
           - href: /tools/drive/
           - href: /tools/ec2/
@@ -194,6 +196,7 @@ _embedded:
         tools:
           - href: /tools/amplify/
           - href: /tools/azure-ai/
+          - href: /tools/codebuild/
           - href: /tools/cognito/
           - href: /tools/docker/
           - href: /tools/ec2/
@@ -248,6 +251,7 @@ _embedded:
           - href: /db/firebase/
         tools:
           - href: /tools/classroom/
+          - href: /tools/codebuild/
           - href: /tools/docker/
           - href: /tools/drive/
           - href: /tools/ec2/

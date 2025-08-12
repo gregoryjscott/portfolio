@@ -67,6 +67,7 @@ _embedded:
         tools:
           - href: /tools/amplify/
           - href: /tools/azure-ai/
+          - href: /tools/codebuild/
           - href: /tools/cognito/
           - href: /tools/docker/
           - href: /tools/ec2/
@@ -190,6 +191,23 @@ _embedded:
               projects:
                 - href: /projects/nuggets/
               jobs:
+                - href: /jobs/independent/
+          - title: CodeBuild
+            desc: CodeBuild is a fully managed continuous integration service that compiles
+              source code, runs tests, and produces deployable build artifacts
+              in the cloud. It integrates with version control systems and CI/CD
+              pipelines to automate and scale build processes without requiring
+              you to provision or manage build servers.
+            used_begin_year: 2015
+            used_end_year: present
+            _links:
+              self:
+                href: /tools/codebuild/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
                 - href: /jobs/independent/
           - title: Cognito
             desc: Amazon Cognito is a managed user identity and access management tool that
@@ -693,6 +711,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -1063,6 +1082,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -1340,6 +1360,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -1559,6 +1580,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -1600,6 +1622,7 @@ _embedded:
           - href: /db/ddb/
         tools:
           - href: /tools/classroom/
+          - href: /tools/codebuild/
           - href: /tools/docker/
           - href: /tools/drive/
           - href: /tools/ec2/
@@ -1724,6 +1747,23 @@ _embedded:
                 - href: /jobs/fe/
                 - href: /jobs/independent/
         tools:
+          - title: CodeBuild
+            desc: CodeBuild is a fully managed continuous integration service that compiles
+              source code, runs tests, and produces deployable build artifacts
+              in the cloud. It integrates with version control systems and CI/CD
+              pipelines to automate and scale build processes without requiring
+              you to provision or manage build servers.
+            used_begin_year: 2015
+            used_end_year: present
+            _links:
+              self:
+                href: /tools/codebuild/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
           - title: Docker
             desc: Docker is an open-source platform for developing, shipping, and running
               applications. It uses container technology to package applications
@@ -2160,6 +2200,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -2328,6 +2369,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -2579,6 +2621,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -3292,6 +3335,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -3582,6 +3626,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -3898,6 +3943,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -4188,6 +4234,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -4478,6 +4525,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -7439,6 +7487,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -8154,6 +8203,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
