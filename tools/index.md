@@ -12,6 +12,7 @@ _links:
     - href: /tools/azure-ai/
     - href: /tools/backbone/
     - href: /tools/classroom/
+    - href: /tools/codebuild/
     - href: /tools/cognito/
     - href: /tools/docker/
     - href: /tools/drive/
