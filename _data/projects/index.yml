@@ -2993,6 +2993,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -4529,6 +4530,8 @@ _embedded:
           - href: /languages/sql/
         db:
           - href: /db/sql-server/
+        tools:
+          - href: /tools/jenkins/
         os:
           - href: /os/windows/
         devices:
@@ -4777,6 +4780,27 @@ _embedded:
                 - href: /projects/train-builder/
               jobs:
                 - href: /jobs/rdi/
+        tools:
+          - title: Jenkins
+            desc: Jenkins is an open-source automation server for continuous integration and
+              continuous delivery (CI/CD), enabling automated building, testing
+              and deployment of applications. Its extensible plugin ecosystem
+              and pipeline-as-code model let teams orchestrate complex software
+              delivery workflows across diverse environments.
+            used_begin_year: 2010
+            used_end_year: 2014
+            _links:
+              self:
+                href: /tools/jenkins/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/qb/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+              jobs:
+                - href: /jobs/rdi/
         os:
           - title: Windows
             desc: Windows is a series of operating systems developed by Microsoft. It is the
@@ -4932,6 +4956,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -5289,6 +5314,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -5316,6 +5342,8 @@ _embedded:
           - href: /languages/sql/
         db:
           - href: /db/sql-server/
+        tools:
+          - href: /tools/jenkins/
         os:
           - href: /os/windows/
         devices:
@@ -5388,6 +5416,27 @@ _embedded:
                 - href: /projects/scrum-tools/
                 - href: /projects/systems-portal/
                 - href: /projects/train-builder/
+              jobs:
+                - href: /jobs/rdi/
+        tools:
+          - title: Jenkins
+            desc: Jenkins is an open-source automation server for continuous integration and
+              continuous delivery (CI/CD), enabling automated building, testing
+              and deployment of applications. Its extensible plugin ecosystem
+              and pipeline-as-code model let teams orchestrate complex software
+              delivery workflows across diverse environments.
+            used_begin_year: 2010
+            used_end_year: 2014
+            _links:
+              self:
+                href: /tools/jenkins/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/qb/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
               jobs:
                 - href: /jobs/rdi/
         os:
@@ -5545,6 +5594,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -5931,6 +5981,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -5962,6 +6013,8 @@ _embedded:
           - href: /languages/sql/
         db:
           - href: /db/sql-server/
+        tools:
+          - href: /tools/jenkins/
         os:
           - href: /os/windows/
         devices:
@@ -6162,6 +6215,27 @@ _embedded:
                 - href: /projects/train-builder/
               jobs:
                 - href: /jobs/rdi/
+        tools:
+          - title: Jenkins
+            desc: Jenkins is an open-source automation server for continuous integration and
+              continuous delivery (CI/CD), enabling automated building, testing
+              and deployment of applications. Its extensible plugin ecosystem
+              and pipeline-as-code model let teams orchestrate complex software
+              delivery workflows across diverse environments.
+            used_begin_year: 2010
+            used_end_year: 2014
+            _links:
+              self:
+                href: /tools/jenkins/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/qb/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+              jobs:
+                - href: /jobs/rdi/
         os:
           - title: Windows
             desc: Windows is a series of operating systems developed by Microsoft. It is the
@@ -6317,6 +6391,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -6349,6 +6424,8 @@ _embedded:
           - href: /languages/sql/
         db:
           - href: /db/postgres/
+        tools:
+          - href: /tools/jenkins/
         os:
           - href: /os/linux/
         devices:
@@ -6538,6 +6615,27 @@ _embedded:
               jobs:
                 - href: /jobs/independent/
                 - href: /jobs/rdi/
+        tools:
+          - title: Jenkins
+            desc: Jenkins is an open-source automation server for continuous integration and
+              continuous delivery (CI/CD), enabling automated building, testing
+              and deployment of applications. Its extensible plugin ecosystem
+              and pipeline-as-code model let teams orchestrate complex software
+              delivery workflows across diverse environments.
+            used_begin_year: 2010
+            used_end_year: 2014
+            _links:
+              self:
+                href: /tools/jenkins/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/qb/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+              jobs:
+                - href: /jobs/rdi/
         os:
           - title: Linux
             desc: Linux is an open-source operating system that is based on the Linux
@@ -6679,6 +6777,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -6710,6 +6809,8 @@ _embedded:
           - href: /languages/sql/
         db:
           - href: /db/sql-server/
+        tools:
+          - href: /tools/jenkins/
         os:
           - href: /os/windows/
         devices:
@@ -6910,6 +7011,27 @@ _embedded:
                 - href: /projects/train-builder/
               jobs:
                 - href: /jobs/rdi/
+        tools:
+          - title: Jenkins
+            desc: Jenkins is an open-source automation server for continuous integration and
+              continuous delivery (CI/CD), enabling automated building, testing
+              and deployment of applications. Its extensible plugin ecosystem
+              and pipeline-as-code model let teams orchestrate complex software
+              delivery workflows across diverse environments.
+            used_begin_year: 2010
+            used_end_year: 2014
+            _links:
+              self:
+                href: /tools/jenkins/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/qb/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+              jobs:
+                - href: /jobs/rdi/
         os:
           - title: Windows
             desc: Windows is a series of operating systems developed by Microsoft. It is the
@@ -7065,6 +7187,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -7369,6 +7492,7 @@ _embedded:
           - href: /db/sql-server/
         tools:
           - href: /tools/backbone/
+          - href: /tools/jenkins/
         os:
           - href: /os/windows/
         devices:
@@ -7633,6 +7757,26 @@ _embedded:
                 - href: /projects/qb/
               jobs:
                 - href: /jobs/rdi/
+          - title: Jenkins
+            desc: Jenkins is an open-source automation server for continuous integration and
+              continuous delivery (CI/CD), enabling automated building, testing
+              and deployment of applications. Its extensible plugin ecosystem
+              and pipeline-as-code model let teams orchestrate complex software
+              delivery workflows across diverse environments.
+            used_begin_year: 2010
+            used_end_year: 2014
+            _links:
+              self:
+                href: /tools/jenkins/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/qb/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+              jobs:
+                - href: /jobs/rdi/
         os:
           - title: Windows
             desc: Windows is a series of operating systems developed by Microsoft. It is the
@@ -7788,6 +7932,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -8287,6 +8432,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -8701,6 +8847,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -9004,6 +9151,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -9207,6 +9355,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -9443,6 +9592,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -9833,6 +9983,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -10050,6 +10201,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -10351,6 +10503,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -10623,6 +10776,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -10926,6 +11080,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -11229,6 +11384,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -11531,6 +11687,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -11791,6 +11948,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -12020,6 +12178,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/

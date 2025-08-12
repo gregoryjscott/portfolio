@@ -514,6 +514,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -563,6 +565,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -712,6 +716,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -826,6 +831,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -872,6 +879,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -896,6 +905,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -921,6 +932,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -948,6 +961,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -1124,6 +1138,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -1237,6 +1252,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -1283,6 +1300,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -1307,6 +1326,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -1332,6 +1353,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -1359,6 +1382,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -1535,6 +1559,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -1638,6 +1663,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -1684,6 +1711,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -1708,6 +1737,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -1733,6 +1764,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -1760,6 +1793,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -1936,6 +1970,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -2098,6 +2133,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -2155,6 +2192,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -2283,6 +2321,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -2354,6 +2394,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -2377,6 +2419,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -2424,6 +2468,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -2840,6 +2885,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -2968,6 +3014,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -3012,6 +3060,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -3058,6 +3108,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -3082,6 +3134,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -3107,6 +3161,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -3134,6 +3190,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -3539,6 +3596,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/

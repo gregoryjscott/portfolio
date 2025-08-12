@@ -1382,6 +1382,7 @@ _embedded:
           - href: /db/sql-server/
         tools:
           - href: /tools/backbone/
+          - href: /tools/jenkins/
         os:
           - href: /os/windows/
         devices:
@@ -1646,6 +1647,26 @@ _embedded:
                 - href: /projects/qb/
               jobs:
                 - href: /jobs/rdi/
+          - title: Jenkins
+            desc: Jenkins is an open-source automation server for continuous integration and
+              continuous delivery (CI/CD), enabling automated building, testing
+              and deployment of applications. Its extensible plugin ecosystem
+              and pipeline-as-code model let teams orchestrate complex software
+              delivery workflows across diverse environments.
+            used_begin_year: 2010
+            used_end_year: 2014
+            _links:
+              self:
+                href: /tools/jenkins/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/qb/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+              jobs:
+                - href: /jobs/rdi/
         os:
           - title: Windows
             desc: Windows is a series of operating systems developed by Microsoft. It is the
@@ -1801,6 +1822,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -2514,6 +2536,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -2585,6 +2609,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -2608,6 +2634,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -2655,6 +2683,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -3071,6 +3100,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -3261,6 +3291,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -3307,6 +3339,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -3331,6 +3365,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -3356,6 +3392,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -3383,6 +3421,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -3559,6 +3598,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -3838,6 +3878,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -3884,6 +3926,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -3908,6 +3952,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -3933,6 +3979,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -3960,6 +4008,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -4136,6 +4185,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -4239,6 +4289,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -4285,6 +4337,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -4309,6 +4363,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -4334,6 +4390,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -4361,6 +4419,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -4537,6 +4596,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -4748,6 +4808,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -4805,6 +4867,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -5060,6 +5123,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -5109,6 +5174,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -5258,6 +5325,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -5358,6 +5426,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -5402,6 +5472,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -5448,6 +5520,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -5472,6 +5546,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -5497,6 +5573,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -5524,6 +5602,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -5929,6 +6008,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -6433,6 +6513,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -7276,6 +7357,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -7496,6 +7578,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -7625,6 +7709,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -7684,6 +7769,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -7703,6 +7790,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -7749,6 +7838,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -7772,6 +7863,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -7799,6 +7892,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -7876,6 +7970,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -7986,6 +8081,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -8341,6 +8437,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -8398,6 +8495,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -10832,6 +10930,249 @@ _embedded:
                 - href: /devices/mac/
                 - href: /devices/server/
                 - href: /devices/tv/
+    - title: Jenkins
+      desc: Jenkins is an open-source automation server for continuous integration and
+        continuous delivery (CI/CD), enabling automated building, testing and
+        deployment of applications. Its extensible plugin ecosystem and
+        pipeline-as-code model let teams orchestrate complex software delivery
+        workflows across diverse environments.
+      used_begin_year: 2010
+      used_end_year: 2014
+      _links:
+        self:
+          href: /tools/jenkins/
+        projects:
+          - href: /projects/agdc/
+          - href: /projects/ahfc-integration/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/qb/
+          - href: /projects/scramble-score/
+          - href: /projects/scrum-tools/
+        jobs:
+          - href: /jobs/rdi/
+      _embedded:
+        projects:
+          - title: Alaska Gasline Development Corporation
+            desc: Web application that provides Alaska Gasline Development Corporation
+              (AGDC) with documentation, reporting, and querying tools for their
+              vast GIS data and infrastructure.
+            role: Technical Lead
+            begin_year: 2013
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/agdc/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/py/
+                - href: /languages/rb/
+                - href: /languages/sql/
+              db:
+                - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
+              os:
+                - href: /os/windows/
+              devices:
+                - href: /devices/server/
+              jobs:
+                - href: /jobs/rdi/
+          - title: AHFC Integration
+            desc: Backend services that integrate Alaska Housing Finance Corporation (AHFC)
+              datasets with the Alaska Energy Authority (AEA) datasets.
+            role: Technical Lead
+            begin_year: 2013
+            end_year: 2013
+            _links:
+              self:
+                href: /projects/ahfc-integration/
+              languages:
+                - href: /languages/sql/
+              db:
+                - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
+              os:
+                - href: /os/windows/
+              devices:
+                - href: /devices/server/
+              jobs:
+                - href: /jobs/rdi/
+          - title: Energy Efficiency Map
+            desc: Web application that allows the Alaska Energy Authority (AEA) to monitor
+              and administer data from their statewide energy saving programs.
+            role: Technical Lead
+            begin_year: 2012
+            end_year: 2013
+            _links:
+              self:
+                href: /projects/energy-efficiency-map/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/sql/
+              db:
+                - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
+              os:
+                - href: /os/windows/
+              devices:
+                - href: /devices/server/
+              jobs:
+                - href: /jobs/rdi/
+          - title: ScrambleScore
+            desc: Mobile web application that allows golfers participating in scramble golf
+              tournaments to record their scores and monitor the tournament
+              leaderboard.
+            role: Project Manager
+            begin_year: 2012
+            end_year: 2013
+            _links:
+              self:
+                href: /projects/scramble-score/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+              db:
+                - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
+              os:
+                - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/iphone/
+              jobs:
+                - href: /jobs/rdi/
+          - title: Scrum Tools
+            desc: Internal project management tool with iteration-based, story-driven agile
+              planning and tracking.
+            role: Technical Lead
+            begin_year: 2012
+            end_year: 2013
+            _links:
+              self:
+                href: /projects/scrum-tools/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/sql/
+              db:
+                - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
+              os:
+                - href: /os/windows/
+              devices:
+                - href: /devices/server/
+              jobs:
+                - href: /jobs/rdi/
+          - title: Quality Bank
+            subtitle: Invoicing $1 Billion/Month for Oil Pipeline
+            desc: Rewrite of the Trans-Alaska Pipeline's $1B/month invoicing system,
+              treating business rules as versioned data to give the client full
+              control over constant, retroactive changes.
+            role: Technical Lead
+            begin_year: 2010
+            end_year: 2012
+            _links:
+              self:
+                href: /projects/qb/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/sql/
+              db:
+                - href: /db/sql-server/
+              tools:
+                - href: /tools/backbone/
+                - href: /tools/jenkins/
+              os:
+                - href: /os/windows/
+              devices:
+                - href: /devices/server/
+              jobs:
+                - href: /jobs/rdi/
+        jobs:
+          - title: Resource Data, Inc.
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
+            role: Technical Lead
+            begin_year: 2005
+            end_year: 2014
+            time_desc: July 2005 - July 2014
+            _links:
+              self:
+                href: /jobs/rdi/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-database-sync/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/bit-proposal/
+                - href: /projects/centroid/
+                - href: /projects/cis-data-capture/
+                - href: /projects/consumption-views/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/flir-monitoring/
+                - href: /projects/please/
+                - href: /projects/qb/
+                - href: /projects/range-finding/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/train-builder/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/py/
+                - href: /languages/rb/
+                - href: /languages/sql/
+              db:
+                - href: /db/access/
+                - href: /db/oracle/
+                - href: /db/postgres/
+                - href: /db/sql-server/
+                - href: /db/sqlite/
+              tools:
+                - href: /tools/backbone/
+                - href: /tools/jenkins/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: Node
       desc: Node.js is an open-source, cross-platform JavaScript runtime environment
         that executes JavaScript code outside of a browser. It is used to create
@@ -13011,6 +13352,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -13185,6 +13528,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -13629,6 +13973,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -14026,6 +14371,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -14070,6 +14417,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -14116,6 +14465,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -14139,6 +14490,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -14186,6 +14539,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -14752,6 +15106,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -14908,6 +15263,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -15037,6 +15394,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -15397,6 +15755,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -15571,6 +15931,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -15674,6 +16035,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -15779,6 +16141,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -16009,6 +16372,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -16138,6 +16503,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -16244,6 +16610,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -16656,6 +17023,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -16858,6 +17226,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -17183,6 +17552,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -17202,6 +17573,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -17248,6 +17621,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -17271,6 +17646,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -17318,6 +17695,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -17805,6 +18183,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -20224,6 +20603,7 @@ _embedded:
           - href: /db/sqlite/
         tools:
           - href: /tools/backbone/
+          - href: /tools/jenkins/
         os:
           - href: /os/linux/
           - href: /os/macos/
@@ -20306,6 +20686,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -20350,6 +20732,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -20396,6 +20780,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -20420,6 +20806,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -20445,6 +20833,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -20472,6 +20862,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -21114,6 +21505,26 @@ _embedded:
                 href: /tools/backbone/
               projects:
                 - href: /projects/qb/
+              jobs:
+                - href: /jobs/rdi/
+          - title: Jenkins
+            desc: Jenkins is an open-source automation server for continuous integration and
+              continuous delivery (CI/CD), enabling automated building, testing
+              and deployment of applications. Its extensible plugin ecosystem
+              and pipeline-as-code model let teams orchestrate complex software
+              delivery workflows across diverse environments.
+            used_begin_year: 2010
+            used_end_year: 2014
+            _links:
+              self:
+                href: /tools/jenkins/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/qb/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
               jobs:
                 - href: /jobs/rdi/
         os:
