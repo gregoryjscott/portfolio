@@ -9,9 +9,9 @@
     <p>{{ include.resource.desc }}</p>
   {% endif %}
 
-  <h4>Technologies</h4>
+  <h4 class="details">Technologies</h4>
   {% if include.resource._embedded %}
-    <ul>
+    <ul class="details">
     {% for resource in site.data.resources %}
         {% assign resource_key = resource[0] %}
         {% assign resource_data = resource[1] %}

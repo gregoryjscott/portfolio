@@ -61,6 +61,7 @@ async function generateResumePDF(): Promise<void> {
         .menu-checkbox,
         .menu-btn,
         .menu-overlay,
+        .details,
         footer,
         .resume nav {
           display: none !important;
