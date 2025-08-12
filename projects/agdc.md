@@ -21,6 +21,8 @@ _links:
     - href: /languages/sql/
   db:
     - href: /db/sql-server/
+  tools:
+    - href: /tools/jenkins/
   os:
     - href: /os/windows/
   devices:

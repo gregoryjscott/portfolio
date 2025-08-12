@@ -25,6 +25,7 @@ _links:
     - href: /tools/heroku/
     - href: /tools/iam/
     - href: /tools/jekyll/
+    - href: /tools/jenkins/
     - href: /tools/node/
     - href: /tools/openai/
     - href: /tools/puppeteer/

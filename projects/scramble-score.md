@@ -18,6 +18,8 @@ _links:
     - href: /languages/sql/
   db:
     - href: /db/postgres/
+  tools:
+    - href: /tools/jenkins/
   os:
     - href: /os/linux/
   devices:
