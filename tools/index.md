@@ -12,6 +12,7 @@ _links:
     - href: /tools/azure-ai/
     - href: /tools/backbone/
     - href: /tools/classroom/
+    - href: /tools/codebuild/
     - href: /tools/cognito/
     - href: /tools/docker/
     - href: /tools/drive/
@@ -25,6 +26,7 @@ _links:
     - href: /tools/heroku/
     - href: /tools/iam/
     - href: /tools/jekyll/
+    - href: /tools/jenkins/
     - href: /tools/node/
     - href: /tools/openai/
     - href: /tools/puppeteer/

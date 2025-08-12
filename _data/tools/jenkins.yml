@@ -1,24 +1,21 @@
-title: SQL Server
-desc: SQL Server is a relational database management system (RDBMS) developed by
-  Microsoft. It is used to store and manage data in a structured format,
-  allowing users to query and manipulate the data using Structured Query
-  Language (SQL). It is a powerful and reliable platform for data storage and
-  management, and is used by many organizations for mission-critical
-  applications. It is highly scalable and supports a wide range of features,
-  including data replication, security, and high availability.
-used_begin_year: 2007
+title: Jenkins
+desc: Jenkins is an open-source automation server for continuous integration and
+  continuous delivery (CI/CD), enabling automated building, testing and
+  deployment of applications. Its extensible plugin ecosystem and
+  pipeline-as-code model let teams orchestrate complex software delivery
+  workflows across diverse environments.
+used_begin_year: 2010
 used_end_year: 2014
 _links:
   self:
-    href: /db/sql-server/
+    href: /tools/jenkins/
   projects:
     - href: /projects/agdc/
     - href: /projects/ahfc-integration/
     - href: /projects/energy-efficiency-map/
     - href: /projects/qb/
+    - href: /projects/scramble-score/
     - href: /projects/scrum-tools/
-    - href: /projects/systems-portal/
-    - href: /projects/train-builder/
   jobs:
     - href: /jobs/rdi/
 _embedded:
@@ -72,29 +69,6 @@ _embedded:
           - href: /devices/server/
         jobs:
           - href: /jobs/rdi/
-    - title: Systems Portal
-      desc: Internal web application for tracking data used by Resource Data, Inc.
-        (RDI) systems administrators.
-      role: Technical Lead
-      begin_year: 2013
-      end_year: 2013
-      _links:
-        self:
-          href: /projects/systems-portal/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/css/
-          - href: /languages/html/
-          - href: /languages/js/
-          - href: /languages/sql/
-        db:
-          - href: /db/sql-server/
-        os:
-          - href: /os/windows/
-        devices:
-          - href: /devices/server/
-        jobs:
-          - href: /jobs/rdi/
     - title: Energy Efficiency Map
       desc: Web application that allows the Alaska Energy Authority (AEA) to monitor
         and administer data from their statewide energy saving programs.
@@ -118,6 +92,34 @@ _embedded:
           - href: /os/windows/
         devices:
           - href: /devices/server/
+        jobs:
+          - href: /jobs/rdi/
+    - title: ScrambleScore
+      desc: Mobile web application that allows golfers participating in scramble golf
+        tournaments to record their scores and monitor the tournament
+        leaderboard.
+      role: Project Manager
+      begin_year: 2012
+      end_year: 2013
+      _links:
+        self:
+          href: /projects/scramble-score/
+        languages:
+          - href: /languages/css/
+          - href: /languages/html/
+          - href: /languages/js/
+          - href: /languages/rb/
+          - href: /languages/sql/
+        db:
+          - href: /db/postgres/
+        tools:
+          - href: /tools/jenkins/
+        os:
+          - href: /os/linux/
+        devices:
+          - href: /devices/android/
+          - href: /devices/cloud/
+          - href: /devices/iphone/
         jobs:
           - href: /jobs/rdi/
     - title: Scrum Tools
@@ -171,26 +173,6 @@ _embedded:
           - href: /os/windows/
         devices:
           - href: /devices/server/
-        jobs:
-          - href: /jobs/rdi/
-    - title: TrainBuilder
-      desc: Windows Presentation Framework (WPF) application used by the Alaska
-        Railroad to plan and schedule structure of their trains.
-      role: Developer
-      begin_year: 2007
-      end_year: 2007
-      _links:
-        self:
-          href: /projects/train-builder/
-        languages:
-          - href: /languages/cs/
-          - href: /languages/sql/
-        db:
-          - href: /db/sql-server/
-        os:
-          - href: /os/windows/
-        devices:
-          - href: /devices/pc/
         jobs:
           - href: /jobs/rdi/
   jobs:

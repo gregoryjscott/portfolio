@@ -51,6 +51,7 @@ _links:
     - href: /db/sqlite/
   tools:
     - href: /tools/backbone/
+    - href: /tools/jenkins/
   os:
     - href: /os/linux/
     - href: /os/macos/

@@ -39,6 +39,7 @@ _links:
   tools:
     - href: /tools/amplify/
     - href: /tools/azure-ai/
+    - href: /tools/codebuild/
     - href: /tools/cognito/
     - href: /tools/docker/
     - href: /tools/ec2/

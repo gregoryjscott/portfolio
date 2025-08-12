@@ -102,6 +102,7 @@ _embedded:
         tools:
           - href: /tools/amplify/
           - href: /tools/azure-ai/
+          - href: /tools/codebuild/
           - href: /tools/cognito/
           - href: /tools/docker/
           - href: /tools/ec2/
@@ -225,6 +226,23 @@ _embedded:
               projects:
                 - href: /projects/nuggets/
               jobs:
+                - href: /jobs/independent/
+          - title: CodeBuild
+            desc: CodeBuild is a fully managed continuous integration service that compiles
+              source code, runs tests, and produces deployable build artifacts
+              in the cloud. It integrates with version control systems and CI/CD
+              pipelines to automate and scale build processes without requiring
+              you to provision or manage build servers.
+            used_begin_year: 2015
+            used_end_year: present
+            _links:
+              self:
+                href: /tools/codebuild/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
                 - href: /jobs/independent/
           - title: Cognito
             desc: Amazon Cognito is a managed user identity and access management tool that
@@ -728,6 +746,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -778,6 +797,7 @@ _embedded:
           - href: /db/ddb/
         tools:
           - href: /tools/classroom/
+          - href: /tools/codebuild/
           - href: /tools/docker/
           - href: /tools/drive/
           - href: /tools/ec2/
@@ -902,6 +922,23 @@ _embedded:
                 - href: /jobs/fe/
                 - href: /jobs/independent/
         tools:
+          - title: CodeBuild
+            desc: CodeBuild is a fully managed continuous integration service that compiles
+              source code, runs tests, and produces deployable build artifacts
+              in the cloud. It integrates with version control systems and CI/CD
+              pipelines to automate and scale build processes without requiring
+              you to provision or manage build servers.
+            used_begin_year: 2015
+            used_end_year: present
+            _links:
+              self:
+                href: /tools/codebuild/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
           - title: Docker
             desc: Docker is an open-source platform for developing, shipping, and running
               applications. It uses container technology to package applications
@@ -1338,6 +1375,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -1382,6 +1420,7 @@ _embedded:
           - href: /db/sql-server/
         tools:
           - href: /tools/backbone/
+          - href: /tools/jenkins/
         os:
           - href: /os/windows/
         devices:
@@ -1646,6 +1685,26 @@ _embedded:
                 - href: /projects/qb/
               jobs:
                 - href: /jobs/rdi/
+          - title: Jenkins
+            desc: Jenkins is an open-source automation server for continuous integration and
+              continuous delivery (CI/CD), enabling automated building, testing
+              and deployment of applications. Its extensible plugin ecosystem
+              and pipeline-as-code model let teams orchestrate complex software
+              delivery workflows across diverse environments.
+            used_begin_year: 2010
+            used_end_year: 2014
+            _links:
+              self:
+                href: /tools/jenkins/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/qb/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+              jobs:
+                - href: /jobs/rdi/
         os:
           - title: Windows
             desc: Windows is a series of operating systems developed by Microsoft. It is the
@@ -1801,6 +1860,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -2514,6 +2574,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -2585,6 +2647,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -2608,6 +2672,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -2655,6 +2721,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -2989,6 +3056,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -3071,6 +3139,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -3261,6 +3330,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -3307,6 +3378,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -3331,6 +3404,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -3356,6 +3431,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -3383,6 +3460,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -3477,6 +3555,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -3559,6 +3638,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -3838,6 +3918,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -3884,6 +3966,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -3908,6 +3992,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -3933,6 +4019,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -3960,6 +4048,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -4054,6 +4143,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -4136,6 +4226,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -4239,6 +4330,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -4285,6 +4378,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -4309,6 +4404,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -4334,6 +4431,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -4361,6 +4460,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -4455,6 +4555,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -4537,6 +4638,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -4659,6 +4761,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -4748,6 +4851,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -4805,6 +4910,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -5060,6 +5166,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -5109,6 +5217,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -5176,6 +5286,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -5258,6 +5369,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -5358,6 +5470,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -5402,6 +5516,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -5448,6 +5564,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -5472,6 +5590,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -5497,6 +5617,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -5524,6 +5646,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -5847,6 +5970,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -5929,6 +6053,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -6061,6 +6186,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -6133,6 +6259,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -6195,6 +6322,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -6249,6 +6377,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -6433,6 +6562,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -6485,6 +6615,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -6531,6 +6662,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -6710,6 +6842,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -6777,6 +6910,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -6839,6 +6973,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -6893,6 +7028,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -6981,6 +7117,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -7276,6 +7413,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -7496,6 +7634,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -7543,6 +7683,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -7625,6 +7766,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -7684,6 +7826,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -7703,6 +7847,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -7749,6 +7895,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -7772,6 +7920,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -7799,6 +7949,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -7876,6 +8027,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -7986,6 +8138,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -8041,6 +8194,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -8129,6 +8283,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -8197,6 +8352,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -8263,6 +8419,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -8341,6 +8498,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -8398,6 +8556,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -8411,6 +8570,230 @@ _embedded:
                 - href: /devices/mac/
                 - href: /devices/pc/
                 - href: /devices/range-finder/
+                - href: /devices/server/
+    - title: CodeBuild
+      desc: CodeBuild is a fully managed continuous integration service that compiles
+        source code, runs tests, and produces deployable build artifacts in the
+        cloud. It integrates with version control systems and CI/CD pipelines to
+        automate and scale build processes without requiring you to provision or
+        manage build servers.
+      used_begin_year: 2015
+      used_end_year: present
+      _links:
+        self:
+          href: /tools/codebuild/
+        projects:
+          - href: /projects/epicloud/
+          - href: /projects/nuggets/
+        jobs:
+          - href: /jobs/fe/
+          - href: /jobs/independent/
+      _embedded:
+        projects:
+          - title: Nuggets
+            subtitle: Dynamic Curriculum Generation with AI
+            desc: Cross-platform React Native app that leverages AI and finite state
+              machines to generate dynamic, personalized learning curriculum.
+            role: Author
+            begin_year: 2023
+            end_year: present
+            _links:
+              self:
+                href: /projects/nuggets/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/codebuild/
+                - href: /tools/cognito/
+                - href: /tools/docker/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/expo/
+                - href: /tools/fargate/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/openai/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/tv/
+              jobs:
+                - href: /jobs/independent/
+          - title: EpiCloud
+            subtitle: Scaling School Operations with Bots
+            desc: AWS-based bot network that automates operations of a virtual charter
+              school, enabling the school to scale seamlessly from 1,500 to over
+              60,000 students.
+            role: Programmer/Consultant
+            begin_year: 2015
+            end_year: 2021
+            _links:
+              self:
+                href: /projects/epicloud/
+              languages:
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/codebuild/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
+              jobs:
+                - href: /jobs/fe/
+        jobs:
+          - title: Independent Programmer and Consultant
+            desc: Independent Programmer and Consultant, building next-generation education
+              technology and partnering with select clients to architect
+              high-impact software solutions
+            role: Independent Programmer and Consultant
+            begin_year: 2014
+            end_year: present
+            time_desc: July 2014 - present
+            _links:
+              self:
+                href: /jobs/independent/
+              projects:
+                - href: /projects/aprender/
+                - href: /projects/cfw/
+                - href: /projects/denver-schedules-api/
+                - href: /projects/jekyll-api/
+                - href: /projects/jekyll-embed/
+                - href: /projects/jekyll-load/
+                - href: /projects/jekyll-prep/
+                - href: /projects/la-boda/
+                - href: /projects/mvc-integration-test-framework/
+                - href: /projects/nuggets/
+                - href: /projects/portfolio/
+                - href: /projects/simpler/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+                - href: /languages/ts/
+              db:
+                - href: /db/ddb/
+                - href: /db/postgres/
+              tools:
+                - href: /tools/amplify/
+                - href: /tools/azure-ai/
+                - href: /tools/codebuild/
+                - href: /tools/cognito/
+                - href: /tools/docker/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/expo/
+                - href: /tools/fargate/
+                - href: /tools/hal/
+                - href: /tools/heroku/
+                - href: /tools/iam/
+                - href: /tools/jekyll/
+                - href: /tools/node/
+                - href: /tools/openai/
+                - href: /tools/react-native/
+                - href: /tools/s3/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+                - href: /tools/xstate/
+              os:
+                - href: /os/android/
+                - href: /os/ios/
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/ipad/
+                - href: /devices/iphone/
+                - href: /devices/mac/
+                - href: /devices/server/
+                - href: /devices/tv/
+          - title: Futuristic Education
+            desc: Co-Founder and Programmer for Futuristic Education, a startup building
+              custom technology solutions for schools and educators
+            role: Co-Founder and Programmer
+            begin_year: 2018
+            end_year: 2022
+            time_desc: March 2018 - present
+            _links:
+              self:
+                href: /jobs/fe/
+              projects:
+                - href: /projects/epic-ca-enrollment/
+                - href: /projects/epicloud/
+              languages:
+                - href: /languages/php/
+                - href: /languages/ts/
+              db:
+                - href: /db/bigquery/
+                - href: /db/ddb/
+                - href: /db/firebase/
+              tools:
+                - href: /tools/classroom/
+                - href: /tools/codebuild/
+                - href: /tools/docker/
+                - href: /tools/drive/
+                - href: /tools/ec2/
+                - href: /tools/ecr/
+                - href: /tools/ecs/
+                - href: /tools/fargate/
+                - href: /tools/firebase/
+                - href: /tools/iam/
+                - href: /tools/node/
+                - href: /tools/puppeteer/
+                - href: /tools/s3/
+                - href: /tools/sikulix/
+                - href: /tools/sqs/
+                - href: /tools/vpc/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
+              devices:
+                - href: /devices/chromebook/
+                - href: /devices/cloud/
+                - href: /devices/mac/
                 - href: /devices/server/
     - title: Cognito
       desc: Amazon Cognito is a managed user identity and access management tool that
@@ -8448,6 +8831,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -8514,6 +8898,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -8583,6 +8968,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -8628,6 +9014,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -8690,6 +9077,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -8744,6 +9132,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -8805,6 +9194,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -8850,6 +9240,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -8912,6 +9303,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -8966,6 +9358,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -9027,6 +9420,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -9072,6 +9466,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -9134,6 +9529,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -9188,6 +9584,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -9249,6 +9646,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -9294,6 +9692,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -9356,6 +9755,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -9410,6 +9810,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -9473,6 +9874,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -9539,6 +9941,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -9609,6 +10012,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -9654,6 +10058,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -9716,6 +10121,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -9770,6 +10176,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -9830,6 +10237,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -9876,6 +10284,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -9936,6 +10345,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -9982,6 +10392,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -10043,6 +10454,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -10089,6 +10501,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -10228,6 +10641,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -10341,6 +10755,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -10411,6 +10826,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -10456,6 +10872,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -10518,6 +10935,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -10572,6 +10990,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -10800,6 +11219,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -10832,6 +11252,249 @@ _embedded:
                 - href: /devices/mac/
                 - href: /devices/server/
                 - href: /devices/tv/
+    - title: Jenkins
+      desc: Jenkins is an open-source automation server for continuous integration and
+        continuous delivery (CI/CD), enabling automated building, testing and
+        deployment of applications. Its extensible plugin ecosystem and
+        pipeline-as-code model let teams orchestrate complex software delivery
+        workflows across diverse environments.
+      used_begin_year: 2010
+      used_end_year: 2014
+      _links:
+        self:
+          href: /tools/jenkins/
+        projects:
+          - href: /projects/agdc/
+          - href: /projects/ahfc-integration/
+          - href: /projects/energy-efficiency-map/
+          - href: /projects/qb/
+          - href: /projects/scramble-score/
+          - href: /projects/scrum-tools/
+        jobs:
+          - href: /jobs/rdi/
+      _embedded:
+        projects:
+          - title: Alaska Gasline Development Corporation
+            desc: Web application that provides Alaska Gasline Development Corporation
+              (AGDC) with documentation, reporting, and querying tools for their
+              vast GIS data and infrastructure.
+            role: Technical Lead
+            begin_year: 2013
+            end_year: 2014
+            _links:
+              self:
+                href: /projects/agdc/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/py/
+                - href: /languages/rb/
+                - href: /languages/sql/
+              db:
+                - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
+              os:
+                - href: /os/windows/
+              devices:
+                - href: /devices/server/
+              jobs:
+                - href: /jobs/rdi/
+          - title: AHFC Integration
+            desc: Backend services that integrate Alaska Housing Finance Corporation (AHFC)
+              datasets with the Alaska Energy Authority (AEA) datasets.
+            role: Technical Lead
+            begin_year: 2013
+            end_year: 2013
+            _links:
+              self:
+                href: /projects/ahfc-integration/
+              languages:
+                - href: /languages/sql/
+              db:
+                - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
+              os:
+                - href: /os/windows/
+              devices:
+                - href: /devices/server/
+              jobs:
+                - href: /jobs/rdi/
+          - title: Energy Efficiency Map
+            desc: Web application that allows the Alaska Energy Authority (AEA) to monitor
+              and administer data from their statewide energy saving programs.
+            role: Technical Lead
+            begin_year: 2012
+            end_year: 2013
+            _links:
+              self:
+                href: /projects/energy-efficiency-map/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/sql/
+              db:
+                - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
+              os:
+                - href: /os/windows/
+              devices:
+                - href: /devices/server/
+              jobs:
+                - href: /jobs/rdi/
+          - title: ScrambleScore
+            desc: Mobile web application that allows golfers participating in scramble golf
+              tournaments to record their scores and monitor the tournament
+              leaderboard.
+            role: Project Manager
+            begin_year: 2012
+            end_year: 2013
+            _links:
+              self:
+                href: /projects/scramble-score/
+              languages:
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/rb/
+                - href: /languages/sql/
+              db:
+                - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
+              os:
+                - href: /os/linux/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/iphone/
+              jobs:
+                - href: /jobs/rdi/
+          - title: Scrum Tools
+            desc: Internal project management tool with iteration-based, story-driven agile
+              planning and tracking.
+            role: Technical Lead
+            begin_year: 2012
+            end_year: 2013
+            _links:
+              self:
+                href: /projects/scrum-tools/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/sql/
+              db:
+                - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
+              os:
+                - href: /os/windows/
+              devices:
+                - href: /devices/server/
+              jobs:
+                - href: /jobs/rdi/
+          - title: Quality Bank
+            subtitle: Invoicing $1 Billion/Month for Oil Pipeline
+            desc: Rewrite of the Trans-Alaska Pipeline's $1B/month invoicing system,
+              treating business rules as versioned data to give the client full
+              control over constant, retroactive changes.
+            role: Technical Lead
+            begin_year: 2010
+            end_year: 2012
+            _links:
+              self:
+                href: /projects/qb/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/sql/
+              db:
+                - href: /db/sql-server/
+              tools:
+                - href: /tools/backbone/
+                - href: /tools/jenkins/
+              os:
+                - href: /os/windows/
+              devices:
+                - href: /devices/server/
+              jobs:
+                - href: /jobs/rdi/
+        jobs:
+          - title: Resource Data, Inc.
+            desc: Technical Lead for Resource Data, Inc. (RDI), a consultancy specializing
+              in custom database, web, and GIS programming services
+            role: Technical Lead
+            begin_year: 2005
+            end_year: 2014
+            time_desc: July 2005 - July 2014
+            _links:
+              self:
+                href: /jobs/rdi/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/awwu-database-sync/
+                - href: /projects/awwu-intranet/
+                - href: /projects/awwu-job-scheduler/
+                - href: /projects/awwu-systems-integration/
+                - href: /projects/bit-proposal/
+                - href: /projects/centroid/
+                - href: /projects/cis-data-capture/
+                - href: /projects/consumption-views/
+                - href: /projects/employee-suggestions/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/flir-monitoring/
+                - href: /projects/please/
+                - href: /projects/qb/
+                - href: /projects/range-finding/
+                - href: /projects/report-engine/
+                - href: /projects/sar-reports/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
+                - href: /projects/somd/
+                - href: /projects/systems-portal/
+                - href: /projects/train-builder/
+              languages:
+                - href: /languages/cs/
+                - href: /languages/css/
+                - href: /languages/html/
+                - href: /languages/js/
+                - href: /languages/py/
+                - href: /languages/rb/
+                - href: /languages/sql/
+              db:
+                - href: /db/access/
+                - href: /db/oracle/
+                - href: /db/postgres/
+                - href: /db/sql-server/
+                - href: /db/sqlite/
+              tools:
+                - href: /tools/backbone/
+                - href: /tools/jenkins/
+              os:
+                - href: /os/linux/
+                - href: /os/macos/
+                - href: /os/windows/
+              devices:
+                - href: /devices/android/
+                - href: /devices/cloud/
+                - href: /devices/gps/
+                - href: /devices/iphone/
+                - href: /devices/laser/
+                - href: /devices/mac/
+                - href: /devices/pc/
+                - href: /devices/range-finder/
+                - href: /devices/server/
     - title: Node
       desc: Node.js is an open-source, cross-platform JavaScript runtime environment
         that executes JavaScript code outside of a browser. It is used to create
@@ -10870,6 +11533,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -10915,6 +11579,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -10977,6 +11642,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -11031,6 +11697,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -11088,6 +11755,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -11154,6 +11822,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -11223,6 +11892,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -11269,6 +11939,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -11335,6 +12006,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -11401,6 +12073,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -11471,6 +12144,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -11516,6 +12190,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -11578,6 +12253,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -11632,6 +12308,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -11693,6 +12370,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -11739,6 +12417,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -11802,6 +12481,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -11847,6 +12527,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -11909,6 +12590,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -11963,6 +12645,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -12026,6 +12709,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -12071,6 +12755,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -12133,6 +12818,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -12187,6 +12873,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -12247,6 +12934,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -12313,6 +13001,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -12432,6 +13121,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -12498,6 +13188,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -12567,6 +13258,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -12633,6 +13325,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -12713,6 +13406,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -12807,6 +13501,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -13011,6 +13706,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -13058,6 +13755,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -13112,6 +13810,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -13185,6 +13884,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -13276,6 +13976,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -13502,6 +14203,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -13556,6 +14258,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -13629,6 +14332,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -14026,6 +14730,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -14070,6 +14776,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -14116,6 +14824,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -14139,6 +14849,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -14186,6 +14898,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -14625,6 +15338,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -14679,6 +15393,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -14752,6 +15467,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -14863,6 +15579,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -14908,6 +15625,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -14955,6 +15674,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -15037,6 +15757,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -15181,6 +15902,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -15227,6 +15949,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -15289,6 +16012,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -15356,6 +16080,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -15397,6 +16122,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -15444,6 +16171,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -15498,6 +16226,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -15571,6 +16300,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -15674,6 +16404,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -15779,6 +16510,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -15828,6 +16560,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -15894,6 +16627,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -15964,6 +16698,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -16009,6 +16744,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -16056,6 +16793,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -16138,6 +16876,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -16244,6 +16983,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -16303,6 +17043,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -16529,6 +17270,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -16583,6 +17325,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -16656,6 +17399,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -16858,6 +17602,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -17183,6 +17928,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -17202,6 +17949,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -17248,6 +17997,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -17271,6 +18022,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -17318,6 +18071,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -17678,6 +18432,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -17732,6 +18487,7 @@ _embedded:
                 - href: /db/firebase/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -17805,6 +18561,7 @@ _embedded:
                 - href: /db/sqlite/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
                 - href: /os/macos/
@@ -17962,6 +18719,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -18028,6 +18786,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -18099,6 +18858,7 @@ _embedded:
         tools:
           - href: /tools/amplify/
           - href: /tools/azure-ai/
+          - href: /tools/codebuild/
           - href: /tools/cognito/
           - href: /tools/docker/
           - href: /tools/ec2/
@@ -18166,6 +18926,7 @@ _embedded:
               tools:
                 - href: /tools/amplify/
                 - href: /tools/azure-ai/
+                - href: /tools/codebuild/
                 - href: /tools/cognito/
                 - href: /tools/docker/
                 - href: /tools/ec2/
@@ -18741,6 +19502,23 @@ _embedded:
               projects:
                 - href: /projects/nuggets/
               jobs:
+                - href: /jobs/independent/
+          - title: CodeBuild
+            desc: CodeBuild is a fully managed continuous integration service that compiles
+              source code, runs tests, and produces deployable build artifacts
+              in the cloud. It integrates with version control systems and CI/CD
+              pipelines to automate and scale build processes without requiring
+              you to provision or manage build servers.
+            used_begin_year: 2015
+            used_end_year: present
+            _links:
+              self:
+                href: /tools/codebuild/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
                 - href: /jobs/independent/
           - title: Cognito
             desc: Amazon Cognito is a managed user identity and access management tool that
@@ -19455,6 +20233,7 @@ _embedded:
           - href: /db/firebase/
         tools:
           - href: /tools/classroom/
+          - href: /tools/codebuild/
           - href: /tools/docker/
           - href: /tools/drive/
           - href: /tools/ec2/
@@ -19534,6 +20313,7 @@ _embedded:
                 - href: /db/ddb/
               tools:
                 - href: /tools/classroom/
+                - href: /tools/codebuild/
                 - href: /tools/docker/
                 - href: /tools/drive/
                 - href: /tools/ec2/
@@ -19659,6 +20439,23 @@ _embedded:
               jobs:
                 - href: /jobs/fe/
         tools:
+          - title: CodeBuild
+            desc: CodeBuild is a fully managed continuous integration service that compiles
+              source code, runs tests, and produces deployable build artifacts
+              in the cloud. It integrates with version control systems and CI/CD
+              pipelines to automate and scale build processes without requiring
+              you to provision or manage build servers.
+            used_begin_year: 2015
+            used_end_year: present
+            _links:
+              self:
+                href: /tools/codebuild/
+              projects:
+                - href: /projects/epicloud/
+                - href: /projects/nuggets/
+              jobs:
+                - href: /jobs/fe/
+                - href: /jobs/independent/
           - title: Docker
             desc: Docker is an open-source platform for developing, shipping, and running
               applications. It uses container technology to package applications
@@ -20224,6 +21021,7 @@ _embedded:
           - href: /db/sqlite/
         tools:
           - href: /tools/backbone/
+          - href: /tools/jenkins/
         os:
           - href: /os/linux/
           - href: /os/macos/
@@ -20306,6 +21104,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -20350,6 +21150,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -20396,6 +21198,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -20420,6 +21224,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/postgres/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/linux/
               devices:
@@ -20445,6 +21251,8 @@ _embedded:
                 - href: /languages/sql/
               db:
                 - href: /db/sql-server/
+              tools:
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -20472,6 +21280,7 @@ _embedded:
                 - href: /db/sql-server/
               tools:
                 - href: /tools/backbone/
+                - href: /tools/jenkins/
               os:
                 - href: /os/windows/
               devices:
@@ -21114,6 +21923,26 @@ _embedded:
                 href: /tools/backbone/
               projects:
                 - href: /projects/qb/
+              jobs:
+                - href: /jobs/rdi/
+          - title: Jenkins
+            desc: Jenkins is an open-source automation server for continuous integration and
+              continuous delivery (CI/CD), enabling automated building, testing
+              and deployment of applications. Its extensible plugin ecosystem
+              and pipeline-as-code model let teams orchestrate complex software
+              delivery workflows across diverse environments.
+            used_begin_year: 2010
+            used_end_year: 2014
+            _links:
+              self:
+                href: /tools/jenkins/
+              projects:
+                - href: /projects/agdc/
+                - href: /projects/ahfc-integration/
+                - href: /projects/energy-efficiency-map/
+                - href: /projects/qb/
+                - href: /projects/scramble-score/
+                - href: /projects/scrum-tools/
               jobs:
                 - href: /jobs/rdi/
         os:

@@ -1,23 +1,19 @@
-title: Amplify
-desc: AWS Amplify is a comprehensive development platform from Amazon Web
-  Services that enables developers to quickly build, deploy, and manage scalable
-  full-stack web and mobile applications. It provides a set of libraries, UI
-  components and a command-line interface for integrating popular front-end
-  frameworks (React, Angular, Vue, iOS, Android, Flutter) with cloud backends,
-  including authentication, GraphQL and REST APIs, storage, and serverless
-  functions. Amplify Studio offers a visual development environment for
-  designing UI and data models, while built-in hosting, CI/CD and environment
-  management streamline the application lifecycle so teams can focus on features
-  instead of infrastructure.
-used_begin_year: 2023
+title: CodeBuild
+desc: CodeBuild is a fully managed continuous integration service that compiles
+  source code, runs tests, and produces deployable build artifacts in the cloud.
+  It integrates with version control systems and CI/CD pipelines to automate and
+  scale build processes without requiring you to provision or manage build
+  servers.
+used_begin_year: 2015
 used_end_year: present
 _links:
   self:
-    href: /tools/amplify/
+    href: /tools/codebuild/
   projects:
-    - href: /projects/la-boda/
+    - href: /projects/epicloud/
     - href: /projects/nuggets/
   jobs:
+    - href: /jobs/fe/
     - href: /jobs/independent/
 _embedded:
   projects:
@@ -66,28 +62,48 @@ _embedded:
           - href: /devices/tv/
         jobs:
           - href: /jobs/independent/
-    - title: hazelandgreg.wedding
-      desc: Website for Hazel and Greg's wedding.
-      role: Author
-      begin_year: 2025
-      end_year: 2025
+    - title: EpiCloud
+      subtitle: Scaling School Operations with Bots
+      desc: AWS-based bot network that automates operations of a virtual charter
+        school, enabling the school to scale seamlessly from 1,500 to over
+        60,000 students.
+      role: Programmer/Consultant
+      begin_year: 2015
+      end_year: 2021
       _links:
         self:
-          href: /projects/la-boda/
+          href: /projects/epicloud/
         languages:
-          - href: /languages/css/
-          - href: /languages/html/
-          - href: /languages/js/
+          - href: /languages/ts/
         db:
+          - href: /db/bigquery/
           - href: /db/ddb/
         tools:
-          - href: /tools/amplify/
+          - href: /tools/classroom/
+          - href: /tools/codebuild/
+          - href: /tools/docker/
+          - href: /tools/drive/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/firebase/
+          - href: /tools/iam/
+          - href: /tools/node/
+          - href: /tools/puppeteer/
+          - href: /tools/s3/
+          - href: /tools/sikulix/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
         os:
           - href: /os/linux/
+          - href: /os/macos/
         devices:
+          - href: /devices/chromebook/
           - href: /devices/cloud/
+          - href: /devices/mac/
         jobs:
-          - href: /jobs/independent/
+          - href: /jobs/fe/
   jobs:
     - title: Independent Programmer and Consultant
       desc: Independent Programmer and Consultant, building next-generation education
@@ -160,3 +176,49 @@ _embedded:
           - href: /devices/mac/
           - href: /devices/server/
           - href: /devices/tv/
+    - title: Futuristic Education
+      desc: Co-Founder and Programmer for Futuristic Education, a startup building
+        custom technology solutions for schools and educators
+      role: Co-Founder and Programmer
+      begin_year: 2018
+      end_year: 2022
+      time_desc: March 2018 - present
+      _links:
+        self:
+          href: /jobs/fe/
+        projects:
+          - href: /projects/epic-ca-enrollment/
+          - href: /projects/epicloud/
+        languages:
+          - href: /languages/php/
+          - href: /languages/ts/
+        db:
+          - href: /db/bigquery/
+          - href: /db/ddb/
+          - href: /db/firebase/
+        tools:
+          - href: /tools/classroom/
+          - href: /tools/codebuild/
+          - href: /tools/docker/
+          - href: /tools/drive/
+          - href: /tools/ec2/
+          - href: /tools/ecr/
+          - href: /tools/ecs/
+          - href: /tools/fargate/
+          - href: /tools/firebase/
+          - href: /tools/iam/
+          - href: /tools/node/
+          - href: /tools/puppeteer/
+          - href: /tools/s3/
+          - href: /tools/sikulix/
+          - href: /tools/sqs/
+          - href: /tools/vpc/
+        os:
+          - href: /os/linux/
+          - href: /os/macos/
+          - href: /os/windows/
+        devices:
+          - href: /devices/chromebook/
+          - href: /devices/cloud/
+          - href: /devices/mac/
+          - href: /devices/server/

@@ -18,6 +18,7 @@ _links:
     - href: /db/ddb/
   tools:
     - href: /tools/classroom/
+    - href: /tools/codebuild/
     - href: /tools/docker/
     - href: /tools/drive/
     - href: /tools/ec2/

@@ -22,6 +22,7 @@ _links:
     - href: /db/sql-server/
   tools:
     - href: /tools/backbone/
+    - href: /tools/jenkins/
   os:
     - href: /os/windows/
   devices:
