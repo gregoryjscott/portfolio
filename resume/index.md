@@ -41,25 +41,25 @@ Software architect with 25+ years of experience designing and building robust sy
 - GitHub: [https://github.com/gregoryjscott](https://github.com/gregoryjscott)
 - Twitter: [https://x.com/gregoryjscott](https://x.com/gregoryjscott)
 
-## Highlights
+<h2>Highlights</h2>
 
 {% for highlight in page._embedded.projects %}
   {% include resume/project.html resource=highlight %}
 {% endfor %}
 
-## Skills
+<h2 class="break">Skills</h2>
 
 {% for resource in site.data.resources %}
   {% include resume/skill.html site_resource=resource embedded=page._embedded %}
 {% endfor %}
 
-## Experience
+<h2 class="break">Experience</h2>
 
 {% for item in page._embedded.jobs %}
    {% include resume/job.html job=item %}
 {% endfor %}
 
-## Education
+<h2 class="break">Education</h2>
 
 {% for item in page._embedded.schools %}
    {% include resume/school.html school=item %}
